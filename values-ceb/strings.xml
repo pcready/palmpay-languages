@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Lisensya</string>
+    <string name="agree">Pag uyon</string>
+    <string name="disagree">Dili uyon</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Nag-load sa mga asset ...</string>
+    <string name="title_loading_asset_type_data">Loading data type asset ...</string>
+    <string name="title_assets_ready">Andam nga database</string>
+    <string name="msg_loading_all_existing_assets">Pagpahigayon sa usa ka serye sa mga hangyo aron makuha ang kompleto nga listahan sa tanan nga anaa nga mga kabtangan</string>
+    <string name="msg_loading_asset_type_data">Gihangyo ang dugang mga detalye sa asset</string>
+    <string name="msg_loading_asset_in_database">Na-load nga %1$d assets ngadto sa database</string>
+    <string name="msg_assets_loaded">Sunod, palihug pag-setup sa imong account ...</string>
+    <string name="error_fetching_marketcap_data">Dili makarga ang datos sa marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Paghimo Account</string>
+    <string name="txt_account_name">Ngalan sa BitShares account</string>
+    <string name="unable_to_find_account_id">Dili makakita sa id sa user account</string>
+    <string name="error_invalid_account_name_explanation">Ang ngalan sa account kinahanglan adunay labaw pa kay sa 8 ka mga karakter, adunay usa ka numero o walay bokales. Ang underscore nga karakter wala usab gitugot.</string>
+    <string name="create">Paghimo</string>
+    <string name="error">Sayop</string>
+    <string name="account_name_already_exist">Adunay ngalan sa account</string>
+    <string name="try_again">Palihug sulayi pag-usab human sa 5 minutos</string>
+    <string name="txt_new_pin_confirmation">Kumpirmahan ang bag-o nga PIN (6+ nga mga numero)</string>
+    <string name="error_wif">Sayop nga paghimo sa WIF key</string>
+    <string name="error_faucet_template">Ang gripo mibalik usa ka kasaypanan. Msg: %1$s</string>
+    <string name="error_read_dict_file">Sayop nga pagbasa sa file sa diksyonaryo</string>
+    <string name="error_missing_account">Ang app dili makuha ang impormasyon bahin sa bag-ong gimugna nga asoy</string>
+    <string name="create_account_title">Naghimo og bag-ong account</string>
+    <string name="create_account_message">Palihug maghulat samtang ang imong account gimugna</string>
+    <string name="error_faucet_explanation">Ang server mibalik sa kasaypanan. Mahimo kini tungod sa usa ka limitasyon nga adunay katuyoan nga gibutang sa lugar aron sa pagsalikway sa kanunay nga mga hangyo nga gikan sa sama nga IP address sa usa ka mubo nga panahon paglabay. Palihug hulat 5 ka minuto ug sulayi pag-usab, o ibalhin sa laing network, Pananglitan gikan sa wifi ngadto sa cell.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Palihug siguroha nga i-backup mo ang imong brainkey sa dili pa mopadayon. Kini makatugot kanimo sa pagbawi sa imong account kon adunay usa ka butang nga mahitabo niini nga device.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Unsaon nimo pag-import ang imo na nga account?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">Wif Key</string>
+    <string name="bin_file">.bin File</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Pagpili og 6+ digit nga PIN</string>
+    <string name="txt_6_digits_pin_confirm">6+ ka numero gipirmahan PIN</string>
+    <string name="please_enter_6_digit_pin">Palihug pagsulod sa 6-digit nga PIN</string>
+    <string name="please_enter_6_digit_pin_confirm">Palihug pagsulod sa pagkumpirma sa numero sa imong PIN</string>
+    <string name="mismatch_pin">Mismatch pin</string>
+    <string name="please_enter_brainkey">Palihug pagsulod sa brainkey</string>
+    <string name="please_enter_correct_brainkey">Palihug pagsulod sa husto nga brainkey, kinahanglan nga adunay tali sa 12 ug 16 nga mga pulong.</string>
+    <string name="unable_to_load_brainkey">Dili makarga ang brainkey</string>
+    <string name="account_already_exist">Adunay na ang account</string>
+    <string name="importing_your_wallet">Pag-import sa imong pitaka ...</string>
+    <string name="account_candidates_title">Palihug pagpili og account</string>
+    <string name="account_candidates_content">Ang mga yawe nga nakuha gikan niini nga utok ngakey daw gigamit aron makontrol ang sobra sa usa ka account, palihug pilia kung unsa nga account ang imong gusto i-import</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Import .bin file</string>
+    <string name="import_backup">Import Backup gikan sa .bin file</string>
+    <string name="txt_no_internet_connection">Walay Koneksyon sa Internet</string>
+    <string name="no_file_chosen">Walay gipili nga file</string>
+    <string name="choose_backup">Pilia ang Backup</string>
+    <string name="choose_file">Pilia ang File</string>
+    <string name="txt_existing_password">Current .bin file Password o PIN</string>
+    <string name="txt_new_pin">Bag-ong PIN (6+ nga mga numero)</string>
+    <string name="importing_keys_from_bin_file">"Importing Keys gikan sa file sa Bin"</string>
+    <string name="please_make_sure_your_bin_file">Palihug siguroha nga ang imong pin husto o husto ang bin file nga gipili</string>
+    <string name="missing_existing_password">Palihug pasabta ang password nga gigamit aron ma-encrypt kining backup file</string>
+    <string name="pin_number_request">Palihug ibutang ang pin number nga gigamit sa pag-encode niini nga backup file</string>
+    <string name="pin_number_warning">Ang numero sa pin kinahanglan labing menos 6 ka numero</string>
+    <string name="backup_error_no_key_reference_found">Walay nakit-an ang paggamit niini nga yawe, palihug siguroha nga ikaw naggamit sa updated nga backup nga file.</string>
+    <string name="backup_error_no_wallet_backup">Walay tabang sa wallet nga makita sa kini nga file</string>
+    <string name="error_invalid_account">Dili kasal nga account, palihug susiha ang imong utok nga susi sa pagsulat sa mga sayop</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Import</string>
+    <string name="title_account_load_result">Gikarga ang account</string>
+    <string name="button_change_account">Pagbalhin</string>
+    <string name="title_select_input_assets">Pilia ang mga kabtangan nga dawaton.</string>
+    <string name="explanation_account_setup">Kinahanglan nimo nga i-setup ang usa ka Bitshares account aron makadawat sa pagbayad. O kung aduna ka na, mahimo nimo kini i-import.</string>
+    <string name="explanation_output_asset">Pilia ang imong gusto nga Smartcoin:</string>
+    <string name="next">Sunod</string>
+    <string name="done">Nahimo</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Bayad uban</string>
+    <string name="error_corrupted_key_title">Key nga sayop nga korapsyon</string>
+    <string name="error_corrupted_key_content">Ang app dili makahimo sa pagbawi sa imong encrypted private keys gikan sa database. Tungod niini ikaw kinahanglan nga mosulod sa imong mga yawe pag-usab. Ang bisan sa porma sa usa ka brainkey o paghimo sa bin backup nga file nga gimugna ug gitipigan awtomatik sa imong sdcard kon ang account gimugna sa app</string>
+    <string name="invalid_pin">Dili bakak nga PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Panimalay</string>
+    <string name="txt_transactions">Mga transaksyon</string>
+    <string name="txt_refunds_returns">Pagbayad / Pagbalik</string>
+    <string name="txt_settlement">Pagpuyo</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares nodes</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Adunay bayad</string>
+    <string name="sub_total">Sub-Total:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Sayop nga libro sa order</string>
+    <string name="content_error_market">Walay mga mando sa DEX nga magtugot kanato sa paghimo sa pagbaylo sa %1$s sa takna. \n \nPangadto sa screen sa mga setting ug pilia ang lain-laing mga asset sa output.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Palihug Bayad</string>
+    <string name="please_pay_s_s">Palihug Bayad: %1$s %2$s</string>
+    <string name="to_s">Ngadto sa: %1$s</string>
+    <string name="txt_network">Network fee</string>
+    <string name="txt_please_wait">Palihog hulat</string>
+    <string name="error_node_unreachable">Walay node nga maabot</string>
+    <string name="invoice_subject">Invoice sa PalmPay gikan sa %1$s</string>
+    <string name="before_s">Sa wala pa: %1$s</string>
+    <string name="share">Ipakigbahin</string>
+    <string name="share_with">Pakigbahin uban</string>
+    <string name="connecting">Nagkonekta ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Pagpili og bayad nga hangyo</string>
+    <string name="dialog_msg_select_pending_payment">Usa ka umaabot nga pagbayad ang nakit-an, apan dili awtomatik nga ma-assign sa usa ka gipangayo nga bayad. Palihug pilia ang husto nga hangyo sa pagbayad gikan sa mosunod nga lista.</string>
+    <string name="dialog_msg_confirm_pending_payment">Kini mag-link sa umaabot nga pagbayad ngadto sa naunang natala nga bayad nga pagbayad sa %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Mga umaabot nga mga detalye sa pagbayad</string>
+    <string name="dialog_generic_title_confirm">Sigurado ka ba?</string>
+    <string name="dialog_generic_msg_confirm">Palihug hinumdumi nga kini nga aksyon dili mahimong usbon</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Wagtangon</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Gipamatud ang pagbayad</string>
+    <string name="txt_cool">KINI!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Mga Setting</string>
+    <string name="general">General</string>
+    <string name="security">Kasegurohan</string>
+    <string name="backups">Mga Backup</string>
+    <string name="tokens">Mga Token</string>
+    <string name="accounts">Mga Account</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Mode sa kagabhion</string>
+    <string name="currency_info">Ang kwarta awtomatik nga pilion base sa imong piniling pinulongan ug nasud. Kon gusto nimong usbon ang mga butang, kinahanglang moadto ka sa mga setting sa kalibutan sa imong device.</string>
+    <string name="screen_saver">Screen Saver</string>
+    <string name="source">Tinubdan</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Default nga panid (/ PalmPay)</string>
+    <string name="txt_folder">Folder</string>
+    <string name="choose">Pilia</string>
+    <string name="screen_saver_time">Paghan-ay human sa ...</string>
+    <string name="one_minute">1 Minuto</string>
+    <string name="three_minutes">3 Minutos</string>
+    <string name="five_minutes">5 Minutos</string>
+    <string name="local_ambassador">Lokal nga Ambassador</string>
+    <string name="ambassador_info">Ang mga PalmPay Ambassadors mabayran matag tulo ka segundo. Ang ilang trabaho mao ang pagsuporta sa mga negosyante sa PalmPay ug pag-organisar sa matag bulan nga Crypto Meetups. Kung ang imong syudad dili nalista, nan ang imong syudad wala pa\'y PalmPay Ambassador. \n \nFor more info, bisitaha ang komunidad sa Agorise sa Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Dakbayan</string>
+    <string name="country">Nasud</string>
+    <string name="bugs_or_ideas">Mga Bugs o Mga Ideya?</string>
+    <string name="bugs_or_ideas_contact_info">Chat sa Telegram: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Dawata</string>
+    <string name="select">Pagpili</string>
+    <string name="are_you_sure">Sigurado ka ba?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Gikopya sa clipboard</string>
+    <string name="bin_file_description">Bin file. Kanunay nga maluwas ang imong backup .bin file sa usa ka tinago nga MicroSD card o USB Stick.</string>
+    <string name="create_a_backup">Paghimo og usa ka tabang</string>
+    <string name="brainkey_description">Brainkey. Mga pulong sa pagbawi sa mga account nga mahimong madakpan o kopyahon, apan dili ma-edit.</string>
+    <string name="txt_brain_key_info">Isulat kini, o isulat kini. Ang bisan kinsa nga adunay access sa imong recovery key adunay access sa mga pundo sa sulod niini nga pitaka.</string>
+    <string name="view_and_copy"><![CDATA[View & Copy]]></string>
+    <string name="title_bin_backup">I-export ang .bin backup</string>
+    <string name="hint_password">Sala</string>
+    <string name="hint_password_confirmation">Pagkumpirma sa password</string>
+    <string name="error_password_mandatory">Kinahanglan nga mosulod sa usa ka password</string>
+    <string name="error_password_too_short">Ang sayon ​​mubo ra</string>
+    <string name="error_password_confirmation_mismatch">Mismatch sa password ug kumpirmasyon</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Merchant Account: %1$s</string>
+    <string name="upgrade_to_ltm">Pag-upgrade sa LTM</string>
+    <string name="upgrade_account_description">"Pag-upgrade ngadto sa LifeTime Membership (LTM). Ang mga account sa LTM sa Bitshares magbayad sa halos zero nga bayranan, makakuha og 80% cashback ug mga bonus alang sa mga referral."</string>
+    <string name="account_upgrade_title">Pag-upgrade sa Account</string>
+    <string name="account_upgrade_content">Ang Life Time Membership nagtugot kanimo sa pagbaligya sa usa ka pagkunhod sa mga bayad sa network. \n \n Kini adunay epekto sa kasamtangan nga asoy nga "%1$s" \n \nHinuon kini adunay usa ka kantidad nga mga 100 USD nga gibayad sa Bitshares. \n \nUnsa ka sigurado nga gusto ka magpadayon?</string>
+    <string name="account_upgrade_wait_content">Ang transaksiyon nga naglakip sa imong hangyo giproseso sa network</string>
+    <string name="error_upgrade_account_title">Sayop samtang naningkamot nga mag-upgrade sa account</string>
+    <string name="error_upgrade_account_content">Palihug siguroha nga ang imong account adunay igong balanse aron sa pagtabon sa mga gasto</string>
+    <string name="account_upgraded_title">Giusbaw ang imong account</string>
+    <string name="account_upgraded_content">Pahalipay! ang imong account karon gipa-upgrade sa Lifetime Membership.</string>
+    <string name="remove_account">Kuhaa ang Account</string>
+    <string name="remove_account_description">Kuhaa kini nga Merchant Account. Kuhaa ang Account Merchant sa ibabaw gikan niini nga device ug paghimo o pag-import sa usa ka lain.</string>
+    <string name="txt_account_remove_confirmation">"Sigurado ba nga gusto nimong tangtangon ang account nga \'%1$s\' gikan sa pitaka?"</string>
+    <string name="remove">Kuhaa</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Gitinguha nga Smartcoin</string>
+    <string name="txt_customer_loyalty">Isyu ang Loyalty Points isip ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Ang imong account wala pa makaangkon sa bisan unsang %1$s. Palihug pag-angkon og pipila sa dili pa ikaw mosulay sa paghatag sa bisan unsa ngadto sa imong mga kustomer isip mga Loyalty Points.</string>
+    <string name="send">Ipadala</string>
+    <string name="txt_for_every">Alang sa matag</string>
+    <string name="txt_spent">gigahin</string>
+    <string name="txt_bitcoin_altcoin_deposited">Pagdawat sa 8 ka Cryptocity:</string>
+    <string name="altcoins_should_not_more_than">Palihug pilia ang labaw pa sa 8 input assets</string>
+    <string name="bitshares_unselection_message">Ang kinatibuk-ang token sa Bitshares (BTS) gikinahanglan.</string>
+    <string name="toast_low_volume_market">Ang gidaghanon sa mga kabtangan sa merkado sa gagmay nga volume temporally disabled. Mahimo kini nga makahimo sa higayon nga ang kantidad sa merkado mosaka sa igo nga kantidad</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Tipigi ang Ngalan</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Numero sa telepono</string>
+    <string name="website">Website</string>
+    <string name="message">Mensahe</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Dili makagama og format sa bin alang sa yawe</string>
+    <string name="saving_bin_file_to_s">Gitagoan ang File sa Bin sa: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Ang File Bin maluwas nga naluwas sa: %1$s</string>
+    <string name="unable_to_save_bin_file">Dili maluwas ang bin file</string>
+    <string name="creating_backup_file">Paghimo sa Backup File</string>
+    <string name="fetching_key">Pagdala sa Yawe</string>
+    <string name="generating_bin_format">Nagmugna bin format</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Pagpangita</string>
+    <string name="filter">Isulat</string>
+    <string name="export">Pag-eksport</string>
+    <string name="confirming">Pagpanghimatuod ...</string>
+    <string name="pdf_generated_msg_s">PDF nga namugna ug naluwas: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Dili makahimo sa pagmugna pdf. Palihug usba. Sayop: %1$s</string>
+    <string name="csv_generated_msg_s">Ang CSV namugna ug naluwas: %1$s</string>
+    <string name="csv_generated_msg_error_s">Dili makagama og csv. Palihug usba. Sayop: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Tanan</string>
+    <string name="sent">Gipadala</string>
+    <string name="received">Gidawat</string>
+    <string name="date_range">Sakop sa Petsa</string>
+    <string name="txt_to">sa</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat nga kantidad</string>
+    <string name="between">Sa tunga-tunga</string>
+    <string name="and">ug</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Pag-eksport sa sinala nga mga transaksyon</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Pagdala sa produktong pang-export</string>
+    <string name="exported_file_name">Mga Transaksyon sa PalmPay</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Gikan</string>
+    <string name="to">Sa</string>
+    <string name="memo">Memo</string>
+    <string name="date">Petsa</string>
+    <string name="time">Panahon</string>
+    <string name="crypto_amount">Crypto Amount</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Nagkupot sa Fiat nga Amigo</string>
+    <string name="total_fiat_amount">Kabug-osan nga Fiat</string>
+    <string name="fiat_currency">Fiat Currency</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Item %1$d</string>
+    <string name="subtotal">Sub-Total</string>
+    <string name="network_fee">Network fee</string>
+    <string name="total">Total</string>
+    <string name="paid_s_s">Bayad nga %1$s %2$s</string>
+    <string name="change_due">Pag-usab tungod sa</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Petsa: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt gikan sa %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Sayop nga daan nga PIN</string>
+    <string name="pin_changed_successfully">Malampuson ang pag-usab sa PIN</string>
+    <string name="please_enter_pin">Palihug ipasok ang numero sa PIN</string>
+    <string name="please_enter_pin_confirmation">Palihug isulat ang numero sa imong numero sa PIN</string>
+    <string name="title_change_pin">I-edit ang PIN</string>
+    <string name="txt_current_pin">Numero sa PIN karon</string>
+    <string name="please_enter_old_pin">Palihug pagsulod sa daan nga PIN number</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Node nga koneksyon nga kasaypanan, pagpa-usbaw</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Nakakuha kami og umaabot nga pagbayad, apan walay hangyo nga makit-an</string>
+
+</resources>

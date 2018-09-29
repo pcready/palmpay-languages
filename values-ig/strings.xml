@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">License</string>
+    <string name="agree">Kwere</string>
+    <string name="disagree">Emezigharị</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Loading ihe ...</string>
+    <string name="title_loading_asset_type_data">Ịdebe ụdị data bara uru ...</string>
+    <string name="title_assets_ready">Akaụntụ nchekwa data njikere</string>
+    <string name="msg_loading_all_existing_assets">Ịme usoro nke arịrịọ iji nweta ndepụta zuru ezu nke ihe niile dịnụ</string>
+    <string name="msg_loading_asset_type_data">Na-arịọ maka nkọwa ndị ọzọ bara uru</string>
+    <string name="msg_loading_asset_in_database">Ihe ejiri ego dedu ego n\'ime nchekwa data</string>
+    <string name="msg_assets_loaded">Na-esote, biko melite akaụntụ gị ...</string>
+    <string name="error_fetching_marketcap_data">Enweghi ike ibu data datacap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Mebe akaụntụ</string>
+    <string name="txt_account_name">Aha aha akaụntụ BitShares</string>
+    <string name="unable_to_find_account_id">Enweghị ike ịchọta akaụntụ idetu onye ọrụ</string>
+    <string name="error_invalid_account_name_explanation">Aha akaụntụ ahụ ga-enwe ma ọ bụ karịa ihe odide asatọ, nwere nọmba ma ọ bụ enweghị ụdaume. Agaghị ekwe ka agwaokwu ahụ dokwuo anya.</string>
+    <string name="create">Mepụta</string>
+    <string name="error">Njehie</string>
+    <string name="account_name_already_exist">Aha njirimara adịlarị adị</string>
+    <string name="try_again">Biko gbalịa ọzọ mgbe nkeji 5 gasịrị</string>
+    <string name="txt_new_pin_confirmation">Kwenye PIN ọhụrụ (6+ nọmba)</string>
+    <string name="error_wif">Njehie na-emepụta ihe WIF</string>
+    <string name="error_faucet_template">Ihe mgbatị ahụ weghachitere njehie. Msg: __1</string>
+    <string name="error_read_dict_file">Ntughari akwukwo omuma</string>
+    <string name="error_missing_account">Ngwa ahụ enweghị ike weghachite ozi banyere akaụntụ ọhụrụ e mepụtara</string>
+    <string name="create_account_title">Ịmepụta akaụntụ ọhụrụ</string>
+    <string name="create_account_message">Biko chere mgbe e kere akaụntụ gị</string>
+    <string name="error_faucet_explanation">Ihe nkesa ahụ meghachiri njehie. Nke a nwere ike ịbụ n\'ihi nkwụsịtụ nke ejikere nke ọma dozie ebe ịhapụ ịjụ arịrịọ ugboro ugboro na-abịa site na otu adreesị IP n\'oge obere oge. Biko cherere minit 5 ma gbalịa ọzọ, ma ọ bụ gbanwee gaa na netwọk dị iche, Dịka ọmụmaatụ si wifi na cell.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Biko jide n\'aka na ị kwadoro ụbụrụ gị tupu ịga n\'ihu. Nke a ga-eme ka ị nwetaghachi akaụntụ gị ma ọ bụrụ na ihe mere na ngwaọrụ a.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Kedu ka ị ga - esi tinye akaụntụ gị dị ugbu a?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin faịlụ</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Họrọ PIN 6+ nọmba</string>
+    <string name="txt_6_digits_pin_confirm">6+ nọmba PIN kwadoro</string>
+    <string name="please_enter_6_digit_pin">Biko tinye PIN nke isii</string>
+    <string name="please_enter_6_digit_pin_confirm">Biko tinye nkwenye nke nọmba PIN gị</string>
+    <string name="mismatch_pin">Mismatch pin</string>
+    <string name="please_enter_brainkey">Biko tinye brainkey</string>
+    <string name="please_enter_correct_brainkey">Biko tinye ezi ụbụrụ, ọ ga-enwe n\'etiti okwu 12 na 16.</string>
+    <string name="unable_to_load_brainkey">Enweghị ike ịkọ ụbụrụ</string>
+    <string name="account_already_exist">Enweelarịrị akaụntụ</string>
+    <string name="importing_your_wallet">Ịbubata obere akpa gị ...</string>
+    <string name="account_candidates_title">Biko họrọ akaụntụ</string>
+    <string name="account_candidates_content">Igodo nke sitere na ụbụrụ a yiri ka a ga-ejikwa ya na-achịkwa karịa otu akaụntụ, biko họrọ nke akaụntụ ịchọrọ ibubata</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Bubata faịlụ .bin</string>
+    <string name="import_backup">Nbudata Bubata si faịlụ .bin</string>
+    <string name="txt_no_internet_connection">Enweghị Njikọ Ịntanetị</string>
+    <string name="no_file_chosen">Enweghị faịlụ a họọrọ</string>
+    <string name="choose_backup">Họrọ ndabere</string>
+    <string name="choose_file">Họrọ Njikwa</string>
+    <string name="txt_existing_password">Ugbu a .bin faịlụ Paswọdu ma ọ bụ PIN</string>
+    <string name="txt_new_pin">New PIN (6+ nọmba)</string>
+    <string name="importing_keys_from_bin_file">"Ịbubata Igodo si faịlụ Bin"</string>
+    <string name="please_make_sure_your_bin_file">Biko jide n\'aka na nkedo gị ziri ezi ma ọ bụ ezi faịlụ a họrọ</string>
+    <string name="missing_existing_password">Biko tinye paswọọdụ iji zoo faịlụ a</string>
+    <string name="pin_number_request">Biko tinye nọmba ntinye iji zọpụta faịlụ a</string>
+    <string name="pin_number_warning">Nọmba pin ga-abụ ma ọ dịkarịa ala 6 digit</string>
+    <string name="backup_error_no_key_reference_found">Enweghị ndekọ ọ bụla iji igodo a, biko jide n\'aka na ị na-eji faịlụ nchekwa emelitere.</string>
+    <string name="backup_error_no_wallet_backup">Enwere ike ịchọta nkwado ndabere akpa na faịlụ a</string>
+    <string name="error_invalid_account">Akaụntụ na-abaghị uru, biko lelee igodo ụbụrụ gị maka njehie ederede</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Bubata</string>
+    <string name="title_account_load_result">Ejiri akaụntụ</string>
+    <string name="button_change_account">Gbanwee</string>
+    <string name="title_select_input_assets">Họrọ akụ nabatara.</string>
+    <string name="explanation_account_setup">Ị ga-achọ ịtọ akaụntụ Bitshares ka ị wee nweta ụgwọ. Ma ọ bụ ọ bụrụ na ị nwere otu, ịnwere ike ibubata ya ebe a.</string>
+    <string name="explanation_output_asset">Họrọ Smartcoin chọrọ gị:</string>
+    <string name="next">Osote</string>
+    <string name="done">Emela</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Na-akwụ ụgwọ</string>
+    <string name="error_corrupted_key_title">Njehie nrụrụ nchịkọta</string>
+    <string name="error_corrupted_key_content">Ngwa ahụ enweghị ike iweghachi igodo nzuzo gị ezoro ezo na nchekwa data ahụ. N\'ihi nke a ị ga-achọ ịbanye igodo gị ọzọ. Ma ọ bụ n\'ụdị ụbụrụ ma ọ bụ na-etolite faịlụ nchekwa ndabere nke e mere na echekwa na akpaghị aka na sdcard gị ma ọ bụrụ na ngwa ahụ mepụtara akaụntụ ahụ</string>
+    <string name="invalid_pin">PIN ezighi ezi</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Home</string>
+    <string name="txt_transactions">Ahịa</string>
+    <string name="txt_refunds_returns">Nkwụghachi / nloghachi</string>
+    <string name="txt_settlement">Ebe obibi</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares ọnụ</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Ọnụ ego ruru</string>
+    <string name="sub_total">Nkeji:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Ụgha akwụkwọ iwu</string>
+    <string name="content_error_market">Enweghị iwu ọ bụla na DEX nke ga-eme ka anyị nwee ike ịgbanwere ihe dịka _____ n\'oge ugbu a. \n __Delplease go to the screen settings and select a different output asset.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Biko kwụọ ụgwọ</string>
+    <string name="please_pay_s_s">Biko kwụọ ụgwọ: %1$s %2$s</string>
+    <string name="to_s">Iji: __1</string>
+    <string name="txt_network">Ego netwọk</string>
+    <string name="txt_please_wait">Biko chere</string>
+    <string name="error_node_unreachable">Enweghị ike ịchọta ọnụ</string>
+    <string name="invoice_subject">Ntuziaka PalmPay si na %1$s</string>
+    <string name="before_s">Tupu: __1</string>
+    <string name="share">Kwuo</string>
+    <string name="share_with">Kekọrịta</string>
+    <string name="connecting">Ijikọta ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Họrọ arịrịọ ịkwụ ụgwọ</string>
+    <string name="dialog_msg_select_pending_payment">Enwere ike ịchọta ụgwọ ịkwụ ụgwọ, mana enweghị ike ịnye ya na-akwụ ụgwọ na-akwụ ụgwọ na mbụ. Biko họrọ ugwo ịkwụ ụgwọ ziri ezi site na listi na-esonụ.</string>
+    <string name="dialog_msg_confirm_pending_payment">Nke a ga - ejikọta ịkwụ ụgwọ na-abata na nkwụnye ụgwọ ịkwụ ụgwọ nke mbụ nke _____</string>
+    <string name="dialog_msg_incoming_payment_details">Ihe nkwụnye ụgwọ nbata</string>
+    <string name="dialog_generic_title_confirm">O doro gị anya?</string>
+    <string name="dialog_generic_msg_confirm">Biko rịba ama na enweghi ike ime ihe a</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Na-ahapụ</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Ịkwụ ụgwọ kwadoro!</string>
+    <string name="txt_cool">Azụ!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Ntọala</string>
+    <string name="general">General</string>
+    <string name="security">Nche</string>
+    <string name="backups">Ndabere</string>
+    <string name="tokens">Ntughari</string>
+    <string name="accounts">Akaụntụ</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Ụdị abalị</string>
+    <string name="currency_info">A na-ahọrọ ego ahụ na-akpaghị aka na-adabere na asụsụ gị na mba ịhọrọ. Ọ bụrụ na ịchọrọ ịgbanwe ndị ahụ, ị ​​ga-aga usoro ntọala ụwa nke ngwaọrụ gị.</string>
+    <string name="screen_saver">Nchekwa ihuenyo</string>
+    <string name="source">Isi Iyi</string>
+    <string name="bitshares_logo">Akara BitShares</string>
+    <string name="default_folder">Ndabe nchekwa (/ PalmPay)</string>
+    <string name="txt_folder">Nchekwa</string>
+    <string name="choose">Họrọ</string>
+    <string name="screen_saver_time">Kwado mgbe ...</string>
+    <string name="one_minute">1 Nkeji</string>
+    <string name="three_minutes">3 Nkeji</string>
+    <string name="five_minutes">5 Nkeji</string>
+    <string name="local_ambassador">Onye nnochite anya obodo</string>
+    <string name="ambassador_info">PalmPay Ambassadors ga-akwụ ụgwọ ọ bụla 3 sekọnd. Ọrụ ha bụ ịkwado ndị ahịa PalmPay mpaghara ma hazie kwa ọnwa Crypto Meetups. Ọ bụrụ na edeghị obodo gị, obodo gị enwebeghị onye nnọchiteanya PalmPay. Maka ozi ndị ọzọ, gaa na ndị ọrụ Agorise na Telegram: <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Obodo</string>
+    <string name="country">Mba</string>
+    <string name="bugs_or_ideas">Bugs ma ọ bụ echiche?</string>
+    <string name="bugs_or_ideas_contact_info">Ozi igwefoto: http://t.me/Agorise __N_mail: Agorise@protonmail.ch</string>
+    <string name="accept">Nabata</string>
+    <string name="select">Họrọ</string>
+    <string name="are_you_sure">O doro gị anya?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Akwụsị ụbụrụ azụ</string>
+    <string name="copied_to_clipboard">Edere ya na windo</string>
+    <string name="bin_file_description">Tinye faịlụ. Na - echekwa ndabere faịlụ .bin na nchekwa MicroSD nzuzo ma ọ bụ USB Stick.</string>
+    <string name="create_a_backup">Mepụta ndabere</string>
+    <string name="brainkey_description">Brainkey. Okwu nchịkọta akụkọ nwere ike weghaara ma ọ bụ depụtaghachi ya, mana edeghị ya.</string>
+    <string name="txt_brain_key_info">Bipụta nke a, ma ọ bụ detuo ya. Onye ọ bụla nwere ohere ịnweta igodo mgbake gị ga-enweta ego n\'ime akpa a.</string>
+    <string name="view_and_copy"><![CDATA[Lee & Detuo]]></string>
+    <string name="title_bin_backup">Nbupụ .bin nkwado</string>
+    <string name="hint_password">Okwuntughe</string>
+    <string name="hint_password_confirmation">Ntughari nkwenye</string>
+    <string name="error_password_mandatory">Kwesịrị itinye paswọọdụ</string>
+    <string name="error_password_too_short">Okwuntughe dị mkpụmkpụ</string>
+    <string name="error_password_confirmation_mismatch">Okwuntughe na nkwenye nkwenye</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Akaụntụ ahịa: %1$s</string>
+    <string name="upgrade_to_ltm">Nwelite ka LTM</string>
+    <string name="upgrade_account_description">"Nwelite ndụ na oge ndụ nke oge (LTM). Bitshares \'LTM accounts pay close-zero fees, get 80% cashback and bonuses for referrals."</string>
+    <string name="account_upgrade_title">Kwalite Akaụntụ</string>
+    <string name="account_upgrade_content">Oge nke oge ndụ na-enye gị ohere ịzụ ahịa na ọnụ ọgụgụ dị ala nke ụgwọ netwọk. \n \nIt ga-arụ ọrụ na akaụntụ dị ugbu a "%1$s" \n \nIt na-abịa na ọnụahịa nke gburugburu 100 USD akwụ na Bitshares. \n __n\'\'akwere na ịchọrọ ịga n\'ihu?</string>
+    <string name="account_upgrade_wait_content">A na-edozi azụmahịa nke nwere arịrịọ gị site na netwọk</string>
+    <string name="error_upgrade_account_title">Njehie mgbe ị na-agbalị igbalite akaụntụ</string>
+    <string name="error_upgrade_account_content">Biko jide n\'aka na akaụntụ gị nwere oke nhazi iji kpuchie ụgwọ</string>
+    <string name="account_upgraded_title">Akaụntụ kwalite</string>
+    <string name="account_upgraded_content">Ekele! E meela ka akaụntụ gị dịwanye mma n\'oge ndụ nke oge.</string>
+    <string name="remove_account">Wepụ Akaụntụ</string>
+    <string name="remove_account_description">Wepụ ahịa ahịa a. Wepu Akaụntụ Akaụntụ n\'elu site na ngwaọrụ a ma mepụta ma ọ bụ bubata otu dị iche.</string>
+    <string name="txt_account_remove_confirmation">"Ị kwenyesiri ike na ịchọrọ iwepụ akaụntụ \'__1\' site na akpa a?"</string>
+    <string name="remove">Wepu</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Smartcoin chọrọ</string>
+    <string name="txt_customer_loyalty">Ihe Iguzosi Ike n\'Ihe Na-akpata Esemokwu Dị ka ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Akaụntụ gị enwebeghị ihe ọ bụla _____. Biko nweta ụfọdụ tupu ị gbalịa inye onye ọ bụla ahịa gị dịka Ihe Ndị Na-eguzosi Ike n\'Ihe.</string>
+    <string name="send">Zipu</string>
+    <string name="txt_for_every">Maka ọ bụla</string>
+    <string name="txt_spent">eji</string>
+    <string name="txt_bitcoin_altcoin_deposited">Nabata 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Biko họrọ ihe karịrị 8 ihe itinye aka</string>
+    <string name="bitshares_unselection_message">A chọrọ Bitshares (BTS) isi akara.</string>
+    <string name="toast_low_volume_market">Ogologo ala ahịa akụ na ụba nwere nkwarụ nke oge. A ga-enyere ha aka mgbe olu ahịa na-abawanye elu</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Akara</string>
+    <string name="store_name">Aha Ụlọ Ahịa</string>
+    <string name="address">Adreesị</string>
+    <string name="phone_number">Nọmba ekwentị</string>
+    <string name="website">Weebụ</string>
+    <string name="message">Ozi</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Enweghị ike ịmepụta usoro usoro maka igodo</string>
+    <string name="saving_bin_file_to_s">Na-echekwa bọtịnụ ntinye na: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Ejiri Bin File zọpụta nke ọma na: %1$s</string>
+    <string name="unable_to_save_bin_file">Enweghị ike ịchekwa faịlụ faịlụ</string>
+    <string name="creating_backup_file">Ịmepụta Njikwa ndabere</string>
+    <string name="fetching_key">Nweta igodo</string>
+    <string name="generating_bin_format">Na-eme usoro usoro</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Chọọ</string>
+    <string name="filter">Iyo</string>
+    <string name="export">Mbupụ</string>
+    <string name="confirming">Nkwenye ...</string>
+    <string name="pdf_generated_msg_s">PDF eme ma zọpụta: __1</string>
+    <string name="pdf_generated_msg_error_s">Enweghị ike ịme pdf. Biko weghachite. Njehie: __1</string>
+    <string name="csv_generated_msg_s">CSV mepụtara ma zọpụta ya: __1</string>
+    <string name="csv_generated_msg_error_s">Enweghị ike ịmepụta csv. Biko weghachite. Njehie: __1</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Ihe niile</string>
+    <string name="sent">Zitere</string>
+    <string name="received">Natara</string>
+    <string name="date_range">Ụbọchị Ogologo</string>
+    <string name="txt_to">na</string>
+    <string name="cryptocurrency">Nkwupụta nzuzo</string>
+    <string name="fiat_amount">Onu ego</string>
+    <string name="between">N\'etiti</string>
+    <string name="and">ma</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Mbupụ nabatara azụmahịa</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Na-emepụta ngwaahịa mbupụ</string>
+    <string name="exported_file_name">PalmPay-Ahịa</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Site</string>
+    <string name="to">Iji</string>
+    <string name="memo">Memo</string>
+    <string name="date">Ụbọchị</string>
+    <string name="time">Oge</string>
+    <string name="crypto_amount">Ọnụ ọgụgụ Crypto</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Ọnụ ego na-akwụ ụgwọ</string>
+    <string name="total_fiat_amount">Ọnụ ọgụgụ nke Fiat</string>
+    <string name="fiat_currency">Ego ego</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Nkebi %1$d</string>
+    <string name="subtotal">Nkeji</string>
+    <string name="network_fee">Ego netwọk</string>
+    <string name="total">Ọnụ</string>
+    <string name="paid_s_s">Ụgwọ %1$s %2$s</string>
+    <string name="change_due">Gbanwee gha</string>
+    <string name="e_receipt_memo_s">Cheta: __1</string>
+    <string name="e_receipt_date_s">Ụbọchị: __1</string>
+    <string name="e_receipt_tx_s">Tx: __1</string>
+    <string name="e_receipt_subject">PalmPay eReceipt si %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Ezughị oke ochie PIN</string>
+    <string name="pin_changed_successfully">PIN gbanwere n\'ụzọ gara nke ọma</string>
+    <string name="please_enter_pin">Biko tinye nọmba PIN</string>
+    <string name="please_enter_pin_confirmation">Biko tinye nọmba nkwenye PIN gị</string>
+    <string name="title_change_pin">Dezie PIN</string>
+    <string name="txt_current_pin">Nọmba PIN ugbu a</string>
+    <string name="please_enter_old_pin">Biko tinye nọmba PIN ochie</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Mmehie njikọ njikọ, weghachite</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Anyị nwetara ịkwụ ụgwọ na-abata, mana enweghi ike ịchọta arịrịọ</string>
+
+</resources>

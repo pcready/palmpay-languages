@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">လိုင်စင်</string>
+    <string name="agree">သဘောတူ</string>
+    <string name="disagree">သဘောကှဲ</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">loading ပိုင်ဆိုင်မှု ...</string>
+    <string name="title_loading_asset_type_data">ပိုင်ဆိုင်မှုအမျိုးအစား data တွေကို Loading ...</string>
+    <string name="title_assets_ready">ပိုင်ဆိုင်မှုဒေတာဘေ့စအဆင်သင့်</string>
+    <string name="msg_loading_all_existing_assets">အားလုံးကိုပိုင်ဆိုင်မှု၏ပြီးပြည့်စုံသောစာရင်းအရနိုင်ရန်အတွက်တောင်းဆိုမှုများကိုတစ်ဦးစီးရီးဖျော်ဖြေ</string>
+    <string name="msg_loading_asset_type_data">နောက်ထပ်ပိုင်ဆိုင်မှုအသေးစိတ်အချက်အလက်များကိုတောင်းဆို</string>
+    <string name="msg_loading_asset_in_database">အဆိုပါဒေတာဘေ့စသို့ %1$d ပိုင်ဆိုင်မှု loaded</string>
+    <string name="msg_assets_loaded">ယင်းနောက်ကျေးဇူးပြုပြီး setup ကိုသင့်အကောင့် ...</string>
+    <string name="error_fetching_marketcap_data">marketcap ဒေတာကိုမတင်နိုင်ခဲ့ပါ</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">အကောင့်ပြုလုပ်ပါ</string>
+    <string name="txt_account_name">BitShares နာမကိုအမှီအကောင့်</string>
+    <string name="unable_to_find_account_id">အသုံးပြုသူအကောင့်အိုင်ဒီကိုရှာဖွေနိုင်ခြင်း</string>
+    <string name="error_invalid_account_name_explanation">အကောင့်နာမည်, ထက်ပိုမိုအက္ခရာ 8 လုံးရှိနေတဲ့အရေအတွက်ကိုဆံ့သို့မဟုတ်လုံးဝမရအက္ခရာရှိသည်ဖြစ်စေရှိပါတယ်။ အဆိုပါ underscore ဇာတ်ကောင်ကိုလည်းခွင့်ပြုမထားပေ။</string>
+    <string name="create">ဖန်တီး</string>
+    <string name="error">အမှား</string>
+    <string name="account_name_already_exist">အကောင့်အမည်ကိုပြီးသားတည်ရှိ</string>
+    <string name="try_again">5 မိနစ်အကြာတွင်ထပ်ကြိုးစားပါ</string>
+    <string name="txt_new_pin_confirmation">အတည်ပြုပါ PIN အသစ် (6+ ဂဏန်း)</string>
+    <string name="error_wif">WIF သော့ချက်ကိုမှားယွင်းနေသည်</string>
+    <string name="error_faucet_template">အဆိုပါ faucet မှားယွင်းမှုတစ်ခုပြန်လေ၏။ msg: %1$s</string>
+    <string name="error_read_dict_file">မှားယွင်းနေသည်စာဖတ်ခြင်းအဘိဓါန်ဖိုင်</string>
+    <string name="error_missing_account">ဒီ app အသစ်ဖန်တီးအကောင့်အကြောင်းသတင်းအချက်အလက်ရယူနိုင်ဘူး</string>
+    <string name="create_account_title">အကောင့်သစ် Creating</string>
+    <string name="create_account_message">သင့်အကောင့်နေသူများကဖန်တီးနေစဉ်ခဏစောင့်ပါ</string>
+    <string name="error_faucet_explanation">ဆာဗာမှားယွင်းမှုတစ်ခုပြန်လေ၏။ ဒါဟာရည်ရွယ်ချက်အချိန်တိုအတွင်းချုံး၌တူညီသော IP လိပ်စာကနေလာမယ့်မကြာခဏတောင်းဆိုမှုများကိုမြစ်တားဖို့ရာအရပျထဲမှာ set တစ်န့်အသတ်များကြောင့်ဖြစ်လိမ့်မယ်။ 5 မိနစ်စောင့်ဆိုင်းပြီးထပ်မံကြိုးစား, ဒါမှမဟုတ်တစ်ဦးကွဲပြားခြားနားသော network သို့အကူးအပြောင်း, wifi ကနေဆဲလ်ဖို့ဥပမာပေးပါ။</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">ရှေ့ဆက်ရှေ့၌သင်တို့ brainkey သေချာသင် backup လုပ်ထားပါစေ။ ဒီအရာတစ်ခုခုကိုဒီကိရိယာကိုဖွစျသှားအမှု၌သင်တို့ကိုသင့်အကောင့်ကိုပြန်လည်ဖေါ်ထုတ်ရန်ခွင့်ပြုပါလိမ့်မယ်။</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">ဘယ်လိုသင့်ရဲ့လက်ရှိအကောင့်တင်သွင်းဖို့လိုပါသနည်း</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key ကို</string>
+    <string name="bin_file">ဖိုင်မှတ်တမ်း .bin</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">တစ်ဦး 6+ ဂဏန်း PIN နံပါတ်ကိုရွေးချယ်ပါ</string>
+    <string name="txt_6_digits_pin_confirm">6+ ဂဏန်း PIN ကို Confirm</string>
+    <string name="please_enter_6_digit_pin">6 ဂဏန်း PIN ကိုရိုက်ထည့်ပေးပါ</string>
+    <string name="please_enter_6_digit_pin_confirm">သင်၏ PIN နံပါတ်၏အတည်ပြုချက်ကိုရိုက်ထည့်ပေးပါ</string>
+    <string name="mismatch_pin">မတိုက်ဆိုင် pin ကို</string>
+    <string name="please_enter_brainkey">brainkey ရိုက်ထည့်ပေးပါ</string>
+    <string name="please_enter_correct_brainkey">မှန်ကန်သော brainkey ကျေးဇူးပြု. ထည့်သွင်းပါက, 12 နှင့် 16 စကားလုံးများကိုအကြားရှိသင့်ပါတယ်။</string>
+    <string name="unable_to_load_brainkey">brainkey တင်မရပါ</string>
+    <string name="account_already_exist">အကောင့်ပြီးသားတည်ရှိ</string>
+    <string name="importing_your_wallet">သင့်ရဲ့ပိုက်ဆံအိတ်တင်သွင်းခြင်း ...</string>
+    <string name="account_candidates_title">အကောင့်တစ်ခုကိုရွေးပါ ကျေးဇူးပြု.</string>
+    <string name="account_candidates_content">ဒီ brainkey ကနေဆင်းသက်လာသော့တစ်ဦးထက်ပိုအကောင့်ကိုထိန်းချုပ်အသုံးပြုရဟန်, သင်တင်သွင်းဖို့ဆန္ဒရှိသည့်အကောင့်ကို select ကျေးဇူးပြုပြီး</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">ဖိုင် .bin သွင်းကုန်</string>
+    <string name="import_backup">.bin file ကိုမှတင်သွင်း Backup ကို</string>
+    <string name="txt_no_internet_connection">အဘယ်သူမျှမအင်တာနက်ကော်နက်ရှင်</string>
+    <string name="no_file_chosen">file ကိုရွေးကောက်တော်မူခြင်းမရှိပါ</string>
+    <string name="choose_backup">Backup ကိုရှေးခယျြပါ</string>
+    <string name="choose_file">ဖိုင်ရွေးပါ</string>
+    <string name="txt_existing_password">လက်ရှိ .bin file ကို Password ကိုသို့မဟုတ် PIN</string>
+    <string name="txt_new_pin">နယူး PIN နံပါတ် (6+ ဂဏန်း)</string>
+    <string name="importing_keys_from_bin_file">"ဘင်ဖိုင်ထဲကနေသော့ချက်များတင်သွင်းခြင်း"</string>
+    <string name="please_make_sure_your_bin_file">သင့်ရဲ့ pin ကိုမှန်ကန်သို့မဟုတ်မှန်ကန်သောဘင်ဖိုင်ကိုရွေးချယ်ထားသည့်ဖြစ်ပါတယ်သေချာအောင်ကျေးဇူးပြုပြီး</string>
+    <string name="missing_existing_password">ဒီ backup ဖိုင်ကို encrypt လုပ်တဲ့အခါသုံးတဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ</string>
+    <string name="pin_number_request">ဒီ backup ဖိုင်ကိုဝှက်ဖို့အသုံးပြုတဲ့ pin ကိုအရေအတွက်အားရိုက်ထည့်ပေးပါ</string>
+    <string name="pin_number_warning">အဆိုပါ pin ကိုအရေအတွက်ကအနည်းဆုံး 6 ဂဏန်းဖြစ်ရပါမည်</string>
+    <string name="backup_error_no_key_reference_found">အကောင့်ကဒီ key ကိုသုံးပြီးရှာတွေ့ခဲ့သည်ဘယ်သူမျှမက, သင်ထားတဲ့ updated backup ဖိုင်ကိုအသုံးပြုနေသည်သေချာအောင်ပေးပါ။</string>
+    <string name="backup_error_no_wallet_backup">ပိုက်ဆံအိတ် backup လုပ်ထားဒီဖိုင်ထဲမှာရှာတွေ့နိုင်ခြင်းမရှိပါ</string>
+    <string name="error_invalid_account">မှားနေသောအကောင့်, အမှားများကိုစာရိုက်များအတွက်သင့်ဦးနှောက် key ကိုစစ်ဆေးကျေးဇူးပြုပြီး</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">တင်သွင်း</string>
+    <string name="title_account_load_result">အကောင့်တင်</string>
+    <string name="button_change_account">ပွောငျးလဲခွငျး</string>
+    <string name="title_select_input_assets">လကျခံဖို့ပိုင်ဆိုင်မှုကိုရွေးချယ်ပါ။</string>
+    <string name="explanation_account_setup">သငျသညျငွေပေးချေမှုကိုလက်ခံရရှိနိုင်ရန်အတွက် setup ကိုတစ်ဦး Bitshares အကောင့်လိုအပ်ပါလိမ့်မယ်။ သငျသညျပြီးသားတဦးတည်းရှိပါကသို့မဟုတ်သင်ဒီမှာကတင်သွင်းနိုင်သည်။</string>
+    <string name="explanation_output_asset">သင့်ရဲ့တပ်မက်လိုချင်သောအ Smartcoin Choose:</string>
+    <string name="next">နောက်တစ်ခု</string>
+    <string name="done">ပြီးပြီ</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">ပေးဆောင်နှင့်အတူ</string>
+    <string name="error_corrupted_key_title">Key ကိုအကျင့်ပျက်ခြစားမှုအမှား</string>
+    <string name="error_corrupted_key_content">အဆိုပါ app ကိုဒေတာဘေ့စမှသင်၏ encrypt လုပ်ထား private keys တွေကို recover နိုင်ခြင်းဖြစ်ပါတယ်။ ထိုကြောင့်သင်တို့ကို \'\' နောက်တဖန်သင်၏အသော့ရိုက်ထည့်ရန်မလိုအပ်လိမ့်မယ် \ ။ တစ်ဦး brainkey ၏ပုံစံသို့မဟုတ်အကောင့်ကို app ကိုအသုံးပြုနေသူများကဖန်တီးခဲ့လျှင်ထုတ်လုပ်ပြီးနှင့်သင့် sdcard ထဲမှာအလိုအလျှောက်သိမ်းဆည်းထားသောဘင် backup ဖိုင်ကိုဖွဲ့စည်းရန်ဖြစ်စေ</string>
+    <string name="invalid_pin">မှားနေသော PIN ကို</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">နေအိမ်</string>
+    <string name="txt_transactions">အရောင်းအ</string>
+    <string name="txt_refunds_returns">ပြန်အမ်း / Returns</string>
+    <string name="txt_settlement">စေ့စပ်ခြင်း</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares node များ</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">ကြောင့်ငွေပမာဏ</string>
+    <string name="sub_total">sub-စုစုပေါင်း:</string>
+    <string name="zero">0 င်</string>
+    <string name="double_zero">00</string>
+    <string name="dot">။</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">အမိန့်စာအုပ်အမှား</string>
+    <string name="content_error_market">ကျွန်တော်တို့ကိုယခုအချိန်တွင် %1$s ဖို့လဲလှယ်ဖျော်ဖြေဖို့ခွင့်ပြုမယ်လို့သော DEX မရှိအမိန့်ရှိပါတယ်။ \n \nPlease setting များကိုမျက်နှာပြင်ကိုသွားနှင့်တစ်ဦးကွဲပြားခြားနား output ကိုပိုင်ဆိုင်မှုကိုရွေးပါ။</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Pay ကျေးဇူးပြု.</string>
+    <string name="please_pay_s_s">ငွေပေးချေပေးပါ: %1$s %2$s</string>
+    <string name="to_s">ရန်: %1$s</string>
+    <string name="txt_network">Network ကိုအခကြေးငွေ</string>
+    <string name="txt_please_wait">ကျေးဇူးပြုပြီးခဏစောင့်ပါ</string>
+    <string name="error_node_unreachable">အဘယ်သူမျှမ node ကိုရောက်ရှိနိုင်</string>
+    <string name="invoice_subject">%1$s ထံမှ PalmPay ငွေတောင်းခံလွှာ</string>
+    <string name="before_s">ခင်မှာ: %1$s</string>
+    <string name="share">ဝေစု</string>
+    <string name="share_with">ဝေမျှမယ်နှင့်အတူ</string>
+    <string name="connecting">ချိတ်ဆက်ခြင်း ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">ငွေပေးချေမှုတောင်းဆိုမှုကိုကို Select လုပ်ပါ</string>
+    <string name="dialog_msg_select_pending_payment">တစ်ခုဝင်လာသောငွေပေးချေမှုရှာဖွေတွေ့ရှိခဲ့ပါတယ်, ဒါပေမယ့်အလိုအလျောက်ယခင်ကမေတ္တာရပ်ခံငွေပေးချေဖို့တာဝန်လို့မရပါ။ အောက်ပါစာရင်းထဲကမှန်ကန်သောငွေပေးချေမှုတောင်းဆိုချက်အရရွေးချယ်ပါ။</string>
+    <string name="dialog_msg_confirm_pending_payment">ဤသည် %1$s ၏ယခင်ကမှတ်တမ်းတင်ထားသောငွေပေးချေမှုတောင်းဆိုမှုကိုဖို့ဝင်လာသောငွေပေးချေမှုလင့်ထားသည်ပါလိမ့်မယ်</string>
+    <string name="dialog_msg_incoming_payment_details">incoming ငွေပေးချေမှုအသေးစိတ်အချက်အလက်</string>
+    <string name="dialog_generic_title_confirm">သေချာလား?</string>
+    <string name="dialog_generic_msg_confirm">ဤ action ပြု ပြင်. မရနိုင်သည်ကို ကျေးဇူးပြု. သတိပြုပါ</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">ထုတ်ပစ်</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">ငွေပေးချေမှုရမည့်အတည်ပြုခဲ့သည်!</string>
+    <string name="txt_cool">အေးမြတဲ့!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Settings များ</string>
+    <string name="general">ယေဘုယျ</string>
+    <string name="security">လုံခွုံရေး</string>
+    <string name="backups">အရံသိမ်းဆည်းခြင်း</string>
+    <string name="tokens">တိုကင်</string>
+    <string name="accounts">accounts ကို</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">ညဥ့် mode ကို</string>
+    <string name="currency_info">အဆိုပါငွေကြေးကိုအလိုအလျှောက်သင့်ဘာသာစကားနဲ့တိုင်းပြည်ကိုရွေးချယ်ရေးအပေါ်အခြေခံပြီးရွေးချယ်ထားပါသည်။ သငျသညျသူတို့အားကိုပြောင်းလဲလိုလျှင်, သင်သည်သင်၏ကိရိယာ၏ကမ္ဘာလုံးဆိုင်ရာစနစ်အားဆက်တင်များသို့သွားရပေမည်။</string>
+    <string name="screen_saver">ကွန်ပျူတာလှုပ်ရှားမှုမရှိသည့်အခါတွင်ဖန်ပြင်၌ပေါ်ခြင်း</string>
+    <string name="source">အရင်းအမြစ်</string>
+    <string name="bitshares_logo">BitShares လိုဂို</string>
+    <string name="default_folder">default folder ကို (/ PalmPay)</string>
+    <string name="txt_folder">ဖိုငျတှဲ</string>
+    <string name="choose">ရှေးခယျြ</string>
+    <string name="screen_saver_time">ပြီးနောက် Enable ...</string>
+    <string name="one_minute">1 မိနစ်</string>
+    <string name="three_minutes">3 မိနစ်</string>
+    <string name="five_minutes">5 မိနစ်</string>
+    <string name="local_ambassador">ဒေသခံသံအမတ်ကြီး</string>
+    <string name="ambassador_info">PalmPay သံအမတ်တိုင်း 3 စက္ကန့်ပေးဆောင်ရ။ သူတို့အလုပ်သူတို့ဒေသခံ PalmPay ကုန်သည်ကိုထောကျပံ့များနှင့်လစဉ် Crypto Meetups စုစည်းဖို့ဖြစ်ပါတယ်။ သင့်ရဲ့မြို့စာရင်းမပါလျှင်, သင့်ရဲ့မြို့သေးတစ် PalmPay သံအမတ်ကြီးမရှိပါ။ \n \nFor ပိုပြီးအချက်အလက်, ကြေးနန်းအပေါ် Agorise အသိုင်းအဝိုင်းသို့သွားရောက်: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">မြို့</string>
+    <string name="country">ပြည်</string>
+    <string name="bugs_or_ideas">bugs သို့မဟုတ်အကြံပြုချက်များ?</string>
+    <string name="bugs_or_ideas_contact_info">ကြေးနန်းချက်တင်: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Accept</string>
+    <string name="select">ကို Select လုပ်ပါ</string>
+    <string name="are_you_sure">သေချာလား?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup ကို brainkey</string>
+    <string name="copied_to_clipboard">clipboard ထံကူးယူ</string>
+    <string name="bin_file_description">bin ဖိုင်ကို။ အမြဲတမ်းလျှို့ဝှက်ချက်တစ်ခု MicroSD card ကိုဒါမှမဟုတ် USB Stick မှဖိုင်ကို .bin backup ကို save လုပ်ပါ။</string>
+    <string name="create_a_backup">backup တစ်ခု Create</string>
+    <string name="brainkey_description">Brainkey ။ ဖမ်းဆီးရမိသို့မဟုတ်ကူးယူပေမယ် edited မဟုတ်နိုင်အကောင့်ပြန်လည်နာလန်ထူစကားလုံးများကို။</string>
+    <string name="txt_brain_key_info">ဒီအထဲက print ထုတ်, သို့မဟုတ်ပါကချရေးပါ။ သင်၏အရေးပေါ်ကီးမှဝင်ရောက်ခွင့်နှင့်အတူမည်သူမဆိုဒီပိုက်ဆံအိတ်အတွင်း၌ရန်ပုံငွေမှဝင်ရောက်ခွင့်ရှိလိမ့်မည်။</string>
+    <string name="view_and_copy"><![CDATA[ကြည့်ရန် & Copy ကူး]]></string>
+    <string name="title_bin_backup">backup လုပ်ထား .bin ပို့ကုန်</string>
+    <string name="hint_password">Password ကို</string>
+    <string name="hint_password_confirmation">Password ကိုအတည်ပြုခြင်း</string>
+    <string name="error_password_mandatory">စကားဝှက်ရိုက်ထည့်ရပါမည်</string>
+    <string name="error_password_too_short">စကားဝှက်တိုလွန်း၏</string>
+    <string name="error_password_confirmation_mismatch">Password ကိုများနှင့်အတည်ပြုခြင်းမတိုက်ဆိုင်</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">ကုန်သည်အကောင့်: %1$s</string>
+    <string name="upgrade_to_ltm">LTM ဖို့ Upgrade</string>
+    <string name="upgrade_account_description">"တစ်သက်တာအသင်းဝင် (LTM) ကို Upgrade ။ Bitshares \'\' LTM အကောင့်အနီး-သုညအခကြေးငွေပေးဆောင်, ရည်ညွှန်းအဘို့ 80% cashback နှင့်ဆုကြေးငွေရရှိမည်ဖြစ်သည်။ "</string>
+    <string name="account_upgrade_title">အကောင့် upgrade</string>
+    <string name="account_upgrade_content">အဆိုပါအသက်တာအချိန်အသင်းဝင်သင်ကွန်ယက်ကိုအခကြေးငွေတစ်ဦးလျှော့ထားနှင့်အတူကုန်သွယ်ခွင့်ပြုထားသည်။ \nIt သို့သော် Bitshares အတွက်ပေးဆောင် 100 ခန့်အမေရိကန်ဒေါ်လာတစ်ကုန်ကျစရိတ်နှင့်အတူ လာ. ပါဘူး \n \n \nIt လက်ရှိအကောင့် "%1$s" ကိုအကျိုးသက်ရောက်ယူပါလိမ့်မယ်။ သငျသညျဆက်လက်ဆောင်ရွက်လိုသော \nAre \n သေချာပါသလား</string>
+    <string name="account_upgrade_wait_content">သင့်ရဲ့တောင်းဆိုချက်အရင်ငွေလွှဲပြောင်းမှုကွန်ယက်အားဖြင့်စီမံဆောင်ရွက်နေပါသည်</string>
+    <string name="error_upgrade_account_title">အကောင့် upgrade ဖို့ကြိုးစားနေစဉ်မှားယွင်းနေသည်</string>
+    <string name="error_upgrade_account_content">သင့်အကောင့်ကုန်ကျစရိတ်ကိုဖုံးလွှမ်းရန်လုံလောက်သောငွေလက်ကျန်ရှိပါတယ်သေချာအောင်ကျေးဇူးပြုပြီး</string>
+    <string name="account_upgraded_title">အကောင့်အဆင့်မြှင့်</string>
+    <string name="account_upgraded_content">ဂုဏ်ယူပါတယ်! သင့်အကောင့်ယခုတစ်သက်တာအသင်းဝင်ဖို့အဆင့်မြှင့်ခဲ့တာဖြစ်ပါတယ်။</string>
+    <string name="remove_account">အကောင့် Remove</string>
+    <string name="remove_account_description">ဒီကုန်သည်အကောင့်ဖယ်ရှားပါ။ ဤကိရိယာမှအထက်ပါကုန်သည်အကောင့် Remove နှင့်တစ်ဦးကွဲပြားခြားနားတဦးတည်းဖန်တီးသို့မဟုတ်တင်သွင်းရန်။</string>
+    <string name="txt_account_remove_confirmation">"သင်ကဒီပိုက်ဆံအိတ်ကနေအကောင့် \'\' %1$s \'\' ကိုဖယ်ရှားလိုတာသေချာလား?"</string>
+    <string name="remove">Remove</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">လိုချင်သော Smartcoin</string>
+    <string name="txt_customer_loyalty">ပြဿနာသစ္စာရှိမှုအမှတ်အဖြစ် ...</string>
+    <string name="warning_insufficient_reward_asset_balance">သင့်အကောင့်မရှိသေးပါ %1$s ပိုင်ဆိုင်မထားဘူး။ သငျသညျသစ္စာရှိမှုအမှတ်အဖြစ်သင့်ဖောက်သည်မဆိုပေးဖို့ကြိုးစားမတိုင်မီအချို့ဆည်းပူးပေးပါ။</string>
+    <string name="send">ပေးပို့</string>
+    <string name="txt_for_every">တိုင်းများအတွက်</string>
+    <string name="txt_spent">ကုန်</string>
+    <string name="txt_bitcoin_altcoin_deposited">8 Cryptocurrencies မှတက် Accept:</string>
+    <string name="altcoins_should_not_more_than">8 input ကိုပိုင်ဆိုင်မှုထက်မပိုကို select ပေးပါ</string>
+    <string name="bitshares_unselection_message">အဆိုပါ Bitshares (BTS) core ကိုတိုကင်နံပါတ်လိုအပ်ပါသည်။</string>
+    <string name="toast_low_volume_market">အနိမျ့အသံအတိုးအကျယ်စျေးကွက်ပိုင်ဆိုင်မှုများကိုယာယီပိတ်ထားသည်။ စျေးကွက်အသံအတိုးအကျယ်တစ်ဦးစဉ်းစားဆင်ခြင်စရာငွေပမာဏမြင့်တက်တစ်ချိန်ကသူတို့ကဖွင့်ပါမည်</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">လိုဂို</string>
+    <string name="store_name">Store ကိုအမည်</string>
+    <string name="address">လိပ်စာ</string>
+    <string name="phone_number">ဖုန်းနံပါတ်</string>
+    <string name="website">ဝက်ဘ်ဆိုက်</string>
+    <string name="message">မက်ဆေ့ခ်ျကို</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">သော့ဘင် format နဲ့ generate ဖို့မအောင်မြင်ဘူး</string>
+    <string name="saving_bin_file_to_s">ဘင်ဖိုင်မှတ်တမ်းကိုသိမ်းဆည်းရန်: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">%1$s: bin ဖိုင်ဖွရန်ကိုအောင်မြင်စွာသည်ကယ်တင်ခြင်းသို့ရောက်</string>
+    <string name="unable_to_save_bin_file">ဘင် file ကို save ဖို့မအောင်မြင်ဘူး</string>
+    <string name="creating_backup_file">Backup ဖိုင်ကို Creating</string>
+    <string name="fetching_key">ရယူ Key ကို</string>
+    <string name="generating_bin_format">ထုတ်လုပ်ဘင်ပုံစံ</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">ရှာဖှေ</string>
+    <string name="filter">ရေစစ်</string>
+    <string name="export">ထုတ်ကုန်</string>
+    <string name="confirming">အတည်ပြု ...</string>
+    <string name="pdf_generated_msg_s">PDF ကိုထုတ်ပေးခြင်းနှင့်ကယ်တင်ခြင်းသို့: %1$s</string>
+    <string name="pdf_generated_msg_error_s">pdf generate လုပ်မရပါ။ ထပ်ကြိုးစားပါ။ အမှား: %1$s</string>
+    <string name="csv_generated_msg_s">CSV ကိုထုတ်ပေးခြင်းနှင့်ကယ်တင်ခြင်းသို့: %1$s</string>
+    <string name="csv_generated_msg_error_s">csv generate လုပ်မရပါ။ ထပ်ကြိုးစားပါ။ အမှား: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">အားလုံး</string>
+    <string name="sent">Sent</string>
+    <string name="received">Received</string>
+    <string name="date_range">နေ့စွဲ Range</string>
+    <string name="txt_to">သို့</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat ငွေပမာဏ</string>
+    <string name="between">အကြား</string>
+    <string name="and">နှင့်</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">ပို့ကုန် filtered ငွေကြေးလွှဲပြောင်းမှုမှာ</string>
+    <string name="format_pdf">PDF ဖိုင်ရယူရန်</string>
+    <string name="format_csv">CSV ဖိုင်</string>
+    <string name="progress_export_generation">ပို့ကုန်ကုန်ပစ္စည်းထုတ်လုပ်</string>
+    <string name="exported_file_name">PalmPay-အရောင်းအဝယ်</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">မှ</string>
+    <string name="to">သို့</string>
+    <string name="memo">မှတ်စုတို</string>
+    <string name="date">နေ့စှဲ</string>
+    <string name="time">အချိန်</string>
+    <string name="crypto_amount">crypto ငွေပမာဏ</string>
+    <string name="crypto_symbol">crypto သင်္ကေတ</string>
+    <string name="keyed_in_fiat_amount">နှိပ်ပါ-in ကို Fiat ငွေပမာဏ</string>
+    <string name="total_fiat_amount">စုစုပေါင်း Fiat ငွေပမာဏ</string>
+    <string name="fiat_currency">Fiat ငွေကြေးစနစ်</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">item %1$d</string>
+    <string name="subtotal">sub-စုစုပေါင်း</string>
+    <string name="network_fee">Network ကိုအခကြေးငွေ</string>
+    <string name="total">စုစုပေါငျး</string>
+    <string name="paid_s_s">Paid %1$s %2$s</string>
+    <string name="change_due">ကြောင့်ပြောင်းလဲခြင်း</string>
+    <string name="e_receipt_memo_s">မှတ်စုတို: %1$s</string>
+    <string name="e_receipt_date_s">နေ့စွဲ: %1$s</string>
+    <string name="e_receipt_tx_s">TX: %1$s</string>
+    <string name="e_receipt_subject">%1$s ထံမှ PalmPay eReceipt</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">မှားယွင်းနေဟောင်း PIN ကို</string>
+    <string name="pin_changed_successfully">PIN ကိုအောင်မြင်စွာပြောင်းလဲ</string>
+    <string name="please_enter_pin">PIN နံပါတ်ကိုရိုက်ထည့်ပေးပါ</string>
+    <string name="please_enter_pin_confirmation">သင့်ရဲ့ PIN နံပါတ်ကိုအတည်ပြုချက်ကိုရိုက်ထည့်ပေးပါ</string>
+    <string name="title_change_pin">Edit ကို PIN ကို</string>
+    <string name="txt_current_pin">လက်ရှိ PIN နံပါတ်ကို</string>
+    <string name="please_enter_old_pin">အဟောင်းကို PIN နံပါတ်ကိုရိုက်ထည့်ပေးပါ</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">node ဆက်သွယ်မှုအမှား, ပြန်လည်ကြိုးစားနေ</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">ကျနော်တို့အနေနဲ့ဝင်လာသောငွေပေးချေတယ်, ဒါပေမယ့်ဘယ်သူမျှမတောငျးဆိုခကျြကိုတှေ့နိုင်</string>
+
+</resources>

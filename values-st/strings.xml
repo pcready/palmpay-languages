@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">License</string>
+    <string name="agree">Lumellana</string>
+    <string name="disagree">Ha a lumellane</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">E reka thepa ...</string>
+    <string name="title_loading_asset_type_data">E batla mofuta oa thepa ea thepa ...</string>
+    <string name="title_assets_ready">Netefello ea thepa e loketse</string>
+    <string name="msg_loading_all_existing_assets">Ho etsa letoto la likōpo ho fumana lenane le feletseng la thepa eohle e teng</string>
+    <string name="msg_loading_asset_type_data">Ho kopa lintlha tse ling tsa thepa</string>
+    <string name="msg_loading_asset_in_database">E %1$d e nang le matlotlo a thepa</string>
+    <string name="msg_assets_loaded">Ka mor\'a moo, ka kopo, setupang akhaonto ea hau ...</string>
+    <string name="error_fetching_marketcap_data">Ha e khone ho jarisa data marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Theha ak\'haonte</string>
+    <string name="txt_account_name">Lebitso la akhaonto ea BitShares</string>
+    <string name="unable_to_find_account_id">Ha e khone ho fumana sekheo sa akhaonto ea mosebetsing</string>
+    <string name="error_invalid_account_name_explanation">Lebitso la akhaonto e tlameha ho ba le litlhaku tse fetang 8, e na le nomoro kapa ha e na li-vowels. Sebopeho se ka tlaase ha se lumelloe.</string>
+    <string name="create">Etsa</string>
+    <string name="error">Phoso</string>
+    <string name="account_name_already_exist">Lebitso la akhaonto le se le le teng</string>
+    <string name="try_again">Ka kopo leka hape kamora metsotso e 5</string>
+    <string name="txt_new_pin_confirmation">Netefatsa PIN e ncha (likarolo tse 6 +)</string>
+    <string name="error_wif">Phoso ho hlahisa senotlolo sa WIF</string>
+    <string name="error_faucet_template">The faucet e khutletse phoso. Mog: %1$s</string>
+    <string name="error_read_dict_file">Phoso ea ho bala dictionary ea dikishinari</string>
+    <string name="error_missing_account">Lenaneo lena le sitoa ho fumana tlhahisoleseding e mabapi le akhaonto e sa tsoa bōptjoa</string>
+    <string name="create_account_title">Ho theha akhaonto e ncha</string>
+    <string name="create_account_message">Ka kopo emela ha akhaonto ea hau e bōptjoa</string>
+    <string name="error_faucet_explanation">Seva e khutlisitse phoso. Sena se ka \'na sa bakoa ke moeli o behiloeng ka morero ka morero oa ho hana likōpo tse tloaelehileng tse tsoang ho aterese e le\' ngoe ea IP ka nako e khutšoanyane. Ka kopo ema metsotso e 5 \'me u leke hape, kapa u feteletse marang-rang a fapaneng, mohlala ho tloha wifi ho isa seleng.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Ka kopo etsa bonnete ba hore u boloka boko ba hau pele u tsoela pele. Sena se tla o lumella hore o fumane hape akhaonto ea hau haeba ho ka etsahala ntho e itseng ho sesebelisoa sena.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">O ka rata ho kenya akhaonto ea hau e teng joang?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin File</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Khetha PIN ea 6+</string>
+    <string name="txt_6_digits_pin_confirm">Palo ea di-6 + e netefatsa</string>
+    <string name="please_enter_6_digit_pin">Ka kopo kenya lipalo tse 6 tsa PIN</string>
+    <string name="please_enter_6_digit_pin_confirm">Ka kopo kenya tlhahiso ea nomoro ea PIN ea hau</string>
+    <string name="mismatch_pin">Tšoaea pini</string>
+    <string name="please_enter_brainkey">Ka kopo kenya ho brainkey</string>
+    <string name="please_enter_correct_brainkey">Ka kopo kenya boko bo nepahetseng, e tlameha ho ba le mantsoe a pakeng tsa 12 le 16.</string>
+    <string name="unable_to_load_brainkey">Ha e khone ho laola boko</string>
+    <string name="account_already_exist">Account e se e ntse e le teng</string>
+    <string name="importing_your_wallet">E kenya sepache sa hau ...</string>
+    <string name="account_candidates_title">Ka kopo khetha akhaonto</string>
+    <string name="account_candidates_content">Linotlolo tse nkiloeng ho brainkey ena li bonahala li sebelisoa ho laola ho feta akhaonto e le \'ngoe, ka kopo khetha khetho eo u lakatsang ho e kenya</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Kenya file .bin</string>
+    <string name="import_backup">Kenya Backup ho file .bin</string>
+    <string name="txt_no_internet_connection">Ha ho na puisano ea Inthanete</string>
+    <string name="no_file_chosen">Ha ho khetho e khethiloeng</string>
+    <string name="choose_backup">Khetha Backup</string>
+    <string name="choose_file">Khetha File</string>
+    <string name="txt_existing_password">Hona joale .bin file Password kapa PIN</string>
+    <string name="txt_new_pin">PIN e ncha (dipalo tse 6)</string>
+    <string name="importing_keys_from_bin_file">"Ho kenya lisebelisoa tse tsoang ho Bin file"</string>
+    <string name="please_make_sure_your_bin_file">Ka kopo etsa bonnete ba hore pinana ea hau e nepahetse kapa e nepahetse</string>
+    <string name="missing_existing_password">Ka kopo kenya phasewete e sebelisetsoang ho koetlisa faele ena ea ho boloka</string>
+    <string name="pin_number_request">Ka kopo kenya nomoro ea pene e sebelisetsoang ho khomarela faele ena ea ho boloka</string>
+    <string name="pin_number_warning">Nomoro ea pin e tlameha ho ba bonyane litekanyo tse 6</string>
+    <string name="backup_error_no_key_reference_found">Ha ho na ak\'haonte e sebelisang senotlolo sena, ka kopo etsa bonnete ba hore u sebelisa file e nchafalitsoeng.</string>
+    <string name="backup_error_no_wallet_backup">Ha ho na ho boloka sepache ho ka fumanoang faeleng ena</string>
+    <string name="error_invalid_account">Tlaleho e sa nepahaleng, ka kopo hlahloba senotlolo sa hau sa boko bakeng sa liphoso tsa ho thapa</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Kenya</string>
+    <string name="title_account_load_result">Akhawunti e laetsoe</string>
+    <string name="button_change_account">Fetoha</string>
+    <string name="title_select_input_assets">Khetha thepa ho amohela.</string>
+    <string name="explanation_account_setup">U tla hloka ho seta akhaonto ea Bitshares e le hore u fumane litefello. Kapa haeba u se u na le eona, u ka e kenya mona.</string>
+    <string name="explanation_output_asset">Khetha Smartcoin eo ue lakatsang:</string>
+    <string name="next">E \'ngoe</string>
+    <string name="done">E entsoe</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Lefa le</string>
+    <string name="error_corrupted_key_title">Phoso e kholo ea bobolu</string>
+    <string name="error_corrupted_key_content">Lenaneo lena le sitoa ho khutlisa lisebelisoa tsa hau tsa boinotši tse kentsoeng ho tloha ho database. Ka lebaka la sena u tla tlameha ho kenya linotlolo tsa hau hape. Ebang ka sebōpeho sa kelello kapa o theha file ea ho boloka boitsebiso e neng e hlahisoa mme e bolokiloe ka boomo ka sdcard ea hau haeba akhaonto e bōpiloe ke app</string>
+    <string name="invalid_pin">PIN e sa nepahaleng</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Lehae</string>
+    <string name="txt_transactions">Litšebetso</string>
+    <string name="txt_refunds_returns">Litefello / Litefiso</string>
+    <string name="txt_settlement">Settlement</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares nodes</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Chelete e lekaneng</string>
+    <string name="sub_total">Kakaretso-kakaretso:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Phoso ea buka ea litaelo</string>
+    <string name="content_error_market">Ha ho litaelo ho DEX e neng e tla re lumella ho etsa phapanyetsano ho %1$s hona joale. \n \nKa e-ea ho skrine ea litlhophiso mme u khethe phapang e fapaneng ea thepa.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Ka kopo o lefe</string>
+    <string name="please_pay_s_s">Ka kopo Pata: %1$s %2$s</string>
+    <string name="to_s">Ho: %1$s</string>
+    <string name="txt_network">Tefello ea mecha</string>
+    <string name="txt_please_wait">Ke kopa u eme</string>
+    <string name="error_node_unreachable">Ha ho na node e ka finyelloang</string>
+    <string name="invoice_subject">Invoice ea PalmPay ho tloha ho %1$s</string>
+    <string name="before_s">Pele: %1$s</string>
+    <string name="share">Kopanela</string>
+    <string name="share_with">Kopanela le</string>
+    <string name="connecting">Ho kopanya ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Khetha kopo ea tefo</string>
+    <string name="dialog_msg_select_pending_payment">Chelete e kenang e fumanoe, empa e ke ke ea abeloa ho lefshoa pele ho moo. Ka kopo khetha kopo e nepahetseng ea lekhetho ho tsoa lethathamong le latelang.</string>
+    <string name="dialog_msg_confirm_pending_payment">Sena se tla amahanya lekhetho le kenang ho kōpo ea tefo ea pele ea %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Lintlha tsa boipheliso tse tlang</string>
+    <string name="dialog_generic_title_confirm">U na le bonnete?</string>
+    <string name="dialog_generic_msg_confirm">Ka kopo hlokomela hore ketso ena e ke ke ea etsolloa</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Tlosa</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Puseletso e tiisitsoe!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Lisebelisoa</string>
+    <string name="general">Kakaretso</string>
+    <string name="security">Tshireletso</string>
+    <string name="backups">Litlhapiso</string>
+    <string name="tokens">Lipontšo</string>
+    <string name="accounts">Litlaleho</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Mokhoa oa bosiu</string>
+    <string name="currency_info">Chelete eo e itšetlehile ka ho ipapisa le puo ea hau le ho khetha naha. Haeba u batla ho fetola, u tlameha ho ea ho tsamaiso ea tsamaiso ea lefats\'e ea sesebelisoa sa hau.</string>
+    <string name="screen_saver">Screen saver</string>
+    <string name="source">Mohloli</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Tsela e fapaneng ea folda (/ PalmPay)</string>
+    <string name="txt_folder">Folder</string>
+    <string name="choose">Khetha</string>
+    <string name="screen_saver_time">Enable ka mor\'a ...</string>
+    <string name="one_minute">1 Minute</string>
+    <string name="three_minutes">Metsotso e 3</string>
+    <string name="five_minutes">Metsotso e 5</string>
+    <string name="local_ambassador">Mongoli oa sebakeng seo</string>
+    <string name="ambassador_info">Baemeli ba PalmPay ba lefshoa ka metsotsoana e meng le e meng e meraro. Mosebetsi oa bona ke ho tšehetsa bahoebi ba PalmPay ba moo \'me ba hlophisa Crypto Meetups khoeli le khoeli. Haeba motse oa hau o se o thathamisitsoe, joale motse oa hau ha o e-s\'o be le Ambassador oa PalmPay. \n \n Ho fumana lintlha tse ling, etela sechaba sa Agorise ka Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Motse</string>
+    <string name="country">Naha</string>
+    <string name="bugs_or_ideas">Liphoso kapa Likhopolo?</string>
+    <string name="bugs_or_ideas_contact_info">Puisano ea thelevishene: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Amohela</string>
+    <string name="select">Khetha</string>
+    <string name="are_you_sure">U na le bonnete?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Ho boloka boikutlo ba kelello</string>
+    <string name="copied_to_clipboard">E kopiloe ho lebokose la lipapali</string>
+    <string name="bin_file_description">Bin file. Kamehla u boloke faele ea hau ea ho boloka .bin file ho karete ea MicroSD ea sekhukhu kapa USB Stick.</string>
+    <string name="create_a_backup">Etsa bonnete</string>
+    <string name="brainkey_description">Brainkey. Mantsoe a ho khutlisetsa akhaonto a ka fumanoang kapa a kopitsoa, ​​empa a sa fetohe.</string>
+    <string name="txt_brain_key_info">E hatisa sena, kapa u ngole fatše. Mang kapa mang ea khonang ho fumana senotlolo sa hau sa ho hlaphoheloa o tla ba le monyetla oa ho fumana chelete ka har\'a sepache sena.</string>
+    <string name="view_and_copy"><![CDATA[Sheba & Kopitsa]]></string>
+    <string name="title_bin_backup">Export .bin backup</string>
+    <string name="hint_password">Netewete</string>
+    <string name="hint_password_confirmation">Pontšo ea netefete</string>
+    <string name="error_password_mandatory">E tlameha ho kenya phasewete</string>
+    <string name="error_password_too_short">Netefete e khutšoanyane haholo</string>
+    <string name="error_password_confirmation_mismatch">Netefete le tiiso e sa nepahaleng</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Ak\'hamphani ea Merane: %1$s</string>
+    <string name="upgrade_to_ltm">Tsoela pele ho LTM</string>
+    <string name="upgrade_account_description">"Ntlafatsa ho LifeTime Membership (LTM). Litlaleho tsa Bitshares \'LTM li lefa chelete e haufi-ufi, fumana chelete ea 80% ea cashback le bonase bakeng sa ho fetisetsoa."</string>
+    <string name="account_upgrade_title">Ntlafatsa akhaonto</string>
+    <string name="account_upgrade_content">Botho ba nako ea bophelo bo u lumella hore u kopane le lichelete tse fokotsehileng tsa litšenyehelo tsa marang-rang. \n \nA tla sebetsa ho akhaonto ea hona joale "%1$s" \n \nHa ho joalo leha ho e-na le litšenyehelo tsa li-USD tse 100 tse lefuoang Bitshares. \n \nA u na le bonnete ba hore u batla ho tsoela pele?</string>
+    <string name="account_upgrade_wait_content">Ts\'ebetso e nang le kopo ea hau e ntse e sebetsoa ke marang-rang</string>
+    <string name="error_upgrade_account_title">Phoso ha u leka ho ntlafatsa akhaonto</string>
+    <string name="error_upgrade_account_content">Ka kopo etsa bonnete ba hore akhaonto ea hau e na le tekanyo e lekaneng ea ho lefella litšenyehelo</string>
+    <string name="account_upgraded_title">Tlaleho e ntlafalitsoe</string>
+    <string name="account_upgraded_content">Kea leboha! akhaonto ea hau e se e ntlafalitsoe ho Bitso ba Bophelo.</string>
+    <string name="remove_account">Tlosa Account</string>
+    <string name="remove_account_description">Tlosa Ak\'haonte ea Merchant. Tlosa Ak\'haonte ea Merchant ka holimo ho sesebedisoa sena \'me u bōpe kapa u kenye e fapaneng.</string>
+    <string name="txt_account_remove_confirmation">"Na u netefatsa hore u batla ho tlosa akhaonto \'%1$s\' ho sepache?"</string>
+    <string name="remove">Tlosa</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Smartcoin e lakatsehang</string>
+    <string name="txt_customer_loyalty">E fana ka Lintlha tsa Botšepehi joaloka ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Akhaonto ea hau ha e e-s\'o be le %1$s leha e le efe. Ka kopo o fumane tse ling pele u leka ho fa leha e le efe ho bareki ba hao lintlha tsa Botšepehi.</string>
+    <string name="send">Romela</string>
+    <string name="txt_for_every">E mong le e mong</string>
+    <string name="txt_spent">e sebelisitsoe</string>
+    <string name="txt_bitcoin_altcoin_deposited">Amohela ho fihlela ho 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Ka kopo khetha khetho e fetang 8 ea thepa</string>
+    <string name="bitshares_unselection_message">Tokiso ea motheo ea Bitshares (BTS) e hlokahalang.</string>
+    <string name="toast_low_volume_market">Matlotlo a marakeng a tlaase a theko e tlaase a nakoana. Li tla fuoa matla hang ha lenane la \'maraka le phahama haholo</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Lebitso la Letlotlo</string>
+    <string name="address">Aterese</string>
+    <string name="phone_number">Nomoro ea mohala</string>
+    <string name="website">Websaeteng</string>
+    <string name="message">Molaetsa</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Ha e khone ho hlahisa mofuta oa bin bakeng sa senotlolo</string>
+    <string name="saving_bin_file_to_s">E boloka Binna Fono ho: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">File File e pholositsoe ka katleho ho: %1$s</string>
+    <string name="unable_to_save_bin_file">Ha e khone ho boloka faele ea bin</string>
+    <string name="creating_backup_file">Ho etsa File File</string>
+    <string name="fetching_key">Fetela Key</string>
+    <string name="generating_bin_format">Ho hlahisa sebōpeho sa bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Batla</string>
+    <string name="filter">Senya</string>
+    <string name="export">Export</string>
+    <string name="confirming">E netefatsa ...</string>
+    <string name="pdf_generated_msg_s">PDF e hlahisitsoeng le e bolokiloeng: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Ha e khone ho hlahisa pdf. Ka kopo leka hape. Phoso: %1$s</string>
+    <string name="csv_generated_msg_s">CSV e hlahisitse mme e bolokehile: %1$s</string>
+    <string name="csv_generated_msg_error_s">Ha e khone ho hlahisa csv. Ka kopo leka hape. Phoso: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Kaofela</string>
+    <string name="sent">E rometsoe</string>
+    <string name="received">Re amohetse</string>
+    <string name="date_range">Nako ea Letsatsi</string>
+    <string name="txt_to">ho</string>
+    <string name="cryptocurrency">Khaliso e kholo</string>
+    <string name="fiat_amount">Nako ea Fiat</string>
+    <string name="between">Between</string>
+    <string name="and">le</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Fetisa litšebeliso tse tlhotliloeng</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Ho hlahisa sehlahisoa sa thepa</string>
+    <string name="exported_file_name">PalmPay-Litšebetso</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Ho tloha</string>
+    <string name="to">Ho</string>
+    <string name="memo">Memo</string>
+    <string name="date">Letsatsi</string>
+    <string name="time">Nako</string>
+    <string name="crypto_amount">Chelete ea Crypto</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Chelete ea chelete ea chelete</string>
+    <string name="total_fiat_amount">Palo ea Fiat</string>
+    <string name="fiat_currency">Chelete ea chelete</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Sehlooho %1$d</string>
+    <string name="subtotal">Sehlopha se ka tlase</string>
+    <string name="network_fee">Tefello ea mecha</string>
+    <string name="total">Kakaretso</string>
+    <string name="paid_s_s">E lefshoa %1$s %2$s</string>
+    <string name="change_due">Fetola e lekaneng</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Letsatsi: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt ho tloha ho %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Phoso ea khale e sa nepahalang</string>
+    <string name="pin_changed_successfully">PIN e fetotsoe ka katleho</string>
+    <string name="please_enter_pin">Ka kopo kenya nomoro ea PIN</string>
+    <string name="please_enter_pin_confirmation">Ka kopo kenya phapang ea nomoro ea PIN</string>
+    <string name="title_change_pin">Fetola PIN</string>
+    <string name="txt_current_pin">Nomoro ea PIN ea hona joale</string>
+    <string name="please_enter_old_pin">Ka kopo kenya nomoro ea PIN ea khale</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Nkosahano ea khokahanyo, ho leka hape</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Re na le tefo e tlang, empa ha ho kopo e ka fumanoang</string>
+
+</resources>

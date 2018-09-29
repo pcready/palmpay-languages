@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Тусгай зөвшөөрөл</string>
+    <string name="agree">Зөвшөөрч байна</string>
+    <string name="disagree">Зөвшөөрнө</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Ачаалж байна ...</string>
+    <string name="title_loading_asset_type_data">Хөрөнгийн төрлийн өгөгдлийг ачаалж байна ...</string>
+    <string name="title_assets_ready">Хөрөнгийн мэдээллийн сан бэлэн байна</string>
+    <string name="msg_loading_all_existing_assets">Одоо байгаа бүх хөрөнгийн бүрэн жагсаалтыг авахын тулд хэд хэдэн хүсэлт гаргах</string>
+    <string name="msg_loading_asset_type_data">Хөрөнгийн дэлгэрэнгүйг хүсэх</string>
+    <string name="msg_loading_asset_in_database">%1$d хөрөнгийг мэдээллийн санд байршуулна</string>
+    <string name="msg_assets_loaded">Дараа нь, акаунтаа тохируулна уу ...</string>
+    <string name="error_fetching_marketcap_data">Зах зээлийн категорийн мэдээллийг дуудаж чадсангүй</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Бүртгэл үүсгэх</string>
+    <string name="txt_account_name">BitShares дансны нэр</string>
+    <string name="unable_to_find_account_id">Хэрэглэгчийн бүртгэлийн ID олох боломжгүй байна</string>
+    <string name="error_invalid_account_name_explanation">Бүртгэлийн нэр 8 тэмдэгтээс ихгүй байх ёстой, тоо агуулж эсвэл эгшиг байхгүй байна. Доогуур зураасан тэмдэгт нь мөн зөвшөөрөгдөөгүй.</string>
+    <string name="create">Үүсгэх</string>
+    <string name="error">Алдаа</string>
+    <string name="account_name_already_exist">Акаунтын нэр аль хэдийн орсон байна</string>
+    <string name="try_again">5 минутын дараа дахин оролдоно уу</string>
+    <string name="txt_new_pin_confirmation">Шинэ PIN (6+ тоо) баталгаажуулах</string>
+    <string name="error_wif">WIF түлхүүр үүсгэх үед алдаа гарлаа</string>
+    <string name="error_faucet_template">Усны цорго алдаа гаргасан байна. Msg: __1с__</string>
+    <string name="error_read_dict_file">Толь бичгийн файлыг уншихад алдаа гарлаа</string>
+    <string name="error_missing_account">Апп нь шинээр үүсгэсэн дансны талаарх мэдээллийг авч чадсангүй</string>
+    <string name="create_account_title">Шинэ данс үүсгэх</string>
+    <string name="create_account_message">Таны акаунт үүсгэгдсэний дараа хүлээнэ үү</string>
+    <string name="error_faucet_explanation">Сервер алдаа буцаж ирэв. Энэ нь богино хугацаанд түр зогсох хүсэлтийг нэг IP хаягаас байнга авах хүсэлтийг хязгаарлах зорилготой юм. 5 минут хүлээнэ үү, дахин оролдох буюу өөр сүлжээнд шилжих, Жишээ нь wifi-оос cell уруу орно.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Үргэлжлүүлэхээсээ өмнө өөрийн brainkey-ийг нөөцлөхийг анхаарна уу. Энэ нь таны төхөөрөмжийг сэргээх боломжийг олгоно.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Та одоо байгаа акаунтыг яаж импортлохыг хүсч байна вэ?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF түлхүүр</string>
+    <string name="bin_file">.bin файл</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">6+ оронтой PIN сонгоно уу</string>
+    <string name="txt_6_digits_pin_confirm">6+ оронтой PIN баталгаажуулна</string>
+    <string name="please_enter_6_digit_pin">6 оронтой PIN оруулна уу</string>
+    <string name="please_enter_6_digit_pin_confirm">Таны PIN дугаарыг баталгаажуулах оруулна уу</string>
+    <string name="mismatch_pin">Хагалгааны бус</string>
+    <string name="please_enter_brainkey">Brainkey-г оруулна уу</string>
+    <string name="please_enter_correct_brainkey">Зөв оюун ухаанаа оруулаад 12-16 үгтэй байх ёстой.</string>
+    <string name="unable_to_load_brainkey">Brainkey-ийг ачааллах боломжгүй</string>
+    <string name="account_already_exist">Акаунт аль хэдийн байна</string>
+    <string name="importing_your_wallet">Түрийвчээ оруулсан ...</string>
+    <string name="account_candidates_title">Акаунтаа сонгоно уу</string>
+    <string name="account_candidates_content">Энэ оюун ухаанаас үүссэн түлхүүрүүд нь нэгээс дээш бүртгэлийг хянахад ашиглагддаг, аль дансаа импортлохыг сонгоно уу</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Импорт .bin файл</string>
+    <string name="import_backup">Нөөц хуулбарыг .bin файлаас импорт хийх</string>
+    <string name="txt_no_internet_connection">Интернет холболт байхгүй байна</string>
+    <string name="no_file_chosen">Ямар ч файл сонгосон</string>
+    <string name="choose_backup">Нөөцийг сонгоно уу</string>
+    <string name="choose_file">Файл сонгох</string>
+    <string name="txt_existing_password">Одоогийн .bin файл Нууц үг буюу PIN</string>
+    <string name="txt_new_pin">Шинэ PIN (6+ тоо)</string>
+    <string name="importing_keys_from_bin_file">"Бин файлаас оруулах түлхүүрүүд"</string>
+    <string name="please_make_sure_your_bin_file">Таны зүү зөв эсвэл bin файлын сонгосон зөв эсэхийг шалгана уу</string>
+    <string name="missing_existing_password">Нөөц файлаа шифрлэхэд ашигладаг нууц үгийг оруулна уу</string>
+    <string name="pin_number_request">Энэ нөөц файлыг кодлоход ашигладаг pin дугаарыг оруулна уу</string>
+    <string name="pin_number_warning">PIN дугаар нь дор хаяж 6 оронтой байх ёстой</string>
+    <string name="backup_error_no_key_reference_found">Энэ түлхүүрийг ашигласан данс олдсонгүй бөгөөд та шинэчлэгдсэн нөөц файлыг ашиглаж байгаа эсэхээ шалгаарай.</string>
+    <string name="backup_error_no_wallet_backup">Энэ файлын дотор хэтэвчээс нөөцлөх боломжгүй</string>
+    <string name="error_invalid_account">Буруу акаунт, алдааг бичихийн тулд өөрийн тархины түлхүүрийг шалгана уу</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Импорт</string>
+    <string name="title_account_load_result">Акаунт ачаалагдсан</string>
+    <string name="button_change_account">Өөрчлөлт</string>
+    <string name="title_select_input_assets">Зөвшөөрөх активыг сонгоно уу.</string>
+    <string name="explanation_account_setup">Төлбөр хүлээн авахын тулд та Bitshares дансаа тохируулах шаардлагатай болно. Эсвэл хэрэв та аль хэдийн байх юм бол та энд оруулж болно.</string>
+    <string name="explanation_output_asset">Таны хүссэн Smartcoin-г сонгоно уу:</string>
+    <string name="next">Дараачийн</string>
+    <string name="done">Үүнийг хийлээ</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Төлбөртэй</string>
+    <string name="error_corrupted_key_title">Авлигын гол алдаа</string>
+    <string name="error_corrupted_key_content">Апп нь өгөгдлийн сангаас шифрлэсэн хувийн түлхүүрүүдийг сэргээж чадахгүй байна. Үүний улмаас та түлхүүрээ дахин оруулах шаардлагатай болно. Аппликешн нь данс үүсгэгдсэн бол braindiff хэлбэрээр юмуу эсвэл sdcard-д автоматаар хадгалагдан үлдсэн нөөшлөлтийн файлыг үүсгэж болно.</string>
+    <string name="invalid_pin">Хүчингүй PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Нүүр хуудас</string>
+    <string name="txt_transactions">Ажил гүйлгээ</string>
+    <string name="txt_refunds_returns">Буцаах / буцаах</string>
+    <string name="txt_settlement">Төлбөр тооцоо</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares цэгүүд</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Хүрэх хэмжээ</string>
+    <string name="sub_total">Дэд Нийт:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Номын алдааны захиалга</string>
+    <string name="content_error_market">Одоогийн байдлаар __1с__ руу солилцоо хийх боломж олгох DEX-д захиалга байхгүй болно. \n \nТохиргооны дэлгэц рүү очоод өөр өөр гарц хөрөнгийг сонгоно уу.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Төлбөр төлнө үү</string>
+    <string name="please_pay_s_s">Төлбөр хийх: %1$s %2$s</string>
+    <string name="to_s">Хэн: __1с__</string>
+    <string name="txt_network">Сүлжээний хураамж</string>
+    <string name="txt_please_wait">Хүлээнэ үү</string>
+    <string name="error_node_unreachable">Ямар ч цэг хүрч чадахгүй</string>
+    <string name="invoice_subject">PalmPay нэхэмжлэх __1с__</string>
+    <string name="before_s">Өмнө нь: __1с__</string>
+    <string name="share">Хуваалцах</string>
+    <string name="share_with">Хуваалц</string>
+    <string name="connecting">Холбогдож байна ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Төлбөрийн хүсэлтийг сонгоно уу</string>
+    <string name="dialog_msg_select_pending_payment">Ирж буй төлбөрийг илрүүлсэн боловч өмнө нь хүссэн төлбөрт автоматиар хуваарилж чадсангүй. Дараах жагсаалтаас зөв төлбөрийн хүсэлтийг сонгоно уу.</string>
+    <string name="dialog_msg_confirm_pending_payment">Энэ нь ирж буй төлбөрийг өмнө нь бүртгэгдсэн төлбөрийн хүсэлтийг __1с__</string>
+    <string name="dialog_msg_incoming_payment_details">Ирж буй төлбөрийн дэлгэрэнгүй мэдээлэл</string>
+    <string name="dialog_generic_title_confirm">Чи итгэлтэй байна уу?</string>
+    <string name="dialog_generic_msg_confirm">Энэ үйлдлийг буцаах боломжгүй болохыг анхаарна уу</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Дуусах</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Төлбөрийг баталгаажуулсан!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Тохиргоо</string>
+    <string name="general">Ерөнхий зүйл</string>
+    <string name="security">Аюулгүй байдал</string>
+    <string name="backups">Нөөцлөлтүүд</string>
+    <string name="tokens">Токенс</string>
+    <string name="accounts">Акаунтууд</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Шөнийн горим</string>
+    <string name="currency_info">Валют автоматаар сонгогдох болно. Хэрэв та эдгээрийг өөрчлөхийг хүсвэл, та өөрийн төхөөрөмжийн дэлхийн системийн тохиргоо руу очих ёстой.</string>
+    <string name="screen_saver">Дэлгэц амраагч</string>
+    <string name="source">Эх сурвалж</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Үндсэн фолдер (/ PalmPay)</string>
+    <string name="txt_folder">Folder</string>
+    <string name="choose">Сонгох</string>
+    <string name="screen_saver_time">Дараа ...</string>
+    <string name="one_minute">1 минут</string>
+    <string name="three_minutes">3 минут</string>
+    <string name="five_minutes">5 минут</string>
+    <string name="local_ambassador">Орон нутгийн элчин сайд</string>
+    <string name="ambassador_info">PalmPay Элчин сайдын яам 3 секунд тутамд төлдөг. Тэдний ажил нь орон нутгийн PalmPay-ийн худалдаачдыг дэмжих, сар бүр Crypto Meetups зохион байгуулах явдал юм. Хэрвээ танай хотод бүртгэлгүй бол таны хот PalmPay Элчин сайдын яаманд байхгүй байна. \n \n Дэлгэрэнгүй мэдээлэл авахыг хүсвэл Telegram дээрээс Agorise нийгэмлэгт зочилно уу: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Хот</string>
+    <string name="country">Улс</string>
+    <string name="bugs_or_ideas">Алдаанууд эсвэл санаанууд?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram чат: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Хүлээн авах</string>
+    <string name="select">Сонгох</string>
+    <string name="are_you_sure">Чи итгэлтэй байна уу?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Clipboard руу хуулна</string>
+    <string name="bin_file_description">Бин файл. Нөөцөө үргэлж хадгалаарай .bin файлыг MicroSD карт эсвэл USB зөөгчид хадгална уу.</string>
+    <string name="create_a_backup">Нөөц үүсгэх</string>
+    <string name="brainkey_description">Brainkey. Дансны сэргээх үгсийг хулгайлах эсвэл хуулбарлах боломжтой боловч засварлахгүй.</string>
+    <string name="txt_brain_key_info">Үүнийг хэвлэ, эсвэл үүнийг бичнэ үү. Таны сэргээх түлхүүрт хандах боломжтой бүх хүн энэ түрийвч доторх хөрөнгийг ашиглах боломжтой болно.</string>
+    <string name="view_and_copy"><![CDATA[View & Copy]]></string>
+    <string name="title_bin_backup">Экспорт .bin нөөцлөлт</string>
+    <string name="hint_password">Нууц үг</string>
+    <string name="hint_password_confirmation">Нууц үг баталгаажуулах</string>
+    <string name="error_password_mandatory">Нууц үгээ оруулна уу</string>
+    <string name="error_password_too_short">Нууц үг хэт богино байна</string>
+    <string name="error_password_confirmation_mismatch">Нууц үг ба баталгаажуулалтын үл тохирол</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Худалдааны данс: __1с__</string>
+    <string name="upgrade_to_ltm">LTM-д шинэчилнэ үү</string>
+    <string name="upgrade_account_description">"LifeTime Membership (LTM) -ийг боловсронгуй болгох нь Bitshares-ийн LTM-ийн дансны хураамжийг ойролцоогоор-тэг төлбөр, 80% -ийг бэлэн мөнгө авах, төлбөрт шилжүүлэхэд зориулж олгодог."</string>
+    <string name="account_upgrade_title">Акаунтыг шинэчлэх</string>
+    <string name="account_upgrade_content">Амьдралын цаг Гишүүнчлэл нь таныг сүлжээний төлбөрийн багцыг багасгах боломжийг олгодог. \n \nЭнэ нь "%1$s" \n \n харилцах данс нээгдэнэ. Гэхдээ энэ нь Bitshares дээр 100 орчим долларын төлбөрт төлдөг. \n \nТа үргэлжлүүлэхийг хүсч байна уу?</string>
+    <string name="account_upgrade_wait_content">Таны хүсэлтийг агуулсан гүйлгээг сүлжээгээр боловсруулж байна</string>
+    <string name="error_upgrade_account_title">Акаунтыг шинэчлэх явцад алдаа гарлаа</string>
+    <string name="error_upgrade_account_content">Таны данс нь зардлыг нөхөх хангалттай тэнцвэрт байгаа эсэхийг шалгана уу</string>
+    <string name="account_upgraded_title">Акаунтыг шинэчилсэн</string>
+    <string name="account_upgraded_content">Баяр хүргэе! Таны акаунтыг одоо Насан туршийн гишүүнчлэл болгон шинэчилсэн.</string>
+    <string name="remove_account">Дансыг устгах</string>
+    <string name="remove_account_description">Энэ Худалдааны дансыг устгах. Энэ Худалдааны Дансны Дансны дээрх энэ төхөөрөмжөөс дээрхийг устгаад, өөр төхөөрөмжийг импортлох эсвэл импортлох боломжтой.</string>
+    <string name="txt_account_remove_confirmation">"Та энэ хэтэвчнээс" __1с__ "акаунтыг устгахдаа итгэлтэй байна уу?"</string>
+    <string name="remove">Устгах</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Хүссэн Smartcoin</string>
+    <string name="txt_customer_loyalty">Асуудал дэвшүүлэх цэгийг ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Таны акаунт __1с__ эзэмшдэггүй байна. Өөрийн үйлчлүүлэгчиддээ Loyalty Points гэж өгөхийг хичээхээсээ өмнө зарим зүйлийг олж аваарай.</string>
+    <string name="send">Илгээх</string>
+    <string name="txt_for_every">Бүгд</string>
+    <string name="txt_spent">зарцуулсан</string>
+    <string name="txt_bitcoin_altcoin_deposited">8 хуртэлх кредиттэй валютыг хулээн авах:</string>
+    <string name="altcoins_should_not_more_than">8 оролтоос илүүдэхгүй хөрөнгийг сонгоно уу</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) үндсэн тэмдгийг шаарддаг.</string>
+    <string name="toast_low_volume_market">Үнэт цаасны зах зээл сул байгаа нь түр зуурын тахир дутуу болж байна. Зах зээлийн хэмжээ их хэмжээгээр нэмэгдэх тутам тэдгээрийг идэвхжүүлнэ</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Лого</string>
+    <string name="store_name">Нэр хадгалах</string>
+    <string name="address">Хаяг</string>
+    <string name="phone_number">Утасны дугаар</string>
+    <string name="website">Вэб хуудас</string>
+    <string name="message">Захиа</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Бин форматыг түлхүүр үүсгэх боломжгүй байна</string>
+    <string name="saving_bin_file_to_s">Бин файлыг дараах байдлаар хадгална: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Бин файл амжилттай хадгалагдсан: %1$s</string>
+    <string name="unable_to_save_bin_file">Бин файлыг хадгалах боломжгүй байна</string>
+    <string name="creating_backup_file">Нөөц файл үүсгэх</string>
+    <string name="fetching_key">Түлхүүрээс авах</string>
+    <string name="generating_bin_format">Бин формат үүсгэх</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Хайлт</string>
+    <string name="filter">Шүүлтүүр</string>
+    <string name="export">Экспорт</string>
+    <string name="confirming">Баталгаажуулах ...</string>
+    <string name="pdf_generated_msg_s">PDF үүсгэж хадгалсан: __1с__</string>
+    <string name="pdf_generated_msg_error_s">Pdf үүсгэх боломжгүй байна. Дахин оролдоно уу. Алдаа: __1с__</string>
+    <string name="csv_generated_msg_s">CSV үүсгэж хадгалсан: __1с__</string>
+    <string name="csv_generated_msg_error_s">Csv үүсгэх боломжгүй байна. Дахин оролдоно уу. Алдаа: __1с__</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Бүгд</string>
+    <string name="sent">Илгээсэн</string>
+    <string name="received">Хүлээн авсан</string>
+    <string name="date_range">Огноо Range</string>
+    <string name="txt_to">to</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat хэмжээ</string>
+    <string name="between">Хооронд нь</string>
+    <string name="and">болон</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Экспортын шүүлтүүрээр хийсэн гүйлгээ</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Экспортын бүтээгдэхүүнийг бий болгох</string>
+    <string name="exported_file_name">PalmPay-Transactions</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Эхлээд</string>
+    <string name="to">To</string>
+    <string name="memo">Уг санамж</string>
+    <string name="date">Огноо</string>
+    <string name="time">Цаг хугацаа</string>
+    <string name="crypto_amount">Crypto Amount</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Fiat Amount-тэй</string>
+    <string name="total_fiat_amount">Fiat Нийт дүн</string>
+    <string name="fiat_currency">Fiat Валют</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">%1$d зүйл</string>
+    <string name="subtotal">Дэд Бүгд</string>
+    <string name="network_fee">Сүлжээний хураамж</string>
+    <string name="total">Нийт</string>
+    <string name="paid_s_s">Төлбөртэй __1с__ __2с__</string>
+    <string name="change_due">Хүчин төгөлдөр болох өөрчлөлт</string>
+    <string name="e_receipt_memo_s">Уг сан: __1с__</string>
+    <string name="e_receipt_date_s">Огноо: __1с__</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt __1с__</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Хуучин PIN буруу байна</string>
+    <string name="pin_changed_successfully">ПИН код амжилттай болсон</string>
+    <string name="please_enter_pin">PIN кодыг оруулна уу</string>
+    <string name="please_enter_pin_confirmation">Өөрийн PIN дугаарыг баталгаажуулна уу</string>
+    <string name="title_change_pin">ПИН засвар</string>
+    <string name="txt_current_pin">Одоогийн PIN дугаар</string>
+    <string name="please_enter_old_pin">Хуучин PIN дугаар оруулна уу</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Үүсгэх холболтын алдаа, дахин оролдож байна</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Бидэнд төлбөрт оруулсан боловч ямар ч хүсэлт олдсонгүй</string>
+
+</resources>

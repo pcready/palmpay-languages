@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light theme -->
+    <color name="colorPrimary">#139657</color>
+    <color name="colorPrimaryDark">#00672d</color>
+    <color name="colorAccent">#55c884</color>
+    <color name="textColorPrimary">@color/primary_text_light</color>
+    <color name="textColorSecondary">@android:color/secondary_text_light</color>
+    <color name="textColorPrimaryInverse">@android:color/secondary_text_dark</color>
+    <color name="textColorSecondaryInverse">@android:color/secondary_text_dark</color>
+
+    <!-- Dark/night theme -->
+    <color name="colorPrimaryInverse">#139657</color>
+    <color name="colorPrimaryDarkInverse">#00672d</color>
+    <color name="colorAccentInverse">#55c884</color>
+
+    <!-- Others -->
+    <color name="red">#f00</color>
+    <color name="gray">#808080</color>
+    <color name="darkGray">#616161</color>
+    <color name="lightGray">#e0e0e0</color>
+    <color name="superLightGray">#f8f8f8</color>
+    <color name="colorReceive">#669900</color>
+    <color name="colorSend">#DC473A</color>
+    <color name="dayThemeBackground">#f4f4f4</color>
+</resources>

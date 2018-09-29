@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Ceadúnas</string>
+    <string name="agree">Aontaigh</string>
+    <string name="disagree">Easaontaigh</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Sócmhainní a luchtú ...</string>
+    <string name="title_loading_asset_type_data">Ag luchtú sonraí cineál sócmhainne ...</string>
+    <string name="title_assets_ready">Bunachar sonraí sócmhainní réidh</string>
+    <string name="msg_loading_all_existing_assets">Sraith iarratais a dhéanamh chun liosta iomlán na sócmhainní atá ann cheana a fháil</string>
+    <string name="msg_loading_asset_type_data">Ag iarraidh tuilleadh sonraí sócmhainne</string>
+    <string name="msg_loading_asset_in_database">Luchtaithe %1$d sócmhainní isteach sa bhunachar sonraí</string>
+    <string name="msg_assets_loaded">Ar Aghaidh, socraigh do chuntas ...</string>
+    <string name="error_fetching_marketcap_data">Níorbh fhéidir sonraí marketcap a luchtú</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Cruthaigh Cuntas</string>
+    <string name="txt_account_name">Ainm chuntas BitShares</string>
+    <string name="unable_to_find_account_id">Níorbh fhéidir id chuntas úsáideora a aimsiú</string>
+    <string name="error_invalid_account_name_explanation">Caithfidh níos mó ná 8 carachtar a bheith ag an ainm chuntais, tá uimhir nó nach bhfuil aon fhocail ann. Ní cheadaítear an carachtar bochta freisin.</string>
+    <string name="create">Cruthaigh</string>
+    <string name="error">Earráid</string>
+    <string name="account_name_already_exist">Tá ainm an chuntas ann cheana féin</string>
+    <string name="try_again">Déan iarracht arís tar éis 5 nóiméad</string>
+    <string name="txt_new_pin_confirmation">Dearbhaigh PIN nua (6 dhigit)</string>
+    <string name="error_wif">Earráid a chruthú eochair WIF</string>
+    <string name="error_faucet_template">D\'fhill an faucet earráid. Msg: %1$s</string>
+    <string name="error_read_dict_file">Earráid comhad foclóir léitheoireachta</string>
+    <string name="error_missing_account">Níorbh fhéidir leis an app faisnéis a fháil faoin gcuntas nua-chruthaithe</string>
+    <string name="create_account_title">Cuntas nua a chruthú</string>
+    <string name="create_account_message">Fan le do thoil agus cruthaítear do chuntas</string>
+    <string name="error_faucet_explanation">D\'fhill an freastalaí earráid. D\'fhéadfadh sé seo a bheith mar gheall ar theorannú atá leagtha amach go críochnaitheach chun iarratais a dhéanamh go minic a thagann ón seoladh IP céanna i dtréimhse ghearr ama. Fan 5 nóiméad ar do shon agus déan iarracht arís, nó aistrigh chuig líonra eile, Mar shampla, ó wifi go dtí cill.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Déan cinnte go bhfuil tú ag dul ar ais do brainkey roimh dul ar aghaidh. Tabharfaidh sé seo deis duit do chuntas a ghnóthú más rud é go dtarlaíonn rud éigin leis an ngléas seo.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Cén chaoi ar mhaith leat do chuntas atá ann cheana a allmhairiú?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">Eochair WIF</string>
+    <string name="bin_file">Comhad .bin</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Roghnaigh PIN 6+ dhigit</string>
+    <string name="txt_6_digits_pin_confirm">Dearbhaíonn PIN 6+ dhigit</string>
+    <string name="please_enter_6_digit_pin">Cuir isteach an PIN 6 dhigit</string>
+    <string name="please_enter_6_digit_pin_confirm">Cuir isteach deimhniú do uimhir PIN</string>
+    <string name="mismatch_pin">Bioráin Mismatch</string>
+    <string name="please_enter_brainkey">Cuir isteach brainkey</string>
+    <string name="please_enter_correct_brainkey">Cuir isteach brainkey ceart, ba chóir go mbeadh sé idir 12 agus 16 focal.</string>
+    <string name="unable_to_load_brainkey">Níorbh fhéidir brainkey a luchtú</string>
+    <string name="account_already_exist">Tá cuntas ann cheana féin</string>
+    <string name="importing_your_wallet">Iompórtáil do sparán ...</string>
+    <string name="account_candidates_title">Roghnaigh cuntas</string>
+    <string name="account_candidates_content">Is cosúil go mbaintear úsáid as na heochracha a thagann as an brainse seo chun níos mó ná cuntas amháin a rialú, roghnaigh an cuntas ar mhaith leat a allmhairiú</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Iompórtáil comhad .bin</string>
+    <string name="import_backup">Iompórtáil Cúltaca ó chomhad .bin</string>
+    <string name="txt_no_internet_connection">Gan Ceangal Idirlín</string>
+    <string name="no_file_chosen">Níor roghnaíodh aon chomhad</string>
+    <string name="choose_backup">Roghnaigh Cúltaca</string>
+    <string name="choose_file">Roghnaigh Comhad</string>
+    <string name="txt_existing_password">Pasfhocal nó PIN reatha .bin</string>
+    <string name="txt_new_pin">PIN Nua (6 dhigit)</string>
+    <string name="importing_keys_from_bin_file">"Eochracha Iompórtála ó chomhad Bin"</string>
+    <string name="please_make_sure_your_bin_file">Déan cinnte go bhfuil do bhrabhsálaí ceart comhad ceart nó ceart roghnaithe</string>
+    <string name="missing_existing_password">Cuir isteach an focal faire a úsáidtear chun an comhad cúltaca seo a chriptiú</string>
+    <string name="pin_number_request">Cuir isteach an uimhir bioráin a úsáidtear chun an comhad cúltaca seo a ionchódú</string>
+    <string name="pin_number_warning">Ní mór go mbeadh 6 dhigit ar a laghad ag an uimhir bioráin</string>
+    <string name="backup_error_no_key_reference_found">Níor aimsíodh aon eochair ag baint úsáide as an eochair seo, déan cinnte go bhfuil tú ag baint úsáide as comhad cúltaca nuashonraithe.</string>
+    <string name="backup_error_no_wallet_backup">Níorbh fhéidir aon chúltaca sparán a fháil sa chomhad seo</string>
+    <string name="error_invalid_account">Cuntas neamhbhailí, seiceáil d\'eochair inchinn le haghaidh earráidí a chlóscríobh</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Iompórtáil</string>
+    <string name="title_account_load_result">Cuntas luchtaithe</string>
+    <string name="button_change_account">Athrú</string>
+    <string name="title_select_input_assets">Roghnaigh na sócmhainní le glacadh leo.</string>
+    <string name="explanation_account_setup">Beidh ort cuntas Bitshares a chur ar bun d\'fhonn íocaíochtaí a fháil. Nó má tá ceann agat cheana féin, is féidir leat é a allmhairiú anseo.</string>
+    <string name="explanation_output_asset">Roghnaigh do Smartcoin atá ag teastáil:</string>
+    <string name="next">Ar Aghaidh</string>
+    <string name="done">Arna dhéanamh</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Pá leis</string>
+    <string name="error_corrupted_key_title">Príomh-earráid ar éilliú</string>
+    <string name="error_corrupted_key_content">Níl an t-iarratas in ann do chuid eochracha príobháideacha criptithe a aisghabháil ón mbunachar sonraí. Mar gheall air seo caithfidh tú do chuid eochracha a chur isteach arís. Ceachtar i bhfoirm brainse inchinn nó déan an comhad cúltaca bruscair a cruthaíodh agus a stóráil go huathoibríoch i do sdcard má chruthaigh an app an cuntas</string>
+    <string name="invalid_pin">PIN Neamhbhailí</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Baile</string>
+    <string name="txt_transactions">Idirbhearta</string>
+    <string name="txt_refunds_returns">Aisíocaíochtaí / Tuairisceáin</string>
+    <string name="txt_settlement">Lonnaíocht</string>
+    <string name="bitshares_nodes_dialog_title">Nótaí Bitshares</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Mhéid a bheidh dlite</string>
+    <string name="sub_total">Fo-Iomlán:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Earráid leabhar ordú</string>
+    <string name="content_error_market">Níl aon ordú sa DEX a ligfeá linn an malartán a dhéanamh go %1$s faoi láthair. \n \n Téigh go dtí an scáileán socruithe agus roghnaigh sócmhainn aschuir éagsúla.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Páigh le do thoil</string>
+    <string name="please_pay_s_s">Íoc le do thoil: %1$s %2$s</string>
+    <string name="to_s">Chun: %1$s</string>
+    <string name="txt_network">Táille líonra</string>
+    <string name="txt_please_wait">Fán le do thoil</string>
+    <string name="error_node_unreachable">Níorbh fhéidir aon nód a bhaint amach</string>
+    <string name="invoice_subject">Sonrasc PalmPay ó %1$s</string>
+    <string name="before_s">Roimh: %1$s</string>
+    <string name="share">Comhroinn</string>
+    <string name="share_with">Comhroinn le</string>
+    <string name="connecting">Ag nascadh ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Roghnaigh an t-iarratas ar íocaíocht</string>
+    <string name="dialog_msg_select_pending_payment">Braitheadh ​​íocaíocht ag teacht isteach, ach ní fhéadfaí íocaíocht a iarradh roimhe sin a shannadh go huathoibríoch. Roghnaigh an t-iarratas íocaíochta ceart ón liosta seo a leanas.</string>
+    <string name="dialog_msg_confirm_pending_payment">Cuirfidh sé seo nasc leis an íocaíocht atá ag teacht leis an iarratas íocaíochta a taifeadadh roimhe seo de %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Sonraí íocaíochta isteach</string>
+    <string name="dialog_generic_title_confirm">An bhfuil tú cinnte?</string>
+    <string name="dialog_generic_msg_confirm">Tabhair faoi deara nach féidir an gníomh seo a dhíchur</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Díscaoileadh</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Íocaíocht deimhnithe!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Socruithe</string>
+    <string name="general">Ginearálta</string>
+    <string name="security">Slándáil</string>
+    <string name="backups">Cúltacaí</string>
+    <string name="tokens">Comharthaí</string>
+    <string name="accounts">Cuntais</string>
+    <string name="e_receipts">eisiúintí</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Mód oíche</string>
+    <string name="currency_info">Roghnaítear an t-airgeadra go huathoibríoch bunaithe ar do theanga agus ar roghnú na tíre. Más mian leat iad sin a athrú, ní mór duit dul chuig suímh chóras domhanda do gléas.</string>
+    <string name="screen_saver">Spárálaíscáileáin</string>
+    <string name="source">Foinse</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Fillteán Réamhshocraithe (/ PalmPay)</string>
+    <string name="txt_folder">Fillteán</string>
+    <string name="choose">Roghnaigh</string>
+    <string name="screen_saver_time">Cumasaigh tar éis ...</string>
+    <string name="one_minute">1 Nóiméad</string>
+    <string name="three_minutes">3 Miontuairiscí</string>
+    <string name="five_minutes">5 Miontuairisc</string>
+    <string name="local_ambassador">Ambasadóir Áitiúil</string>
+    <string name="ambassador_info">Íoctar Ambasadóirí PalmPay gach 3 soicind. Is é an obair atá acu ná tacú le ceannaithe áitiúla PalmPay agus eagraigh Meetups míosúil Crypto. Mura bhfuil do chathair liostaithe, níl Ambasadóir PalmPay fós ag do chathair. \n \nLe haghaidh tuilleadh eolais, téigh chuig pobal Agorise ar Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Cathair</string>
+    <string name="country">Tír</string>
+    <string name="bugs_or_ideas">Bugs nó Smaointe?</string>
+    <string name="bugs_or_ideas_contact_info">Comhrá telegram: http://t.me/Agorise \n Ríomhphost: Agorise@protonmail.ch</string>
+    <string name="accept">Glac leis</string>
+    <string name="select">Roghnaigh</string>
+    <string name="are_you_sure">An bhfuil tú cinnte?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Cúltaca brainkey</string>
+    <string name="copied_to_clipboard">Cóipeáil chuig gearrthaisce</string>
+    <string name="bin_file_description">Comhad Bin. Sábháil i gcónaí do chomhad .bin cúltaca le cárta rúnda MicroSD nó USB Stick.</string>
+    <string name="create_a_backup">Cruthaigh cúltaca</string>
+    <string name="brainkey_description">Brainkey. Focail aisghabhála cuntais ar féidir iad a ghabháil nó a chóipeáil, ach gan iad a eagrú.</string>
+    <string name="txt_brain_key_info">Déan é seo a phriontáil, nó é a scríobh síos. Beidh rochtain ag duine ar bith a bhfuil rochtain acu ar do eochair ghnóthú ar chistí laistigh den sparán seo.</string>
+    <string name="view_and_copy"><![CDATA[Féach & Cóipeáil]]></string>
+    <string name="title_bin_backup">Easpórtáil cúltaca .bin</string>
+    <string name="hint_password">Pasfhocal</string>
+    <string name="hint_password_confirmation">Deimhniú pasfhocal</string>
+    <string name="error_password_mandatory">Ní mór pasfhocal a chur isteach</string>
+    <string name="error_password_too_short">Tá an focal faire ró-ghearr</string>
+    <string name="error_password_confirmation_mismatch">Pasfhocal agus neamhshuim deimhnithe</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Cuntas Ceannaíochta: %1$s</string>
+    <string name="upgrade_to_ltm">Uasghrádú ar LTM</string>
+    <string name="upgrade_account_description">"Uasghrádú ar Bhallraíocht Teaghlaigh Saoil (LTM). Íocann cuntais LTM Bitshares táillí in aice le nialas, faigh 80% airgead ar ais agus bónais le haghaidh atreoruithe."</string>
+    <string name="account_upgrade_title">Cuntas Uasghrádú</string>
+    <string name="account_upgrade_content">Ceadaíonn an Bhallraíocht Ama Saoil tú trádáil le sraith laghdaithe de tháillí líonra. \n \n Beidh éifeacht ag an gcuntas reatha "%1$s" \n \n Mar sin féin, íocann sé costas thart ar 100 USD a íocadh i Bitshares. \n \n An bhfuil tú cinnte gur mhaith leat dul ar aghaidh?</string>
+    <string name="account_upgrade_wait_content">Tá an t-idirbheart ina bhfuil d\'iarratas á phróiseáil ag an líonra</string>
+    <string name="error_upgrade_account_title">Earráid agus mé ag iarraidh an cuntas a uasghrádú</string>
+    <string name="error_upgrade_account_content">Déan cinnte go bhfuil cothromaíocht leordhóthanach ag do chuntas chun na costais a chlúdach</string>
+    <string name="account_upgraded_title">Uasghrádú ar an gcuntas</string>
+    <string name="account_upgraded_content">Comhghairdeas! tá uasghrádú déanta ar do chuntas anois chuig an Bhallraíocht Saoil.</string>
+    <string name="remove_account">Bain Cuntas</string>
+    <string name="remove_account_description">Bain an Cuntas Ceannaíochta seo. Bain an Cuntas Ceannaíochta thuas ón bhfeiste seo agus ceann eile a chruthú nó a allmhairiú.</string>
+    <string name="txt_account_remove_confirmation">"An bhfuil tú cinnte gur mhaith leat an cuntas" %1$s "a bhaint as an sparán seo?"</string>
+    <string name="remove">Bain</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Is mian le Smartcoin</string>
+    <string name="txt_customer_loyalty">Pointí Dílseachta a eisiúint mar ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Níl aon chuntas %1$s agat i do chuntas fós. Faigh roinnt sula ndéanann tú iarracht aon cheann a thabhairt do do chustaiméirí mar Pointí Dílseachta.</string>
+    <string name="send">Seol</string>
+    <string name="txt_for_every">I gcás gach</string>
+    <string name="txt_spent">chaith</string>
+    <string name="txt_bitcoin_altcoin_deposited">Glac suas le 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Roghnaigh níos mó ná 8 sócmhainn ionchuir</string>
+    <string name="bitshares_unselection_message">Tá gá le croí-chomhartha Bitshares (BTS).</string>
+    <string name="toast_low_volume_market">Tá sócmhainní margaidh toirte íseal faoi mhíchumas sa todhchaí. Cuirfear ar chumas iad nuair a bheidh méid an mhargaidh ag méadú go suntasach</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Ainm an tSuímh</string>
+    <string name="address">Seoladh</string>
+    <string name="phone_number">Uimhir teileafón</string>
+    <string name="website">Suíomh Gréasáin</string>
+    <string name="message">Teachtaireacht</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Ní féidir formáid bin a ghiniúint le haghaidh eochair</string>
+    <string name="saving_bin_file_to_s">Shábháil Comhad Bin go: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Shábháil File File go rathúil go: %1$s</string>
+    <string name="unable_to_save_bin_file">Níorbh fhéidir comhad bin a shábháil</string>
+    <string name="creating_backup_file">Comhad Cúltaca a chruthú</string>
+    <string name="fetching_key">Eochair Fáilte</string>
+    <string name="generating_bin_format">Formáid bruscair a ghiniúint</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Cuardaigh</string>
+    <string name="filter">Scagaire</string>
+    <string name="export">Easpórtáil</string>
+    <string name="confirming">Ag Deimhniú ...</string>
+    <string name="pdf_generated_msg_s">PDF a ghintear agus a shábháil: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Ní féidir pdf a ghiniúint. Déan athsheoladh. Earráid: %1$s</string>
+    <string name="csv_generated_msg_s">CSV a ghintear agus a shábháil: %1$s</string>
+    <string name="csv_generated_msg_error_s">Níorbh fhéidir csv a ghiniúint. Déan athsheoladh. Earráid: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Gach</string>
+    <string name="sent">Seolta</string>
+    <string name="received">Faighte</string>
+    <string name="date_range">Raon Dáta</string>
+    <string name="txt_to">chun</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Méid Fiat</string>
+    <string name="between">Idir</string>
+    <string name="and">agus</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Oibríochtaí scagtha onnmhairithe</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Táirgí onnmhairithe a ghiniúint</string>
+    <string name="exported_file_name">Idirbhearta PalmPay</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Ó</string>
+    <string name="to">Chun</string>
+    <string name="memo">Meabhrán</string>
+    <string name="date">Dáta</string>
+    <string name="time">Am</string>
+    <string name="crypto_amount">Méid Crypto</string>
+    <string name="crypto_symbol">Siombail Crypto</string>
+    <string name="keyed_in_fiat_amount">Sainmhéid i Méid Fiat</string>
+    <string name="total_fiat_amount">Iomlán Fiat Méid</string>
+    <string name="fiat_currency">Airgeadra Fiat</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Mír %1$d</string>
+    <string name="subtotal">Fo-Iomlán</string>
+    <string name="network_fee">Táille líonra</string>
+    <string name="total">Iomlán</string>
+    <string name="paid_s_s">Íoctha %1$s %2$s</string>
+    <string name="change_due">Athrú dlite</string>
+    <string name="e_receipt_memo_s">Meabhrán: %1$s</string>
+    <string name="e_receipt_date_s">Dáta: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">Eisiúint PalmPay ó %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">PIN d\'aois mícheart</string>
+    <string name="pin_changed_successfully">D\'athraigh an PIN go rathúil</string>
+    <string name="please_enter_pin">Cuir isteach uimhir PIN</string>
+    <string name="please_enter_pin_confirmation">Cuir isteach do dheimhniú uimhir PIN</string>
+    <string name="title_change_pin">Cuir PIN in eagar</string>
+    <string name="txt_current_pin">Uimhir PIN reatha</string>
+    <string name="please_enter_old_pin">Cuir isteach sean-uimhir PIN</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Earráid nasc nód, athscrúdú</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Fuair ​​muid íocaíocht isteach, ach níor aimsíodh aon iarratas</string>
+
+</resources>

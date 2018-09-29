@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- This is the extra amount to be requested to the bridge in base units (So 100 is actually 0.01 bitUSD)-->
+    <integer name="extra_usd_amount">100</integer>
+
+    <!-- Precisions for all crypto currencies -->
+    <integer name="default_precision">8</integer>
+    <integer name="bts_precision">8</integer>
+    <integer name="eth_precision">18</integer>
+
+    <!-- Used to make setTag() work with Glide -->
+    <item type="id" name="glide_tag" />
+</resources>

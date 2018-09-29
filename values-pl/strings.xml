@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Licencja</string>
+    <string name="agree">Zgodzić się</string>
+    <string name="disagree">Nie zgadzać się</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Ładowanie zasobów ...</string>
+    <string name="title_loading_asset_type_data">Ładowanie danych o typach zasobów ...</string>
+    <string name="title_assets_ready">Baza danych zasobów gotowych</string>
+    <string name="msg_loading_all_existing_assets">Wykonanie serii żądań w celu uzyskania pełnej listy wszystkich istniejących zasobów</string>
+    <string name="msg_loading_asset_type_data">Żądanie dalszych informacji o aktywach</string>
+    <string name="msg_loading_asset_in_database">Załadowano zasoby %1$d do bazy danych</string>
+    <string name="msg_assets_loaded">Następnie skonfiguruj swoje konto ...</string>
+    <string name="error_fetching_marketcap_data">Nie można załadować danych marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Utwórz konto</string>
+    <string name="txt_account_name">Nazwa konta BitShares</string>
+    <string name="unable_to_find_account_id">Nie można znaleźć identyfikatora konta użytkownika</string>
+    <string name="error_invalid_account_name_explanation">Nazwa konta musi mieć więcej niż 8 znaków, zawierać cyfrę lub nie mieć samogłosek. Znak podkreślenia jest również niedozwolony.</string>
+    <string name="create">Stwórz</string>
+    <string name="error">Błąd</string>
+    <string name="account_name_already_exist">Nazwa konta już istnieje</string>
+    <string name="try_again">Spróbuj ponownie po 5 minutach</string>
+    <string name="txt_new_pin_confirmation">Potwierdź nowy PIN (6+ cyfr)</string>
+    <string name="error_wif">Błąd podczas tworzenia klucza WIF</string>
+    <string name="error_faucet_template">Kran zwrócił błąd. Msg: %1$s</string>
+    <string name="error_read_dict_file">Błąd podczas odczytu pliku słownika</string>
+    <string name="error_missing_account">Aplikacja nie może pobrać informacji o nowo utworzonym koncie</string>
+    <string name="create_account_title">Tworzenie nowego konta</string>
+    <string name="create_account_message">Poczekaj, aż Twoje konto zostanie utworzone</string>
+    <string name="error_faucet_explanation">Serwer zwrócił błąd. Może to być spowodowane celowym wprowadzeniem ograniczenia, które uniemożliwia częste żądania przychodzące z tego samego adresu IP w krótkim czasie. Odczekaj 5 minut i spróbuj ponownie lub przełącz się na inną sieć, na przykład z wifi na komórkę.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Przed kontynuowaniem upewnij się, że wykonałeś kopię zapasową. Umożliwi to odzyskanie konta na wypadek, gdyby coś się stało z tym urządzeniem.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Jak chcesz zaimportować swoje istniejące konto?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">Klucz WIF</string>
+    <string name="bin_file">.bin File</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Wybierz 6-cyfrowy PIN</string>
+    <string name="txt_6_digits_pin_confirm">6+ cyfr Potwierdź PIN</string>
+    <string name="please_enter_6_digit_pin">Wprowadź 6-cyfrowy kod PIN</string>
+    <string name="please_enter_6_digit_pin_confirm">Wprowadź potwierdzenie swojego numeru PIN</string>
+    <string name="mismatch_pin">PIN niezgodny</string>
+    <string name="please_enter_brainkey">Wprowadź Brainkey</string>
+    <string name="please_enter_correct_brainkey">Wprowadź prawidłowy stanik, powinien zawierać od 12 do 16 słów.</string>
+    <string name="unable_to_load_brainkey">Nie można załadować brainkey</string>
+    <string name="account_already_exist">Konto już istnieje</string>
+    <string name="importing_your_wallet">Importuję portfel ...</string>
+    <string name="account_candidates_title">Wybierz konto</string>
+    <string name="account_candidates_content">Klucze pochodzące z tego brainkey wydają się być używane do kontrolowania więcej niż jednego konta, wybierz konto, które chcesz zaimportować</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Importuj plik .bin</string>
+    <string name="import_backup">Importuj kopię zapasową z pliku .bin</string>
+    <string name="txt_no_internet_connection">Brak połączenia z internetem</string>
+    <string name="no_file_chosen">Nie wybrano żadnego pliku</string>
+    <string name="choose_backup">Wybierz Kopię zapasową</string>
+    <string name="choose_file">Wybierz plik</string>
+    <string name="txt_existing_password">Bieżący plik .bin Hasło lub PIN</string>
+    <string name="txt_new_pin">Nowy PIN (6+ cyfr)</string>
+    <string name="importing_keys_from_bin_file">"Importowanie kluczy z pliku Bin"</string>
+    <string name="please_make_sure_your_bin_file">Upewnij się, że pinezka jest prawidłowa lub jest wybrany prawidłowy plik bin</string>
+    <string name="missing_existing_password">Wprowadź hasło używane do szyfrowania tego pliku kopii zapasowej</string>
+    <string name="pin_number_request">Wprowadź numer PIN używany do zakodowania tego pliku kopii zapasowej</string>
+    <string name="pin_number_warning">Numer pinu musi wynosić co najmniej 6 cyfr</string>
+    <string name="backup_error_no_key_reference_found">Nie znaleziono konta z tym kluczem, upewnij się, że używasz zaktualizowanego pliku kopii zapasowej.</string>
+    <string name="backup_error_no_wallet_backup">W tym pliku nie znaleziono kopii zapasowej portfela</string>
+    <string name="error_invalid_account">Nieprawidłowe konto, sprawdź swój klucz mózgowy pod kątem błędów pisania</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Import</string>
+    <string name="title_account_load_result">Załadowano konto</string>
+    <string name="button_change_account">Zmiana</string>
+    <string name="title_select_input_assets">Wybierz zasoby do zaakceptowania.</string>
+    <string name="explanation_account_setup">Konieczne będzie skonfigurowanie konta Bitshares w celu otrzymywania płatności. Lub jeśli już go masz, możesz go zaimportować tutaj.</string>
+    <string name="explanation_output_asset">Wybierz żądaną Smartcoin:</string>
+    <string name="next">Kolejny</string>
+    <string name="done">Gotowe</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Zapłacić</string>
+    <string name="error_corrupted_key_title">Kluczowy błąd korupcji</string>
+    <string name="error_corrupted_key_content">Aplikacja nie może odzyskać zaszyfrowanych kluczy prywatnych z bazy danych. Z tego powodu będziesz musiał ponownie wprowadzić klucze. Albo w formie pliku Brainkey, albo utworzyć plik kopii zapasowej bin, który został wygenerowany i automatycznie zapisany na karcie SD, jeśli konto zostało utworzone przez aplikację</string>
+    <string name="invalid_pin">Nieprawidłowy PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Dom</string>
+    <string name="txt_transactions">Transakcje</string>
+    <string name="txt_refunds_returns">Zwroty / Zwroty</string>
+    <string name="txt_settlement">Osada</string>
+    <string name="bitshares_nodes_dialog_title">Węzły Bitshares</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Do zapłaty</string>
+    <string name="sub_total">Suma częściowa:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Zamów błąd książki</string>
+    <string name="content_error_market">W DEX nie ma żadnych zamówień, które umożliwiłyby nam wymianę w dniu %1$s. \n \n Przejdź do ekranu ustawień i wybierz inny zasób wyjściowy.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Proszę zapłacić</string>
+    <string name="please_pay_s_s">Proszę zapłacić: %1$s %2$s</string>
+    <string name="to_s">Do: %1$s</string>
+    <string name="txt_network">Opłata za sieć</string>
+    <string name="txt_please_wait">Proszę czekać</string>
+    <string name="error_node_unreachable">Żaden węzeł nie został osiągnięty</string>
+    <string name="invoice_subject">Faktura PalmPay z %1$s</string>
+    <string name="before_s">Przed: %1$s</string>
+    <string name="share">Dzielić</string>
+    <string name="share_with">Udostępnij za pomocą</string>
+    <string name="connecting">Złączony…</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Wybierz prośbę o płatność</string>
+    <string name="dialog_msg_select_pending_payment">Wykryto płatność przychodzącą, ale nie można jej było automatycznie przypisać do wcześniej żądanej płatności. Wybierz prawidłową prośbę o płatność z poniższej listy.</string>
+    <string name="dialog_msg_confirm_pending_payment">Spowoduje to powiązanie płatności przychodzącej z wcześniej zarejestrowaną prośbą o płatność z dnia %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Szczegóły dotyczące płatności przychodzących</string>
+    <string name="dialog_generic_title_confirm">Jesteś pewny?</string>
+    <string name="dialog_generic_msg_confirm">Pamiętaj, że tej czynności nie można cofnąć</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Oddalić</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Płatność potwierdzona!</string>
+    <string name="txt_cool">CHŁODNY!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Ustawienia</string>
+    <string name="general">Generał</string>
+    <string name="security">Bezpieczeństwo</string>
+    <string name="backups">Kopie zapasowe</string>
+    <string name="tokens">Tokeny</string>
+    <string name="accounts">Konta</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Tryb nocny</string>
+    <string name="currency_info">Waluta jest automatycznie wybierana na podstawie wybranego języka i kraju. Jeśli chcesz je zmienić, musisz przejść do globalnych ustawień systemowych urządzenia.</string>
+    <string name="screen_saver">Wygaszacz ekranu</string>
+    <string name="source">Źródło</string>
+    <string name="bitshares_logo">Logo BitShares</string>
+    <string name="default_folder">Domyślny folder (/ PalmPay)</string>
+    <string name="txt_folder">Teczka</string>
+    <string name="choose">Wybierać</string>
+    <string name="screen_saver_time">Włącz po ...</string>
+    <string name="one_minute">1 minuta</string>
+    <string name="three_minutes">3 minuty</string>
+    <string name="five_minutes">5 minut</string>
+    <string name="local_ambassador">Lokalny ambasador</string>
+    <string name="ambassador_info">Ambasadorzy PalmPay otrzymują wynagrodzenie co 3 sekundy. Ich zadaniem jest wspieranie lokalnych sprzedawców PalmPay i organizowanie comiesięcznych Spotkań Crypto. Jeśli Twojego miasta nie ma na liście, Twoje miasto nie ma jeszcze ambasadora PalmPay. \n \nAby uzyskać więcej informacji, odwiedź społeczność Agorise na Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Miasto</string>
+    <string name="country">Kraj</string>
+    <string name="bugs_or_ideas">Błędy lub pomysły?</string>
+    <string name="bugs_or_ideas_contact_info">Czat Telegram: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Zaakceptować</string>
+    <string name="select">Wybierz</string>
+    <string name="are_you_sure">Jesteś pewny?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Skopiowane do schowka</string>
+    <string name="bin_file_description">Plik bin. Zawsze zachowuj swój zapasowy plik .bin na tajnej karcie MicroSD lub pamięci USB.</string>
+    <string name="create_a_backup">Utwórz kopię zapasową</string>
+    <string name="brainkey_description">Brainkey. Słowa odzyskiwania konta, które można przechwytywać lub kopiować, ale nie można ich edytować.</string>
+    <string name="txt_brain_key_info">Wydrukuj to lub zapisz. Każdy, kto ma dostęp do klucza odzyskiwania, będzie miał dostęp do środków w tym portfelu.</string>
+    <string name="view_and_copy">Wyświetl i skopiuj</string>
+    <string name="title_bin_backup">Eksportuj kopię zapasową .bin</string>
+    <string name="hint_password">Hasło</string>
+    <string name="hint_password_confirmation">Potwierdzenie hasła</string>
+    <string name="error_password_mandatory">Musisz podać hasło</string>
+    <string name="error_password_too_short">Hasło jest za krótkie</string>
+    <string name="error_password_confirmation_mismatch">Niezgodność hasła i potwierdzenia</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Konto sprzedawcy: %1$s</string>
+    <string name="upgrade_to_ltm">Uaktualnij do LTM</string>
+    <string name="upgrade_account_description">"Uaktualnij do członkostwa LifeTime (LTM) Konta LTM Bitshares płacą prawie zero opłat, otrzymują 80% zwrotu gotówki i bonusy za polecenia."</string>
+    <string name="account_upgrade_title">Ulepsz konto</string>
+    <string name="account_upgrade_content">Członkostwo Life Time pozwala na handel ze zmniejszonym zestawem opłat sieciowych. \n \n Wejdzie on w życie na rachunku bieżącym "%1$s" \n \nTo jednak przychodzi z kosztem około 100 USD zapłaconym w Bitshares. \n \nCzy na pewno chcesz kontynuować?</string>
+    <string name="account_upgrade_wait_content">Transakcja zawierająca Twoje żądanie jest przetwarzana przez sieć</string>
+    <string name="error_upgrade_account_title">Błąd podczas próby uaktualnienia konta</string>
+    <string name="error_upgrade_account_content">Upewnij się, że Twoje konto ma wystarczającą równowagę, aby pokryć koszty</string>
+    <string name="account_upgraded_title">Konto zaktualizowane</string>
+    <string name="account_upgraded_content">Gratulacje! Twoje konto zostało zaktualizowane do członkostwa Lifetime.</string>
+    <string name="remove_account">Usuń konto</string>
+    <string name="remove_account_description">Usuń to konto sprzedawcy. Usuń powyższe konto sprzedawcy z tego urządzenia i utwórz lub importuj inne.</string>
+    <string name="txt_account_remove_confirmation">"Czy na pewno chcesz usunąć konto" %1$s "z tego portfela?"</string>
+    <string name="remove">Usunąć</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Pożądany Smartcoin</string>
+    <string name="txt_customer_loyalty">Wydaj punkty lojalnościowe jako ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Twoje konto nie ma jeszcze żadnych %1$s. Zdobądź trochę, zanim spróbujesz przekazać je swoim klientom jako punkty lojalnościowe.</string>
+    <string name="send">Wysłać</string>
+    <string name="txt_for_every">Dla każdego</string>
+    <string name="txt_spent">wydany</string>
+    <string name="txt_bitcoin_altcoin_deposited">Zaakceptuj do 8 kryptowalut:</string>
+    <string name="altcoins_should_not_more_than">Wybierz nie więcej niż 8 zasobów wejściowych</string>
+    <string name="bitshares_unselection_message">Wymagany jest token podstawowy Bitshares (BTS).</string>
+    <string name="toast_low_volume_market">Aktywy rynkowe o niskim wolumenie są czasowo wyłączone. Zostaną one włączone, gdy wielkość rynku wzrośnie do znacznej kwoty</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Nazwa sklepu</string>
+    <string name="address">Adres</string>
+    <string name="phone_number">Numer telefonu</string>
+    <string name="website">Stronie internetowej</string>
+    <string name="message">Wiadomość</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Nie można wygenerować formatu bin dla klucza</string>
+    <string name="saving_bin_file_to_s">Zapisuje plik bin do: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Plik zasobu zapisany pomyślnie: %1$s</string>
+    <string name="unable_to_save_bin_file">Nie można zapisać pliku bin</string>
+    <string name="creating_backup_file">Tworzenie pliku kopii zapasowej</string>
+    <string name="fetching_key">Pobieranie klucza</string>
+    <string name="generating_bin_format">Generowanie formatu bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Szukaj</string>
+    <string name="filter">Filtr</string>
+    <string name="export">Eksport</string>
+    <string name="confirming">Potwierdzam ...</string>
+    <string name="pdf_generated_msg_s">Wygenerowany i zapisany PDF: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Nie można wygenerować pliku pdf. Spróbuj ponownie. Błąd: %1$s</string>
+    <string name="csv_generated_msg_s">Wygenerowane i zapisane pliki CSV: %1$s</string>
+    <string name="csv_generated_msg_error_s">Nie można wygenerować pliku CSV. Spróbuj ponownie. Błąd: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Wszystko</string>
+    <string name="sent">Wysłane</string>
+    <string name="received">Odebrane</string>
+    <string name="date_range">Zakres dat</string>
+    <string name="txt_to">do</string>
+    <string name="cryptocurrency">Kryptowaluta</string>
+    <string name="fiat_amount">Ilość Fiat</string>
+    <string name="between">pomiędzy</string>
+    <string name="and">i</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Eksportuj przefiltrowane transakcje</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Generowanie produktu eksportowego</string>
+    <string name="exported_file_name">Transakcje PalmPay</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Od</string>
+    <string name="to">Do</string>
+    <string name="memo">Notatka</string>
+    <string name="date">Data</string>
+    <string name="time">Czas</string>
+    <string name="crypto_amount">Kwota krypto</string>
+    <string name="crypto_symbol">Symbol Crypto</string>
+    <string name="keyed_in_fiat_amount">Wprowadzono Fiat Amount</string>
+    <string name="total_fiat_amount">Całkowita kwota Fiat</string>
+    <string name="fiat_currency">Waluta Fiata</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Element %1$d</string>
+    <string name="subtotal">Suma częściowa</string>
+    <string name="network_fee">Opłata za sieć</string>
+    <string name="total">Całkowity</string>
+    <string name="paid_s_s">Płatne %1$s %2$s</string>
+    <string name="change_due">Zmień należność</string>
+    <string name="e_receipt_memo_s">Notatka: %1$s</string>
+    <string name="e_receipt_date_s">Data: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt od %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Nieprawidłowy stary kod PIN</string>
+    <string name="pin_changed_successfully">PIN został pomyślnie zmieniony</string>
+    <string name="please_enter_pin">Wprowadź numer PIN</string>
+    <string name="please_enter_pin_confirmation">Wprowadź swój numer PIN</string>
+    <string name="title_change_pin">Edytuj PIN</string>
+    <string name="txt_current_pin">Aktualny numer PIN</string>
+    <string name="please_enter_old_pin">Podaj stary numer PIN</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Błąd połączenia węzła, ponawianie próby</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Dostaliśmy płatność, ale nie można znaleźć żądania</string>
+
+</resources>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Лиценца</string>
+    <string name="agree">Договорити се</string>
+    <string name="disagree">Не слазем се</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Учитавање средстава ...</string>
+    <string name="title_loading_asset_type_data">Налагање података о типу средства ...</string>
+    <string name="title_assets_ready">База података о активностима је спремна</string>
+    <string name="msg_loading_all_existing_assets">Извођење серије захтева како бисте добили комплетну листу свих постојећих средстава</string>
+    <string name="msg_loading_asset_type_data">Тражење додатних података о имовини</string>
+    <string name="msg_loading_asset_in_database">Убацили __1д__ средства у базу података</string>
+    <string name="msg_assets_loaded">Даље, поставите свој налог ...</string>
+    <string name="error_fetching_marketcap_data">Није могуће учитати податке тржишта</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Региструј се</string>
+    <string name="txt_account_name">БитСхарес име налога</string>
+    <string name="unable_to_find_account_id">Не могу пронаћи ИД корисничког налога</string>
+    <string name="error_invalid_account_name_explanation">Име налога мора имати више од 8 знакова, садржи број или нема самогласнике. Подсеријски знак није дозвољен.</string>
+    <string name="create">Креирај</string>
+    <string name="error">Грешка</string>
+    <string name="account_name_already_exist">Име налога већ постоји</string>
+    <string name="try_again">Молимо покушајте поново након 5 минута</string>
+    <string name="txt_new_pin_confirmation">Потврдите нови ПИН (6 цифара)</string>
+    <string name="error_wif">Грешка при креирању ВИФ кључа</string>
+    <string name="error_faucet_template">Творница је вратила грешку. Мсг: __1с__</string>
+    <string name="error_read_dict_file">Грешка у читању речника</string>
+    <string name="error_missing_account">Апликација није могла да преузме информације о новоусвојеном налогу</string>
+    <string name="create_account_title">Креирање новог налога</string>
+    <string name="create_account_message">Молим сачекајте док је ваш налог креиран</string>
+    <string name="error_faucet_explanation">Сервер је вратио грешку. Ово се може догодити услед ограничења намерно постављеног како би се забранили чести захтјеви који долазе са исте ИП адресе у кратком временском року. Молим сачекајте 5 минута и покушајте поново, или пређите на другу мрежу, На пример од вифи до ћелије.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Молимо вас да направите резервну копију свог мозга пре него што наставите. Ово ће вам омогућити да вратите свој рачун у случају да се нешто дешава са овим уређајем.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Како желите да увезете свој постојећи налог?</string>
+    <string name="brainkey">БраинКеи</string>
+    <string name="wif_key">ВИФ Кеи</string>
+    <string name="bin_file">.бин Филе</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Браинкеи</string>
+    <string name="txt_6_digits_pin">Изаберите ПИН код са 6 цифара</string>
+    <string name="txt_6_digits_pin_confirm">Потврди ПИН код са 6 цифара</string>
+    <string name="please_enter_6_digit_pin">Молимо унесите 6-цифрени ПИН</string>
+    <string name="please_enter_6_digit_pin_confirm">Унесите потврду ПИН броја</string>
+    <string name="mismatch_pin">Мисматцх пин</string>
+    <string name="please_enter_brainkey">Молим вас унесите мозак</string>
+    <string name="please_enter_correct_brainkey">Молимо унесите исправан мозак, требало би да има између 12 и 16 речи.</string>
+    <string name="unable_to_load_brainkey">Не могу да учитам мозак</string>
+    <string name="account_already_exist">Рачун већ постоји</string>
+    <string name="importing_your_wallet">Увезивање новчаника ...</string>
+    <string name="account_candidates_title">Изаберите рачун</string>
+    <string name="account_candidates_content">Изгледа да се тастери изведени из овог мозга користе за контролу више од једног налога, молимо одаберите рачун који желите да увезете</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Увезите .бин датотеку</string>
+    <string name="import_backup">Импорт Бацкуп из .бин датотеке</string>
+    <string name="txt_no_internet_connection">Нема Интернет везе</string>
+    <string name="no_file_chosen">Фајл није одабран</string>
+    <string name="choose_backup">Изаберите Бацкуп</string>
+    <string name="choose_file">Одаберите датотеку</string>
+    <string name="txt_existing_password">Тренутна .бин датотека Лозинка или ПИН</string>
+    <string name="txt_new_pin">Нови ПИН (6 + цифара)</string>
+    <string name="importing_keys_from_bin_file">"Увезивање кључева из бин датотеке"</string>
+    <string name="please_make_sure_your_bin_file">Проверите да ли је ваш пин исправан или је изабрана исправна бин датотека</string>
+    <string name="missing_existing_password">Молимо унесите лозинку која се користи за шифрирање ове сигурносне датотеке</string>
+    <string name="pin_number_request">Унесите број пин који се користи за кодирање ове резервне датотеке</string>
+    <string name="pin_number_warning">Број пин мора бити најмање 6 цифара</string>
+    <string name="backup_error_no_key_reference_found">Ниједан налог помоћу овог кључа није пронађен, молимо провјерите да ли користите ажурирану резервну датотеку.</string>
+    <string name="backup_error_no_wallet_backup">У овој датотеци није пронађена сигурносна копија новчаника</string>
+    <string name="error_invalid_account">Неважећи рачун, молимо проверите свој мозак кључ за грешке у куцању</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Увоз</string>
+    <string name="title_account_load_result">Учитани налог</string>
+    <string name="button_change_account">Промени</string>
+    <string name="title_select_input_assets">Изаберите средства за прихватање.</string>
+    <string name="explanation_account_setup">Потребно је да подесите Битсхарес налог како бисте примили исплате. Или ако га већ имате, можете је овде увести.</string>
+    <string name="explanation_output_asset">Изаберите жељени Смартцоин:</string>
+    <string name="next">Следећи</string>
+    <string name="done">Готово</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Платити</string>
+    <string name="error_corrupted_key_title">Кључна грешка корупције</string>
+    <string name="error_corrupted_key_content">Апликација не може да опорави ваше шифроване приватне кључеве из базе података. Због тога ће вам бити потребно да поново унесете своје кључеве. Или у облику мозга или формирајте резервну копију бунк-а која је генерисана и сачувана аутоматски у вашој сдцард-у ако је рачун креирао апликација</string>
+    <string name="invalid_pin">Неважећи ПИН</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Кућа</string>
+    <string name="txt_transactions">Трансакције</string>
+    <string name="txt_refunds_returns">Рефундс / Ретурнс</string>
+    <string name="txt_settlement">Поравнање</string>
+    <string name="bitshares_nodes_dialog_title">Битсхарес чворови</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Преостали дуг</string>
+    <string name="sub_total">Укупно:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Грешка при наруџби</string>
+    <string name="content_error_market">У ДЕКС-у нема наредби која би нам омогућила да извршимо размјену на __1с__ у овом тренутку. __н__ __н__Одмахните на екран за подешавања и изаберите другу излазну имовину.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Молимо да платите</string>
+    <string name="please_pay_s_s">Молимо да платите: __1с__ __2с__</string>
+    <string name="to_s">То: __1с__</string>
+    <string name="txt_network">Мрежна такса</string>
+    <string name="txt_please_wait">Сачекајте</string>
+    <string name="error_node_unreachable">Ниједно чвориште није могуће стићи</string>
+    <string name="invoice_subject">ПалмПаи фактура од __1с__</string>
+    <string name="before_s">Пре: __1с__</string>
+    <string name="share">Објави</string>
+    <string name="share_with">Учешће у</string>
+    <string name="connecting">Повезивање ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Изаберите захтев за плаћање</string>
+    <string name="dialog_msg_select_pending_payment">Откривена је долазна уплата, али се није могла аутоматски доделити претходно траженом уплату. Изаберите одговарајући захтев за плаћање са следеће листе.</string>
+    <string name="dialog_msg_confirm_pending_payment">Ово ће повезати долазно плаћање са претходно забележеним захтевом за плаћање од __1с__</string>
+    <string name="dialog_msg_incoming_payment_details">Детаље долазног плаћања</string>
+    <string name="dialog_generic_title_confirm">Да ли сте сигурни?</string>
+    <string name="dialog_generic_msg_confirm">Имајте на уму да се ова акција не може поништити</string>
+    <string name="dialog_incoming_payment_template_core">__1.2ф__ __2с__</string>
+    <string name="dialog_incoming_payment_template_output">__1.2ф__ __2с__</string>
+    <string name="dismiss">Одбиј</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Плаћање потврђено!</string>
+    <string name="txt_cool">ХЛАДАН!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Подешавања</string>
+    <string name="general">Генерал</string>
+    <string name="security">Сигурност</string>
+    <string name="backups">Резервне копије</string>
+    <string name="tokens">Токенс</string>
+    <string name="accounts">Аццоунтс</string>
+    <string name="e_receipts">еРецеиптс</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Ноћни режим</string>
+    <string name="currency_info">Валута се аутоматски одабира на основу одабира језика и земље. Ако желите да их промените, морате да приступите глобалним системским поставкама вашег уређаја.</string>
+    <string name="screen_saver">Сцреен Савер</string>
+    <string name="source">Извор</string>
+    <string name="bitshares_logo">БитСхарес Лого</string>
+    <string name="default_folder">Подразумевана фасцикла (/ ПалмПаи)</string>
+    <string name="txt_folder">Фолдер</string>
+    <string name="choose">Изаберите</string>
+    <string name="screen_saver_time">Омогући након ...</string>
+    <string name="one_minute">1 минут</string>
+    <string name="three_minutes">3 минута</string>
+    <string name="five_minutes">5 минута</string>
+    <string name="local_ambassador">Локални амбасадор</string>
+    <string name="ambassador_info">Амбасадори компаније ПалмПаи плаћају се сваке 3 секунде. Њихов посао је да подржи локалне ПалмПаи трговце и организује месечне Црипто Меетупс. Ако ваш град није наведен, онда у вашем граду још нема амбасадора ПалмПаи-а. __н__ __н__За више информација, посјетите Агорисе заједницу на Телеграму: __н__ <a href="http://t.me/Agorise">хттп</a> ://т.ме/Агорисе</string>
+    <string name="city">Град</string>
+    <string name="country">Земља</string>
+    <string name="bugs_or_ideas">Грешке или идеје?</string>
+    <string name="bugs_or_ideas_contact_info">Телеграм цхат: хттп://т.ме/Агорисе __н__Емаил: Агорисе@протонмаил.цх</string>
+    <string name="accept">Прихвати</string>
+    <string name="select">Изаберите</string>
+    <string name="are_you_sure">Да ли сте сигурни?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Резервни мозак</string>
+    <string name="copied_to_clipboard">Копиран у клипборд</string>
+    <string name="bin_file_description">Бин фајл. Увек спремите датотеку .бин на тајну МицроСД картицу или УСБ стицк.</string>
+    <string name="create_a_backup">Креирајте резервну копију</string>
+    <string name="brainkey_description">Браинкеи. Речи за опоравак налога које се могу снимити или копирати, али нису уређене.</string>
+    <string name="txt_brain_key_info">Одштампајте ово или напишите. Свако ко има приступ вашем кључу за опоравак има приступ новчаним средствима унутар овог новчаника.</string>
+    <string name="view_and_copy">Преглед и копирање</string>
+    <string name="title_bin_backup">Извоз .бин бацкуп</string>
+    <string name="hint_password">Лозинка</string>
+    <string name="hint_password_confirmation">Потврда лозинке</string>
+    <string name="error_password_mandatory">Морате унети лозинку</string>
+    <string name="error_password_too_short">Лозинка је прекратка</string>
+    <string name="error_password_confirmation_mismatch">Лозинка и неусаглашеност са потврђивањем</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Мерцхант Аццоунт: __1с__</string>
+    <string name="upgrade_to_ltm">Надоградите на ЛТМ</string>
+    <string name="upgrade_account_description">"Упграде то ЛифеТиме Чланство (ЛТМ). Битсхаресови ЛТМ рачуни плаћају нулте накнаде, добијају 80% новчаних средстава и бонусе за реферале."</string>
+    <string name="account_upgrade_title">Упграде Аццоунт</string>
+    <string name="account_upgrade_content">Чланство Лифе Тиме вам омогућава да тргујете са смањеним сетом мрежних накнада. __н__ __н__ Она ће ступити на снагу на текући рачун "__1с__" __н__ __н__ Ипак, она долази са цијеном од око 100 УСД плаћено у Битсхарес-у. __н__ __н__Да ли сте сигурни да желите наставити?</string>
+    <string name="account_upgrade_wait_content">Мрежа обрађује трансакцију која садржи ваш захтев</string>
+    <string name="error_upgrade_account_title">Грешка при покушају надоградње налога</string>
+    <string name="error_upgrade_account_content">Уверите се да ваш рачун има довољно салда како би покрио трошкове</string>
+    <string name="account_upgraded_title">Надоградња налога</string>
+    <string name="account_upgraded_content">Честитам! ваш налог је сада надограђен на животно чланство.</string>
+    <string name="remove_account">Уклоне налог</string>
+    <string name="remove_account_description">Уклоните овај трговачки налог. Уклоните налог продавца изнад са овог уређаја и креирајте или увезете другачији.</string>
+    <string name="txt_account_remove_confirmation">"Да ли сте сигурни да желите уклонити рачун \'__1с__\' из овог новчаника?"</string>
+    <string name="remove">Уклони</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Жељени Смартцоин</string>
+    <string name="txt_customer_loyalty">Издајте лојалностне тачке као ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Ваш рачун још увек није власник __1с__. Молимо вас да набавите неке пре него што покушате да дате своје купце као Лоиалти Поинтс.</string>
+    <string name="send">Пошаљи</string>
+    <string name="txt_for_every">За сваки</string>
+    <string name="txt_spent">потрошено</string>
+    <string name="txt_bitcoin_altcoin_deposited">Прихватите до 8 криптоквучења:</string>
+    <string name="altcoins_should_not_more_than">Молимо да одаберете не више од 8 улазних средстава</string>
+    <string name="bitshares_unselection_message">Потребан је кључни ток Битсхарес (БТС).</string>
+    <string name="toast_low_volume_market">Тржишна имовина мале количине је привремено онемогућена. Они ће бити омогућени када се волумен тржишта повећа на значајан износ</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Лого</string>
+    <string name="store_name">Име продавнице</string>
+    <string name="address">Адреса</string>
+    <string name="phone_number">Број телефона</string>
+    <string name="website">Веб сајт</string>
+    <string name="message">Порука</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Није могуће генерисати бин формат за кључ</string>
+    <string name="saving_bin_file_to_s">Савинг Бин Филе у: __1с__</string>
+    <string name="bin_file_saved_successfully_to_s">Бин датотека је успјешно сачувана у: __1с__</string>
+    <string name="unable_to_save_bin_file">Није могуће сачувати бин датотеку</string>
+    <string name="creating_backup_file">Креирање резервне датотеке</string>
+    <string name="fetching_key">Кључ за преузимање</string>
+    <string name="generating_bin_format">Генерисање бин формата</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Претрага</string>
+    <string name="filter">Филтер</string>
+    <string name="export">Извоз</string>
+    <string name="confirming">Потврђујући ...</string>
+    <string name="pdf_generated_msg_s">ПДФ генерисан и сачуван: __1с__</string>
+    <string name="pdf_generated_msg_error_s">Није могуће генерисати пдф. Покушајте поново. Грешка: __1с__</string>
+    <string name="csv_generated_msg_s">ЦСВ је генерисано и сачувано: __1с__</string>
+    <string name="csv_generated_msg_error_s">Није могуће генерирати цсв. Покушајте поново. Грешка: __1с__</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Све</string>
+    <string name="sent">Послато</string>
+    <string name="received">Примљен</string>
+    <string name="date_range">Опсег датума</string>
+    <string name="txt_to">до</string>
+    <string name="cryptocurrency">Цриптоцурренци</string>
+    <string name="fiat_amount">Износ Фиат</string>
+    <string name="between">Између</string>
+    <string name="and">и</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Извоз филтрираних трансакција</string>
+    <string name="format_pdf">ПДФ</string>
+    <string name="format_csv">ЦСВ</string>
+    <string name="progress_export_generation">Генерисање извозног производа</string>
+    <string name="exported_file_name">ПалмПаи-трансакције</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Од</string>
+    <string name="to">До</string>
+    <string name="memo">Белешка</string>
+    <string name="date">Датум</string>
+    <string name="time">време</string>
+    <string name="crypto_amount">Црипто Амоунт</string>
+    <string name="crypto_symbol">Црипто Симбол</string>
+    <string name="keyed_in_fiat_amount">Заједнички Фиат износ</string>
+    <string name="total_fiat_amount">Укупно износ Фиат</string>
+    <string name="fiat_currency">Фиат Валута</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">еРецеипт</string>
+    <string name="item_n">Ставка __1д__</string>
+    <string name="subtotal">Суб-Тотал</string>
+    <string name="network_fee">Мрежна такса</string>
+    <string name="total">Укупно</string>
+    <string name="paid_s_s">Плаћен __1с__ __2с__</string>
+    <string name="change_due">Промијенити због</string>
+    <string name="e_receipt_memo_s">Мемо: __1с__</string>
+    <string name="e_receipt_date_s">Датум: __1с__</string>
+    <string name="e_receipt_tx_s">Тк: __1с__</string>
+    <string name="e_receipt_subject">ПалмПаи еРецеипт од __1с__</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Нетачан стар ПИН</string>
+    <string name="pin_changed_successfully">ПИН се успешно променио</string>
+    <string name="please_enter_pin">Молимо унесите ПИН број</string>
+    <string name="please_enter_pin_confirmation">Унесите потврду ПИН-а</string>
+    <string name="title_change_pin">Измени ПИН</string>
+    <string name="txt_current_pin">Тренутни ПИН број</string>
+    <string name="please_enter_old_pin">Унесите стар ПИН број</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Грешка при повезивању чвора, покушај поновног покретања</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Добили смо уплату, али ниједан захтев није могао бити пронађен</string>
+
+</resources>

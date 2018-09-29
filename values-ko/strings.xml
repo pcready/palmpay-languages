@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">특허</string>
+    <string name="agree">동의하다</string>
+    <string name="disagree">동의하지 않는다</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">저작물로드 중 ...</string>
+    <string name="title_loading_asset_type_data">저작물 유형 데이터로드 중 ...</string>
+    <string name="title_assets_ready">자산 데이터베이스 준비</string>
+    <string name="msg_loading_all_existing_assets">기존의 모든 자산의 전체 목록을 얻기 위해 일련의 요청 수행</string>
+    <string name="msg_loading_asset_type_data">추가 자산 세부 정보 요청</string>
+    <string name="msg_loading_asset_in_database">%1$d 자산을 데이터베이스에로드했습니다.</string>
+    <string name="msg_assets_loaded">다음으로 계정을 설정하십시오 ...</string>
+    <string name="error_fetching_marketcap_data">marketcap 데이터를로드 할 수 없습니다.</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">계정 만들기</string>
+    <string name="txt_account_name">BitShares 계정 이름</string>
+    <string name="unable_to_find_account_id">사용자 계정 ID를 찾을 수 없습니다.</string>
+    <string name="error_invalid_account_name_explanation">계정 이름은 8 자 이상이거나 숫자가 있거나 모음이 없어야합니다. 밑줄 문자도 허용되지 않습니다.</string>
+    <string name="create">몹시 떠들어 대다</string>
+    <string name="error">오류</string>
+    <string name="account_name_already_exist">계정 이름이 이미 있습니다.</string>
+    <string name="try_again">5 분 후에 다시 시도하십시오.</string>
+    <string name="txt_new_pin_confirmation">새 PIN 확인 (6 자 이상)</string>
+    <string name="error_wif">WIF 키 생성 오류</string>
+    <string name="error_faucet_template">수도꼭지가 오류를 반환했습니다. 메시지 : %1$s</string>
+    <string name="error_read_dict_file">사전 파일 읽기 오류</string>
+    <string name="error_missing_account">앱이 새로 생성 된 계정에 대한 정보를 검색하지 못했습니다.</string>
+    <string name="create_account_title">새 계정 만들기</string>
+    <string name="create_account_message">계정이 생성되는 동안 기다려주십시오.</string>
+    <string name="error_faucet_explanation">서버가 오류를 반환했습니다. 이는 짧은 시간 내에 동일한 IP 주소에서 자주 요청하지 못하도록 의도적으로 설정된 제한 사항 때문일 수 있습니다. 5 분 정도 기다렸다가 다시 시도하거나 다른 네트워크로 전환하십시오 (예 : Wi-Fi에서 셀로).</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">계속하기 전에 뇌를 백업 해 두십시오. 이 기기에 문제가 발생하면 계정을 복구 할 수 있습니다.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">기존 계정을 어떻게 가져 오시겠습니까?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF 키</string>
+    <string name="bin_file">.bin 파일</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">6 자리 숫자 PIN 선택</string>
+    <string name="txt_6_digits_pin_confirm">6 자리 PIN 확인</string>
+    <string name="please_enter_6_digit_pin">6 자리 PIN을 입력하십시오.</string>
+    <string name="please_enter_6_digit_pin_confirm">PIN 번호 확인을 입력하십시오.</string>
+    <string name="mismatch_pin">불일치 핀</string>
+    <string name="please_enter_brainkey">두뇌를 입력하십시오.</string>
+    <string name="please_enter_correct_brainkey">올바른 뇌 기능을 입력하십시오, 12 ~ 16 단어 사이 여야합니다.</string>
+    <string name="unable_to_load_brainkey">두뇌를로드 할 수 없습니다.</string>
+    <string name="account_already_exist">계정이 이미 있습니다.</string>
+    <string name="importing_your_wallet">지갑 가져 오는 중 ...</string>
+    <string name="account_candidates_title">계정을 선택하십시오.</string>
+    <string name="account_candidates_content">이 두뇌에서 파생 된 키는 둘 이상의 계정을 제어하는 ​​데 사용되는 것으로 보이므로 가져올 계정을 선택하십시오.</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">.bin 파일 가져 오기</string>
+    <string name="import_backup">.bin 파일에서 백업 가져 오기</string>
+    <string name="txt_no_internet_connection">인터넷에 연결되지 않음</string>
+    <string name="no_file_chosen">선택된 파일 없음</string>
+    <string name="choose_backup">백업 선택</string>
+    <string name="choose_file">파일을 선택</string>
+    <string name="txt_existing_password">현재 .bin 파일 암호 또는 PIN</string>
+    <string name="txt_new_pin">새 PIN (6 자 이상)</string>
+    <string name="importing_keys_from_bin_file">"Bin 파일에서 키 가져 오기"</string>
+    <string name="please_make_sure_your_bin_file">핀이 정확하거나 올바른 bin 파일이 선택되었는지 확인하십시오.</string>
+    <string name="missing_existing_password">이 백업 파일을 암호화하는 데 사용 된 암호를 입력하십시오.</string>
+    <string name="pin_number_request">이 백업 파일을 인코딩하는 데 사용 된 핀 번호를 입력하십시오.</string>
+    <string name="pin_number_warning">핀 번호는 6 자리 이상이어야합니다.</string>
+    <string name="backup_error_no_key_reference_found">이 키를 사용하는 계정이 없습니다. 업데이트 된 백업 파일을 사용하고 있는지 확인하십시오.</string>
+    <string name="backup_error_no_wallet_backup">이 파일에는 지갑 백업이 없습니다.</string>
+    <string name="error_invalid_account">계정이 잘못되었습니다. 두뇌 키의 입력 오류를 확인하십시오.</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">수입</string>
+    <string name="title_account_load_result">계정로드 됨</string>
+    <string name="button_change_account">변화</string>
+    <string name="title_select_input_assets">수락 할 자산을 선택하십시오.</string>
+    <string name="explanation_account_setup">지불을 받으려면 Bitshares 계정을 설정해야합니다. 또는 이미 가지고있는 경우 여기에서 가져올 수 있습니다.</string>
+    <string name="explanation_output_asset">원하는 Smartcoin을 선택하십시오 :</string>
+    <string name="next">다음 것</string>
+    <string name="done">끝난</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">지불</string>
+    <string name="error_corrupted_key_title">키 손상 오류</string>
+    <string name="error_corrupted_key_content">앱에서 암호화 된 비공개 키를 데이터베이스에서 복구 할 수 없습니다. 이것 때문에 당신은 당신의 열쇠를 다시 입력해야 할 것입니다. 두뇌 형태 또는 앱에서 계정을 생성 한 경우 귀하의 sdcard에 자동으로 생성되고 저장된 bin 백업 파일을 작성하십시오</string>
+    <string name="invalid_pin">PIN이 잘못되었습니다.</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">집</string>
+    <string name="txt_transactions">업무</string>
+    <string name="txt_refunds_returns">환불 / 반품</string>
+    <string name="txt_settlement">정착</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares 노드</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">지불액</string>
+    <string name="sub_total">소계 :</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">삼</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">주문 도서 오류</string>
+    <string name="content_error_market">DEX에는 현시점에서 교환을 수행 할 수있는 명령이 없습니다. \n \n 설정 화면으로 이동하여 다른 출력 자산을 선택하십시오.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">지불하시기 바랍니다</string>
+    <string name="please_pay_s_s">지불하십시오 : %1$s %2$s</string>
+    <string name="to_s">받는 사람 : %1$s</string>
+    <string name="txt_network">네트워크 비용</string>
+    <string name="txt_please_wait">잠시 기다려주십시오.</string>
+    <string name="error_node_unreachable">노드에 도달 할 수 없습니다.</string>
+    <string name="invoice_subject">%1$s의 PalmPay 청구서</string>
+    <string name="before_s">이전 : %1$s</string>
+    <string name="share">몫</string>
+    <string name="share_with">와 주</string>
+    <string name="connecting">연결 중 ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">지불 요청 선택</string>
+    <string name="dialog_msg_select_pending_payment">입금이 감지되었지만 이전에 요청한 지불에 자동으로 할당 할 수 없습니다. 다음 목록에서 올바른 지불 요청을 선택하십시오.</string>
+    <string name="dialog_msg_confirm_pending_payment">이전에 기록 된 __1 __의 지불 요청으로 입금을 연결합니다.</string>
+    <string name="dialog_msg_incoming_payment_details">입금 세부 정보</string>
+    <string name="dialog_generic_title_confirm">확실합니까?</string>
+    <string name="dialog_generic_msg_confirm">이 작업은 실행 취소 할 수 없습니다.</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">버리다</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">결제가 승인 됨!</string>
+    <string name="txt_cool">시원한!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">설정</string>
+    <string name="general">일반</string>
+    <string name="security">보안</string>
+    <string name="backups">백업</string>
+    <string name="tokens">토큰</string>
+    <string name="accounts">계정</string>
+    <string name="e_receipts">전자 수취</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">야간 모드</string>
+    <string name="currency_info">통화는 언어 및 국가 선택에 따라 자동으로 선택됩니다. 변경하려는 경우 장치의 전역 시스템 설정으로 이동해야합니다.</string>
+    <string name="screen_saver">화면 보호기</string>
+    <string name="source">출처</string>
+    <string name="bitshares_logo">BitShares 로고</string>
+    <string name="default_folder">기본 폴더 (/ PalmPay)</string>
+    <string name="txt_folder">폴더</string>
+    <string name="choose">고르다</string>
+    <string name="screen_saver_time">이후에 사용하도록 설정 ...</string>
+    <string name="one_minute">1 분</string>
+    <string name="three_minutes">3 분</string>
+    <string name="five_minutes">5 분</string>
+    <string name="local_ambassador">지역 대사</string>
+    <string name="ambassador_info">PalmPay 대사는 3 초마다 돈을받습니다. 그들의 임무는 지역 PalmPay 상인을 지원하고 월별 Crypto Meetups를 조직하는 것입니다. 귀하의 도시가 목록에 없다면 귀하의 도시에는 아직 PalmPay 대사가 없습니다. \n \n 자세한 정보는 Telegram의 Agorise 커뮤니티를 방문하십시오 : \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">시티</string>
+    <string name="country">국가</string>
+    <string name="bugs_or_ideas">버그 또는 아이디어?</string>
+    <string name="bugs_or_ideas_contact_info">텔레 그램 채팅 : http://t.me/Agorise \nEmail : Agorise@protonmail.ch</string>
+    <string name="accept">동의</string>
+    <string name="select">고르다</string>
+    <string name="are_you_sure">확실합니까?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">백업 brainkey</string>
+    <string name="copied_to_clipboard">클립 보드에 복사 됨</string>
+    <string name="bin_file_description">휴지통 파일. 항상 백업 .bin 파일을 비밀 MicroSD 카드 또는 USB 스틱에 저장하십시오.</string>
+    <string name="create_a_backup">백업 만들기</string>
+    <string name="brainkey_description">브레인 키. 캡처 또는 복사 할 수 있지만 편집 할 수없는 계정 복구 단어.</string>
+    <string name="txt_brain_key_info">이것을 인쇄하거나 적어 두십시오. 복구 키에 액세스 할 수있는 사람은 누구나이 지갑 내의 자금에 액세스 할 수 있습니다.</string>
+    <string name="view_and_copy">보기 및 복사</string>
+    <string name="title_bin_backup">.bin 백업 내보내기</string>
+    <string name="hint_password">암호</string>
+    <string name="hint_password_confirmation">비밀번호 확인</string>
+    <string name="error_password_mandatory">비밀번호를 입력해야합니다.</string>
+    <string name="error_password_too_short">비밀번호가 너무 짧습니다</string>
+    <string name="error_password_confirmation_mismatch">비밀번호 및 확인 불일치</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">판매자 계정 : %1$s</string>
+    <string name="upgrade_to_ltm">LTM으로 업그레이드</string>
+    <string name="upgrade_account_description">Lifetime Membership (LTM)으로 업그레이드 Bitshares의 LTM 계정은 거의 0에 가까운 요금을 지불하고 추천을 위해 80 %의 현금 환급 및 보너스를받습니다. "</string>
+    <string name="account_upgrade_title">업그레이드 계정</string>
+    <string name="account_upgrade_content">Life Time Membership을 사용하면 네트워크 비용을 줄이거 나 교환 할 수 있습니다. \n \n 현재 계정에 적용됩니다 "%1$s"\n \n 그러나 Bitshares에서 지불 한 약 100 달러의 비용이 있습니다. \n \n 정말로 계속 하시겠습니까?</string>
+    <string name="account_upgrade_wait_content">요청을 포함하는 트랜잭션이 네트워크에서 처리 중입니다.</string>
+    <string name="error_upgrade_account_title">계정을 업그레이드하는 동안 오류가 발생했습니다.</string>
+    <string name="error_upgrade_account_content">계정에 비용을 충당 할 수있는 충분한 잔고가 있는지 확인하십시오.</string>
+    <string name="account_upgraded_title">계정 업그레이드 됨</string>
+    <string name="account_upgraded_content">축하해! 귀하의 계정이 평생 회원으로 업그레이드되었습니다.</string>
+    <string name="remove_account">계정 삭제</string>
+    <string name="remove_account_description">이 판매자 계정을 삭제하십시오. 이 기기에서 위 판매자 계정을 삭제하고 다른 계정을 만들거나 가져옵니다.</string>
+    <string name="txt_account_remove_confirmation">"이 지갑에서 \'%1$s\'계정을 제거 하시겠습니까?"</string>
+    <string name="remove">풀다</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">원하는 Smartcoin</string>
+    <string name="txt_customer_loyalty">포인트 로열티 포인트 발행 ...</string>
+    <string name="warning_insufficient_reward_asset_balance">귀하의 계정에는 아직 %1$s이 (가) 없습니다. 고객에게 충성도 포인트를주기 전에 일부를 획득하십시오.</string>
+    <string name="send">보내다</string>
+    <string name="txt_for_every">매회마다</string>
+    <string name="txt_spent">지출하다</string>
+    <string name="txt_bitcoin_altcoin_deposited">최대 8 개의 Cryptocurrencies 수용 :</string>
+    <string name="altcoins_should_not_more_than">8 개 이하의 입력 자산을 선택하십시오.</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) 코어 토큰이 필요합니다.</string>
+    <string name="toast_low_volume_market">낮은 볼륨의 시장 자산은 일시적으로 사용할 수 없습니다. 시장 규모가 상당 부분 커지면 활성화 될 것입니다.</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">심벌 마크</string>
+    <string name="store_name">가게 이름</string>
+    <string name="address">주소</string>
+    <string name="phone_number">전화 번호</string>
+    <string name="website">웹 사이트</string>
+    <string name="message">메시지</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">키의 bin 형식을 생성 할 수 없습니다.</string>
+    <string name="saving_bin_file_to_s">보관함 파일 저장 위치 : %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">저장 한 Bin 파일 : %1$s</string>
+    <string name="unable_to_save_bin_file">bin 파일을 저장할 수 없습니다.</string>
+    <string name="creating_backup_file">백업 파일 생성</string>
+    <string name="fetching_key">키 가져 오는 중</string>
+    <string name="generating_bin_format">빈 형식 생성 중</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">수색</string>
+    <string name="filter">필터</string>
+    <string name="export">수출</string>
+    <string name="confirming">확인 중 ...</string>
+    <string name="pdf_generated_msg_s">생성 및 저장 된 PDF : %1$s</string>
+    <string name="pdf_generated_msg_error_s">pdf를 생성 할 수 없습니다. 다시 시도하십시오. 오류 : %1$s</string>
+    <string name="csv_generated_msg_s">CSV 생성 및 저장 : %1$s</string>
+    <string name="csv_generated_msg_error_s">CSV를 생성 할 수 없습니다. 다시 시도하십시오. 오류 : %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">모든</string>
+    <string name="sent">전송 됨</string>
+    <string name="received">받은</string>
+    <string name="date_range">날짜 범위</string>
+    <string name="txt_to">에</string>
+    <string name="cryptocurrency">암호 해독 성</string>
+    <string name="fiat_amount">피아트 금액</string>
+    <string name="between">중에서</string>
+    <string name="and">과</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">필터링 된 트랜잭션 내보내기</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">수출 제품 생성</string>
+    <string name="exported_file_name">PalmPay- 거래</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">에서</string>
+    <string name="to">에</string>
+    <string name="memo">메모</string>
+    <string name="date">날짜</string>
+    <string name="time">시각</string>
+    <string name="crypto_amount">암호화 금액</string>
+    <string name="crypto_symbol">암호화 기호</string>
+    <string name="keyed_in_fiat_amount">키 입력 피아트 금액</string>
+    <string name="total_fiat_amount">총 피아트 양</string>
+    <string name="fiat_currency">피아트 통화</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">%1$d 항목</string>
+    <string name="subtotal">소계</string>
+    <string name="network_fee">네트워크 비용</string>
+    <string name="total">합계</string>
+    <string name="paid_s_s">유료 %1$s %2$s</string>
+    <string name="change_due">만기 변경</string>
+    <string name="e_receipt_memo_s">메모 : %1$s</string>
+    <string name="e_receipt_date_s">날짜 : %1$s</string>
+    <string name="e_receipt_tx_s">Tx : %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt from %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">이전 PIN이 잘못되었습니다.</string>
+    <string name="pin_changed_successfully">PIN이 성공적으로 변경되었습니다.</string>
+    <string name="please_enter_pin">PIN 번호를 입력하십시오.</string>
+    <string name="please_enter_pin_confirmation">PIN 번호를 입력하십시오.</string>
+    <string name="title_change_pin">PIN 수정</string>
+    <string name="txt_current_pin">현재 PIN 번호</string>
+    <string name="please_enter_old_pin">이전 PIN 번호를 입력하십시오.</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">노드 연결 오류, 재 시도 중</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">입금이 있었지만 요청을 찾을 수 없습니다.</string>
+
+</resources>

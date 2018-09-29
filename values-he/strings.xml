@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">רישיון</string>
+    <string name="agree">לְהַסכִּים</string>
+    <string name="disagree">לא מסכים</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">טוען נכסים ...</string>
+    <string name="title_loading_asset_type_data">טוען נתוני סוג נכס ...</string>
+    <string name="title_assets_ready">מסד הנתונים של הנכס מוכן</string>
+    <string name="msg_loading_all_existing_assets">ביצוע סדרה של בקשות על מנת לקבל את הרשימה המלאה של כל הנכסים הקיימים</string>
+    <string name="msg_loading_asset_type_data">מבקש פרטים נוספים על הנכס</string>
+    <string name="msg_loading_asset_in_database">טעון %1$d נכסים לתוך מסד הנתונים</string>
+    <string name="msg_assets_loaded">לאחר מכן, הגדר את חשבונך ...</string>
+    <string name="error_fetching_marketcap_data">לא ניתן לטעון נתוני Marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">צור חשבון</string>
+    <string name="txt_account_name">שם חשבון BitShares</string>
+    <string name="unable_to_find_account_id">לא ניתן למצוא מזהה חשבון משתמש</string>
+    <string name="error_invalid_account_name_explanation">שם החשבון צריך להכיל יותר מ -8 תווים, להכיל מספר או ללא תנועות. גם התו התחתון אינו מותר.</string>
+    <string name="create">לִיצוֹר</string>
+    <string name="error">שְׁגִיאָה</string>
+    <string name="account_name_already_exist">שם החשבון כבר קיים</string>
+    <string name="try_again">נסה שוב לאחר 5 דקות</string>
+    <string name="txt_new_pin_confirmation">אשר קוד PIN חדש (6+ ספרות)</string>
+    <string name="error_wif">שגיאה ביצירת מפתח WIF</string>
+    <string name="error_faucet_template">הברז החזיר שגיאה. Msg: %1$s</string>
+    <string name="error_read_dict_file">שגיאה בקריאת קובץ מילון</string>
+    <string name="error_missing_account">האפליקציה לא הצליחה לאחזר מידע על החשבון החדש שנוצר</string>
+    <string name="create_account_title">יצירת חשבון חדש</string>
+    <string name="create_account_message">המתן בזמן שחשבונך נוצר</string>
+    <string name="error_faucet_explanation">השרת החזיר שגיאה. זה יכול להיות בגלל מגבלה להגדיר בכוונה במקום לאסור בקשות תכופות בא מאותה כתובת IP בזמן קצר לשגות. המתן 5 דקות ונסה שוב, או עבור לרשת אחרת, לדוגמה מ wifi לתא.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">אנא הקפד לגבות את brainkey שלך לפני שתמשיך. פעולה זו תאפשר לך לשחזר את החשבון שלך למקרה שמשהו יקרה למכשיר זה.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">כיצד תרצה לייבא את החשבון הקיים שלך?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">מפתח WIF</string>
+    <string name="bin_file">.bin קובץ</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">בחר PIN בן 6 ספרות +</string>
+    <string name="txt_6_digits_pin_confirm">קוד אימות 6 ספרות + אישור</string>
+    <string name="please_enter_6_digit_pin">הזן את מספר הזיהוי בן 6 הספרות</string>
+    <string name="please_enter_6_digit_pin_confirm">הזן את האישור של מספר ה- PIN שלך</string>
+    <string name="mismatch_pin">סיכה לא תואמת</string>
+    <string name="please_enter_brainkey">נא להזין brainkey</string>
+    <string name="please_enter_correct_brainkey">נא להזין brainkey נכונה, זה צריך להיות בין 12 ל 16 מילים.</string>
+    <string name="unable_to_load_brainkey">לא ניתן לטעון את ה- Brainkey</string>
+    <string name="account_already_exist">החשבון כבר קיים</string>
+    <string name="importing_your_wallet">מייבא את הארנק שלך ...</string>
+    <string name="account_candidates_title">בחר חשבון</string>
+    <string name="account_candidates_content">את המפתחות נגזר brainkey זה נראה לשמש כדי לשלוט יותר מחשבון אחד, בחר איזה חשבון אתה רוצה לייבא</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">ייבוא ​​קובץ .bin</string>
+    <string name="import_backup">ייבא גיבוי מקובץ .bin</string>
+    <string name="txt_no_internet_connection">אין חיבור אינטרנט</string>
+    <string name="no_file_chosen">לא נבחר קובץ</string>
+    <string name="choose_backup">בחר גיבוי</string>
+    <string name="choose_file">בחר קובץ</string>
+    <string name="txt_existing_password">קובץ .bin הנוכחי סיסמה או PIN</string>
+    <string name="txt_new_pin">קוד PIN חדש (6+ ספרות)</string>
+    <string name="importing_keys_from_bin_file">"ייבוא ​​מפתחות מקובץ bin"</string>
+    <string name="please_make_sure_your_bin_file">ודא שהסיכה שלך נכונה או נכונה קובץ bin נבחר</string>
+    <string name="missing_existing_password">הזן את הסיסמה המשמשת להצפנת קובץ גיבוי זה</string>
+    <string name="pin_number_request">הזן את מספר הסיכה המשמש לקידוד קובץ הגיבוי</string>
+    <string name="pin_number_warning">מספר הסיכה חייב להיות לפחות 6 ספרות</string>
+    <string name="backup_error_no_key_reference_found">לא נמצא חשבון באמצעות מפתח זה, ודא שאתה משתמש בקובץ גיבוי מעודכן.</string>
+    <string name="backup_error_no_wallet_backup">לא נמצא גיבוי ארנק בקובץ זה</string>
+    <string name="error_invalid_account">חשבון לא חוקי, בדוק את מפתח המוח שלך עבור שגיאות הקלדה</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">יְבוּא</string>
+    <string name="title_account_load_result">החשבון נטען</string>
+    <string name="button_change_account">שינוי</string>
+    <string name="title_select_input_assets">בחר את הנכסים שברצונך לקבל.</string>
+    <string name="explanation_account_setup">יהיה עליך להגדיר חשבון Bitshares כדי לקבל תשלומים. או אם כבר יש לך אחד, תוכל לייבא אותו לכאן.</string>
+    <string name="explanation_output_asset">בחר את Smartcoin הרצוי לך:</string>
+    <string name="next">הַבָּא</string>
+    <string name="done">בוצע</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">לשלם עם</string>
+    <string name="error_corrupted_key_title">שגיאת שחיתות מפתח</string>
+    <string name="error_corrupted_key_content">האפליקציה אינה מסוגלת לשחזר את המפתחות הפרטיים המוצפנים שלך ממסד הנתונים. בגלל זה אתה תידרש להזין את המפתחות שלך שוב. או בצורה של brainkey או טופס קובץ הגיבוי bin שנוצר ומאוחסן באופן אוטומטי sdcard שלך אם החשבון נוצר על ידי האפליקציה</string>
+    <string name="invalid_pin">מספר PIN לא חוקי</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">בית</string>
+    <string name="txt_transactions">עסקאות</string>
+    <string name="txt_refunds_returns">החזרים כספיים / החזרים</string>
+    <string name="txt_settlement">הֶסדֵר</string>
+    <string name="bitshares_nodes_dialog_title">צומת Bitshares</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">הסכום לתשלום</string>
+    <string name="sub_total">סך הכל:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">שגיאה בהזמנת ספר</string>
+    <string name="content_error_market">אין פקודות ב- DEX שיאפשרו לנו לבצע את ההחלפה ל- %1$s כרגע. \n \n אנא עברו למסך ההגדרות ובחרו בנכס פלט אחר.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">אנא שלם</string>
+    <string name="please_pay_s_s">תשלום: %1$s %2$s__</string>
+    <string name="to_s">אל: %1$s</string>
+    <string name="txt_network">דמי רשת</string>
+    <string name="txt_please_wait">המתן בבקשה</string>
+    <string name="error_node_unreachable">לא ניתן היה להגיע אל הצומת</string>
+    <string name="invoice_subject">חשבונית PalmPay מאת %1$s</string>
+    <string name="before_s">לפני: %1$s</string>
+    <string name="share">לַחֲלוֹק</string>
+    <string name="share_with">שתף עם</string>
+    <string name="connecting">מְקַשֵׁר…</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">בחר בקשת תשלום</string>
+    <string name="dialog_msg_select_pending_payment">זוהה תשלום נכנס, אך לא ניתן להקצות אותו באופן אוטומטי לתשלום שנדרש בעבר. בחר את בקשת התשלום הנכונה מהרשימה הבאה.</string>
+    <string name="dialog_msg_confirm_pending_payment">פעולה זו תקשר את התשלום הנכנס לבקשת התשלום הקודמת של %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">פרטי תשלום נכנסים</string>
+    <string name="dialog_generic_title_confirm">האם אתה בטוח?</string>
+    <string name="dialog_generic_msg_confirm">שים לב שלא ניתן לבטל פעולה זו</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">לשחרר</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">התשלום אושר!</string>
+    <string name="txt_cool">מגניב!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">הגדרות</string>
+    <string name="general">כללי</string>
+    <string name="security">בִּטָחוֹן</string>
+    <string name="backups">גיבויים</string>
+    <string name="tokens">אסימונים</string>
+    <string name="accounts">חשבונות</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">מצב לילה</string>
+    <string name="currency_info">המטבע נבחר אוטומטית בהתאם לבחירת השפה והמדינה שלך. אם ברצונך לשנות אותם, עליך לעבור להגדרות המערכת הגלובלית של ההתקן.</string>
+    <string name="screen_saver">שומר מסך</string>
+    <string name="source">מָקוֹר</string>
+    <string name="bitshares_logo">לוגו</string>
+    <string name="default_folder">תיקיית ברירת המחדל (/ PalmPay)</string>
+    <string name="txt_folder">תיקייה</string>
+    <string name="choose">בחר</string>
+    <string name="screen_saver_time">הפעל לאחר ...</string>
+    <string name="one_minute">דקה 1</string>
+    <string name="three_minutes">3 דקות</string>
+    <string name="five_minutes">5 דקות</string>
+    <string name="local_ambassador">שגריר מקומי</string>
+    <string name="ambassador_info">PalmPay שגרירים משלמים כל 3 שניות. התפקיד שלהם הוא לתמוך סוחרים PalmPay המקומי ולארגן חודשי Crrypto Meetups. אם העיר שלך לא מופיע ברשימה, אז בעיר שלך עדיין אין שוער PalmPay. \n \n לקבלת מידע נוסף, בקר הקהילה Agrise על מברק: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">עִיר</string>
+    <string name="country">מדינה</string>
+    <string name="bugs_or_ideas">באגים או רעיונות?</string>
+    <string name="bugs_or_ideas_contact_info">מברק צ \'אט: http://t.me/Agorise \n דואר אלקטרוני: Agorise@protonmail.ch</string>
+    <string name="accept">לְקַבֵּל</string>
+    <string name="select">בחר</string>
+    <string name="are_you_sure">האם אתה בטוח?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">גיבוי brainkey</string>
+    <string name="copied_to_clipboard">הועתק ללוח</string>
+    <string name="bin_file_description">קובץ bin. תמיד שמור את קובץ הגיבוי .bin שלך בכרטיס MicroSD סודי או ב- USB Stick.</string>
+    <string name="create_a_backup">צור גיבוי</string>
+    <string name="brainkey_description">ברינקי. מילות שחזור חשבון שניתן ללכוד או להעתיק, אך לא לערוך אותן.</string>
+    <string name="txt_brain_key_info">הדפס את זה, או לכתוב את זה. כל מי שיש לו גישה למפתח השחזור שלך יקבל גישה לכספים בארנק זה.</string>
+    <string name="view_and_copy"><![CDATA[ העתק&הצג ]]></string>
+    <string name="title_bin_backup">ייצוא .bin גיבוי</string>
+    <string name="hint_password">סיסמה</string>
+    <string name="hint_password_confirmation">אימות סיסמה</string>
+    <string name="error_password_mandatory">יש להזין סיסמה</string>
+    <string name="error_password_too_short">הסיסמה קצרה מדי</string>
+    <string name="error_password_confirmation_mismatch">סיסמה ואישור לא תואם</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">חשבון סוחר: %1$s</string>
+    <string name="upgrade_to_ltm">שדרג ל- LTM</string>
+    <string name="upgrade_account_description">"לשדרג לחברות LifeTime (LTM), חשבונות ה- LTM של Bitshares משלמים עמלות כמעט אפס, מקבלים 80% cashback ובונוסים להפניות".</string>
+    <string name="account_upgrade_title">שדרג חשבון</string>
+    <string name="account_upgrade_content">חברות זמן החיים מאפשר לך לסחור עם קבוצה מופחתת של דמי רשת. \n \nIt ייכנסו לתוקף על החשבון הנוכחי "%1$s" \n \nIt עושה עם זאת לבוא עם עלות של סביב 100 דולר שילם Bitshares. \n \n האם אתה בטוח שברצונך להמשיך?</string>
+    <string name="account_upgrade_wait_content">העסקה שמכילה את הבקשה שלך מעובדת על ידי הרשת</string>
+    <string name="error_upgrade_account_title">שגיאה בעת ניסיון לשדרג את החשבון</string>
+    <string name="error_upgrade_account_content">ודא שחשבונך מכיל יתרה מספקת לכיסוי העלויות</string>
+    <string name="account_upgraded_title">החשבון שודרג</string>
+    <string name="account_upgraded_content">מזל טוב! החשבון שלך שודרג כעת לחברות ב- Lifetime.</string>
+    <string name="remove_account">הסר חשבון</string>
+    <string name="remove_account_description">הסר חשבון סוחר זה. הסר את חשבון הסוחר שלמעלה מהמכשיר הזה וצור או ייבא חשבון אחר.</string>
+    <string name="txt_account_remove_confirmation">"האם אתה בטוח שברצונך להסיר את החשבון \'%1$s\' מארנק זה?"</string>
+    <string name="remove">לְהַסִיר</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">רצוי Smartcoin</string>
+    <string name="txt_customer_loyalty">הנפקת נקודות נאמנות כמו ...</string>
+    <string name="warning_insufficient_reward_asset_balance">החשבון שלך עדיין אינו הבעלים של %1$s. בבקשה לרכוש כמה לפני שתנסה לתת את כל הלקוחות שלך כמו נקודות נאמנות.</string>
+    <string name="send">לִשְׁלוֹחַ</string>
+    <string name="txt_for_every">לכל</string>
+    <string name="txt_spent">מוּתַשׁ</string>
+    <string name="txt_bitcoin_altcoin_deposited">קבל עד 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">בחר לא יותר מ -8 נכסי קלט</string>
+    <string name="bitshares_unselection_message">את Bitshares (BTS) הליבה אסימון נדרש.</string>
+    <string name="toast_low_volume_market">נכסי שוק בנפח נמוך מושבתים זמנית. הם יופעלו כאשר נפח השוק יעלה במידה ניכרת</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">סֵמֶל</string>
+    <string name="store_name">שם חנות</string>
+    <string name="address">כתובת</string>
+    <string name="phone_number">מספר טלפון</string>
+    <string name="website">אתר אינטרנט</string>
+    <string name="message">הוֹדָעָה</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">לא ניתן ליצור תבנית bin עבור מפתח</string>
+    <string name="saving_bin_file_to_s">שמירת קובץ bin ל: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">קובץ bin נשמר בהצלחה ל: %1$s</string>
+    <string name="unable_to_save_bin_file">לא ניתן לשמור קובץ bin</string>
+    <string name="creating_backup_file">יצירת קובץ גיבוי</string>
+    <string name="fetching_key">מפתח אחזור</string>
+    <string name="generating_bin_format">יצירת תבנית bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">לחפש</string>
+    <string name="filter">לְסַנֵן</string>
+    <string name="export">יְצוּא</string>
+    <string name="confirming">מאשרת ...</string>
+    <string name="pdf_generated_msg_s">PDF שנוצר ונשמר: %1$s</string>
+    <string name="pdf_generated_msg_error_s">לא ניתן ליצור PDF. נסה שוב. שגיאה: %1$s</string>
+    <string name="csv_generated_msg_s">CSV נוצר ושמור: %1$s</string>
+    <string name="csv_generated_msg_error_s">לא ניתן ליצור csv. נסה שוב. שגיאה: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">את כל</string>
+    <string name="sent">נשלח</string>
+    <string name="received">קיבלו</string>
+    <string name="date_range">טווח תאריכים</string>
+    <string name="txt_to">ל</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">כמות פיאט</string>
+    <string name="between">בֵּין</string>
+    <string name="and">ו</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">יצוא עסקאות מסוננות</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">ייצור מוצר הייצוא</string>
+    <string name="exported_file_name">עסקאות PalmPay</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">מ</string>
+    <string name="to">ל</string>
+    <string name="memo">תַזכִּיר</string>
+    <string name="date">תַאֲרִיך</string>
+    <string name="time">זְמַן</string>
+    <string name="crypto_amount">סכום הצפנה</string>
+    <string name="crypto_symbol">סמל Crypto</string>
+    <string name="keyed_in_fiat_amount">מסומן ב- Fiat סכום</string>
+    <string name="total_fiat_amount">סך כל סכום הפיאט</string>
+    <string name="fiat_currency">מטבע פיאט</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">פריט %1$d</string>
+    <string name="subtotal">סך הכל</string>
+    <string name="network_fee">דמי רשת</string>
+    <string name="total">סה"כ</string>
+    <string name="paid_s_s">שילוי %1$s %2$s__</string>
+    <string name="change_due">שינוי עקב</string>
+    <string name="e_receipt_memo_s">תזכיר: %1$s</string>
+    <string name="e_receipt_date_s">תאריך: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt מ %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">PIN ישן שגוי</string>
+    <string name="pin_changed_successfully">PIN השתנה בהצלחה</string>
+    <string name="please_enter_pin">הזן מספר PIN</string>
+    <string name="please_enter_pin_confirmation">הזן את אישור מספר ה- PIN שלך</string>
+    <string name="title_change_pin">ערוך קוד PIN</string>
+    <string name="txt_current_pin">מספר ה- PIN הנוכחי</string>
+    <string name="please_enter_old_pin">הזן מספר PIN ישן</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">צומת חיבור צומת, מנסה שוב</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">קיבלנו תשלום נכנס, אבל שום בקשה לא נמצאה</string>
+
+</resources>

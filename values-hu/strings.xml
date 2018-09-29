@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Engedély</string>
+    <string name="agree">Egyetért</string>
+    <string name="disagree">Nem ért egyet</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Az eszközök betöltése ...</string>
+    <string name="title_loading_asset_type_data">Az eszköztípus-adatok betöltése ...</string>
+    <string name="title_assets_ready">Eszköz adatbázis kész</string>
+    <string name="msg_loading_all_existing_assets">Megkérések sorozata, hogy az összes meglévő eszköz teljes listáját megkapja</string>
+    <string name="msg_loading_asset_type_data">További elemek lekérése</string>
+    <string name="msg_loading_asset_in_database">Betöltött %1$d eszközök az adatbázisba</string>
+    <string name="msg_assets_loaded">Ezután állítsa be fiókját ...</string>
+    <string name="error_fetching_marketcap_data">Nem sikerült betölteni a marketcap adatokat</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Fiók létrehozása</string>
+    <string name="txt_account_name">BitShares fiók neve</string>
+    <string name="unable_to_find_account_id">Nem sikerült megtalálni a felhasználói fiók azonosítóját</string>
+    <string name="error_invalid_account_name_explanation">A fiók neve legfeljebb 8 karakterből állhat, tartalmazhat egy számot vagy nincs magánhangzó. Az aláhúzás jellege szintén tilos.</string>
+    <string name="create">Teremt</string>
+    <string name="error">Hiba</string>
+    <string name="account_name_already_exist">A fióknév már létezik</string>
+    <string name="try_again">Kérjük, próbálkozzon újra 5 perc után</string>
+    <string name="txt_new_pin_confirmation">Új PIN kód megerősítése (6 + számjegy)</string>
+    <string name="error_wif">Hiba történt a WIF kulcs létrehozásában</string>
+    <string name="error_faucet_template">A csaptelep hibát adott. Üzenet: %1$s</string>
+    <string name="error_read_dict_file">Hiba történt a szótárfájl olvasásában</string>
+    <string name="error_missing_account">Az alkalmazás nem tudta lekérni az újonnan létrehozott fiókkal kapcsolatos információkat</string>
+    <string name="create_account_title">Új fiók létrehozása</string>
+    <string name="create_account_message">Kérjük, várjon, amíg fiókját létrehozta</string>
+    <string name="error_faucet_explanation">A szerver hibát adott vissza. Ez egy olyan korlátozásnak tudható be, amelyet szándékosan azért hoztak létre, hogy rövid idõn belül el lehessen tiltani a gyakori kéréseket az ugyanazon IP címrõl. Várjon 5 percet, és próbálkozzon újra, vagy váltson át egy másik hálózathoz, például a wifi-ről a cellára.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Kérjük, győződjön meg róla, hogy mentse az agykürtjét, mielőtt folytatná. Ez lehetővé teszi a fiók helyreállítását abban az esetben, ha valami történik az eszközzel.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Hogyan szeretné importálni meglévő fiókját?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF kulcs</string>
+    <string name="bin_file">.bin fájl</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Válasszon egy 6+ számjegyű PIN kódot</string>
+    <string name="txt_6_digits_pin_confirm">6 + számjegyű PIN megerősítés</string>
+    <string name="please_enter_6_digit_pin">Adja meg a 6 számjegyű PIN kódot</string>
+    <string name="please_enter_6_digit_pin_confirm">Kérjük, adja meg PIN-kódjának megerősítését</string>
+    <string name="mismatch_pin">Mismatch pin</string>
+    <string name="please_enter_brainkey">Kérem, adja meg az agyt</string>
+    <string name="please_enter_correct_brainkey">Kérjük, írja be a megfelelő agykapcsolót, 12 és 16 szó között legyen.</string>
+    <string name="unable_to_load_brainkey">Nem sikerült betölteni az agyt</string>
+    <string name="account_already_exist">A fiók már létezik</string>
+    <string name="importing_your_wallet">A tárca importálása ...</string>
+    <string name="account_candidates_title">Kérjük, válasszon ki egy fiókot</string>
+    <string name="account_candidates_content">Az ebből a kulcsból származó kulcsok úgy tűnik, hogy több fiókot irányítanak, kérjük, válassza ki az importálni kívánt fiókot</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Import .bin fájl</string>
+    <string name="import_backup">Az .bin fájl importálása</string>
+    <string name="txt_no_internet_connection">Nincs internetkapcsolat</string>
+    <string name="no_file_chosen">Nincs kiválasztva fájl</string>
+    <string name="choose_backup">Válassza a Biztonsági mentés lehetőséget</string>
+    <string name="choose_file">Válassz fájlt</string>
+    <string name="txt_existing_password">Jelenlegi .bin fájl Jelszó vagy PIN</string>
+    <string name="txt_new_pin">Új PIN (6 + számjegy)</string>
+    <string name="importing_keys_from_bin_file">"Kulcsok importálása bin fájlból"</string>
+    <string name="please_make_sure_your_bin_file">Győződjön meg róla, hogy a tűje helyes vagy helyes a bin fájl</string>
+    <string name="missing_existing_password">Adja meg a biztonsági másolat titkosításához használt jelszót</string>
+    <string name="pin_number_request">Adja meg a biztonsági kód kódolásához használt PIN kódot</string>
+    <string name="pin_number_warning">A PIN-számnak legalább 6 számjegyből kell állnia</string>
+    <string name="backup_error_no_key_reference_found">Ez a kulcs nem található fiókban, kérjük, győződjön meg róla, hogy frissített biztonsági másolatot használ.</string>
+    <string name="backup_error_no_wallet_backup">Ebben a fájlban nem található tárca mentés</string>
+    <string name="error_invalid_account">Érvénytelen fiók, kérjük, ellenőrizze az agy kulcsát a hibák beírásához</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">import</string>
+    <string name="title_account_load_result">A fiók be van töltve</string>
+    <string name="button_change_account">változás</string>
+    <string name="title_select_input_assets">Válassza ki az elfogadni kívánt eszközöket.</string>
+    <string name="explanation_account_setup">Ahhoz, hogy kifizetéseket kaphasson, Bitshares számlát kell beállítania. Vagy ha már rendelkezik, importálhatja itt.</string>
+    <string name="explanation_output_asset">Válassza ki a kívánt Smartcoint:</string>
+    <string name="next">Következő</string>
+    <string name="done">Kész</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Fizetés</string>
+    <string name="error_corrupted_key_title">Key korrupciós hiba</string>
+    <string name="error_corrupted_key_content">Az alkalmazás nem tudja visszaállítani a titkosított titkos kulcsokat az adatbázisból. Emiatt újra meg kell adnia a kulcsokat. Akár egy agykürt formájában vagy formázza az automatikusan létrehozott és tárolt bin mentési fájlt az sdcard-jában, ha a fiók létrehozta az alkalmazást</string>
+    <string name="invalid_pin">Érvénytelen PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">itthon</string>
+    <string name="txt_transactions">tranzakciók</string>
+    <string name="txt_refunds_returns">Visszatérítések / Returns</string>
+    <string name="txt_settlement">Település</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares csomópontok</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Esedékes összeg</string>
+    <string name="sub_total">Részösszeg:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Rendelési könyv hiba</string>
+    <string name="content_error_market">Nincs olyan megbízás a DEX-ben, amely lehetővé tenné számunkra, hogy a csere pillanatnyilag %1$s-re kerüljön. \n \nKérjük, menjen a beállítások képernyőre, és válasszon ki egy másik kimeneti eszközt.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Kérlek fizess</string>
+    <string name="please_pay_s_s">Kérjük, fizessen: %1$s %2$s</string>
+    <string name="to_s">A következőhöz: %1$s</string>
+    <string name="txt_network">Hálózati díj</string>
+    <string name="txt_please_wait">Kérlek várj</string>
+    <string name="error_node_unreachable">Nem érhető el csomópont</string>
+    <string name="invoice_subject">PalmPay számla %1$s</string>
+    <string name="before_s">Mielőtt: %1$s</string>
+    <string name="share">Ossza meg</string>
+    <string name="share_with">Oszd</string>
+    <string name="connecting">Csatlakozás ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Válassza ki a fizetési kérelmet</string>
+    <string name="dialog_msg_select_pending_payment">A bejövő fizetést észlelték, de nem lehet automatikusan hozzárendelni egy korábban kért összeghez. Kérjük, válassza ki a megfelelő fizetési kérelmet az alábbi listából.</string>
+    <string name="dialog_msg_confirm_pending_payment">Ez összekapcsolja a bejövő fizetést az %1$s korábban rögzített fizetési kérelemmel</string>
+    <string name="dialog_msg_incoming_payment_details">Bejövő fizetési részletek</string>
+    <string name="dialog_generic_title_confirm">biztos vagy ebben?</string>
+    <string name="dialog_generic_msg_confirm">Kérjük, vegye figyelembe, hogy ez a művelet nem vonható vissza</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">elvetése</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Fizetés visszaigazolva!</string>
+    <string name="txt_cool">MENŐ!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Beállítások</string>
+    <string name="general">Tábornok</string>
+    <string name="security">Biztonság</string>
+    <string name="backups">mentések</string>
+    <string name="tokens">tokenek</string>
+    <string name="accounts">Fiókok</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Éjszakai mód</string>
+    <string name="currency_info">A valuta automatikusan kiválasztásra kerül a nyelv és az ország kiválasztása alapján. Ha módosítani szeretné ezeket, akkor meg kell keresnie a készülék globális rendszerbeállításait.</string>
+    <string name="screen_saver">Képernyőkímélő</string>
+    <string name="source">Forrás</string>
+    <string name="bitshares_logo">BitShares logó</string>
+    <string name="default_folder">Alapértelmezett mappa (/ PalmPay)</string>
+    <string name="txt_folder">Folder</string>
+    <string name="choose">Választ</string>
+    <string name="screen_saver_time">Engedélyezés után ...</string>
+    <string name="one_minute">1 perc</string>
+    <string name="three_minutes">3 perc</string>
+    <string name="five_minutes">5 perc</string>
+    <string name="local_ambassador">Helyi nagykövet</string>
+    <string name="ambassador_info">A PalmPay nagykövetei 3 másodpercenként fizetnek. Az ő feladataik a helyi PalmPay kereskedők támogatása és a havi Crypto Meetupok szervezése. Ha a város nem szerepel a listán, akkor a város még nem rendelkezik PalmPay nagykövettel. \n \n További információért látogasson el a Telegram Agorise közösségére: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Város</string>
+    <string name="country">Ország</string>
+    <string name="bugs_or_ideas">Bugok vagy ötletek?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Elfogad</string>
+    <string name="select">választ</string>
+    <string name="are_you_sure">biztos vagy ebben?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Biztonsági kulcs</string>
+    <string name="copied_to_clipboard">Másolva a vágólapra</string>
+    <string name="bin_file_description">Bin fájl. Mindig mentse a backup .bin fájlt egy titkos MicroSD kártyára vagy USB Stick-re.</string>
+    <string name="create_a_backup">Hozzon létre biztonsági másolatot</string>
+    <string name="brainkey_description">Brainkey. Számla visszanyerési szavakat lehet rögzíteni vagy másolni, de nem szerkeszteni.</string>
+    <string name="txt_brain_key_info">Nyomtassa ki, vagy írja le. Bárki, aki hozzáféréssel rendelkezik a helyreállítási kulcshoz, hozzáférést kap a pénztárcájában lévő pénzeszközökhöz.</string>
+    <string name="view_and_copy">Megtekintés és másolás</string>
+    <string name="title_bin_backup">Export .bin mentés</string>
+    <string name="hint_password">Jelszó</string>
+    <string name="hint_password_confirmation">Jelszó megerősítése</string>
+    <string name="error_password_mandatory">Jelszót kell megadnia</string>
+    <string name="error_password_too_short">A jelszó túl rövid</string>
+    <string name="error_password_confirmation_mismatch">Jelszó és visszaigazolási eltérés</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Merchant Account: %1$s</string>
+    <string name="upgrade_to_ltm">Frissítés az LTM-re</string>
+    <string name="upgrade_account_description">"Frissítés a LifeTime tagságra (LTM), a Bitshares \'LTM számlák közel nulla díjat fizetnek, 80% -os cashback-t és bónuszokat kapnak az áttételekért."</string>
+    <string name="account_upgrade_title">Frissítési fiók</string>
+    <string name="account_upgrade_content">A Life Time tagság lehetővé teszi, hogy csökkentett hálózati díjakkal kereskedjen. \n \nEz a "%1$s" \n \n folyószámlára lép érvénybe. Mindazonáltal a Bitshares-ban fizetett 100 dollárba kerül. \n \n Biztosan folytatja?</string>
+    <string name="account_upgrade_wait_content">A kérelmet tartalmazó tranzakciót a hálózat dolgozza fel</string>
+    <string name="error_upgrade_account_title">Hiba történt a fiók frissítése közben</string>
+    <string name="error_upgrade_account_content">Kérjük, győződjön meg róla, hogy fiókjában elegendő egyensúly van a költségek fedezésére</string>
+    <string name="account_upgraded_title">Fiók frissítve</string>
+    <string name="account_upgraded_content">Gratulálunk! fiókját most frissítettük a Lifetime tagságra.</string>
+    <string name="remove_account">Fiók törlése</string>
+    <string name="remove_account_description">Távolítsa el ezt a Merchant Accountot. Távolítsa el a fenti kereskedői fiókot az eszközről, és hozzon létre vagy importál egy másikat.</string>
+    <string name="txt_account_remove_confirmation">"Biztosan eltávolítja a" %1$s "fiókot ebből a tárcából?"</string>
+    <string name="remove">eltávolít</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Kívánt Smartcoin</string>
+    <string name="txt_customer_loyalty">Hűségpontok kibocsátása ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Fiókja még nem rendelkezik %1$s tulajdonossal. Kérjük, szerezzen be néhányat, mielőtt igyekezne ügyfeleinek Loyalty Pontként megadni.</string>
+    <string name="send">Elküld</string>
+    <string name="txt_for_every">Minden</string>
+    <string name="txt_spent">költött</string>
+    <string name="txt_bitcoin_altcoin_deposited">Akár 8 titkosítási pénznem elfogadása:</string>
+    <string name="altcoins_should_not_more_than">Kérjük, válasszon legfeljebb 8 beviteli eszközt</string>
+    <string name="bitshares_unselection_message">A Bitshares (BTS) core token szükséges.</string>
+    <string name="toast_low_volume_market">Az alacsony volumenű piaci eszközök ideiglenesen fogyatékosak. Lehetővé válnak, ha a piaci volumen jelentős mértékben emelkedik</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">logo</string>
+    <string name="store_name">A név tárolása</string>
+    <string name="address">Cím</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="website">Weboldal</string>
+    <string name="message">Üzenet</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">A kulcs bin formátumának létrehozása nem sikerült</string>
+    <string name="saving_bin_file_to_s">A bin fájl mentése: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin fájl sikeresen elmentve: %1$s</string>
+    <string name="unable_to_save_bin_file">A bin fájl mentése nem sikerült</string>
+    <string name="creating_backup_file">Biztonsági mentés létrehozása</string>
+    <string name="fetching_key">Felvételi kulcs</string>
+    <string name="generating_bin_format">Bin formátum létrehozása</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Keresés</string>
+    <string name="filter">Szűrő</string>
+    <string name="export">Export</string>
+    <string name="confirming">Megerősítés ...</string>
+    <string name="pdf_generated_msg_s">PDF létrehozva és mentve: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Nem lehet PDF-t készíteni. Próbáld újra. Hiba: %1$s</string>
+    <string name="csv_generated_msg_s">CSV generált és mentett: %1$s</string>
+    <string name="csv_generated_msg_error_s">Nem lehet létrehozni a csv-t. Próbáld újra. Hiba: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Minden</string>
+    <string name="sent">Küldött</string>
+    <string name="received">Fogadott</string>
+    <string name="date_range">Időintervallum</string>
+    <string name="txt_to">nak nek</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat összeg</string>
+    <string name="between">Között</string>
+    <string name="and">és</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Exportált tranzakciók exportálása</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Exporttermék előállítása</string>
+    <string name="exported_file_name">PalmPay-tranzakciók</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Tól től</string>
+    <string name="to">Nak nek</string>
+    <string name="memo">Memo</string>
+    <string name="date">Dátum</string>
+    <string name="time">Idő</string>
+    <string name="crypto_amount">Crypto Összeg</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Beépített Fiat összeg</string>
+    <string name="total_fiat_amount">Összesen Fiat összeg</string>
+    <string name="fiat_currency">Fiat Pénznem</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">%1$d pont</string>
+    <string name="subtotal">Részösszeg</string>
+    <string name="network_fee">Hálózati díj</string>
+    <string name="total">Teljes</string>
+    <string name="paid_s_s">Fizetett %1$s %2$s</string>
+    <string name="change_due">Változás esedékes</string>
+    <string name="e_receipt_memo_s">Jegyzet: %1$s</string>
+    <string name="e_receipt_date_s">Dátum: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt-től %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Helytelen régi PIN-kód</string>
+    <string name="pin_changed_successfully">A PIN sikeresen megváltozott</string>
+    <string name="please_enter_pin">Adja meg a PIN kódot</string>
+    <string name="please_enter_pin_confirmation">Kérjük, adja meg a PIN-kód megerősítését</string>
+    <string name="title_change_pin">PIN kód szerkesztése</string>
+    <string name="txt_current_pin">Jelenlegi PIN kód</string>
+    <string name="please_enter_old_pin">Kérjük, adja meg a régi PIN kódot</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Csomópont-csatlakozási hiba, újrapróbálkozás</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Bejövő befizetést kaptunk, de kérést nem találtunk</string>
+
+</resources>

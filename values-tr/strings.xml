@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Lisans</string>
+    <string name="agree">anlaşmak</string>
+    <string name="disagree">Katılmıyorum</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Varlıklar yükleniyor…</string>
+    <string name="title_loading_asset_type_data">Öğe türü verileri yükleniyor…</string>
+    <string name="title_assets_ready">Varlık veritabanı hazır</string>
+    <string name="msg_loading_all_existing_assets">Mevcut varlıkların tam listesini almak için bir dizi talep gerçekleştirme</string>
+    <string name="msg_loading_asset_type_data">Daha fazla varlık ayrıntıları isteme</string>
+    <string name="msg_loading_asset_in_database">Veritabanına %1$d varlıkları yüklendi</string>
+    <string name="msg_assets_loaded">Ardından, lütfen hesabınızı kurun…</string>
+    <string name="error_fetching_marketcap_data">Pazar payı verileri yüklenemedi</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Hesap açmak</string>
+    <string name="txt_account_name">BitShares hesap adı</string>
+    <string name="unable_to_find_account_id">Kullanıcı hesabı kimliği bulunamadı</string>
+    <string name="error_invalid_account_name_explanation">Hesap adının 8 karakterden fazla olması, bir sayı içermesi veya sesli harfleri olmaması gerekir. Alt çizgi karakteri de izin verilmiyor.</string>
+    <string name="create">yaratmak</string>
+    <string name="error">Hata</string>
+    <string name="account_name_already_exist">Hesap adı zaten mevcut</string>
+    <string name="try_again">Lütfen 5 dakika sonra tekrar deneyin.</string>
+    <string name="txt_new_pin_confirmation">Yeni PIN\'i onaylayın (6+ basamaklı)</string>
+    <string name="error_wif">WIF anahtarı oluşturulurken hata oluştu</string>
+    <string name="error_faucet_template">Musluk bir hata verdi. Msg: %1$s</string>
+    <string name="error_read_dict_file">Sözlük dosyası okunurken hata oluştu</string>
+    <string name="error_missing_account">Uygulama yeni oluşturulan hesap hakkında bilgi alamadı</string>
+    <string name="create_account_title">Yeni hesap oluşturuluyor</string>
+    <string name="create_account_message">Hesabınız oluşturulduğunda lütfen bekleyin</string>
+    <string name="error_faucet_explanation">Sunucu bir hata verdi. Bunun nedeni, aynı IP adresinden gelen sık taleplerin kısa bir süre içinde reddedilmesi amacıyla kasıtlı bir şekilde ayarlanmış bir sınırlama olabilir. Lütfen 5 dakika bekleyin ve tekrar deneyin veya farklı bir ağa geçin. Örneğin, kablosuz olarak hücreye.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Devam etmeden önce lütfen brainkeyinizi yedeklediğinizden emin olun. Bu, bu cihaza bir şey olması durumunda hesabınızı kurtarmanıza olanak tanır.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Mevcut hesabınızı nasıl aktarmak istersiniz?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Anahtarı</string>
+    <string name="bin_file">.bin Dosya</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">6 basamaklı bir PIN seçin</string>
+    <string name="txt_6_digits_pin_confirm">6+ basamaklı PIN onaylama</string>
+    <string name="please_enter_6_digit_pin">Lütfen 6 haneli PIN kodunu giriniz</string>
+    <string name="please_enter_6_digit_pin_confirm">Lütfen PIN numaranızın onayını giriniz</string>
+    <string name="mismatch_pin">Yanlış pin</string>
+    <string name="please_enter_brainkey">Lütfen brainkey girin</string>
+    <string name="please_enter_correct_brainkey">Lütfen doğru brainkey girin, 12 ile 16 kelime arasında olmalı.</string>
+    <string name="unable_to_load_brainkey">Brainkey yüklenemedi</string>
+    <string name="account_already_exist">Hesap zaten mevcut</string>
+    <string name="importing_your_wallet">Cüzdanını alınıyor…</string>
+    <string name="account_candidates_title">Lütfen bir hesap seçiniz</string>
+    <string name="account_candidates_content">Bu brainkey\'den elde edilen anahtarlar birden fazla hesabı kontrol etmek için kullanılıyor gibi görünüyor, lütfen almak istediğiniz hesabı seçin</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">.Bin dosyasını içe aktar</string>
+    <string name="import_backup">Yedekleme .bin dosyasından alın</string>
+    <string name="txt_no_internet_connection">İnternet bağlantısı yok</string>
+    <string name="no_file_chosen">Dosya seçili değil</string>
+    <string name="choose_backup">Yedekleme Seç</string>
+    <string name="choose_file">Dosya seçin</string>
+    <string name="txt_existing_password">Geçerli .bin dosyası Şifre veya PIN</string>
+    <string name="txt_new_pin">Yeni PIN (6+ basamak)</string>
+    <string name="importing_keys_from_bin_file">"Bin dosyasından Anahtarları İçe Aktarmak"</string>
+    <string name="please_make_sure_your_bin_file">Lütfen iğnenizin doğru olduğundan emin olun veya bin dosyası seçili</string>
+    <string name="missing_existing_password">Lütfen bu yedekleme dosyasını şifrelemek için kullanılan şifreyi girin</string>
+    <string name="pin_number_request">Lütfen bu yedekleme dosyasını kodlamak için kullanılan pin numarasını girin</string>
+    <string name="pin_number_warning">Pin numarası en az 6 basamak olmalı</string>
+    <string name="backup_error_no_key_reference_found">Bu anahtarı kullanan bir hesap bulunamadı, lütfen güncellenmiş bir yedekleme dosyası kullandığınızdan emin olun.</string>
+    <string name="backup_error_no_wallet_backup">Bu dosyada cüzdan yedeği bulunamadı</string>
+    <string name="error_invalid_account">Geçersiz hesap, lütfen yazım hataları için beyin anahtarınızı kontrol edin</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">İthalat</string>
+    <string name="title_account_load_result">Hesap yüklendi</string>
+    <string name="button_change_account">Değişiklik</string>
+    <string name="title_select_input_assets">Kabul edilecek varlıkları seçin.</string>
+    <string name="explanation_account_setup">Ödemeleri almak için bir Bitshares hesabı kurmanız gerekecek. Ya da zaten bir tane varsa, onu buradan içe aktarabilirsiniz.</string>
+    <string name="explanation_output_asset">İstediğiniz Smartcoin\'i seçin:</string>
+    <string name="next">Sonraki</string>
+    <string name="done">tamam</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">İle ödemek</string>
+    <string name="error_corrupted_key_title">Anahtar bozulması hatası</string>
+    <string name="error_corrupted_key_content">Uygulama şifreli özel anahtarlarınızı veritabanından kurtaramaz. Bundan dolayı anahtarlarınızı tekrar girmeniz istenecektir. Bir brainkey formunda veya hesap tarafından oluşturulduysa sdcard\'ınızda otomatik olarak oluşturulan ve depolanan bin yedek dosyasını oluştur</string>
+    <string name="invalid_pin">Geçersiz PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Ev</string>
+    <string name="txt_transactions">işlemler</string>
+    <string name="txt_refunds_returns">Ödemeler / İade</string>
+    <string name="txt_settlement">Yerleşme</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares düğümleri</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Alacak miktarı</string>
+    <string name="sub_total">Ara toplam:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Sipariş defteri hatası</string>
+    <string name="content_error_market">DEX\'te şu andaki değişimi %1$s yapmamızı sağlayacak hiçbir emir bulunmamaktadır. \n \nLütfen ayarlar ekranına gidin ve farklı bir çıkış varlığı seçin.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Lütfen öde</string>
+    <string name="please_pay_s_s">Lütfen Öde: %1$s %2$s</string>
+    <string name="to_s">Kime: %1$s</string>
+    <string name="txt_network">Ağ ücreti</string>
+    <string name="txt_please_wait">Lütfen bekle</string>
+    <string name="error_node_unreachable">Hiçbir düğüm ulaşılamadı</string>
+    <string name="invoice_subject">PalmPay faturası %1$s</string>
+    <string name="before_s">Önce: %1$s</string>
+    <string name="share">Pay</string>
+    <string name="share_with">İle paylaş</string>
+    <string name="connecting">Bağlanıyor…</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Ödeme isteğini seç</string>
+    <string name="dialog_msg_select_pending_payment">Gelen bir ödeme tespit edildi, ancak daha önce talep edilen bir ödemeye otomatik olarak atanamadı. Lütfen aşağıdaki listeden doğru ödeme isteğini seçiniz.</string>
+    <string name="dialog_msg_confirm_pending_payment">Bu, gelen ödemeyi daha önce kaydedilen %1$s ödeme isteğine bağlar.</string>
+    <string name="dialog_msg_incoming_payment_details">Gelen ödeme detayları</string>
+    <string name="dialog_generic_title_confirm">Emin misiniz?</string>
+    <string name="dialog_generic_msg_confirm">Lütfen bu işlemin geri alınamayacağını unutmayın.</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Reddet</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Ödeme Onaylandı!</string>
+    <string name="txt_cool">GÜZEL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Ayarlar</string>
+    <string name="general">Genel</string>
+    <string name="security">Güvenlik</string>
+    <string name="backups">Yedekler</string>
+    <string name="tokens">Jeton</string>
+    <string name="accounts">Hesaplar</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Gece modu</string>
+    <string name="currency_info">Para birimi, dilinize ve ülke seçiminize göre otomatik olarak seçilir. Bunları değiştirmek isterseniz, cihazınızın genel sistem ayarlarına gitmelisiniz.</string>
+    <string name="screen_saver">Ekran koruyucusu</string>
+    <string name="source">Kaynak</string>
+    <string name="bitshares_logo">BitShares Logosu</string>
+    <string name="default_folder">Varsayılan klasör (/ PalmPay)</string>
+    <string name="txt_folder">Klasör</string>
+    <string name="choose">Seçmek</string>
+    <string name="screen_saver_time">Sonra etkinleştir…</string>
+    <string name="one_minute">1 dakika</string>
+    <string name="three_minutes">3 dakika</string>
+    <string name="five_minutes">5 dakika</string>
+    <string name="local_ambassador">Yerel Büyükelçi</string>
+    <string name="ambassador_info">PalmPay Elçileri her 3 saniyede bir ödenir. İşleri yerel PalmPay tüccarlarını desteklemek ve aylık Kripto Buluşmaları düzenlemek. Şehriniz listede bulunmuyorsa, şehrinizde henüz bir PalmPay Elçisi bulunmuyor. \n \nDaha fazla bilgi için Telegram\'daki Agorise topluluğunu ziyaret edin: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Kent</string>
+    <string name="country">ülke</string>
+    <string name="bugs_or_ideas">Hatalar veya Fikirler?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram sohbeti: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Kabul etmek</string>
+    <string name="select">seçmek</string>
+    <string name="are_you_sure">Emin misiniz?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Yedekleme brainkey</string>
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="bin_file_description">Bin dosyası. Yedekleme .bin dosyanızı her zaman gizli bir MicroSD kart veya USB Stick\'e kaydedin.</string>
+    <string name="create_a_backup">Yedek oluştur</string>
+    <string name="brainkey_description">Brainkey. Yakalanabilir veya kopyalanabilir, ancak düzenlenemeyen hesap kurtarma kelimeleri.</string>
+    <string name="txt_brain_key_info">Bunu yazdırın veya yazın. Kurtarma anahtarınıza erişimi olan herkes bu cüzdandaki paraya erişebilir.</string>
+    <string name="view_and_copy">Görüntüle ve Kopyala</string>
+    <string name="title_bin_backup">.Bin yedeğini dışa aktar</string>
+    <string name="hint_password">Parola</string>
+    <string name="hint_password_confirmation">Şifre onayı</string>
+    <string name="error_password_mandatory">Şifre girmelisiniz</string>
+    <string name="error_password_too_short">Şifre çok kısa</string>
+    <string name="error_password_confirmation_mismatch">Şifre ve onay uyuşmazlığı</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Satıcı Hesabı: %1$s</string>
+    <string name="upgrade_to_ltm">LTM\'ye yükseltin</string>
+    <string name="upgrade_account_description">"LifeTime Üyeliğine Yükseltme (LTM). Bitshares\'in LTM hesapları sıfıra yakın ücretler öder, başvuru için% 80 geri ödeme ve ikramiye kazanır."</string>
+    <string name="account_upgrade_title">Hesabınızı yükseltin</string>
+    <string name="account_upgrade_content">Yaşam Süresi Üyeliği, azaltılmış ağ ücretleri kümesiyle işlem yapmanıza olanak tanır. \n \nIt cari hesaptan geçerli olacaktır "%1$s" \n \nIt Ancak Bitshares ödenen yaklaşık 100 USD bir maliyetle gelir. \n \n Devam etmek istediğinizden emin misiniz?</string>
+    <string name="account_upgrade_wait_content">İsteğinizi içeren işlem ağ tarafından işleniyor</string>
+    <string name="error_upgrade_account_title">Hesabı yükseltmeye çalışırken hata oluştu</string>
+    <string name="error_upgrade_account_content">Lütfen hesabınızın maliyetleri karşılayacak kadar bakiyesi olduğundan emin olun.</string>
+    <string name="account_upgraded_title">Hesap yükseltildi</string>
+    <string name="account_upgraded_content">Tebrikler! hesabınız artık Lifetime Üyelik\'e yükseltildi.</string>
+    <string name="remove_account">Hesabı kaldır</string>
+    <string name="remove_account_description">Bu Satıcı Hesabını kaldırın. Yukarıdaki cihazda bulunan Satıcı Hesabını kaldırın ve farklı bir tane oluşturun veya içe aktarın.</string>
+    <string name="txt_account_remove_confirmation">"Bu cüzdandaki \'%1$s\' hesabını silmek istediğinizden emin misiniz?"</string>
+    <string name="remove">Kaldır</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">İstenen Smartcoin</string>
+    <string name="txt_customer_loyalty">Sayı Bağlılık Puanları…</string>
+    <string name="warning_insufficient_reward_asset_balance">Hesabınız henüz hiç %1$s sahip değil. Müşterilerinize Sadakat Puanı vermeyi denemeden önce lütfen biraz edinin.</string>
+    <string name="send">göndermek</string>
+    <string name="txt_for_every">Her şey için</string>
+    <string name="txt_spent">harcanmış</string>
+    <string name="txt_bitcoin_altcoin_deposited">8 Kripto para birimine kadar kabul edin:</string>
+    <string name="altcoins_should_not_more_than">Lütfen 8\'den fazla giriş var.</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) çekirdek belirteci gereklidir.</string>
+    <string name="toast_low_volume_market">Düşük hacimli piyasa varlıkları geçici olarak devre dışıdır. Pazar hacmi önemli miktarda arttığında etkinleştirilecekler</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Dükkan adı</string>
+    <string name="address">Adres</string>
+    <string name="phone_number">Telefon numarası</string>
+    <string name="website">Web sitesi</string>
+    <string name="message">Mesaj</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Anahtar için bin biçimi oluşturulamadı</string>
+    <string name="saving_bin_file_to_s">Bin Dosyayı Kaydetmek: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin dosyası başarıyla kaydedildi: %1$s</string>
+    <string name="unable_to_save_bin_file">Depo dosyası kaydedilemiyor</string>
+    <string name="creating_backup_file">Yedekleme Dosyası Oluşturma</string>
+    <string name="fetching_key">Anahtar Alınıyor</string>
+    <string name="generating_bin_format">Üreten bin formatı</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Arama</string>
+    <string name="filter">filtre</string>
+    <string name="export">İhracat</string>
+    <string name="confirming">Onaylanıyor ...</string>
+    <string name="pdf_generated_msg_s">PDF oluşturuldu ve kaydedildi: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Pdf oluşturulamıyor. Lütfen tekrar deneyiniz. Hata: %1$s</string>
+    <string name="csv_generated_msg_s">CSV oluşturuldu ve kaydedildi: %1$s</string>
+    <string name="csv_generated_msg_error_s">Csv oluşturulamadı Lütfen tekrar deneyiniz. Hata: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Herşey</string>
+    <string name="sent">Gönderilen</string>
+    <string name="received">Alınan</string>
+    <string name="date_range">Tarih aralığı</string>
+    <string name="txt_to">için</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat miktarı</string>
+    <string name="between">Arasında</string>
+    <string name="and">ve</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Filtrelenmiş işlemleri dışa aktar</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Dışa aktarma ürünü oluşturuluyor</string>
+    <string name="exported_file_name">PalmPay-İşlemler</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">itibaren</string>
+    <string name="to">için</string>
+    <string name="memo">not</string>
+    <string name="date">tarih</string>
+    <string name="time">Zaman</string>
+    <string name="crypto_amount">Kripto tutarı</string>
+    <string name="crypto_symbol">Kripto sembolü</string>
+    <string name="keyed_in_fiat_amount">Anahtarlı Fiat Tutarı</string>
+    <string name="total_fiat_amount">Toplam Fiat Tutarı</string>
+    <string name="fiat_currency">Fiat Para Birimi</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Öğe %1$d</string>
+    <string name="subtotal">Ara toplam</string>
+    <string name="network_fee">Ağ ücreti</string>
+    <string name="total">Genel Toplam</string>
+    <string name="paid_s_s">Paid %1$s %2$s</string>
+    <string name="change_due">Degişiklik nedeniyle</string>
+    <string name="e_receipt_memo_s">Not: %1$s</string>
+    <string name="e_receipt_date_s">Tarih: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt ___ \'dan %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Yanlış eski PIN</string>
+    <string name="pin_changed_successfully">PIN başarıyla değiştirildi</string>
+    <string name="please_enter_pin">Lütfen PIN numarasını giriniz</string>
+    <string name="please_enter_pin_confirmation">Lütfen PIN numarası onayınızı giriniz</string>
+    <string name="title_change_pin">PIN\'i düzenle</string>
+    <string name="txt_current_pin">Mevcut PIN numarası</string>
+    <string name="please_enter_old_pin">Lütfen eski PIN numarasını giriniz</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Düğüm bağlantı hatası, tekrar deneniyor</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Gelen bir ödeme aldık, ancak istek bulunamadı</string>
+
+</resources>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Litsents</string>
+    <string name="agree">Nõus</string>
+    <string name="disagree">Ei nõustu</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Varade laadimine ...</string>
+    <string name="title_loading_asset_type_data">Andmetüübi andmete laadimine ...</string>
+    <string name="title_assets_ready">Varade andmebaas valmis</string>
+    <string name="msg_loading_all_existing_assets">Taotluste seeria läbiviimine, et saada täielik loetelu kõigist olemasolevatest varadest</string>
+    <string name="msg_loading_asset_type_data">Täiendava vara üksikasjade küsimine</string>
+    <string name="msg_loading_asset_in_database">Laaditud andmebaasi %1$d vara</string>
+    <string name="msg_assets_loaded">Järgmisena seadistage oma konto ...</string>
+    <string name="error_fetching_marketcap_data">Turukapseliandmete laadimine nurjus</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Loo konto</string>
+    <string name="txt_account_name">BitSharesi konto nimi</string>
+    <string name="unable_to_find_account_id">Kasutajakonto ID leidmine nurjus</string>
+    <string name="error_invalid_account_name_explanation">Konto nimi peab olema vähemalt 8 tähemärki, sisaldama numbrit või mitte olema täishääke. Alakriipsu pole ka lubatud.</string>
+    <string name="create">Loo</string>
+    <string name="error">Viga</string>
+    <string name="account_name_already_exist">Konto nimi on juba olemas</string>
+    <string name="try_again">Proovige uuesti pärast 5 minutit</string>
+    <string name="txt_new_pin_confirmation">Kinnitage uus PIN-kood (6 + numbrit)</string>
+    <string name="error_wif">Viga WIF-võtme loomisel</string>
+    <string name="error_faucet_template">Kraan tagas viga. Msg: %1$s</string>
+    <string name="error_read_dict_file">Sõnastikufaili lugemisega viga</string>
+    <string name="error_missing_account">Rakendus ei saanud värskelt loodud konto kohta teavet</string>
+    <string name="create_account_title">Uue konto loomine</string>
+    <string name="create_account_message">Oota, kuni teie konto on loodud</string>
+    <string name="error_faucet_explanation">Server tagas viga. See võib olla tingitud piirangust, mis on sihikindlalt seatud, et lükata lühikese aja jooksul samale IP-aadressile pärinevad sagedased päringud välja. Palun oodake 5 minutit ja proovige uuesti või lülitage mõnda teise võrku, näiteks WiFi-st raku juurde.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Palun veenduge, et varukoopia oma brainky-le enne jätkamist. See võimaldab teil oma kontot taastada juhul, kui midagi selle seadmega juhtub.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Kuidas soovite oma olemasolevat kontot importida?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF-võti</string>
+    <string name="bin_file">.bin fail</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Valige 6-kohaline PIN-kood</string>
+    <string name="txt_6_digits_pin_confirm">6 + numbrit PIN-kood kinnita</string>
+    <string name="please_enter_6_digit_pin">Palun sisestage 6-kohaline PIN-kood</string>
+    <string name="please_enter_6_digit_pin_confirm">Palun sisesta oma PIN-koodi kinnitus</string>
+    <string name="mismatch_pin">Katkesta pin</string>
+    <string name="please_enter_brainkey">Palun sisestage brainkey</string>
+    <string name="please_enter_correct_brainkey">Palun sisestage õige brainkey, peaks see olema vahemikus 12 kuni 16 sõna.</string>
+    <string name="unable_to_load_brainkey">Brainkey\'i laadimine nurjus</string>
+    <string name="account_already_exist">Konto on juba olemas</string>
+    <string name="importing_your_wallet">Teie rahakoti importimine ...</string>
+    <string name="account_candidates_title">Palun valige konto</string>
+    <string name="account_candidates_content">Sellest brainkyst saadud võtmeid kasutatakse rohkem kui ühe konto kontrollimiseks, palun valige, millist kontot soovite importida</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Import .bin-faili</string>
+    <string name="import_backup">Import varundada .bin-failist</string>
+    <string name="txt_no_internet_connection">Interneti-ühendus puudub</string>
+    <string name="no_file_chosen">Faili pole valitud</string>
+    <string name="choose_backup">Valige varundamine</string>
+    <string name="choose_file">Vali fail</string>
+    <string name="txt_existing_password">Praegune .bin-fail Parool või PIN-kood</string>
+    <string name="txt_new_pin">Uus PIN-kood (6+ numbrit)</string>
+    <string name="importing_keys_from_bin_file">"Bin-faili võtmete importimine"</string>
+    <string name="please_make_sure_your_bin_file">Veenduge, et teie PIN-kood on õige või valitud on õige trummi fail</string>
+    <string name="missing_existing_password">Palun sisesta parool, mida kasutatakse varufaili krüptimiseks</string>
+    <string name="pin_number_request">Palun sisesta selle varufaili kodeerimiseks kasutatav PIN-kood</string>
+    <string name="pin_number_warning">Pin number peab olema vähemalt 6 numbrit</string>
+    <string name="backup_error_no_key_reference_found">Selle võti ei leitud ühtegi kontot, palun veenduge, et kasutate uuendatud varufaili.</string>
+    <string name="backup_error_no_wallet_backup">Selles failis ei leitud rahakoti varukoopiat</string>
+    <string name="error_invalid_account">Kehtetu konto, palun kontrollige oma ajuvõtme, et sisestada vead</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Import</string>
+    <string name="title_account_load_result">Konto laaditud</string>
+    <string name="button_change_account">Muuda</string>
+    <string name="title_select_input_assets">Valige aktsepteeritav vara.</string>
+    <string name="explanation_account_setup">Maksete saamiseks peate seadma Bitshare konto. Või kui teil on selle juba olemas, saate seda siin importida.</string>
+    <string name="explanation_output_asset">Valige soovitud Smartcoin:</string>
+    <string name="next">Järgmine</string>
+    <string name="done">Valmis</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Maksa</string>
+    <string name="error_corrupted_key_title">Peamine korruptsiooniviga</string>
+    <string name="error_corrupted_key_content">Rakendus ei saa teie krüpteeritud privaatvõtmeid andmebaasist taastada. Selle tõttu peate nõutakse oma võtmete sisestamist uuesti. Kas brainkey kujul või vormige varukoopia fail, mis genereeriti ja salvestatakse teie SDCARDi automaatselt, kui rakendus seda kontot loonud</string>
+    <string name="invalid_pin">Kehtetu PIN-kood</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Kodu</string>
+    <string name="txt_transactions">Tehingud</string>
+    <string name="txt_refunds_returns">Tagasimakseid / tagastab</string>
+    <string name="txt_settlement">Arveldus</string>
+    <string name="bitshares_nodes_dialog_title">Bitsharesi sõlmed</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Tasumisele kuuluv summa</string>
+    <string name="sub_total">All-Kokku:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Telli raamatu viga</string>
+    <string name="content_error_market">DEXis pole tellimusi, mis võimaldaks meil praegu vahetada %1$s-i. \n \nPalun käsku Seadistustekraan ja valige mõni muu väljundvara.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Palun makske</string>
+    <string name="please_pay_s_s">Palun maksma: %1$s %2$s</string>
+    <string name="to_s">Üles: %1$s</string>
+    <string name="txt_network">Võrgutasu</string>
+    <string name="txt_please_wait">Palun oota</string>
+    <string name="error_node_unreachable">Ükski sõlme pole jõudnud</string>
+    <string name="invoice_subject">PalmPay arve %1$s-st</string>
+    <string name="before_s">Enne: %1$s</string>
+    <string name="share">Jaga</string>
+    <string name="share_with">Jaga</string>
+    <string name="connecting">Ühendamine ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Valige makse taotlus</string>
+    <string name="dialog_msg_select_pending_payment">Sissetulev makse avastati, kuid seda ei saanud automaatselt määrata varem taotletud maksele. Palun valige järgmisest loendist korrektne maksekäsk.</string>
+    <string name="dialog_msg_confirm_pending_payment">See ühendab sissetuleva makse varasema salvestatud maksetaotlusega %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Saabuvad makseandmed</string>
+    <string name="dialog_generic_title_confirm">Oled sa kindel?</string>
+    <string name="dialog_generic_msg_confirm">Pidage meeles, et seda toimingut ei saa tagasi võtta</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Vabaks laskma</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Makse kinnitatud!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Seaded</string>
+    <string name="general">Üldine</string>
+    <string name="security">Turvalisus</string>
+    <string name="backups">Varukoopiad</string>
+    <string name="tokens">Tokenid</string>
+    <string name="accounts">Kontod</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Öörežiim</string>
+    <string name="currency_info">Valuuta valitakse automaatselt vastavalt teie keele ja riigi valikule. Kui soovite neid muuta, peate minema seadme globaalsetesse süsteemiseadetesse.</string>
+    <string name="screen_saver">Ekraanisäästja</string>
+    <string name="source">Allikas</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Vaikimisi kataloog (/ PalmPay)</string>
+    <string name="txt_folder">Kaust</string>
+    <string name="choose">Vali</string>
+    <string name="screen_saver_time">Luba pärast ...</string>
+    <string name="one_minute">1 minut</string>
+    <string name="three_minutes">3 minutit</string>
+    <string name="five_minutes">5 minutit</string>
+    <string name="local_ambassador">Kohalik suursaadik</string>
+    <string name="ambassador_info">PalmPay suursaadikud saavad maksma iga 3 sekundi tagant. Nende ülesanne on toetada kohalikke PalmPay\'i kaupmehi ja korraldada igakuiseid Crypto Meetupsi. Kui teie linna pole loetletud, siis pole teie linnas veel PalmPay suursaadikut. \n \nLisateabe saamiseks külastage Telegramiga Agorise kogukonda: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Linn</string>
+    <string name="country">Riik</string>
+    <string name="bugs_or_ideas">Vead või ideed?</string>
+    <string name="bugs_or_ideas_contact_info">Telegrami vestlus: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Nõustun</string>
+    <string name="select">Vali</string>
+    <string name="are_you_sure">Oled sa kindel?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Varundamine brainkey</string>
+    <string name="copied_to_clipboard">Kopeeritakse lõikepuhvrisse</string>
+    <string name="bin_file_description">Bin-fail. Salvesta oma varukoopia .bin-fail salajase MicroSD-kaardi või USB-liidesega.</string>
+    <string name="create_a_backup">Varunda loomine</string>
+    <string name="brainkey_description">Brainkey. Konto taastamise sõnad, mida saab pildistada või kopeerida, kuid mitte redigeerida.</string>
+    <string name="txt_brain_key_info">Printige see välja või kirjutage see alla. Kõigil, kel on juurdepääs teie taastamisklahvile, on juurdepääs selle rahakoti vahenditele.</string>
+    <string name="view_and_copy">Kuva ja kopeeri</string>
+    <string name="title_bin_backup">Ekspordi .bin varukoopia</string>
+    <string name="hint_password">Parool</string>
+    <string name="hint_password_confirmation">Salasõna kinnitamine</string>
+    <string name="error_password_mandatory">Peate sisestama parooli</string>
+    <string name="error_password_too_short">Parool on liiga lühike</string>
+    <string name="error_password_confirmation_mismatch">Parool ja kinnituse mittevastavus</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Kaupmehe konto: %1$s</string>
+    <string name="upgrade_to_ltm">Uuenda versioonile LTM</string>
+    <string name="upgrade_account_description">"Uuendage LifeTime\'i liikmeks (LTM). Bitsharesi LTM-i kontod maksavad peaaegu nulltasusid, saadakse 80% kassapargi ja boonuste saamiseks referaatidele."</string>
+    <string name="account_upgrade_title">Uuenda kontot</string>
+    <string name="account_upgrade_content">Eluaegne liikmelisus võimaldab teil kaubelda võrgutasude võrra väiksema võrguga. \n \n hakkab kehtima jooksevkontole "%1$s" \n \nIl siiski Bitshares\'is makstud umbes 100 USD eest. \n \nKas kindlasti soovite jätkata?</string>
+    <string name="account_upgrade_wait_content">Teie taotlust sisaldavat tehingut töötleb võrk</string>
+    <string name="error_upgrade_account_title">Konto täiendamise proovimisel ilmnes viga</string>
+    <string name="error_upgrade_account_content">Veenduge, et teie kontol oleks kulude katmiseks piisavalt tasakaalu</string>
+    <string name="account_upgraded_title">Konto uuendatud</string>
+    <string name="account_upgraded_content">Õnnitleme! teie kontot on nüüd uuendatud Lifetime\'i liikmeks.</string>
+    <string name="remove_account">Konto eemaldamine</string>
+    <string name="remove_account_description">Eemalda see Merchant Account. Eemaldage sellest seadmest ülaltoodud Merchant Account ja looge või importige teine.</string>
+    <string name="txt_account_remove_confirmation">"Kas olete kindel, et soovite selle rahakotist konto" %1$s "eemaldada?"</string>
+    <string name="remove">Eemalda</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Soovitud Smartcoin</string>
+    <string name="txt_customer_loyalty">Probleemid lojaalsuspunktidena ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Teie kontol ei ole veel ühtegi %1$s-d. Palun omandage mõned, enne kui proovite oma klientidele oma lojaalsuspunkte anda.</string>
+    <string name="send">Saada</string>
+    <string name="txt_for_every">Iga eest</string>
+    <string name="txt_spent">kulutanud</string>
+    <string name="txt_bitcoin_altcoin_deposited">Nõustu kuni 8 krüptokursusega:</string>
+    <string name="altcoins_should_not_more_than">Palun vali mitte rohkem kui 8 sisendvara</string>
+    <string name="bitshares_unselection_message">Bitsharesi (BTS) tuumärk on nõutav.</string>
+    <string name="toast_low_volume_market">Turuvälised varad on ajutiselt keelatud. Neid lubatakse, kui turumaht suureneb märkimisväärselt</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Poe nimi</string>
+    <string name="address">Aadress</string>
+    <string name="phone_number">Telefoninumber</string>
+    <string name="website">Veebisait</string>
+    <string name="message">Sõnum</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Võtme jaoks ei ole võimalik printimisvormingut genereerida</string>
+    <string name="saving_bin_file_to_s">Bin-faili salvestamine: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin-fail edukalt salvestatud: %1$s</string>
+    <string name="unable_to_save_bin_file">Bin faili ei saa salvestada</string>
+    <string name="creating_backup_file">Varundamisfaili loomine</string>
+    <string name="fetching_key">Võtme võtmine</string>
+    <string name="generating_bin_format">Bin-vormingu genereerimine</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Otsing</string>
+    <string name="filter">Filtreeri</string>
+    <string name="export">Eksport</string>
+    <string name="confirming">Kinnitades ...</string>
+    <string name="pdf_generated_msg_s">PDF loodud ja salvestatud: %1$s</string>
+    <string name="pdf_generated_msg_error_s">PDF-faili loomine ebaõnnestus Palun proovige uuesti. Viga: %1$s</string>
+    <string name="csv_generated_msg_s">CSV loodud ja salvestatud: %1$s</string>
+    <string name="csv_generated_msg_error_s">Ei saa luua csv-d. Palun proovige uuesti. Viga: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Kõik</string>
+    <string name="sent">Saadeti</string>
+    <string name="received">Vastu võetud</string>
+    <string name="date_range">Kuupäevavahemik</string>
+    <string name="txt_to">et</string>
+    <string name="cryptocurrency">Krüptokursus</string>
+    <string name="fiat_amount">Fiat summa</string>
+    <string name="between">Vahemikus</string>
+    <string name="and">ja</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Ekspordi filtreeritud tehingud</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Ekspordi toote loomine</string>
+    <string name="exported_file_name">PalmPay-tehingud</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Alates</string>
+    <string name="to">Et</string>
+    <string name="memo">Memo</string>
+    <string name="date">Kuupäev</string>
+    <string name="time">Aeg</string>
+    <string name="crypto_amount">Krüptoa suurus</string>
+    <string name="crypto_symbol">Krüpto sümbol</string>
+    <string name="keyed_in_fiat_amount">Sisestatud Fiat Summa</string>
+    <string name="total_fiat_amount">Fiat kogusumma kokku</string>
+    <string name="fiat_currency">Fiat Valuuta</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Üksus %1$d</string>
+    <string name="subtotal">Alamkogus kokku</string>
+    <string name="network_fee">Võrgutasu</string>
+    <string name="total">Kokku</string>
+    <string name="paid_s_s">Tasutud %1$s %2$s</string>
+    <string name="change_due">Muutunud on</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Kuupäev: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt alates %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Vale vana PIN-kood</string>
+    <string name="pin_changed_successfully">PIN-kood muutus edukalt</string>
+    <string name="please_enter_pin">Palun sisesta PIN-kood</string>
+    <string name="please_enter_pin_confirmation">Palun sisesta oma PIN-koodi kinnitus</string>
+    <string name="title_change_pin">Redigeeri PIN-koodi</string>
+    <string name="txt_current_pin">Praegune PIN-kood</string>
+    <string name="please_enter_old_pin">Palun sisesta vana PIN-kood</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Node\'i viga, proovige uuesti</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Saime sissetuleva makse, kuid ükski taotlus ei leitud</string>
+
+</resources>

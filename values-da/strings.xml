@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Licens</string>
+    <string name="agree">Enig</string>
+    <string name="disagree">Være uenig</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Indlæser aktiver ...</string>
+    <string name="title_loading_asset_type_data">Indlæser data for aktivtype ...</string>
+    <string name="title_assets_ready">Asset database klar</string>
+    <string name="msg_loading_all_existing_assets">Udførelse af en række anmodninger for at få den komplette liste over alle eksisterende aktiver</string>
+    <string name="msg_loading_asset_type_data">Anmodning om yderligere aktivoplysninger</string>
+    <string name="msg_loading_asset_in_database">Indlæste %1$d aktiver i databasen</string>
+    <string name="msg_assets_loaded">Næste skal du konfigurere din konto ...</string>
+    <string name="error_fetching_marketcap_data">Kunne ikke indlæse marketcap-data</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Opret konto</string>
+    <string name="txt_account_name">BitShares kontonavn</string>
+    <string name="unable_to_find_account_id">Kan ikke finde brugerkonto id</string>
+    <string name="error_invalid_account_name_explanation">Kontonavnet skal enten have mere end 8 tegn, indeholde et tal eller ingen vokaler. Underskriftskarakteren er heller ikke tilladt.</string>
+    <string name="create">skab</string>
+    <string name="error">Fejl</string>
+    <string name="account_name_already_exist">Kontonavn eksisterer allerede</string>
+    <string name="try_again">Prøv igen efter 5 minutter</string>
+    <string name="txt_new_pin_confirmation">Bekræft ny PIN-kode (6 + cifre)</string>
+    <string name="error_wif">Fejl ved oprettelse af WIF-nøgle</string>
+    <string name="error_faucet_template">Vandhanen returnerede en fejl. Msg: %1$s</string>
+    <string name="error_read_dict_file">Fejl ved læsning af ordbogsfil</string>
+    <string name="error_missing_account">App\'en kunne ikke hente oplysninger om den nyoprettede konto</string>
+    <string name="create_account_title">Oprettelse af ny konto</string>
+    <string name="create_account_message">Vent venligst mens din konto er oprettet</string>
+    <string name="error_faucet_explanation">Serveren returnerede en fejl. Dette kan skyldes en begrænsning, der er målrettet indført for at udelukke hyppige anmodninger, der kommer fra samme IP-adresse i løbet af kort tid. Vent venligst 5 minutter og prøv igen, eller skift til et andet netværk, For eksempel fra wifi til celle.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Sørg for, at du sikkerhedskopierer din hjerneknappen, inden du fortsætter. Dette giver dig mulighed for at gendanne din konto, hvis der sker noget med denne enhed.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Hvordan vil du gerne importere din eksisterende konto?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF-nøgle</string>
+    <string name="bin_file">.bin fil</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Vælg en 6-cifret PIN-kode</string>
+    <string name="txt_6_digits_pin_confirm">6 + cifre PIN-kode bekræftes</string>
+    <string name="please_enter_6_digit_pin">Indtast venligst 6-cifret PIN-kode</string>
+    <string name="please_enter_6_digit_pin_confirm">Indtast venligst bekræftelsen på dit PIN-kode</string>
+    <string name="mismatch_pin">Mismatch pin</string>
+    <string name="please_enter_brainkey">Indtast venligst brainkey</string>
+    <string name="please_enter_correct_brainkey">Indtast venligst korrekt nøgleord, det skal have mellem 12 og 16 ord.</string>
+    <string name="unable_to_load_brainkey">Kan ikke indlæse brainkey</string>
+    <string name="account_already_exist">Kontoen eksisterer allerede</string>
+    <string name="importing_your_wallet">Importerer din tegnebog ...</string>
+    <string name="account_candidates_title">Vælg venligst en konto</string>
+    <string name="account_candidates_content">Nøglerne fra denne hjerne nøgle synes at være brugt til at styre mere end en konto, vælg venligst hvilken konto du ønsker at importere</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Import .bin-fil</string>
+    <string name="import_backup">Importer backup fra .bin-fil</string>
+    <string name="txt_no_internet_connection">Ingen internetforbindelse</string>
+    <string name="no_file_chosen">Ingen fil valgt</string>
+    <string name="choose_backup">Vælg Backup</string>
+    <string name="choose_file">Vælg fil</string>
+    <string name="txt_existing_password">Nuværende .bin-fil Adgangskode eller PIN-kode</string>
+    <string name="txt_new_pin">Ny PIN-kode (6 + cifre)</string>
+    <string name="importing_keys_from_bin_file">"Importer nøgler fra bin-fil"</string>
+    <string name="please_make_sure_your_bin_file">Sørg for, at din pinkode er korrekt, eller at den rigtige bin-fil er valgt</string>
+    <string name="missing_existing_password">Indtast venligst den adgangskode, der bruges til at kryptere denne sikkerhedskopieringsfil</string>
+    <string name="pin_number_request">Indtast det pinnummer, der bruges til at kode denne sikkerhedskopieringsfil</string>
+    <string name="pin_number_warning">Pin nummeret skal være mindst 6 cifre</string>
+    <string name="backup_error_no_key_reference_found">Der blev ikke fundet nogen konto ved hjælp af denne nøgle. Sørg for at du bruger en opdateret backupfil.</string>
+    <string name="backup_error_no_wallet_backup">Ingen wallet backup kunne findes i denne fil</string>
+    <string name="error_invalid_account">Ugyldig konto, tjek din hjerne nøgle for at skrive fejl</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Importere</string>
+    <string name="title_account_load_result">Konto indlæst</string>
+    <string name="button_change_account">Lave om</string>
+    <string name="title_select_input_assets">Vælg de aktiver, der skal accepteres.</string>
+    <string name="explanation_account_setup">Du skal opsætte en Bitshares-konto for at modtage betalinger. Eller hvis du allerede har en, kan du importere den her.</string>
+    <string name="explanation_output_asset">Vælg din ønskede Smartcoin:</string>
+    <string name="next">Næste</string>
+    <string name="done">Færdig</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Betal med</string>
+    <string name="error_corrupted_key_title">Nøgle korruption fejl</string>
+    <string name="error_corrupted_key_content">Appen kan ikke gendanne dine krypterede private nøgler fra databasen. På grund af dette bliver du nødt til at indtaste dine nøgler igen. Enten i form af en hjerneknude eller danner bin backup fil, der blev genereret og gemt automatisk i dit sdcard, hvis kontoen blev oprettet af appen</string>
+    <string name="invalid_pin">Ugyldig PIN-kode</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Hjem</string>
+    <string name="txt_transactions">Transaktioner</string>
+    <string name="txt_refunds_returns">Restitutioner / Retur</string>
+    <string name="txt_settlement">Afregning</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares knuder</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Forfaldne beløb</string>
+    <string name="sub_total">Sub-Total:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Ordre bog fejl</string>
+    <string name="content_error_market">Der er ingen ordrer i DEX, der giver os mulighed for at udføre udvekslingen til %1$s i øjeblikket. \n \nVil du gå til indstillingsskærmen og vælg et andet outputaktiv.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Vær venlig at betale</string>
+    <string name="please_pay_s_s">Venligst Betal: %1$s %2$s</string>
+    <string name="to_s">Til: %1$s</string>
+    <string name="txt_network">Netværk gebyr</string>
+    <string name="txt_please_wait">Vent venligst</string>
+    <string name="error_node_unreachable">Der kunne ikke nås nogen node</string>
+    <string name="invoice_subject">PalmPay faktura fra %1$s</string>
+    <string name="before_s">Før: %1$s</string>
+    <string name="share">Del</string>
+    <string name="share_with">Del med</string>
+    <string name="connecting">Tilslutning…</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Vælg betalingsanmodning</string>
+    <string name="dialog_msg_select_pending_payment">En indgående betaling blev opdaget, men kunne ikke automatisk tildeles en tidligere anmodet betaling. Vælg venligst den korrekte betalingsanmodning fra nedenstående liste.</string>
+    <string name="dialog_msg_confirm_pending_payment">Dette vil forbinde den indgående betaling til den tidligere registrerede betalingsanmodning fra %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Indgående betalingsoplysninger</string>
+    <string name="dialog_generic_title_confirm">Er du sikker?</string>
+    <string name="dialog_generic_msg_confirm">Bemærk venligst, at denne handling ikke kan fortrydes</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Afskedige</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Betaling bekræftet!</string>
+    <string name="txt_cool">FEDT NOK!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Indstillinger</string>
+    <string name="general">Generel</string>
+    <string name="security">Sikkerhed</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">Tokens</string>
+    <string name="accounts">Konti</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Nattilstand</string>
+    <string name="currency_info">Valutoen vælges automatisk baseret på dit sprog og landvalg. Hvis du vil ændre dem, skal du gå til enhedens globale systemindstillinger.</string>
+    <string name="screen_saver">Pauseskærm</string>
+    <string name="source">Kilde</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Standard mappe (/ PalmPay)</string>
+    <string name="txt_folder">Folder</string>
+    <string name="choose">Vælge</string>
+    <string name="screen_saver_time">Aktivér efter ...</string>
+    <string name="one_minute">1 minut</string>
+    <string name="three_minutes">3 minutter</string>
+    <string name="five_minutes">5 minutter</string>
+    <string name="local_ambassador">Lokal ambassadør</string>
+    <string name="ambassador_info">PalmPays ambassadører får betalt hvert 3. sekund. Deres job er at støtte lokale PalmPay-forhandlere og organisere månedlige Crypto Meetups. Hvis din by ikke er opført, har din by endnu ikke en PalmPay-ambassadør. \n \nFor mere info, besøg Agorise-fællesskabet på Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">by</string>
+    <string name="country">Land</string>
+    <string name="bugs_or_ideas">Fejl eller ideer?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Acceptere</string>
+    <string name="select">Vælg</string>
+    <string name="are_you_sure">Er du sikker?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Kopieret til udklipsholder</string>
+    <string name="bin_file_description">Bin fil. Gem altid din backup .bin-fil til et hemmeligt MicroSD-kort eller USB Stick.</string>
+    <string name="create_a_backup">Opret en sikkerhedskopi</string>
+    <string name="brainkey_description">Brainkey. Ordbog til genopretning af konti, der kan fanges eller kopieres, men ikke redigeres.</string>
+    <string name="txt_brain_key_info">Udskriv dette ud, eller skriv det ned. Enhver, der har adgang til din genvejstast, har adgang til midler inden for denne tegnebog.</string>
+    <string name="view_and_copy">Vis og kopier</string>
+    <string name="title_bin_backup">Eksporter. Bin backup</string>
+    <string name="hint_password">Adgangskode</string>
+    <string name="hint_password_confirmation">Kodeords bekræftelse</string>
+    <string name="error_password_mandatory">Skal indtaste et kodeord</string>
+    <string name="error_password_too_short">Adgangskoden er for kort</string>
+    <string name="error_password_confirmation_mismatch">Adgangskode og bekræftelsesmatch</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Sælgerkonto: %1$s</string>
+    <string name="upgrade_to_ltm">Opgrader til LTM</string>
+    <string name="upgrade_account_description">"Opgrader til LifeTime Membership (LTM). Bitshares \'LTM-konti betaler næsten nulgebyrer, får 80% cashback og bonusser til henvisninger."</string>
+    <string name="account_upgrade_title">Opgrader konto</string>
+    <string name="account_upgrade_content">Life Time Membership giver dig mulighed for at handle med et mindre sæt netværksgebyrer. \n \nIt vil træde i kraft til den nuværende konto "%1$s" \n \nIt kommer dog med en pris på omkring 100 USD betalt i Bitshares. \n \n Er du sikker på, at du vil fortsætte?</string>
+    <string name="account_upgrade_wait_content">Transaktionen, der indeholder din anmodning, behandles af netværket</string>
+    <string name="error_upgrade_account_title">Der opstod en fejl under forsøg på at opgradere konto</string>
+    <string name="error_upgrade_account_content">Sørg for, at din konto har tilstrækkelig balance til at dække omkostningerne</string>
+    <string name="account_upgraded_title">Konto opgraderet</string>
+    <string name="account_upgraded_content">Tillykke! Din konto er nu opgraderet til Lifetime Membership.</string>
+    <string name="remove_account">Fjern konto</string>
+    <string name="remove_account_description">Fjern denne sælgerkonto. Fjern sælgerkontoen ovenfor fra denne enhed, og opret eller importer en anden.</string>
+    <string name="txt_account_remove_confirmation">"Er du sikker på, at du vil fjerne kontoen \'%1$s\' fra denne tegnebog?"</string>
+    <string name="remove">Fjerne</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Ønsket Smartcoin</string>
+    <string name="txt_customer_loyalty">Udsted loyalitetspoint som ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Din konto ejer endnu ikke nogen %1$s. Vær venlig at erhverve nogle, før du forsøger at give dine kunder som loyalitetspoint.</string>
+    <string name="send">Sende</string>
+    <string name="txt_for_every">For hver</string>
+    <string name="txt_spent">brugt</string>
+    <string name="txt_bitcoin_altcoin_deposited">Accept op til 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Vælg ikke mere end 8 inputaktiver</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) kernetoken er påkrævet.</string>
+    <string name="toast_low_volume_market">Markedsaktiver med lavt volumen er midlertidigt deaktiveret. De vil blive aktiveret, når markedsvolumenet stiger til en betydelig mængde</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Store navn</string>
+    <string name="address">Adresse</string>
+    <string name="phone_number">Telefonnummer</string>
+    <string name="website">Internet side</string>
+    <string name="message">Besked</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Kan ikke generere binformat til nøgle</string>
+    <string name="saving_bin_file_to_s">Gem filen til: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin-filen gemmes med succes til: %1$s</string>
+    <string name="unable_to_save_bin_file">Kan ikke gemme binfil</string>
+    <string name="creating_backup_file">Oprettelse af sikkerhedskopieringsfil</string>
+    <string name="fetching_key">Henter nøgle</string>
+    <string name="generating_bin_format">Generering af bin format</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Søg</string>
+    <string name="filter">Filter</string>
+    <string name="export">Eksport</string>
+    <string name="confirming">Bekræftelse ...</string>
+    <string name="pdf_generated_msg_s">PDF genereret og gemt: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Kunne ikke generere pdf. Prøv igen. Fejl: %1$s</string>
+    <string name="csv_generated_msg_s">CSV genereret og gemt: %1$s</string>
+    <string name="csv_generated_msg_error_s">Kunne ikke generere csv. Prøv igen. Fejl: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Alle</string>
+    <string name="sent">Sendt</string>
+    <string name="received">Modtaget</string>
+    <string name="date_range">Datointerval</string>
+    <string name="txt_to">til</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat beløb</string>
+    <string name="between">Mellem</string>
+    <string name="and">og</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Eksporter filtrerede transaktioner</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Generering af eksportprodukt</string>
+    <string name="exported_file_name">PalmPay-Transaktioner</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Fra</string>
+    <string name="to">Til</string>
+    <string name="memo">Memo</string>
+    <string name="date">Dato</string>
+    <string name="time">Tid</string>
+    <string name="crypto_amount">Kryptobeløb</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Indtastet Fiatbeløb</string>
+    <string name="total_fiat_amount">Samlet Fiatbeløb</string>
+    <string name="fiat_currency">Fiat Valuta</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Vare %1$d</string>
+    <string name="subtotal">Sub-Total</string>
+    <string name="network_fee">Netværk gebyr</string>
+    <string name="total">Total</string>
+    <string name="paid_s_s">Betalt %1$s %2$s</string>
+    <string name="change_due">Ændring forfalder</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Dato: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt fra %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Forkert gammel PIN-kode</string>
+    <string name="pin_changed_successfully">PIN-kode blev ændret korrekt</string>
+    <string name="please_enter_pin">Indtast venligst PIN-kode</string>
+    <string name="please_enter_pin_confirmation">Indtast venligst din PIN-kode bekræftelse</string>
+    <string name="title_change_pin">Rediger PIN-kode</string>
+    <string name="txt_current_pin">Nuværende PIN-kode</string>
+    <string name="please_enter_old_pin">Indtast venligst det gamle PIN-kode</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Noden tilslutningsfejl, forsøger igen</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Vi fik en indgående betaling, men ingen forespørgsel kunne findes</string>
+
+</resources>

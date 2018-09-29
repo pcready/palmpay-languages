@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Îcaze</string>
+    <string name="agree">Qebûlkirin</string>
+    <string name="disagree">Lihevderneketin</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Sazkirina Loading ...</string>
+    <string name="title_loading_asset_type_data">Agahiyên danûstandinê yên barkirinê ...</string>
+    <string name="title_assets_ready">Databasê amade amadekirin</string>
+    <string name="msg_loading_all_existing_assets">Performansek rêzikên daxwaznameyên ji bo ku lîsteya temamî ya tevahiya dewlemendên heyî hene</string>
+    <string name="msg_loading_asset_type_data">Daxuyaniya agahiyên bêtir agahdariyê</string>
+    <string name="msg_loading_asset_in_database">Saziyên %1$d di bin databases de barkirin</string>
+    <string name="msg_assets_loaded">Piştre, kerema xwe hesabê xwe saz bike ...</string>
+    <string name="error_fetching_marketcap_data">Daneyên danûstandinên bazar nekar nekarin</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Hesabê çêbike</string>
+    <string name="txt_account_name">Navê navê BitShares</string>
+    <string name="unable_to_find_account_id">Ne ku bikarhênerek nasnameya bikarhênerê bibînin</string>
+    <string name="error_invalid_account_name_explanation">Navnîşa hesabê hebe heya heya 8 kesar hene, hejmarek hejmarek hebe yan heqên xwe tune. Lîsteya nenasîn jî ne destûr e.</string>
+    <string name="create">Xûliqandin</string>
+    <string name="error">Şaşî</string>
+    <string name="account_name_already_exist">Navê navnîşê heye</string>
+    <string name="try_again">Piştî 5 deqîqeyan dîsa dîsa dîsa biceribînin</string>
+    <string name="txt_new_pin_confirmation">Pêvek nû ya nû (6+ hejmar)</string>
+    <string name="error_wif">Çewtiya afirandina WIF</string>
+    <string name="error_faucet_template">Faucet çewtiyek vegerand. Msg: %1$s</string>
+    <string name="error_read_dict_file">Çewtiya pelê xwendin</string>
+    <string name="error_missing_account">App nikare agahî li ser hesabê nû çêkirî agahdar bike</string>
+    <string name="create_account_title">Hesabên nû çêbikin</string>
+    <string name="create_account_message">Ji kerema xwe re dema ku hesabê we çêbûye</string>
+    <string name="error_faucet_explanation">Pêşkêşiyek çewtiyek vedigerin. Ev dibe ku ji ber ku armancên bi awayekî bi awayekî bi awayekî bi awayekî vekirî têne destnîşankirin, daxwaznameyên pir caran daxwaznameyên ji heman navnîşana IP-ê di demeke kurt de. Ji kerema xwe 5 deqeyan bisekinin û dîsa biceribîne, an jî nîskek cuda cuda biguherînin, wek mînak ji wifiê hucreyê.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Ji kerema xwe re bizanin ku hûn ji ber ku berdewam bike ku hûn şertê xwe bişînin. Ev ê ji we re destûrê dide ku hûn hesabê xwe bigirin, di rewşê de tiştek pêk tê.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Çiqas hûn dixwazin hesabê xwe ya heyî veguherînin?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">Key KEY</string>
+    <string name="bin_file">pelê .bin</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">PIN-6 + digit digit bikin</string>
+    <string name="txt_6_digits_pin_confirm">PIN-6 + nirxandin pejirandin</string>
+    <string name="please_enter_6_digit_pin">Ji kerema xwe ji PIN-6-digit têkevin</string>
+    <string name="please_enter_6_digit_pin_confirm">Ji kerema xwe qala nasnameya xwe ya navnîşê binivîse</string>
+    <string name="mismatch_pin">Pin</string>
+    <string name="please_enter_brainkey">Ji kerema xwe bişîne brainkey</string>
+    <string name="please_enter_correct_brainkey">Ji kerema xwe ji brainkeyê re binivîse, divê di navbera 12 û 16 de di nav wan de hebin.</string>
+    <string name="unable_to_load_brainkey">Nehfkirina brînkeyê</string>
+    <string name="account_already_exist">Account already exists</string>
+    <string name="importing_your_wallet">Import the wallet ...</string>
+    <string name="account_candidates_title">Ji kerema xwe re hesabek hilbijêre</string>
+    <string name="account_candidates_content">Kûçeyên ji vê brainkeyê derfetên ku ji bo bêtir hesabê kontrol bikin, ji kerema xwe re kîjan hesabê ku hûn dixwazin bazirganî hilbijêre</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Pelê binirxîne .bin</string>
+    <string name="import_backup">Import file Backup from .bin</string>
+    <string name="txt_no_internet_connection">Girêdana Înternetê tune</string>
+    <string name="no_file_chosen">Pelê hilbijêre</string>
+    <string name="choose_backup">Hilbijêre hilbijêre</string>
+    <string name="choose_file">Pelê hilbijêre</string>
+    <string name="txt_existing_password">Pelê anîn .bin Peldanka yan PIN</string>
+    <string name="txt_new_pin">PIN (6 + hejmarên nû)</string>
+    <string name="importing_keys_from_bin_file">"Kûçeyên Importê ji pelê Bin bin"</string>
+    <string name="please_make_sure_your_bin_file">Ji kerema xwe paqij bikin ku pelê pelê rast e an bin bin rast e ye</string>
+    <string name="missing_existing_password">Ji kerema xwe pelê şîfreya ku ji bo pelê vê backupê ve tê bikaranîn</string>
+    <string name="pin_number_request">Ji kerema xwe pelê pelê binivîse ku ji bo pelê pelê veguherîne</string>
+    <string name="pin_number_warning">Hejmara pin hema hema 6 hejmar be</string>
+    <string name="backup_error_no_key_reference_found">Vebijêrk ev kilît bi kar tîne, ji kerema xwe hûn pelê barkirî ya nû ve bikar bînin.</string>
+    <string name="backup_error_no_wallet_backup">Di pelê de bileya wallet nehat dîtin</string>
+    <string name="error_invalid_account">Hesabek çewt, ji kerema xwe ya mêjûya xwe ji bo çewtiyên çewtiyê binihêre</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Malanîn</string>
+    <string name="title_account_load_result">Hesabê barkirin</string>
+    <string name="button_change_account">Gûherrandinî</string>
+    <string name="title_select_input_assets">Ji samanên hilbijêre hilbijêre.</string>
+    <string name="explanation_account_setup">Hûn ê hewce ne ku hesabek Bitshares çêbikin ku ji bo ku tezmînatê bigirin. An heke we niha heye, hûn dikarin li vir bifroşînin.</string>
+    <string name="explanation_output_asset">Smartcoin dixwaze hilbijêre:</string>
+    <string name="next">Piştî</string>
+    <string name="done">Done</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Bidin</string>
+    <string name="error_corrupted_key_title">Çewtiya kêşeya krîza key</string>
+    <string name="error_corrupted_key_content">Vebijêrk nikare kilîtên şexsî yên şexsî ji navnîşana xwe veguhastin. Ji ber vê yekê hûn ê hewce nebin ku hûn bişkojkên xwe re têkevin. Yan di bin forma brînkeyey an pelê şopê bin binivîse ku bixweberkirina otomatîkê û otomatîk di otomobîlan de hate çêkirin heger heger hesab ji aliyê appê hate afirandin</string>
+    <string name="invalid_pin">PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Xane</string>
+    <string name="txt_transactions">Transactions</string>
+    <string name="txt_refunds_returns">Refunds / Returns</string>
+    <string name="txt_settlement">Bicîanînî</string>
+    <string name="bitshares_nodes_dialog_title">Nîşeyên Bitshares</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Amûr hebe</string>
+    <string name="sub_total">Sub-Total:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Daxuyaniya pirtûkê</string>
+    <string name="content_error_market">Li DEX nîne ku di meha dextê de dê destûrê bide %1$s. \n __N__Ji kerema xwe li ser paceya mîhengên biçin û hilberek hilberek cuda hilbijêre.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Ji kerema xwe</string>
+    <string name="please_pay_s_s">Ji kerema xwe: %1$s %2$s</string>
+    <string name="to_s">To: %1$s</string>
+    <string name="txt_network">Xerca torê</string>
+    <string name="txt_please_wait">Ji kerema xwe bixwazin</string>
+    <string name="error_node_unreachable">No node dikare bigihîje</string>
+    <string name="invoice_subject">Ji P%1$s</string>
+    <string name="before_s">Berî: %1$s</string>
+    <string name="share">Par</string>
+    <string name="share_with">Parve dikin li gel</string>
+    <string name="connecting">Girêdanê ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Daxwaznameya tezmînatê hilbijêrin</string>
+    <string name="dialog_msg_select_pending_payment">Daxwaziya derengî hat dîtin, lê nikaribû bixweber bixweberî berê bi daxwaza daxwaza pêşîn vekirî ye. Ji kerema xwe ji daxwaznameya jêrîn ya rastê hilbijêre hilbijêre.</string>
+    <string name="dialog_msg_confirm_pending_payment">Ev ê girêdayî dravê peyda ya berê ya baca qeydkirî ya %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Agahdariyên dravîkirinê</string>
+    <string name="dialog_generic_title_confirm">Piştrastin?</string>
+    <string name="dialog_generic_msg_confirm">Ji kerema xwe re bisekinin ku ev çalakiyê nikare were vegerandin</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Berdan</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Tezmînatê pejirandin!</string>
+    <string name="txt_cool">XWÎNSAR!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Mîhengên</string>
+    <string name="general">Giştî</string>
+    <string name="security">Ewlekarî</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">Tokens</string>
+    <string name="accounts">Hesab</string>
+    <string name="e_receipts">eşkere</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Mode mode</string>
+    <string name="currency_info">Peya bixweberî bi zimanê xwe û hilbijartina welatê xwe ve hatiye hilbijartin. Heke hûn dixwazin wan guhartin, divê hûn pergalên pergalê yên cîhûbarê xwe biçin.</string>
+    <string name="screen_saver">Saver Screen</string>
+    <string name="source">Kanî</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Peldanka Peldanka (/ PalmPay)</string>
+    <string name="txt_folder">Pêçek</string>
+    <string name="choose">Helbijartin</string>
+    <string name="screen_saver_time">Piştrast bikin ...</string>
+    <string name="one_minute">1 Minute</string>
+    <string name="three_minutes">3 Minute</string>
+    <string name="five_minutes">5 Minute</string>
+    <string name="local_ambassador">Balyozê herêmî</string>
+    <string name="ambassador_info">Balafirên PalmPay her 3 saetan dakêşin. Karê wan ew e ku ji bo bazirganên PalmPayên piştevanîya piştevanîya piştgirî bikin û Rêberê Crypto Mersupên rêxistinê. Ger bajarek we nayê lîstandin, hingê we bajarek balyozek PalmPay heye. \n \n Ji bo bêtir agahdariyê, civaka Agorise li ser Telegramê biçin: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Bajar</string>
+    <string name="country">Welat</string>
+    <string name="bugs_or_ideas">Bugs or Ideas?</string>
+    <string name="bugs_or_ideas_contact_info">Chatragam: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Baweranîn</string>
+    <string name="select">Neqandin</string>
+    <string name="are_you_sure">Piştrastin?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Kopîkirin clipboard</string>
+    <string name="bin_file_description">Pelê Bin. Heya her yek ji pelê ya binê binavê .bin bi kartê MicroSD an USB-ê veşartî bistînin.</string>
+    <string name="create_a_backup">Çêbikin</string>
+    <string name="brainkey_description">Brainkey. Gotarên ku ji bo veguhestin an kopîkirin, lê nayê guhertin.</string>
+    <string name="txt_brain_key_info">Vê veke, an jî binivîse. Her kesê ku bi destûra ku bi karta veguhestina we re wê wergirtina vê walletê bigire.</string>
+    <string name="view_and_copy"><![CDATA[View & Copy]]></string>
+    <string name="title_bin_backup">Back backup .bin</string>
+    <string name="hint_password">Şîfre</string>
+    <string name="hint_password_confirmation">Pejirandina nasnameyê</string>
+    <string name="error_password_mandatory">Divê şîfreya xwe binivîse</string>
+    <string name="error_password_too_short">Şîfre pir kurt e</string>
+    <string name="error_password_confirmation_mismatch">Nasnameya şîfre û pejirandinê</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Hesabê Merchant: %1$s</string>
+    <string name="upgrade_to_ltm">Upgrade to LTM</string>
+    <string name="upgrade_account_description">"Upgrade ji bo Rêxistina LifeTime (LTM). Lihevhatinên Lakên LTM bi qasî nêzîkî heqê payanê dide, ji bo referendên 80% kredî û bonus bistînin."</string>
+    <string name="account_upgrade_title">Account Upgrade</string>
+    <string name="account_upgrade_content">Endamê Demjimêr Jiyan dikare tezmînatê bi kêmkirina xercên torê ve bazirganî dide. \n __N__Ye dê bi hesabê niha ya "%1$s" \n \n wê bandor bigire. Lêbelê wê mesrefê nêzîkî 100 dolar drav tête li Bitshares. \n __N__Yu hûn bawer dikin ku hûn dixwazin pêşveçûn?</string>
+    <string name="account_upgrade_wait_content">Têguhestina we bi daxwaza we bi rêya torê ve tête kirin</string>
+    <string name="error_upgrade_account_title">Dema ku hewl didin hewceyê hesabê nû bike</string>
+    <string name="error_upgrade_account_content">Ji kerema xwe re bisekinin ku hesabê tezmînata wê hebe ku mesrefên xwe dûr bikin</string>
+    <string name="account_upgraded_title">Account upgraded</string>
+    <string name="account_upgraded_content">Pîroz be! Hesabê we niha ji bo Endamê Lîetîfê zêde kir.</string>
+    <string name="remove_account">Hesab bike</string>
+    <string name="remove_account_description">Hesabê Merchant. Ji Arîkariya Merchant li ser vê cîhê jêbirin û ji nû ve hilbijêre an jî çêbikin.</string>
+    <string name="txt_account_remove_confirmation">"Hûn îdî hûn dixwazin ku ji vê walletê re hesabê hesabê \'%1$s\' jêbirin?"</string>
+    <string name="remove">Dûrxistin</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Smartcoin Desire</string>
+    <string name="txt_customer_loyalty">Nîşeyên Rastiyê wekî ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Hesabê we ne jî %1$s xwe ne. Ji kerema xwe hûn hinekan beriya we hewce dikin ku mişterên xwe bidin wek xeyaliya dilsoz.</string>
+    <string name="send">Şandin</string>
+    <string name="txt_for_every">Çimkî her her</string>
+    <string name="txt_spent">derbas kirin</string>
+    <string name="txt_bitcoin_altcoin_deposited">Dersa 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Ji kerema xwe ji 8 derheqê sermiyan hilbijêrin</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) ya bingehîn a destnîşan e.</string>
+    <string name="toast_low_volume_market">Hêzên bazara bazara demkî bi temamî hate qedexekirin. Ew dê piştî ku bazara bazarê zêde dibe ku hejmarek girîng e</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Store Name</string>
+    <string name="address">Navnîşan</string>
+    <string name="phone_number">Jimare telefon</string>
+    <string name="website">Malpera</string>
+    <string name="message">Agah</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Ne ku ji bo kilîteya bin bin format hilberîne</string>
+    <string name="saving_bin_file_to_s">Peldanka Bin Binivîse: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Pelê Binê bi serkeftî rizgar kir: %1$s</string>
+    <string name="unable_to_save_bin_file">Ne pelê bin bin</string>
+    <string name="creating_backup_file">Creating Backup File</string>
+    <string name="fetching_key">Key Fetching</string>
+    <string name="generating_bin_format">Format format bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Gerr</string>
+    <string name="filter">Parzûn</string>
+    <string name="export">Eksport</string>
+    <string name="confirming">Pejirandin ...</string>
+    <string name="pdf_generated_msg_s">PDF çêkirin û tomarkirin: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Ne pdf hilberîne. Ji kerema xwe vegere. Çewtiya: %1$s</string>
+    <string name="csv_generated_msg_s">CSV çêkirin û rizgar kirin: %1$s</string>
+    <string name="csv_generated_msg_error_s">Ne ku csv hilberîne. Ji kerema xwe vegere. Çewtiya: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Gişt</string>
+    <string name="sent">Şandin</string>
+    <string name="received">Wergirtiye</string>
+    <string name="date_range">Range Dîrok</string>
+    <string name="txt_to">ber</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiyeta Fiat</string>
+    <string name="between">Navber</string>
+    <string name="and">û</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Export transactions filtered</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Hilberîna hilberê hilberîn</string>
+    <string name="exported_file_name">PalmPay-Transactions</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Ji</string>
+    <string name="to">Ber</string>
+    <string name="memo">Memo</string>
+    <string name="date">Rojek</string>
+    <string name="time">Dem</string>
+    <string name="crypto_amount">Crypto Amount</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Amûra Keyed-in-Fiat</string>
+    <string name="total_fiat_amount">Giştî ya Fiat</string>
+    <string name="fiat_currency">Vegetable Fiat</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Item %1$d</string>
+    <string name="subtotal">Sub-Total</string>
+    <string name="network_fee">Xerca torê</string>
+    <string name="total">Hemî</string>
+    <string name="paid_s_s">_%1$s %2$s</string>
+    <string name="change_due">Guhertin</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Dîrok: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt ji %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">PIN-yê çewt e</string>
+    <string name="pin_changed_successfully">PIN bi serkeftî hate guhertin</string>
+    <string name="please_enter_pin">Ji kerema xwe hejmara hejmara navnîşan binivîse</string>
+    <string name="please_enter_pin_confirmation">Ji kerema xwe piştrastkirina navnîşa PIN-ê binivîse</string>
+    <string name="title_change_pin">PINê biguherîne</string>
+    <string name="txt_current_pin">Hejmarek PIN</string>
+    <string name="please_enter_old_pin">Ji kerema xwe hejmara navnîşên PIN-ê bişînin</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Çewtiyek girêdana Node, retrying</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Em heqê paşnavê gihîştin, lê daxwazek nayê dîtin</string>
+
+</resources>

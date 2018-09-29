@@ -1,0 +1,93 @@
+<resources>
+    <!-- Base application light theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="themeName">light</item>
+        <item name="themedKeypadButtonBackground">@drawable/button_light</item>
+        <item name="themedKeypadRedButtonBackground">@drawable/button_red</item>
+        <item name="android:fontFamily">@font/p_f_beau_sans_pro</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/dayThemeBackground</item>
+        <item name="android:colorButtonNormal">@android:color/white</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimaryInverse</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondaryInverse</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Base application dark theme. -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="themeName">dark</item>
+        <item name="themedKeypadButtonBackground">@drawable/button_dark</item>
+        <item name="themedKeypadRedButtonBackground">@drawable/button_red_night</item>
+        <item name="android:fontFamily">@font/p_f_beau_sans_pro</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryInverse</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkInverse</item>
+        <item name="colorAccent">@color/colorAccentInverse</item>
+        <!--<item name="android:colorButtonNormal">@android:color/white</item>-->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryInverse</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryInverse</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimary</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondary</item>
+    </style>
+    <style name="AppTheme.Dark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Custom widget styles -->
+    <style name="SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="AppTheme">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="NavigationViewItemsStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:listPreferredItemHeight">@dimen/nav_drawer_item_height</item>
+    </style>
+
+    <style name="BaseButton" parent="Theme.AppCompat">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="colorButtonNormal">@color/gray</item>
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+    </style>
+
+    <style name="GreenButton" parent="BaseButton">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="RedButton" parent="BaseButton">
+        <item name="colorAccent">@color/red</item>
+        <item name="colorControlHighlight">@color/colorSend</item>
+    </style>
+
+    <style name="DialogSupportingText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="TextAppearance.Body1" parent="TextAppearance.AppCompat.Body1" >
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.Body2" parent="Base.TextAppearance.AppCompat.Body2" />
+</resources>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">ლიცენზია</string>
+    <string name="agree">ვეთანხმები</string>
+    <string name="disagree">Უარყოფა</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">აქტივების ჩატვირთვა ...</string>
+    <string name="title_loading_asset_type_data">აქტივების ტიპის მონაცემების ჩატვირთვა ...</string>
+    <string name="title_assets_ready">აქტივების მონაცემთა ბაზა მზად არის</string>
+    <string name="msg_loading_all_existing_assets">ყველა არსებული აქტივების სრული სიის მისაღებად მოთხოვნის სერიის შესრულება</string>
+    <string name="msg_loading_asset_type_data">შემდგომი აქტივების დეტალების მოთხოვნა</string>
+    <string name="msg_loading_asset_in_database">მონაცემთა ბაზაში განთავსებული %1$d აქტივები</string>
+    <string name="msg_assets_loaded">შემდეგი, გთხოვთ, დაამატოთ თქვენი ანგარიში ...</string>
+    <string name="error_fetching_marketcap_data">მარკეტინგის მონაცემების ჩატვირთვა ვერ მოხერხდა</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Შექმენი ანგარიში</string>
+    <string name="txt_account_name">BitShares ანგარიშის სახელი</string>
+    <string name="unable_to_find_account_id">მომხმარებლის ანგარიშის id ვერ მოიძებნა</string>
+    <string name="error_invalid_account_name_explanation">ანგარიშის სახელი უნდა ჰქონდეს 8-ზე მეტი სიმბოლო, შეიცავდეს ნომერს ან არ აქვს ხმოვანები. ხაზგასმის ხასიათი არ არის ნებადართული.</string>
+    <string name="create">Შექმნა</string>
+    <string name="error">შეცდომა</string>
+    <string name="account_name_already_exist">ანგარიშის სახელი უკვე არსებობს</string>
+    <string name="try_again">გთხოვთ, 5 წუთი სცადოთ</string>
+    <string name="txt_new_pin_confirmation">დაადასტურეთ ახალი PIN (6 + ციფრი)</string>
+    <string name="error_wif">შეცდომა WIF- ის შექმნისას</string>
+    <string name="error_faucet_template">Faucet დაბრუნდა შეცდომა. Msg: %1$s</string>
+    <string name="error_read_dict_file">შეცდომა ლექსიკონი ფაილის წაკითხვისას</string>
+    <string name="error_missing_account">აპლიკაცია ვერ ახერხებდა ახლად შექმნილი ანგარიშის შესახებ ინფორმაციის მიღებას</string>
+    <string name="create_account_title">ახალი ანგარიშის შექმნა</string>
+    <string name="create_account_message">გთხოვთ, დაელოდოთ თქვენი ანგარიშის შექმნისას</string>
+    <string name="error_faucet_explanation">სერვერმა შეცდომა დაუშვა. ეს შეიძლება იყოს შეზღუდული მიზანმიმართულად მითითებული, რათა არ დაუშვას ხშირი მოთხოვნები იგივე IP მისამართიდან მოკლე დროში. გთხოვთ, დაველოდოთ 5 წუთს და სცადოთ ხელახლა, ან გადადით სხვა ქსელში, მაგალითად, WiFi- დან საკანში.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">გთხოვთ დარწმუნდეთ, რომ სარეზერვო თქვენი ბრაიკინი გაგრძელებამდე. ეს საშუალებას მოგცემთ დააბრუნოთ თქვენი ანგარიში იმ შემთხვევაში, თუ რამე ხდება ამ მოწყობილობაზე.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">როგორ გსურთ თქვენი ანგარიშის შემოტანა?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF გასაღები</string>
+    <string name="bin_file">.bin ფაილი</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">აირჩიეთ 6 + ციფრიანი PIN</string>
+    <string name="txt_6_digits_pin_confirm">6+ ციფრი PIN დაადასტურეთ</string>
+    <string name="please_enter_6_digit_pin">გთხოვთ შეიყვანოთ 6 ციფრიანი PIN</string>
+    <string name="please_enter_6_digit_pin_confirm">გთხოვთ, შეიყვანოთ თქვენი PIN ნომრის დადასტურება</string>
+    <string name="mismatch_pin">შეუსაბამო pin</string>
+    <string name="please_enter_brainkey">გთხოვთ შეიყვანოთ brainkey</string>
+    <string name="please_enter_correct_brainkey">გთხოვთ შეიყვანოთ სწორი brainkey, უნდა ჰქონდეს შორის 12 და 16 სიტყვა.</string>
+    <string name="unable_to_load_brainkey">შეუძლებელია Brainkey- ის ჩატვირთვა</string>
+    <string name="account_already_exist">ანგარიში უკვე არსებობს</string>
+    <string name="importing_your_wallet">თქვენი საფულეების იმპორტი ...</string>
+    <string name="account_candidates_title">გთხოვთ, აირჩიოთ ანგარიში</string>
+    <string name="account_candidates_content">როგორც ჩანს, ამ brainkey- ისგან მიღებული გასაღებები გამოიყენება ერთზე მეტ ანგარიშზე, გთხოვთ, აირჩიოთ თუ რომელი ანგარიში გსურთ</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">იმპორტი. ბინის ფაილი</string>
+    <string name="import_backup">ბმულის იმპორტიდან</string>
+    <string name="txt_no_internet_connection">Არ არის ინტერნეტ კავშირი</string>
+    <string name="no_file_chosen">Ფაილი არ არის არჩეული</string>
+    <string name="choose_backup">აირჩიეთ სარეზერვო</string>
+    <string name="choose_file">Აირჩიეთ ფაილი</string>
+    <string name="txt_existing_password">მიმდინარე. ბინის ფაილი პაროლი ან PIN</string>
+    <string name="txt_new_pin">ახალი PIN (6 + ციფრი)</string>
+    <string name="importing_keys_from_bin_file">"ბმის ფაილების იმპორტირება"</string>
+    <string name="please_make_sure_your_bin_file">გთხოვთ დარწმუნდეთ, რომ თქვენი PIN სწორია ან სწორია</string>
+    <string name="missing_existing_password">გთხოვთ, შეიყვანოთ პაროლი ამ სარეზერვო ფაილის დაშიფვრისთვის</string>
+    <string name="pin_number_request">გთხოვთ შეიყვანოთ PIN- ის ნომერი, რომელიც გამოიყენება ამ სარეზერვო ფაილში</string>
+    <string name="pin_number_warning">PIN რიცხვი უნდა იყოს მინიმუმ 6 ციფრი</string>
+    <string name="backup_error_no_key_reference_found">ამ საკვანძო ანგარიშის გამოყენება ვერ მოიძებნა, დარწმუნდით, რომ თქვენ იყენებთ განახლებული სარეზერვო ფაილი.</string>
+    <string name="backup_error_no_wallet_backup">ამ ფაილში ვერ მოიძებნა ფულადი სარეზერვო</string>
+    <string name="error_invalid_account">არასწორი ანგარიში, გთხოვთ, შეამოწმოთ თქვენი ტვინის გასაღები აკრეფის შეცდომებისთვის</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">იმპორტი</string>
+    <string name="title_account_load_result">ანგარიში დატვირთულია</string>
+    <string name="button_change_account">ცვლილება</string>
+    <string name="title_select_input_assets">აირჩიეთ აქტივები.</string>
+    <string name="explanation_account_setup">გადასახადების მისაღებად საჭიროა Bitshares- ის ანგარიშის შექმნა. ან თუ უკვე გაქვთ ერთი, შეგიძლიათ აქ გადმოიტანოთ.</string>
+    <string name="explanation_output_asset">აირჩიეთ სასურველი Smartcoin:</string>
+    <string name="next">შემდეგი</string>
+    <string name="done">შესრულებულია</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">გადაიხადე</string>
+    <string name="error_corrupted_key_title">ძირითადი კორუფციის შეცდომა</string>
+    <string name="error_corrupted_key_content">აპლიკაცია ვერ შეინახავს თქვენი დაშიფრული შეტყობინების გასაღებების მონაცემთა ბაზას. ამის გამო თქვენ კვლავ საჭიროა თქვენი გასაღებები შეიტანოთ. ან სახით brainkey ან შექმნას ბინ სარეზერვო ფაილი, რომელიც გენერირებული და ინახება ავტომატურად თქვენს sdcard თუ ანგარიში შეიქმნა app</string>
+    <string name="invalid_pin">არასწორი PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">მთავარი</string>
+    <string name="txt_transactions">გარიგებები</string>
+    <string name="txt_refunds_returns">დაბრუნება / დაბრუნება</string>
+    <string name="txt_settlement">განსახლება</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares კვანძები</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">თანხის გამო</string>
+    <string name="sub_total">ქვე-სულ:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">შეუკვეთეთ წიგნის შეცდომა</string>
+    <string name="content_error_market">DEX- ში არავითარი ბრძანება არ არის, რომელიც საშუალებას მოგვცემს, რომ შევცვალოთ გაცვლითი %1$s- ზე. \n \nPlease გადადით პარამეტრების ეკრანზე და აირჩიეთ გამომავალი აქტივი.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">გთხოვთ გადაიხადოთ</string>
+    <string name="please_pay_s_s">გთხოვთ გადაიხადოთ: %1$s %2$s</string>
+    <string name="to_s">დან: %1$s</string>
+    <string name="txt_network">ქსელის საფასური</string>
+    <string name="txt_please_wait">Გთხოვთ მოიცადოთ</string>
+    <string name="error_node_unreachable">არარის კვანძის მიღწევა</string>
+    <string name="invoice_subject">PalmPay ინვოისი ___s__</string>
+    <string name="before_s">ადრე: ______</string>
+    <string name="share">გაზიარება</string>
+    <string name="share_with">გაზიარება</string>
+    <string name="connecting">კავშირი ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">გადახდის მოთხოვნის არჩევა</string>
+    <string name="dialog_msg_select_pending_payment">აღმოჩენილია შემომავალი გადახდა, მაგრამ ავტომატურად ვერ იქნა გადახდილი ადრე მოთხოვნილი გადახდა. გთხოვთ, აირჩიოთ სწორი გადახდის თხოვნა შემდეგ სიაში.</string>
+    <string name="dialog_msg_confirm_pending_payment">ეს შემოიტანენ შემომავალ გადახდას %1$s- ის წინასწარი გადახდის თხოვნისთვის</string>
+    <string name="dialog_msg_incoming_payment_details">შემომავალი გადახდის დეტალები</string>
+    <string name="dialog_generic_title_confirm">Დარწმუნებული ხარ?</string>
+    <string name="dialog_generic_msg_confirm">გთხოვთ, გაითვალისწინოთ, რომ ეს ქმედება არ შეიძლება გაუქმდეს</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">გაუქმება</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">გადახდა დაადასტურა!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">პარამეტრები</string>
+    <string name="general">ზოგადი</string>
+    <string name="security">უსაფრთხოება</string>
+    <string name="backups">სარეზერვო</string>
+    <string name="tokens">ჟეტონები</string>
+    <string name="accounts">ანგარიშები</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Ღამის რეჟიმი</string>
+    <string name="currency_info">ვალუტა ავტომატურად შეირჩევა ენისა და ქვეყნის შერჩევის საფუძველზე. თუ გსურთ შეცვალოთ ეს, თქვენ უნდა გადახვალთ თქვენი მოწყობილობის გლობალურ სისტემაში.</string>
+    <string name="screen_saver">Ეკრანმზოგი</string>
+    <string name="source">წყარო</string>
+    <string name="bitshares_logo">BitShares ლოგო</string>
+    <string name="default_folder">ნაგულისხმები საქაღალდე (/ PalmPay)</string>
+    <string name="txt_folder">საქაღალდე</string>
+    <string name="choose">არჩევა</string>
+    <string name="screen_saver_time">ჩართეთ შემდეგ ...</string>
+    <string name="one_minute">1 წუთი</string>
+    <string name="three_minutes">3 წთ</string>
+    <string name="five_minutes">5 წუთი</string>
+    <string name="local_ambassador">ადგილობრივი ელჩი</string>
+    <string name="ambassador_info">პალმპი ელჩები ყოველ 3 წამში გადაიხდიან. მათი საქმეა ხელი შეუწყოს ადგილობრივ პალმფის სავაჭრო ობიექტებს და ყოველთვიური კრიპტოს შეხვედრების ორგანიზება. თუ თქვენი ქალაქი არ არის ჩამოთვლილი, მაშინ თქვენს ქალაქს ჯერ არ აქვს პალმპი ელჩი. \n \n დამატებითი ინფორმაციისათვის ეწვიეთ აჭარის საზოგადოებას ტელეგრამის შესახებ: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">ქალაქი</string>
+    <string name="country">ქვეყანა</string>
+    <string name="bugs_or_ideas">შეცდომები ან იდეები?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram სტატისტიკა: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">მიღება</string>
+    <string name="select">აირჩიეთ</string>
+    <string name="are_you_sure">Დარწმუნებული ხარ?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">სარეზერვო brainkey</string>
+    <string name="copied_to_clipboard">გადაწერა ბუფერში</string>
+    <string name="bin_file_description">ბინ ფაილი. ყოველთვის შეინახეთ სარეზერვო. Bin ფაილი საიდუმლო MicroSD ბარათის ან USB Stick.</string>
+    <string name="create_a_backup">შექმნა სარეზერვო</string>
+    <string name="brainkey_description">ბრაიკინი. ანგარიშის აღდგენის სიტყვები, რომელიც შეიძლება ტყვედ ან გადაწერა, მაგრამ არ არის რედაქტირებული.</string>
+    <string name="txt_brain_key_info">ამობეჭდოთ ეს, ან ჩაიწერე. თქვენი აღდგენის ღილაკზე წვდომის ნებისმიერ მსურველს ექნება წვდომა ამ საფულის ფარგლებში.</string>
+    <string name="view_and_copy">ნახვა და ასლი</string>
+    <string name="title_bin_backup">ექსპორტი .ბინის სარეზერვო</string>
+    <string name="hint_password">პაროლი</string>
+    <string name="hint_password_confirmation">პაროლის დადასტურება</string>
+    <string name="error_password_mandatory">პაროლი უნდა შეიყვანოთ</string>
+    <string name="error_password_too_short">პაროლი ძალიან მოკლეა</string>
+    <string name="error_password_confirmation_mismatch">პაროლი და დადასტურება შეესაბამება</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">სავაჭრო ანგარიში: %1$s</string>
+    <string name="upgrade_to_ltm">გადადით LTM- ზე</string>
+    <string name="upgrade_account_description">"გააუმჯობესეთ სიცოცხლის დროითი წევრობა (Bithares \'LTM) ანგარიშზე ანაზღაურდება ნულოვანი საფასური, მიიღოთ 80% ფულადი სახსრები და ბონუსები რეფერალებისთვის.</string>
+    <string name="account_upgrade_title">ანგარიშის განახლება</string>
+    <string name="account_upgrade_content">სიცოცხლის დრო გაწევრიანება საშუალებას გაძლევთ ვაჭრობის შემცირება კომპლექტი ქსელის საფასური. \n \nIt გავლენას ახდენს მიმდინარე ანგარიშზე "___s__" \n \nIt თუმცა მოდის ღირებულება დაახლოებით 100 დოლარი გადახდილი Bitshares. \n \n დარწმუნებული ხართ, რომ გსურთ გაგრძელება?</string>
+    <string name="account_upgrade_wait_content">თქვენი მოთხოვნის შემცველი გარიგება მიმდინარეობს ქსელში</string>
+    <string name="error_upgrade_account_title">შეცდომა ანგარიშის განახლებისას</string>
+    <string name="error_upgrade_account_content">გთხოვთ, დარწმუნდეთ, რომ თქვენი ანგარიში საკმარისია ბალანსის დასაფარავად</string>
+    <string name="account_upgraded_title">ანგარიშის განახლება</string>
+    <string name="account_upgraded_content">გილოცავთ! თქვენი ანგარიში ახლა განახლდა ცხოვრებისეული წევრობაზე.</string>
+    <string name="remove_account">ანგარიშის ამოღება</string>
+    <string name="remove_account_description">ამოიღე ეს სავაჭრო ანგარიში. წაშალეთ მერჩანტის ანგარიში ამ მოწყობილობიდან და შექმენით ან შემოიტანოთ სხვა.</string>
+    <string name="txt_account_remove_confirmation">"დარწმუნებული ხართ, რომ გსურთ ამ საფულისგან" %1$s "ანგარიშის ამოღება?</string>
+    <string name="remove">ამოღება</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">სასურველი Smartcoin</string>
+    <string name="txt_customer_loyalty">ერთგული ლოიალურობის ქულები</string>
+    <string name="warning_insufficient_reward_asset_balance">თქვენი ანგარიში ჯერ არ ფლობს %1$s. გთხოვთ, შეიძინოთ ზოგიერთი, სანამ შეეცდებიან თქვენს კლიენტებს, როგორც ლოიალურობის ქულები.</string>
+    <string name="send">გაგზავნა</string>
+    <string name="txt_for_every">Ყველასთვის</string>
+    <string name="txt_spent">გაატარა</string>
+    <string name="txt_bitcoin_altcoin_deposited">მიღება 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">გთხოვთ, აირჩიოთ არა უმეტეს 8 შეყვანის აქტივები</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) ძირითადი ნიშნად აუცილებელია.</string>
+    <string name="toast_low_volume_market">დაბალი მოცულობის საბაზრო აქტივები დროებით გამორთულია. ისინი შეძლებენ მას შემდეგ, რაც ბაზრის მოცულობა გაიზრდება მნიშვნელოვანი თანხა</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">ლოგო</string>
+    <string name="store_name">Მაღაზიის სახელი</string>
+    <string name="address">მისამართი</string>
+    <string name="phone_number">Ტელეფონის ნომერი</string>
+    <string name="website">საიტი</string>
+    <string name="message">შეტყობინება</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">ბინის ფორმატის გასაღების გენერირება ვერ ხერხდება</string>
+    <string name="saving_bin_file_to_s">შენახვა ბინ ფაილი: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">ბინ ფაილი შენახულია წარმატებით: %1$s</string>
+    <string name="unable_to_save_bin_file">ბინი ფაილის შენახვა შეუძლებელია</string>
+    <string name="creating_backup_file">შექმნა სარეზერვო ფაილი</string>
+    <string name="fetching_key">მიღება გასაღები</string>
+    <string name="generating_bin_format">გენერირების ბინ ფორმატი</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">ძიება</string>
+    <string name="filter">ფილტრი</string>
+    <string name="export">ექსპორტი</string>
+    <string name="confirming">დადასტურება ...</string>
+    <string name="pdf_generated_msg_s">PDF გენერირებული და შენახულია: %1$s</string>
+    <string name="pdf_generated_msg_error_s">ვერ წარმოქმნის pdf. გთხოვთ, სცადოთ. შეცდომა: %1$s</string>
+    <string name="csv_generated_msg_s">CSV გენერირებული და შენახულია: %1$s</string>
+    <string name="csv_generated_msg_error_s">ვერ ხერხდება CSV გენერირება. გთხოვთ, სცადოთ. შეცდომა: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">ყველა</string>
+    <string name="sent">Გაგზავნილი</string>
+    <string name="received">მიღებულია</string>
+    <string name="date_range">თარიღი დიაპაზონი</string>
+    <string name="txt_to">to</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">ფულის ოდენობა</string>
+    <string name="between">Შორის</string>
+    <string name="and">და</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">ექსპორტი გაფილტრული გარიგებები</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">გენერირება საექსპორტო პროდუქტი</string>
+    <string name="exported_file_name">პალმპი-ტრანზაქციები</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">მდებარეობა</string>
+    <string name="to">დან</string>
+    <string name="memo">მემო</string>
+    <string name="date">თარიღი</string>
+    <string name="time">დრო</string>
+    <string name="crypto_amount">Crypto თანხა</string>
+    <string name="crypto_symbol">Crypto სიმბოლო</string>
+    <string name="keyed_in_fiat_amount">Keyed- ში Fiat თანხა</string>
+    <string name="total_fiat_amount">სულ ფულის ოდენობა</string>
+    <string name="fiat_currency">Fiat ვალუტა</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">საქონელი %1$d</string>
+    <string name="subtotal">ქვე-სულ</string>
+    <string name="network_fee">ქსელის საფასური</string>
+    <string name="total">სულ</string>
+    <string name="paid_s_s">გადახდილი %1$s %2$s</string>
+    <string name="change_due">ცვლილების გამო</string>
+    <string name="e_receipt_memo_s">მემორი: %1$s</string>
+    <string name="e_receipt_date_s">თარიღი: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt ___s__</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">არასწორი ძველი PIN</string>
+    <string name="pin_changed_successfully">PIN შეცვალა წარმატებით</string>
+    <string name="please_enter_pin">გთხოვთ შეიყვანოთ PIN ნომერი</string>
+    <string name="please_enter_pin_confirmation">გთხოვთ, შეიყვანოთ თქვენი PIN ნომერი დადასტურება</string>
+    <string name="title_change_pin">PIN- ის რედაქტირება</string>
+    <string name="txt_current_pin">მიმდინარე PIN ნომერი</string>
+    <string name="please_enter_old_pin">გთხოვთ, შეიყვანოთ ძველი PIN ნომერი</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">კვანძის კავშირი შეცდომა, დაჩქარება</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">ჩვენ მივიღეთ შემომავალი გადახდა, მაგრამ მოთხოვნა ვერ მოიძებნა</string>
+
+</resources>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">लाइसेंस</string>
+    <string name="agree">इस बात से सहमत</string>
+    <string name="disagree">असहमत</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">संपत्ति लोड हो रहा है ...</string>
+    <string name="title_loading_asset_type_data">संपत्ति प्रकार डेटा लोड हो रहा है ...</string>
+    <string name="title_assets_ready">संपत्ति डेटाबेस तैयार है</string>
+    <string name="msg_loading_all_existing_assets">सभी मौजूदा संपत्तियों की पूरी सूची प्राप्त करने के लिए अनुरोधों की श्रृंखला का प्रदर्शन करना</string>
+    <string name="msg_loading_asset_type_data">आगे संपत्ति विवरण का अनुरोध</string>
+    <string name="msg_loading_asset_in_database">डेटाबेस में %1$d संपत्तियों को लोड किया गया</string>
+    <string name="msg_assets_loaded">अगला, कृपया अपना खाता सेट करें ...</string>
+    <string name="error_fetching_marketcap_data">मार्केट कैप डेटा लोड नहीं कर सका</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">खाता बनाएं</string>
+    <string name="txt_account_name">बिटशेयर खाता नाम</string>
+    <string name="unable_to_find_account_id">उपयोगकर्ता खाता आईडी खोजने में असमर्थ</string>
+    <string name="error_invalid_account_name_explanation">खाता नाम में या तो 8 से अधिक वर्ण हैं, जिसमें एक संख्या है या कोई स्वर नहीं है। अंडरस्कोर चरित्र भी अनुमति नहीं है।</string>
+    <string name="create">सर्जन करना</string>
+    <string name="error">त्रुटि</string>
+    <string name="account_name_already_exist">खाता नाम पहले से मौजूद है</string>
+    <string name="try_again">कृपया 5 मिनट के बाद पुनः प्रयास करें</string>
+    <string name="txt_new_pin_confirmation">नए पिन की पुष्टि करें (6+ अंक)</string>
+    <string name="error_wif">WIF कुंजी बनाने में त्रुटि</string>
+    <string name="error_faucet_template">नल एक त्रुटि लौटा दी। संदेश: %1$s</string>
+    <string name="error_read_dict_file">शब्दकोश फ़ाइल पढ़ने में त्रुटि</string>
+    <string name="error_missing_account">ऐप नए बनाए गए खाते के बारे में जानकारी पुनर्प्राप्त नहीं कर सका</string>
+    <string name="create_account_title">नया खाता बनाना</string>
+    <string name="create_account_message">कृपया अपना खाता बनाते समय प्रतीक्षा करें</string>
+    <string name="error_faucet_explanation">सर्वर ने एक त्रुटि लौटा दी। यह थोड़े समय के अंतराल में एक ही आईपी पते से आने वाले लगातार अनुरोधों को अस्वीकार करने के लिए उद्देश्य से निर्धारित सीमा के कारण हो सकता है। कृपया 5 मिनट प्रतीक्षा करें और पुनः प्रयास करें, या किसी दूसरे नेटवर्क पर स्विच करें, उदाहरण के लिए वाईफ़ाई से सेल तक।</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">कृपया सुनिश्चित करें कि आगे बढ़ने से पहले आप अपनी ब्राइंकी बैकअप लें। इस डिवाइस से कुछ होने पर यह आपको अपना खाता पुनर्प्राप्त करने की अनुमति देगा।</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">आप अपना मौजूदा खाता कैसे आयात करना चाहेंगे?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">वाईआईएफ कुंजी</string>
+    <string name="bin_file">.bin फ़ाइल</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">6+ अंक पिन चुनें</string>
+    <string name="txt_6_digits_pin_confirm">6+ अंक पिन पुष्टि करें</string>
+    <string name="please_enter_6_digit_pin">कृपया 6-अंकों का पिन दर्ज करें</string>
+    <string name="please_enter_6_digit_pin_confirm">कृपया अपने पिन नंबर की पुष्टि दर्ज करें</string>
+    <string name="mismatch_pin">मेल मेल करें</string>
+    <string name="please_enter_brainkey">कृपया ब्राइंकी दर्ज करें</string>
+    <string name="please_enter_correct_brainkey">कृपया सही ब्राइंकी दर्ज करें, इसमें 12 से 16 शब्दों के बीच होना चाहिए।</string>
+    <string name="unable_to_load_brainkey">Brainkey लोड करने में असमर्थ</string>
+    <string name="account_already_exist">खाता पहले से ही मौजूद है</string>
+    <string name="importing_your_wallet">अपना वॉलेट आयात करना ...</string>
+    <string name="account_candidates_title">कृपया एक खाता चुनें</string>
+    <string name="account_candidates_content">इस ब्राइंकी से प्राप्त कुंजी का उपयोग एक से अधिक खाते को नियंत्रित करने के लिए किया जाता है, कृपया चुनें कि आप किस खाते को आयात करना चाहते हैं</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">आयात करें .bin फ़ाइल</string>
+    <string name="import_backup">.Bin फ़ाइल से बैकअप आयात करें</string>
+    <string name="txt_no_internet_connection">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="no_file_chosen">कोई फ़ाइल नहीं चुनी गई</string>
+    <string name="choose_backup">बैकअप चुनें</string>
+    <string name="choose_file">फ़ाइल का चयन</string>
+    <string name="txt_existing_password">वर्तमान .bin फ़ाइल पासवर्ड या पिन</string>
+    <string name="txt_new_pin">नया पिन (6+ अंक)</string>
+    <string name="importing_keys_from_bin_file">"बिन फाइल से आयात कुंजी"</string>
+    <string name="please_make_sure_your_bin_file">कृपया सुनिश्चित करें कि आपका पिन सही है या सही बिन फ़ाइल चयनित है</string>
+    <string name="missing_existing_password">कृपया इस बैकअप फ़ाइल को एन्क्रिप्ट करने के लिए इस्तेमाल किया गया पासवर्ड दर्ज करें</string>
+    <string name="pin_number_request">कृपया इस बैकअप फ़ाइल को एन्कोड करने के लिए उपयोग किए गए पिन नंबर को दर्ज करें</string>
+    <string name="pin_number_warning">पिन नंबर कम से कम 6 अंक होना चाहिए</string>
+    <string name="backup_error_no_key_reference_found">इस कुंजी का उपयोग करने वाला कोई खाता नहीं मिला, कृपया सुनिश्चित करें कि आप एक अद्यतन बैकअप फ़ाइल का उपयोग कर रहे हैं।</string>
+    <string name="backup_error_no_wallet_backup">इस फ़ाइल में कोई वॉलेट बैकअप नहीं मिला</string>
+    <string name="error_invalid_account">अमान्य खाता, टाइपिंग त्रुटियों के लिए कृपया अपनी मस्तिष्क कुंजी जांचें</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">आयात</string>
+    <string name="title_account_load_result">खाता लोड किया गया</string>
+    <string name="button_change_account">परिवर्तन</string>
+    <string name="title_select_input_assets">स्वीकार करने के लिए संपत्ति का चयन करें।</string>
+    <string name="explanation_account_setup">भुगतान प्राप्त करने के लिए आपको बिशशेयर खाता सेट अप करने की आवश्यकता होगी। या यदि आपके पास पहले से कोई है, तो आप इसे यहां आयात कर सकते हैं।</string>
+    <string name="explanation_output_asset">अपनी वांछित Smartcoin चुनें:</string>
+    <string name="next">आगामी</string>
+    <string name="done">किया हुआ</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">के साथ भुगतान करें</string>
+    <string name="error_corrupted_key_title">मुख्य भ्रष्टाचार त्रुटि</string>
+    <string name="error_corrupted_key_content">ऐप डेटाबेस से आपकी एन्क्रिप्टेड निजी कुंजी को पुनर्प्राप्त करने में असमर्थ है। इसके कारण आपको अपनी कुंजी फिर से दर्ज करने की आवश्यकता होगी। या तो एक ब्राइंकी के रूप में या बिन बैकअप फ़ाइल बनाएं जो आपके एसडीकार्ड में स्वचालित रूप से जेनरेट और संग्रहीत हो, यदि खाता ऐप द्वारा बनाया गया था</string>
+    <string name="invalid_pin">अमान्य पिन</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">होम</string>
+    <string name="txt_transactions">लेन-देन</string>
+    <string name="txt_refunds_returns">धनवापसी / रिटर्न</string>
+    <string name="txt_settlement">समझौता</string>
+    <string name="bitshares_nodes_dialog_title">बिशशेयर नोड्स</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">देय राशि</string>
+    <string name="sub_total">उप-कुल:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">।</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">ऑर्डर बुक त्रुटि</string>
+    <string name="content_error_market">डीईएक्स में कोई ऑर्डर नहीं है जो हमें इस समय %1$s पर एक्सचेंज करने की अनुमति देगा। \n \n कृपया सेटिंग्स स्क्रीन पर जाएं और एक अलग आउटपुट संपत्ति का चयन करें।</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">भुगतान करें</string>
+    <string name="please_pay_s_s">कृपया भुगतान करें: %1$s %2$s</string>
+    <string name="to_s">प्रति: %1$s</string>
+    <string name="txt_network">नेटवर्क शुल्क</string>
+    <string name="txt_please_wait">कृपया प्रतीक्षा करें</string>
+    <string name="error_node_unreachable">कोई नोड पहुंचा जा सकता है</string>
+    <string name="invoice_subject">%1$s से पामपे चालान</string>
+    <string name="before_s">इससे पहले: %1$s</string>
+    <string name="share">शेयर</string>
+    <string name="share_with">के साथ शेयर करें</string>
+    <string name="connecting">कनेक्ट ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">भुगतान अनुरोध का चयन करें</string>
+    <string name="dialog_msg_select_pending_payment">एक आने वाला भुगतान पता चला था, लेकिन पहले से अनुरोध किए गए भुगतान को स्वचालित रूप से असाइन नहीं किया जा सका। कृपया निम्नलिखित सूची से सही भुगतान अनुरोध का चयन करें।</string>
+    <string name="dialog_msg_confirm_pending_payment">यह आने वाले भुगतान को %1$s के पहले दर्ज किए गए भुगतान अनुरोध से लिंक करेगा</string>
+    <string name="dialog_msg_incoming_payment_details">आने वाले भुगतान विवरण</string>
+    <string name="dialog_generic_title_confirm">क्या आपको यकीन है?</string>
+    <string name="dialog_generic_msg_confirm">कृपया ध्यान दें कि यह क्रिया पूर्ववत नहीं की जा सकती है</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">खारिज</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">कीमत का भुगतान पूरा हुआ!</string>
+    <string name="txt_cool">ठंडा!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">सेटिंग्स</string>
+    <string name="general">सामान्य</string>
+    <string name="security">सुरक्षा</string>
+    <string name="backups">बैकअप</string>
+    <string name="tokens">टोकन</string>
+    <string name="accounts">हिसाब किताब</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">रात्री स्वरुप</string>
+    <string name="currency_info">मुद्रा स्वचालित रूप से आपकी भाषा और देश चयन के आधार पर चुनी जाती है। यदि आप उन्हें बदलना चाहते हैं, तो आपको अपने डिवाइस की वैश्विक सिस्टम सेटिंग्स पर जाना होगा।</string>
+    <string name="screen_saver">स्क्रीन सेवर</string>
+    <string name="source">स्रोत</string>
+    <string name="bitshares_logo">बिटशारे लोगो</string>
+    <string name="default_folder">डिफ़ॉल्ट फ़ोल्डर (/ PalmPay)</string>
+    <string name="txt_folder">फ़ोल्डर</string>
+    <string name="choose">चुनें</string>
+    <string name="screen_saver_time">के बाद सक्षम करें ...</string>
+    <string name="one_minute">1 मिनट</string>
+    <string name="three_minutes">3 मिनट</string>
+    <string name="five_minutes">5 मिनट</string>
+    <string name="local_ambassador">स्थानीय राजदूत</string>
+    <string name="ambassador_info">पामपे राजदूतों को हर 3 सेकंड का भुगतान मिलता है। उनका काम स्थानीय पामपे व्यापारियों का समर्थन करना और मासिक क्रिप्टो मीटअप आयोजित करना है। यदि आपका शहर सूचीबद्ध नहीं है, तो आपके शहर में अभी तक पामपे राजदूत नहीं है। \n \n अधिक जानकारी के लिए, टेलीग्राम पर Agorise समुदाय पर जाएं: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">शहर</string>
+    <string name="country">देश</string>
+    <string name="bugs_or_ideas">कीड़े या विचार?</string>
+    <string name="bugs_or_ideas_contact_info">टेलीग्राम चैट: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">स्वीकार करना</string>
+    <string name="select">चुनते हैं</string>
+    <string name="are_you_sure">क्या आपको यकीन है?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">बैकअप brainkey</string>
+    <string name="copied_to_clipboard">क्लिपबोर्ड पर नकल</string>
+    <string name="bin_file_description">बिन फ़ाइल हमेशा अपने बैकअप .bin फ़ाइल को एक गुप्त माइक्रोएसडी कार्ड या यूएसबी स्टिक में सहेजें।</string>
+    <string name="create_a_backup">बैकअप बनाएं</string>
+    <string name="brainkey_description">Brainkey। खाता पुनर्प्राप्ति शब्द जिन्हें कैप्चर या कॉपी किया जा सकता है, लेकिन संपादित नहीं किया जा सकता है।</string>
+    <string name="txt_brain_key_info">इसे प्रिंट करें, या इसे लिखें। आपकी रिकवरी कुंजी तक पहुंच वाले किसी भी व्यक्ति को इस वॉलेट के भीतर धन की पहुंच होगी।</string>
+    <string name="view_and_copy">देखें और कॉपी करें</string>
+    <string name="title_bin_backup">निर्यात .bin बैकअप</string>
+    <string name="hint_password">पारण शब्द</string>
+    <string name="hint_password_confirmation">पासवर्ड पुष्टि</string>
+    <string name="error_password_mandatory">एक पासवर्ड दर्ज करना होगा</string>
+    <string name="error_password_too_short">पासवर्ड बहुत छोटा है</string>
+    <string name="error_password_confirmation_mismatch">पासवर्ड और पुष्टि मेल नहीं खाते</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">व्यापारी खाता: %1$s</string>
+    <string name="upgrade_to_ltm">एलटीएम में अपग्रेड करें</string>
+    <string name="upgrade_account_description">"लाइफटाइम सदस्यता (एलटीएम) में अपग्रेड करें। बिशशेर्स के एलटीएम खाते निकट शून्य फीस का भुगतान करते हैं, रेफरल के लिए 80% कैशबैक और बोनस प्राप्त करते हैं।"</string>
+    <string name="account_upgrade_title">खाते का उन्नयन</string>
+    <string name="account_upgrade_content">लाइफ टाइम सदस्यता आपको नेटवर्क फीस के कम सेट के साथ व्यापार करने की अनुमति देती है। \n \n यह वर्तमान खाते "%1$s" \n \n पर प्रभावी होगा, हालांकि यह बिट्सशेयर में भुगतान किए गए लगभग 100 अमरीकी डालर की लागत के साथ आता है। \n \n क्या आप वाकई आगे बढ़ना चाहते हैं?</string>
+    <string name="account_upgrade_wait_content">आपके अनुरोध वाले लेनदेन को नेटवर्क द्वारा संसाधित किया जा रहा है</string>
+    <string name="error_upgrade_account_title">खाता अपग्रेड करने का प्रयास करते समय त्रुटि</string>
+    <string name="error_upgrade_account_content">कृपया सुनिश्चित करें कि लागत को कवर करने के लिए आपके खाते में पर्याप्त शेष राशि है</string>
+    <string name="account_upgraded_title">खाता अपग्रेड किया गया</string>
+    <string name="account_upgraded_content">बधाई हो! आपका खाता अब लाइफटाइम सदस्यता में अपग्रेड कर दिया गया है।</string>
+    <string name="remove_account">खाता हटाएं</string>
+    <string name="remove_account_description">इस व्यापारी खाते को हटा दें। इस डिवाइस से उपरोक्त व्यापारी खाते को हटाएं और एक अलग बनाएं या आयात करें।</string>
+    <string name="txt_account_remove_confirmation">"क्या आप वाकई इस वॉलेट से खाता \'%1$s\' को हटाना चाहते हैं?"</string>
+    <string name="remove">हटाना</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">वांछित Smartcoin</string>
+    <string name="txt_customer_loyalty">वफादारी अंक जारी करें ...</string>
+    <string name="warning_insufficient_reward_asset_balance">आपके खाते में अभी तक कोई %1$s नहीं है। कृपया अपने ग्राहकों को वफादारी अंक के रूप में देने का प्रयास करने से पहले कुछ हासिल करें।</string>
+    <string name="send">भेजना</string>
+    <string name="txt_for_every">हर एक के लिए</string>
+    <string name="txt_spent">खर्च किया</string>
+    <string name="txt_bitcoin_altcoin_deposited">8 क्रिप्टोक्रांस तक स्वीकार करें:</string>
+    <string name="altcoins_should_not_more_than">कृपया 8 से अधिक इनपुट संपत्तियों का चयन करें</string>
+    <string name="bitshares_unselection_message">बिशशेयर (बीटीएस) कोर टोकन की आवश्यकता है।</string>
+    <string name="toast_low_volume_market">कम मात्रा बाजार संपत्ति अस्थायी रूप से अक्षम हैं। एक बार बाजार की मात्रा काफी मात्रा में बढ़ने के बाद उन्हें सक्षम किया जाएगा</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">प्रतीक चिन्ह</string>
+    <string name="store_name">स्टोर नाम</string>
+    <string name="address">पता</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="website">वेबसाइट</string>
+    <string name="message">संदेश</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">कुंजी के लिए बिन प्रारूप उत्पन्न करने में असमर्थ</string>
+    <string name="saving_bin_file_to_s">बिन फ़ाइल को सहेजना: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">बिन फ़ाइल सफलतापूर्वक सहेजी गई: %1$s</string>
+    <string name="unable_to_save_bin_file">बिन फ़ाइल को सहेजने में असमर्थ</string>
+    <string name="creating_backup_file">बैकअप फ़ाइल बनाना</string>
+    <string name="fetching_key">कुंजी प्राप्त करना</string>
+    <string name="generating_bin_format">बिन प्रारूप उत्पन्न करना</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">खोज</string>
+    <string name="filter">फ़िल्टर</string>
+    <string name="export">निर्यात</string>
+    <string name="confirming">पुष्टि ...</string>
+    <string name="pdf_generated_msg_s">पीडीएफ जेनरेट और सहेजा गया: %1$s</string>
+    <string name="pdf_generated_msg_error_s">पीडीएफ उत्पन्न करने में असमर्थ। कृपया पुन: प्रयास करें। त्रुटि: %1$s</string>
+    <string name="csv_generated_msg_s">सीएसवी उत्पन्न और सहेजा गया: %1$s</string>
+    <string name="csv_generated_msg_error_s">सीएसवी उत्पन्न करने में असमर्थ। कृपया पुन: प्रयास करें। त्रुटि: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">सब</string>
+    <string name="sent">भेज दिया</string>
+    <string name="received">प्राप्त किया</string>
+    <string name="date_range">तिथि सीमा</string>
+    <string name="txt_to">सेवा मेरे</string>
+    <string name="cryptocurrency">cryptocurrency</string>
+    <string name="fiat_amount">फिएट राशि</string>
+    <string name="between">के बीच</string>
+    <string name="and">तथा</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">फ़िल्टर किए गए लेनदेन निर्यात करें</string>
+    <string name="format_pdf">पीडीएफ</string>
+    <string name="format_csv">सीएसवी</string>
+    <string name="progress_export_generation">निर्यात उत्पाद उत्पन्न करना</string>
+    <string name="exported_file_name">PalmPay-लेन-देन</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">से</string>
+    <string name="to">सेवा मेरे</string>
+    <string name="memo">मेमो</string>
+    <string name="date">तारीख</string>
+    <string name="time">पहर</string>
+    <string name="crypto_amount">क्रिप्टो राशि</string>
+    <string name="crypto_symbol">क्रिप्टो प्रतीक</string>
+    <string name="keyed_in_fiat_amount">फिएट राशि में कुंजीपटल</string>
+    <string name="total_fiat_amount">कुल फिएट राशि</string>
+    <string name="fiat_currency">फिएट मुद्रा</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">आइटम %1$d</string>
+    <string name="subtotal">उप-कुल</string>
+    <string name="network_fee">नेटवर्क शुल्क</string>
+    <string name="total">कुल</string>
+    <string name="paid_s_s">भुगतान %1$s %2$s</string>
+    <string name="change_due">बचे हुए छुट्टे</string>
+    <string name="e_receipt_memo_s">मेमो: __1 एस__</string>
+    <string name="e_receipt_date_s">तिथि: %1$s</string>
+    <string name="e_receipt_tx_s">टीएक्स: __1 एस__</string>
+    <string name="e_receipt_subject">%1$s से PalmPay eReceipt</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">गलत पुराना पिन</string>
+    <string name="pin_changed_successfully">पिन सफलतापूर्वक बदल गया</string>
+    <string name="please_enter_pin">कृपया पिन नंबर दर्ज करें</string>
+    <string name="please_enter_pin_confirmation">कृपया अपना पिन नंबर पुष्टिकरण दर्ज करें</string>
+    <string name="title_change_pin">पिन संपादित करें</string>
+    <string name="txt_current_pin">वर्तमान पिन नंबर</string>
+    <string name="please_enter_old_pin">कृपया पुराना पिन नंबर दर्ज करें</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">नोड कनेक्शन त्रुटि, पुनः प्रयास कर रहा है</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">हमें आने वाला भुगतान मिला, लेकिन कोई अनुरोध नहीं मिला</string>
+
+</resources>

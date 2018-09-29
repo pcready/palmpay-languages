@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">licentiam</string>
+    <string name="agree">conveniunt</string>
+    <string name="disagree">dissentio</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Bonorum ... loading</string>
+    <string name="title_loading_asset_type_data">Loading Loading ... dignissim data genus</string>
+    <string name="title_assets_ready">Paratae res database</string>
+    <string name="msg_loading_all_existing_assets">Petitiones ad seriem faciendo ut in Universum circulorum indicem bonorum omnium existentium</string>
+    <string name="msg_loading_asset_type_data">Details dignissim ultra postulas</string>
+    <string name="msg_loading_asset_in_database">Loaded %1$d bonorum in database</string>
+    <string name="msg_assets_loaded">Deinde, quaeso ... setup rationem vestram</string>
+    <string name="error_fetching_marketcap_data">Non load data marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Create Account</string>
+    <string name="txt_account_name">Ideo nomine BitShares</string>
+    <string name="unable_to_find_account_id">Ob id non potuerunt invenire user</string>
+    <string name="error_invalid_account_name_explanation">Ut vel plus habet de ratione nominis VIII characters, numerus continet nec habent vocales. Et underscore quod character est non licet.</string>
+    <string name="create">Create</string>
+    <string name="error">Error</string>
+    <string name="account_name_already_exist">Ratio est nomen iam</string>
+    <string name="try_again">V minuta post Vicipaedia</string>
+    <string name="txt_new_pin_confirmation">ACUS novum confirmet (6 + numeri)</string>
+    <string name="error_wif">Error partum key virtutum juramenti sui</string>
+    <string name="error_faucet_template">Faucet errorem rediit. Msg: %1$s</string>
+    <string name="error_read_dict_file">Lectio dictionary lima Error</string>
+    <string name="error_missing_account">App quod non potuit recuperare nuper notitia de causa creata est</string>
+    <string name="create_account_title">Propter partum novum</string>
+    <string name="create_account_message">Dum velit expectare vestra creata est</string>
+    <string name="error_faucet_explanation">Per eumdem errorem rediit. Hoc in proposito locum deberi terminationem ex eadem inscriptio statim saepius brevi spatio. Quaeso, iterum conare et exspectare V minuta, vel switch ad alia network, exempli de WiFi ad cellulam.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Tibi placet fac brainkey tergum contra codices. Et hoc propter te patitur te ad recuperandam tuum in casu accidit quod hoc fabrica.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Ut importo vestri existentium rationem velis?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">Key virtutum juramenti sui</string>
+    <string name="bin_file">File .bin</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">ACUS digit elige 6 +</string>
+    <string name="txt_6_digits_pin_confirm">ACUS confirmare numeri 6 +</string>
+    <string name="please_enter_6_digit_pin">Please enter the-VI numeri ACUS</string>
+    <string name="please_enter_6_digit_pin_confirm">PDF tua confirmatio numero PIN</string>
+    <string name="mismatch_pin">mismatch pin</string>
+    <string name="please_enter_brainkey">Please enter brainkey</string>
+    <string name="please_enter_correct_brainkey">Please enter brainkey bene, ut illud habeamus inter XII et XVI verba.</string>
+    <string name="unable_to_load_brainkey">\'Non load brainkey</string>
+    <string name="account_already_exist">Ideo prius est</string>
+    <string name="importing_your_wallet">Importo vestri peram ...</string>
+    <string name="account_candidates_title">Placere eligere rationem</string>
+    <string name="account_candidates_content">Inde usus clavium brainkey continere videntur propter quam quaeso velis eligere unde importat</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Import file .bin</string>
+    <string name="import_backup">Tergum ex file Import .bin</string>
+    <string name="txt_no_internet_connection">Non Internet Connection</string>
+    <string name="no_file_chosen">File non elegit</string>
+    <string name="choose_backup">sumo Tergum</string>
+    <string name="choose_file">Eligere file</string>
+    <string name="txt_existing_password">Current .bin file Password aut ACUS</string>
+    <string name="txt_new_pin">ACUS nova (6 + numeri)</string>
+    <string name="importing_keys_from_bin_file">"Ben file ex Importing Key"</string>
+    <string name="please_make_sure_your_bin_file">Quaeso, scrutare tuo verum est pin non recte est lego lima bin</string>
+    <string name="missing_existing_password">Ad encrypt quod password Please enter ad tergum lima</string>
+    <string name="pin_number_request">Please enter ad pin numero ad hoc encode tergum lima</string>
+    <string name="pin_number_warning">In pluribus, oportet quod saltem VI numeri pin</string>
+    <string name="backup_error_no_key_reference_found">Non propter usus hoc key inventum est, ut sis certus vos es usura an updated tergum lima.</string>
+    <string name="backup_error_no_wallet_backup">Non peram inveniri potuit in tergum lima</string>
+    <string name="error_invalid_account">Aliquam Quapropter obsecro per typing errores reprehendo tuum cerebrum clavem</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Import</string>
+    <string name="title_account_load_result">ratio onusto</string>
+    <string name="button_change_account">mutare</string>
+    <string name="title_select_input_assets">Select in ut accipere bonorum.</string>
+    <string name="explanation_account_setup">Vos mos postulo ut setup rationem accipere Bitshares et reditus accipiebant. Aut, si iam tenes unum, non est hic, possunt importare.</string>
+    <string name="explanation_output_asset">Elige tibi Smartcoin desideravit:</string>
+    <string name="next">deinde</string>
+    <string name="done">factum</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">et reddere</string>
+    <string name="error_corrupted_key_title">Key error corruptionem</string>
+    <string name="error_corrupted_key_content">Privatus claves a repetunda encrypted app nequit datorum. Propter hoc vobis \ \'ll requiri vestram claves iterum intrare. Vel in forma a tergum lima quod bin ad formare vel brainkey generatae in manipulos redactæ sdcard automatice creata est causa nisi per app</string>
+    <string name="invalid_pin">Aliquam ACUS</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">domum</string>
+    <string name="txt_transactions">transactions</string>
+    <string name="txt_refunds_returns">Refunds / Products</string>
+    <string name="txt_settlement">Incoluimus</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares lymphaticorum</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Amount debetur</string>
+    <string name="sub_total">Sub-Summa</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00:</string>
+    <string name="dot">.</string>
+    <string name="one">I</string>
+    <string name="two">II</string>
+    <string name="three">III</string>
+    <string name="four">IV</string>
+    <string name="five">V</string>
+    <string name="six">VI</string>
+    <string name="seven">VII</string>
+    <string name="eight">VIII</string>
+    <string name="nine">IX</string>
+    <string name="title_error_market">Liber errore Ordinis</string>
+    <string name="content_error_market">Nulla ordinum excambium facere liceret nobis DEX %1$s ibidem. \n \nPlease ad screen et eligere diversis occasus output dignissim.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">placere</string>
+    <string name="please_pay_s_s">Audite quaeso; %1$s %2$s</string>
+    <string name="to_s">Ad: %1$s</string>
+    <string name="txt_network">feodo Network</string>
+    <string name="txt_please_wait">Please</string>
+    <string name="error_node_unreachable">Nodi non posset extenditque</string>
+    <string name="invoice_subject">Cautionem de PalmPay %1$s</string>
+    <string name="before_s">Antequam: %1$s</string>
+    <string name="share">Share</string>
+    <string name="share_with">Communicet</string>
+    <string name="connecting">Connectens ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Lego mercedem petitio</string>
+    <string name="dialog_msg_select_pending_payment">An advenientis mercedem Praetor creatus, detecta est, sed statim non potest assignari, quae antea rogatus mercedem. Placere eligere rectam mercedem petitionem a album de haec.</string>
+    <string name="dialog_msg_confirm_pending_payment">Haec pagina scripta venientibus prius reddi tributum petentibus %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Details mercedem advenientis</string>
+    <string name="dialog_generic_title_confirm">Es certus?</string>
+    <string name="dialog_generic_msg_confirm">Nota quod actio non omittere</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Mitte</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Payment confirmavit?</string>
+    <string name="txt_cool">REFRIGERIUM!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Optiones</string>
+    <string name="general">Generalis</string>
+    <string name="security">Security</string>
+    <string name="backups">inVisum tergum</string>
+    <string name="tokens">signa</string>
+    <string name="accounts">Rationibus</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">modus noctem</string>
+    <string name="currency_info">Monetæ statim electus est et fundatur in verbis et patriae fecerunt. Si vis mutare illis, oportet vos ire ad global occasus in vestri system fabrica.</string>
+    <string name="screen_saver">Screensaver Aquarium</string>
+    <string name="source">fons</string>
+    <string name="bitshares_logo">Search BitShares</string>
+    <string name="default_folder">Default folder (/ PalmPay)</string>
+    <string name="txt_folder">folder</string>
+    <string name="choose">Elige</string>
+    <string name="screen_saver_time">Admitte post ...</string>
+    <string name="one_minute">I Minutum</string>
+    <string name="three_minutes">III scrupulis</string>
+    <string name="five_minutes">scrupulis V</string>
+    <string name="local_ambassador">locus legatus</string>
+    <string name="ambassador_info">Mercedem omni III seconds PalmPay legatos benignitas. Et quæ menstruis organize officium est suscipere suas mercatores loci PalmPay Cultus Deorum Romanorum Meetups Crypto. Si civitas non enumerantur: ergo non est a civitate tua PalmPay Legatus. \n \nFor more info: visitare Agorise Telegram in civitatem: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Urbs</string>
+    <string name="country">Patriam</string>
+    <string name="bugs_or_ideas">Bugs seu Ideas?</string>
+    <string name="bugs_or_ideas_contact_info">Telegraphum chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">suscipe</string>
+    <string name="select">select</string>
+    <string name="are_you_sure">Es certus?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">brainkey tergum</string>
+    <string name="copied_to_clipboard">Copied ut clipboard</string>
+    <string name="bin_file_description">Bin lima. Nisi vestri tergum lima .bin semper ad secretum MicroSD card aut USB lignum.</string>
+    <string name="create_a_backup">Partum a tergum</string>
+    <string name="brainkey_description">Brainkey. Ratio recuperatio potest capi nec copied verbis, sed factis.</string>
+    <string name="txt_brain_key_info">Print, aut scribere. Quis in clavem recuperatio accessum ad te aditus ad id pecunia in peram suam.</string>
+    <string name="view_and_copy"><![CDATA[View & Copy]]></string>
+    <string name="title_bin_backup">Export tergum .bin</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirmation">Password confirmationis</string>
+    <string name="error_password_mandatory">Intrabit est a password</string>
+    <string name="error_password_too_short">Password est brevior</string>
+    <string name="error_password_confirmation_mismatch">Et confirmatio Password mismatch</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Ratio mercator: %1$s</string>
+    <string name="upgrade_to_ltm">Phasellus ut LTM</string>
+    <string name="upgrade_account_description">«Sodalitas Upgrade ad LifeTime (LTM). Bitshares \'LTM rationes reddere, nullus apud feodis suis ut LXXX% cashback et bonuses in elit."</string>
+    <string name="account_upgrade_title">Ratio upgrade</string>
+    <string name="account_upgrade_content">De Vita tempus Contact concedit vos prohibiti commercio intra Alpes paro of network dominis feodorum. \n \nIt tollet effectum est ob hodiernam «%1$s" \n \nIt est autem cum venerit USD pretium sumptus circa C in Bitshares. Visne vero \n \nAre procedere?</string>
+    <string name="account_upgrade_wait_content">Ex qua re postulas ipsum coctum</string>
+    <string name="error_upgrade_account_title">Error dum conatur ad upgrade ratio</string>
+    <string name="error_upgrade_account_content">Quaeso, scrutare non habet rationem statera satis ad operiendum costs</string>
+    <string name="account_upgraded_title">ratio upgraded</string>
+    <string name="account_upgraded_content">Gratulationes! Vita vestra est nunc upgraded ad Sodalitas.</string>
+    <string name="remove_account">Remove Ratio</string>
+    <string name="remove_account_description">Remove Ratio huius mercatoris. Remove mercatorum Ratio super hac subtilitate sumptuque vel creare unum alium importare.</string>
+    <string name="txt_account_remove_confirmation">"Es certus vos volo ut causa removere \'%1$s\' de vidulum?"</string>
+    <string name="remove">Remove</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">optatus Smartcoin</string>
+    <string name="txt_customer_loyalty">... sicut exitus Points</string>
+    <string name="warning_insufficient_reward_asset_balance">Ratio tua est non habere aliquam %1$s. Quaeso te experiri ad aliquem coram aliquo quod sit ut vestra teloneariorum Points.</string>
+    <string name="send">Mitte</string>
+    <string name="txt_for_every">Nam omnem</string>
+    <string name="txt_spent">spent</string>
+    <string name="txt_bitcoin_altcoin_deposited">VIII suscipere usque Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Placere eligere potius non quam VIII bonorum initus</string>
+    <string name="bitshares_unselection_message">Et Bitshares (bis) core firmitatis indicium est requiritur.</string>
+    <string name="toast_low_volume_market">Forum bonorum sunt, ex tempore, low volumen erret. Ut illi fideles pro se quondam cum pondere in foro volumine resurget</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">logo</string>
+    <string name="store_name">nomen store</string>
+    <string name="address">oratio</string>
+    <string name="phone_number">phone number</string>
+    <string name="website">website</string>
+    <string name="message">Nuntius</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">\'Non enim forma generate bin clavem</string>
+    <string name="saving_bin_file_to_s">Salvis bin to File: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Feliciter liberavit bin file: %1$s</string>
+    <string name="unable_to_save_bin_file">Nisi \'non file bin</string>
+    <string name="creating_backup_file">Tergum partum File</string>
+    <string name="fetching_key">Key fetching</string>
+    <string name="generating_bin_format">Generating forma bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Quaerere</string>
+    <string name="filter">filter</string>
+    <string name="export">export</string>
+    <string name="confirming">Confirmare principia ...</string>
+    <string name="pdf_generated_msg_s">PDF generatae, et salvus: %1$s</string>
+    <string name="pdf_generated_msg_error_s">\'Non pdf generate. Placere retry. Error: %1$s</string>
+    <string name="csv_generated_msg_s">Generari CSV salvus %1$s</string>
+    <string name="csv_generated_msg_error_s">\'Non generate csv. Placere retry. Error: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Omnis</string>
+    <string name="sent">missus</string>
+    <string name="received">suscepit</string>
+    <string name="date_range">Date dolor</string>
+    <string name="txt_to">ut</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">fiat moles</string>
+    <string name="between">inter</string>
+    <string name="and">et</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Export percolantur transactions</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Generating uber export</string>
+    <string name="exported_file_name">Nova acta PalmPay,</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Ex</string>
+    <string name="to">Ad</string>
+    <string name="memo">memo</string>
+    <string name="date">Date</string>
+    <string name="time">Tempus</string>
+    <string name="crypto_amount">Aliquam Crypto</string>
+    <string name="crypto_symbol">symbolum Crypto</string>
+    <string name="keyed_in_fiat_amount">In respondet, Fiat Aliquam</string>
+    <string name="total_fiat_amount">Fiat total Amount</string>
+    <string name="fiat_currency">Fiat Currency</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">item %1$d</string>
+    <string name="subtotal">Sub-Total</string>
+    <string name="network_fee">feodo Network</string>
+    <string name="total">summa</string>
+    <string name="paid_s_s">%1$s solvit %2$s</string>
+    <string name="change_due">ob mutatio</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Date: %1$s</string>
+    <string name="e_receipt_tx_s">TX: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt ex %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Non recta annorum ACUS</string>
+    <string name="pin_changed_successfully">ACUS feliciter mutavit</string>
+    <string name="please_enter_pin">PDF numero PIN</string>
+    <string name="please_enter_pin_confirmation">Confirmare placet intra numerum PIN</string>
+    <string name="title_change_pin">ACUS Edit</string>
+    <string name="txt_current_pin">ACUS current numerus</string>
+    <string name="please_enter_old_pin">PDF annorum numerum PIN</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Nodi nexu errorem, retrying</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Venimus ad ineuntes mercedem, sed rogationem explere non est inventus</string>
+
+</resources>

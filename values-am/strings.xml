@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">ፈቃድ</string>
+    <string name="agree">ተስማማ</string>
+    <string name="disagree">አልስማማም</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">ንብረቶችን በመጫን ላይ ...</string>
+    <string name="title_loading_asset_type_data">የንብረት አይነት በመጫን ላይ ...</string>
+    <string name="title_assets_ready">የንብረት ዳታቤዝ ዝግጁ ነው</string>
+    <string name="msg_loading_all_existing_assets">ሁሉንም ነባር ሀብቶች ዝርዝር ለማግኘት ዝርዝር ተከታታይ ጥያቄዎችን ማካሄድ</string>
+    <string name="msg_loading_asset_type_data">ተጨማሪ የንብረት ዝርዝሮችን በመጠየቅ ላይ</string>
+    <string name="msg_loading_asset_in_database">ወደ ዉሂብ ቤት ውስጥ %1$d ን ይዘዋል</string>
+    <string name="msg_assets_loaded">ቀጥሎ, እባክዎ መለያዎን ያዋቅሩ ...</string>
+    <string name="error_fetching_marketcap_data">የገበያ የካርድ ውሂብ መጫን አልተቻለም</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">መለያ ይፍጠሩ</string>
+    <string name="txt_account_name">BitShares መለያ ስም</string>
+    <string name="unable_to_find_account_id">የተጠቃሚ መለያ መታወቂያ ማግኘት አልተቻለም</string>
+    <string name="error_invalid_account_name_explanation">የመለያው ስም ከ 8 በላይ ፊደሎች ሊኖረው ይገባል, ቁጥሩን ያካትታል ወይም አናባቢዎች የሉትም. የሰረዘዘብ ምልክት ቁምፊም አይፈቀድም.</string>
+    <string name="create">ይፍጠሩ</string>
+    <string name="error">ስህተት</string>
+    <string name="account_name_already_exist">የመለያ ስም አስቀድሞ አለ</string>
+    <string name="try_again">እባክዎ ከ 5 ደቂቃዎች በኋላ እንደገና ይሞክሩ</string>
+    <string name="txt_new_pin_confirmation">አዲስ ፒን ያረጋግጡ (6+ አሃዞች)</string>
+    <string name="error_wif">የ WIF ቁልፍን መፍጠር ላይ ስህተት</string>
+    <string name="error_faucet_template">ፎጣው ስህተት አጋጠመው. መልዕክት: __ 1s__</string>
+    <string name="error_read_dict_file">የመዝገበ-ቃላት ፋይል ማንበብ ስህተት</string>
+    <string name="error_missing_account">መተግበሪያው ስለፈጠረው አዲስ መለያ መረጃ ማምጣት አልቻለም</string>
+    <string name="create_account_title">አዲስ መለያ በመፍጠር ላይ</string>
+    <string name="create_account_message">መለያዎ እስኪፈታ ድረስ እባክዎ ይጠብቁ</string>
+    <string name="error_faucet_explanation">አገልጋዩ ስህተት መልሷል. ይህ በአጭር ጊዜ ውስጥ ከአንዳንድ ተመሳሳይ የአይፒ አድራሻዎች የሚመጡ ተደጋጋሚ ጥያቄዎች እንዳይፈቀድ በተወሰነ ገደብ በተቀመጠው መሰረት ሊሆን ይችላል. እባክዎ ለ 5 ደቂቃዎች ይጠብቁና እንደገና ይሞክሩ, ወይም ወደተለየ አውታረ መረብ ይቀይሩ, ለምሳሌ ከ wifi ወደ ሕዋስ.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">እባክዎን ከመቀጠልዎ በፊት አዕምሯቸውን ይጠብቁ. ይሄ በዚህ መሣሪያ ላይ አንድ ነገር ቢከሰት መለያዎን መልሰው እንዲያገኙ ያስችልዎታል.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">ነባሩን መለያዎን ማስገባት ይፈልጋሉ?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF ቁልፍ</string>
+    <string name="bin_file">.bin ፋይል</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">ባለ 6+ አሃዝ ፒን ይምረጡ</string>
+    <string name="txt_6_digits_pin_confirm">6+ አሃዞች ፒን ያረጋግጡ</string>
+    <string name="please_enter_6_digit_pin">እባክዎ ባለ 6-አሃዞች ፒን ያስገቡ</string>
+    <string name="please_enter_6_digit_pin_confirm">እባክዎ የፒን ቁጥርዎን ማረጋገጫ ያስገቡ</string>
+    <string name="mismatch_pin">የማይዛመድ ፒን</string>
+    <string name="please_enter_brainkey">እባክዎን አህመድ ቁልፍን ያስገቡ</string>
+    <string name="please_enter_correct_brainkey">እባክዎን ትክክለኛውን የአእምሮ ቁልፍ ያስገቡ, በ 12 እና 16 ቃላት መካከል መሆን አለበት.</string>
+    <string name="unable_to_load_brainkey">የአንጎለ ቁልፍን መጫን አልተቻለም</string>
+    <string name="account_already_exist">መለያ አስቀድሞም ይገኛል</string>
+    <string name="importing_your_wallet">ቦርሳህን በማስመጣት ላይ ...</string>
+    <string name="account_candidates_title">እባክዎ አንድ መለያ ይምረጡ</string>
+    <string name="account_candidates_content">ከዚህ የአንገት ቁልፍ የተገኙ ቁልፎች ከአንድ መለያ በላይ ለመቆጣጠር ስራ ላይ የሚውሉ ናቸው, እባክዎ የትኛውን መለያ ማስመጣት እንደሚፈልጉ ይምረጡ</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">አስመጣ. ባቢ ፋይል</string>
+    <string name="import_backup">ከ .bin ፋይል ምትኬ ያስመጡ</string>
+    <string name="txt_no_internet_connection">ምንም የበይነመረብ ግንኙነት የለም</string>
+    <string name="no_file_chosen">ምንም ፋይል አልተመረጠም</string>
+    <string name="choose_backup">ምትኬን ይምረጡ</string>
+    <string name="choose_file">ፋይል ይምረጡ</string>
+    <string name="txt_existing_password">የአሁን. ባዶ ፋይል የይለፍ ቃል ወይም ፒን</string>
+    <string name="txt_new_pin">አዲስ ፒን (6+ አሃዞች)</string>
+    <string name="importing_keys_from_bin_file">"ከ Bin ፋይል ፋይሎችን ማስመጣት"</string>
+    <string name="please_make_sure_your_bin_file">እባክዎ የእርስዎ ፒን ትክክል መሆኑን ወይም ትክክለኛውን የመያዣ ፋይል መመረጡን ያረጋግጡ</string>
+    <string name="missing_existing_password">እባክዎ ይህን መጠባበቂያ ፋይል ለመመስጠር ጥቅም ላይ የዋለውን የይለፍ ቃል ያስገቡ</string>
+    <string name="pin_number_request">እባክዎ ይህን መጠባበቂያ ፋይል ለመቁረጥ ስራ ላይ የሚውለውን ፒን ቁጥር ያስገቡ</string>
+    <string name="pin_number_warning">የፒን ቁጥር ቢያንስ 6 አኃዞች መሆን አለበት</string>
+    <string name="backup_error_no_key_reference_found">ይህን ቁልፍ በመጠቀም ምንም መለያ አልተገኘም, እባክዎ የተዘመነ የመጠባበቂያ ፋይል እየተጠቀሙ መሆንዎን ያረጋግጡ.</string>
+    <string name="backup_error_no_wallet_backup">በዚህ ፋይል ውስጥ የትርጉም ምትኬ የለም</string>
+    <string name="error_invalid_account">ልክ ያልሆነ መለያ, እባክዎ ስህተቶችን ለመተየብ የእርስዎን የአእምሮ ቁልፍ ይፈትሹ</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">አስመጣ</string>
+    <string name="title_account_load_result">ሂሳብ ተጭኗል</string>
+    <string name="button_change_account">ለውጥ</string>
+    <string name="title_select_input_assets">ለመቀበል ንብረቶችን ይምረጡ.</string>
+    <string name="explanation_account_setup">ክፍያዎችን ለመቀበል የ Bitshares መለያ ማቀናበር ያስፈልግዎታል. ወይም ደግሞ ቀደም ሲል ካለዎት, እዚህ ማስመጣት ይችላሉ.</string>
+    <string name="explanation_output_asset">የፈለጉት Smartcoin ይምረጡ:</string>
+    <string name="next">ቀጣይ</string>
+    <string name="done">ተጠናቅቋል</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">ይክፈሉ በ</string>
+    <string name="error_corrupted_key_title">ቁልፍ የሙስና ስህተት</string>
+    <string name="error_corrupted_key_content">መተግበሪያው ከውሂብ ጎታዎቹ ጋር የተመሳሰሉ የግል ቁልፎቻቸውን መመለስ አልቻለም. በዚህ ምክንያት ቁልፎችዎን እንደገና ማስገባት ይኖርብዎታል. ሂሳቡ በመተግበሪያው የተፈጠረ ከሆነ በአይነምስ ቁልፍ መልክ ወይም በቅጥያው ውስጥ የተቀመጠ የቢንሻ ምትኬ ፋይል ውስጥ በራስሰር ወደ እርስዎ SD ካርድ ይከማቻል.</string>
+    <string name="invalid_pin">ልክ ያልሆነ ፒን</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">ቤት</string>
+    <string name="txt_transactions">ግብይቶች</string>
+    <string name="txt_refunds_returns">ተመላሽ ገንዘቦች / ተመላሽ ገንዘቦች</string>
+    <string name="txt_settlement">መፍትሔ</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares ኖዶች</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">መጠን መጠን</string>
+    <string name="sub_total">ንዑስ-ድምር:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">የትዕዛዝ መጽሐፍ ስህተት</string>
+    <string name="content_error_market">በአሁኑ ጊዜ ልውውጥ በ __ 1s__ እንድናከናውን በሚፈቅደው DEX ውስጥ ምንም ትዕዛዞች የሉም. \n \n እባክዎን ወደ የቅንጅቶች ማያ ገጽ ይሂዱ እና የተለየ የውጤት ንብረት ይምረጡ.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">እባክዎን ይክፈሉ</string>
+    <string name="please_pay_s_s">እባክዎ ይክፈሉ: %1$s %2$s</string>
+    <string name="to_s">ለ: %1$s</string>
+    <string name="txt_network">የአውታረ መረብ ክፍያ</string>
+    <string name="txt_please_wait">ቆይ በናተህ</string>
+    <string name="error_node_unreachable">ምንም ኖት ሊደረስበት አይችልም</string>
+    <string name="invoice_subject">የ PalmPay ደረሰኝ ከ __1 __</string>
+    <string name="before_s">ከዚህ በፊት: __1 __</string>
+    <string name="share">አጋራ</string>
+    <string name="share_with">ተካፈል</string>
+    <string name="connecting">በመገናኘት ላይ ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">የክፍያ ጥያቄን ይምረጡ</string>
+    <string name="dialog_msg_select_pending_payment">አንድ ገቢ ገቢ ተገኝቷል, ነገር ግን ቀደም ሲል ለጠየቀው ክፍያ በራስሰር እንዲመደብ ማድረግ አይቻልም. እባክዎ ከሚከተለው ዝርዝር ውስጥ ትክክለኛውን የክፍያ ጥያቄ ይምረጡ.</string>
+    <string name="dialog_msg_confirm_pending_payment">ይህ የገቢ ክፍያውን ከዚህ በፊት ለተፃፈው የ %1$s ክፍያ ጥያቄ ያገናኛል.</string>
+    <string name="dialog_msg_incoming_payment_details">የመጪ ክፍያ ዝርዝሮች</string>
+    <string name="dialog_generic_title_confirm">እርግጠኛ ነህ?</string>
+    <string name="dialog_generic_msg_confirm">ይህ እርምጃ ሊቀለበስ እንደማይችል እባክዎ ልብ ይበሉ</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">አሰናብት</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">ክፍያ ተረጋግጧል!</string>
+    <string name="txt_cool">ጥሩ!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">ቅንብሮች</string>
+    <string name="general">አጠቃላይ</string>
+    <string name="security">ደህንነት</string>
+    <string name="backups">ምትኬዎች</string>
+    <string name="tokens">ማስመሰያዎች</string>
+    <string name="accounts">መለያዎች</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">የምሽት ሁነታ</string>
+    <string name="currency_info">የምንዛሬው በራስዎ ቋንቋ እና አገር ምርጫ መሰረት በራስ-ሰር ይመረጣል. እነዚያን ለመለወጥ ከፈለጉ, ወደ መሳሪያዎ ዓለም አቀፋዊ የስርዓት ቅንብሮች መሄድ አለብዎት.</string>
+    <string name="screen_saver">የማያ ኃይል ቆጣቢ</string>
+    <string name="source">ምንጭ</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">ነባሪ አቃፊ (/ PalmPay)</string>
+    <string name="txt_folder">አቃፊ</string>
+    <string name="choose">ይምረጡ</string>
+    <string name="screen_saver_time">በኋላ አንቃ ...</string>
+    <string name="one_minute">1 ደቂቃ</string>
+    <string name="three_minutes">3 ደቂቃዎች</string>
+    <string name="five_minutes">5 ደቂቃዎች</string>
+    <string name="local_ambassador">የአካባቢው አምባሳደር</string>
+    <string name="ambassador_info">የ PalmPay አምባሳደሮች በየ 3 ሰከንድ ይከፈላቸዋል. የእነሱ ሥራ የአካባቢያዊው PalmPay ነጋዴዎችን ለመደገፍ እና ወርሃዊ የ Crypto Meetups ለማቀናጀት ነው. ከተማዎ ካልተዘረዘረ ከተማዎ ገና PalmPay አምባሳደሩ ገና የላት. \n \n ለተጨማሪ መረጃ የአግሪዝ ማህበረሰብን በቴሌግራም ጉብኝት ይጎብኙ \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">ከተማ</string>
+    <string name="country">አገር</string>
+    <string name="bugs_or_ideas">ሳንካዎች ወይም ሃሳቦች?</string>
+    <string name="bugs_or_ideas_contact_info">የቴሌግራም ውይይት: http://t.me/Agorise \n ኢሜይል: Agorise@protonmail.ch</string>
+    <string name="accept">ተቀበል</string>
+    <string name="select">ይምረጡ</string>
+    <string name="are_you_sure">እርግጠኛ ነህ?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">ምትኬ የአእምሮ ቁልፍ</string>
+    <string name="copied_to_clipboard">ወደ ቅንጥብ ሰሌዳ ተቀድቷል</string>
+    <string name="bin_file_description">Bin ፋይል. ሁልጊዜ ምትኬዎን ባቢ ፋይልን ወደ ሚስጥራዊ MicroSD ካርድ ወይም የዩ ኤስ ቢ ሳት ይጠቀሙ.</string>
+    <string name="create_a_backup">ምትኬ ይፍጠሩ</string>
+    <string name="brainkey_description">Brainkey. ሊያዙ ወይም ሊገለበጡ የሚችሉ, የመለያ መልሶ ማግኛ ቃላት, ግን አልተስተካከሉም.</string>
+    <string name="txt_brain_key_info">ይሄን ያትሙት ወይም ይፃፉት. የመልሶ ማግኛ ቁልፍዎ መዳረሻ ያለው ማንኛውም ሰው በዚህ ኪስ ውስጥ የገንዘብ አቅርቦት አለው.</string>
+    <string name="view_and_copy">ይመልከቱ እና ይቅዱ</string>
+    <string name="title_bin_backup">ወደ ውጭ ላክ. ባት ምትኬ</string>
+    <string name="hint_password">የይለፍ ቃል</string>
+    <string name="hint_password_confirmation">የይለፍ ቃል ማረጋገጫ</string>
+    <string name="error_password_mandatory">የይለፍ ቃል ማስገባት አለበት</string>
+    <string name="error_password_too_short">የይለፍ ቃል በጣም አጭር ነው</string>
+    <string name="error_password_confirmation_mismatch">የይለፍ ቃል እና ማረጋገጫ አለመዛመድ</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">የነጋዴ መለያ: %1$s</string>
+    <string name="upgrade_to_ltm">ወደ LTM አልቅ</string>
+    <string name="upgrade_account_description">"ወደ የህይወት ጊዜ አባልነት (LTM) ያሻሽሉ. የ Bitshares \'LTM ሂሳቦች በአቅራቢያ ያለ ዜሮ ክፍያዎችን ይከፍላሉ, ወደ 80% ገንዘብ ተመላሽ እና ጉብኝትን ለማግኘት ይበረታታሉ."</string>
+    <string name="account_upgrade_title">መለያ አሻሽል</string>
+    <string name="account_upgrade_content">የህይወት ጊዜ አባልነት ከተቀነሰ አነስተኛ የአውታረ መረብ ክፍያዎች ጋር እንድትቀይሩ ያስችልዎታል. \n \n በአሁኑ የመለያ "%1$s" \n __n ላይ ይተገበራል. ሆኖም ግን በቢቲስ ውስጥ በ 100 የአሜሪካን ዶላር ይከፈላል. \n \n እርግጠኛ ነዎት መቀጠል ይፈልጋሉ?</string>
+    <string name="account_upgrade_wait_content">የእርስዎን ጥያቄ የያዘውን ልውውጥ በኔትወርክ እየተካሄደ ነው</string>
+    <string name="error_upgrade_account_title">መለያ ለማሻሻል ሲሞከር ስህተት</string>
+    <string name="error_upgrade_account_content">እባክዎ ወጪዎችዎን ለመሸፈን ሂሳብዎ በቂ ሂሳብ መያዙን ያረጋግጡ</string>
+    <string name="account_upgraded_title">መለያ ተሻሽሏል</string>
+    <string name="account_upgraded_content">እንኳን ደስ አለዎ! አሁን መለያዎ ወደ የህይወት ዘመን አባልነት ተሻሽሏል.</string>
+    <string name="remove_account">መለያ አስወግድ</string>
+    <string name="remove_account_description">ይህን የነጋዴ መለያ ያስወግዱ. ከዚህ መሳሪያ ላይ የነጋዴውን መለያ ከዚህ በላይ ያስወግዱ እና የተለየን ይፍጠሩ ወይም ያስመጡ.</string>
+    <string name="txt_account_remove_confirmation">"እርግጠኛ ነዎት አካውንቱን \'%1$s\' ከዚህ ቦርሳ ለማስወገድ ይፈልጋሉ?"</string>
+    <string name="remove">አስወግድ</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">ፍላጎት ያለው Smartcoin</string>
+    <string name="txt_customer_loyalty">ታማኝነት ነጥቦችን እንደ ...</string>
+    <string name="warning_insufficient_reward_asset_balance">የእርስዎ መለያ ምንም አይነት %1$s ባለቤት አይደለም. እባክዎ ለደንበኞችዎ እንደ ታማኝ ታማኝነትዎን ለመስጠት ከመሞከርዎ በፊት እባክዎ አንዳንድ ያግኙ.</string>
+    <string name="send">ላክ</string>
+    <string name="txt_for_every">ለያንዳንዱ</string>
+    <string name="txt_spent">ወጪዎች</string>
+    <string name="txt_bitcoin_altcoin_deposited">እስከ 8 የምሥጢራዊነት ኪውስ ይቀበሉ:</string>
+    <string name="altcoins_should_not_more_than">እባክዎ ከ 8 ግቤት ግብዓቶች በላይ ይምረጡ</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) Corekenken ያስፈልጋል.</string>
+    <string name="toast_low_volume_market">አነስተኛ የድምጽ የገበያ ንብረቶች በጊዜያዊነት ቦዝነዋል. የገቢው መጠን ከፍ ያለ መጠን ሲጨምር ይደረጋሉ</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">አርማ</string>
+    <string name="store_name">የመደብር ስም</string>
+    <string name="address">አድራሻ</string>
+    <string name="phone_number">ስልክ ቁጥር</string>
+    <string name="website">ድህረገፅ</string>
+    <string name="message">መልዕክት</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">ለቁልፍ የመረጃ ቅርጸት መፍጠር አልተቻለም</string>
+    <string name="saving_bin_file_to_s">የ Bin ፋይልን በማስቀመጥ ላይ: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin ፋይል በተሳካ ሁኔታ ተቀምጧል: %1$s</string>
+    <string name="unable_to_save_bin_file">የቦርዱን ፋይል ለማስቀመጥ አልተቻለም</string>
+    <string name="creating_backup_file">መጠባበቂያ ፋይል በመፍጠር ላይ</string>
+    <string name="fetching_key">ቁልፍ በማምጣት ላይ</string>
+    <string name="generating_bin_format">ቅርጫት ፍጆታ በማመንጨት ላይ</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">ፍለጋ</string>
+    <string name="filter">ማጣሪያ</string>
+    <string name="export">ወደውጪ ላክ</string>
+    <string name="confirming">በማረጋገጥ ላይ ...</string>
+    <string name="pdf_generated_msg_s">ፒዲኤፍ ተፈጥሯል እና ተቀምጧል: %1$s</string>
+    <string name="pdf_generated_msg_error_s">PDF ማዘጋጀት አልተቻለም. እባክህ እንደገና ሞክር. ስህተት: __1 __</string>
+    <string name="csv_generated_msg_s">CSV የፈጠራ እና ተቀምጧል: %1$s</string>
+    <string name="csv_generated_msg_error_s">ሲ ኤስቪ ማመንጨት አልተቻለም. እባክህ እንደገና ሞክር. ስህተት: __1 __</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">ሁሉም</string>
+    <string name="sent">ተልኳል</string>
+    <string name="received">ደርሷል</string>
+    <string name="date_range">የቀን ክልል</string>
+    <string name="txt_to">ወደ</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">የ Fiat መጠን</string>
+    <string name="between">መካከል</string>
+    <string name="and">እና</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">የተጣሩ ግብይቶችን ወደውጪ ላክ</string>
+    <string name="format_pdf">ፒዲኤፍ</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">ወደ ውጭ መላክ ምርት በማመንጨት ላይ</string>
+    <string name="exported_file_name">PalmPay-Transactions</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">ከ</string>
+    <string name="to">ለ</string>
+    <string name="memo">Memo</string>
+    <string name="date">ቀን</string>
+    <string name="time">ሰዓት</string>
+    <string name="crypto_amount">Crypto Amount</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">በ Key-in Fiat Amount</string>
+    <string name="total_fiat_amount">የጠቅላላ Fiat መጠን</string>
+    <string name="fiat_currency">የ Fiat ምንዛሬ</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">ንጥል __1 ቀ</string>
+    <string name="subtotal">ንዑስ-ድምር</string>
+    <string name="network_fee">የአውታረ መረብ ክፍያ</string>
+    <string name="total">ጠቅላላ</string>
+    <string name="paid_s_s">የሚከፈልባቸው %1$s %2$s</string>
+    <string name="change_due">የሚቀነስ ለውጥ</string>
+    <string name="e_receipt_memo_s">ማስታወሻ: __1 __</string>
+    <string name="e_receipt_date_s">ቀን: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt ከ %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">የተሳሳተ የድሮ ፒን</string>
+    <string name="pin_changed_successfully">ፒን በተሳካ ተለውጧል</string>
+    <string name="please_enter_pin">እባክዎ የፒን ቁጥር ያስገቡ</string>
+    <string name="please_enter_pin_confirmation">እባክዎ የፒን ቁጥር ማረጋገጫዎን ያስገቡ</string>
+    <string name="title_change_pin">ፒን አርትዕ</string>
+    <string name="txt_current_pin">የአሁኑ የፒን ቁጥር</string>
+    <string name="please_enter_old_pin">እባክዎ የድሮውን ፒን ቁጥር ያስገቡ</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">የመስመር አገናኝ ስህተት, እንደገና በመሞከር ላይ</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">ገቢ ገቢ አግኝተናል, ነገር ግን ምንም ጥያቄ አልተገኘም</string>
+
+</resources>

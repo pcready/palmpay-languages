@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Giấy phép</string>
+    <string name="agree">Đồng ý</string>
+    <string name="disagree">Không đồng ý</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Đang tải nội dung…</string>
+    <string name="title_loading_asset_type_data">Đang tải dữ liệu loại nội dung…</string>
+    <string name="title_assets_ready">Đã sẵn sàng cơ sở dữ liệu nội dung</string>
+    <string name="msg_loading_all_existing_assets">Thực hiện một loạt các yêu cầu để có được danh sách đầy đủ tất cả các tài sản hiện có</string>
+    <string name="msg_loading_asset_type_data">Yêu cầu thêm chi tiết nội dung</string>
+    <string name="msg_loading_asset_in_database">Đã tải các tài sản %1$d vào cơ sở dữ liệu</string>
+    <string name="msg_assets_loaded">Tiếp theo, vui lòng thiết lập tài khoản của bạn…</string>
+    <string name="error_fetching_marketcap_data">Không thể tải dữ liệu marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Tạo tài khoản</string>
+    <string name="txt_account_name">Tên tài khoản BitShares</string>
+    <string name="unable_to_find_account_id">Không thể tìm thấy id tài khoản người dùng</string>
+    <string name="error_invalid_account_name_explanation">Tên tài khoản phải có nhiều hơn 8 ký tự, chứa một số hoặc không có nguyên âm. Ký tự gạch dưới cũng không được phép.</string>
+    <string name="create">Tạo nên</string>
+    <string name="error">lỗi</string>
+    <string name="account_name_already_exist">Tên tài khoản đã tồn tại</string>
+    <string name="try_again">Vui lòng thử lại sau 5 phút</string>
+    <string name="txt_new_pin_confirmation">Xác nhận mã PIN mới (hơn 6 chữ số)</string>
+    <string name="error_wif">Lỗi khi tạo khoá WIF</string>
+    <string name="error_faucet_template">Vòi đã trả lại lỗi. Msg: %1$s</string>
+    <string name="error_read_dict_file">Lỗi khi đọc tệp từ điển</string>
+    <string name="error_missing_account">Ứng dụng không thể truy xuất thông tin về tài khoản mới được tạo</string>
+    <string name="create_account_title">Tạo tài khoản mới</string>
+    <string name="create_account_message">Vui lòng chờ trong khi tài khoản của bạn được tạo</string>
+    <string name="error_faucet_explanation">Máy chủ trả về lỗi. Điều này có thể là do giới hạn được thiết lập nhằm mục đích không cho phép các yêu cầu thường xuyên đến từ cùng một địa chỉ IP trong một khoảng thời gian ngắn. Vui lòng đợi 5 phút và thử lại hoặc chuyển sang mạng khác, Ví dụ: từ wifi đến ô.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Hãy chắc chắn rằng bạn sao lưu bộ não của bạn trước khi tiếp tục. Điều này sẽ cho phép bạn khôi phục tài khoản của mình trong trường hợp xảy ra sự cố với thiết bị này.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Bạn muốn nhập tài khoản hiện tại của mình như thế nào?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">Khóa WIF</string>
+    <string name="bin_file">.bin Tệp</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Chọn mã PIN gồm 6 chữ số</string>
+    <string name="txt_6_digits_pin_confirm">Hơn 6 chữ số PIN xác nhận</string>
+    <string name="please_enter_6_digit_pin">Vui lòng nhập mã PIN gồm 6 chữ số</string>
+    <string name="please_enter_6_digit_pin_confirm">Vui lòng nhập xác nhận số PIN của bạn</string>
+    <string name="mismatch_pin">Mã không khớp</string>
+    <string name="please_enter_brainkey">Vui lòng nhập não</string>
+    <string name="please_enter_correct_brainkey">Vui lòng nhập đúng bộ não, nó phải có từ 12 đến 16 từ.</string>
+    <string name="unable_to_load_brainkey">Không thể tải não</string>
+    <string name="account_already_exist">Tài khoản đã tồn tại</string>
+    <string name="importing_your_wallet">Đang nhập ví của bạn…</string>
+    <string name="account_candidates_title">Vui lòng chọn một tài khoản</string>
+    <string name="account_candidates_content">Các khóa bắt nguồn từ bộ não này dường như được sử dụng để kiểm soát nhiều tài khoản, vui lòng chọn tài khoản bạn muốn nhập</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Nhập tệp .bin</string>
+    <string name="import_backup">Nhập Sao lưu từ tệp .bin</string>
+    <string name="txt_no_internet_connection">Không có kết nối Internet</string>
+    <string name="no_file_chosen">Không có tập tin nào được chọn</string>
+    <string name="choose_backup">Chọn sao lưu</string>
+    <string name="choose_file">Chọn tập tin</string>
+    <string name="txt_existing_password">Tệp .bin hiện tại Mật khẩu hoặc mã PIN</string>
+    <string name="txt_new_pin">Mã PIN mới (6 chữ số trở lên)</string>
+    <string name="importing_keys_from_bin_file">"Nhập khóa từ tệp Bin"</string>
+    <string name="please_make_sure_your_bin_file">Hãy chắc chắn rằng pin của bạn là chính xác hoặc tập tin bin đúng được chọn</string>
+    <string name="missing_existing_password">Vui lòng nhập mật khẩu được sử dụng để mã hóa tệp sao lưu này</string>
+    <string name="pin_number_request">Vui lòng nhập số pin được sử dụng để mã hóa tệp sao lưu này</string>
+    <string name="pin_number_warning">Số pin phải có ít nhất 6 chữ số</string>
+    <string name="backup_error_no_key_reference_found">Không tìm thấy tài khoản nào sử dụng khóa này, hãy đảm bảo bạn đang sử dụng tệp sao lưu được cập nhật.</string>
+    <string name="backup_error_no_wallet_backup">Không thể sao lưu ví tiền trong tệp này</string>
+    <string name="error_invalid_account">Tài khoản không hợp lệ, vui lòng kiểm tra khóa não của bạn để nhập lỗi</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Nhập</string>
+    <string name="title_account_load_result">Đã tải tài khoản</string>
+    <string name="button_change_account">Thay đổi</string>
+    <string name="title_select_input_assets">Chọn nội dung để chấp nhận.</string>
+    <string name="explanation_account_setup">Bạn sẽ cần phải thiết lập một tài khoản Bitshares để nhận thanh toán. Hoặc nếu bạn đã có, bạn có thể nhập vào đây.</string>
+    <string name="explanation_output_asset">Chọn Smartcoin bạn muốn:</string>
+    <string name="next">Kế tiếp</string>
+    <string name="done">Làm xong</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Thanh toán bằng</string>
+    <string name="error_corrupted_key_title">Lỗi tham nhũng chính</string>
+    <string name="error_corrupted_key_content">Ứng dụng không thể khôi phục các khóa riêng được mã hóa của bạn từ cơ sở dữ liệu. Bởi vì điều này bạn sẽ được yêu cầu nhập lại khóa của bạn. Hoặc dưới dạng một bộ não hoặc tạo tệp sao lưu bin được tạo và lưu trữ tự động trong sdcard của bạn nếu tài khoản được tạo bởi ứng dụng</string>
+    <string name="invalid_pin">Mã PIN không hợp lệ</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Nhà</string>
+    <string name="txt_transactions">Giao dịch</string>
+    <string name="txt_refunds_returns">Hoàn lại tiền / Trả lại</string>
+    <string name="txt_settlement">Giải quyết</string>
+    <string name="bitshares_nodes_dialog_title">Các nút bithares</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Số tiền đến hạn</string>
+    <string name="sub_total">Tổng số phụ:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">số 8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Lỗi sách đặt hàng</string>
+    <string name="content_error_market">Không có đơn đặt hàng nào trong DEX cho phép chúng tôi thực hiện giao dịch với %1$s vào lúc này. \n \nVui lòng chuyển đến màn hình cài đặt và chọn một nội dung đầu ra khác.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Vui long thanh toan</string>
+    <string name="please_pay_s_s">Vui lòng thanh toán: %1$s %2$s</string>
+    <string name="to_s">Tới: %1$s</string>
+    <string name="txt_network">Phí mạng</string>
+    <string name="txt_please_wait">Vui lòng đợi</string>
+    <string name="error_node_unreachable">Không có nút nào có thể đạt được</string>
+    <string name="invoice_subject">Hóa đơn PalmPay từ %1$s</string>
+    <string name="before_s">Trước: %1$s</string>
+    <string name="share">Chia sẻ</string>
+    <string name="share_with">Chia sẽ với</string>
+    <string name="connecting">Đang kết nối…</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Chọn yêu cầu thanh toán</string>
+    <string name="dialog_msg_select_pending_payment">Đã phát hiện thanh toán đến nhưng không thể tự động được chỉ định cho thanh toán được yêu cầu trước đó. Vui lòng chọn yêu cầu thanh toán chính xác từ danh sách sau.</string>
+    <string name="dialog_msg_confirm_pending_payment">Điều này sẽ liên kết thanh toán đến với yêu cầu thanh toán được ghi lại trước đó là %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Chi tiết thanh toán đến</string>
+    <string name="dialog_generic_title_confirm">Bạn có chắc không?</string>
+    <string name="dialog_generic_msg_confirm">Xin lưu ý rằng hành động này không thể hoàn tác</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Bỏ qua</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Đã xác nhận thanh toán!</string>
+    <string name="txt_cool">MÁT MẺ!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Cài đặt</string>
+    <string name="general">Chung</string>
+    <string name="security">Bảo vệ</string>
+    <string name="backups">Sao lưu</string>
+    <string name="tokens">Mã thông báo</string>
+    <string name="accounts">Tài khoản</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Chế độ ban đêm</string>
+    <string name="currency_info">Đơn vị tiền tệ được chọn tự động dựa trên lựa chọn ngôn ngữ và quốc gia của bạn. Nếu bạn muốn thay đổi chúng, bạn phải đi đến các thiết lập hệ thống toàn cầu của thiết bị của bạn.</string>
+    <string name="screen_saver">Bảo vệ màn hình</string>
+    <string name="source">Nguồn</string>
+    <string name="bitshares_logo">Biểu trưng BitShares</string>
+    <string name="default_folder">Thư mục mặc định (/ PalmPay)</string>
+    <string name="txt_folder">Thư mục</string>
+    <string name="choose">Chọn</string>
+    <string name="screen_saver_time">Bật sau…</string>
+    <string name="one_minute">1 phút</string>
+    <string name="three_minutes">3 phút</string>
+    <string name="five_minutes">5 phút</string>
+    <string name="local_ambassador">Đại sứ địa phương</string>
+    <string name="ambassador_info">Đại sứ PalmPay được trả tiền cứ sau 3 giây. Công việc của họ là hỗ trợ người bán PalmPay địa phương và tổ chức các cuộc gặp gỡ Crypto hàng tháng. Nếu thành phố của bạn không được liệt kê, thì thành phố của bạn chưa có Đại sứ PalmPay. \n \nĐể biết thêm thông tin, hãy truy cập cộng đồng Agorise trên Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Thành phố</string>
+    <string name="country">Quốc gia</string>
+    <string name="bugs_or_ideas">Lỗi hoặc ý tưởng?</string>
+    <string name="bugs_or_ideas_contact_info">Trò chuyện Telegram: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Chấp nhận</string>
+    <string name="select">Lựa chọn</string>
+    <string name="are_you_sure">Bạn có chắc không?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Sao lưu não</string>
+    <string name="copied_to_clipboard">Sao chép vào clipboard</string>
+    <string name="bin_file_description">Tệp Bin. Luôn lưu tệp .bin sao lưu của bạn vào thẻ MicroSD hoặc thẻ nhớ USB bí mật.</string>
+    <string name="create_a_backup">Tạo bản sao lưu</string>
+    <string name="brainkey_description">Brainkey. Các từ khôi phục tài khoản có thể được chụp hoặc sao chép, nhưng không được chỉnh sửa.</string>
+    <string name="txt_brain_key_info">In ra, hoặc viết nó xuống. Bất kỳ ai có quyền truy cập vào khóa khôi phục của bạn sẽ có quyền truy cập vào tiền trong ví này.</string>
+    <string name="view_and_copy">Xem và sao chép</string>
+    <string name="title_bin_backup">Xuất sao lưu .bin</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_password_confirmation">xác nhận mật khẩu</string>
+    <string name="error_password_mandatory">Phải nhập mật khẩu</string>
+    <string name="error_password_too_short">Mật khẩu quá ngắn</string>
+    <string name="error_password_confirmation_mismatch">Mật khẩu và xác nhận không phù hợp</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Tài khoản người bán: %1$s</string>
+    <string name="upgrade_to_ltm">Nâng cấp lên LTM</string>
+    <string name="upgrade_account_description">"Nâng cấp lên thành viên LifeTime (LTM). Tài khoản LTM Bitshares \'trả các khoản phí gần bằng 0, nhận 80% tiền hoàn lại và tiền thưởng cho các giới thiệu."</string>
+    <string name="account_upgrade_title">Nâng cấp tài khoản</string>
+    <string name="account_upgrade_content">Cuộc sống thành viên thời gian cho phép bạn giao dịch với một bộ giảm phí mạng. \n \nNó sẽ có hiệu lực đối với tài khoản hiện tại "%1$s" \n \nTuy nhiên, nó có chi phí khoảng 100 USD được thanh toán bằng Bitshares. \n \nBạn có chắc chắn muốn tiếp tục không?</string>
+    <string name="account_upgrade_wait_content">Giao dịch chứa yêu cầu của bạn đang được mạng xử lý</string>
+    <string name="error_upgrade_account_title">Lỗi khi cố nâng cấp tài khoản</string>
+    <string name="error_upgrade_account_content">Vui lòng đảm bảo tài khoản của bạn có đủ số dư để trang trải chi phí</string>
+    <string name="account_upgraded_title">Đã nâng cấp tài khoản</string>
+    <string name="account_upgraded_content">Xin chúc mừng! tài khoản của bạn hiện đã được nâng cấp lên Tư cách thành viên trọn đời.</string>
+    <string name="remove_account">Xoá tài khoản</string>
+    <string name="remove_account_description">Xóa tài khoản người bán này. Xóa Tài khoản người bán ở trên khỏi thiết bị này và tạo hoặc nhập một tài khoản khác.</string>
+    <string name="txt_account_remove_confirmation">"Bạn có chắc chắn muốn xóa tài khoản \'%1$s\' khỏi ví này không?"</string>
+    <string name="remove">Tẩy</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Smartcoin mong muốn</string>
+    <string name="txt_customer_loyalty">Phát hành điểm khách hàng thân thiết dưới dạng…</string>
+    <string name="warning_insufficient_reward_asset_balance">Tài khoản của bạn chưa sở hữu bất kỳ %1$s nào. Hãy mua một số trước khi bạn cố gắng cung cấp cho bất kỳ khách hàng của bạn là Điểm khách hàng thân thiết.</string>
+    <string name="send">Gửi</string>
+    <string name="txt_for_every">Cho mọi</string>
+    <string name="txt_spent">bỏ ra</string>
+    <string name="txt_bitcoin_altcoin_deposited">Chấp nhận tối đa 8 tiền điện tử:</string>
+    <string name="altcoins_should_not_more_than">Vui lòng chọn không quá 8 nội dung đầu vào</string>
+    <string name="bitshares_unselection_message">Mã thông báo cốt lõi Bitshares (BTS) là bắt buộc.</string>
+    <string name="toast_low_volume_market">Tài sản thị trường khối lượng thấp bị vô hiệu hóa tạm thời. Chúng sẽ được kích hoạt khi khối lượng thị trường tăng lên một lượng đáng kể</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Tên cửa hàng</string>
+    <string name="address">Địa chỉ nhà</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="website">Trang mạng</string>
+    <string name="message">Thông điệp</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Không thể tạo định dạng bin cho khóa</string>
+    <string name="saving_bin_file_to_s">Lưu tệp Bin vào: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Đã lưu thành công tệp Bin thành: %1$s</string>
+    <string name="unable_to_save_bin_file">Không thể lưu tệp bin</string>
+    <string name="creating_backup_file">Tạo tệp sao lưu</string>
+    <string name="fetching_key">Đang tìm nạp khóa</string>
+    <string name="generating_bin_format">Tạo định dạng bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Tìm kiếm</string>
+    <string name="filter">Bộ lọc</string>
+    <string name="export">Xuất khẩu</string>
+    <string name="confirming">Đang xác nhận…</string>
+    <string name="pdf_generated_msg_s">Đã tạo và lưu PDF: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Không thể tạo pdf. Làm ơn hãy thử lại. Lỗi: %1$s</string>
+    <string name="csv_generated_msg_s">CSV được tạo và lưu: %1$s</string>
+    <string name="csv_generated_msg_error_s">Không thể tạo csv. Làm ơn hãy thử lại. Lỗi: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Tất cả các</string>
+    <string name="sent">Gởi</string>
+    <string name="received">Nhận</string>
+    <string name="date_range">Phạm vi ngày</string>
+    <string name="txt_to">đến</string>
+    <string name="cryptocurrency">Tiền điện tử</string>
+    <string name="fiat_amount">Số tiền Fiat</string>
+    <string name="between">Giữa</string>
+    <string name="and">và</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Xuất giao dịch đã lọc</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Tạo sản phẩm xuất khẩu</string>
+    <string name="exported_file_name">PalmPay-Giao dịch</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Từ</string>
+    <string name="to">Đến</string>
+    <string name="memo">Bản ghi nhớ</string>
+    <string name="date">Ngày</string>
+    <string name="time">Thời gian</string>
+    <string name="crypto_amount">Số tiền Crypto</string>
+    <string name="crypto_symbol">Ký hiệu mã hóa</string>
+    <string name="keyed_in_fiat_amount">Số tiền Fiat đã nhập</string>
+    <string name="total_fiat_amount">Tổng số tiền Fiat</string>
+    <string name="fiat_currency">Tiền tệ Fiat</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Mục %1$d</string>
+    <string name="subtotal">Tổng phụ</string>
+    <string name="network_fee">Phí mạng</string>
+    <string name="total">Toàn bộ</string>
+    <string name="paid_s_s">Trả tiền %1$s %2$s</string>
+    <string name="change_due">Thay đổi do</string>
+    <string name="e_receipt_memo_s">Bản ghi nhớ: %1$s</string>
+    <string name="e_receipt_date_s">Ngày: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt từ %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Mã PIN cũ không chính xác</string>
+    <string name="pin_changed_successfully">Đã thay đổi mã PIN thành công</string>
+    <string name="please_enter_pin">Vui lòng nhập số PIN</string>
+    <string name="please_enter_pin_confirmation">Vui lòng nhập xác nhận số PIN của bạn</string>
+    <string name="title_change_pin">Chỉnh sửa mã PIN</string>
+    <string name="txt_current_pin">Số PIN hiện tại</string>
+    <string name="please_enter_old_pin">Vui lòng nhập số PIN cũ</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Lỗi kết nối nút, thử lại</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Chúng tôi nhận được khoản thanh toán đến nhưng không thể tìm thấy yêu cầu nào</string>
+
+</resources>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">licencie</string>
+    <string name="agree">súhlasiť</string>
+    <string name="disagree">nesúhlasiť</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Načítavajú sa aktíva ...</string>
+    <string name="title_loading_asset_type_data">Načítavajú sa údaje o typoch aktív ...</string>
+    <string name="title_assets_ready">Databáza aktív je pripravená</string>
+    <string name="msg_loading_all_existing_assets">Vykonanie série žiadostí s cieľom získať úplný zoznam všetkých existujúcich aktív</string>
+    <string name="msg_loading_asset_type_data">Žiadosť o ďalšie informácie o majetku</string>
+    <string name="msg_loading_asset_in_database">Načítané aktíva %1$d do databázy</string>
+    <string name="msg_assets_loaded">Potom nastavte svoj účet ...</string>
+    <string name="error_fetching_marketcap_data">Nepodarilo sa načítať údaje marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Vytvoriť účet</string>
+    <string name="txt_account_name">Názov účtu BitShares</string>
+    <string name="unable_to_find_account_id">Nepodarilo sa nájsť id používateľského konta</string>
+    <string name="error_invalid_account_name_explanation">Názov účtu musí mať viac ako 8 znakov, obsahuje číslo alebo nemá samohlásky. Podčiarkovný znak nie je povolený.</string>
+    <string name="create">vytvoriť</string>
+    <string name="error">Chyba</string>
+    <string name="account_name_already_exist">Názov účtu už existuje</string>
+    <string name="try_again">Skúste to znova po 5 minútach</string>
+    <string name="txt_new_pin_confirmation">Potvrďte nový kód PIN (6 a viac číslic)</string>
+    <string name="error_wif">Chyba pri vytváraní kľúča WIF</string>
+    <string name="error_faucet_template">Kohúta vrátila chybu. Msg: %1$s</string>
+    <string name="error_read_dict_file">Chyba pri čítaní súboru slovníka</string>
+    <string name="error_missing_account">Aplikácia nemohla načítať informácie o novovytvorenom účte</string>
+    <string name="create_account_title">Vytvorenie nového účtu</string>
+    <string name="create_account_message">Počkajte, kým sa váš účet vytvorí</string>
+    <string name="error_faucet_explanation">Server vrátil chybu. Môže to byť spôsobené obmedzením účelne nastaveným na zablokovanie častých požiadaviek pochádzajúcich z rovnakej adresy IP v krátkom čase. Počkajte prosím 5 minút a skúste to znova alebo prepnite na inú sieť, napríklad z wifi do bunky.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Pred pokračovaním sa uistite, že zálohujete brainkey. To vám umožní obnoviť svoj účet v prípade, že sa niečo stane s týmto zariadením.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Ako by ste chceli importovať existujúci účet?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">Kľúč WIF</string>
+    <string name="bin_file">.bin súbor</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Vyberte kód PIN 6 a viac čísel</string>
+    <string name="txt_6_digits_pin_confirm">6 + číslic PIN potvrdenie</string>
+    <string name="please_enter_6_digit_pin">Zadajte 6-ciferný kód PIN</string>
+    <string name="please_enter_6_digit_pin_confirm">Zadajte potvrdenie svojho PIN kódu</string>
+    <string name="mismatch_pin">Nesúladový kolík</string>
+    <string name="please_enter_brainkey">Prosím vložte brainkey</string>
+    <string name="please_enter_correct_brainkey">Zadajte správny brainkey, mal by mať medzi 12 a 16 slovami.</string>
+    <string name="unable_to_load_brainkey">Nepodarilo sa načítať brainkey</string>
+    <string name="account_already_exist">Účet už existuje</string>
+    <string name="importing_your_wallet">Importovanie peňaženky ...</string>
+    <string name="account_candidates_title">Vyberte účet</string>
+    <string name="account_candidates_content">Kľúče odvodené z tohto Brainkey sa zdajú byť použité na ovládanie viacerých účtov, vyberte prosím účet, ktorý chcete importovať</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Importovanie súboru .bin</string>
+    <string name="import_backup">Importovať zálohu z súboru .bin</string>
+    <string name="txt_no_internet_connection">Žiadne internetové pripojenie</string>
+    <string name="no_file_chosen">Žiaden súbor nie je vybraný</string>
+    <string name="choose_backup">Vyberte položku Zálohovanie</string>
+    <string name="choose_file">Vyberte súbor</string>
+    <string name="txt_existing_password">Aktuálny súbor .bin Heslo alebo kód PIN</string>
+    <string name="txt_new_pin">Nový PIN (6 a viac číslic)</string>
+    <string name="importing_keys_from_bin_file">"Import kľúčov z priečinka Bin"</string>
+    <string name="please_make_sure_your_bin_file">Uistite sa, že váš kolík je správny alebo je vybratý správny priečinok</string>
+    <string name="missing_existing_password">Zadajte heslo používané na šifrovanie tohto záložného súboru</string>
+    <string name="pin_number_request">Zadajte číslo PIN používané na zakódovanie tohto záložného súboru</string>
+    <string name="pin_number_warning">Číslo PIN musí mať aspoň 6 číslic</string>
+    <string name="backup_error_no_key_reference_found">Nepodarilo sa nájsť žiadny účet pomocou tohto kľúča, uistite sa, že používate aktualizovaný súbor zálohy.</string>
+    <string name="backup_error_no_wallet_backup">V tomto súbore nie je možné nájsť zálohu peňaženky</string>
+    <string name="error_invalid_account">Neplatný účet, skontrolujte kľúč mozgu pre chyby pri písaní</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">import</string>
+    <string name="title_account_load_result">Účet bol načítaný</string>
+    <string name="button_change_account">zmena</string>
+    <string name="title_select_input_assets">Vyberte aktíva, ktoré chcete prijať.</string>
+    <string name="explanation_account_setup">Pre príjem platieb budete musieť nastaviť účet Bitshares. Alebo ak už máte jednu, môžete to sem importovať.</string>
+    <string name="explanation_output_asset">Vyberte požadovanú funkciu Smartcoin:</string>
+    <string name="next">Ďalšie</string>
+    <string name="done">hotový</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Platiť s</string>
+    <string name="error_corrupted_key_title">Kľúčová chyba korupcie</string>
+    <string name="error_corrupted_key_content">Aplikácia nedokáže obnoviť šifrované súkromné ​​kľúče z databázy. Z tohto dôvodu budete musieť znova zadať svoje kľúče. Buď vo forme brainkeyu alebo v podobe záložného súboru s priečinkami, ktorý bol vygenerovaný a uložený automaticky vo vašom sdcard, ak bol účet vytvorený aplikáciou</string>
+    <string name="invalid_pin">Neplatný kód PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Domov</string>
+    <string name="txt_transactions">transakcie</string>
+    <string name="txt_refunds_returns">Náhrady / Vrátenie</string>
+    <string name="txt_settlement">osídlenie</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares uzly</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Dlžná suma</string>
+    <string name="sub_total">Sub-Total:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">,</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Chyba objednávky</string>
+    <string name="content_error_market">Neexistujú žiadne objednávky v DEX, ktoré by nám umožnili vykonať výmenu na %1$s v tejto chvíli. \n \nProč prejdite na obrazovku s nastaveniami a vyberte iný výstupný prvok.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Plaťte prosím</string>
+    <string name="please_pay_s_s">Plaťte prosím: %1$s %2$s</string>
+    <string name="to_s">Komu: %1$s</string>
+    <string name="txt_network">Sieťový poplatok</string>
+    <string name="txt_please_wait">Prosím čakajte</string>
+    <string name="error_node_unreachable">Nedá sa dosiahnuť uzol</string>
+    <string name="invoice_subject">Faktúra PalmPay od %1$s</string>
+    <string name="before_s">Pred: %1$s</string>
+    <string name="share">zdieľam</string>
+    <string name="share_with">Zdieľať s</string>
+    <string name="connecting">Pripájanie ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Vyberte žiadosť o platbu</string>
+    <string name="dialog_msg_select_pending_payment">Prijatá platba bola zistená, ale nemohla byť automaticky priradená k predtým požadovanej platbe. Vyberte prosím správnu žiadosť o platbu z nasledujúceho zoznamu.</string>
+    <string name="dialog_msg_confirm_pending_payment">Toto prepojenie prichádzajúcej platby so žiadosťou o platbu %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Prichádzajúce údaje o platbe</string>
+    <string name="dialog_generic_title_confirm">Si si istý?</string>
+    <string name="dialog_generic_msg_confirm">Upozorňujeme, že táto akcia sa nedá vrátiť späť</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">zamietnuť</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Platba potvrdená!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">nastavenie</string>
+    <string name="general">všeobecný</string>
+    <string name="security">zabezpečenia</string>
+    <string name="backups">zálohy</string>
+    <string name="tokens">žetóny</string>
+    <string name="accounts">účty</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Nočný mód</string>
+    <string name="currency_info">Mena sa automaticky vyberie na základe výberu jazyka a krajiny. Ak ich chcete zmeniť, musíte prejsť na globálne nastavenia systému vášho zariadenia.</string>
+    <string name="screen_saver">Šetrič obrazovky</string>
+    <string name="source">zdroj</string>
+    <string name="bitshares_logo">Logo BitShares</string>
+    <string name="default_folder">Predvolený priečinok (/ PalmPay)</string>
+    <string name="txt_folder">zložka</string>
+    <string name="choose">zvoliť</string>
+    <string name="screen_saver_time">Povoliť po ...</string>
+    <string name="one_minute">1 minúta</string>
+    <string name="three_minutes">3 minúty</string>
+    <string name="five_minutes">5 minút</string>
+    <string name="local_ambassador">Miestny veľvyslanec</string>
+    <string name="ambassador_info">Veľvyslanci spoločnosti PalmPay sa zaplatia každé 3 sekundy. Ich úlohou je podporovať miestnych obchodníkov PalmPay a organizovať mesačné Crypto Meetups. Ak vaše mesto nie je uvedené, vaše mesto ešte nemá veľvyslanca PalmPay. \n \nPre viac informácií navštívte komunitu Agorise na Telegrame: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">veľkomesto</string>
+    <string name="country">Krajina</string>
+    <string name="bugs_or_ideas">Chyby alebo nápady?</string>
+    <string name="bugs_or_ideas_contact_info">Telegramový rozhovor: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">súhlasiť</string>
+    <string name="select">vybrať</string>
+    <string name="are_you_sure">Si si istý?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Zálohovanie brainkey</string>
+    <string name="copied_to_clipboard">Skopírovať do schránky</string>
+    <string name="bin_file_description">Súbor bin. Záložný súbor .bin vždy uložte na tajnú kartu MicroSD alebo na USB kľúč.</string>
+    <string name="create_a_backup">Vytvorte zálohu</string>
+    <string name="brainkey_description">Brainkey. Slová na obnovenie účtu, ktoré je možné zachytiť alebo skopírovať, ale nie upraviť.</string>
+    <string name="txt_brain_key_info">Vytlačte ho alebo ho zapíšte. Ktokoľvek, kto má prístup k kľúču na obnovenie, bude mať prístup k prostriedkom v tejto peňaženke.</string>
+    <string name="view_and_copy"><![CDATA[Zobraziť & Kopírovať]]></string>
+    <string name="title_bin_backup">Export zálohy .bin</string>
+    <string name="hint_password">heslo</string>
+    <string name="hint_password_confirmation">potvrdenie hesla</string>
+    <string name="error_password_mandatory">Musíte zadať heslo</string>
+    <string name="error_password_too_short">Heslo je príliš krátke</string>
+    <string name="error_password_confirmation_mismatch">Heslo a nesúlad s potvrdením</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Účet obchodníka: %1$s</string>
+    <string name="upgrade_to_ltm">Inovujte na LTM</string>
+    <string name="upgrade_account_description">"Upgrade na členstvo LifeTime (LTM)." Účty spoločnosti Bitshares "LTM platia takmer nulové poplatky, získajú 80% vrátenie peňazí a bonusy na sprostredkovanie."</string>
+    <string name="account_upgrade_title">Upgradovať účet</string>
+    <string name="account_upgrade_content">Členstvo v Životnom období vám umožňuje obchodovať so zníženou sadzbou sieťových poplatkov. \n \nUplatí sa na bežný účet "%1$s" \n \nVšak prichádza s nákladmi okolo 100 USD zaplatené v Bitshares. \n \nSpo si istý, že chcete pokračovať?</string>
+    <string name="account_upgrade_wait_content">Transakciu obsahujúcu vašu požiadavku spracováva sieť</string>
+    <string name="error_upgrade_account_title">Pri pokuse o inováciu účtu došlo k chybe</string>
+    <string name="error_upgrade_account_content">Uistite sa, že váš účet má dostatočný zostatok na pokrytie nákladov</string>
+    <string name="account_upgraded_title">Účet bol inovovaný</string>
+    <string name="account_upgraded_content">Blahoželáme! Váš účet bol teraz inovovaný na Lifetime Membership.</string>
+    <string name="remove_account">Odstrániť účet</string>
+    <string name="remove_account_description">Odstráňte tento účet obchodníka. Z tohto zariadenia odstráňte účet obchodníka a vytvorte alebo importujte iný.</string>
+    <string name="txt_account_remove_confirmation">"Naozaj chcete odstrániť účet" %1$s "z tejto peňaženky?"</string>
+    <string name="remove">odstrániť</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Požadovaná funkcia Smartcoin</string>
+    <string name="txt_customer_loyalty">Vydanie vernostných bodov ako ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Váš účet ešte nevlastní %1$s. Predtým, ako sa pokúsite dať svojim zákazníkom ako vernostné body, získate niektoré.</string>
+    <string name="send">odoslať</string>
+    <string name="txt_for_every">Pre každého</string>
+    <string name="txt_spent">strávil</string>
+    <string name="txt_bitcoin_altcoin_deposited">Akceptovať až 8 kryptotriežok:</string>
+    <string name="altcoins_should_not_more_than">Vyberte prosím maximálne 8 vstupných aktív</string>
+    <string name="bitshares_unselection_message">Požaduje sa token Bitshares (BTS).</string>
+    <string name="toast_low_volume_market">Trhové aktíva s nízkym objemom sú dočasne zakázané. Budú umožnené, keď sa objem trhu zvýši na značnú sumu</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">logo</string>
+    <string name="store_name">Názov obchodu</string>
+    <string name="address">adresa</string>
+    <string name="phone_number">Telefónne číslo</string>
+    <string name="website">webové stránky</string>
+    <string name="message">správa</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Nie je možné vytvoriť formát kôp pre kľúč</string>
+    <string name="saving_bin_file_to_s">Uloženie súboru s priečinkom na: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Súbor Bin bol úspešne uložený na: %1$s</string>
+    <string name="unable_to_save_bin_file">Nepodarilo sa uložiť súbor s priečinkom</string>
+    <string name="creating_backup_file">Vytváranie zálohovacieho súboru</string>
+    <string name="fetching_key">Načítanie kľúča</string>
+    <string name="generating_bin_format">Generovanie formátu zásobníka</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Vyhľadávanie</string>
+    <string name="filter">filter</string>
+    <string name="export">Export</string>
+    <string name="confirming">Potvrdzujúci ...</string>
+    <string name="pdf_generated_msg_s">Vytvorené a uložené PDF: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Nemožno generovať pdf. Skúste to znova. Chyba: %1$s</string>
+    <string name="csv_generated_msg_s">Vytvorený a uložený súbor CSV: %1$s</string>
+    <string name="csv_generated_msg_error_s">Nepodarilo sa generovať csv. Skúste to znova. Chyba: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">všetko</string>
+    <string name="sent">odoslané</string>
+    <string name="received">obdržané</string>
+    <string name="date_range">Rozsah dátumov</string>
+    <string name="txt_to">na</string>
+    <string name="cryptocurrency">kryptomena</string>
+    <string name="fiat_amount">Fiat suma</string>
+    <string name="between">medzi</string>
+    <string name="and">a</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Export filtrované transakcie</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Generovanie exportovaného produktu</string>
+    <string name="exported_file_name">PalmPay-Transactions</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">z</string>
+    <string name="to">na</string>
+    <string name="memo">memorandum</string>
+    <string name="date">dátum</string>
+    <string name="time">čas</string>
+    <string name="crypto_amount">Crypto Suma</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Zadaná suma Fiatu</string>
+    <string name="total_fiat_amount">Celková suma Fiatu</string>
+    <string name="fiat_currency">Fiat Mena</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Položka %1$d</string>
+    <string name="subtotal">Sub-Total</string>
+    <string name="network_fee">Sieťový poplatok</string>
+    <string name="total">totálnej</string>
+    <string name="paid_s_s">Platené %1$s %2$s</string>
+    <string name="change_due">Zmeniť do</string>
+    <string name="e_receipt_memo_s">Poznámka: %1$s</string>
+    <string name="e_receipt_date_s">Dátum: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt z %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Nesprávny starý kód PIN</string>
+    <string name="pin_changed_successfully">PIN sa úspešne zmenil</string>
+    <string name="please_enter_pin">Zadajte číslo PIN</string>
+    <string name="please_enter_pin_confirmation">Zadajte svoje potvrdenie o čísle PIN</string>
+    <string name="title_change_pin">Upraviť kód PIN</string>
+    <string name="txt_current_pin">Aktuálne číslo PIN</string>
+    <string name="please_enter_old_pin">Zadajte staré číslo PIN</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Chyba spojenia uzla, opakovanie</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Prijali sme prichádzajúcu platbu, ale žiadna žiadosť sa nenašla</string>
+
+</resources>

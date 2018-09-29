@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">执照</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">加载资产......</string>
+    <string name="title_loading_asset_type_data">正在加载资产类型数据</string>
+    <string name="title_assets_ready">资产数据库就绪</string>
+    <string name="msg_loading_all_existing_assets">执行一系列请求以获取所有现有资产的完​​整列表</string>
+    <string name="msg_loading_asset_type_data">请求进一步的资产详情</string>
+    <string name="msg_loading_asset_in_database">将%1$d资源加载到数据库中</string>
+    <string name="msg_assets_loaded">接下来，请设置您的帐户...</string>
+    <string name="error_fetching_marketcap_data">无法加载市场数据</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">创建帐号</string>
+    <string name="txt_account_name">BitShares帐户名称</string>
+    <string name="unable_to_find_account_id">无法找到用户帐户ID</string>
+    <string name="error_invalid_account_name_explanation">帐户名称必须包含8个以上的字符，包含数字或没有元音。下划线字符也是不允许的。</string>
+    <string name="create">创建</string>
+    <string name="error">错误</string>
+    <string name="account_name_already_exist">帐户名已存在</string>
+    <string name="try_again">请在5分钟后再试一次</string>
+    <string name="txt_new_pin_confirmation">确认新PIN码（6位以上）</string>
+    <string name="error_wif">创建WIF密钥时出错</string>
+    <string name="error_faucet_template">水龙头返回错误。消息：%1$s</string>
+    <string name="error_read_dict_file">读取字典文件时出错</string>
+    <string name="error_missing_account">该应用无法检索有关新创建的帐户的信息</string>
+    <string name="create_account_title">创建新帐户</string>
+    <string name="create_account_message">您的帐户已创建，请稍候</string>
+    <string name="error_faucet_explanation">服务器返回错误。这可能是由于有目的地设置限制以禁止在短时间内来自同一IP地址的频繁请求。请等待5分钟再试一次，或切换到其他网络，例如从wifi到手机。</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">在继续操作之前，请确保备份你的脑钥匙。这将允许您恢复您的帐户，以防此设备发生任何事情。</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">您想如何导入现有帐户？</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF密钥</string>
+    <string name="bin_file">.bin文件</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">选择6位以上的PIN码</string>
+    <string name="txt_6_digits_pin_confirm">6位数的PIN确认</string>
+    <string name="please_enter_6_digit_pin">请输入6位数的PIN码</string>
+    <string name="please_enter_6_digit_pin_confirm">请输入您的PIN号码确认</string>
+    <string name="mismatch_pin">不匹配引脚</string>
+    <string name="please_enter_brainkey">请输入brainkey</string>
+    <string name="please_enter_correct_brainkey">请输入正确的brainkey，它应该有12到16个单词。</string>
+    <string name="unable_to_load_brainkey">无法加载brainkey</string>
+    <string name="account_already_exist">帐户已存在</string>
+    <string name="importing_your_wallet">导入你的钱包......</string>
+    <string name="account_candidates_title">请选择一个帐户</string>
+    <string name="account_candidates_content">从此Brainkey派生的密钥似乎用于控制多个帐户，请选择您要导入的帐户</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">导入.bin文件</string>
+    <string name="import_backup">从.bin文件导入备份</string>
+    <string name="txt_no_internet_connection">没有网络连接</string>
+    <string name="no_file_chosen">没有选中任何文件</string>
+    <string name="choose_backup">选择备份</string>
+    <string name="choose_file">选择文件</string>
+    <string name="txt_existing_password">当前.bin文件密码或PIN</string>
+    <string name="txt_new_pin">新PIN码（6位数）</string>
+    <string name="importing_keys_from_bin_file">“从Bin文件导入密钥”</string>
+    <string name="please_make_sure_your_bin_file">请确保您的引脚正确或选择了正确的bin文件</string>
+    <string name="missing_existing_password">请输入用于加密此备份文件的密码</string>
+    <string name="pin_number_request">请输入用于编码此备份文件的密码</string>
+    <string name="pin_number_warning">引脚号必须至少为6位数</string>
+    <string name="backup_error_no_key_reference_found">未找到使用此密钥的帐户，请确保您使用的是更新的备份文件。</string>
+    <string name="backup_error_no_wallet_backup">此文件中找不到钱包备份</string>
+    <string name="error_invalid_account">帐号无效，请检查您的大脑密钥是否输入错误</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">进口</string>
+    <string name="title_account_load_result">帐户已加载</string>
+    <string name="button_change_account">更改</string>
+    <string name="title_select_input_assets">选择要接受的资产。</string>
+    <string name="explanation_account_setup">您需要设置Bitshares帐户才能接收付款。或者，如果您已经有一个，可以在此处导入。</string>
+    <string name="explanation_output_asset">选择您想要的Smartcoin：</string>
+    <string name="next">下一个</string>
+    <string name="done">完成</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">使用。。。支付</string>
+    <string name="error_corrupted_key_title">密钥损坏错误</string>
+    <string name="error_corrupted_key_content">该应用无法从数据库中恢复加密的私钥。因此，您需要再次输入密钥。如果帐户是由应用程序创建的，则以脑键的形式或形成自动生成并存储在SD卡中的bin备份文件</string>
+    <string name="invalid_pin">PIN码无效</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">家</string>
+    <string name="txt_transactions">交易</string>
+    <string name="txt_refunds_returns">退款/退货</string>
+    <string name="txt_settlement">沉降</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares节点</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">到期金额</string>
+    <string name="sub_total">小计：</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">。</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">五</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">订单簿错误</string>
+    <string name="content_error_market">DEX中没有任何订单可以让我们暂时执行%1$s交换。 \n \n请转到设置屏幕并选择其他输出资产。</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">请付款</string>
+    <string name="please_pay_s_s">请付款：%1$s %2$s</string>
+    <string name="to_s">致：%1$s</string>
+    <string name="txt_network">网络费</string>
+    <string name="txt_please_wait">请稍候</string>
+    <string name="error_node_unreachable">无法访问任何节点</string>
+    <string name="invoice_subject">来自%1$s的PalmPay发票</string>
+    <string name="before_s">之前：%1$s</string>
+    <string name="share">分享</string>
+    <string name="share_with">与某人分享</string>
+    <string name="connecting">连接...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">选择付款申请</string>
+    <string name="dialog_msg_select_pending_payment">检测到收款，但无法自动分配给先前请求的付款。请从以下列表中选择正确的付款申请。</string>
+    <string name="dialog_msg_confirm_pending_payment">这会将收款与以前记录的%1$s的付款请求相关联</string>
+    <string name="dialog_msg_incoming_payment_details">收款详情</string>
+    <string name="dialog_generic_title_confirm">你确定？</string>
+    <string name="dialog_generic_msg_confirm">请注意，此操作无法撤消</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">解雇</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">付款确认成功！</string>
+    <string name="txt_cool">凉！</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">设置</string>
+    <string name="general">一般</string>
+    <string name="security">安全</string>
+    <string name="backups">备份</string>
+    <string name="tokens">令牌</string>
+    <string name="accounts">帐号</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">夜间模式</string>
+    <string name="currency_info">系统会根据您的语言和国家/地区选择自动选择货币。如果要更改这些，则必须转到设备的全局系统设置。</string>
+    <string name="screen_saver">屏幕保护</string>
+    <string name="source">资源</string>
+    <string name="bitshares_logo">BitShares徽标</string>
+    <string name="default_folder">默认文件夹（/ PalmPay）</string>
+    <string name="txt_folder">夹</string>
+    <string name="choose">选择</string>
+    <string name="screen_saver_time">启用后......</string>
+    <string name="one_minute">1分钟</string>
+    <string name="three_minutes">3分钟</string>
+    <string name="five_minutes">5分钟</string>
+    <string name="local_ambassador">当地大使</string>
+    <string name="ambassador_info">PalmPay大使每3秒获得一次报酬。他们的工作是支持当地的PalmPay商家，并组织每月的Crypto Meetups。如果您的城市没有列出，那么您的城市还没有PalmPay大使。 \n \n欲了解更多信息，请访问电报上的Agorise社区：\n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">市</string>
+    <string name="country">国家</string>
+    <string name="bugs_or_ideas">错误或想法？</string>
+    <string name="bugs_or_ideas_contact_info">电报聊天：http：//t.me/Agorise \nEmail：Agorise@protonmail.ch</string>
+    <string name="accept">接受</string>
+    <string name="select">选择</string>
+    <string name="are_you_sure">你确定？</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">备份brainkey</string>
+    <string name="copied_to_clipboard">复制到剪贴板</string>
+    <string name="bin_file_description">Bin文件。始终将备份.bin文件保存到密码MicroSD卡或USB记忆棒。</string>
+    <string name="create_a_backup">创建备份</string>
+    <string name="brainkey_description">Brainkey。帐户恢复单词，可以捕获或复制，但不能编辑。</string>
+    <string name="txt_brain_key_info">打印出来，或写下来。有权访问您的恢复密钥的任何人都可以访问此钱包中的资金。</string>
+    <string name="view_and_copy">查看和复制</string>
+    <string name="title_bin_backup">导出.bin备份</string>
+    <string name="hint_password">密码</string>
+    <string name="hint_password_confirmation">确认密码</string>
+    <string name="error_password_mandatory">必须输入密码</string>
+    <string name="error_password_too_short">密码太短</string>
+    <string name="error_password_confirmation_mismatch">密码和确认不匹配</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">商家帐户：%1$s</string>
+    <string name="upgrade_to_ltm">升级到LTM</string>
+    <string name="upgrade_account_description">“升级到终身会员资格（LTM）.Bitshares的LTM账户支付接近零的费用，获得80％的现金返还和转介奖金。”</string>
+    <string name="account_upgrade_title">升级帐户</string>
+    <string name="account_upgrade_content">终身会员资格允许您使用减少的网络费用进行交易。 \n \n它将对当前帐户生效“%1$s”\n \n但是在Bitshares支付的费用大约为100美元。 \n \n你确定要继续吗？</string>
+    <string name="account_upgrade_wait_content">包含您的请求的事务正在由网络处理</string>
+    <string name="error_upgrade_account_title">尝试升级帐户时出错</string>
+    <string name="error_upgrade_account_content">请确保您的帐户有足够的余额来支付费用</string>
+    <string name="account_upgraded_title">帐户已升级</string>
+    <string name="account_upgraded_content">恭喜！您的帐户现已升级为终身会员资格。</string>
+    <string name="remove_account">删除帐户</string>
+    <string name="remove_account_description">删除此商家帐户。从此设备中删除上面的商家帐户，然后创建或导入其他帐户。</string>
+    <string name="txt_account_remove_confirmation">“你确定要从这个钱包中删除\'%1$s\'帐户吗？”</string>
+    <string name="remove">去掉</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">期望的Smartcoin</string>
+    <string name="txt_customer_loyalty">将忠诚度积分发布为......</string>
+    <string name="warning_insufficient_reward_asset_balance">您的帐户尚未拥有任何%1$s。在您尝试向客户提供忠诚积分之前，请先购买一些。</string>
+    <string name="send">发送</string>
+    <string name="txt_for_every">每一个</string>
+    <string name="txt_spent">花费</string>
+    <string name="txt_bitcoin_altcoin_deposited">接受最多8个加密币：</string>
+    <string name="altcoins_should_not_more_than">请选择不超过8个输入资产</string>
+    <string name="bitshares_unselection_message">Bitshares（BTS）核心令牌是必需的。</string>
+    <string name="toast_low_volume_market">小批量市场资产暂时被禁用。一旦市场量上升到相当大的数量，它们就会启用</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">商标</string>
+    <string name="store_name">商店名称</string>
+    <string name="address">地址</string>
+    <string name="phone_number">电话号码</string>
+    <string name="website">网站</string>
+    <string name="message">信息</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">无法生成密钥的bin格式</string>
+    <string name="saving_bin_file_to_s">将Bin文件保存到：%1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin文件已成功保存到：%1$s</string>
+    <string name="unable_to_save_bin_file">无法保存bin文件</string>
+    <string name="creating_backup_file">创建备份文件</string>
+    <string name="fetching_key">取得钥匙</string>
+    <string name="generating_bin_format">生成bin格式</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">搜索</string>
+    <string name="filter">过滤</string>
+    <string name="export">出口</string>
+    <string name="confirming">确认...</string>
+    <string name="pdf_generated_msg_s">生成并保存PDF：%1$s</string>
+    <string name="pdf_generated_msg_error_s">无法生成pdf。请重试。错误：%1$s</string>
+    <string name="csv_generated_msg_s">生成并保存CSV：%1$s</string>
+    <string name="csv_generated_msg_error_s">无法生成csv。请重试。错误：%1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">所有</string>
+    <string name="sent">发送</string>
+    <string name="received">收到</string>
+    <string name="date_range">日期范围</string>
+    <string name="txt_to">至</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">菲亚特数量</string>
+    <string name="between">之间</string>
+    <string name="and">和</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">导出已过滤的交易</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">生成出口产品</string>
+    <string name="exported_file_name">掌付，交易</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">从</string>
+    <string name="to">至</string>
+    <string name="memo">备忘录</string>
+    <string name="date">日期</string>
+    <string name="time">时间</string>
+    <string name="crypto_amount">加密金额</string>
+    <string name="crypto_symbol">加密符号</string>
+    <string name="keyed_in_fiat_amount">键入菲亚特金额</string>
+    <string name="total_fiat_amount">菲亚特总金额</string>
+    <string name="fiat_currency">菲亚特货币</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">项目%1$d</string>
+    <string name="subtotal">小计</string>
+    <string name="network_fee">网络费</string>
+    <string name="total">总</string>
+    <string name="paid_s_s">付了%1$s %2$s</string>
+    <string name="change_due">变更到期</string>
+    <string name="e_receipt_memo_s">备注：%1$s</string>
+    <string name="e_receipt_date_s">日期：%1$s</string>
+    <string name="e_receipt_tx_s">Tx：%1$s</string>
+    <string name="e_receipt_subject">来自%1$s的PalmPay eReceipt</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">旧PIN不正确</string>
+    <string name="pin_changed_successfully">PIN已成功更改</string>
+    <string name="please_enter_pin">请输入密码</string>
+    <string name="please_enter_pin_confirmation">请输入您的PIN码确认</string>
+    <string name="title_change_pin">编辑PIN码</string>
+    <string name="txt_current_pin">当前的PIN码</string>
+    <string name="please_enter_old_pin">请输入旧的PIN码</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">节点连接错误，正在重试</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">我们收到了付款，但没有找到任何请求</string>
+
+</resources>

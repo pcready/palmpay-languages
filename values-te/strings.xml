@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">లైసెన్సు</string>
+    <string name="agree">అంగీకరిస్తున్నారు</string>
+    <string name="disagree">విభేదిస్తున్నారు</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">ఆస్తులను లోడ్ చేస్తోంది ...</string>
+    <string name="title_loading_asset_type_data">ఆస్తి రకం డేటాను లోడ్ చేస్తోంది ...</string>
+    <string name="title_assets_ready">ఆస్తి డేటాబేస్ సిద్ధంగా ఉంది</string>
+    <string name="msg_loading_all_existing_assets">అన్ని ప్రస్తుత ఆస్తుల పూర్తి జాబితాను పొందడానికి వరుసల వరుసలను నిర్వహిస్తుంది</string>
+    <string name="msg_loading_asset_type_data">మరిన్ని ఆస్తి వివరాలను అభ్యర్థిస్తుంది</string>
+    <string name="msg_loading_asset_in_database">డేటాబేస్లో లోడ్ అయిన %1$d ఆస్తులు</string>
+    <string name="msg_assets_loaded">తరువాత, దయచేసి మీ ఖాతాను సెటప్ చేయండి ...</string>
+    <string name="error_fetching_marketcap_data">మార్కెట్ డేటాను లోడ్ చేయలేకపోయింది</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">ఖాతాను సృష్టించండి</string>
+    <string name="txt_account_name">BitShares ఖాతా పేరు</string>
+    <string name="unable_to_find_account_id">వినియోగదారు ఖాతా ఐడిని కనుగొనడం సాధ్యపడలేదు</string>
+    <string name="error_invalid_account_name_explanation">ఖాతా పేరు 8 అక్షరాల కంటే ఎక్కువ ఉంటుంది, సంఖ్యను కలిగి ఉంటుంది లేదా అచ్చులు లేవు. అండర్ స్కోర్ కూడా అనుమతించబడదు.</string>
+    <string name="create">సృష్టించు</string>
+    <string name="error">లోపం</string>
+    <string name="account_name_already_exist">ఖాతా పేరు ఇప్పటికే ఉనికిలో ఉంది</string>
+    <string name="try_again">దయచేసి 5 నిమిషాల తర్వాత మళ్లీ ప్రయత్నించండి</string>
+    <string name="txt_new_pin_confirmation">క్రొత్త పిన్ను నిర్ధారించండి (6+ అంకెలు)</string>
+    <string name="error_wif">WIF కీని సృష్టించడంలో లోపం</string>
+    <string name="error_faucet_template">పీపాలో నుంచి నీళ్లు బయిటికి రావడమునకు వేసివుండే చిన్న గొట్టము ఒక లోపం తిరిగి Msg: %1$s</string>
+    <string name="error_read_dict_file">నిఘంటువు ఫైల్ను చదవడంలో లోపం</string>
+    <string name="error_missing_account">అనువర్తనం కొత్తగా సృష్టించిన ఖాతా గురించి సమాచారాన్ని తిరిగి పొందలేకపోయింది</string>
+    <string name="create_account_title">క్రొత్త ఖాతాని సృష్టించడం</string>
+    <string name="create_account_message">దయచేసి మీ ఖాతా సృష్టించబడినప్పుడు వేచి ఉండండి</string>
+    <string name="error_faucet_explanation">సర్వర్ లోపం ఏర్పడింది. కొంత సమయం లో అదే IP చిరునామా నుండి వచ్చే తరచుగా అభ్యర్థనలను అనుమతించకుండా ఉండటానికి ఉద్దేశపూర్వకంగా సెట్ చేయబడిన పరిమితికి ఇది కారణం కావచ్చు. దయచేసి 5 నిమిషాలు వేచి ఉండి, మళ్లీ ప్రయత్నించండి లేదా మరొక నెట్వర్క్కి మారండి, ఉదాహరణకి wifi నుండి సెల్ వరకు.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">దయచేసి కొనసాగడానికి ముందు మీరు మీ బ్రైనిక్ను బ్యాకప్ చేస్తున్నారని నిర్ధారించుకోండి. ఈ పరికరానికి ఏదైనా జరిగితే మీ ఖాతాను పునరుద్ధరించడానికి ఇది మిమ్మల్ని అనుమతిస్తుంది.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">మీ ప్రస్తుత ఖాతాను మీరు దిగుమతి చేయాలనుకుంటున్నారా?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF కీ</string>
+    <string name="bin_file">.బిన్ ఫైల్</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">6+ అంకెల PIN ను ఎంచుకోండి</string>
+    <string name="txt_6_digits_pin_confirm">6+ అంకెలు PIN నిర్ధారణ</string>
+    <string name="please_enter_6_digit_pin">దయచేసి 6-అంకెల PIN ని నమోదు చేయండి</string>
+    <string name="please_enter_6_digit_pin_confirm">దయచేసి మీ పిన్ నంబర్ యొక్క నిర్ధారణను నమోదు చేయండి</string>
+    <string name="mismatch_pin">సరిపోలని పిన్</string>
+    <string name="please_enter_brainkey">దయచేసి బ్రైన్నికే ఎంటర్ చేయండి</string>
+    <string name="please_enter_correct_brainkey">దయచేసి సరైన brainkey ఎంటర్, అది 12 మరియు 16 పదాలు మధ్య ఉండాలి.</string>
+    <string name="unable_to_load_brainkey">Brainkey లోడ్ చేయలేకపోయింది</string>
+    <string name="account_already_exist">ఖాతా ఇప్పటికే ఉనికిలో ఉంది</string>
+    <string name="importing_your_wallet">మీ జేబును దిగుమతి చేస్తోంది ...</string>
+    <string name="account_candidates_title">దయచేసి ఒక ఖాతాను ఎంచుకోండి</string>
+    <string name="account_candidates_content">ఈ బ్రైన్నికే నుండి తీసుకున్న కీలు ఒకటి కంటే ఎక్కువ ఖాతాలను నియంత్రించడానికి ఉపయోగించబడుతున్నాయి, దయచేసి మీరు దిగుమతి చేయదలిచిన ఖాతాని ఎంచుకోండి</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">దిగుమతి .బిన్ ఫైల్</string>
+    <string name="import_backup">.Bin ఫైల్ నుండి బ్యాకప్ దిగుమతి చేయండి</string>
+    <string name="txt_no_internet_connection">ఇంటర్నెట్ కనెక్షన్ లేదు</string>
+    <string name="no_file_chosen">ఫైల్ ఎంపిక చెయ్యలేదు</string>
+    <string name="choose_backup">బ్యాకప్ను ఎంచుకోండి</string>
+    <string name="choose_file">ఫైల్ను ఎంచుకోండి</string>
+    <string name="txt_existing_password">ప్రస్తుత. పిన్ ఫైల్ పాస్వర్డ్ లేదా పిన్</string>
+    <string name="txt_new_pin">క్రొత్త పిన్ (6+ అంకెలు)</string>
+    <string name="importing_keys_from_bin_file">"బిన్ ఫైల్ నుండి కీలను దిగుమతి చేస్తోంది"</string>
+    <string name="please_make_sure_your_bin_file">దయచేసి మీ పిన్ సరైనది లేదా సరైన బిన్ ఫైల్ ఎంపిక చేయబడిందని నిర్ధారించుకోండి</string>
+    <string name="missing_existing_password">దయచేసి ఈ బ్యాకప్ ఫైల్ను గుప్తీకరించడానికి ఉపయోగించిన పాస్వర్డ్ను నమోదు చేయండి</string>
+    <string name="pin_number_request">దయచేసి ఈ బ్యాకప్ ఫైల్ను ఎన్కోడ్ చేయడానికి ఉపయోగించే పిన్ నంబర్ను నమోదు చేయండి</string>
+    <string name="pin_number_warning">పిన్ సంఖ్య కనీసం 6 అంకెలు ఉండాలి</string>
+    <string name="backup_error_no_key_reference_found">ఈ కీని ఉపయోగించి ఏ ఖాతా కనుగొనబడలేదు, దయచేసి మీరు నవీకరించిన బ్యాకప్ ఫైల్ను ఉపయోగిస్తున్నారని నిర్ధారించుకోండి.</string>
+    <string name="backup_error_no_wallet_backup">ఈ ఫైలులో వాల్యూమ్ బ్యాకప్ కనుగొనబడలేదు</string>
+    <string name="error_invalid_account">చెల్లని ఖాతా, దయచేసి టైపింగ్ దోషాల కోసం మీ మెదడు కీని తనిఖీ చేయండి</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">దిగుమతి</string>
+    <string name="title_account_load_result">ఖాతా లోడ్ అయ్యింది</string>
+    <string name="button_change_account">మార్చు</string>
+    <string name="title_select_input_assets">అంగీకరించడానికి ఆస్తులను ఎంచుకోండి.</string>
+    <string name="explanation_account_setup">చెల్లింపులను స్వీకరించడానికి మీరు Bitshares ఖాతా సెటప్ చేయాలి. లేదా మీకు ఇప్పటికే ఒకటి ఉంటే, దాన్ని ఇక్కడ దిగుమతి చేసుకోవచ్చు.</string>
+    <string name="explanation_output_asset">మీ కావలసిన Smartcoin ఎంచుకోండి:</string>
+    <string name="next">తరువాత</string>
+    <string name="done">పూర్తి</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">చెల్లించండి</string>
+    <string name="error_corrupted_key_title">కీ అవినీతి లోపం</string>
+    <string name="error_corrupted_key_content">అనువర్తనం డేటాబేస్ నుండి మీ గుప్తీకరించిన ప్రైవేట్ కీలను పునరుద్ధరించలేకపోయింది. దీని కారణంగా మీరు మీ కీలను మళ్ళీ ఎంటర్ చెయ్యాలి. ఒక బ్రైకెన్ రూపంలో గాని, లేదా అనువర్తనం ద్వారా సృష్టించబడినట్లయితే మీ sdcard లో స్వయంచాలకంగా సృష్టించబడిన మరియు నిల్వ చేయబడిన బిన్ బ్యాకప్ ఫైల్ను రూపొందిస్తుంది</string>
+    <string name="invalid_pin">చెల్లని PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">హోమ్</string>
+    <string name="txt_transactions">ట్రాన్సాక్షన్స్</string>
+    <string name="txt_refunds_returns">వాపసు / రిటర్న్స్</string>
+    <string name="txt_settlement">సెటిల్మెంట్</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares నోడ్స్</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">బకాయి మొత్తం</string>
+    <string name="sub_total">ఉప మొత్తం:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">ఆర్డర్ బుక్ లోపం</string>
+    <string name="content_error_market">ప్రస్తుతానికి మాకు __s____ కు ఎక్స్ఛేంజ్ నిర్వహించడానికి అనుమతించే DEX లో ఏ ఆదేశాలు లేవు. \n \n దయచేసి సెట్టింగుల స్క్రీన్కు వెళ్ళి వేరే అవుట్పుట్ ఆస్తిని ఎంచుకోండి.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">దయచేసి చెల్లించండి</string>
+    <string name="please_pay_s_s">దయచేసి చెల్లించండి: %1$s %2$s</string>
+    <string name="to_s">వీరికి: %1$s</string>
+    <string name="txt_network">నెట్వర్క్ రుసుము</string>
+    <string name="txt_please_wait">దయచేసి వేచి ఉండండి</string>
+    <string name="error_node_unreachable">సంఖ్య నోడ్ చేరుకోలేదు</string>
+    <string name="invoice_subject">%1$s నుండి పామ్పే ఇన్వాయిస్</string>
+    <string name="before_s">ముందు: %1$s</string>
+    <string name="share">Share</string>
+    <string name="share_with">తో పంచు</string>
+    <string name="connecting">కనెక్ట్ అవుతోంది ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">చెల్లింపు అభ్యర్థనను ఎంచుకోండి</string>
+    <string name="dialog_msg_select_pending_payment">ఇన్కమింగ్ చెల్లింపు కనుగొనబడింది, కానీ గతంలో అభ్యర్థించిన చెల్లింపుకు స్వయంచాలకంగా కేటాయించబడలేదు. దయచేసి క్రింది జాబితా నుండి సరైన చెల్లింపు అభ్యర్థనను ఎంచుకోండి.</string>
+    <string name="dialog_msg_confirm_pending_payment">ఇది ఇన్కమింగ్ చెల్లింపును %1$s యొక్క పూర్వపు చెల్లింపు అభ్యర్థనకు లింక్ చేస్తుంది</string>
+    <string name="dialog_msg_incoming_payment_details">ఇన్కమింగ్ చెల్లింపు వివరాలు</string>
+    <string name="dialog_generic_title_confirm">మీరు చెప్పేది నిజమా?</string>
+    <string name="dialog_generic_msg_confirm">దయచేసి ఈ చర్య రద్దు చేయబడదని గుర్తుంచుకోండి</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">రద్దుచేసే</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">చెల్లింపు నిర్ధారించడమైనది!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">సెట్టింగులు</string>
+    <string name="general">జనరల్</string>
+    <string name="security">సెక్యూరిటీ</string>
+    <string name="backups">బ్యాకప్</string>
+    <string name="tokens">టోకెన్లు</string>
+    <string name="accounts">అకౌంట్స్</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">రాత్రి మోడ్</string>
+    <string name="currency_info">మీ భాష మరియు దేశం ఎంపిక ఆధారంగా కరెన్సీ స్వయంచాలకంగా ఎంచుకోబడుతుంది. మీరు వాటిని మార్చాలనుకుంటే, మీ పరికరం యొక్క ప్రపంచ సిస్టమ్ సెట్టింగులకు వెళ్లాలి.</string>
+    <string name="screen_saver">స్క్రీన్ సేవర్</string>
+    <string name="source">మూల</string>
+    <string name="bitshares_logo">BitShares లోగో</string>
+    <string name="default_folder">డిఫాల్ట్ ఫోల్డర్ (/ పామ్పే)</string>
+    <string name="txt_folder">ఫోల్డర్</string>
+    <string name="choose">ఎంచుకోండి</string>
+    <string name="screen_saver_time">తర్వాత ప్రారంభించు ...</string>
+    <string name="one_minute">1 నిమిషం</string>
+    <string name="three_minutes">3 మినిట్స్</string>
+    <string name="five_minutes">5 నిమిషాలు</string>
+    <string name="local_ambassador">స్థానిక రాయబారి</string>
+    <string name="ambassador_info">పామ్పే ప్రతినిధులు ప్రతి 3 సెకన్లు చెల్లించబడతారు. స్థానిక పామ్పే వ్యాపారులకు మద్దతు ఇవ్వడం మరియు నెలవారీ క్రిప్టో మీటప్లను నిర్వహించడం. మీ నగరం జాబితా చేయకపోతే, మీ నగరం ఇంకా ఒక పామ్పయ్ రాయబారిని కలిగి లేదు. \n \n మరింత సమాచారం కోసం, టెలిగ్రామ్లో Agorise కమ్యూనిటీని సందర్శించండి: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">సిటీ</string>
+    <string name="country">దేశం</string>
+    <string name="bugs_or_ideas">బగ్స్ లేదా ఐడియాస్?</string>
+    <string name="bugs_or_ideas_contact_info">టెలిగ్రామ్ చాట్: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">అంగీకరించు</string>
+    <string name="select">ఎంచుకోండి</string>
+    <string name="are_you_sure">మీరు చెప్పేది నిజమా?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">బ్యాకప్ brainkey</string>
+    <string name="copied_to_clipboard">క్లిప్బోర్డ్కు కాపీ చేయబడింది</string>
+    <string name="bin_file_description">బిన్ ఫైల్. ఎల్లప్పుడూ మీ బ్యాకప్ .bin ఫైల్ను ఒక రహస్య మైక్రో SD కార్డ్ లేదా USB స్టిక్కు సేవ్ చేయండి.</string>
+    <string name="create_a_backup">బ్యాకప్ను సృష్టించండి</string>
+    <string name="brainkey_description">Brainkey. ఖాతా పునరుద్ధరణ పదాలు స్వాధీనం లేదా కాపీ చేయవచ్చు, కానీ సవరించలేదు.</string>
+    <string name="txt_brain_key_info">దీనిని ముద్రించండి, లేదా దాన్ని రాయండి. మీ రికవరీ కీకి ప్రాప్యత ఉన్న ఎవరైనా ఈ వాలెట్లోని ఫండ్లకు ప్రాప్యతని కలిగి ఉంటారు.</string>
+    <string name="view_and_copy"><![CDATA[వీక్షించండి & కాపీ చేయండి]]></string>
+    <string name="title_bin_backup">ఎగుమతి .బిన్ బ్యాకప్</string>
+    <string name="hint_password">పాస్వర్డ్</string>
+    <string name="hint_password_confirmation">పాస్వర్డ్ నిర్ధారణ</string>
+    <string name="error_password_mandatory">ఒక పాస్వర్డ్ను నమోదు చేయాలి</string>
+    <string name="error_password_too_short">పాస్వర్డ్ చాలా చిన్నదిగా ఉంది</string>
+    <string name="error_password_confirmation_mismatch">పాస్వర్డ్ మరియు ధృవీకరణ అసమతుల్యత</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">వ్యాపారి ఖాతా: %1$s</string>
+    <string name="upgrade_to_ltm">LTM కి అప్గ్రేడ్ చేయండి</string>
+    <string name="upgrade_account_description">"లైఫ్ టైమ్ సభ్యత్వము (LTM) కు అప్గ్రేడ్ చేయండి. Bitshares \'LTM ఖాతాలు సున్నా రుసుము వద్ద చెల్లించబడతాయి, 80% క్యాష్బ్యాక్ మరియు రెఫెరల్స్ కొరకు బోనస్లను పొందండి."</string>
+    <string name="account_upgrade_title">ఖాతాను నవీకరణ చెయ్యి</string>
+    <string name="account_upgrade_content">లైఫ్ టైమ్ సభ్యత్వం మీరు తక్కువగా ఉన్న నెట్వర్క్ రుసుముతో వర్తకం చేయడానికి అనుమతిస్తుంది. \n \nIt ప్రస్తుత ఖాతాకు "__s____" ప్రభావాన్ని చూపుతుంది \n \n అయితే Bitshares లో చెల్లించిన సుమారు 100 డాలర్ల ధరతో ఇది వస్తుంది. \n \n మీరు ఖచ్చితంగా కొనసాగాలనుకుంటున్నారా?</string>
+    <string name="account_upgrade_wait_content">మీ అభ్యర్థనను కలిగి ఉన్న లావాదేవీ నెట్వర్క్ ద్వారా ప్రాసెస్ చేయబడుతోంది</string>
+    <string name="error_upgrade_account_title">ఖాతా అప్గ్రేడ్ చేయడానికి ప్రయత్నిస్తున్నప్పుడు లోపం</string>
+    <string name="error_upgrade_account_content">దయచేసి మీ ఖాతా ఖర్చులను తగ్గించడానికి తగినంత బ్యాలెన్స్ ఉందని నిర్ధారించుకోండి</string>
+    <string name="account_upgraded_title">ఖాతా అప్గ్రేడ్ చేయబడింది</string>
+    <string name="account_upgraded_content">అభినందనలు! మీ ఖాతా ఇప్పుడు జీవితకాల సభ్యత్వానికి అప్గ్రేడ్ చేయబడింది.</string>
+    <string name="remove_account">ఖాతాను తీసివేయండి</string>
+    <string name="remove_account_description">ఈ వ్యాపారి ఖాతాను తీసివేయండి. ఈ పరికరం నుండి ఎగువ ఉన్న వ్యాపారి ఖాతాను తీసివేయండి మరియు వేరే దాన్ని సృష్టించండి లేదా దిగుమతి చేయండి.</string>
+    <string name="txt_account_remove_confirmation">"మీరు ఈ సంచి నుండి \'%1$s\' ఖాతాను తొలగించాలని నిశ్చయించుకున్నారా?</string>
+    <string name="remove">తొలగించు</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">కోరుకున్న స్మార్ట్కోయిన్</string>
+    <string name="txt_customer_loyalty">ఇష్యూ లాయల్టీ పాయింట్స్ గా ...</string>
+    <string name="warning_insufficient_reward_asset_balance">మీ ఖాతా ఇంకా ఏ %1$s స్వంతం కాదు. మీరు మీ వినియోగదారులకు ఎవరికీ లాయల్టీ పాయింట్స్గా ఇవ్వడానికి ప్రయత్నించడానికి ముందు కొంతమందిని కొనుగోలు చేయండి.</string>
+    <string name="send">పంపండి</string>
+    <string name="txt_for_every">ప్రతి కోసం</string>
+    <string name="txt_spent">ఖర్చు</string>
+    <string name="txt_bitcoin_altcoin_deposited">8 క్రిప్టోకారెన్స్స్ వరకు అంగీకరించండి:</string>
+    <string name="altcoins_should_not_more_than">దయచేసి 8 ఇన్పుట్ ఆస్తుల కంటే ఎక్కువ ఎంచుకోండి</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) కోర్ టోకెన్ అవసరం.</string>
+    <string name="toast_low_volume_market">తక్కువ వాల్యూమ్ మార్కెట్ ఆస్తులు తాత్కాలికంగా నిలిపివేయబడ్డాయి. మార్కెట్ వాల్యూమ్ గణనీయమైన పరిమాణంలోకి చేరుకున్న తర్వాత వారు ప్రారంభించబడతారు</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">లోగో</string>
+    <string name="store_name">స్టోర్ పేరు</string>
+    <string name="address">చిరునామా</string>
+    <string name="phone_number">ఫోను నంబరు</string>
+    <string name="website">వెబ్సైట్</string>
+    <string name="message">సందేశం</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">కీ కోసం బిన్ ఫార్మాట్ని రూపొందించడం సాధ్యపడలేదు</string>
+    <string name="saving_bin_file_to_s">దీని కోసం బిన్ ఫైల్ను సేవ్ చేస్తోంది: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">బిన్ ఫైల్ విజయవంతంగా సేవ్ చేయబడింది: %1$s</string>
+    <string name="unable_to_save_bin_file">బిన్ ఫైల్ను సేవ్ చేయడం సాధ్యపడలేదు</string>
+    <string name="creating_backup_file">బ్యాకప్ ఫైలుని సృష్టిస్తోంది</string>
+    <string name="fetching_key">కీని పొందుతోంది</string>
+    <string name="generating_bin_format">బిన్ ఆకృతిని సృష్టిస్తోంది</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">శోధన</string>
+    <string name="filter">వడపోత</string>
+    <string name="export">ఎగుమతి</string>
+    <string name="confirming">నిర్థారించడం ...</string>
+    <string name="pdf_generated_msg_s">PDF ఉత్పత్తి మరియు సేవ్: %1$s</string>
+    <string name="pdf_generated_msg_error_s">పిడిఎఫ్ ఉత్పత్తి చేయలేకపోయింది. దయచేసి మళ్లీ ప్రయత్నించండి. లోపం: %1$s</string>
+    <string name="csv_generated_msg_s">CSV సృష్టించబడింది మరియు సేవ్ చేయబడింది: %1$s</string>
+    <string name="csv_generated_msg_error_s">Csv ను సృష్టించడం సాధ్యం కాలేదు. దయచేసి మళ్లీ ప్రయత్నించండి. లోపం: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">అన్ని</string>
+    <string name="sent">పంపిన</string>
+    <string name="received">అందుకుంది</string>
+    <string name="date_range">తేదీ పరిధి</string>
+    <string name="txt_to">కు</string>
+    <string name="cryptocurrency">cryptocurrency</string>
+    <string name="fiat_amount">ఫియట్ మొత్తం</string>
+    <string name="between">మధ్య</string>
+    <string name="and">మరియు</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">ఫిల్టర్ చేసిన లావాదేవీలను ఎగుమతి చేయండి</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">ఎగుమతి ఉత్పత్తిని ఉత్పత్తి చేస్తుంది</string>
+    <string name="exported_file_name">PalmPay-ట్రాన్సాక్షన్స్</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">నుండి</string>
+    <string name="to">టు</string>
+    <string name="memo">మెమో</string>
+    <string name="date">తేదీ</string>
+    <string name="time">సమయం</string>
+    <string name="crypto_amount">క్రిప్టో మొత్తం</string>
+    <string name="crypto_symbol">క్రిప్టో సింబల్</string>
+    <string name="keyed_in_fiat_amount">కీడ్-ఇన్ ఫియట్ మొత్తం</string>
+    <string name="total_fiat_amount">మొత్తం ఫియట్ మొత్తం</string>
+    <string name="fiat_currency">ఫియట్ కరెన్సీ</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">అంశం %1$d</string>
+    <string name="subtotal">ఉప మొత్తం</string>
+    <string name="network_fee">నెట్వర్క్ రుసుము</string>
+    <string name="total">మొత్తం</string>
+    <string name="paid_s_s">చెల్లింపు %1$s %2$s</string>
+    <string name="change_due">కారణంగా మార్చండి</string>
+    <string name="e_receipt_memo_s">మెమో: %1$s</string>
+    <string name="e_receipt_date_s">తేదీ: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">%1$s నుండి పామ్పే ఇరిసెప్ట్</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">పాత PIN తప్పు</string>
+    <string name="pin_changed_successfully">PIN విజయవంతంగా మార్చబడింది</string>
+    <string name="please_enter_pin">దయచేసి PIN నంబర్ను నమోదు చేయండి</string>
+    <string name="please_enter_pin_confirmation">దయచేసి మీ పిన్ నంబర్ నిర్ధారణను నమోదు చేయండి</string>
+    <string name="title_change_pin">PIN ను సవరించండి</string>
+    <string name="txt_current_pin">ప్రస్తుత PIN నంబర్</string>
+    <string name="please_enter_old_pin">దయచేసి పాత PIN నంబర్ నమోదు చేయండి</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">నోడ్ కనెక్షన్ లోపం, తిరిగి ప్రయత్నిస్తోంది</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">మాకు ఇన్కమింగ్ చెల్లింపు వచ్చింది, కానీ అభ్యర్థన కనుగొనబడలేదు</string>
+
+</resources>

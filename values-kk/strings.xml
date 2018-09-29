@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Лицензия</string>
+    <string name="agree">Келісіңіз</string>
+    <string name="disagree">Келіспеймін</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Активтер жүктелуде ...</string>
+    <string name="title_loading_asset_type_data">Активтер түрінің деректері жүктелуде ...</string>
+    <string name="title_assets_ready">Активтердің дерекқоры дайын</string>
+    <string name="msg_loading_all_existing_assets">Барлық қолданыстағы активтердің толық тізімін алу үшін бірқатар сұрауды орындау</string>
+    <string name="msg_loading_asset_type_data">Қосымша актив туралы мәліметтерді сұрау</string>
+    <string name="msg_loading_asset_in_database">%1$d активтерін дерекқорға жүктеді</string>
+    <string name="msg_assets_loaded">Бұдан әрі есептік жазбаңызды орнатыңыз ...</string>
+    <string name="error_fetching_marketcap_data">Marketcap деректерін жүктеу мүмкін болмады</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Аккаунт құру</string>
+    <string name="txt_account_name">BitShares тіркелгі атауы</string>
+    <string name="unable_to_find_account_id">Пайдаланушы тіркелгісінің идентификаторын табу мүмкін емес</string>
+    <string name="error_invalid_account_name_explanation">Есептік жазба аты 8 таңбадан артық болуы керек, санды немесе дыбыстаушыны жоқ. Астыңғы сызық сипаты да рұқсат етілмеген.</string>
+    <string name="create">Жасау</string>
+    <string name="error">Қате</string>
+    <string name="account_name_already_exist">Есептік жазба атауы бар</string>
+    <string name="try_again">5 минуттан кейін қайталап көріңіз</string>
+    <string name="txt_new_pin_confirmation">Жаңа PIN-кодты растаңыз (6+ сан)</string>
+    <string name="error_wif">WIF кілтін жасау қатесі</string>
+    <string name="error_faucet_template">Крандар қатені қайтарып алды. Msg: %1$s</string>
+    <string name="error_read_dict_file">Сөздік файлын оқу қатесі</string>
+    <string name="error_missing_account">Қолданба жаңадан жасалған тіркелгі туралы ақпаратты ала алмады</string>
+    <string name="create_account_title">Жаңа тіркелгі жасау</string>
+    <string name="create_account_message">Есептік жазба жасалған кезде күте тұрыңыз</string>
+    <string name="error_faucet_explanation">Сервер қатені қайтарып алды. Бұл қысқа уақыт ішінде сол IP-мекен-жайдан жиі келетін сұрауларға жол бермеу мақсатымен шектелген мақсатқа байланысты болуы мүмкін. 5 минут күтіп, қайталап көріңіз немесе басқа желіге ауысыңыз, мысалы, wifi-ден ұяшыққа.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Жалғастырмас бұрын брейнкэттің сақтық көшірмесін жасағаныңызды тексеріңіз. Бұл құрылғыға бір нәрсе болған жағдайда, есептік жазбаңызды қалпына келтіруге мүмкіндік береді.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Қолданыстағы есептік жазбаңызды қалай импорттамақсыз?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF кілті</string>
+    <string name="bin_file">.bin файл</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">6+ таңбалы PIN кодын таңдаңыз</string>
+    <string name="txt_6_digits_pin_confirm">6+ сандар PIN коды расталады</string>
+    <string name="please_enter_6_digit_pin">6 саннан тұратын PIN кодын енгізіңіз</string>
+    <string name="please_enter_6_digit_pin_confirm">ПИН нөмірін растауды енгізіңіз</string>
+    <string name="mismatch_pin">Қате сәйкес емес</string>
+    <string name="please_enter_brainkey">Бринкей енгізіңіз</string>
+    <string name="please_enter_correct_brainkey">Пожалуйста, бринкей дұрыс енгізіңіз, ол 12-ден 16 сөзге дейін болуы керек.</string>
+    <string name="unable_to_load_brainkey">Бринкейді жүктеу мүмкін емес</string>
+    <string name="account_already_exist">Есептік жазба бар</string>
+    <string name="importing_your_wallet">Әмияныңызды импорттау ...</string>
+    <string name="account_candidates_title">Есептік жазбаны таңдаңыз</string>
+    <string name="account_candidates_content">Бұл бринкейден алынған кілттер біреуден артық тіркелгіні басқару үшін қолданылған сияқты, импорттағыңыз келетін есептік жазбаны таңдаңыз</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Импорттау .bin файлын импорттау</string>
+    <string name="import_backup">.Bin файлынан импорттауды импорттау</string>
+    <string name="txt_no_internet_connection">Интернет байланысы жоқ</string>
+    <string name="no_file_chosen">Таңдалған файл жоқ</string>
+    <string name="choose_backup">Сақтық көшірмені таңдаңыз</string>
+    <string name="choose_file">Файлды таңдаңыз</string>
+    <string name="txt_existing_password">Ағымдағы .bin файлының құпиясөзі немесе PIN коды</string>
+    <string name="txt_new_pin">Жаңа PIN (6+ сан)</string>
+    <string name="importing_keys_from_bin_file">«Бин файлынан кілттерді импорттау»</string>
+    <string name="please_make_sure_your_bin_file">Пиннің дұрыс немесе дұрыс екенін тексеріңіз</string>
+    <string name="missing_existing_password">Осы сақтық көшірме файлын шифрлау үшін пайдаланылатын құпия сөзді енгізіңіз</string>
+    <string name="pin_number_request">Бұл сақтық көшірме файлын кодтау үшін пайдаланылатын PIN кодын енгізіңіз</string>
+    <string name="pin_number_warning">Істік нөмірі кемінде 6 сан болуы керек</string>
+    <string name="backup_error_no_key_reference_found">Осы кілтті пайдаланып тіркелгі табылмады, жаңартылған сақтық көшірме файлын пайдаланып жатқаныңызға көз жеткізіңіз.</string>
+    <string name="backup_error_no_wallet_backup">Бұл файлда әмиян сақтық көшірмесін таба алмадыңыз</string>
+    <string name="error_invalid_account">Жарамсыз тіркелгі, қателерді теру үшін миыңыздың кілтін тексеріңіз</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Импорт</string>
+    <string name="title_account_load_result">Тіркелгі жүктелді</string>
+    <string name="button_change_account">Өзгерту</string>
+    <string name="title_select_input_assets">Қабылдайтын активтерді таңдаңыз.</string>
+    <string name="explanation_account_setup">Төлемдерді алу үшін сізде Bitshares есептік жазбасын орнату қажет. Немесе сізде біреу бар болса, оны осында импорттай аласыз.</string>
+    <string name="explanation_output_asset">Қалаған SmartCoin таңдаңыз:</string>
+    <string name="next">Келесі</string>
+    <string name="done">Аяқталды</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Төлеңіз</string>
+    <string name="error_corrupted_key_title">Негізгі жемқорлық қателігі</string>
+    <string name="error_corrupted_key_content">Қолданба дерекқордан шифрланған жеке кілттеріңізді қалпына келтіре алмайды. Осыған байланысты кілттеріңізді қайтадан енгізу қажет болады. Есептік жазбаны қолданба арқылы жасасаңыз, сканерде автоматты түрде жасалатын және сақталатын бин сақтық көшірме файлын жасаңыз</string>
+    <string name="invalid_pin">PIN дұрыс емес</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Үй</string>
+    <string name="txt_transactions">Мәмілелер</string>
+    <string name="txt_refunds_returns">Қайтару / қайтару</string>
+    <string name="txt_settlement">Есеп айырысу</string>
+    <string name="bitshares_nodes_dialog_title">Битшарлардың түйіндері</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Төлем сомасы</string>
+    <string name="sub_total">Барлығы:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Тапсырыс кітабы қатесі</string>
+    <string name="content_error_market">Қазіргі уақытта DEX-те алмасуды __1__-ға дейін орындауға мүмкіндік беретін ешқандай тапсырыс жоқ. \n \nПараметрлер экранына өтіп, басқа шығыс активін таңдаңыз.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Төлеңіздер</string>
+    <string name="please_pay_s_s">Өтініш беріңіз: %1$s %2$s</string>
+    <string name="to_s">Кімге: %1$s</string>
+    <string name="txt_network">Желілік төлем</string>
+    <string name="txt_please_wait">Өтінемін күте тұрыңыз</string>
+    <string name="error_node_unreachable">Ешқандай түйінге қол жеткізе алмады</string>
+    <string name="invoice_subject">PalmPay шот-фактурасы %1$s-ден</string>
+    <string name="before_s">Бұрын: __1__</string>
+    <string name="share">Бөлісу</string>
+    <string name="share_with">Бөлісу</string>
+    <string name="connecting">Қосылуда ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Төлем сұрауын таңдау</string>
+    <string name="dialog_msg_select_pending_payment">Кіріс төлемі анықталды, бірақ алдын ала сұралған төлемге автоматты түрде тағайындала алмады. Төмендегі тізімнен дұрыс төлем туралы сұрауды таңдаңыз.</string>
+    <string name="dialog_msg_confirm_pending_payment">Бұл кіріс төлемін %1$s-дың бұрын жазылған төлем сұрауына байланыстырады.</string>
+    <string name="dialog_msg_incoming_payment_details">Кіретін төлем туралы мәліметтер</string>
+    <string name="dialog_generic_title_confirm">Сіз сенімдісіз бе?</string>
+    <string name="dialog_generic_msg_confirm">Бұл әрекетті болдырмау мүмкін болмайтынын ескеріңіз</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Босатыңыз</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Төлем расталған!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Параметрлер</string>
+    <string name="general">Жалпы</string>
+    <string name="security">Қауіпсіздік</string>
+    <string name="backups">Сақтық көшірмелер</string>
+    <string name="tokens">Токендер</string>
+    <string name="accounts">Есептер</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Түнгі режим</string>
+    <string name="currency_info">Валюта сіздің тіліңіз бен ел таңдауыңыз бойынша автоматты түрде таңдалады. Оларды өзгерткіңіз келсе, құрылғының жаһандық жүйелік параметрлеріне өтуіңіз керек.</string>
+    <string name="screen_saver">Скринсейвер</string>
+    <string name="source">Көзі</string>
+    <string name="bitshares_logo">BitShares логотипі</string>
+    <string name="default_folder">Әдетті қалта (/ PalmPay)</string>
+    <string name="txt_folder">Қалта</string>
+    <string name="choose">Таңдау</string>
+    <string name="screen_saver_time">Кейін ...</string>
+    <string name="one_minute">1 минут</string>
+    <string name="three_minutes">3 минут</string>
+    <string name="five_minutes">5 минут</string>
+    <string name="local_ambassador">Жергілікті елші</string>
+    <string name="ambassador_info">PalmPay елшілері әр 3 секунд сайын төлейді. Олардың міндеті - жергілікті PalmPay саудагерлерін қолдау және ай сайын Crypto Meetups ұйымдастыру. Егер сіздің қалаңыз тізімде жоқ болса, сіздің қалаңызда PalmPay елшісі әлі жоқ. \n \nтолық туралы көбірек білу үшін, телеграммада Agorise қауымдастығына барыңыз: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Қала</string>
+    <string name="country">Ел</string>
+    <string name="bugs_or_ideas">Қателер немесе идеялар?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram чат: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Қабылдау</string>
+    <string name="select">Таңдаңыз</string>
+    <string name="are_you_sure">Сіз сенімдісіз бе?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Сақтық көшірмесі</string>
+    <string name="copied_to_clipboard">Алмасу буферіне көшірілді</string>
+    <string name="bin_file_description">Bin файлы. Сақтық көшірменің .bin файлын үнемі жасырын MicroSD немесе USB Stick-қа сақтаңыз.</string>
+    <string name="create_a_backup">Сақтық көшірме жасау</string>
+    <string name="brainkey_description">Бринкей. Есептік жазбаларды қалпына келтіруге немесе көшіруге болатын, бірақ өңделмеген сөздер.</string>
+    <string name="txt_brain_key_info">Оны басып шығарыңыз немесе жазыңыз. Қалпына келтіру кілтіне қол жеткізетін кез-келген адам осы әмияндағы қаражатқа қол жеткізе алады.</string>
+    <string name="view_and_copy">Қарау және көшіру</string>
+    <string name="title_bin_backup">Ішкі экспорттау</string>
+    <string name="hint_password">Құпия сөз</string>
+    <string name="hint_password_confirmation">Құпия сөзді растау</string>
+    <string name="error_password_mandatory">Құпия сөзді енгізу керек</string>
+    <string name="error_password_too_short">Құпия сөз тым қысқа</string>
+    <string name="error_password_confirmation_mismatch">Құпия сөз және растау сәйкессіздігі</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Сатушы шот: %1$s</string>
+    <string name="upgrade_to_ltm">LTM-ке жаңартыңыз</string>
+    <string name="upgrade_account_description">«LifeTime мүшелігіне жаңарту (LTM). Битшарлар LTM шоттары нөлдік тарифтерді төлейді, 80% ақшалай қаражат пен жолдама алу үшін бонустар алады».</string>
+    <string name="account_upgrade_title">Тіркелгіні жаңарту</string>
+    <string name="account_upgrade_content">Өмірлік уақыт мүшелігі желінің төмендетілген жиынтығымен сауда жасауға мүмкіндік береді. __ __ __ __ ___ ___ ___________________________ ______ ___ ___ __ __ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ______ ___ ______ ___ ______ ______ ______ ______ ______ ______ ______ ______ _________ _____ \n \n Жалғастырғыңыз келетініне сенімдісіз бе?</string>
+    <string name="account_upgrade_wait_content">Сіздің сұрауыңызды қамтитын мәміле желі арқылы өңделеді</string>
+    <string name="error_upgrade_account_title">Есептік жазбаны жаңарту кезінде қате пайда болды</string>
+    <string name="error_upgrade_account_content">Есептік жазбаңыздың шығындарын жабуға жеткілікті балансы бар екенін тексеріңіз</string>
+    <string name="account_upgraded_title">Шот жаңартылды</string>
+    <string name="account_upgraded_content">Құттықтаймыз! енді сіздің тіркелгіңіз Өмір бойы мүшелігіне жаңартылды.</string>
+    <string name="remove_account">Есептік жазбаны жою</string>
+    <string name="remove_account_description">Осы сатушы есептік жазбасын алып тастаңыз. Жоғарыдағы Merchant тіркелгісін осы құрылғыдан жойып, басқасын жасаңыз немесе импорттаңыз.</string>
+    <string name="txt_account_remove_confirmation">«Осы әмияннан» %1$s «есептік жазбасын жойғыңыз келе ме?»</string>
+    <string name="remove">Жою</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Қажетті Smartcoin</string>
+    <string name="txt_customer_loyalty">Адалдық ұпайлары ретінде ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Сіздің аккаунтыңыз әлі %1$s-ге тиесілі емес. Сатып алушыларға кез келген адалдық ұпайлары ретінде беруге тырысар алдында кейбіреулерді сатып алыңыз.</string>
+    <string name="send">Жіберу</string>
+    <string name="txt_for_every">Әрқайсысы үшін</string>
+    <string name="txt_spent">жұмсадық</string>
+    <string name="txt_bitcoin_altcoin_deposited">8 криптокрипті қабылдаңыз:</string>
+    <string name="altcoins_should_not_more_than">Пожалуйста, 8-ден артық емес активтерді таңдаңыз</string>
+    <string name="bitshares_unselection_message">Битшарлардың (BTS) негізгі белгісі қажет.</string>
+    <string name="toast_low_volume_market">Нарықтық көлемінің төменгі көлемі уақытша өшірілген. Олар нарықтық көлемі айтарлықтай мөлшерде көтерілгеннен кейін қосылады</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Логотип</string>
+    <string name="store_name">Дүкен атауы</string>
+    <string name="address">Мекенжай</string>
+    <string name="phone_number">Телефон нөмірі</string>
+    <string name="website">Веб-сайт</string>
+    <string name="message">Хабар</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Кілт үшін бин пішімін құру мүмкін емес</string>
+    <string name="saving_bin_file_to_s">Файлды сақтау: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin файлы сәтті сақталды: %1$s</string>
+    <string name="unable_to_save_bin_file">Bin файлын сақтау мүмкін емес</string>
+    <string name="creating_backup_file">Сақтық көшірме файлын жасау</string>
+    <string name="fetching_key">Кілтті алу</string>
+    <string name="generating_bin_format">Бин пішімін жасау</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Іздеу</string>
+    <string name="filter">Сүзгі</string>
+    <string name="export">Экспорт</string>
+    <string name="confirming">Растау ...</string>
+    <string name="pdf_generated_msg_s">PDF құрылды және сақталды: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Pdf жасау мүмкін емес. Қайталап көріңіз. Қате: %1$s</string>
+    <string name="csv_generated_msg_s">CSV құрылды және сақталды: %1$s</string>
+    <string name="csv_generated_msg_error_s">Csv жасау мүмкін емес. Қайталап көріңіз. Қате: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Барлық</string>
+    <string name="sent">Жіберілді</string>
+    <string name="received">Алынды</string>
+    <string name="date_range">Күндер ауқымы</string>
+    <string name="txt_to">дейін</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat саны</string>
+    <string name="between">Арасында</string>
+    <string name="and">және</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Сүзілген транзакцияларды экспорттау</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Экспорттық өнімді қалыптастыру</string>
+    <string name="exported_file_name">PalmPay-транзакциялар</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Қайдан</string>
+    <string name="to">Кімге</string>
+    <string name="memo">Memo</string>
+    <string name="date">Күні</string>
+    <string name="time">Уақыт</string>
+    <string name="crypto_amount">Криптондық сома</string>
+    <string name="crypto_symbol">Криптондық символ</string>
+    <string name="keyed_in_fiat_amount">Fiat мөлшерін енгізіңіз</string>
+    <string name="total_fiat_amount">Жалпы Fiat сомасы</string>
+    <string name="fiat_currency">Fiat валютасы</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">%1$d тармақ</string>
+    <string name="subtotal">Барлығы</string>
+    <string name="network_fee">Желілік төлем</string>
+    <string name="total">Барлығы</string>
+    <string name="paid_s_s">Төленген %1$s %2$s</string>
+    <string name="change_due">Мерзімін өзгерту</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Күні: __1__</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt оның %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Ескі PIN коды дұрыс емес</string>
+    <string name="pin_changed_successfully">PIN коды сәтті өзгертілді</string>
+    <string name="please_enter_pin">ПИН-кодты енгізіңіз</string>
+    <string name="please_enter_pin_confirmation">ПИН нөмірін растауыңызды енгізіңіз</string>
+    <string name="title_change_pin">PIN кодын өзгерту</string>
+    <string name="txt_current_pin">Ағымдағы PIN нөмірі</string>
+    <string name="please_enter_old_pin">Ескі PIN нөмірін енгізіңіз</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Түйін қосылымының қатесі, қайталау</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Біз кіріс төлемін алды, бірақ ешқандай сұрау табылған жоқ</string>
+
+</resources>

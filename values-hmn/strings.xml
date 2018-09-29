@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Daim ntawv tso cai</string>
+    <string name="agree">Pom zoo</string>
+    <string name="disagree">Tsis pom zoo</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Chaw thau khoom ...</string>
+    <string name="title_loading_asset_type_data">Chaw thau khoom ntaus ntawv cov ntaub ntawv ...</string>
+    <string name="title_assets_ready">Npaj database npaj</string>
+    <string name="msg_loading_all_existing_assets">Ua raws li cov lus thov kom tau txais daim ntawv teev tag nrho ntawm txhua yam khoom muaj nqis</string>
+    <string name="msg_loading_asset_type_data">Thov cov lus qhia ntxiv</string>
+    <string name="msg_loading_asset_in_database">Loaded %1$d cov khoom muaj nqis rau hauv cov ntaub ntawv</string>
+    <string name="msg_assets_loaded">Tom ntej no, thov teeb tsa koj tus account ...</string>
+    <string name="error_fetching_marketcap_data">Yuav tsis tuaj yeem thau cov ntaub ntawv marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Tsim Tsim</string>
+    <string name="txt_account_name">BitShares lub npe nyiaj</string>
+    <string name="unable_to_find_account_id">Tsis tau mus nrhiav tus account tus account ID</string>
+    <string name="error_invalid_account_name_explanation">Lub npe tus account muaj rau ntau tshaj 8 cim, muaj tus nab npawb los sis tsis muaj tus cim ntawv. Tsis tau tso cai rau tus menyuam ua cim tau ntxais.</string>
+    <string name="create">Tsim</string>
+    <string name="error">Yuam kev</string>
+    <string name="account_name_already_exist">Account lub npe twb muaj nyob</string>
+    <string name="try_again">Thov sim dua tom qab 5 feeb</string>
+    <string name="txt_new_pin_confirmation">Tshawb xyuas tus tshiab PIN (6+ tus lej)</string>
+    <string name="error_wif">Yuam kev tsim WIF key</string>
+    <string name="error_faucet_template">Tus kais dej rov qab ua yuam kev. Msg: %1$s</string>
+    <string name="error_read_dict_file">Yuam kev nyeem ntawv cov ntaub ntawv</string>
+    <string name="error_missing_account">Tus app tsis txeeb tau cov ntaub ntawv hais txog tus account tshiab khiv tawm</string>
+    <string name="create_account_title">Tsim tshiab nyiaj</string>
+    <string name="create_account_message">Thov tos thaum koj tus account tau tsim</string>
+    <string name="error_faucet_explanation">Tus neeg rau zaub mov rov qab ua yuam kev. Qhov no tej zaum yuav yog vim muaj kev txwv tsis pub muaj teeb meem rau kev tso cai rau kev tso cai tuaj yeem tawm los ntawm qhov chaw tus IP nyob hauv ib lub sij hawm luv luv. Thov tos 5 feeb thiab rov sim dua, lossis hloov mus rau lwm lub network, Piv txwv li ntawm wifi mus rau tes.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Thov nco ntsoov koj backup koj brainkey ua ntej txoj kev pib. Qhov no yuav cia koj rov qab tau koj tus account thaum muaj ib yam dab tsi tshwm sim rau hauv lub tshuab ntaus ntawv no.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Koj yuav nyiam import koj tus account uas twb muaj lawm li cas?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin Cov Ntaub Ntawv</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Xaiv tus 6 + tus lej PIN</string>
+    <string name="txt_6_digits_pin_confirm">6 + tus lej PIN lees tias</string>
+    <string name="please_enter_6_digit_pin">Thov sau 6-tug lej PIN</string>
+    <string name="please_enter_6_digit_pin_confirm">Thov nkag mus rau qhov kev lees paub ntawm koj tus nab npawb PIN</string>
+    <string name="mismatch_pin">Mismatch tus pin</string>
+    <string name="please_enter_brainkey">Thov nkag mus rau lub hlwb</string>
+    <string name="please_enter_correct_brainkey">Thov nkag rau lub hlwb, nws yuav tsum muaj ntawm 12 thiab 16 lo lus.</string>
+    <string name="unable_to_load_brainkey">Unable mus thauj cov hlwb</string>
+    <string name="account_already_exist">Account twb nyob ua ib ke</string>
+    <string name="importing_your_wallet">Importing your wallet ...</string>
+    <string name="account_candidates_title">Thov xaiv ib tug account</string>
+    <string name="account_candidates_content">Cov yuam sij muab los ntawm qhov kev xav hauv lub hlwb no zoo li siv los tswj ntau tshaj ib tus as khauj, thov xaiv tus account uas koj xav import</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Ntshuam .bin ntaub ntawv</string>
+    <string name="import_backup">Import Backup ntawm .bin ntaub ntawv</string>
+    <string name="txt_no_internet_connection">Tsis muaj kev sib txuas hauv Internet</string>
+    <string name="no_file_chosen">Tsis muaj ntaub ntawv xaiv</string>
+    <string name="choose_backup">Xaiv cov thaub qab</string>
+    <string name="choose_file">Xaiv Cov Ntaub Ntawv</string>
+    <string name="txt_existing_password">Tam sim no .bin cov ntaub ntawv Password lossis PIN</string>
+    <string name="txt_new_pin">PIN tshiab (6+ tus lej)</string>
+    <string name="importing_keys_from_bin_file">"Importing Dais ntawm Bin ntawv"</string>
+    <string name="please_make_sure_your_bin_file">Thov nco ntsoov tias koj tus pin muaj tseeb los yog cov ntaub ntawv hauv cov tsev kawm ntawv raug xaiv</string>
+    <string name="missing_existing_password">Thov sau tus password siv los encrypt cov ntaub ntawv no backup</string>
+    <string name="pin_number_request">Thov sau tus naj npawb tus xov tooj siv los encode cov ntaub ntawv no</string>
+    <string name="pin_number_warning">Tus lej naj npawb yuav tsum muaj tsawg kawg yog 6 tug lej</string>
+    <string name="backup_error_no_key_reference_found">Tsis siv tus account siv qhov tseem ceeb no, thov kom koj siv cov ntaub ntawv kho tshiab tshiab.</string>
+    <string name="backup_error_no_wallet_backup">Tsis muaj lub hnab thaub ntim rov qab muaj nyob hauv cov ntaub ntawv no</string>
+    <string name="error_invalid_account">Invalid tus account, thov saib koj lub hlwb tseem ceeb rau kev sau tsis raug</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Ntshuam</string>
+    <string name="title_account_load_result">Account loaded</string>
+    <string name="button_change_account">Hloov</string>
+    <string name="title_select_input_assets">Xaiv cov khoom muaj nqis los txais.</string>
+    <string name="explanation_account_setup">Koj yuav tsum teeb tsa tus nqi qiv nyiaj hauv Bitshares thiaj li yuav tau txais cov nyiaj them tuaj. Los sis yog tias koj twb muaj ib qho, koj tuaj yeem xa nws tuaj rau ntawm no.</string>
+    <string name="explanation_output_asset">Xaiv koj qhov kev xav tau Smartcoin:</string>
+    <string name="next">Tom ntej</string>
+    <string name="done">Ua li cas</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Them nrog</string>
+    <string name="error_corrupted_key_title">Tseem ceeb kev ua yuam kev yuam kev</string>
+    <string name="error_corrupted_key_content">Lub yog tsis tuaj yeem rov qab tau koj cov password private ntawm tus database. Vim li no koj yuav tsum nkag mus rau koj cov yuam sij dua. Yog nyob rau hauv daim ntawv ntawm lub hlwb los yog daim ntawv rau hauv cov ntaub ntawv thaub qab database uas tau generated thiab muab cia rau hauv koj tus sdcard yog tias tus account tau tsim los ntawm lub</string>
+    <string name="invalid_pin">PIN tsis tshua zoo</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Tsev</string>
+    <string name="txt_transactions">Kev Sib Tham</string>
+    <string name="txt_refunds_returns">Cov Nyiaj Them Rov Qab / Rov Qab</string>
+    <string name="txt_settlement">Kev Hais Haum</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares nodes</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Tus nqi them rau</string>
+    <string name="sub_total">Tag Nrho Tag Nrho:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Hais yuam kev hauv phau ntawv</string>
+    <string name="content_error_market">Nws tsis muaj kev txiav txim hauv DEX uas yuav pab peb ua tus pauv mus rau %1$s thaum lub sij hawm ntawd. \n \n__Ua mus rau qhov kev tshuaj ntsuam thiab xaiv ib qho khoom muaj nqis sib txawv.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Thov Them</string>
+    <string name="please_pay_s_s">Thov Them Nqi: %1$s %2$s</string>
+    <string name="to_s">Rau: %1$s</string>
+    <string name="txt_network">Network tus nqi</string>
+    <string name="txt_please_wait">Thov tos</string>
+    <string name="error_node_unreachable">Tsis muaj kev mus cuag tau</string>
+    <string name="invoice_subject">PalmPay daim nqi tuaj ntawm %1$s</string>
+    <string name="before_s">Ua ntej: %1$s</string>
+    <string name="share">Qhia tawm</string>
+    <string name="share_with">Qhia nrog</string>
+    <string name="connecting">Txuas ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Xaiv cov nyiaj them poob haujlwm</string>
+    <string name="dialog_msg_select_pending_payment">Ib qho nyiaj them poob haujlwm tau raug kuaj tau, tab sis tsis tuaj yeem yuav raug xa mus rau cov nyiaj them poob haujlwm yav dhau los. Thov xaiv qhov kev thov kom them nyiaj los ntawm cov npe nram qab no.</string>
+    <string name="dialog_msg_confirm_pending_payment">Qhov no yuav txuas mus rau cov nyiaj them poob haujlwm mus rau qhov kev thov dhau los ntawm %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Cov ntaub ntawv them nuj nqi them tuaj</string>
+    <string name="dialog_generic_title_confirm">Koj puas paub tseeb?</string>
+    <string name="dialog_generic_msg_confirm">Thov nco ntsoov tias qhov kev txiav txim no tsis tuaj yeem ua tsis tau</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Tso tawm</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Kev them nqi tshaj tawm!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Chaw</string>
+    <string name="general">General</string>
+    <string name="security">Kev ruaj ntseg</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">Tokens</string>
+    <string name="accounts">Cov Nyiaj Tau Los</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Hmo ntuj hom</string>
+    <string name="currency_info">Lub txiaj ntsim no yuav raug xaiv raws koj hom lus thiab xaiv lub teb chaws. Yog tias koj xav hloov cov neeg no, koj yuav tsum mus rau lub ntiaj teb chaw ntawm koj ntaus ntawv.</string>
+    <string name="screen_saver">Screen Saver</string>
+    <string name="source">Tau qhov twg los</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Vim nplaub tshev (/ PalmPay)</string>
+    <string name="txt_folder">Sis</string>
+    <string name="choose">Xaiv</string>
+    <string name="screen_saver_time">Pab tom qab ...</string>
+    <string name="one_minute">1 feeb</string>
+    <string name="three_minutes">3 feeb</string>
+    <string name="five_minutes">5 feeb</string>
+    <string name="local_ambassador">Tus thawj coj hauv zos</string>
+    <string name="ambassador_info">PalmPay Ambassadors tau them txhua 3 vib nas this. Lawv txoj hauj lwm yog los txhawb cov tub lag luam PalmPay hauv zos thiab txhim kho txhua hli Kev Sib Ntsib Kev Sib Ntsib. Yog tias koj lub nroog tsis tau teev, ces koj lub nroog tseem tsis tau muaj tus Poj Niam Xam Xaj. \n \n Rau cov lus qhia ntxiv, mus saib hauv lub zej zog Agorise hauv Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Nroog</string>
+    <string name="country">Lub teb chaws</string>
+    <string name="bugs_or_ideas">Yoov lossis Cov Tswv Yim?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram tham: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Txais</string>
+    <string name="select">Xaiv</string>
+    <string name="are_you_sure">Koj puas paub tseeb?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Thaub qab thaub qab</string>
+    <string name="copied_to_clipboard">Luam rau ntawv los teev cia</string>
+    <string name="bin_file_description">Rau hauv cov ntaub ntawv. Nco ntsoov txuag koj thaub qab thaub qab mus rau ib daim npav MicroSD lossis USB Stick.</string>
+    <string name="create_a_backup">Tsim kev thaub qab</string>
+    <string name="brainkey_description">Brainkey. Txhab nyiaj rov qab lo lus uas yuav ntes tau los sis theej, tab sis tsis kho.</string>
+    <string name="txt_brain_key_info">Sau qhov no, lossis sau nws. Txhua tus neeg uas nkag tau rau hauv koj lub lag luam rov qab yuav nkag tau rau cov nyiaj hauv cov khoom no.</string>
+    <string name="view_and_copy"><![CDATA[Saib & Luam]]></string>
+    <string name="title_bin_backup">Export. Xeem thaub qab</string>
+    <string name="hint_password">Lo lus zais</string>
+    <string name="hint_password_confirmation">Lo lus zais kev lees paub</string>
+    <string name="error_password_mandatory">Yuav tsum sau ib lo lus zais</string>
+    <string name="error_password_too_short">Lo lus zais luv heev</string>
+    <string name="error_password_confirmation_mismatch">Lo lus zais thiab kev lees paub kev siv mismatch</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Cov Qhua Ua Lag Luam: %1$s</string>
+    <string name="upgrade_to_ltm">Txawj tej yam ntxiv rau LTM</string>
+    <string name="upgrade_account_description">"Hloov mus rau LifeTime Kev Ua Haujlwm (LTM)." LTM accounts them ze tshaj xoom cov nqi, tau 80% nyiaj ntsuab thiab nyiaj pub rau cov kev xa mus. "</string>
+    <string name="account_upgrade_title">Txawj Nta Ntxiv</string>
+    <string name="account_upgrade_content">Lub Neej Ua Haujlwm Lub Neej (Life Time) tso cai rau koj mus pauv nrog cov nqi ntawm cov nqi zog network. \n \nKuv yuav siv mus rau tus account tam sim no "%1$s" \n \nYog li cas los xij nrog tus nqi ntawm 100 USD them hauv Bitshares. \n \nKev puas yog koj xav tias koj xav mus ntxiv?</string>
+    <string name="account_upgrade_wait_content">Kev lag luam uas muaj koj qhov kev thov yog raug ua los ntawm lub network</string>
+    <string name="error_upgrade_account_title">Kev ua yuam kev thaum sim ntsig txog kev txheeb xyuas nyiaj</string>
+    <string name="error_upgrade_account_content">Thov nco ntsoov tias koj tus account muaj nyiaj seem txaus kom them rau cov nqi</string>
+    <string name="account_upgraded_title">Txhab nyiaj dua tshiab</string>
+    <string name="account_upgraded_content">Pab kev zoo siab! koj tus account tau tam sim no tau kho kom zoo dua rau lub neej Kev Koom Tes.</string>
+    <string name="remove_account">Tshem Cov Txhab Nyiaj</string>
+    <string name="remove_account_description">Tshem qhov Merchant Account no. Tshem cov Merchant Account saum toj no los ntawm qhov ntaus ntawv no thiab tsim los yog nqus ib qho txawv.</string>
+    <string name="txt_account_remove_confirmation">"Koj puas paub tseeb tias koj xav tawm tus as khauj \'%1$s\' ntawm lub hnab no?"</string>
+    <string name="remove">Tshem tawm</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Desired Smartcoin</string>
+    <string name="txt_customer_loyalty">Issue Loyalty ntsiab lus raws li ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Koj tus as khauj tseem tsis tau muaj tus kheej %1$s. Thov tau ib co ua ntej koj sim muab tej yam rau koj cov neeg muas zaub li Loyalty Cov Ntsiab Lus.</string>
+    <string name="send">Xa</string>
+    <string name="txt_for_every">Rau txhua qhov</string>
+    <string name="txt_spent">siv</string>
+    <string name="txt_bitcoin_altcoin_deposited">Txais mus txog 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Thov xaiv tsis pub ntau tshaj 8 khoom muaj nqis</string>
+    <string name="bitshares_unselection_message">Lub Bitshares (BTS) tub ntxhais token yog yuav tsum tau ua.</string>
+    <string name="toast_low_volume_market">Cov khoom lag luam qes me ntsis yog cov neeg tsis taus lub cev. Lawv yuav tsum tau qhib thaum lub khw ntim nce mus rau ntau npaum li cas</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Khw Lub Npe</string>
+    <string name="address">Chaw nyob</string>
+    <string name="phone_number">Xov tooj</string>
+    <string name="website">Lub website</string>
+    <string name="message">Lus sam</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Tsis tau tsim cov hom ntawv rau qhov tseem ceeb</string>
+    <string name="saving_bin_file_to_s">Txuag Rau Hauv Cov Ntaub Ntawv Rau: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Rau hauv cov ntaub ntawv rua kev txhawm rau: %1$s</string>
+    <string name="unable_to_save_bin_file">Unable txuag cov ntaub ntawv</string>
+    <string name="creating_backup_file">Tsim cov ntaub ntawv thaub qab</string>
+    <string name="fetching_key">Fetching Qhov Tseem Ceeb</string>
+    <string name="generating_bin_format">Ua kom muaj hom ntawv</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Tshawb nrhiav</string>
+    <string name="filter">Lim</string>
+    <string name="export">Export</string>
+    <string name="confirming">Confirming ...</string>
+    <string name="pdf_generated_msg_s">PDF tsim thiab tau txais kev cawmdim: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Tsis tau tsim pdf. Thov rov ua dua. Yuam kev: %1$s</string>
+    <string name="csv_generated_msg_s">CSV generated thiab tau txais kev cawmdim: %1$s</string>
+    <string name="csv_generated_msg_error_s">Tsis tau tsim csv. Thov rov ua dua. Yuam kev: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Tag nrho</string>
+    <string name="sent">Xa ntawv</string>
+    <string name="received">Tau txais</string>
+    <string name="date_range">Hnub Nres</string>
+    <string name="txt_to">rau</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat npaum li cas</string>
+    <string name="between">Nruab nrab</string>
+    <string name="and">thiab</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Cov khoom lag luam xa tawm</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Generating export khoom</string>
+    <string name="exported_file_name">PalmPay-Kev Txiav Txim</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Los ntawm</string>
+    <string name="to">Yuav</string>
+    <string name="memo">Memo</string>
+    <string name="date">Hnub tim</string>
+    <string name="time">Lub sijhawm</string>
+    <string name="crypto_amount">Crypto Nyiaj</string>
+    <string name="crypto_symbol">Crypto Cim</string>
+    <string name="keyed_in_fiat_amount">Keyed-hauv Fiat Cov Nyiaj</string>
+    <string name="total_fiat_amount">Tag Nrho Cov Nyiaj Fiat</string>
+    <string name="fiat_currency">Fiat txiaj</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Yam khoom %1$d</string>
+    <string name="subtotal">Sub-Tag Nrho</string>
+    <string name="network_fee">Network tus nqi</string>
+    <string name="total">Tag nrho</string>
+    <string name="paid_s_s">Them %1$s %2$s</string>
+    <string name="change_due">Hloov sijhawm</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Hnub tim: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt los ntawm %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Hnub nyoog PIN tsis yog</string>
+    <string name="pin_changed_successfully">PIN hloov tau zoo</string>
+    <string name="please_enter_pin">Thov ntaus tus nab npawb PIN</string>
+    <string name="please_enter_pin_confirmation">Thov sau koj tus lej PIN naj npawb</string>
+    <string name="title_change_pin">Kho tus nab npawb PIN</string>
+    <string name="txt_current_pin">Tus naj npawb PIN tam sim no</string>
+    <string name="please_enter_old_pin">Thov nkag tus nab npawb PIN qub</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Node kev twb kev txuas yuam kev, retrying</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Peb tau txais ib qho khoom them tuaj, tab sis tsis muaj qhov thov tuaj yeem nrhiav tau</string>
+
+</resources>

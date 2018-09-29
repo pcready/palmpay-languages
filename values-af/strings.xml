@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">lisensie</string>
+    <string name="agree">saamstem</string>
+    <string name="disagree">Verskil</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Laai tans bates ...</string>
+    <string name="title_loading_asset_type_data">Laai batipe data ...</string>
+    <string name="title_assets_ready">Bate databasis gereed</string>
+    <string name="msg_loading_all_existing_assets">Doen \'n reeks versoeke om die volledige lys van alle bestaande bates te kry</string>
+    <string name="msg_loading_asset_type_data">Versoek verdere bate besonderhede</string>
+    <string name="msg_loading_asset_in_database">Laai %1$d bates in die databasis</string>
+    <string name="msg_assets_loaded">Volgende, stel asseblief jou rekening op ...</string>
+    <string name="error_fetching_marketcap_data">Kon nie markkapitalisasie data laai nie</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Skep rekening</string>
+    <string name="txt_account_name">BitShares rekening naam</string>
+    <string name="unable_to_find_account_id">Kan gebruikers rekening ID nie vind</string>
+    <string name="error_invalid_account_name_explanation">Die rekening naam moet óf meer as 8 karakters hê, \'n nommer bevat of geen vokale hê nie. Die onderstreepkarakter word ook nie toegelaat nie.</string>
+    <string name="create">Skep</string>
+    <string name="error">fout</string>
+    <string name="account_name_already_exist">Rekeningnaam bestaan ​​reeds</string>
+    <string name="try_again">Probeer asseblief weer na 5 minute</string>
+    <string name="txt_new_pin_confirmation">Bevestig nuwe PIN (6 + syfers)</string>
+    <string name="error_wif">Kon nie WIF sleutel skep nie</string>
+    <string name="error_faucet_template">Die kraan het \'n fout teruggegee. Msg: %1$s</string>
+    <string name="error_read_dict_file">Kon nie woordeboeklêer lees nie</string>
+    <string name="error_missing_account">Die program kon nie inligting oor die nuutgeskepte rekening kry nie</string>
+    <string name="create_account_title">Skep nuwe rekening</string>
+    <string name="create_account_message">Wag asseblief terwyl u rekening geskep is</string>
+    <string name="error_faucet_explanation">Die bediener het \'n fout teruggekry. Dit kan wees as gevolg van \'n beperking wat doelbewus ingestel is om gereelde versoeke wat uit dieselfde IP-adres kom, binne \'n kort tydjie te verval. Wag asseblief 5 minute en probeer weer, of skakel na \'n ander netwerk, byvoorbeeld van wifi na sel.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Maak asseblief seker dat jy jou breinknop rugsteun voordat jy verder gaan. Dit sal jou toelaat om jou rekening te herstel indien iets met hierdie toestel gebeur.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Hoe wil jy jou bestaande rekening invoer?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF sleutel</string>
+    <string name="bin_file">. Bin lêer</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Kies \'n 6-syfer-PIN</string>
+    <string name="txt_6_digits_pin_confirm">6 + syfers PIN bevestig</string>
+    <string name="please_enter_6_digit_pin">Voer asseblief die 6-syfer-PIN in</string>
+    <string name="please_enter_6_digit_pin_confirm">Voer asseblief die bevestiging van u PIN-nommer in</string>
+    <string name="mismatch_pin">Mismatch pin</string>
+    <string name="please_enter_brainkey">Voer asseblief die sleutelbord in</string>
+    <string name="please_enter_correct_brainkey">Voer asseblief die korrekte brein sleutel in, dit moet tussen 12 en 16 woorde bevat.</string>
+    <string name="unable_to_load_brainkey">Kan nie breinknop laai nie</string>
+    <string name="account_already_exist">Rekening bestaan ​​reeds</string>
+    <string name="importing_your_wallet">Voer jou beursie in ...</string>
+    <string name="account_candidates_title">Kies asseblief \'n rekening</string>
+    <string name="account_candidates_content">Die sleutels wat van hierdie breinknop afkomstig is, word gebruik om meer as een rekening te beheer. Kies asseblief watter rekening jy wil invoer</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Voer .bin-lêer in</string>
+    <string name="import_backup">Voer rugsteun uit .bin lêer</string>
+    <string name="txt_no_internet_connection">Geen internet konneksie nie</string>
+    <string name="no_file_chosen">Geen lêer gekies nie</string>
+    <string name="choose_backup">Kies Backup</string>
+    <string name="choose_file">Kies lêer</string>
+    <string name="txt_existing_password">Huidige .bin lêer Wagwoord of PIN</string>
+    <string name="txt_new_pin">Nuwe PIN (6 + syfers)</string>
+    <string name="importing_keys_from_bin_file">"Sleutellyne invoer vanaf Bin-lêer"</string>
+    <string name="please_make_sure_your_bin_file">Maak asseblief seker dat jou pen korrek is of dat die korrekte bin lêer gekies is</string>
+    <string name="missing_existing_password">Voer asseblief die wagwoord in wat gebruik word om hierdie rugsteunlêer te enkripteer</string>
+    <string name="pin_number_request">Voer asseblief die pinnommer in wat gebruik word om hierdie rugsteunlêer te kodeer</string>
+    <string name="pin_number_warning">Die pinnommer moet ten minste 6 syfers wees</string>
+    <string name="backup_error_no_key_reference_found">Geen rekening met hierdie sleutel is gevind nie, maak asseblief seker dat u \'n opgedateerde rugsteunlêer gebruik.</string>
+    <string name="backup_error_no_wallet_backup">Geen wallet-rugsteun kon gevind word in hierdie lêer nie</string>
+    <string name="error_invalid_account">Ongeldige rekening, gaan asseblief na jou brein sleutel vir tikfoute</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">invoer</string>
+    <string name="title_account_load_result">Rekening gelaai</string>
+    <string name="button_change_account">verandering</string>
+    <string name="title_select_input_assets">Kies die bates om te aanvaar.</string>
+    <string name="explanation_account_setup">U moet \'n Bitshares-rekening opstel om betalings te ontvang. Of as jy al een het, kan jy dit hier invoer.</string>
+    <string name="explanation_output_asset">Kies jou gewenste Smartcoin:</string>
+    <string name="next">volgende</string>
+    <string name="done">gedaan</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Betaal met</string>
+    <string name="error_corrupted_key_title">Sleutel korrupsie fout</string>
+    <string name="error_corrupted_key_content">Die program kan nie u geïnkripteer private sleutels van die databasis herwin nie. As gevolg hiervan sal u weer u sleutels moet invoer. Óf in die vorm van \'n breinknop of vorm die bin-rugsteunlêer wat outomaties in jou sdcard gegenereer en gestoor word as die rekening deur die program geskep is.</string>
+    <string name="invalid_pin">Ongeldige PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">huis</string>
+    <string name="txt_transactions">transaksies</string>
+    <string name="txt_refunds_returns">Terugbetalings / Opbrengste</string>
+    <string name="txt_settlement">nedersetting</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares knope</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Bedrag verskuldig</string>
+    <string name="sub_total">Subtotaal:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Orderboek fout</string>
+    <string name="content_error_market">Daar is geen bestellings in die DEX wat ons in staat stel om die uitruil na %1$s op die oomblik uit te voer nie. \n \nPlease gaan na die instellings skerm en kies \'n ander uitvoer bate.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Betaal asseblief</string>
+    <string name="please_pay_s_s">Betaal asseblief: %1$s %2$s</string>
+    <string name="to_s">Aan: %1$s</string>
+    <string name="txt_network">Netwerkfooi</string>
+    <string name="txt_please_wait">Wag asseblief</string>
+    <string name="error_node_unreachable">Geen nodus kon bereik word nie</string>
+    <string name="invoice_subject">PalmPay faktuur vanaf %1$s</string>
+    <string name="before_s">Voor: %1$s</string>
+    <string name="share">Deel</string>
+    <string name="share_with">Deel met</string>
+    <string name="connecting">Verbind ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Kies betalingsversoek</string>
+    <string name="dialog_msg_select_pending_payment">\'N Inkomende betaling is opgespoor, maar kon nie outomaties aan \'n vooraf aangevraagde betaling toegewys word nie. Kies asseblief die korrekte betalingsversoek uit die volgende lys.</string>
+    <string name="dialog_msg_confirm_pending_payment">Dit sal die inkomende betaling koppel aan die voorheen aangeteken betalingsversoek van %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Inkomende betalingsbesonderhede</string>
+    <string name="dialog_generic_title_confirm">Is jy seker?</string>
+    <string name="dialog_generic_msg_confirm">Let asseblief daarop dat hierdie aksie nie ongedaan gemaak kan word nie</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">ontslaan</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Betaling bevestig!</string>
+    <string name="txt_cool">KOEL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">instellings</string>
+    <string name="general">algemene</string>
+    <string name="security">sekuriteit</string>
+    <string name="backups">rugsteun</string>
+    <string name="tokens">tekens</string>
+    <string name="accounts">rekeninge</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Nagmodus</string>
+    <string name="currency_info">Die geldeenheid word outomaties gekies gebaseer op jou taal en land seleksie. As jy dit wil verander, moet jy na die globale stelselinstellings van jou toestel gaan.</string>
+    <string name="screen_saver">Screen Saver</string>
+    <string name="source">Bron</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Verstek vouer (/ PalmPay)</string>
+    <string name="txt_folder">gids</string>
+    <string name="choose">kies</string>
+    <string name="screen_saver_time">Aktiveer na ...</string>
+    <string name="one_minute">1 minuut</string>
+    <string name="three_minutes">3 minute</string>
+    <string name="five_minutes">5 minute</string>
+    <string name="local_ambassador">Plaaslike ambassadeur</string>
+    <string name="ambassador_info">PalmPay-ambassadeurs word elke 3 sekondes betaal. Hul werk is om plaaslike PalmPay-handelaars te ondersteun en maandelikse Crypto Meetups te organiseer. As jou stad nie gelys is nie, het jou stad nog nie \'n PalmPay-ambassadeur nie. \n \nVir meer inligting, besoek die Agorise gemeenskap op Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Stad</string>
+    <string name="country">land</string>
+    <string name="bugs_or_ideas">Insekte of idees?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">aanvaar</string>
+    <string name="select">Kies</string>
+    <string name="are_you_sure">Is jy seker?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Rugsteun breinknop</string>
+    <string name="copied_to_clipboard">Kopieer na knipbord</string>
+    <string name="bin_file_description">Bin lêer. Slaan altyd jou .bin lêer na \'n geheime MicroSD-kaart of USB Stick.</string>
+    <string name="create_a_backup">Skep \'n rugsteun</string>
+    <string name="brainkey_description">Brainkey. Rekeningherstelwoorde wat gevang of gekopieer kan word, maar nie geredigeer word nie.</string>
+    <string name="txt_brain_key_info">Druk dit uit, of skryf dit neer. Enigeen met toegang tot u herstel sleutel sal toegang tot fondse in hierdie beursie hê.</string>
+    <string name="view_and_copy">Bekyk en kopieer</string>
+    <string name="title_bin_backup">Voer .bin Friends uit</string>
+    <string name="hint_password">wagwoord</string>
+    <string name="hint_password_confirmation">Wagwoord bevestiging</string>
+    <string name="error_password_mandatory">Moet \'n wagwoord invoer</string>
+    <string name="error_password_too_short">Wagwoord is te kort</string>
+    <string name="error_password_confirmation_mismatch">Wagwoord en bevestiging mismatch</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Handelaarrekening: %1$s</string>
+    <string name="upgrade_to_ltm">Opgradeer na LTM</string>
+    <string name="upgrade_account_description">"Upgrade to LifeTime Membership (LTM). Bitshares se LTM-rekeninge betaal nul-fooie, kry 80% terugbetaling en bonusse vir verwysings."</string>
+    <string name="account_upgrade_title">Opgraderingsrekening</string>
+    <string name="account_upgrade_content">Die Life Time Membership laat u toe om met \'n verlaagde stel netwerkgelde te handel. \n___ Dit sal in werking tree op die huidige rekening "%1$s" \n \nDit kom egter met \'n koste van ongeveer 100 USD betaal in Bitshares. \n \n Is jy seker jy wil voortgaan?</string>
+    <string name="account_upgrade_wait_content">Die transaksie wat jou versoek bevat, word deur die netwerk verwerk</string>
+    <string name="error_upgrade_account_title">Kon nie die rekening opgradeer nie</string>
+    <string name="error_upgrade_account_content">Maak asseblief seker dat u rekening genoeg balans het om die koste te dek</string>
+    <string name="account_upgraded_title">Rekening opgradeer</string>
+    <string name="account_upgraded_content">Baie geluk! Jou rekening is nou opgegradeer na die lewenslange lidmaatskap.</string>
+    <string name="remove_account">Verwyder rekening</string>
+    <string name="remove_account_description">Verwyder hierdie handelaarrekening. Verwyder die handelaarrekening hierbo van hierdie toestel en skep of invoer \'n ander een.</string>
+    <string name="txt_account_remove_confirmation">"Is jy seker jy wil die rekening \'%1$s\' van hierdie beursie verwyder?"</string>
+    <string name="remove">verwyder</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Gewenste Smartcoin</string>
+    <string name="txt_customer_loyalty">Stel lojaliteitspunte uit as ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Jou rekening het nog nie \'n %1$s nie. Verkry gerus \'n paar voordat u probeer om iemand aan u kliënte as lojaliteitspunte te gee.</string>
+    <string name="send">stuur</string>
+    <string name="txt_for_every">Vir elke</string>
+    <string name="txt_spent">spandeer</string>
+    <string name="txt_bitcoin_altcoin_deposited">Aanvaar tot 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Kies asseblief nie meer as 8 insetbates nie</string>
+    <string name="bitshares_unselection_message">Die Bitshares (BTS) kernteken is nodig.</string>
+    <string name="toast_low_volume_market">Lae volume markbates word tydelik gedeaktiveer. Hulle sal geaktiveer word sodra die markvolume aansienlik styg</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">logo</string>
+    <string name="store_name">Winkelnaam</string>
+    <string name="address">adres</string>
+    <string name="phone_number">Telefoon nommer</string>
+    <string name="website">webwerf</string>
+    <string name="message">boodskap</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Kan binformaat vir sleutel nie genereer nie</string>
+    <string name="saving_bin_file_to_s">Stoor lêer lêer na: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin lêer suksesvol gestoor na: %1$s</string>
+    <string name="unable_to_save_bin_file">Kan bin lêer nie stoor nie</string>
+    <string name="creating_backup_file">Skep rugsteunlêer</string>
+    <string name="fetching_key">Haal sleutel</string>
+    <string name="generating_bin_format">Genereer bin-formaat</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Soek</string>
+    <string name="filter">filter</string>
+    <string name="export">uitvoer</string>
+    <string name="confirming">Bevestig ...</string>
+    <string name="pdf_generated_msg_s">PDF gegenereer en gestoor: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Kan nie pdf genereer nie. Probeer asseblief weer. Fout: %1$s</string>
+    <string name="csv_generated_msg_s">CSV gegenereer en gestoor: %1$s</string>
+    <string name="csv_generated_msg_error_s">Kan nie csv genereer nie. Probeer asseblief weer. Fout: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Almal</string>
+    <string name="sent">gestuur</string>
+    <string name="received">ontvang</string>
+    <string name="date_range">Datum reeks</string>
+    <string name="txt_to">om</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat bedrag</string>
+    <string name="between">tussen</string>
+    <string name="and">en</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Uitvoer gefilterde transaksies</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Genereer uitvoerproduk</string>
+    <string name="exported_file_name">PalmPay-transaksies</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Van</string>
+    <string name="to">om</string>
+    <string name="memo">memo</string>
+    <string name="date">datum</string>
+    <string name="time">tyd</string>
+    <string name="crypto_amount">Kripto Bedrag</string>
+    <string name="crypto_symbol">Crypto-simbool</string>
+    <string name="keyed_in_fiat_amount">Ingevoerde Fiat Bedrag</string>
+    <string name="total_fiat_amount">Totale Fiat Bedrag</string>
+    <string name="fiat_currency">Fiat Valuta</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Item %1$d</string>
+    <string name="subtotal">Subtotaal</string>
+    <string name="network_fee">Netwerkfooi</string>
+    <string name="total">totale</string>
+    <string name="paid_s_s">Betaal %1$s %2$s</string>
+    <string name="change_due">Verandering verskuldig</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Datum: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt van %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Verkeerde ou PIN</string>
+    <string name="pin_changed_successfully">PIN is suksesvol verander</string>
+    <string name="please_enter_pin">Voer asseblief die PIN-nommer in</string>
+    <string name="please_enter_pin_confirmation">Voer asseblief u PIN-nommer bevestiging in</string>
+    <string name="title_change_pin">Redigeer PIN</string>
+    <string name="txt_current_pin">Huidige PIN-nommer</string>
+    <string name="please_enter_old_pin">Voer asseblief ou PIN-nommer in</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Node verbinding fout, probeer weer</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Ons het \'n inkomende betaling ontvang, maar geen versoek kon gevind word nie</string>
+
+</resources>

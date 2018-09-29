@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Ilayisenisi</string>
+    <string name="agree">Vu melani</string>
+    <string name="disagree">Andivumelani</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Ukulayisha ipahla ...</string>
+    <string name="title_loading_asset_type_data">Ukulayisha idatha yohlobo lwempahla ...</string>
+    <string name="title_assets_ready">Idatha ye-Asset isilungele</string>
+    <string name="msg_loading_all_existing_assets">Ukwenza uchungechunge lwezicelo ukuze ufumane uluhlu olupheleleyo lwezinto ezikhoyo</string>
+    <string name="msg_loading_asset_type_data">Ukucela ezinye iinkcukacha zeefa</string>
+    <string name="msg_loading_asset_in_database">Ikhishwe i -____dd impahla kwi-database</string>
+    <string name="msg_assets_loaded">Emva koko, nceda usethe iakhawunti yakho ...</string>
+    <string name="error_fetching_marketcap_data">Ayikwazanga ukulayisha idatha ye-marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Dala i-akhawunti</string>
+    <string name="txt_account_name">Igama leakhawunti yeBitShares</string>
+    <string name="unable_to_find_account_id">Ayikwazi ukufumana id ye-akhawunti yomsebenzisi</string>
+    <string name="error_invalid_account_name_explanation">Igama le-akhawunti kufuneka libe neenhlamvu ezingaphezu kwe-8, ziqule nenamba okanye zingabi namakhonkco. Umgca we-underscore awuvunyelwe.</string>
+    <string name="create">Yakha</string>
+    <string name="error">I mpazamo</string>
+    <string name="account_name_already_exist">Igama le-akhawunti sele likhona</string>
+    <string name="try_again">Nceda uzame emva kwemizuzu emi-5</string>
+    <string name="txt_new_pin_confirmation">Qinisekisa i-PIN entsha (amadijithi ama-6 +)</string>
+    <string name="error_wif">Iphutha ekudaleni ukhiye weWIF</string>
+    <string name="error_faucet_template">Ifaucet yabuya impazamo. UNksk: %1$s</string>
+    <string name="error_read_dict_file">Iphutha lokufunda ifayile yesichazamazwi</string>
+    <string name="error_missing_account">Insiza ayikwazanga ukufumana ulwazi malunga neakhawunti entsha</string>
+    <string name="create_account_title">Ukudala i-akhawunti entsha</string>
+    <string name="create_account_message">Nceda ulinde ngelixa i-akhawunti yakho idalwa</string>
+    <string name="error_faucet_explanation">Umncedisi ubuyisele impazamo. Oku kunokwenzeka ngenxa yokunciphisa injongo ekujoliswe kuyo ukwenzela ukungavumeli izicelo ezivela rhoqo kwidilesi enye ye-IP ngexesha elifutshane. Nceda ulinde imizuzu emi-5 kwaye uzame kwakhona, okanye utshintshe kwinethiwekhi eyahlukileyo, Ngokomzekelo ukusuka kwi-Wi-Fi ukuya kwiseli.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Nceda qinisekisa ukuba ulondoloze ingqondo yakho ngaphambi kokuba uqhubeke. Oku kuya kukuvumela ukuba ubuyisele i-akhawunti yakho xa kwenzeka into ekhoyo kule divayisi.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Ungathanda ukungenisa njani i-akhawunti yakho ekhoyo?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">I-WIF</string>
+    <string name="bin_file">.fayile</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Khetha i-PIN ye-6+</string>
+    <string name="txt_6_digits_pin_confirm">Idijithi ze-6 + zePIN ziqinisekisa</string>
+    <string name="please_enter_6_digit_pin">Nceda faka i-PIN yenani le-6</string>
+    <string name="please_enter_6_digit_pin_confirm">Nceda ufake ubungqina benkcukacha yakho yePIN</string>
+    <string name="mismatch_pin">Ukukhangela ipini</string>
+    <string name="please_enter_brainkey">Nceda ungene engqondweni</string>
+    <string name="please_enter_correct_brainkey">Nceda faka i-brainkey efanelekileyo, kufuneka ibe namazwi angama-12 no-16.</string>
+    <string name="unable_to_load_brainkey">Ayikwazi ukulayisha ingqondo</string>
+    <string name="account_already_exist">Akhawunti sele ikhona</string>
+    <string name="importing_your_wallet">Ukungenisa i-wallet yakho ...</string>
+    <string name="account_candidates_title">Nceda ukhethe i-akhawunti</string>
+    <string name="account_candidates_content">Izihluthulelo ezivela kule brainkey zibonakala zisetyenziswa ukulawula ngaphezulu kweakhawunti enye, nceda ukhethe i-akhawunti oyifunayo ukungenisa</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Ngenisa ifayile .bin</string>
+    <string name="import_backup">Ukungenisa Ubumfihlo kwifayile .bin</string>
+    <string name="txt_no_internet_connection">Akukho Uxhumano lweInternet</string>
+    <string name="no_file_chosen">Akukho fayile ekhethiweyo</string>
+    <string name="choose_backup">Khetha Isipele</string>
+    <string name="choose_file">Khetha Ifayile</string>
+    <string name="txt_existing_password">Ikhowudi yefowuni yamanje. Iphasiwedi okanye iPIN</string>
+    <string name="txt_new_pin">I-PIN entsha (amadijithi ama-6 +)</string>
+    <string name="importing_keys_from_bin_file">"Ukungenisa iiKey kwiFayile yeBin"</string>
+    <string name="please_make_sure_your_bin_file">Nceda qinisekisa ukuba ipini lakho lichanile okanye lichane ifayile yebhayinti ikhethiweyo</string>
+    <string name="missing_existing_password">Nceda faka iphasiwedi esetyenziselwa ukubhapathiza le fayile yokulondoloza</string>
+    <string name="pin_number_request">Nceda faka inombolo yepini esetyenzisiweyo ukufakela le fayile yokulondoloza</string>
+    <string name="pin_number_warning">Inombolo ye-pin kufuneka ibe namadijithi angama-6</string>
+    <string name="backup_error_no_key_reference_found">Ayikho i-akhawunti esebenzisa esi sitshixo, nceda qinisekisa ukuba usebenzisa ifayile yokulondoloza ehlaziyiweyo.</string>
+    <string name="backup_error_no_wallet_backup">Akukho khuselo lesikhwama lungafumaneka kule fayile</string>
+    <string name="error_invalid_account">I-akhawunti engavumelekanga, nceda khangela utshintsho lobuchopho lwakho lokuthayipha amaphutha</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Ngenisa</string>
+    <string name="title_account_load_result">Akhawunti ilayishiwe</string>
+    <string name="button_change_account">Tshintsha</string>
+    <string name="title_select_input_assets">Khetha ixabiso ukuze uwamkele.</string>
+    <string name="explanation_account_setup">Uzakufuna ukumisa i-akhawunti ye-Bitshares ukuze ufumane iintlawulo. Okanye ukuba sele unayo, ungayifaka apha.</string>
+    <string name="explanation_output_asset">Khetha i-Smartcoin oyifunayo:</string>
+    <string name="next">Okulandelayo</string>
+    <string name="done">Yenziwe</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Hlawula</string>
+    <string name="error_corrupted_key_title">Iphutha ephosakeleyo</string>
+    <string name="error_corrupted_key_content">Insiza ayikwazi ukufumana izitshixo zangasese ezibhaliweyo ezivela kwisiseko sedatha. Ngenxa yalokho uza kufuneka ufake izitshixo kwakhona. Kungakhathaliseki uhlobo lwe-brainkey okanye ifom yefayile yokugcinwa kwefayile eyakhiwe kwaye igcinwe ngokuzenzekelayo kwi-sdcard yakho ukuba i-akhawunti yenziwe yi-app</string>
+    <string name="invalid_pin">I-PIN engavumelekanga</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Ikhaya</string>
+    <string name="txt_transactions">Intsebenzo</string>
+    <string name="txt_refunds_returns">Imbuyiselo / ukubuya</string>
+    <string name="txt_settlement">Kuhlala</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares nodes</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Imali eshiyekile</string>
+    <string name="sub_total">Ingqinkwana-Yonke:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Iphutha lencwadi</string>
+    <string name="content_error_market">Akukho myalelo kwi-DEX eya kuthi sivumele ukuba senze utshintsho ku -____s__ ngeli xesha. \n \nSicela uhambe kwiiskrini zesetyu kwaye ukhethe i-asethi yokuvelisa eyahlukileyo.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Nceda uhlawule</string>
+    <string name="please_pay_s_s">Nceda hlawula: %1$s %2$s</string>
+    <string name="to_s">Ku: %1$s</string>
+    <string name="txt_network">Imali yomnxeba</string>
+    <string name="txt_please_wait">Nceda linda</string>
+    <string name="error_node_unreachable">Akukho node ingafinyelelwa</string>
+    <string name="invoice_subject">Invoyisi yePalPay esuka ku -____s__</string>
+    <string name="before_s">Ngaphambi: %1$s</string>
+    <string name="share">Yabelana</string>
+    <string name="share_with">Yabelana ngayo</string>
+    <string name="connecting">Ukuxhuma ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Khetha isicelo sokuhlawula</string>
+    <string name="dialog_msg_select_pending_payment">Intlawulo engenayo ifunyenwe, kodwa ayikwazanga ukunikezelwa ngokuzenzekelayo kwintlawulo efunwa ngaphambili. Nceda ukhethe isicelo esifanelekileyo sokuhlawula kuluhlu olulandelayo.</string>
+    <string name="dialog_msg_confirm_pending_payment">Oku kuya kudibanisa inkokhelo engenayo kwisicelo sokuhlawulwa kwangaphambili se-%1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Iinkcukacha zokuhlawula ezingenayo</string>
+    <string name="dialog_generic_title_confirm">Ingaba uqinisekile?</string>
+    <string name="dialog_generic_msg_confirm">Nceda uqaphele ukuba le nyathelo ayikwazi ukuchithwa</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Cima</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Intlawulo iqinisekisiwe!</string>
+    <string name="txt_cool">KUHLE!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Izicwangciso</string>
+    <string name="general">Jikelele</string>
+    <string name="security">Khu seleko</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">Iimpawu</string>
+    <string name="accounts">Akhawunti</string>
+    <string name="e_receipts">iReReipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Imodi yasebusuku</string>
+    <string name="currency_info">Imali ikhethwe ngokuzenzekelayo ngokusekelwe kulwimi lwakho nokukhethwa kwelizwe. Ukuba ufuna ukutshintsha ezo, kufuneka uhambe kwiindlela zesistimu zehlabathi jikelele kwisixhobo sakho.</string>
+    <string name="screen_saver">Umgcini skrini</string>
+    <string name="source">Umthombo</string>
+    <string name="bitshares_logo">BitShares ILogo</string>
+    <string name="default_folder">Ifolda engapheliyo (/ PalmPay)</string>
+    <string name="txt_folder">Ifolda</string>
+    <string name="choose">Khetha</string>
+    <string name="screen_saver_time">Nika amandla emva ...</string>
+    <string name="one_minute">1 Minute</string>
+    <string name="three_minutes">3 imizuzu</string>
+    <string name="five_minutes">5 imizuzu</string>
+    <string name="local_ambassador">Umbhalisi weNgingqi</string>
+    <string name="ambassador_info">Ama-ambassadors ePalmPay ayahlawulwa nganye imizuzwana emithathu. Umsebenzi wabo kukuxhasa abathengisi basePalPay basekhaya kwaye baququzelele i-Crypto Meetups nganye. Ukuba isixeko sakho asilulwanga, umzi wakho awunayo i-PalmPay Ambassador. \n \nNgolwazi olungakumbi, tyelela uluntu lwaseAgorise kwiTelegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Sixeko</string>
+    <string name="country">Izwe</string>
+    <string name="bugs_or_ideas">Bugs okanye Iingcamango?</string>
+    <string name="bugs_or_ideas_contact_info">Ingxoxo yeTelegram: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Yamkela</string>
+    <string name="select">Khetha</string>
+    <string name="are_you_sure">Ingaba uqinisekile?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Ukugcinwa kwengqondo kwengqondo</string>
+    <string name="copied_to_clipboard">Ikopishiwe kwibhodi yokunamathisela</string>
+    <string name="bin_file_description">Ifayile yeBin. Nceda ugcine ulondolozo lwakho lwefayile .bin fayile kwikhadi eliyimfihlo le-MicroSD okanye kwi-USB Stick.</string>
+    <string name="create_a_backup">Yenza isipele</string>
+    <string name="brainkey_description">Brainkey. Amazwi okufumana iAkhawunti angabanjwa okanye athotshwe, kodwa angagqitywanga.</string>
+    <string name="txt_brain_key_info">Phrinta oku ngaphandle, okanye ubhale phantsi. Nawuphi na onokufikelela kwisitshixo sakho sokubuyisela uya kuba nokufikelela kwimali ngaphakathi kwesi sikhwama.</string>
+    <string name="view_and_copy"><![CDATA[Jonga & Kopisha]]></string>
+    <string name="title_bin_backup">Thumela ngaphandle</string>
+    <string name="hint_password">Inombolo yokuvula</string>
+    <string name="hint_password_confirmation">Ukuqinisekiswa kwephasiwedi</string>
+    <string name="error_password_mandatory">Kumele ufake iphasiwedi</string>
+    <string name="error_password_too_short">Iphasiwedi imfutshane kakhulu</string>
+    <string name="error_password_confirmation_mismatch">Iphasiwedi kunye nokuqinisekiswa okungekhoyo</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Akhawunti yeMthengisi: %1$s</string>
+    <string name="upgrade_to_ltm">Ukuphucula kwi-LTM</string>
+    <string name="upgrade_account_description">"Ukuphucula kwi-LifeTime Ubulungu (i-LTM). Iingxelo ze-Bitsres ze-LTM zihlawula iifizi ezikufutshane, ufumane i-80% ye-cashback kunye neebhonasi zokuthumela."</string>
+    <string name="account_upgrade_title">Ukuphucula iAkhawunti</string>
+    <string name="account_upgrade_content">Ubulungu bexesha loBomi kukuvumela ukuba uthengise kunye nesethi encitshisiwe yentlawulo yenethiwekhi. \n \nUya kusebenza kwi-akhawunti yangoku "%1$s" \n \nKodwa kungena ngeendleko ze-100 USD ezihlawulwa kwiBitshares. \n \nAngaba uqinisekile ukuba ufuna ukuqhubeka?</string>
+    <string name="account_upgrade_wait_content">Intengiso equlethe isicelo sakho iqhutyelwa yintanethi</string>
+    <string name="error_upgrade_account_title">Iphutha ngelixa lizama ukuphucula i-akhawunti</string>
+    <string name="error_upgrade_account_content">Nceda qinisekisa ukuba i-akhawunti yakho ine-balance balance yokwenza iindleko</string>
+    <string name="account_upgraded_title">Iakhawunti iphuculwe</string>
+    <string name="account_upgraded_content">Vuyiswa! i-akhawunti yakho ngoku iphuculwe kwiBhodi yoBomi.</string>
+    <string name="remove_account">Susa iAkhawunti</string>
+    <string name="remove_account_description">Susa le Akhawunti yeMthengisi. Susa i-Akhawunti yeMthengisi ngasentla kule fowuni uze udale okanye ungenise enye.</string>
+    <string name="txt_account_remove_confirmation">"Ngaba uqinisekile ukuba ufuna ukususa i-akhawunti \'%1$s\' kule ngxowa?"</string>
+    <string name="remove">Susa</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Smartcoin efuna</string>
+    <string name="txt_customer_loyalty">Ikhupha Amanqaku okunyaniseka njengo ...</string>
+    <string name="warning_insufficient_reward_asset_balance">I-akhawunti yakho ayinayo nayiphi na %1$s. Nceda ufumane enye ngaphambi kokuba uzame ukunika nabathengi bakho njengamaphuzu okuthembeka.</string>
+    <string name="send">Thumela</string>
+    <string name="txt_for_every">Nganye</string>
+    <string name="txt_spent">zichithe</string>
+    <string name="txt_bitcoin_altcoin_deposited">Yamkelwa kwi-8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Nceda ukhethe akukho ngaphezu kwe-8 yezinto zokufakelwa</string>
+    <string name="bitshares_unselection_message">I-Bitshares (BTS) yomqondiso oyimfuneko iyadingeka.</string>
+    <string name="toast_low_volume_market">Iimpahla zexabiso lemarike ephantsi zikhubazekile okwesikhashana. Baza kunikwa amandla xa umthamo wemakethe uphakanyiswa kwisixa esininzi</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">ILogo</string>
+    <string name="store_name">Igama lokugcina</string>
+    <string name="address">Idilesi</string>
+    <string name="phone_number">Inombolo yomnxeba</string>
+    <string name="website">Iwebhusayithi</string>
+    <string name="message">Umyalezo</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Ayikwazi ukuvelisa ifom yebhanki</string>
+    <string name="saving_bin_file_to_s">Ukugcina ifayile yeBin kwi: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Ifayile yeBhin igcinwe ngempumelelo kwi: %1$s</string>
+    <string name="unable_to_save_bin_file">Ayikwazi ukulondoloza ifayile yebhayinti</string>
+    <string name="creating_backup_file">Ukudala ifayile yokuLondoloza</string>
+    <string name="fetching_key">Ukuthatha Ukhiye</string>
+    <string name="generating_bin_format">Ukudala ifom yebhan</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Usesho</string>
+    <string name="filter">Uluhlu</string>
+    <string name="export">Ukuthumela ngaphandle</string>
+    <string name="confirming">Ukuqinisekisa ...</string>
+    <string name="pdf_generated_msg_s">I-PDF eyenziwe kwaye igcinwe: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Ayikwazi ukuvelisa pdf. Nceda uzame kwakhona. I mpazamo: %1$s</string>
+    <string name="csv_generated_msg_s">I-CSV yenziwe kwaye igcinwa: %1$s</string>
+    <string name="csv_generated_msg_error_s">Ayikwazi ukwenza i-csv. Nceda uzame kwakhona. I mpazamo: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Konke</string>
+    <string name="sent">Thunyelwe</string>
+    <string name="received">Ku funyenwe</string>
+    <string name="date_range">Umhla</string>
+    <string name="txt_to">ukuba</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Inani leFiat</string>
+    <string name="between">Phakathi</string>
+    <string name="and">kwaye</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Ukuthumela ngaphandle izinto ezifakiwe</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Ukuvelisa umkhiqizo ngaphandle</string>
+    <string name="exported_file_name">PalmPay-Intengiso</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Ukusuka</string>
+    <string name="to">Ku</string>
+    <string name="memo">Memo</string>
+    <string name="date">Umhla</string>
+    <string name="time">Ixesha</string>
+    <string name="crypto_amount">Inani leCripto</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">I-Keyed-kwi-Fiat Inani</string>
+    <string name="total_fiat_amount">Inani elipheleleyo le-Fiat</string>
+    <string name="fiat_currency">Fiat Imali</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Into %1$d</string>
+    <string name="subtotal">I-Sub Total</string>
+    <string name="network_fee">Imali yomnxeba</string>
+    <string name="total">Iyonke</string>
+    <string name="paid_s_s">Ihlawulwe %1$s %2$s</string>
+    <string name="change_due">Utshintsho olufanelekileyo</string>
+    <string name="e_receipt_memo_s">Imemo: %1$s</string>
+    <string name="e_receipt_date_s">Umhla: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt ukusuka %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">IPIN endala</string>
+    <string name="pin_changed_successfully">I-PIN yatshintsha ngempumelelo</string>
+    <string name="please_enter_pin">Nceda ufake inombolo ye-PIN</string>
+    <string name="please_enter_pin_confirmation">Nceda faka isiqinisekiso sakho senombolo ye-PIN</string>
+    <string name="title_change_pin">Hlela i-PIN</string>
+    <string name="txt_current_pin">Inombolo yePIN yamanje</string>
+    <string name="please_enter_old_pin">Nceda ufake inombolo ye-PIN endala</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Iphutha loxhumano lweNode, ukuzama kwakhona</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Sifumane inkokhelo engenayo, kodwa akukho sicelo esingafunyanwa</string>
+
+</resources>

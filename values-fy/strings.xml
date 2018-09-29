@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Fergunning</string>
+    <string name="agree">Oerienkomme</string>
+    <string name="disagree">Net te dwaan</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Loading assets ...</string>
+    <string name="title_loading_asset_type_data">Loading asset type data ...</string>
+    <string name="title_assets_ready">Assetdatabank klear</string>
+    <string name="msg_loading_all_existing_assets">In rige fersiken útfiere om de folsleine list fan alle besteande assten te krijen</string>
+    <string name="msg_loading_asset_type_data">Oanfreegje fan mear asset details</string>
+    <string name="msg_loading_asset_in_database">Loadearre %1$d-aktives yn \'e database</string>
+    <string name="msg_assets_loaded">Fierder, set jo akkount op ynstelje ...</string>
+    <string name="error_fetching_marketcap_data">Koe meldkap-gegevens net laden</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Skriuwkount oanmeitsje</string>
+    <string name="txt_account_name">BitShares akkount namme</string>
+    <string name="unable_to_find_account_id">It brûker-account-id koe net fûn wurde</string>
+    <string name="error_invalid_account_name_explanation">De accountnamme moat hawwe mear as 8 tekens, in nûmer befetsje of hawwe gjin lûdwurden. It subsymerk is ek net tastien.</string>
+    <string name="create">Meitsje</string>
+    <string name="error">Fersin</string>
+    <string name="account_name_already_exist">Akkountnamme bestiet al</string>
+    <string name="try_again">Besykje nochris nei 5 minuten</string>
+    <string name="txt_new_pin_confirmation">Befêstigje nije PIN (6 + sifers)</string>
+    <string name="error_wif">Flater by it meitsjen fan WIF-kaai</string>
+    <string name="error_faucet_template">De krêft gie in flater werom. Msg: %1$s</string>
+    <string name="error_read_dict_file">Flater by it werjaan fan wurdboektekst</string>
+    <string name="error_missing_account">De app koe ynformaasje net ophelje oer it nij kreëarre akkount</string>
+    <string name="create_account_title">Nije akkount oanmeitsje</string>
+    <string name="create_account_message">Wacht wacht, wylst jo akkount is makke</string>
+    <string name="error_faucet_explanation">De tsjinner antwurdde in flater. Dit kin wêze troch in beheining te bepalen yn plak om foarkommende oanfragen út te kommen fan itselde IP adres yn in koart tiidrek. Wacht bitte 5 minuten en besykje nochris, of wikselje nei in oare netwurk, bygelyks fan wifi nei sel.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Soargje derfoar dat jo jo brekken foardat foardat jo trochgean. Dit sil jo jo akkount ophelje yn \'t gefal wat der bart mei dit apparaat.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Hoe wolle jo jo besteande akkount ymportearje?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin bestannen</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Kies in 6 + digitale PIN</string>
+    <string name="txt_6_digits_pin_confirm">6+ sifers PIN befestigje</string>
+    <string name="please_enter_6_digit_pin">Fier de 6-stjoert PIN yn</string>
+    <string name="please_enter_6_digit_pin_confirm">Fier de befestiging fan jo PIN-nûmer yn</string>
+    <string name="mismatch_pin">Mismatch pin</string>
+    <string name="please_enter_brainkey">Binne jo ynbrekke yn brainkey</string>
+    <string name="please_enter_correct_brainkey">Fier in korrekte brainkey yn, it moat tusken 12 en 16 wurden.</string>
+    <string name="unable_to_load_brainkey">Koe braak net lade</string>
+    <string name="account_already_exist">Akkount al bestiet</string>
+    <string name="importing_your_wallet">Jo wallet ymportearje ...</string>
+    <string name="account_candidates_title">Selektearje in akkount</string>
+    <string name="account_candidates_content">De kaaiten dy\'t ûntliend binne fan dizze brainkey, wurde brûkt om mear as ien akkount te kontrolearjen, selektearje hokker akkount jo wolle ymportearje</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Ymportearje .bin-bestân</string>
+    <string name="import_backup">Import Backup from .bin file</string>
+    <string name="txt_no_internet_connection">Gjin ynternetferbining</string>
+    <string name="no_file_chosen">Gjin bestân keazen</string>
+    <string name="choose_backup">Kies Backup</string>
+    <string name="choose_file">Kies Bestân</string>
+    <string name="txt_existing_password">Aktive .bin triem Wachtwurd of PIN</string>
+    <string name="txt_new_pin">Nije PIN (6 + sifers)</string>
+    <string name="importing_keys_from_bin_file">"Keys út Bin-bestân ymportearje"</string>
+    <string name="please_make_sure_your_bin_file">Soargje derfoar dat jo pin is korrekt of korrekt bin bestân is selektearre</string>
+    <string name="missing_existing_password">Fier hjir it wachtwurd yn om dizze backup bestân te fersiferjen</string>
+    <string name="pin_number_request">Fier it pinnûmer yn by it kodearjen fan dizze backupbestân</string>
+    <string name="pin_number_warning">It pin nûmer moat op syn minst 6 sifers wêze</string>
+    <string name="backup_error_no_key_reference_found">Gjin akkount mei dizze kaai is fûn, sjoch asjebleaft dat jo in aktualisearre backup bestân brûke.</string>
+    <string name="backup_error_no_wallet_backup">Gjin backt backup koe yn dizze bestân fûn wurde</string>
+    <string name="error_invalid_account">Unjildich akkount, kontrolearje jo harsenskaai foar it typen fan flater</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Ymport</string>
+    <string name="title_account_load_result">Akkount laden</string>
+    <string name="button_change_account">Feroaring</string>
+    <string name="title_select_input_assets">Selektearje it aktyf om te akseptearjen.</string>
+    <string name="explanation_account_setup">Jo moatte in Bitshares akkount ynstelle om pansen te ûntfangen. Of as jo ien hawwe, dan kinne jo it hjir ymportearje.</string>
+    <string name="explanation_output_asset">Kies jo winske Smartcoin:</string>
+    <string name="next">Folgjende</string>
+    <string name="done">Done</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Betelje mei</string>
+    <string name="error_corrupted_key_title">Flater korrupsjeflater</string>
+    <string name="error_corrupted_key_content">De app is net slagge om jo fersifere privee toetsen te berikken fan \'e database. Hjirmei sil jo \ \'t ferplicht wurde om jo kaaien wernei te ynfoljen. Of ien yn \'e foarm fan in brakke of formulier de bin-bestânsdateur dy\'t automatysk yn jo sdcard generearre en bewarre is as de account kreëarre is troch de app</string>
+    <string name="invalid_pin">Unjildige PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Thús</string>
+    <string name="txt_transactions">Transaksjes</string>
+    <string name="txt_refunds_returns">Fergunningen / werom</string>
+    <string name="txt_settlement">Koloanje</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares knoppen</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Beleid fûn</string>
+    <string name="sub_total">Sub-Totaal:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Bestel buchferbrûk</string>
+    <string name="content_error_market">Der binne gjin oarders yn \'e DEX dy\'t it tastimming jaan kinne oan it %1$s op it stuit. \n \nPlease gean nei it ynstellingsskerm en selektearje in oare effektive asset.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Please Pay</string>
+    <string name="please_pay_s_s">Bitte betelje: %1$s %2$s</string>
+    <string name="to_s">To: %1$s</string>
+    <string name="txt_network">Netwurk fergoeding</string>
+    <string name="txt_please_wait">Wachtsje even asjebleaft</string>
+    <string name="error_node_unreachable">Gjin knooppunt koe berikt wurde</string>
+    <string name="invoice_subject">PalmPay-invoice fan %1$s</string>
+    <string name="before_s">Foarôf: %1$s</string>
+    <string name="share">Diele</string>
+    <string name="share_with">Diele mei</string>
+    <string name="connecting">Ferbine ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Selektear betelje</string>
+    <string name="dialog_msg_select_pending_payment">In ynkommende betelling waard fûn, mar koe automatysk net oan ien earder frege betelje wurde. Selektearje it korrekte betellingfraach fan \'e neikommende list.</string>
+    <string name="dialog_msg_confirm_pending_payment">Dit sil de ynkommende betelling te keppeljen oan it earder opnommen betelje fan betelling fan %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Ynkommende betellings details</string>
+    <string name="dialog_generic_title_confirm">Bisto wis?</string>
+    <string name="dialog_generic_msg_confirm">Tink derom dat dizze aksje net ûngedien meitsje kin</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Betelje befêstige!</string>
+    <string name="txt_cool">KOEL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Ynstellings</string>
+    <string name="general">Algemien</string>
+    <string name="security">Feiligens</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">Peinjes</string>
+    <string name="accounts">Accounts</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Nachtmodus</string>
+    <string name="currency_info">De munt wurdt automatysk selektearre basearre op jo taal en lokaasjedeksje. As jo ​​dy wizigje wolle, moatte jo de global ynstellings fan jo apparaat gean.</string>
+    <string name="screen_saver">Screen Saver</string>
+    <string name="source">Boarne</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Standert map (/ PalmPay)</string>
+    <string name="txt_folder">Folder</string>
+    <string name="choose">Kieze</string>
+    <string name="screen_saver_time">Folgje nei ...</string>
+    <string name="one_minute">1 Minute</string>
+    <string name="three_minutes">3 minuten</string>
+    <string name="five_minutes">5 minuten</string>
+    <string name="local_ambassador">Local Ambassador</string>
+    <string name="ambassador_info">PalmPay Ambassadors wurde elke 3 sekonden betelle. Har wurk is om lokale PalmPay-hannelslju te stypjen en moandei Crypto Meetups organisearje. As jo ​​stêd net opnommen is, dan is jo stêd noch gjin PalmPay-ambassadeur. \n \n Mear ynformaasje fine op \'e Agorise-mienskip op Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Stêd</string>
+    <string name="country">Lân</string>
+    <string name="bugs_or_ideas">Bugs of Ideas?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Oannimme</string>
+    <string name="select">Útkieze</string>
+    <string name="are_you_sure">Bisto wis?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Kopieare nei klamboerd</string>
+    <string name="bin_file_description">Bin bestân. Altyd bewarje jo backup .bin-bestân nei in geheime MicroSD-kaart of USB Stick.</string>
+    <string name="create_a_backup">Meitsje in backup oan</string>
+    <string name="brainkey_description">Brainkey. Akkount werheljen wurden dy\'t bewarre wurde of kopieare, mar net bewurke wurde.</string>
+    <string name="txt_brain_key_info">Dit printsje of skriuw dizze. Eltsenien dy\'t tagong ta jo werhelje toetseboerd hat tagong ta fûns yn dizze briefboarne.</string>
+    <string name="view_and_copy"><![CDATA[Besjoch & kopiearje]]></string>
+    <string name="title_bin_backup">Export .bin backup</string>
+    <string name="hint_password">Wachtwurd</string>
+    <string name="hint_password_confirmation">Wachtwurd befestigje</string>
+    <string name="error_password_mandatory">Moat in wachtwurd ynfiere</string>
+    <string name="error_password_too_short">Wachtwurd is te koart</string>
+    <string name="error_password_confirmation_mismatch">Wachtwurd en befêstiging misferfal</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Hannelskontrôle: %1$s</string>
+    <string name="upgrade_to_ltm">Upgrade nei LTM</string>
+    <string name="upgrade_account_description">"Upgrade nei LifeTime Membership (LTM). Bitshares \'LTM-akkounts betelje nul-nul fees, krije 80% kassa en bonussen foar referinsjes."</string>
+    <string name="account_upgrade_title">Upgrade Account</string>
+    <string name="account_upgrade_content">De Life Time Membership kin jo ferkeapje mei in fermindere set fan netwurkkosten. \n \nIt sil effekt wurde oan it hjoeddeiske akkount "%1$s" \n \nIt komt lykwols mei in kosten fan om 100 USD te betellen yn Bitshares. \n \nBinne jo wis dat jo fierdergean wolle?</string>
+    <string name="account_upgrade_wait_content">De transaksje mei jo fersyk wurdt ferwurke troch it netwurk</string>
+    <string name="error_upgrade_account_title">Flater by it probearjen fan akkount te ferbetterjen</string>
+    <string name="error_upgrade_account_content">Soargje derfoar dat jo akkount genôch balâns hat om de kosten te dekken</string>
+    <string name="account_upgraded_title">Akkount opwurdearre</string>
+    <string name="account_upgraded_content">Welkom! jo akkount is no opwurdearre ta de Lifetime Membership.</string>
+    <string name="remove_account">Winkelje fuortsmite</string>
+    <string name="remove_account_description">Ferwiderje dit Merchantkomponint. Fuortsmite fan \'e hannelskontrôle oer fan dit apparaat en meitsje of in oare ymportearje of ymportearje.</string>
+    <string name="txt_account_remove_confirmation">"Binne jo wis dat jo it akkount" %1$s "fuortsmite fan dizze poarte?"</string>
+    <string name="remove">Weinimme</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Geweldige Smartcoin</string>
+    <string name="txt_customer_loyalty">Issue Loyalty Points as ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Jo akkount noch gjin eigen %1$s. Besykje wat guon foar\'t jo besykje elk oan jo klanten as Loyalty Points te jaan.</string>
+    <string name="send">Stjoere</string>
+    <string name="txt_for_every">Foar eltse</string>
+    <string name="txt_spent">ferbrutsen</string>
+    <string name="txt_bitcoin_altcoin_deposited">Akseptearje oant 8 Cryptoûnten:</string>
+    <string name="altcoins_should_not_more_than">Selektearje asjebleaft net mear dan 8 ynput aktives</string>
+    <string name="bitshares_unselection_message">De Bitshares (BTS) kearntoken is ferplichte.</string>
+    <string name="toast_low_volume_market">Lege volumtemerk aktyf binne tydlik beheind. Se sille ynskeakele wurde as it merkfloed op in heulige bedrach is</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Store Name</string>
+    <string name="address">Adres</string>
+    <string name="phone_number">Telefoannûmer</string>
+    <string name="website">Webstee</string>
+    <string name="message">Berjocht</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Kin it formaat foar it toetsen net generearje</string>
+    <string name="saving_bin_file_to_s">Spesjale triem bewarje nei: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin bestân mei sertifikaat wiske: %1$s</string>
+    <string name="unable_to_save_bin_file">Kin bin bestân net bewarje</string>
+    <string name="creating_backup_file">It meitsjen fan backup bestân</string>
+    <string name="fetching_key">Ofslute kaai</string>
+    <string name="generating_bin_format">It formaat fan it bin meitsje</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Sykje</string>
+    <string name="filter">Filter</string>
+    <string name="export">Eksportearje</string>
+    <string name="confirming">Befêstigje ...</string>
+    <string name="pdf_generated_msg_s">PDF generearre en bewarre: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Kin pdf net generearje. Please try again. Flater: %1$s</string>
+    <string name="csv_generated_msg_s">CSV generearre en bewarre: %1$s</string>
+    <string name="csv_generated_msg_error_s">Koe gjin csv ferwiderje. Please try again. Flater: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Alle</string>
+    <string name="sent">Ferstjoerd</string>
+    <string name="received">Oanbean</string>
+    <string name="date_range">Datum Range</string>
+    <string name="txt_to">nei</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat bedrach</string>
+    <string name="between">Tusken</string>
+    <string name="and">en</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Eksportearre filtered transaksjes</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Generearje it eksportprodukt</string>
+    <string name="exported_file_name">PalmPay-Transaksjes</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Fan</string>
+    <string name="to">Nei</string>
+    <string name="memo">Memo</string>
+    <string name="date">Datum</string>
+    <string name="time">Tiid</string>
+    <string name="crypto_amount">Crypto Amount</string>
+    <string name="crypto_symbol">Krypto-symboal</string>
+    <string name="keyed_in_fiat_amount">Ferwiderje yn Fiat Amount</string>
+    <string name="total_fiat_amount">Total Fiat Amount</string>
+    <string name="fiat_currency">Fiatwild</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Item %1$d</string>
+    <string name="subtotal">Sub-Totaal</string>
+    <string name="network_fee">Netwurk fergoeding</string>
+    <string name="total">Totaal</string>
+    <string name="paid_s_s">Paid %1$s %2$s</string>
+    <string name="change_due">Feroarje op grûn</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Datum: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt fan %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Unjildige âlde PIN</string>
+    <string name="pin_changed_successfully">PIN is mei sukses feroare</string>
+    <string name="please_enter_pin">Fier jo PIN-nûmer yn</string>
+    <string name="please_enter_pin_confirmation">Fier jo PIN-befêstiging yn</string>
+    <string name="title_change_pin">PIN bewurkje</string>
+    <string name="txt_current_pin">Aktuele PIN-nûmer</string>
+    <string name="please_enter_old_pin">Fier jo âlde PIN-nûmer yn</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Knooppunt ferbining flater, retypearjen</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Wy krigen in ynkommende betelling, mar gjin oanfraach koe fûn wurde</string>
+
+</resources>

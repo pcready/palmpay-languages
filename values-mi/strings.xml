@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Raihana</string>
+    <string name="agree">Whakaae</string>
+    <string name="disagree">Hapa</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Whakauru ana i nga rawa ...</string>
+    <string name="title_loading_asset_type_data">Whakamahia te raraunga o te taketake ...</string>
+    <string name="title_assets_ready">Kei te rite te pātengi raraunga rawa</string>
+    <string name="msg_loading_all_existing_assets">Te whakahaere i te raupapa o nga tono kia whiwhi ai i te raupapa katoa o nga rawa katoa</string>
+    <string name="msg_loading_asset_type_data">Te tono mo etahi atu taipitopito rawa</string>
+    <string name="msg_loading_asset_in_database">Ko nga taonga kua tohaina ki te raraunga</string>
+    <string name="msg_assets_loaded">I muri mai, tautuhihia to tautuhi ...</string>
+    <string name="error_fetching_marketcap_data">Kāore i taea te uta raraunga marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Waihanga Pūkete</string>
+    <string name="txt_account_name">Ingoa pūkete BitShares</string>
+    <string name="unable_to_find_account_id">Kāore e taea te kimi i te nama nama kaiwhakamahi</string>
+    <string name="error_invalid_account_name_explanation">Ko te ingoa o te kaute he mema atu i te 8 nga horopaki, kei roto i te tau, kaore he tauera. Kaore ano hoki i te whakaaetia te taamaha whakaari.</string>
+    <string name="create">Waihanga</string>
+    <string name="error">Hapa</string>
+    <string name="account_name_already_exist">Kua tīariari kē te ingoa pūkete</string>
+    <string name="try_again">Ngana ano kia 5 meneti</string>
+    <string name="txt_new_pin_confirmation">Whakaaehia te PIN hou (6+ whika)</string>
+    <string name="error_wif">Hapa i te hanga i te kī WIF</string>
+    <string name="error_faucet_template">I whakahokia mai e te whaawe he hapa. Msg: %1$s</string>
+    <string name="error_read_dict_file">Hapa te pānui i te kōnae papakupu</string>
+    <string name="error_missing_account">Kaore e taea e te taupānga te tiki atu i nga korero e pa ana ki te kaute i hangaia</string>
+    <string name="create_account_title">Te hanga tuhinga hou</string>
+    <string name="create_account_message">Tatari koa i te wa e hangahia ana to kaute</string>
+    <string name="error_faucet_explanation">I hoki mai te tūmau i te hapa. Ko tenei ka tika ma te whakawhitinga kua whakaritea ki te waahi ki te whakakore i nga tono e puta mai ana i te wāhitau IP kotahi i roto i te wa poto poto. Tatari koa mo nga meneti 5 ka ngana ano, ka tahuri ki tetahi whatunga rereke, Hei tauira mai i te wifi ki te taura.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Tena koa kia tiakina to rorohiko i mua i te haere. Ma tenei ka tuku koe ki te whakaora i to korero ki te mea ka tupu tetahi mea ki tenei taputapu.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Me pehea koe ki te kawemai i tō pūkete o mua?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin File</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Kōwhiria he PIN 6+</string>
+    <string name="txt_6_digits_pin_confirm">6+ digits PIN</string>
+    <string name="please_enter_6_digit_pin">Tēnā koa tomohia te PIN 6-tau</string>
+    <string name="please_enter_6_digit_pin_confirm">Tena koa te whakauru i to tau PIN</string>
+    <string name="mismatch_pin">Pouaka tohu</string>
+    <string name="please_enter_brainkey">Tomo koa koa</string>
+    <string name="please_enter_correct_brainkey">Tomo koahia te rorohiko tika, me whai i waenganui i te 12 me te 16 kupu.</string>
+    <string name="unable_to_load_brainkey">Kāore e taea te kawe i te roro</string>
+    <string name="account_already_exist">Kei te tīariari te nama</string>
+    <string name="importing_your_wallet">Te kawemai i to putea ...</string>
+    <string name="account_candidates_title">Tohua koa tetahi kaute</string>
+    <string name="account_candidates_content">Ko nga taviri i puta mai i tenei rorohiko ka whakamahia ki te whakahaere i te kaute neke atu i te kotahi, tohua koa te ingoa e hiahia ana koe ki te kawemai</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Kawemai i te kōnae .bin</string>
+    <string name="import_backup">Kawemai te Whakaora mai i .bin kōnae</string>
+    <string name="txt_no_internet_connection">Kāore he Hononga Ipurangi</string>
+    <string name="no_file_chosen">Kāore he kōnae i kōwhiria</string>
+    <string name="choose_backup">Kōwhiritia te Pūrua</string>
+    <string name="choose_file">Kōwhiria Kōnae</string>
+    <string name="txt_existing_password">Kōnae o teianei .bin Kupuhipa, PIN rānei</string>
+    <string name="txt_new_pin">New PIN (6+ whika)</string>
+    <string name="importing_keys_from_bin_file">"Ko te kawemai i nga Kī mai i te kōnae Kōnae"</string>
+    <string name="please_make_sure_your_bin_file">Tena koa kia whiriwhiria te pee tika, kia tika ranei te tautuhi i te kōnae pene</string>
+    <string name="missing_existing_password">Tēnā koa whakauruhia te kupuhipa i whakamahia hei huna i tenei kōnae tāruarua</string>
+    <string name="pin_number_request">Tomohia koa te tau tohu hei whakamahi i tenei kōnae taapiri</string>
+    <string name="pin_number_warning">Ko te tau tohu kia 6 pea nga tau</string>
+    <string name="backup_error_no_key_reference_found">Kaore he korero i whakamahia ai tenei matua, koa koa kei te whakamahi koe i tetahi kōnae whakahou kua whakahoutia.</string>
+    <string name="backup_error_no_wallet_backup">Kaore e kitea he taapae putea i tenei kōnae</string>
+    <string name="error_invalid_account">Pūkete muhu, tēnā koa tirohia tō kī roro mo te hapa hē</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Kawemai</string>
+    <string name="title_account_load_result">Ka utaina te nama</string>
+    <string name="button_change_account">Huri</string>
+    <string name="title_select_input_assets">Tīpakohia nga rawa hei whakaae.</string>
+    <string name="explanation_account_setup">Me whakarite e koe he putea Bitshares kia utua ai nga utu. I te mea kua kotahi koe, ka taea e koe te kawemai i konei.</string>
+    <string name="explanation_output_asset">Kōwhiria tō Smartcoin hiahiatia:</string>
+    <string name="next">Tuhinga o mua</string>
+    <string name="done">Kua oti</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Utu ki</string>
+    <string name="error_corrupted_key_title">Nga hapa hapa nui</string>
+    <string name="error_corrupted_key_content">Kaore e taea e te taupānga te whakaora i nga kati taketake i whakamunahia mai i te papanga. No te mea ka hiahiatia koe ki te tomo ano ki o maatau. Ahakoa i roto i te ahua o te brainkey ranei te hanga i te kōnae raupapato raupapa i hangahia me te rongoa i roto i to sdcard mēnā i waihangahia te kaute e te taupānga</string>
+    <string name="invalid_pin">PIN muhu</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Home</string>
+    <string name="txt_transactions">Nga mahi</string>
+    <string name="txt_refunds_returns">Nga Moni / Whakahokinga</string>
+    <string name="txt_settlement">Whakataunga</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares nodes</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Te nui e tika ana</string>
+    <string name="sub_total">Tae-katoa:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Puka hapa pukapuka</string>
+    <string name="content_error_market">Kaore he tono i te DEX e taea ai e matou te whakaputa i te whakawhiti ki te %1$s i tenei wa. \n ___Me haere ki te tautuhinga tautuhinga me te whiriwhiri i tetahi rawa hua whakaputa.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Tena utu</string>
+    <string name="please_pay_s_s">Tuku utu: %1$s %2$s</string>
+    <string name="to_s">Ki: %1$s</string>
+    <string name="txt_network">Utu Whatunga</string>
+    <string name="txt_please_wait">Tena tatari</string>
+    <string name="error_node_unreachable">Kaore e taea te whakatutuki i tetahi kōpaki</string>
+    <string name="invoice_subject">Ko te nama a PalmPay mai i %1$s</string>
+    <string name="before_s">I mua: %1$s</string>
+    <string name="share">Vahevahe</string>
+    <string name="share_with">Tuhia me</string>
+    <string name="connecting">Hono ana ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Tīpakohia te tono utu</string>
+    <string name="dialog_msg_select_pending_payment">I kitea tetahi utu e haere mai ana, engari kaore e taea te tuku i tetahi utu ki mua. Tohua koa te tono utu tika mai i te rarangi e whai ake nei.</string>
+    <string name="dialog_msg_confirm_pending_payment">Ka honohia tenei ki te utu mai ki te tono utu o mua o te %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Nga taipitopito utu taumai</string>
+    <string name="dialog_generic_title_confirm">Kei te mohio koe?</string>
+    <string name="dialog_generic_msg_confirm">Kia mahara kia kore e taea te whakakore tenei mahi</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Whakamutua</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Kua tautuhia te utu!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Tautuhinga</string>
+    <string name="general">General</string>
+    <string name="security">Haumarutanga</string>
+    <string name="backups">Ngā Pūrua</string>
+    <string name="tokens">Ngā tohu</string>
+    <string name="accounts">Ngā Pūkete</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Aratau po</string>
+    <string name="currency_info">Ko te moni kua whiriwhiria i runga i te waahanga me te whiriwhiri whenua. Ki te hiahia koe ki te whakarereke i aua waa, me haere koe ki nga tautuhinga pūnaha ao o to rorohiko.</string>
+    <string name="screen_saver">Tiaki Mata</string>
+    <string name="source">Puna</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Kōpaki taunoa (/ PalmPay)</string>
+    <string name="txt_folder">Kōpaki</string>
+    <string name="choose">Kōwhiria</string>
+    <string name="screen_saver_time">Whakahohea i muri ...</string>
+    <string name="one_minute">1 Minute</string>
+    <string name="three_minutes">3 meneti</string>
+    <string name="five_minutes">5 meneti</string>
+    <string name="local_ambassador">Kaimahitanga rohe</string>
+    <string name="ambassador_info">Ka utua nga Palm Ambassadors i nga 3 meneti. Ko ta ratou mahi ko te tautoko i nga kaihokohoko a PalmPay o te takiwa me te whakarite i nga marama o Crypto Meetups. Mena kaore i taatatia to taone, kaore he paanga a PalmPay Ambassador i to taone. __D__ __NMo etahi atu korero, toro atu ki te hapori Agorise i runga i Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">City</string>
+    <string name="country">Whenua</string>
+    <string name="bugs_or_ideas">Bugs ranei Ideas?</string>
+    <string name="bugs_or_ideas_contact_info">Te whakawhitiwhiti waea: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Whakaae</string>
+    <string name="select">Tīpako</string>
+    <string name="are_you_sure">Kei te mohio koe?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Pūrua rorohiko</string>
+    <string name="copied_to_clipboard">Kua tohua ki te papapātuhi</string>
+    <string name="bin_file_description">Kōnae Pan. Whakaorangia tonu tō kōnae tārua .bin ki tētahi kāri MicroSD ngaro, ki te USB Stick rānei.</string>
+    <string name="create_a_backup">Waihanga he taapiri</string>
+    <string name="brainkey_description">Brainkey. Ko nga kupu whakaora mo te moni ka taea te hopu, ka tuhia ranei, engari kaore e whakatikahia.</string>
+    <string name="txt_brain_key_info">Tāngia tēnei, tuhia rānei. Ko nga tangata katoa e uru atu ana ki to matua whakaora ka uru ki nga moni i roto i tenei putea.</string>
+    <string name="view_and_copy"><![CDATA[Tiro & Tārua]]></string>
+    <string name="title_bin_backup">Te kaweake .bin</string>
+    <string name="hint_password">Kupuhipa</string>
+    <string name="hint_password_confirmation">Kupuhipa kupuhipa</string>
+    <string name="error_password_mandatory">Me tomo i te kupuhipa</string>
+    <string name="error_password_too_short">He poto rawa te kupuhipa</string>
+    <string name="error_password_confirmation_mismatch">Kupuhipa me te tohu whakatikatika</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Pūkete Kaihoko: %1$s</string>
+    <string name="upgrade_to_ltm">Whakapai ake ki te LTM</string>
+    <string name="upgrade_account_description">"Whakapai ake ki te mema o te LifeTime (LTM). Bitshares \'LTM nama utu utu tata-kore, whiwhi 80% cashback me bonuses mo te kaitono."</string>
+    <string name="account_upgrade_title">Whakapai ake i te Kaute</string>
+    <string name="account_upgrade_content">Ko te Waahuitanga o te Ora Ka taea e koe te hokohoko me te utu iti o nga utu whatunga. \n __Ne ka whai hua ki te kaute o teianei "%1$s" \n \nE tae mai ana me te utu mo te $ 100 kua utua i Bitshares. \n __Ne ka tino hiahia koe ki te haere?</string>
+    <string name="account_upgrade_wait_content">Ko te whakawhitinga hoko kei te tukatukahia to tono e te whatunga</string>
+    <string name="error_upgrade_account_title">Hapa i te ngana ki te whakapai ake i te kaute</string>
+    <string name="error_upgrade_account_content">Tena koa kia nui te pauna o to korero ki te utu i nga utu</string>
+    <string name="account_upgraded_title">Kua whakahouhia te moni</string>
+    <string name="account_upgraded_content">Nga mihi! kua whakahou ake to korero ki te Mema o te Ora.</string>
+    <string name="remove_account">Tangohia te Pūkete</string>
+    <string name="remove_account_description">Tangohia tenei Kaute Kaihoko. Tangohia te Pūkete Kaihoko i runga ake i tenei taputapu, ka waihanga, kawemai ranei i tetahi atu rereke.</string>
+    <string name="txt_account_remove_confirmation">"E tino hiahia ana koe ki te tango i te kaute \'%1$s\' mai i tenei putea?"</string>
+    <string name="remove">Tangohia</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Mema Smartcoin</string>
+    <string name="txt_customer_loyalty">Ko nga Pihanga Whakaaetanga Putanga hei ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Kaore ano i tohua a koe i tetahi %1$s. Me whiwhi etahi i mua i to tamata ki te tuku i tetahi ki o kaihokohoko hei Piho Tika.</string>
+    <string name="send">Tukua</string>
+    <string name="txt_for_every">Mo nga mea katoa</string>
+    <string name="txt_spent">pau</string>
+    <string name="txt_bitcoin_altcoin_deposited">Whakaae ki te 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Tono koa kia kaua e neke atu i te 8 nga tahua whakauru</string>
+    <string name="bitshares_unselection_message">Ko te tohu Bitshares (BTS) e hiahiatia ana.</string>
+    <string name="toast_low_volume_market">Ko nga rawa o te maakete rōrahi ngoikore he hauora ā-tinana. Ka taea te whakahoahoa i te wa e piki ake te nui o te makete ki te nui</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Moko</string>
+    <string name="store_name">Ingoa Store</string>
+    <string name="address">Wāhitau</string>
+    <string name="phone_number">Tau Waea</string>
+    <string name="website">Paetukutuku</string>
+    <string name="message">Karere</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Kāore e taea te whakaputa i te hōputu pene mo te matua</string>
+    <string name="saving_bin_file_to_s">Tiakina te Kōnae Kōnae ki: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Kua ora te Kōnae Kōnae ki: %1$s</string>
+    <string name="unable_to_save_bin_file">Kāore e taea te tiaki i te kōnae pene</string>
+    <string name="creating_backup_file">Te waihanga Kōnae Pūrua</string>
+    <string name="fetching_key">Te tiki i te Key</string>
+    <string name="generating_bin_format">Te whakawhanake i te hōputu pene</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Rapua</string>
+    <string name="filter">Tātari</string>
+    <string name="export">Kaweake</string>
+    <string name="confirming">Whakaatu ana ...</string>
+    <string name="pdf_generated_msg_s">I hangahia e te PDF me te tiaki: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Kāore e taea te whakaputa pdf. Tono koa. Hapa: %1$s</string>
+    <string name="csv_generated_msg_s">I hangahia te CSV me te whakaora: %1$s</string>
+    <string name="csv_generated_msg_error_s">Kāore e taea te whakaputa csv. Tono koa. Hapa: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Katoa</string>
+    <string name="sent">Tukua</string>
+    <string name="received">Kua riro mai</string>
+    <string name="date_range">Rangi Raina</string>
+    <string name="txt_to">Tuhinga o mua</string>
+    <string name="cryptocurrency">Whakaaturanga</string>
+    <string name="fiat_amount">Tuhinga nui</string>
+    <string name="between">I waenga</string>
+    <string name="and">a</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Kaweakehia nga whakawhitinga reta</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Te whakaputa hua kaweake</string>
+    <string name="exported_file_name">PalmPay-Mahi</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Tuhinga ka whai mai</string>
+    <string name="to">Ki</string>
+    <string name="memo">Memo</string>
+    <string name="date">Rā</string>
+    <string name="time">Wā</string>
+    <string name="crypto_amount">Taupupuri Tauraki</string>
+    <string name="crypto_symbol">Patohi Crypto</string>
+    <string name="keyed_in_fiat_amount">Ko te Whakauru i roto i te Rae Tii</string>
+    <string name="total_fiat_amount">Te rahi o te moni utu</string>
+    <string name="fiat_currency">Fiat Moni</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Te nama take %1$d</string>
+    <string name="subtotal">Rawa-katoa</string>
+    <string name="network_fee">Utu Whatunga</string>
+    <string name="total">Te tapeke</string>
+    <string name="paid_s_s">Hokona %1$s %2$s</string>
+    <string name="change_due">Hurihia te tika</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Rā: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt from %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Tika Waka tawhito</string>
+    <string name="pin_changed_successfully">I angitu te PIN</string>
+    <string name="please_enter_pin">Tomohia te tau PIN</string>
+    <string name="please_enter_pin_confirmation">Tēnā koa whakauruhia tō whakaputanga PIN</string>
+    <string name="title_change_pin">Whakatika PIN</string>
+    <string name="txt_current_pin">Tau PIN o teianei</string>
+    <string name="please_enter_old_pin">Tomohia koa te tau PIN tawhito</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Hapa te hononga hononga, te tango</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">I whiwhi matou i te utu taumai, engari kaore he tono e kitea</string>
+
+</resources>

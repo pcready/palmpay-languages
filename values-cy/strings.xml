@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Trwydded</string>
+    <string name="agree">Cytuno</string>
+    <string name="disagree">Anghytuno</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Llwytho asedau ...</string>
+    <string name="title_loading_asset_type_data">Llwytho data math asedau ...</string>
+    <string name="title_assets_ready">Cronfa ddata asedau yn barod</string>
+    <string name="msg_loading_all_existing_assets">Perfformio cyfres o geisiadau er mwyn cael y rhestr gyflawn o\'r holl asedau presennol</string>
+    <string name="msg_loading_asset_type_data">Gofyn am fanylion pellach am asedau</string>
+    <string name="msg_loading_asset_in_database">Llwythwyd asedau %1$d i\'r gronfa ddata</string>
+    <string name="msg_assets_loaded">Nesaf, gosodwch eich cyfrif ...</string>
+    <string name="error_fetching_marketcap_data">Methu llwytho data marchnad</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Creu cyfrif</string>
+    <string name="txt_account_name">Enw cyfrif BitShares</string>
+    <string name="unable_to_find_account_id">Methu canfod adnabod cyfrif defnyddiwr</string>
+    <string name="error_invalid_account_name_explanation">Rhaid i enw\'r cyfrif naill ai fod â mwy na 8 nod, gan gynnwys rhif neu heb enwogion. Ni chaniateir y cymeriad tanddwr hefyd.</string>
+    <string name="create">Creu</string>
+    <string name="error">Gwall</string>
+    <string name="account_name_already_exist">Mae enw\'r cyfrif eisoes yn bodoli</string>
+    <string name="try_again">Ceisiwch eto ar ôl 5 munud</string>
+    <string name="txt_new_pin_confirmation">Cadarnhau PIN newydd (6+ digid)</string>
+    <string name="error_wif">Gwall wrth greu allwedd WIF</string>
+    <string name="error_faucet_template">Dychwelodd y faucet gwall. Msg: %1$s</string>
+    <string name="error_read_dict_file">Gwall wrth ddarllen ffeil geiriadur</string>
+    <string name="error_missing_account">Ni all yr app adennill gwybodaeth am y cyfrif newydd ei greu</string>
+    <string name="create_account_title">Creu cyfrif newydd</string>
+    <string name="create_account_message">Arhoswch tra bod eich cyfrif yn cael ei greu</string>
+    <string name="error_faucet_explanation">Dychwelodd y gweinydd gwall. Gallai hyn fod oherwydd cyfyngiad a osodwyd yn bwrpasol i wrthod ceisiadau yn aml yn dod o\'r un cyfeiriad IP mewn cyfnod byr. Arhoswch 5 munud a cheisiwch eto, neu newid i rwydwaith gwahanol, Er enghraifft, o wifi i gell.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Gwnewch yn siŵr eich bod yn cefnogi eich brainkey cyn mynd ymlaen. Bydd hyn yn eich galluogi i adennill eich cyfrif rhag ofn bod rhywbeth yn digwydd i\'r ddyfais hon.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Sut hoffech chi fewnforio\'ch cyfrif presennol?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Allwedd</string>
+    <string name="bin_file">Ffeil .bin</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Dewiswch PIN 6+ digid</string>
+    <string name="txt_6_digits_pin_confirm">PIN digid 6+ yn cadarnhau</string>
+    <string name="please_enter_6_digit_pin">Rhowch y PIN 6-digid</string>
+    <string name="please_enter_6_digit_pin_confirm">Rhowch gadarnhad eich rhif PIN</string>
+    <string name="mismatch_pin">Pin mismatig</string>
+    <string name="please_enter_brainkey">Rhowch brainkey</string>
+    <string name="please_enter_correct_brainkey">Rhowch yr ymennydd cywir, dylai fod rhwng 12 a 16 gair.</string>
+    <string name="unable_to_load_brainkey">Methu llwytho brainkey</string>
+    <string name="account_already_exist">Mae\'r cyfrif eisoes yn bodoli</string>
+    <string name="importing_your_wallet">Mewnforio eich waled ...</string>
+    <string name="account_candidates_title">Dewiswch gyfrif</string>
+    <string name="account_candidates_content">Ymddengys bod yr allweddi sy\'n deillio o\'r ymennydd hwn yn cael eu defnyddio i reoli mwy nag un cyfrif, dewiswch pa gyfrif yr hoffech ei fewnforio</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Mewnforio ffeil .bin</string>
+    <string name="import_backup">Mewnforio Backup o ffeil .bin</string>
+    <string name="txt_no_internet_connection">Dim Cysylltiad Rhyngrwyd</string>
+    <string name="no_file_chosen">Ni ddewiswyd ffeil</string>
+    <string name="choose_backup">Dewiswch wrth gefn</string>
+    <string name="choose_file">Dewiswch Ffeil</string>
+    <string name="txt_existing_password">Cyfrinair ffeil .bin neu PIN cyfredol</string>
+    <string name="txt_new_pin">PIN Newydd (6+ digid)</string>
+    <string name="importing_keys_from_bin_file">Msgstr "Mewnforio Allweddau o Ffeil Bin"</string>
+    <string name="please_make_sure_your_bin_file">Gwnewch yn siŵr bod eich pin yn ffeil bin gywir neu gywir</string>
+    <string name="missing_existing_password">Rhowch y cyfrinair a ddefnyddir i amgryptio\'r ffeil wrth gefn hon</string>
+    <string name="pin_number_request">Rhowch rif y pin a ddefnyddir i amgodio\'r ffeil wrth gefn hon</string>
+    <string name="pin_number_warning">Rhaid i\'r rhif pin fod o leiaf 6 digid</string>
+    <string name="backup_error_no_key_reference_found">Ni chanfuwyd unrhyw gyfrif gan ddefnyddio\'r allwedd hon, gwnewch yn siŵr eich bod yn defnyddio ffeil wrth gefn wedi\'i ddiweddaru.</string>
+    <string name="backup_error_no_wallet_backup">Ni ellir dod o hyd i unrhyw gefn waled yn y ffeil hon</string>
+    <string name="error_invalid_account">Cyfrif annilys, gwiriwch eich allwedd ymennydd ar gyfer gwallau teipio</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Mewnforio</string>
+    <string name="title_account_load_result">Cyfrif wedi\'i lwytho</string>
+    <string name="button_change_account">Newid</string>
+    <string name="title_select_input_assets">Dewiswch yr asedau i\'w derbyn.</string>
+    <string name="explanation_account_setup">Bydd angen i chi osod cyfrif Bitshares er mwyn derbyn taliadau. Neu os oes gennych un eisoes, gallwch ei fewnforio yma.</string>
+    <string name="explanation_output_asset">Dewiswch eich Smartcoin a ddymunir:</string>
+    <string name="next">Nesaf</string>
+    <string name="done">Wedi\'i wneud</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Talu gyda</string>
+    <string name="error_corrupted_key_title">Gwall llygredd allweddol</string>
+    <string name="error_corrupted_key_content">Ni all yr app adfer eich allweddi preifat amgryptig o\'r gronfa ddata. Oherwydd hyn, bydd gofyn ichi roi eich allweddi eto. Naill ai ar ffurf brainkey neu ffurfiwch y ffeil wrth gefn bin a gynhyrchwyd a\'i storio yn awtomatig yn eich sdcard os crewyd yr cyfrif gan yr app</string>
+    <string name="invalid_pin">PIN annilys</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Cartref</string>
+    <string name="txt_transactions">Trafodion</string>
+    <string name="txt_refunds_returns">Ad-daliadau / Dychweliadau</string>
+    <string name="txt_settlement">Setliad</string>
+    <string name="bitshares_nodes_dialog_title">Nodau Bitshares</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Swm sy\'n ddyledus</string>
+    <string name="sub_total">Is-gyfanswm:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Archebu gwall llyfr</string>
+    <string name="content_error_market">Nid oes unrhyw orchmynion yn y DEX a fyddai\'n caniatáu inni berfformio\'r gyfnewid i %1$s ar hyn o bryd. \n \nAn ewch i sgrin y gosodiadau a dewiswch ased allbwn gwahanol.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Taluwch</string>
+    <string name="please_pay_s_s">Taluwch %1$s %2$s</string>
+    <string name="to_s">I: %1$s</string>
+    <string name="txt_network">Ffi rhwydwaith</string>
+    <string name="txt_please_wait">Arhoswch os gwelwch yn dda</string>
+    <string name="error_node_unreachable">Ni ellid cyrraedd unrhyw nod</string>
+    <string name="invoice_subject">Anfoneb PalmPay o %1$s</string>
+    <string name="before_s">Cyn: %1$s</string>
+    <string name="share">Rhannu</string>
+    <string name="share_with">Rhannwch â</string>
+    <string name="connecting">Cysylltu ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Dewiswch gais am daliad</string>
+    <string name="dialog_msg_select_pending_payment">Canfuwyd taliad sy\'n dod i mewn, ond ni ellid ei neilltuo\'n awtomatig i daliad a ofynnwyd yn flaenorol. Dewiswch y cais taliad cywir o\'r rhestr ganlynol.</string>
+    <string name="dialog_msg_confirm_pending_payment">Bydd hyn yn cysylltu\'r taliad sy\'n dod i mewn i\'r cais am daliad a gofnodwyd yn flaenorol o %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Manylion talu sy\'n dod i mewn</string>
+    <string name="dialog_generic_title_confirm">Wyt ti\'n siwr?</string>
+    <string name="dialog_generic_msg_confirm">Sylwch na ellir diystyru\'r weithred hon</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Diswyddo</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Taliad wedi\'i gadarnhau!</string>
+    <string name="txt_cool">CWL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Gosodiadau</string>
+    <string name="general">Cyffredinol</string>
+    <string name="security">Diogelwch</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">Tocynnau</string>
+    <string name="accounts">Cyfrifon</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Modd nos</string>
+    <string name="currency_info">Mae\'r arian yn cael ei ddewis yn awtomatig yn seiliedig ar eich dewis iaith a\'ch gwlad. Os ydych chi eisiau newid y rheini, mae\'n rhaid i chi fynd i leoliadau system fyd-eang eich dyfais.</string>
+    <string name="screen_saver">Arbedwr sgrin</string>
+    <string name="source">Ffynhonnell</string>
+    <string name="bitshares_logo">Logo BitShares</string>
+    <string name="default_folder">Ffolder ddiofyn (/ PalmPay)</string>
+    <string name="txt_folder">Ffolder</string>
+    <string name="choose">Dewiswch</string>
+    <string name="screen_saver_time">Galluogi ar ôl ...</string>
+    <string name="one_minute">1 Cofnod</string>
+    <string name="three_minutes">3 Cofnodion</string>
+    <string name="five_minutes">5 munud</string>
+    <string name="local_ambassador">Llysgennad Lleol</string>
+    <string name="ambassador_info">Mae Llysgenhadon PalmPay yn cael eu talu bob 3 eiliad. Eu gwaith yw cefnogi masnachwyr PalmPay lleol a threfnu Cyfarfodydd Cryno misol. Os nad yw\'ch dinas wedi\'i restru, nid oes gan eich dinas chi Lysgenhadon PalmPay eto. \n \n Am ragor o wybodaeth, ewch i gymuned Agorise ar Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Dinas</string>
+    <string name="country">Gwlad</string>
+    <string name="bugs_or_ideas">Bugs neu Syniadau?</string>
+    <string name="bugs_or_ideas_contact_info">Sgwrs Telegram: http://t.me/Agorise \nEbost: Agorise@protonmail.ch</string>
+    <string name="accept">Derbyn</string>
+    <string name="select">Dewiswch</string>
+    <string name="are_you_sure">Wyt ti\'n siwr?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Cefn wrth gefn</string>
+    <string name="copied_to_clipboard">Wedi\'i gopïo i\'r clipfwrdd</string>
+    <string name="bin_file_description">Ffeil Bin. Cadwch eich ffeil .bin wrth gefn bob amser i gerdyn MicroSD cyfrinachol neu USB Stick.</string>
+    <string name="create_a_backup">Creu copi wrth gefn</string>
+    <string name="brainkey_description">Brainkey. Geiriau adennill cyfrif y gellir eu dal neu eu copïo, ond heb eu golygu.</string>
+    <string name="txt_brain_key_info">Argraffwch hyn, neu ysgrifennwch ef i lawr. Bydd gan unrhyw un sydd â mynediad i\'ch allwedd adferiad fynediad at arian o fewn y waled hwn.</string>
+    <string name="view_and_copy">Gweld a Chopïo</string>
+    <string name="title_bin_backup">Allforio .bin wrth gefn</string>
+    <string name="hint_password">Cyfrinair</string>
+    <string name="hint_password_confirmation">Cadarnhau cyfrinair</string>
+    <string name="error_password_mandatory">Rhaid i chi fynd i mewn i gyfrinair</string>
+    <string name="error_password_too_short">Mae\'r cyfrinair yn rhy fyr</string>
+    <string name="error_password_confirmation_mismatch">Cyfrinair a chadarnhad yn anghytuno</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Cyfrif Merchant: %1$s</string>
+    <string name="upgrade_to_ltm">Uwchraddio i LTM</string>
+    <string name="upgrade_account_description">"Uwchraddio i Aelodaeth Amser Oes (LTM). Mae cyfrifon LTM Bitshares yn talu ffioedd agos-sero, yn cael 80% o arian wrth gefn a bonws ar gyfer atgyfeiriadau."</string>
+    <string name="account_upgrade_title">Uwchraddio Cyfrif</string>
+    <string name="account_upgrade_content">Mae\'r Aelodaeth Amser Bywyd yn caniatáu i chi fasnachu gyda set lai o ffioedd rhwydwaith. \n \nIt yn dod i rym i\'r cyfrif cyfredol "%1$s" \n \n Fodd bynnag, mae cost o tua 100 USD yn cael ei dalu yn Bitshares. \n \nAr ydych chi\'n siŵr eich bod am symud ymlaen?</string>
+    <string name="account_upgrade_wait_content">Mae\'r rhybudd sy\'n cynnwys eich cais yn cael ei brosesu gan y rhwydwaith</string>
+    <string name="error_upgrade_account_title">Gwall wrth geisio uwchraddio cyfrif</string>
+    <string name="error_upgrade_account_content">Gwnewch yn siŵr fod gan eich cyfrif ddigon o gydbwysedd i dalu am y costau</string>
+    <string name="account_upgraded_title">Uwchraddio cyfrif</string>
+    <string name="account_upgraded_content">Llongyfarchiadau! mae eich cyfrif bellach wedi\'i uwchraddio i\'r Aelodaeth Gydol Oes.</string>
+    <string name="remove_account">Dileu Cyfrif</string>
+    <string name="remove_account_description">Tynnwch y Cyfrif Merchant hwn. Tynnwch y Cyfrif Merchant uchod o\'r ddyfais hon a chreu neu fewnforio un arall.</string>
+    <string name="txt_account_remove_confirmation">"Ydych chi\'n siŵr eich bod am gael gwared ar y cyfrif \'%1$s\' o\'r waled hwn?"</string>
+    <string name="remove">Dileu</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Smartcoin ddymunol</string>
+    <string name="txt_customer_loyalty">Cyhoeddi Pwyntiau Teyrngarwch fel ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Nid yw\'ch cyfrif yn berchen ar unrhyw %1$s eto. Cewch rai cyn i chi geisio rhoi unrhyw bethau i\'ch cwsmeriaid fel Pwyntiau Teyrngarwch.</string>
+    <string name="send">Anfon</string>
+    <string name="txt_for_every">Am bob</string>
+    <string name="txt_spent">gwario</string>
+    <string name="txt_bitcoin_altcoin_deposited">Derbyn hyd at 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Dewiswch ddim mwy na 8 ased mewnbwn</string>
+    <string name="bitshares_unselection_message">Mae angen tocyn craidd Bitshares (BTS).</string>
+    <string name="toast_low_volume_market">Mae asedau marchnad cyfaint isel yn anabl yn amserol. Byddant yn cael eu galluogi unwaith y bydd cyfaint y farchnad yn codi i swm sylweddol</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Enw\'r Siop</string>
+    <string name="address">Cyfeiriad</string>
+    <string name="phone_number">Rhif ffôn</string>
+    <string name="website">Gwefan</string>
+    <string name="message">Neges</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Methu cynhyrchu fformat bin ar gyfer allwedd</string>
+    <string name="saving_bin_file_to_s">Arbed Ffeil Biniau i: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Achubwyd Ffeil Bin yn llwyddiannus i: %1$s</string>
+    <string name="unable_to_save_bin_file">Methu arbed ffeil bin</string>
+    <string name="creating_backup_file">Creu Ffeil Wrth Gefn</string>
+    <string name="fetching_key">Cymryd Allweddol</string>
+    <string name="generating_bin_format">Ffurfio bin cynhyrchu</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Chwilio</string>
+    <string name="filter">Hidlo</string>
+    <string name="export">Allforio</string>
+    <string name="confirming">Cadarnhau ...</string>
+    <string name="pdf_generated_msg_s">PDF wedi\'i gynhyrchu a\'i arbed: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Methu cynhyrchu pdf. Ailadroddwch. Gwall: %1$s</string>
+    <string name="csv_generated_msg_s">CSV wedi\'i gynhyrchu a\'i arbed: %1$s</string>
+    <string name="csv_generated_msg_error_s">Methu cynhyrchu csv. Ailadroddwch. Gwall: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">I gyd</string>
+    <string name="sent">Anfonwyd</string>
+    <string name="received">Derbyniwyd</string>
+    <string name="date_range">Ystod Dydd</string>
+    <string name="txt_to">i</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat swm</string>
+    <string name="between">Rhwng</string>
+    <string name="and">a</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Trosglwyddiadau hidlo allforio</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Cynhyrchu cynnyrch allforio</string>
+    <string name="exported_file_name">Trafodion PalmPay</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">O</string>
+    <string name="to">I</string>
+    <string name="memo">Memo</string>
+    <string name="date">Dyddiad</string>
+    <string name="time">Amser</string>
+    <string name="crypto_amount">Swm Crypto</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Swm Fiat Allweddedig</string>
+    <string name="total_fiat_amount">Cyfanswm Fiat Swm</string>
+    <string name="fiat_currency">Arian Fiat</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Eitem %1$d</string>
+    <string name="subtotal">Is-Gyfanswm</string>
+    <string name="network_fee">Ffi rhwydwaith</string>
+    <string name="total">Cyfanswm</string>
+    <string name="paid_s_s">Talwyd %1$s %2$s</string>
+    <string name="change_due">Newid yn ddyledus</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Dyddiad: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt o %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">PIN hen anghywir</string>
+    <string name="pin_changed_successfully">Newidodd PIN yn llwyddiannus</string>
+    <string name="please_enter_pin">Rhowch rif PIN</string>
+    <string name="please_enter_pin_confirmation">Rhowch eich cadarnhad rhif PIN</string>
+    <string name="title_change_pin">Golygu PIN</string>
+    <string name="txt_current_pin">Rhif PIN cyfredol</string>
+    <string name="please_enter_old_pin">Nodwch hen rif PIN</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Gwall cysylltiad nodau, ailddechrau</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Cawsom daliad sy\'n dod i mewn, ond ni ellid dod o hyd i unrhyw gais</string>
+
+</resources>

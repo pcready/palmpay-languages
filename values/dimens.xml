@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- < 480dp: a typical phone screen (240x320 ldpi, 320x480 mdpi, 480x800 hdpi, etc). -->
+
+    <!-- Screen Margins -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Buttons -->
+    <dimen name="button_padding">12dp</dimen>
+
+    <!-- Spacing between widgets vertically -->
+    <dimen name="spacing_same_topic">16dp</dimen>
+    <dimen name="spacing_different_topic">24dp</dimen>
+    <dimen name="spacing_different_section">40dp</dimen>
+
+    <!-- Standard text all over the app -->
+    <dimen name="small_text">13sp</dimen>
+    <dimen name="normal_text_1">15sp</dimen>
+    <dimen name="normal_text_2">16sp</dimen>
+    <dimen name="big_text">18sp</dimen>
+
+    <!-- TabLayout and Toolbar -->
+    <dimen name="tab_small_text">15sp</dimen>
+    <dimen name="tab_big_text">20sp</dimen>
+
+    <!-- Initial setup -->
+    <dimen name="logo_size">180dp</dimen>
+
+    <!-- Setup screen -->
+    <dimen name="asset_logo_size">24dp</dimen>
+
+    <!-- Main Activity -->
+    <dimen name="coin_text_padding">8dp</dimen>
+
+    <!-- Navigation drawer -->
+    <dimen name="nav_drawer_text_size">18sp</dimen>
+    <dimen name="nav_drawer_item_height">40dp</dimen>
+
+    <!-- KeypadActivity -->
+    <dimen name="keypad_text_size">22sp</dimen>
+
+    <!-- QRCodeActivity -->
+    <dimen name="progress_text_size">20sp</dimen>
+    <dimen name="progress_bar_height">5dp</dimen>
+
+    <!-- Payment confirmation -->
+    <dimen name="dialog_title_text_size">20sp</dimen>
+
+    <!-- Transactions -->
+    <dimen name="card_margin">4dp</dimen>
+    <dimen name="card_radius">4dp</dimen>
+</resources>

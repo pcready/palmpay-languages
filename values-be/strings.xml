@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">ліцэнзія</string>
+    <string name="agree">згодныя</string>
+    <string name="disagree">не згаджацца</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Загрузка актываў ...</string>
+    <string name="title_loading_asset_type_data">Загрузка дадзеных тыпу актываў ...</string>
+    <string name="title_assets_ready">База дадзеных актываў гатовая</string>
+    <string name="msg_loading_all_existing_assets">Выкананне шэрагу запытаў для таго, каб атрымаць поўны спіс усіх існуючых актываў</string>
+    <string name="msg_loading_asset_type_data">Запыт больш падрабязнай інфармацыі актываў</string>
+    <string name="msg_loading_asset_in_database">Загружаны %1$d актывы ў базу дадзеных</string>
+    <string name="msg_assets_loaded">Далей, калі ласка, наладзіць ваш рахунак ...</string>
+    <string name="error_fetching_marketcap_data">Не атрымалася загрузіць дадзеныя Капіталізацыя</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Стварыць уліковы запіс</string>
+    <string name="txt_account_name">BitShares імя ўліковага запісу</string>
+    <string name="unable_to_find_account_id">Не атрымалася знайсці ідэнтыфікатар ўліковага запісу карыстальніка</string>
+    <string name="error_invalid_account_name_explanation">Імя ўліковага запісу павінна альбо мець больш за 8 сімвалаў, утрымліваць лік або няма галосных гукаў. Сімвал падкрэслення таксама не дапускаецца.</string>
+    <string name="create">стварыць</string>
+    <string name="error">памылка</string>
+    <string name="account_name_already_exist">Імя ўліковага запісу ўжо існуюць</string>
+    <string name="try_again">Калі ласка, паспрабуйце яшчэ раз празь 5 хвілін</string>
+    <string name="txt_new_pin_confirmation">Пацвердзіце новы PIN-код (6+ лічбы)</string>
+    <string name="error_wif">Памылка пры стварэнні ключа WIF</string>
+    <string name="error_faucet_template">Кран вяртаецца паведамленне пра памылку. Msg: %1$s</string>
+    <string name="error_read_dict_file">Памылка чытання файла слоўніка</string>
+    <string name="error_missing_account">Прыкладанне не можа атрымаць інфармацыю пра зноў створанай ўліковага запісу</string>
+    <string name="create_account_title">Стварэнне новага рахунку</string>
+    <string name="create_account_message">Калі ласка, пачакайце, пакуль ваш рахунак створаны</string>
+    <string name="error_faucet_explanation">Сервер вярнуў памылку. Гэта можа быць звязана з абмежаваннем мэтанакіравана усталяваным на месцы, для забароны частых запытаў, якія паступаюць з аднаго IP-адрасы на працягу кароткага прамежку часу. Калі ласка, пачакайце 5 хвілін і паспрабуйце ізноў, або пераключыцца на іншую сетку, напрыклад, ад Wi-Fi у камеру.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Калі ласка, пераканайцеся, што вы рэзервовае капіраванне вашых brainkey, перш чым працягнуць. Гэта дазволіць вам аднавіць свой рахунак у выпадку нешта адбываецца з гэтым прыладай.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Як вы хацелі б імпартаваць існуючую ўліковы запіс?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin файла</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Выберыце 6+ значны PIN-код</string>
+    <string name="txt_6_digits_pin_confirm">6+ лічбы PIN пацверджання</string>
+    <string name="please_enter_6_digit_pin">Калі ласка, увядзіце PIN-код 6 лічбаў</string>
+    <string name="please_enter_6_digit_pin_confirm">Калі ласка, увядзіце пацверджанне Вашага нумара PIN</string>
+    <string name="mismatch_pin">несупадзенне кантактны</string>
+    <string name="please_enter_brainkey">Калі ласка, увядзіце brainkey</string>
+    <string name="please_enter_correct_brainkey">Калі ласка, увядзіце правільны brainkey, ён павінен мець ад 12 да 16 слоў.</string>
+    <string name="unable_to_load_brainkey">Немагчыма ўкласці brainkey</string>
+    <string name="account_already_exist">Лік ужо існуе</string>
+    <string name="importing_your_wallet">Імпарт свайго кашалька ...</string>
+    <string name="account_candidates_title">Калі ласка, абярыце уліковы запіс</string>
+    <string name="account_candidates_content">Ключы, атрыманыя з гэтага brainkey, здаецца, выкарыстоўваюцца для кіравання больш аднаго ўліковага запісу, калі ласка, абярыце уліковы запіс вы хочаце імпартаваць</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Файл .bin Імпарт</string>
+    <string name="import_backup">Імпарт рэзервовага капіявання з файла .bin</string>
+    <string name="txt_no_internet_connection">Няма падлучэння да Інтэрнэту</string>
+    <string name="no_file_chosen">Файл не абраны</string>
+    <string name="choose_backup">Выберыце Рэзервовае капіраванне</string>
+    <string name="choose_file">Выберыце файл</string>
+    <string name="txt_existing_password">Бягучы .bin файл пароля або PIN</string>
+    <string name="txt_new_pin">Новы PIN-код (6+ лічбы)</string>
+    <string name="importing_keys_from_bin_file">«Імпарт ключоў з файла Bin»</string>
+    <string name="please_make_sure_your_bin_file">Калі ласка, пераканайцеся, што ваш кантакт выбраны правільны або правільны файл бен</string>
+    <string name="missing_existing_password">Калі ласка, увядзіце пароль, які выкарыстоўваецца для шыфравання гэтага файла рэзервовай копіі</string>
+    <string name="pin_number_request">Калі ласка, увядзіце пін-код, які выкарыстоўваецца для кадавання гэтага файла рэзервовай копіі</string>
+    <string name="pin_number_warning">Кантактны нумар павінен быць не менш за 6 лічбаў</string>
+    <string name="backup_error_no_key_reference_found">Няма ўліковага запісу, выкарыстоўваючы гэты ключ быў знойдзены, калі ласка, пераканайцеся, што вы карыстаецеся абноўлены файл рэзервовай копіі.</string>
+    <string name="backup_error_no_wallet_backup">Няма рэзервовага папернік не можа быць знойдзены ў гэтым файле</string>
+    <string name="error_invalid_account">Няправільны рахунак, калі ласка, праверце ключ мозгу для памылак друку</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">імпарт</string>
+    <string name="title_account_load_result">кошт нагружаны</string>
+    <string name="button_change_account">змена</string>
+    <string name="title_select_input_assets">Выберыце аб\'екты, каб прыняць.</string>
+    <string name="explanation_account_setup">Вам неабходна наладзіць уліковы запіс Bitshares для таго, каб атрымліваць плацяжы. Ці, калі ў вас ужо ёсць, вы можаце імпартаваць яго тут.</string>
+    <string name="explanation_output_asset">Выберыце патрэбны Smartcoin:</string>
+    <string name="next">наступны</string>
+    <string name="done">зроблена</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">расплаціцца</string>
+    <string name="error_corrupted_key_title">Ключавая памылка карупцыі</string>
+    <string name="error_corrupted_key_content">Прыкладанне не можа аднавіць зашыфраваныя сакрэтныя ключы з базы дадзеных. З-за гэтага вы \ будзеце павінны ўвесці ключы зноў. Альбо ў выглядзе brainkey або сфармаваць рэзервовы файл бен, які быў створаны і захаваны аўтаматычна ў вашым SDCard, калі уліковы запіс была створана дадаткам</string>
+    <string name="invalid_pin">Няправільны PIN-код</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">дома</string>
+    <string name="txt_transactions">аперацыі</string>
+    <string name="txt_refunds_returns">Звароты / вяртанне</string>
+    <string name="txt_settlement">засяленне</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares вузлы</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">сума доўгу</string>
+    <string name="sub_total">Разам:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">,</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Памылка Замовіць кнігу</string>
+    <string name="content_error_market">Там няма заказаў ў DEX, якія дазволілі б нам ажыццяўляць абмен на %1$s ў дадзены момант. \n \nPlease перайсці да экрана налад і выбару іншага выйсця актыву.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Калі ласка Звяртайце</string>
+    <string name="please_pay_s_s">Калі ласка Аплаціце: %1$s %2$s</string>
+    <string name="to_s">To: %1$s</string>
+    <string name="txt_network">плата за сетку</string>
+    <string name="txt_please_wait">Калі ласка пачакай</string>
+    <string name="error_node_unreachable">Ні адзін вузел не можа быць дасягнуты</string>
+    <string name="invoice_subject">PalmPay рахунак-фактура ад %1$s</string>
+    <string name="before_s">Да: %1$s</string>
+    <string name="share">доля</string>
+    <string name="share_with">Падзяліцца з</string>
+    <string name="connecting">Падключэнне ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Выберыце аплатнае патрабаванне</string>
+    <string name="dialog_msg_select_pending_payment">Які ўваходзіць плацёж быў знойдзены, але не можа аўтаматычна быць прызначаны раней запытанай аплаты. Калі ласка, выберыце правільны запыт аплаты з наступнага спісу.</string>
+    <string name="dialog_msg_confirm_pending_payment">Гэта дазволіць звязаць які ўваходзіць плацёж запыт раней запісаным плацежным %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Ўваходныя аплатныя рэквізіты</string>
+    <string name="dialog_generic_title_confirm">Вы ўпэўнены?</string>
+    <string name="dialog_generic_msg_confirm">Звярніце ўвагу, што гэта дзеянне не можа быць адменена</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">адхіляць</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Аплата пацвярджаецца!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">налады</string>
+    <string name="general">агульны</string>
+    <string name="security">бяспекі</string>
+    <string name="backups">рэзервовыя копіі</string>
+    <string name="tokens">лексемы</string>
+    <string name="accounts">рахункі</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">начны рэжым</string>
+    <string name="currency_info">Валюта выбіраецца аўтаматычна ў залежнасці ад мовы і выбару краіны. Калі вы хочаце змяніць тыя, вы павінны перайсці да глабальных налад сістэмы вашага прылады.</string>
+    <string name="screen_saver">Screen Saver</string>
+    <string name="source">крыніца</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Тэчка па змаўчанні (/ PalmPay)</string>
+    <string name="txt_folder">хуткасшывальнік</string>
+    <string name="choose">выбіраць</string>
+    <string name="screen_saver_time">Ўключыць пасля ...</string>
+    <string name="one_minute">1 хвіліна</string>
+    <string name="three_minutes">3 хвіліны</string>
+    <string name="five_minutes">5 хвілін</string>
+    <string name="local_ambassador">Пасол Мясцовы</string>
+    <string name="ambassador_info">PalmPay Амбасадары плацяць кожныя 3 секунды. Іх праца складаецца ў тым, каб падтрымаць мясцовых гандляроў PalmPay і арганізаваць штомесячныя Crypto Meetups. Калі Ваш горад не паказаны ў спісе, то ваш горад яшчэ не маюць амбасадара PalmPay. \n \nFor падрабязней, наведайце супольнасць Agorise на Тэлеграма: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">горад</string>
+    <string name="country">краіна</string>
+    <string name="bugs_or_ideas">Памылкі або ідэі?</string>
+    <string name="bugs_or_ideas_contact_info">Тэлеграма чат: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">прымаць</string>
+    <string name="select">выбраць</string>
+    <string name="are_you_sure">Вы ўпэўнены?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Рэзервовае капіраванне brainkey</string>
+    <string name="copied_to_clipboard">Скапіявана ў буфер</string>
+    <string name="bin_file_description">Bin файл. Заўсёды захоўвайце рэзервовую копію файла .bin на сакрэтным MicroSD карты або USB-Stick.</string>
+    <string name="create_a_backup">Стварыць рэзервовую копію</string>
+    <string name="brainkey_description">Brainkey. словы аднаўлення акаўнта, якія могуць быць захопленыя або скапіяваныя, але не рэдагаваць.</string>
+    <string name="txt_brain_key_info">Раздрукуйце гэта, або запішыце яго. Любы чалавек, які мае доступ да вашага ключу аднаўлення будзе мець доступ да грашовых сродкаў у рамках гэтага кашалька.</string>
+    <string name="view_and_copy">Прагляд і капіраванне</string>
+    <string name="title_bin_backup">Экспарт .bin рэзервовага капіявання</string>
+    <string name="hint_password">пароль</string>
+    <string name="hint_password_confirmation">пацвярджэнне пароля</string>
+    <string name="error_password_mandatory">Неабходна ўвесці пароль</string>
+    <string name="error_password_too_short">Пароль занадта кароткі</string>
+    <string name="error_password_confirmation_mismatch">Пароль і пацвярджэнне неадпаведнасці</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Merchant Account: %1$s</string>
+    <string name="upgrade_to_ltm">Абнаўленне да LTM</string>
+    <string name="upgrade_account_description">«Абнаўленне да пажыццёвага членства (LTM). LTM рахункі Bitshares \'заплаціць каля нуля збораў, атрымаеце 80% бонус і бонусы за реферала.»</string>
+    <string name="account_upgrade_title">Абнаўленне ўліковага запісу</string>
+    <string name="account_upgrade_content">Life Time Сяброўства дазваляе гандляваць з скарочаным наборам сеткавых плат. \n \nIt ўступіць у сілу на бягучы рахунак «%1$s» \n \nIt тым не менш прыходзіць з коштам каля 100 даляраў, выплачаных у Bitshares. \n \nAre Вы ўпэўненыя, што жадаеце працягнуць?</string>
+    <string name="account_upgrade_wait_content">Здзелка, якая змяшчае Ваш запыт апрацоўваецца ў сетцы</string>
+    <string name="error_upgrade_account_title">Памылка пры спробе абнавіць уліковы запіс</string>
+    <string name="error_upgrade_account_content">Калі ласка, пераканайцеся, што ваш уліковы запіс мае дастаткова баланс, каб пакрыць выдаткі</string>
+    <string name="account_upgraded_title">кошт мадэрнізаваны</string>
+    <string name="account_upgraded_content">Віншуем! Ваш рахунак цяпер быў павышаны да Lifetime Membership.</string>
+    <string name="remove_account">Выдаліць уліковы запіс</string>
+    <string name="remove_account_description">Выдаліць гэты гандлёвы рахунак. Выдаліце ​​Merchant Account вышэй ад гэтай прылады і стварыць або імпартаваць іншы.</string>
+    <string name="txt_account_remove_confirmation">«Вы ўпэўненыя, што жадаеце выдаліць уліковы запіс" __ 1s __ "з гэтага кашалька?»</string>
+    <string name="remove">выдаленне</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">жаданая Smartcoin</string>
+    <string name="txt_customer_loyalty">Выпуск Loyalty Points, як ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Ваш уліковы запіс яшчэ не валодае якім-небудзь %1$s. Калі ласка, набыць некаторыя, перш чым спрабаваць даваць якія-небудзь сваім кліентам у якасці бонусных балаў.</string>
+    <string name="send">паслаць</string>
+    <string name="txt_for_every">для кожнага</string>
+    <string name="txt_spent">выдаткаваны</string>
+    <string name="txt_bitcoin_altcoin_deposited">Прымаць да 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Калі ласка, абярыце не больш за 8 ўваходных актываў</string>
+    <string name="bitshares_unselection_message">Ядро маркер Bitshares (БПС) патрабуецца.</string>
+    <string name="toast_low_volume_market">Нізкі аб\'ём рынку актывы часова адключаныя. Яны будуць уключаны, калі аб\'ём рынка падымаецца на значную суму</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">лагатып</string>
+    <string name="store_name">назва крамы</string>
+    <string name="address">адрас</string>
+    <string name="phone_number">Нумар тэлефона</string>
+    <string name="website">вэб-сайт</string>
+    <string name="message">паведамленне</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Немагчыма стварыць фармат бен для ключа</string>
+    <string name="saving_bin_file_to_s">Захаванне Bin файл у: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin Файл паспяхова захаваны ў: %1$s</string>
+    <string name="unable_to_save_bin_file">Немагчыма захаваць бен файл</string>
+    <string name="creating_backup_file">Стварэнне рэзервовай копіі файла</string>
+    <string name="fetching_key">Fetching Key</string>
+    <string name="generating_bin_format">Стварэнне фармату бен</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">пошук</string>
+    <string name="filter">фільтр</string>
+    <string name="export">экспарт</string>
+    <string name="confirming">Пацверджанне ...</string>
+    <string name="pdf_generated_msg_s">PDF створаны і захаваны: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Немагчыма стварыць PDF-файл. Калі ласка, паспрабуйце яшчэ раз. Памылка: %1$s</string>
+    <string name="csv_generated_msg_s">CSV створаны і захаваны: %1$s</string>
+    <string name="csv_generated_msg_error_s">Немагчыма стварыць файл CSV. Калі ласка, паспрабуйце яшчэ раз. Памылка: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">усе</string>
+    <string name="sent">пасланы</string>
+    <string name="received">атрымана</string>
+    <string name="date_range">дыяпазон дат</string>
+    <string name="txt_to">у</string>
+    <string name="cryptocurrency">криптовалюта</string>
+    <string name="fiat_amount">сума Fiat</string>
+    <string name="between">паміж</string>
+    <string name="and">і</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Экспарт фільтруюцца здзелкі</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Стварэнне экспартнага прадукту</string>
+    <string name="exported_file_name">PalmPay-транзакцый</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">ад</string>
+    <string name="to">да</string>
+    <string name="memo">напамін</string>
+    <string name="date">дата</string>
+    <string name="time">час</string>
+    <string name="crypto_amount">Crypto Сума</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Уведзеныя ў Fiat Сума</string>
+    <string name="total_fiat_amount">Агульная сума Fiat</string>
+    <string name="fiat_currency">Fiat валюты</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">пункт %1$d</string>
+    <string name="subtotal">Усяго</string>
+    <string name="network_fee">плата за сетку</string>
+    <string name="total">агульны</string>
+    <string name="paid_s_s">Платная %1$s %2$s</string>
+    <string name="change_due">Змена з-за</string>
+    <string name="e_receipt_memo_s">Напамін: %1$s</string>
+    <string name="e_receipt_date_s">Дата: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt з %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Некарэктны стары PIN</string>
+    <string name="pin_changed_successfully">PIN-код паспяхова зменены</string>
+    <string name="please_enter_pin">Калі ласка, увядзіце нумар PIN</string>
+    <string name="please_enter_pin_confirmation">Калі ласка, увядзіце свой PIN-код пацверджання нумары</string>
+    <string name="title_change_pin">Змяніць PIN-код</string>
+    <string name="txt_current_pin">Бягучы нумар PIN</string>
+    <string name="please_enter_old_pin">Калі ласка, увядзіце стары нумар PIN</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Памылка злучэння з вузлом, паўторная спроба</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Мы атрымалі які ўваходзіць плацёж, але ніякага запыту не можа быць знойдзены</string>
+
+</resources>

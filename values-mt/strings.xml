@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Liċenzja</string>
+    <string name="agree">Naqbel</string>
+    <string name="disagree">Ma Jaqblux</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">L-assi tat-tagħbija ...</string>
+    <string name="title_loading_asset_type_data">Tagħbija tad-dejta tat-tip ta \'assi</string>
+    <string name="title_assets_ready">Database ta \'l-assi lesta</string>
+    <string name="msg_loading_all_existing_assets">Twettiq ta \'serje ta\' talbiet sabiex tinkiseb il-lista kompluta tal-assi kollha eżistenti</string>
+    <string name="msg_loading_asset_type_data">Talba għal aktar dettalji dwar l-assi</string>
+    <string name="msg_loading_asset_in_database">L-assi %1$d mimlijin fid-database</string>
+    <string name="msg_assets_loaded">Sussegwentement, jekk jogħġbok issettja l-kont tiegħek ...</string>
+    <string name="error_fetching_marketcap_data">Ma kenitx tista \'tagħbija tad-dejta tas-suq</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Oħloq Kont</string>
+    <string name="txt_account_name">L-isem tal-kont BitShares</string>
+    <string name="unable_to_find_account_id">Mhux disponibbli biex issib l-id tal-kont tal-utent</string>
+    <string name="error_invalid_account_name_explanation">L-isem tal-kont għandu jew ikollu aktar minn 8 karattri, ikollu numru jew m\'għandux vokali. Il-karattru underscore lanqas mhu permess.</string>
+    <string name="create">Oħloq</string>
+    <string name="error">Żball</string>
+    <string name="account_name_already_exist">L-isem tal-kont diġà jeżisti</string>
+    <string name="try_again">Jekk jogħġbok erġa \'pprova wara 5 minuti</string>
+    <string name="txt_new_pin_confirmation">Ikkonferma PIN ġdid (6 + ċifri)</string>
+    <string name="error_wif">Żball fil-ħolqien tal-buttuna WIF</string>
+    <string name="error_faucet_template">Il-faucet irritorna żball. Msg: %1$s</string>
+    <string name="error_read_dict_file">Żball qari fajl tad-dizzjunarju</string>
+    <string name="error_missing_account">L-app ma setgħetx tirkupra informazzjoni dwar il-kont maħluq ġdid</string>
+    <string name="create_account_title">Ħolqien ta \'kont ġdid</string>
+    <string name="create_account_message">Jekk jogħġbok stenna filwaqt li l-kont tiegħek huwa maħluq</string>
+    <string name="error_faucet_explanation">Is-server irritorna żball. Dan jista \'jkun minħabba limitazzjoni stabbilita b\'mod skop biex twaqqaf it-talbiet frekwenti li ġejjin mill-istess indirizz IP f\'perjodu ta\' żmien qasir. Jekk jogħġbok stenna 5 minuti u erġa \'pprova, jew taqleb għal netwerk differenti, Per eżempju minn wifi għal ċellola.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Jekk jogħġbok kun żgur li ssib il-moħħok qabel ma tipproċedi. Dan jippermettilek tirkupra l-kont tiegħek f\'każ li jiġri xi ħaġa għal dan il-mezz.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Kif tixtieq timporta l-kont eżistenti tiegħek?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin Fajl</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Agħżel PIN ta \'6 + ċifri</string>
+    <string name="txt_6_digits_pin_confirm">6 + ċifri PIN jikkonfermaw</string>
+    <string name="please_enter_6_digit_pin">Jekk jogħġbok idħol il-PIN ta \'6-ċifri</string>
+    <string name="please_enter_6_digit_pin_confirm">Jekk jogħġbok ikteb il-konferma tan-numru tal-PIN tiegħek</string>
+    <string name="mismatch_pin">Pin ta \'nuqqas ta\' qbil</string>
+    <string name="please_enter_brainkey">Jekk jogħġbok idħol brainkey</string>
+    <string name="please_enter_correct_brainkey">Jekk jogħġbok idħol brainkey korrett, għandu jkollu bejn 12 u 16-il kelma.</string>
+    <string name="unable_to_load_brainkey">Ma tistax titgħabba brainkey</string>
+    <string name="account_already_exist">Kont diġà jeżisti</string>
+    <string name="importing_your_wallet">Importazzjoni tal-kartiera tiegħek ...</string>
+    <string name="account_candidates_title">Jekk jogħġbok agħżel kont</string>
+    <string name="account_candidates_content">Iċ-ċwievet derivati ​​minn dan il-moħħ jidhru li jintużaw biex jikkontrollaw aktar minn kont wieħed, jekk jogħġbok agħżel liema kont trid timporta</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Importazzjoni. Fajl bin</string>
+    <string name="import_backup">Importazzjoni backup mill-fajl .bin</string>
+    <string name="txt_no_internet_connection">Ebda Konnessjoni fuq l-Internet</string>
+    <string name="no_file_chosen">Ebda fajl magħżul</string>
+    <string name="choose_backup">Agħżel backup</string>
+    <string name="choose_file">Agħżel Fajl</string>
+    <string name="txt_existing_password">Kurrenti .bin fajl Password jew PIN</string>
+    <string name="txt_new_pin">PIN ġdid (6 + ċifri)</string>
+    <string name="importing_keys_from_bin_file">"Ċwievet li jimportaw minn fajl Bin"</string>
+    <string name="please_make_sure_your_bin_file">Jekk jogħġbok aċċerta ruħek li l-pin tiegħek huwa korrett jew il-fajl bin korrett huwa magħżul</string>
+    <string name="missing_existing_password">Jekk jogħġbok daħħal il-password użata biex tikkriptja dan il-fajl backup</string>
+    <string name="pin_number_request">Jekk jogħġbok daħħal in-numru tal-pin użat biex jikkodifika dan il-fajl backup</string>
+    <string name="pin_number_warning">In-numru tal-pin għandu jkun ta \'l-inqas 6 numri</string>
+    <string name="backup_error_no_key_reference_found">Ma nstab l-ebda kont bl-użu ta \'din iċ-ċavetta, jekk jogħġbok kun żgur li qed tuża fajl backup aġġornat.</string>
+    <string name="backup_error_no_wallet_backup">Ebda sostituzzjoni tal-kartiera ma tista \'tinstab f\'dan il-fajl</string>
+    <string name="error_invalid_account">Kont invalidu, jekk jogħġbok iċċekkja ċ-ċavetta tal-moħħ għal żbalji tat-tajping</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Importa</string>
+    <string name="title_account_load_result">Kont miżmum</string>
+    <string name="button_change_account">Bidla</string>
+    <string name="title_select_input_assets">Agħżel l-assi li taċċetta.</string>
+    <string name="explanation_account_setup">Ser ikollok bżonn li twaqqaf kont ta \'Bitshares sabiex tirċievi pagamenti. Jew jekk diġà għandek waħda, tista \'timportaha hawn.</string>
+    <string name="explanation_output_asset">Agħżel il-Smartcoin mixtieq tiegħek:</string>
+    <string name="next">Sussegwentement</string>
+    <string name="done">Magħmul</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Tħallas ma \'</string>
+    <string name="error_corrupted_key_title">Żball ewlieni ta \'korruzzjoni</string>
+    <string name="error_corrupted_key_content">L-app ma tistax tirkupra ċwievet privati ​​kriptati mid-database. Minħabba dan int ser ikollok bżonn tidħol iċ-ċwievet tiegħek għal darb\'oħra. Jew fil-forma ta \'brainkey jew jiffurma l-fajl backup bin li ġie ġġenerat u maħżun awtomatikament fl-sdcard tiegħek jekk il-kont kien maħluq mill-app</string>
+    <string name="invalid_pin">PIN mhux validu</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Dar</string>
+    <string name="txt_transactions">Transazzjonijiet</string>
+    <string name="txt_refunds_returns">Rifużjonijiet / Ritorn</string>
+    <string name="txt_settlement">Soluzzjoni</string>
+    <string name="bitshares_nodes_dialog_title">Nodi Bitshares</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Ammont dovut</string>
+    <string name="sub_total">Sotto-Totali:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Żball fil-ktieb ta \'</string>
+    <string name="content_error_market">M\'hemm l-ebda ordnijiet fid-DEX li jippermettulna li nwettqu l-iskambju għal %1$s fil-mument. \n \n Jekk jogħġbok mur l-iskeda tas-settings u agħżel attiv ta \'produzzjoni differenti.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Jekk jogħġbok Ħallas</string>
+    <string name="please_pay_s_s">Jekk jogħġbok Pay: %1$s %2$s</string>
+    <string name="to_s">Lil: %1$s</string>
+    <string name="txt_network">Ħlas tan-netwerk</string>
+    <string name="txt_please_wait">Stenna</string>
+    <string name="error_node_unreachable">L-ebda nodu ma jista \'jintlaħaq</string>
+    <string name="invoice_subject">Fattura PalmPay minn %1$s</string>
+    <string name="before_s">Qabel: %1$s</string>
+    <string name="share">Aqsam</string>
+    <string name="share_with">Aqsam ma \'</string>
+    <string name="connecting">Konnessjoni ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Agħżel it-talba għall-ħlas</string>
+    <string name="dialog_msg_select_pending_payment">Ħareġ ħlas li deher, iżda ma setax jiġi assenjat awtomatikament għal ħlas mitlub minn qabel. Jekk jogħġbok agħżel it-talba korretta tal-ħlas mil-lista li ġejja.</string>
+    <string name="dialog_msg_confirm_pending_payment">Dan jgħaqqad il-ħlas li jkun dieħel għat-talba ta \'ħlas irreġistrata qabel ta\' %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Dettalji tal-ħlas li jmiss</string>
+    <string name="dialog_generic_title_confirm">Żgur?</string>
+    <string name="dialog_generic_msg_confirm">Jekk jogħġbok innota li din l-azzjoni ma tistax tiġi skartata</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Tiċħad</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Pagament ikkonfermat!</string>
+    <string name="txt_cool">Kessaħ!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Settings</string>
+    <string name="general">Ġenerali</string>
+    <string name="security">Sigurtà</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">Tokens</string>
+    <string name="accounts">Kontijiet</string>
+    <string name="e_receipts">eReċetti</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Modalità bil-lejl</string>
+    <string name="currency_info">Il-munita hija awtomatikament magħżula skont l-għażla tal-lingwa u tal-pajjiż tiegħek. Jekk trid tibdel dawk, trid tmur fis-settings tas-sistema globali tat-tagħmir tiegħek.</string>
+    <string name="screen_saver">Screen Saver</string>
+    <string name="source">Sors</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Fajl default (/ PalmPay)</string>
+    <string name="txt_folder">Folder</string>
+    <string name="choose">Agħżel</string>
+    <string name="screen_saver_time">Jippermettu wara ...</string>
+    <string name="one_minute">1 Minuta</string>
+    <string name="three_minutes">3 minuti</string>
+    <string name="five_minutes">5 Minuti</string>
+    <string name="local_ambassador">Ambaxxatur lokali</string>
+    <string name="ambassador_info">Ambaxxaturi PalmPay jitħallsu kull 3 sekondi. Ix-xogħol tagħhom huwa li jappoġġjaw in-negozjanti PalmPay lokali u jorganizzaw Meetups Crypto ta \'kull xahar. Jekk il-belt tiegħek mhijiex elenkata, allura l-belt tiegħek għad m\'għandhiex Ambaxxatur PalmPay. \n \nGħal aktar tagħrif, żur il-komunità Agorise fuq Telegramm: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Belt</string>
+    <string name="country">Pajjiż</string>
+    <string name="bugs_or_ideas">Bugs jew Ideat?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Aċċetta</string>
+    <string name="select">Agħżel</string>
+    <string name="are_you_sure">Żgur?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Brainkey backup</string>
+    <string name="copied_to_clipboard">Kopjati lill-clipboard</string>
+    <string name="bin_file_description">Bin file. Dejjem issejvja l-fajl backup tiegħek għal kard MicroSD sigrieta jew USB Stick.</string>
+    <string name="create_a_backup">Oħloq backup</string>
+    <string name="brainkey_description">Brainkey. Kliem ta \'rkupru tal-kont li jista\' jinqabad jew jiġi kkupjat, iżda mhux editjat.</string>
+    <string name="txt_brain_key_info">Stampa dan, jew iktebha. Kull min ikollu aċċess għal ċavetta ta \'rkupru tiegħek ikollu aċċess għal fondi f\'din il-kartiera.</string>
+    <string name="view_and_copy">Ara u Kopja</string>
+    <string name="title_bin_backup">Esportazzjoni .bin backup</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirmation">Konferma bil-password</string>
+    <string name="error_password_mandatory">Għandek tidħol password</string>
+    <string name="error_password_too_short">Il-password hija qasira wisq</string>
+    <string name="error_password_confirmation_mismatch">Nuqqas ta \'qbil fil-password u l-konferma</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Kont tal-Merkantili: %1$s</string>
+    <string name="upgrade_to_ltm">Aġġorna għal LTM</string>
+    <string name="upgrade_account_description">"Taġġorna lis-Sħubija Ħajja (LTM). Il-kontijiet LTM ta \'Bitshares iħallsu miżati kważi nulli, jiksbu cashback ta\' 80% u bonuses għal referenzi."</string>
+    <string name="account_upgrade_title">Aġġorna l-Kont</string>
+    <string name="account_upgrade_content">Is-Sħubija Ħajja Ħin tippermettilek li tinnegozja ma \'sett imnaqqas ta\' tariffi tan-netwerk. \n \nI ser tidħol fis-seħħ fil-kont kurrenti "%1$s" \n \n Iżda ma \'spiża ta\' madwar USD 100 imħallsa f\'Bitshares. \n \nGħandek tkun żgur li trid tipproċedi?</string>
+    <string name="account_upgrade_wait_content">It-tranżazzjoni li fiha t-talba tiegħek qed tiġi pproċessata min-netwerk</string>
+    <string name="error_upgrade_account_title">Żball waqt li qed tipprova ttejjeb il-kont</string>
+    <string name="error_upgrade_account_content">Jekk jogħġbok kun żgur li l-kont tiegħek għandu bilanċ biżżejjed biex ikopri l-ispejjeż</string>
+    <string name="account_upgraded_title">Kont aġġornat</string>
+    <string name="account_upgraded_content">Pjaċir! il-kont tiegħek issa ġie aġġornat għas-Sħubija tal-Ħajja.</string>
+    <string name="remove_account">Neħħi l-Kont</string>
+    <string name="remove_account_description">Neħħi dan il-Kont Merkantili. Neħħi l-Kont Merkantili hawn fuq minn dan l-apparat u toħloq jew timporta wieħed differenti.</string>
+    <string name="txt_account_remove_confirmation">"Int żgur li trid tneħħi l-kont" %1$s "minn din il-kartiera?"</string>
+    <string name="remove">Neħħi</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Smartcoin mixtieq</string>
+    <string name="txt_customer_loyalty">Ħruġ ta \'punti ta\' lealtà bħala ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Il-kont tiegħek għadu m\'għandu l-ebda %1$s. Jekk jogħġbok akkwista xi wħud qabel ma tipprova tagħti kwalunkwe lill-klijenti tiegħek bħala Punti ta \'Lealtà.</string>
+    <string name="send">Ibgħat</string>
+    <string name="txt_for_every">Għal kull</string>
+    <string name="txt_spent">jintefqu</string>
+    <string name="txt_bitcoin_altcoin_deposited">Aċċetta sa 8 Kriptozanzi:</string>
+    <string name="altcoins_should_not_more_than">Jekk jogħġbok agħżel mhux aktar minn 8 assi ta \'input</string>
+    <string name="bitshares_unselection_message">L-isken tal-qalba ta \'Bitshares (BTS) hija meħtieġa.</string>
+    <string name="toast_low_volume_market">L-assi tas-suq b\'volum baxx huma temporanjament diżattivati. Ikunu jistgħu jitħallew ladarba l-volum tas-suq jitla \'għal ammont konsiderevoli</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Isem tal-Aħżen</string>
+    <string name="address">Indirizz</string>
+    <string name="phone_number">Numru tat-telefon</string>
+    <string name="website">Sit elettroniku</string>
+    <string name="message">Messaġġ</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Ma jistgħux jiġġeneraw il-format bin għall-kodiċi</string>
+    <string name="saving_bin_file_to_s">Saving Bin File lil: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin File salvat b\'suċċess għal: %1$s</string>
+    <string name="unable_to_save_bin_file">Mhux se jitħalla fajl bin</string>
+    <string name="creating_backup_file">Ħolqien ta \'fajl ta\' backup</string>
+    <string name="fetching_key">Fetching Key</string>
+    <string name="generating_bin_format">Il-ġenerazzjoni tal-format bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Fittex</string>
+    <string name="filter">Iffiltra</string>
+    <string name="export">Esportazzjoni</string>
+    <string name="confirming">Ikkonferma ...</string>
+    <string name="pdf_generated_msg_s">PDF iġġenerat u ffrankat: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Mhux kapaċi jiġġenera pdf. Jekk jogħġbok erġa \'pprova. Żball: %1$s</string>
+    <string name="csv_generated_msg_s">CSV iġġenerat u ffrankat: %1$s</string>
+    <string name="csv_generated_msg_error_s">Ma tistax tiġġenera csv. Jekk jogħġbok erġa \'pprova. Żball: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Kollha</string>
+    <string name="sent">Mibgħut</string>
+    <string name="received">Irċevuta</string>
+    <string name="date_range">Firxa ta \'Data</string>
+    <string name="txt_to">għal</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Ammont ta \'Fiat</string>
+    <string name="between">Bejn</string>
+    <string name="and">u</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Esportazzjoni ta \'tranżazzjonijiet iffiltrati</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Ġenerazzjoni ta \'prodott għall-esportazzjoni</string>
+    <string name="exported_file_name">PalmPay-Transazzjonijiet</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Minn</string>
+    <string name="to">Lil</string>
+    <string name="memo">Memo</string>
+    <string name="date">Data</string>
+    <string name="time">Ħin</string>
+    <string name="crypto_amount">Ammont kripto</string>
+    <string name="crypto_symbol">Simbolu kripto</string>
+    <string name="keyed_in_fiat_amount">Ammont ta \'Fiat imdaħħal fil-Keyed</string>
+    <string name="total_fiat_amount">Ammont totali ta \'Fiat</string>
+    <string name="fiat_currency">Fiat Currency</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Punt %1$d</string>
+    <string name="subtotal">Sub-Totali</string>
+    <string name="network_fee">Ħlas tan-netwerk</string>
+    <string name="total">Totali</string>
+    <string name="paid_s_s">Imħallas %1$s %2$s</string>
+    <string name="change_due">Bidla dovuta</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Data: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt minn %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">PIN qadim żbaljat</string>
+    <string name="pin_changed_successfully">PIN inbidlet b\'suċċess</string>
+    <string name="please_enter_pin">Jekk jogħġbok daħħal in-numru PIN</string>
+    <string name="please_enter_pin_confirmation">Jekk jogħġbok daħħal il-konferma tan-numru tal-PIN tiegħek</string>
+    <string name="title_change_pin">Edit PIN</string>
+    <string name="txt_current_pin">In-numru PIN kurrenti</string>
+    <string name="please_enter_old_pin">Jekk jogħġbok daħħal in-numru PIN preċedenti</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Żball fil-konnessjoni node, nibdew mill-ġdid</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Sirna ħlas li deħlin, imma ma setgħet tinstab l-ebda talba</string>
+
+</resources>

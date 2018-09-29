@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Licenza</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Ùn dispunibule</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Cumentu attivu ...</string>
+    <string name="title_loading_asset_type_data">Cumpete infurmazione di dati ...</string>
+    <string name="title_assets_ready">Basa di dati</string>
+    <string name="msg_loading_all_existing_assets">Ripristinendu una seria di dumande in modu per ottene a lista completa di l\'assi esistenti</string>
+    <string name="msg_loading_asset_type_data">A dumanda d \'infurmazione di attivu</string>
+    <string name="msg_loading_asset_in_database">Amparate l\'attivu %1$d à a basa di dati</string>
+    <string name="msg_assets_loaded">Adupratu, setjustà u vostru contu ...</string>
+    <string name="error_fetching_marketcap_data">Ùn pudete micca cargarà infurmazione di marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Crea cuntà</string>
+    <string name="txt_account_name">U nome di contu di BitShares</string>
+    <string name="unable_to_find_account_id">Ùn puderà truvà l\'idu di u cuntalliariu</string>
+    <string name="error_invalid_account_name_explanation">U nomu di conta deve avè più di più di 8 caratteri, cuntene un numeru o ùn anu micca vucali. U caratteru sotturfetta hè ancu micca permessa.</string>
+    <string name="create">Crea</string>
+    <string name="error">Errore</string>
+    <string name="account_name_already_exist">U nomu di una accounte esiste digià</string>
+    <string name="try_again">Pruvate una volta dopu à 5 minuti</string>
+    <string name="txt_new_pin_confirmation">Confirmate un PIN novu (6 + digits)</string>
+    <string name="error_wif">Errore creò a chjave WIF</string>
+    <string name="error_faucet_template">A faucet hà tornatu un errore. Msg: %1$s</string>
+    <string name="error_read_dict_file">Errore di leghje u dizziunariu</string>
+    <string name="error_missing_account">L\'app ùn pudia micca ricuperà infurmazione nantu à u vostru contu novu creatu</string>
+    <string name="create_account_title">Creazione novu contu</string>
+    <string name="create_account_message">Aghjalesi mentre u vostru account hè creatu</string>
+    <string name="error_faucet_explanation">U servitore tornò un errore. Questu pò esse dovutu a una limitazione propina à settimana in u locu per disleverà dumande frequente chì venenu da a listessa indirizzu IP in pocu tempu. Aghjone 5 minuti è pruvate una volta, o cambià à una reta differenti, Per esempiu da u wifi à a cellula.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Assicuratevi di salvà a vostra craqueur prima di prucede. Questu permetterà di ricuperà a vostra contu in casu alcunu avvene in questu device.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Cumu vulete impurtà u vostru contu?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">Cosa WIF</string>
+    <string name="bin_file">.bin File</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Sceglite un PIN di cifru 6+</string>
+    <string name="txt_6_digits_pin_confirm">6+ digits PIN confirmate</string>
+    <string name="please_enter_6_digit_pin">Per piacè inserite u PIN di 6 ciddi</string>
+    <string name="please_enter_6_digit_pin_confirm">Per piacè inserite a cunferma di u vostru numeru PIN</string>
+    <string name="mismatch_pin">Pinna mischja</string>
+    <string name="please_enter_brainkey">Per piacè inserite u mutore</string>
+    <string name="please_enter_correct_brainkey">Intécrire u scurientu chianu correctu, avè pussutu avè 12 o 16 parolle.</string>
+    <string name="unable_to_load_brainkey">Ùn puderà carricà i funziunalità</string>
+    <string name="account_already_exist">U cuntu esiste digià</string>
+    <string name="importing_your_wallet">Importa a vostra billetina ...</string>
+    <string name="account_candidates_title">Sceglite un cunse</string>
+    <string name="account_candidates_content">I chjavi derivati ​​di stu chianu di u funziunalu pareanu esse usatu per cuntrullà più di un cuntu, sceglite u quale vo vulete importà</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Importazzamentu .bin</string>
+    <string name="import_backup">Importa copia di salvezza da u .bin</string>
+    <string name="txt_no_internet_connection">No Connection Internet</string>
+    <string name="no_file_chosen">Nisun sceltu chjamatu</string>
+    <string name="choose_backup">Sceglite Chjucu</string>
+    <string name="choose_file">Scelta Ficheme</string>
+    <string name="txt_existing_password">U schedariu actual .bin Contrasenya o PIN</string>
+    <string name="txt_new_pin">Novi PIN (6 + numeri)</string>
+    <string name="importing_keys_from_bin_file">"Cunsiglii impurtanti da u schedariu Bin"</string>
+    <string name="please_make_sure_your_bin_file">Assicuratevi chì u vostru pinu hè correctu o un schedariu per cumpressu hè sceltu</string>
+    <string name="missing_existing_password">Per piacè inserisce a chjave utilizata per cifrà sta copia di salvezza</string>
+    <string name="pin_number_request">Per piacè entre u numeru pinu usatu per incodà stu archiviu di salvezza</string>
+    <string name="pin_number_warning">U numicu di u pin hè dettu almenu 6 figuri</string>
+    <string name="backup_error_no_key_reference_found">Ùn avete micca scrivite l\'utilizazione di sta chjave, aghjà assicurendu chì esiste un schedariu di copia di salvezza.</string>
+    <string name="backup_error_no_wallet_backup">Ùn pò esse truvatu micca salvezza a billeteria in stu schedariu</string>
+    <string name="error_invalid_account">Contatta invàlida, verificate a chjave di u culore per i scatti</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Impurtanza</string>
+    <string name="title_account_load_result">U cuntestu hà cargado</string>
+    <string name="button_change_account">Cambià</string>
+    <string name="title_select_input_assets">Select the assets to accept.</string>
+    <string name="explanation_account_setup">Avete bisognu di fà stallà un cuntu di Bitshares per riceve pagamenti. O sè vo avete avà una, pudete impurtà in questa.</string>
+    <string name="explanation_output_asset">Sceglite u vostru Smartcoin chì vulete:</string>
+    <string name="next">Next</string>
+    <string name="done">Fattu</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Paga cun</string>
+    <string name="error_corrupted_key_title">Error di corruzzione chjave</string>
+    <string name="error_corrupted_key_content">L\'app hè incapaci di recoverà i chjavi privati ​​chjappi da a basa di dati. Per via di questu hè devenu esse dumandatu di scrivite e vostre chjavi. O in u furmatu di un chjosum o di cumpressione u còdice di salvezza chì hè stata generata è almacenata automaticamente in a vostra sdcard si u cumentu hè statu creatu da l\'app</string>
+    <string name="invalid_pin">Invalid PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Home</string>
+    <string name="txt_transactions">Transacciones</string>
+    <string name="txt_refunds_returns">Rimborsi / Riturnà</string>
+    <string name="txt_settlement">Liquidazione</string>
+    <string name="bitshares_nodes_dialog_title">Nodes di Bitshares</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Ammonti debuli</string>
+    <string name="sub_total">Sub-Total:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Errore di u libru di ordine</string>
+    <string name="content_error_market">Ùn ci hè micca urdinatu in u DEX chì puderamu permette di fà u cambiamentu à %1$s in u mumentu. \n \nPiazza à a scatula di u paràmetru è selezziunate un attivu di prughjettu diffirenti.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Pay</string>
+    <string name="please_pay_s_s">Paghjate Pay: %1$s %2$s</string>
+    <string name="to_s">A: %1$s</string>
+    <string name="txt_network">Rice</string>
+    <string name="txt_please_wait">Spazii</string>
+    <string name="error_node_unreachable">Nisun node puderia ghjunghje</string>
+    <string name="invoice_subject">A fattura di PalmPay da %1$s</string>
+    <string name="before_s">Prima: %1$s</string>
+    <string name="share">Share</string>
+    <string name="share_with">Share with</string>
+    <string name="connecting">Cunnessione ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Appuntamentu di sviamentu</string>
+    <string name="dialog_msg_select_pending_payment">Un\'altra entratura hè stata detta, ma ùn pò micca esse attribuita automaticamente à un pagamentu previamente dumandatu. Sceglite puru a dumanda di pagamentu curretta da a lista quì.</string>
+    <string name="dialog_msg_confirm_pending_payment">Questu ligà u pagamentu ingressu à a dumanda di pagamentu di registratu di %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Prisentazione di u pagamentu</string>
+    <string name="dialog_generic_title_confirm">Sì sicuru?</string>
+    <string name="dialog_generic_msg_confirm">Avete nutatu chì sta action ùn pò micca esse desunitu</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Caccia</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Pagamentu cunfirmata!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Settings</string>
+    <string name="general">General</string>
+    <string name="security">Seguretat</string>
+    <string name="backups">Salvà salvezza</string>
+    <string name="tokens">FTP</string>
+    <string name="accounts">Accounts</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Modu di notte</string>
+    <string name="currency_info">A munita hè automaticamente selezionata nantu à a vostra lingua è a scelta di u paese. Se vulete mudificà quelli, andà à l\'appena di u sistema di u telefonu.</string>
+    <string name="screen_saver">Screen Saver</string>
+    <string name="source">Source</string>
+    <string name="bitshares_logo">Logo di BitShares</string>
+    <string name="default_folder">Carpeta per defettu (/ PalmPay)</string>
+    <string name="txt_folder">Folder</string>
+    <string name="choose">Scegli</string>
+    <string name="screen_saver_time">Attualmente dopu ...</string>
+    <string name="one_minute">1 Minuta</string>
+    <string name="three_minutes">3 minuti</string>
+    <string name="five_minutes">5 minuti</string>
+    <string name="local_ambassador">Ambaissadoru Locale</string>
+    <string name="ambassador_info">L\'Ambassadori PalmPay si paganu ogni 3 sicondi. U so travagliu hè di sustenerà i clienti di PalmPay è urganizzati Meetup di Crypto mensili. Se a to cità ùn hè micca listessa, a to cità ùn averia micca un Ammassalero PalmPay. \n \nFor more info, visitate a comunità d\'Agorise in Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Cità</string>
+    <string name="country">Paese</string>
+    <string name="bugs_or_ideas">Bugs or Ideas?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Acepta</string>
+    <string name="select">Select</string>
+    <string name="are_you_sure">Sì sicuru?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Copiatu à u clipboard</string>
+    <string name="bin_file_description">Bin file. Sempre aghjà salvà a copia di salvezza. Bin file à una secreta MicroSD card o USB Stick.</string>
+    <string name="create_a_backup">Crea una copia di salvezza</string>
+    <string name="brainkey_description">Brainkey. Piani di ricuperazione di qualità chì pò esse captudu o copiati, ma micca editatu.</string>
+    <string name="txt_brain_key_info">Stampa dinò, o scrizzà. Qualchese cù accessu à a vostra chjave di ricuperu sarà accessu à i fondi in questa billetea.</string>
+    <string name="view_and_copy">Vista è Copia</string>
+    <string name="title_bin_backup">A copia di salvezza</string>
+    <string name="hint_password">Codice</string>
+    <string name="hint_password_confirmation">Confirmazione di u password</string>
+    <string name="error_password_mandatory">Scrive una password</string>
+    <string name="error_password_too_short">A password hè troppu corta</string>
+    <string name="error_password_confirmation_mismatch">Contrasenya è cunfirmazione micca</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Merchant Account: %1$s</string>
+    <string name="upgrade_to_ltm">Avanzate à LTM</string>
+    <string name="upgrade_account_description">"Avanzate à a Membranza LifeTime (LTM). L\'account LTM di Bitshares accetta pagamenti cero vicinu à cero, riceve 80% di rete u bonus per riferenzi".</string>
+    <string name="account_upgrade_title">Avanzate Cuenti</string>
+    <string name="account_upgrade_content">A Cumpagnìa di Life Time permette di scambià cù un gruppu ridottu di tariffi di rete. \n \n Ùn aghjunghje effettu à u contu currente "%1$s" \n \n Ùn sò cunvenutu cun u costu di circa USD 100 pagatu in Bitshares. \n \nAre sicuru chì vulete prucederà?</string>
+    <string name="account_upgrade_wait_content">A transazzione chì cuntene a vostra dumanda hè stata procesata da a reta</string>
+    <string name="error_upgrade_account_title">Errore mentre attentava à aghjurnà u vostru contu</string>
+    <string name="error_upgrade_account_content">Assicuratevi chì u vostru contu cuntene u equilibriu per coperta i costi</string>
+    <string name="account_upgraded_title">Accolta aghjurnata</string>
+    <string name="account_upgraded_content">Felicità! U vostru contu hè aghjurnatu à a Membership Lifetime.</string>
+    <string name="remove_account">Eliminà uccuta</string>
+    <string name="remove_account_description">Sguassà questa Merchant Account. Eliminate a Merchant Account dettu quellu device è creanu o impurta un differenti.</string>
+    <string name="txt_account_remove_confirmation">"Vulete sicuru chì vulete sguassà u cumentu" %1$s "da questa billetula?"</string>
+    <string name="remove">Eliminar</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Smartcoin dispunibule</string>
+    <string name="txt_customer_loyalty">Issue Loyalty Points ...</string>
+    <string name="warning_insufficient_reward_asset_balance">U vostru contu ùn possu micca alcun %1$s. Piglia una acquistera prima di pruvate à dà à i vostri clienti in Lealtà.</string>
+    <string name="send">Mandà</string>
+    <string name="txt_for_every">Per ognunu</string>
+    <string name="txt_spent">passati</string>
+    <string name="txt_bitcoin_altcoin_deposited">Acepta à 8 Criptaizeti:</string>
+    <string name="altcoins_should_not_more_than">Sceglite micca micca più di 8 assi di l\'input</string>
+    <string name="bitshares_unselection_message">U simbolu chjamatu Bitshares (BTS).</string>
+    <string name="toast_low_volume_market">L\'attivu di u mercatu di u voluminu pocu hè invalidatu temporale. Seranu attivati ​​una volta chì u voluminu di u mercatu sullivanu à una quantità considerable</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Store Name</string>
+    <string name="address">Indirizzu</string>
+    <string name="phone_number">Numeru di telefonu</string>
+    <string name="website">Web</string>
+    <string name="message">Missaghju</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Ùn puderà generà un binariu per a chjave</string>
+    <string name="saving_bin_file_to_s">Saving Bin File per: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin Archive saved successfully to: %1$s</string>
+    <string name="unable_to_save_bin_file">Ùn hè imprevu di salvà un schedariu bin</string>
+    <string name="creating_backup_file">Creazione di copia di salvezza</string>
+    <string name="fetching_key">Fattening Key</string>
+    <string name="generating_bin_format">Formatu di generazione bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Ricerca</string>
+    <string name="filter">Filtru</string>
+    <string name="export">Esporta</string>
+    <string name="confirming">Confirming ...</string>
+    <string name="pdf_generated_msg_s">PDF generatu è salvatu: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Ùn pudere generà pdf. Ripaciate. Errore: %1$s</string>
+    <string name="csv_generated_msg_s">Crescenu e salvatu CSV: %1$s</string>
+    <string name="csv_generated_msg_error_s">Unable di generà csv. Ripaciate. Errore: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Tutti</string>
+    <string name="sent">Mandatu</string>
+    <string name="received">Received</string>
+    <string name="date_range">Data Range</string>
+    <string name="txt_to">à</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Amma Fiat</string>
+    <string name="between">Tra</string>
+    <string name="and">è</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Esporà transazzione filtrata</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Cuminatu di produzzione di esporà</string>
+    <string name="exported_file_name">PalmPay-Transactions</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Da</string>
+    <string name="to">To</string>
+    <string name="memo">Memo</string>
+    <string name="date">Data</string>
+    <string name="time">Time</string>
+    <string name="crypto_amount">Crypto Amount</string>
+    <string name="crypto_symbol">Criptu di Simbulu</string>
+    <string name="keyed_in_fiat_amount">Keyed-in Fiat Amount</string>
+    <string name="total_fiat_amount">Fiat Amount Total</string>
+    <string name="fiat_currency">Fiat Currency</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Item %1$d</string>
+    <string name="subtotal">Sub-Total</string>
+    <string name="network_fee">Rice</string>
+    <string name="total">Tuttu</string>
+    <string name="paid_s_s">Pagatu %1$s %2$s</string>
+    <string name="change_due">Change due</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Data: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay uReceipt da %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Incorrect PIN anticu</string>
+    <string name="pin_changed_successfully">PIN hà cambiatu cù successu</string>
+    <string name="please_enter_pin">Per piacè inserisce u numeru PIN</string>
+    <string name="please_enter_pin_confirmation">Per piacè inserisce u cunferma di u PIN</string>
+    <string name="title_change_pin">Edite PIN</string>
+    <string name="txt_current_pin">U numicu PIN actuale</string>
+    <string name="please_enter_old_pin">Per piacè entre numinariu PIN</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Errore di cunnessione di nodes, retentule</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Avemu un pagamentu ingressu, ma ùn puderebbenu esse dumanda</string>
+
+</resources>

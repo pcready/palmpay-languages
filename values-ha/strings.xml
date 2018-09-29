@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Lasisi</string>
+    <string name="agree">Amince</string>
+    <string name="disagree">Rashin yarda</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Loading dukiya ...</string>
+    <string name="title_loading_asset_type_data">Ana amfani da bayanan bayanan kadari ...</string>
+    <string name="title_assets_ready">Asusun ajiya mai tushe</string>
+    <string name="msg_loading_all_existing_assets">Yin jerin jerin buƙatun don samun cikakken jerin duk dukiyar da aka samu</string>
+    <string name="msg_loading_asset_type_data">Nemi ƙarin bayani na kadari</string>
+    <string name="msg_loading_asset_in_database">Ƙididdigar dukiya ta asusun ajiyar kuɗi a cikin database</string>
+    <string name="msg_assets_loaded">Kusa, don Allah saitin asusun ku ...</string>
+    <string name="error_fetching_marketcap_data">Ba za a iya ɗaukar bayanan kasuwancin ba</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Kirkira ajiya</string>
+    <string name="txt_account_name">Sunan lissafin BitShares</string>
+    <string name="unable_to_find_account_id">Ba a iya samun asusun idin mai amfani ba</string>
+    <string name="error_invalid_account_name_explanation">Sunan lissafin yana da ko dai suna da fiye da haruffa 8, ɗauke da lambar ko basu da wasula. Ba a yarda da halin haɓakawa ba.</string>
+    <string name="create">Ƙirƙiri</string>
+    <string name="error">Kuskure</string>
+    <string name="account_name_already_exist">Sunan lissafi sun wanzu</string>
+    <string name="try_again">Da fatan a sake gwadawa bayan minti 5</string>
+    <string name="txt_new_pin_confirmation">Tabbatar da sabon PIN (6+ lambobi)</string>
+    <string name="error_wif">Kuskuren samar da maɓallin WIF</string>
+    <string name="error_faucet_template">Ƙungiyar ta dawo da kuskure. Msg: __</string>
+    <string name="error_read_dict_file">Kuskuren karanta fayilolin ƙamus</string>
+    <string name="error_missing_account">Kayan ba zai iya dawo da bayanan game da sabuwar asusun ba</string>
+    <string name="create_account_title">Samar da sabon asusun</string>
+    <string name="create_account_message">Da fatan a jira yayin an halicci asusunka</string>
+    <string name="error_faucet_explanation">Asusun ya dawo da kuskure. Wannan zai yiwu saboda ƙayyadaddun da aka saita da gangan don sanyawa buƙatun buƙatun da suke fitowa daga adireshin IP guda a cikin ɗan gajeren lokaci. Da fatan a dakatar da minti 5 kuma sake gwadawa, ko canza zuwa cibiyar sadarwa daban-daban, misali daga WiFi zuwa cell.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Da fatan a tabbatar da cewa ka adana kwakwalwarka kafin ka cigaba. Wannan zai ba ka damar dawo da asusunka idan wani abu ya faru da wannan na\'urar.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Yaya kuke so ku shigo da asusunku na yanzu?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin fayil</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Zaɓi PIN 6+</string>
+    <string name="txt_6_digits_pin_confirm">6+ lambobi PIN tabbatar</string>
+    <string name="please_enter_6_digit_pin">Da fatan a shigar da PIN 6-digit</string>
+    <string name="please_enter_6_digit_pin_confirm">Da fatan a shigar da tabbaci na lambar PIN naka</string>
+    <string name="mismatch_pin">Ƙirƙirar launi</string>
+    <string name="please_enter_brainkey">Da fatan a shigar da kwakwalwa</string>
+    <string name="please_enter_correct_brainkey">Da fatan a shigar da kyakwalwar kwakwalwa daidai, ya kamata a sami tsakanin kalmomi 12 zuwa 16.</string>
+    <string name="unable_to_load_brainkey">Ba a iya ɗaukar hoto ba</string>
+    <string name="account_already_exist">Asusun ya wanzu</string>
+    <string name="importing_your_wallet">Ana shigo da walat ɗinka ...</string>
+    <string name="account_candidates_title">Da fatan a zaɓi lissafin</string>
+    <string name="account_candidates_content">Mažallan da aka samo daga wannan kwakwalwa suna da alama amfani da su don sarrafa akidu fiye da ɗaya, don Allah zaɓar wane asusun da kake son shigo</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Shigar da fayil na .bin</string>
+    <string name="import_backup">Shigar da Ajiyayyen daga fayil din .bin</string>
+    <string name="txt_no_internet_connection">Babu Intanit Intanet</string>
+    <string name="no_file_chosen">Babu fayil da aka zaba</string>
+    <string name="choose_backup">Zaɓi Ajiyayyen</string>
+    <string name="choose_file">Zaɓi Fayil</string>
+    <string name="txt_existing_password">Kashi na yanzu .bin fayil Kalmar wucewa ko PIN</string>
+    <string name="txt_new_pin">Sabuwar PIN (6+ lambobi)</string>
+    <string name="importing_keys_from_bin_file">"Ana shigo da maɓalli daga fayil ɗin Bin"</string>
+    <string name="please_make_sure_your_bin_file">Da fatan a tabbatar cewa fil ɗinka daidai ne ko kuma daidai fayil din an zaba</string>
+    <string name="missing_existing_password">Da fatan a shigar da kalmar wucewa da aka yi amfani da shi don rufe fayil ɗin ajiya</string>
+    <string name="pin_number_request">Da fatan a shigar da lambar lambar da aka yi amfani da su don ɓoye wannan fayil ɗin ajiya</string>
+    <string name="pin_number_warning">Lambar lambar dole ne a kalla 6 lambobi</string>
+    <string name="backup_error_no_key_reference_found">Babu asusun da aka yi amfani da wannan maɓalli, don Allah a tabbata kuna amfani da fayil ɗin ajiya wanda aka ɗaukaka.</string>
+    <string name="backup_error_no_wallet_backup">Ba za a iya samun adana waƙa a wannan fayil ba</string>
+    <string name="error_invalid_account">Asusun mara inganci, don Allah a duba maɓallin katin kwakwalwa don kuskuren rubutu</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Shigo da</string>
+    <string name="title_account_load_result">Asusun da aka ɗora</string>
+    <string name="button_change_account">Canja</string>
+    <string name="title_select_input_assets">Zaɓi dukiya don karɓa.</string>
+    <string name="explanation_account_setup">Kuna buƙatar saitin asusun Bitshares don karɓar biya. Ko kuma idan kana da daya, zaka iya shigo da shi a nan.</string>
+    <string name="explanation_output_asset">Zaɓi da ake so Smartcoin:</string>
+    <string name="next">Kusa</string>
+    <string name="done">Anyi</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Biya tare da</string>
+    <string name="error_corrupted_key_title">Key cin hanci da rashawa kuskure</string>
+    <string name="error_corrupted_key_content">Kayan ba zai iya dawo da maɓallin keɓaɓɓen ɓoyayyenku na asusun ba. Saboda haka zaka buƙatar shigar da makullinku. Ko dai a cikin nau\'in kwakwalwa ko kuma samar da fayilolin ajiya wanda aka samar da kuma adana ta atomatik a cikin sdcard idan an yi asusun ɗin ta hanyar app</string>
+    <string name="invalid_pin">PIN mara inganci</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Home</string>
+    <string name="txt_transactions">Ma\'amaloli</string>
+    <string name="txt_refunds_returns">Refunds / Koma</string>
+    <string name="txt_settlement">Ƙungiya</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares nodes</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Adadin saboda</string>
+    <string name="sub_total">Sub-Total:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Kuskuren littafin daftarin</string>
+    <string name="content_error_market">Babu umarni a cikin DEX wanda zai ba mu damar yin musayar zuwa %1$s a yanzu. \n ___Afika je zuwa allon saitunan kuma zaɓi wani abu daban-daban na kayan fitarwa.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Da fatan a biya</string>
+    <string name="please_pay_s_s">Don Allah a biya: %1$s %2$s</string>
+    <string name="to_s">To: __1</string>
+    <string name="txt_network">Ƙimar hanyar sadarwa</string>
+    <string name="txt_please_wait">Don Allah jira</string>
+    <string name="error_node_unreachable">Babu kumburi da za a iya isa</string>
+    <string name="invoice_subject">Lambar littafin PalmPay daga _____</string>
+    <string name="before_s">Kafin: __1</string>
+    <string name="share">Share</string>
+    <string name="share_with">Share tare</string>
+    <string name="connecting">Haɗawa ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Zaɓi umarni na biyan kuɗi</string>
+    <string name="dialog_msg_select_pending_payment">An sami biyan kuɗi mai shiga, amma ba za a iya sanya shi ta atomatik zuwa biya bashin da aka buƙata ba. Da fatan za a zaɓi takardar biyan kuɗi mai kyau daga lissafin da ke biyowa.</string>
+    <string name="dialog_msg_confirm_pending_payment">Wannan zai danganta biyan biyan kuɗin zuwa biyan kuɗin da aka rubuta a baya a rubuce na %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Bayanin biyan kuɗi na shiga</string>
+    <string name="dialog_generic_title_confirm">Ka tabbata?</string>
+    <string name="dialog_generic_msg_confirm">Lura cewa wannan aikin baza a lalace ba</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Kashe</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Biyan kuɗi ya tabbatar!</string>
+    <string name="txt_cool">Kungiyar!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Saituna</string>
+    <string name="general">Janar</string>
+    <string name="security">Tsaro</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">Alamun</string>
+    <string name="accounts">Asusun</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Yanayin dare</string>
+    <string name="currency_info">An zaɓi kudin ne ta atomatik bisa ga harshe da zaɓi na ƙasa. Idan kana so ka canza wašannan, dole ne ka je tsarin tsarin duniya na na\'urarka.</string>
+    <string name="screen_saver">Ajiye allo</string>
+    <string name="source">Source</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Tsohon fayil ɗin (/ PalmPay)</string>
+    <string name="txt_folder">Jaka</string>
+    <string name="choose">Zaɓi</string>
+    <string name="screen_saver_time">Enable bayan ...</string>
+    <string name="one_minute">1 Minute</string>
+    <string name="three_minutes">3 Minti</string>
+    <string name="five_minutes">5 minti</string>
+    <string name="local_ambassador">Ambassador na gida</string>
+    <string name="ambassador_info">PalmPay Ambassadors sun biya kowane 3 seconds. Ayyukan su shine don tallafa wa \'yan kasuwa na PalmPay na gida da tsara kowane taro Crypto Meetups. Idan ba\'a sanya birninku ba, to, garinku ba shi da Ambasada PalmPay. Don ƙarin bayani, ziyarci kungiyar Agorise akan Telegram: <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">City</string>
+    <string name="country">Ƙasar</string>
+    <string name="bugs_or_ideas">Bugs ko Ideas?</string>
+    <string name="bugs_or_ideas_contact_info">Ƙididdiga na dandalin tattaunawa: http://t.me/Agorise __N_Melma: Agorise@protonmail.ch</string>
+    <string name="accept">Karɓa</string>
+    <string name="select">Zaɓi</string>
+    <string name="are_you_sure">Ka tabbata?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Ajiyayyen brainkey</string>
+    <string name="copied_to_clipboard">An buga shi zuwa takarda</string>
+    <string name="bin_file_description">Bin fayil. Koyaushe ajiye fayilolin ajiyar ku na .bin zuwa katin MicroSD na sirri ko Kebul na USB.</string>
+    <string name="create_a_backup">Ƙirƙiri madadin</string>
+    <string name="brainkey_description">Brainkey. Kalmomin dawowa na asusun da za a iya kama ko kofe, amma ba a daidaita su ba.</string>
+    <string name="txt_brain_key_info">Rubuta wannan, ko rubuta shi. Duk wanda ke samun dama ga maɓallin dawowa zai sami damar samun kudi a cikin wannan walat.</string>
+    <string name="view_and_copy"><![CDATA[Duba & Kwafi]]></string>
+    <string name="title_bin_backup">Fitarwa .bin ajiya</string>
+    <string name="hint_password">Kalmar sirri</string>
+    <string name="hint_password_confirmation">Tabbatar da kalmar sirri</string>
+    <string name="error_password_mandatory">Dole ne shigar da kalmar sirri</string>
+    <string name="error_password_too_short">Kalmar sirri ta takaice</string>
+    <string name="error_password_confirmation_mismatch">Kalmar sirri da tabbatarwa rashin daidaituwa</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Asusun ciniki: %1$s</string>
+    <string name="upgrade_to_ltm">Ɗaukaka zuwa LTM</string>
+    <string name="upgrade_account_description">"Haɓakawa ga \'Yan Watan Lantarki (LTM). Bitshares\' LTM asusun ajiyar kuɗi suna biya kusan-zero kudade, samun 80% cashback da kari ga masu amfani."</string>
+    <string name="account_upgrade_title">Haɓaka Asusun</string>
+    <string name="account_upgrade_content">Yankin Rayuwa na Rayuwa yana ba ka damar kasuwanci tare da ƙayyadaddun tsarin kuɗi. \n __n_Ya yi amfani da asusun na yanzu "%1$s" \n __nDa haka ya zo tare da farashin kimanin dala 100 da aka biya a Bitshares. \n __Dan tabbatar da kana so ka ci gaba?</string>
+    <string name="account_upgrade_wait_content">Kasuwancin da ke kunshe da buƙatarka ana sarrafa ta hanyar cibiyar sadarwa</string>
+    <string name="error_upgrade_account_title">Kuskure yayin ƙoƙarin haɓaka asusun</string>
+    <string name="error_upgrade_account_content">Da fatan a tabbatar cewa asusunka yana da isasshen ma\'auni don rufe halin kaka</string>
+    <string name="account_upgraded_title">Asusun ɗaukakawa</string>
+    <string name="account_upgraded_content">Taya murna! An sabunta asusunka a yanzu ga Maganar Rayuwa.</string>
+    <string name="remove_account">Cire Asusun</string>
+    <string name="remove_account_description">Cire wannan Asusun Amfani. Cire Asusun Amfani a sama daga wannan na\'urar kuma ƙirƙira ko shigo da daban.</string>
+    <string name="txt_account_remove_confirmation">"Kuna tabbatar kana so ka cire asusun \'%1$s\' daga wannan walat?"</string>
+    <string name="remove">Cire</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Smartcoin da ake bukata</string>
+    <string name="txt_customer_loyalty">Shaidun Amincewa da Fayil a matsayin ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Asusunka bai riga ya mallaki wani %1$s ba. Da fatan a saya wasu kafin ku yi kokarin bayar da duk wani abu ga abokan cinikinku a matsayin Alamar Loyalty.</string>
+    <string name="send">Aika</string>
+    <string name="txt_for_every">Ga kowane</string>
+    <string name="txt_spent">ciyar</string>
+    <string name="txt_bitcoin_altcoin_deposited">Accept har zuwa 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Da fatan za a zaɓi fiye da abubuwa 8 masu shigarwa</string>
+    <string name="bitshares_unselection_message">Ana buƙatar Alamar Bitshares (BTS).</string>
+    <string name="toast_low_volume_market">Ƙananan kasuwa na kasuwa sun ƙare ta jiki. Za a kunna su duk lokacin da kasuwar kasuwancin ta karu da yawa</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Store name</string>
+    <string name="address">Adireshin</string>
+    <string name="phone_number">Lambar tarho</string>
+    <string name="website">Yanar Gizo</string>
+    <string name="message">Saƙo</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Rashin iya samar da tsarin tsari don maɓalli</string>
+    <string name="saving_bin_file_to_s">Fayil din Bin fayil zuwa: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">An sami nasarar ajiye fayil din Bin zuwa: %1$s</string>
+    <string name="unable_to_save_bin_file">Ba a iya ajiye bin fayil ɗin ba</string>
+    <string name="creating_backup_file">Samar da Fayil Ajiyayyen</string>
+    <string name="fetching_key">Samun maɓalli</string>
+    <string name="generating_bin_format">Samar da tsarin bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Binciken</string>
+    <string name="filter">Filter</string>
+    <string name="export">Fitarwa</string>
+    <string name="confirming">Tabbatar da ...</string>
+    <string name="pdf_generated_msg_s">An samar da PDF sannan aka ajiye: __1</string>
+    <string name="pdf_generated_msg_error_s">Rashin iya samar da pdf. Da fatan a sake gwadawa. Kuskure: __1</string>
+    <string name="csv_generated_msg_s">An shirya CSV da ajiyewa: __1</string>
+    <string name="csv_generated_msg_error_s">Rashin iya samar da csv. Da fatan a sake gwadawa. Kuskure: __1</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Duk</string>
+    <string name="sent">Aika</string>
+    <string name="received">An karɓa</string>
+    <string name="date_range">Ranar Ranar</string>
+    <string name="txt_to">to</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Ƙari mai yawa</string>
+    <string name="between">Tsakanin</string>
+    <string name="and">da kuma</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Fitarwa ta ƙare ma\'amaloli</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Samar da samfurin fitarwa</string>
+    <string name="exported_file_name">PalmPay-Transactions</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Daga</string>
+    <string name="to">To</string>
+    <string name="memo">Memo</string>
+    <string name="date">Kwanan wata</string>
+    <string name="time">Lokaci</string>
+    <string name="crypto_amount">Lambar Crypto</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Ƙididdigar da ake ciki</string>
+    <string name="total_fiat_amount">Ƙididdigar Fiat</string>
+    <string name="fiat_currency">Fiat Currency</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Mataki na %1$d</string>
+    <string name="subtotal">Sub-Total</string>
+    <string name="network_fee">Ƙimar hanyar sadarwa</string>
+    <string name="total">Jimlar</string>
+    <string name="paid_s_s">An biya %1$s %2$s</string>
+    <string name="change_due">Canji daidai</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Kwanan wata: __1</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt from %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Ba daidai ba tsohon PIN</string>
+    <string name="pin_changed_successfully">PIN ya canza nasara</string>
+    <string name="please_enter_pin">Da fatan a shigar da lambar PIN</string>
+    <string name="please_enter_pin_confirmation">Da fatan a shigar da tabbacin lambar PIN naka</string>
+    <string name="title_change_pin">Shirya PIN</string>
+    <string name="txt_current_pin">Lambar PIN na yanzu</string>
+    <string name="please_enter_old_pin">Da fatan a shigar da lambar PIN mai yawa</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Kuskuren haɗin kuskure, sake dawowa</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Mun sami biyan kuɗi, amma ba a sami buƙata ba</string>
+
+</resources>

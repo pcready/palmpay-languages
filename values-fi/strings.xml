@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">lisenssi</string>
+    <string name="agree">Olla samaa mieltä</string>
+    <string name="disagree">olla eri mieltä</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Varojen lisääminen ...</string>
+    <string name="title_loading_asset_type_data">Ladattavien tiedostotyyppien lataaminen ...</string>
+    <string name="title_assets_ready">Omaisuustietokanta on valmis</string>
+    <string name="msg_loading_all_existing_assets">Useiden pyyntöjen suorittaminen saadaksesi täydellisen luettelon kaikista olemassa olevista varoista</string>
+    <string name="msg_loading_asset_type_data">Pyydetään lisäomaisuutta koskevia tietoja</string>
+    <string name="msg_loading_asset_in_database">Lisättiin %1$d omaisuus tietokantaan</string>
+    <string name="msg_assets_loaded">Seuraavaksi aseta tiliisi ...</string>
+    <string name="error_fetching_marketcap_data">Marketcap-tietoja ei voitu ladata</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Luo tili</string>
+    <string name="txt_account_name">BitShares-tilin nimi</string>
+    <string name="unable_to_find_account_id">Käyttäjätunnuksen tunnusta ei löydy</string>
+    <string name="error_invalid_account_name_explanation">Tilin nimen on oltava joko yli 8 merkkiä, sisältää numeron tai ei ole vokaaleja. Alaviivamerkki ei myöskään ole sallittu.</string>
+    <string name="create">Luoda</string>
+    <string name="error">Virhe</string>
+    <string name="account_name_already_exist">Tilin nimi on jo olemassa</string>
+    <string name="try_again">Yritä uudelleen 5 minuutin kuluttua</string>
+    <string name="txt_new_pin_confirmation">Vahvista uusi PIN (6 numeroa)</string>
+    <string name="error_wif">Virhe WIF-avaimen luomisessa</string>
+    <string name="error_faucet_template">Hana palautti virheen. Lähetys: %1$s</string>
+    <string name="error_read_dict_file">Virhe sanakirjatiedoston lukemisessa</string>
+    <string name="error_missing_account">Sovellus ei voinut hakea vasta luotua tiliä</string>
+    <string name="create_account_title">Uuden tilin luominen</string>
+    <string name="create_account_message">Odota, kun tilisi on luotu</string>
+    <string name="error_faucet_explanation">Palvelin palasi virheen. Tämä voi johtua rajoituksesta, joka on määrätty tarkoituksenmukaisesti estämään samasta IP-osoitteesta tulevat useat pyynnöt lyhyessä ajassa. Odota 5 minuuttia ja yritä uudelleen tai vaihda toiseen verkkoon, esimerkiksi wifistä soluun.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Varmista, että varmuuskopioit aivokuvasi ennen kuin jatkat. Tämän avulla voit palauttaa tilisi, jos jotain tapahtuu tällä laitteella.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Kuinka haluat tuoda nykyisen tilin?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF-avain</string>
+    <string name="bin_file">.bin-tiedosto</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Valitse 6-numeroinen PIN-koodi</string>
+    <string name="txt_6_digits_pin_confirm">6 + numeroiset PIN vahvistavat</string>
+    <string name="please_enter_6_digit_pin">Syötä 6-numeroinen PIN-koodi</string>
+    <string name="please_enter_6_digit_pin_confirm">Anna PIN-koodisi vahvistus</string>
+    <string name="mismatch_pin">Epäyhtenäinen tappi</string>
+    <string name="please_enter_brainkey">Anna aivokahva</string>
+    <string name="please_enter_correct_brainkey">Anna oikea aivokuvake, sen pitäisi olla 12 - 16 sanaa.</string>
+    <string name="unable_to_load_brainkey">Aivoa ei voi ladata</string>
+    <string name="account_already_exist">Tili on jo olemassa</string>
+    <string name="importing_your_wallet">Lompakon tuominen ...</string>
+    <string name="account_candidates_title">Valitse tili</string>
+    <string name="account_candidates_content">Näistä aivokuvasta saatuja avaimia käytetään hallita useampia kuin yhtä tiliä, valitse tili, jonka haluat tuoda</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Tuo .bin-tiedosto</string>
+    <string name="import_backup">Tuo varmuuskopio .bin-tiedostosta</string>
+    <string name="txt_no_internet_connection">Ei Internet-yhteyttä</string>
+    <string name="no_file_chosen">Ei tiedostoa valittuna</string>
+    <string name="choose_backup">Valitse Varmuuskopio</string>
+    <string name="choose_file">Valitse tiedosto</string>
+    <string name="txt_existing_password">Nykyinen .bin-tiedosto Salasana tai PIN</string>
+    <string name="txt_new_pin">Uusi PIN (6 numeroa)</string>
+    <string name="importing_keys_from_bin_file">"Tuonti avaimista Bin-tiedostosta"</string>
+    <string name="please_make_sure_your_bin_file">Varmista, että nasta on oikea tai että oikea bin-tiedosto on valittu</string>
+    <string name="missing_existing_password">Syötä salasana, jota käytetään tämän varmuuskopiotiedoston salaamiseen</string>
+    <string name="pin_number_request">Anna tämän varmuuskopiotiedoston koodaamiseen käytetty PIN-numero</string>
+    <string name="pin_number_warning">Tapin numeron on oltava vähintään 6 numeroa</string>
+    <string name="backup_error_no_key_reference_found">Tätä avainta ei löytynyt, varmista, että käytät päivitettyä varmuuskopiotiedostoa.</string>
+    <string name="backup_error_no_wallet_backup">Tässä tiedostossa ei löytynyt lompakon varmuuskopiointia</string>
+    <string name="error_invalid_account">Virheellinen tili, tarkista aivosymboli, kun kirjoitat virheitä</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Tuonti</string>
+    <string name="title_account_load_result">Tili ladattu</string>
+    <string name="button_change_account">Muuttaa</string>
+    <string name="title_select_input_assets">Valitse hyväksytyt varat.</string>
+    <string name="explanation_account_setup">Sinun on asetettava Bitshares-tili maksujen vastaanottamiseksi. Jos sinulla on jo yksi, voit tuoda sen täältä.</string>
+    <string name="explanation_output_asset">Valitse haluamasi Smartcoin:</string>
+    <string name="next">Seuraava</string>
+    <string name="done">Tehty</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Maksaa</string>
+    <string name="error_corrupted_key_title">Avain korruptiovirhe</string>
+    <string name="error_corrupted_key_content">Sovellus ei pysty palauttamaan salattuja yksityisiä avaimia tietokannasta. Tästä syystä sinun tulee syöttää avaimet uudelleen. Joko joko aivokuvake tai lomake varmuuskopio-tiedostosta, joka luotiin ja tallennettiin automaattisesti sdcard-tilillesi, jos sovellus on luonut tilin</string>
+    <string name="invalid_pin">Virheellinen PIN-koodi</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Koti</string>
+    <string name="txt_transactions">liiketoimet</string>
+    <string name="txt_refunds_returns">Hyvitykset / palautus</string>
+    <string name="txt_settlement">tilitys</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares-solmut</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Määrä on maksettava</string>
+    <string name="sub_total">Välisumma:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Tilauskirjan virhe</string>
+    <string name="content_error_market">DEX: ssä ei ole tilauksia, joiden avulla voimme tehdä vaihtoa %1$s: lle tällä hetkellä. \n \nVoit siirtyä asetusten näyttöön ja valita toisen tulostusmateriaalin.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Ole hyvä ja maksa</string>
+    <string name="please_pay_s_s">Ole hyvä ja maksa: %1$s %2$s</string>
+    <string name="to_s">Vastaanottaja: %1$s</string>
+    <string name="txt_network">Verkkopalkkio</string>
+    <string name="txt_please_wait">Odota</string>
+    <string name="error_node_unreachable">Mitään solmua ei voitu saavuttaa</string>
+    <string name="invoice_subject">PalmPay-lasku alkaen %1$s</string>
+    <string name="before_s">Ennen: %1$s</string>
+    <string name="share">Jaa</string>
+    <string name="share_with">Jakaa</string>
+    <string name="connecting">Yhdistetään ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Valitse maksupyyntö</string>
+    <string name="dialog_msg_select_pending_payment">Saapuvan maksun havaittiin, mutta sitä ei voitu automaattisesti siirtää aikaisemmin pyydettyyn maksuun. Valitse oikea maksupyyntö seuraavasta luettelosta.</string>
+    <string name="dialog_msg_confirm_pending_payment">Tämä yhdistää saapuvan maksun aiemmin kirjattuun maksupyyntöön %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Saapuvat maksutiedot</string>
+    <string name="dialog_generic_title_confirm">Oletko varma?</string>
+    <string name="dialog_generic_msg_confirm">Huomaa, että tätä toimintoa ei voi kumota</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">erottaa</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Maksu vahvistettu!</string>
+    <string name="txt_cool">VIILEÄ!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">asetukset</string>
+    <string name="general">yleinen</string>
+    <string name="security">turvallisuus</string>
+    <string name="backups">varmuuskopiot</string>
+    <string name="tokens">tokens</string>
+    <string name="accounts">tilit</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Yötila</string>
+    <string name="currency_info">Valuutan valinta tapahtuu automaattisesti kielen ja maan valinnan mukaan. Jos haluat muuttaa niitä, sinun on siirryttävä laitteesi yleisiin järjestelmäasetuksiin.</string>
+    <string name="screen_saver">Näytönsäästäjä</string>
+    <string name="source">Lähde</string>
+    <string name="bitshares_logo">BitShares-logo</string>
+    <string name="default_folder">Oletuskansio (/ PalmPay)</string>
+    <string name="txt_folder">Kansio</string>
+    <string name="choose">Valita</string>
+    <string name="screen_saver_time">Ota käyttöön ...</string>
+    <string name="one_minute">1 minuutti</string>
+    <string name="three_minutes">3 minuuttia</string>
+    <string name="five_minutes">5 minuuttia</string>
+    <string name="local_ambassador">Paikallinen suurlähettiläs</string>
+    <string name="ambassador_info">PalmPay-suurlähettiläitä maksetaan joka 3. sekunti. Heidän tehtävänsä on tukea paikallisia PalmPay-kauppiaita ja järjestää kuukausittaisia ​​Crypto-kokouksia. Jos kaupunkisi ei ole luettelossa, kaupungissasi ei vielä ole PalmPay-suurlähettilää. \n \n Lisätietoja on Agorise-yhteisössä sähkeissä: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Kaupunki</string>
+    <string name="country">Maa</string>
+    <string name="bugs_or_ideas">Vihjeitä tai ideoita?</string>
+    <string name="bugs_or_ideas_contact_info">Telegram-chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Hyväksyä</string>
+    <string name="select">valita</string>
+    <string name="are_you_sure">Oletko varma?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Varmuuskopioi aivokuvake</string>
+    <string name="copied_to_clipboard">Kopioidaan leikepöydälle</string>
+    <string name="bin_file_description">Bin-tiedosto. Tallenna aina varmuuskopio .bin-tiedosto salainen MicroSD-kortti tai USB-muistitikku.</string>
+    <string name="create_a_backup">Luo varmuuskopio</string>
+    <string name="brainkey_description">Brainkey. Tilin palautussanat, jotka voidaan ottaa talteen tai kopioida, mutta joita ei muokata.</string>
+    <string name="txt_brain_key_info">Tulosta tämä tai kirjoita se. Jokainen, jolla on käyttöoikeus palautusavaimeen, saa käyttöön tämän lompakon rahastot.</string>
+    <string name="view_and_copy"><![CDATA[Näytä & kopioi]]></string>
+    <string name="title_bin_backup">Vie .bin-varmuuskopio</string>
+    <string name="hint_password">Salasana</string>
+    <string name="hint_password_confirmation">salasanan vahvistus</string>
+    <string name="error_password_mandatory">Anna salasana</string>
+    <string name="error_password_too_short">Salasana on liian lyhyt</string>
+    <string name="error_password_confirmation_mismatch">Salasana ja vahvistuksen yhteensopimattomuus</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Kauppiastili: %1$s</string>
+    <string name="upgrade_to_ltm">Päivitä LTM: hen</string>
+    <string name="upgrade_account_description">"Päivitä LifeTime Membershipiin (LTM). Bitsharesin LTM-tilit maksavat lähes nolla-palkkioita, saavat 80% käteispalautuksen ja bonukset viittauksille."</string>
+    <string name="account_upgrade_title">Päivitä tili</string>
+    <string name="account_upgrade_content">Life Time -liittymän avulla voit käydä kauppaa pienempien verkkomaksujen kanssa. \n \nIt tulee voimaan tilille "%1$s" \n \nIt kuitenkin sisältää noin 100 dollarin kustannukset Bitsharesilla. \n \nHaluatko varmasti jatkaa?</string>
+    <string name="account_upgrade_wait_content">Verkko käsittelee tapahtumaa, joka sisältää pyynnön</string>
+    <string name="error_upgrade_account_title">Virhe yritettäessä päivittää tiliä</string>
+    <string name="error_upgrade_account_content">Varmista, että tililläsi on riittävä tasapaino kustannusten kattamiseksi</string>
+    <string name="account_upgraded_title">Tili päivitetty</string>
+    <string name="account_upgraded_content">Onnittelut! tilisi on nyt päivitetty Lifetime-jäseneksi.</string>
+    <string name="remove_account">Poista tili</string>
+    <string name="remove_account_description">Poista tämä Kauppiastili. Poista edellä oleva kauppiastili tästä laitteesta ja luo tai tuo toinen.</string>
+    <string name="txt_account_remove_confirmation">"Haluatko varmasti poistaa tilin" %1$s "tästä lompakosta?"</string>
+    <string name="remove">Poistaa</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Haluttu Smartcoin</string>
+    <string name="txt_customer_loyalty">Issue Loyalty Points ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Tililläsi ei vielä ole yhtään %1$s. Hanki joitain ennen kuin yrität antaa asiakkaillesi Loyalty Points -pisteitä.</string>
+    <string name="send">Lähettää</string>
+    <string name="txt_for_every">Jokaiselle</string>
+    <string name="txt_spent">käytetty</string>
+    <string name="txt_bitcoin_altcoin_deposited">Hyväksy korkeintaan 8 salausvaluutta:</string>
+    <string name="altcoins_should_not_more_than">Valitse enintään 8 syöttöomaisuutta</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) ydintunniste on pakollinen.</string>
+    <string name="toast_low_volume_market">Pienet myyntivarat ovat tilapäisesti poissa käytöstä. Ne otetaan käyttöön, kun markkinoiden volyymi kasvaa huomattavasti</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Myymälän nimi</string>
+    <string name="address">Osoite</string>
+    <string name="phone_number">Puhelinnumero</string>
+    <string name="website">Verkkosivusto</string>
+    <string name="message">Viesti</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Bin-muotoa ei voitu luoda avaimelle</string>
+    <string name="saving_bin_file_to_s">Tallennustilan tallentaminen: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin-tiedosto tallennettiin onnistuneesti: %1$s</string>
+    <string name="unable_to_save_bin_file">Bin-tiedostoa ei voi tallentaa</string>
+    <string name="creating_backup_file">Luo varmuuskopiotiedosto</string>
+    <string name="fetching_key">Haun avain</string>
+    <string name="generating_bin_format">Bin-muodon luominen</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Hae</string>
+    <string name="filter">Suodattaa</string>
+    <string name="export">Viedä</string>
+    <string name="confirming">Vahvistavat ...</string>
+    <string name="pdf_generated_msg_s">PDF tuotettu ja tallennettu: %1$s</string>
+    <string name="pdf_generated_msg_error_s">PDF-tiedostoa ei voitu luoda. Yritä uudelleen. Virhe: %1$s</string>
+    <string name="csv_generated_msg_s">CSV tuotettiin ja tallennettiin: %1$s</string>
+    <string name="csv_generated_msg_error_s">CSV-tiedostoa ei voitu luoda. Yritä uudelleen. Virhe: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Kaikki</string>
+    <string name="sent">Lähetetyt</string>
+    <string name="received">Otettu vastaan</string>
+    <string name="date_range">Ajanjakso</string>
+    <string name="txt_to">että</string>
+    <string name="cryptocurrency">kryptovaluutta</string>
+    <string name="fiat_amount">Fiat määrä</string>
+    <string name="between">Välillä</string>
+    <string name="and">ja</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Vie suodatetut tapahtumat</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Vientituotteen tuottaminen</string>
+    <string name="exported_file_name">PalmPay asiointi</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">alkaen</string>
+    <string name="to">jotta</string>
+    <string name="memo">Muistio</string>
+    <string name="date">Treffi</string>
+    <string name="time">Aika</string>
+    <string name="crypto_amount">Salausmäärä</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Avain Fiat-määrä</string>
+    <string name="total_fiat_amount">Fiat yhteensä määrä</string>
+    <string name="fiat_currency">Fiat Valuutta</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Kohde %1$d</string>
+    <string name="subtotal">Välisumma</string>
+    <string name="network_fee">Verkkopalkkio</string>
+    <string name="total">Kaikki yhteensä</string>
+    <string name="paid_s_s">Maksettu %1$s %2$s</string>
+    <string name="change_due">Vaihda</string>
+    <string name="e_receipt_memo_s">Huomautus: %1$s</string>
+    <string name="e_receipt_date_s">Päivämäärä: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt alkaen %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Virheellinen vanha PIN</string>
+    <string name="pin_changed_successfully">PIN muutettiin onnistuneesti</string>
+    <string name="please_enter_pin">Anna PIN-koodi</string>
+    <string name="please_enter_pin_confirmation">Anna PIN-numerosi vahvistus</string>
+    <string name="title_change_pin">Muokkaa PIN-koodia</string>
+    <string name="txt_current_pin">Nykyinen PIN-koodi</string>
+    <string name="please_enter_old_pin">Anna vanha PIN-tunnus</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Solmun yhteysvirhe, yritetään uudelleen</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Saimme saapuvan maksun, mutta pyyntöä ei löytynyt</string>
+
+</resources>

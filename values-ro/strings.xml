@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Licență</string>
+    <string name="agree">De acord</string>
+    <string name="disagree">Dezacord</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Se încarcă active ...</string>
+    <string name="title_loading_asset_type_data">Se încarcă date despre tipul de material ...</string>
+    <string name="title_assets_ready">Baza de date a activelor este gata</string>
+    <string name="msg_loading_all_existing_assets">Efectuați o serie de solicitări pentru a obține o listă completă a tuturor activelor existente</string>
+    <string name="msg_loading_asset_type_data">Solicitarea unor detalii suplimentare privind activul</string>
+    <string name="msg_loading_asset_in_database">Au fost încărcate active %1$d în baza de date</string>
+    <string name="msg_assets_loaded">Apoi, configurați-vă contul ...</string>
+    <string name="error_fetching_marketcap_data">Nu s-au putut încărca datele de piață</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Creează cont</string>
+    <string name="txt_account_name">Numele contului BitShares</string>
+    <string name="unable_to_find_account_id">Imposibil de găsit ID-ul contului de utilizator</string>
+    <string name="error_invalid_account_name_explanation">Numele contului trebuie să aibă mai mult de 8 caractere, să conțină un număr sau să nu aibă vocale. Caracterul de subliniere nu este, de asemenea, permis.</string>
+    <string name="create">Crea</string>
+    <string name="error">Eroare</string>
+    <string name="account_name_already_exist">Numele contului există deja</string>
+    <string name="try_again">Încercați din nou după 5 minute</string>
+    <string name="txt_new_pin_confirmation">Confirmați codul PIN nou (6 + cifre)</string>
+    <string name="error_wif">Eroare la crearea cheii WIF</string>
+    <string name="error_faucet_template">Robinetul a trimis o eroare. Mesaj: %1$s</string>
+    <string name="error_read_dict_file">Eroare la citirea fișierului dicționar</string>
+    <string name="error_missing_account">Aplicația nu a putut prelua informații despre contul nou creat</string>
+    <string name="create_account_title">Crearea unui cont nou</string>
+    <string name="create_account_message">Așteptați în timp ce contul dvs. este creat</string>
+    <string name="error_faucet_explanation">Serverul a trimis o eroare. Acest lucru s-ar putea datora unei limitări setate în mod intenționat pentru a interzice solicitările frecvente provenite de la aceeași adresă IP într-un interval scurt de timp. Așteptați 5 minute și încercați din nou sau comutați la o altă rețea, de exemplu de la WiFi la celulă.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Asigurați-vă că vă faceți backup brainkey înainte de a continua. Acest lucru vă va permite să vă recuperați contul în cazul în care se întâmplă ceva cu acest dispozitiv.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Cum doriți să importați contul existent?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin File</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Alegeți un cod PIN de 6 cifre</string>
+    <string name="txt_6_digits_pin_confirm">6 + cifre confirmă codul PIN</string>
+    <string name="please_enter_6_digit_pin">Introduceți PIN-ul cu 6 cifre</string>
+    <string name="please_enter_6_digit_pin_confirm">Introduceți confirmarea numărului dvs. PIN</string>
+    <string name="mismatch_pin">Pini de neconcordanță</string>
+    <string name="please_enter_brainkey">Introduceți brainkey</string>
+    <string name="please_enter_correct_brainkey">Introduceți brainkey corect, ar trebui să aibă între 12 și 16 cuvinte.</string>
+    <string name="unable_to_load_brainkey">Imposibil de încărcat brainkey</string>
+    <string name="account_already_exist">Contul Există deja</string>
+    <string name="importing_your_wallet">Importarea portofelului dvs. ...</string>
+    <string name="account_candidates_title">Selectați un cont</string>
+    <string name="account_candidates_content">Cheile derivate din acest brainkey par să fie folosite pentru a controla mai multe conturi, selectați ce cont doriți să importați</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Importați fișierul .bin</string>
+    <string name="import_backup">Importați copia de rezervă din fișierul .bin</string>
+    <string name="txt_no_internet_connection">Fără conexiune internet</string>
+    <string name="no_file_chosen">Niciun fișier ales</string>
+    <string name="choose_backup">Alegeți Backup</string>
+    <string name="choose_file">Alege fișierul</string>
+    <string name="txt_existing_password">Fișier curent .bin Parolă sau PIN</string>
+    <string name="txt_new_pin">PIN nou (6 + cifre)</string>
+    <string name="importing_keys_from_bin_file">"Importul cheilor din fișierul Bin"</string>
+    <string name="please_make_sure_your_bin_file">Asigurați-vă că pinul dvs. este corect sau dacă este selectat fișierul bin corect</string>
+    <string name="missing_existing_password">Introduceți parola utilizată pentru a cripta acest fișier de rezervă</string>
+    <string name="pin_number_request">Introduceți numărul PIN utilizat pentru a codifica acest fișier de rezervă</string>
+    <string name="pin_number_warning">Numărul PIN-ului trebuie să fie de cel puțin 6 cifre</string>
+    <string name="backup_error_no_key_reference_found">Nu a fost găsit un cont utilizând această cheie, asigurați-vă că utilizați un fișier de backup actualizat.</string>
+    <string name="backup_error_no_wallet_backup">În acest fișier nu s-a găsit niciun backup de portofel</string>
+    <string name="error_invalid_account">Contul nevalid, verificați cheia creierului pentru a introduce erori</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Import</string>
+    <string name="title_account_load_result">Contul încărcat</string>
+    <string name="button_change_account">Schimbare</string>
+    <string name="title_select_input_assets">Selectați activele pe care doriți să le acceptați.</string>
+    <string name="explanation_account_setup">Va trebui să configurați un cont Bitshares pentru a primi plăți. Sau dacă aveți deja unul, îl puteți importa aici.</string>
+    <string name="explanation_output_asset">Alegeți Smartcoin-ul dorit:</string>
+    <string name="next">Următor →</string>
+    <string name="done">Terminat</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Plateste cu</string>
+    <string name="error_corrupted_key_title">Eroare de corupție cheie</string>
+    <string name="error_corrupted_key_content">Aplicația nu reușește să recupereze cheile private criptate din baza de date. Din această cauză veți fi obligați să introduceți din nou cheile. Fie sub formă de Brainkey, fie din fișierul de rezervă de rezervă care a fost generat și stocat automat în cartela dvs. sdcard dacă contul a fost creat de aplicație</string>
+    <string name="invalid_pin">Cod PIN nevalid</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Acasă</string>
+    <string name="txt_transactions">tranzacţii</string>
+    <string name="txt_refunds_returns">Rambursări / Returnează</string>
+    <string name="txt_settlement">așezare</string>
+    <string name="bitshares_nodes_dialog_title">Noduri Bitshares</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Suma datorată</string>
+    <string name="sub_total">Sub-Total:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Eroare comandă de carte</string>
+    <string name="content_error_market">Nu există ordine în DEX care să ne permită să efectuăm schimbul la %1$s în acest moment. \n \nVă rugăm să mergeți la ecranul de setări și să selectați un alt activ de ieșire.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Te rog plateste</string>
+    <string name="please_pay_s_s">Plătiți: %1$s %2$s</string>
+    <string name="to_s">Către: %1$s</string>
+    <string name="txt_network">Taxa de rețea</string>
+    <string name="txt_please_wait">Te rog asteapta</string>
+    <string name="error_node_unreachable">Nu s-ar putea ajunge la nod</string>
+    <string name="invoice_subject">Factura PalmPay de la %1$s</string>
+    <string name="before_s">Înainte: %1$s</string>
+    <string name="share">Acțiune</string>
+    <string name="share_with">Împarte cu</string>
+    <string name="connecting">Conectarea ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Selectați o solicitare de plată</string>
+    <string name="dialog_msg_select_pending_payment">A fost detectată o plată primită, dar nu a putut fi atribuită automat unei plăți solicitate anterior. Selectați corect solicitarea de plată din lista următoare.</string>
+    <string name="dialog_msg_confirm_pending_payment">Aceasta va lega plata primită la solicitarea de plată înregistrată anterior de %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Detaliile de plată primite</string>
+    <string name="dialog_generic_title_confirm">Esti sigur?</string>
+    <string name="dialog_generic_msg_confirm">Rețineți că această acțiune nu poate fi anulată</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">destitui</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Plata confirmată!</string>
+    <string name="txt_cool">MISTO!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Setări</string>
+    <string name="general">General</string>
+    <string name="security">Securitate</string>
+    <string name="backups">Copiile de rezervă</string>
+    <string name="tokens">Jetoane</string>
+    <string name="accounts">Conturi</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Modul de noapte</string>
+    <string name="currency_info">Moneda este selectată automat în funcție de limba și selecția țării dvs. Dacă doriți să le schimbați, trebuie să accesați setările globale de sistem ale aparatului.</string>
+    <string name="screen_saver">Screen saver</string>
+    <string name="source">Sursă</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Dosarul prestabilit (/ PalmPay)</string>
+    <string name="txt_folder">Pliant</string>
+    <string name="choose">Alege</string>
+    <string name="screen_saver_time">Activează după ...</string>
+    <string name="one_minute">1 minut</string>
+    <string name="three_minutes">3 minute</string>
+    <string name="five_minutes">5 minute</string>
+    <string name="local_ambassador">Ambasador local</string>
+    <string name="ambassador_info">Ambasadorii PalmPay sunt plătiți la fiecare 3 secunde. Misiunea lor este să sprijine comercianții Palm Palm și să organizeze lunar Crypto Meetups. Dacă orașul dvs. nu este listat, orașul dvs. nu are încă un Ambasador PalmPay. \n \nPentru mai multe informații, vizitați comunitatea Agorise pe telegramă: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Oraș</string>
+    <string name="country">Țară</string>
+    <string name="bugs_or_ideas">Bugs sau idei?</string>
+    <string name="bugs_or_ideas_contact_info">Cablu de telegrame: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Accept</string>
+    <string name="select">Selectați</string>
+    <string name="are_you_sure">Esti sigur?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Copie de rezervă</string>
+    <string name="copied_to_clipboard">Copiat în clipboard</string>
+    <string name="bin_file_description">Bin fișier. Salvați întotdeauna fișierul .bin de rezervă într-o cartelă secretă MicroSD sau stick USB.</string>
+    <string name="create_a_backup">Creați o copie de siguranță</string>
+    <string name="brainkey_description">Brainkey. Cuvintele de recuperare a contului care pot fi capturate sau copiate, dar nu sunt editate.</string>
+    <string name="txt_brain_key_info">Imprimați acest lucru sau scrieți-l. Oricine are acces la cheia de recuperare va avea acces la fonduri din portofel.</string>
+    <string name="view_and_copy">Vedeți și copiați</string>
+    <string name="title_bin_backup">Exportați copia de rezervă .bin</string>
+    <string name="hint_password">Parola</string>
+    <string name="hint_password_confirmation">Confirmarea parolei</string>
+    <string name="error_password_mandatory">Trebuie să introduceți o parolă</string>
+    <string name="error_password_too_short">Parola este prea scurtă</string>
+    <string name="error_password_confirmation_mismatch">Parolă și nepotrivire de confirmare</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Contul comerciantului: %1$s</string>
+    <string name="upgrade_to_ltm">Treceți la LTM</string>
+    <string name="upgrade_account_description">"Îmbunătățiți calitatea de membru al LifeTime (LTM). Conturile LTM ale Bitshares plătesc taxe de aproape zero, primiți 80% cashback și bonusuri pentru trimiteri."</string>
+    <string name="account_upgrade_title">Actualizare cont</string>
+    <string name="account_upgrade_content">Durata de viață a membrilor vă permite să tranzacționați cu un set redus de taxe de rețea. \n \nAcest lucru va intra în vigoare în contul curent "%1$s" \n \nAcest lucru se întâmplă însă cu un cost de aproximativ 100 USD plătit în Bitshares. \n \nSigur că vrei să continuați?</string>
+    <string name="account_upgrade_wait_content">Tranzacția care conține solicitarea dvs. este procesată de rețea</string>
+    <string name="error_upgrade_account_title">Eroare la încercarea de a actualiza contul</string>
+    <string name="error_upgrade_account_content">Asigurați-vă că contul dvs. are un echilibru suficient pentru acoperirea costurilor</string>
+    <string name="account_upgraded_title">Contul actualizat</string>
+    <string name="account_upgraded_content">Felicitări! contul dvs. a fost acum actualizat la statutul de membru pe viață.</string>
+    <string name="remove_account">Sterge contul</string>
+    <string name="remove_account_description">Eliminați acest cont de comerciant. Eliminați contul de comerciant de mai sus de pe acest dispozitiv și creați sau importați altul.</string>
+    <string name="txt_account_remove_confirmation">"Sigur doriți să eliminați contul" %1$s "din acest portofel?"</string>
+    <string name="remove">Elimina</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Smartcoin dorit</string>
+    <string name="txt_customer_loyalty">Emiteți puncte de loialitate ca ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Contul dvs. nu deține încă nicio %1$s. Achiziționați câteva înainte de a încerca să oferiți clienților dvs. puncte de loialitate.</string>
+    <string name="send">Trimite</string>
+    <string name="txt_for_every">Pentru fiecare</string>
+    <string name="txt_spent">a petrecut</string>
+    <string name="txt_bitcoin_altcoin_deposited">Acceptați până la 8 criptocuritate:</string>
+    <string name="altcoins_should_not_more_than">Selectați maximum 8 elemente de intrare</string>
+    <string name="bitshares_unselection_message">Este necesar tokenul Bitshares (BTS).</string>
+    <string name="toast_low_volume_market">Activele de piață cu volum redus sunt temporar dezactivate. Acestea vor fi activate odată ce volumul pieței va crește considerabil</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Siglă</string>
+    <string name="store_name">Numele magazinului</string>
+    <string name="address">Adresa</string>
+    <string name="phone_number">Numar de telefon</string>
+    <string name="website">website</string>
+    <string name="message">Mesaj</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Imposibil de generat formatul bin pentru cheie</string>
+    <string name="saving_bin_file_to_s">Salvarea fișierului Bin la: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Fișierul Bin a salvat cu succes la: %1$s</string>
+    <string name="unable_to_save_bin_file">Imposibil de salvat fișierul bin</string>
+    <string name="creating_backup_file">Crearea fișierelor de rezervă</string>
+    <string name="fetching_key">Fetching Key</string>
+    <string name="generating_bin_format">Generarea unui format de bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Căutare</string>
+    <string name="filter">Filtru</string>
+    <string name="export">Export</string>
+    <string name="confirming">Confirmarea ...</string>
+    <string name="pdf_generated_msg_s">PDF generat și salvat: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Imposibil de generat pdf. Reîncercați. Eroare: %1$s</string>
+    <string name="csv_generated_msg_s">CSV generate și salvate: %1$s</string>
+    <string name="csv_generated_msg_error_s">Imposibil de generat csv. Reîncercați. Eroare: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Toate</string>
+    <string name="sent">Trimis</string>
+    <string name="received">Primit</string>
+    <string name="date_range">Interval de date</string>
+    <string name="txt_to">la</string>
+    <string name="cryptocurrency">Criptomonedă</string>
+    <string name="fiat_amount">Fiat suma</string>
+    <string name="between">Între</string>
+    <string name="and">și</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Exportați tranzacții filtrate</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Generarea produsului de export</string>
+    <string name="exported_file_name">PalmPay-Tranzacții</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Din</string>
+    <string name="to">La</string>
+    <string name="memo">Notificare</string>
+    <string name="date">Data</string>
+    <string name="time">Timp</string>
+    <string name="crypto_amount">Suma Crypto</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Sumă Fiat cu cheie</string>
+    <string name="total_fiat_amount">Suma totală Fiat</string>
+    <string name="fiat_currency">Fiat Moneda</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Articol %1$d</string>
+    <string name="subtotal">Sub-total</string>
+    <string name="network_fee">Taxa de rețea</string>
+    <string name="total">Total</string>
+    <string name="paid_s_s">Plătit %1$s %2$s</string>
+    <string name="change_due">Schimbarea datorată</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Data: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">Aplicația PalmPay eReceipt de la %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Cod PIN vechi incorect</string>
+    <string name="pin_changed_successfully">PIN-ul a fost modificat cu succes</string>
+    <string name="please_enter_pin">Introduceți codul PIN</string>
+    <string name="please_enter_pin_confirmation">Introduceți confirmarea numărului PIN</string>
+    <string name="title_change_pin">Editați codul PIN</string>
+    <string name="txt_current_pin">Numărul PIN actual</string>
+    <string name="please_enter_old_pin">Introduceți numărul PIN vechi</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Eroare conexiune la nod, reîncercare</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Avem o plată viitoare, dar nu a putut fi găsită nicio cerere</string>
+
+</resources>

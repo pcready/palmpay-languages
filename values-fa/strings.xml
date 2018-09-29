@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">مجوز</string>
+    <string name="agree">موافق</string>
+    <string name="disagree">مخالف بودن</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">بارگیری دارایی ...</string>
+    <string name="title_loading_asset_type_data">بارگذاری اطلاعات نوع دارایی ...</string>
+    <string name="title_assets_ready">پایگاه داده دارایی آماده است</string>
+    <string name="msg_loading_all_existing_assets">انجام مجموعه ای از درخواست ها به منظور دریافت لیست کامل از تمام دارایی های موجود</string>
+    <string name="msg_loading_asset_type_data">درخواست جزئیات بیشتر دارایی</string>
+    <string name="msg_loading_asset_in_database">دارایی %1$d بارگذاری شده در پایگاه داده</string>
+    <string name="msg_assets_loaded">بعد، لطفا حساب خود را تنظیم کنید ...</string>
+    <string name="error_fetching_marketcap_data">داده های Marketcop بارگیری نشد</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">ایجاد حساب کاربری</string>
+    <string name="txt_account_name">نام حساب BitShares</string>
+    <string name="unable_to_find_account_id">شناسه کاربری کاربر پیدا نشد</string>
+    <string name="error_invalid_account_name_explanation">نام حساب باید بیش از 8 کاراکتر داشته باشد، حاوی عدد یا حروف صدادار باشد. شخصیت برجسته نیز مجاز نیست.</string>
+    <string name="create">ايجاد كردن</string>
+    <string name="error">خطا</string>
+    <string name="account_name_already_exist">نام حساب قبلا وجود دارد</string>
+    <string name="try_again">لطفا بعد از 5 دقیقه دوباره امتحان کنید</string>
+    <string name="txt_new_pin_confirmation">تأیید پین جدید (6+ رقم)</string>
+    <string name="error_wif">خطا در ایجاد کلید WIF</string>
+    <string name="error_faucet_template">سوپاپ یک خطا را دریافت کرد MSG: %1$s</string>
+    <string name="error_read_dict_file">خطا در خواندن فایل دیکشنری</string>
+    <string name="error_missing_account">این برنامه نمیتواند اطلاعات مربوط به حساب جدید ایجاد شده را بازیابی کند</string>
+    <string name="create_account_title">ایجاد حساب جدید</string>
+    <string name="create_account_message">لطفا صبر کنید تا حساب شما ایجاد شود</string>
+    <string name="error_faucet_explanation">سرور خطایی را به نمایش گذاشت. این ممکن است به دلیل محدودیت هدفمند در جای خود قرار داده شود تا درخواستهای مکرر از یک آدرس IP مشابه را در یک گذر کوتاه مدت غیرفعال کند. لطفا 5 دقیقه منتظر بمانید و دوباره امتحان کنید یا به شبکه دیگری بپردازید، مثلا از wifi به cell.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">لطفا قبل از انجام این کار اطمینان حاصل کنید که براینک خود را پشتیبان تهیه کنید. این به شما این امکان را می دهد که حساب خود را در صورت بروز هر چیزی به این دستگاه برطرف کنید.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">چگونه می خواهید حساب موجود خود را وارد کنید؟</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">کلید WIF</string>
+    <string name="bin_file">.bin فایل</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">یک پین 6+ رقمی را انتخاب کنید</string>
+    <string name="txt_6_digits_pin_confirm">پین 6+ پین تایید می کند</string>
+    <string name="please_enter_6_digit_pin">لطفا 6 رقمی PIN را وارد کنید</string>
+    <string name="please_enter_6_digit_pin_confirm">لطفا تایید شماره PIN خود را وارد کنید</string>
+    <string name="mismatch_pin">پین ناقص</string>
+    <string name="please_enter_brainkey">لطفا brainkey را وارد کنید</string>
+    <string name="please_enter_correct_brainkey">لطفا brainkey درست را وارد کنید، باید بین 12 تا 16 کلمه باشد.</string>
+    <string name="unable_to_load_brainkey">بارگذاری باربری امکانپذیر نیست</string>
+    <string name="account_already_exist">حساب قبلا وجود دارد</string>
+    <string name="importing_your_wallet">وارد کردن کیف پول شما ...</string>
+    <string name="account_candidates_title">لطفا یک حساب کاربری انتخاب کنید</string>
+    <string name="account_candidates_content">به نظر می رسد کلید های مشتق شده از این brainkey برای کنترل بیش از یک حساب استفاده می شود، لطفا انتخاب کنید که کدام حساب کاربری را که مایلید وارد کنید</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">وارد کردن فایل .bin</string>
+    <string name="import_backup">وارد کردن پشتیبان از فایل .bin</string>
+    <string name="txt_no_internet_connection">بدون اتصال به اینترنت</string>
+    <string name="no_file_chosen">هیچ فایلی انتخاب نشده است</string>
+    <string name="choose_backup">پشتیبانگیری را انتخاب کنید</string>
+    <string name="choose_file">انتخاب فایل</string>
+    <string name="txt_existing_password">فایل .bin فعلی رمز عبور یا PIN</string>
+    <string name="txt_new_pin">پین جدید (6+ رقم)</string>
+    <string name="importing_keys_from_bin_file">"وارد کردن کلید از فایل باین"</string>
+    <string name="please_make_sure_your_bin_file">لطفا مطمئن شوید که پین ​​شما صحیح است یا درست است که فایل باین انتخاب شده است</string>
+    <string name="missing_existing_password">لطفا رمز عبور مورد استفاده برای رمزگذاری این فایل پشتیبان را وارد کنید</string>
+    <string name="pin_number_request">لطفا شماره پین ​​مورد استفاده برای رمزگذاری این فایل پشتیبان را وارد کنید</string>
+    <string name="pin_number_warning">شماره پین ​​باید حداقل 6 رقم باشد</string>
+    <string name="backup_error_no_key_reference_found">هیچ حساب کاربری با استفاده از این کلید یافت نشد، لطفا مطمئن شوید که از یک فایل پشتیبان به روز شده استفاده می کنید.</string>
+    <string name="backup_error_no_wallet_backup">پشتیبان گیری از کیف پول در این فایل یافت نشد</string>
+    <string name="error_invalid_account">حساب کاربری نامعتبر، لطفا کلید مغزی خود را برای تایپ کردن خطاها بررسی کنید</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">وارد كردن</string>
+    <string name="title_account_load_result">حساب بارگیری شده</string>
+    <string name="button_change_account">تغییر دادن</string>
+    <string name="title_select_input_assets">دارایی را برای پذیرش انتخاب کنید</string>
+    <string name="explanation_account_setup">برای دریافت پرداخت، باید یک حساب Bitshares را راه اندازی کنید. یا اگر قبلا آن را داشته باشید، میتوانید آن را اینجا وارد کنید</string>
+    <string name="explanation_output_asset">Smartcoin مورد نظر خود را انتخاب کنید:</string>
+    <string name="next">بعد</string>
+    <string name="done">انجام شده</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">پرداخت با</string>
+    <string name="error_corrupted_key_title">خطای فساد اصلی</string>
+    <string name="error_corrupted_key_content">برنامه قادر به بازیابی کلیدهای خصوصی رمزگذاری شده خود از پایگاه داده نیست. از این جهت شما باید کلیدهای خود را دوباره وارد کنید. یا در شکل یک brainkey یا از فایل پشتیبان پشتیبان تهیه شده و به صورت خودکار در کارت SDCard شما ذخیره می شود اگر حساب توسط برنامه ایجاد شده باشد</string>
+    <string name="invalid_pin">پین نامعتبر است</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">خانه</string>
+    <string name="txt_transactions">معاملات</string>
+    <string name="txt_refunds_returns">بازپرداخت / بازپرداخت</string>
+    <string name="txt_settlement">توافق</string>
+    <string name="bitshares_nodes_dialog_title">گره های Bitshares</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">مبلغ پرداختی</string>
+    <string name="sub_total">زیر مجموع:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">سفارش کتاب خطا</string>
+    <string name="content_error_market">در DEX هیچ دستورالعملی وجود ندارد که به ما امکان می دهد که مبادله را به %1$s در حال حاضر انجام دهد. \n \n لطفا به صفحه تنظیمات بروید و یک دارایی خروجی دیگری را انتخاب کنید.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">لطفا پرداخت کنید</string>
+    <string name="please_pay_s_s">لطفا پرداخت کنید: %1$s %2$s</string>
+    <string name="to_s">به: %1$s</string>
+    <string name="txt_network">هزینه شبکه</string>
+    <string name="txt_please_wait">لطفا صبر کنید</string>
+    <string name="error_node_unreachable">هیچ گره قابل دسترسی نیست</string>
+    <string name="invoice_subject">صورت حساب PalmPay از %1$s</string>
+    <string name="before_s">قبل از: %1$s</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="share_with">به اشتراک گذاشتن با</string>
+    <string name="connecting">برقراری ارتباط…</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">درخواست پرداخت را انتخاب کنید</string>
+    <string name="dialog_msg_select_pending_payment">پرداختی دریافتی شناسایی شد، اما نمیتواند به طور خودکار به پرداخت قبلی قبول شود. لطفا درخواست پرداخت صحیح را از لیست زیر انتخاب کنید.</string>
+    <string name="dialog_msg_confirm_pending_payment">این پرداخت ورودی را به درخواست پرداخت قبلی قبض %1$s پیوند می دهد</string>
+    <string name="dialog_msg_incoming_payment_details">جزئیات پرداخت ورودی</string>
+    <string name="dialog_generic_title_confirm">شما مطمئن هستید؟</string>
+    <string name="dialog_generic_msg_confirm">لطفا توجه داشته باشید که این عمل قابل لغو نیست</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">رد</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">پرداخت تایید شد!</string>
+    <string name="txt_cool">سرد!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">تنظیمات</string>
+    <string name="general">عمومی</string>
+    <string name="security">امنیت</string>
+    <string name="backups">پشتیبان گیری</string>
+    <string name="tokens">زنگ ها</string>
+    <string name="accounts">حساب ها</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">حالت شب</string>
+    <string name="currency_info">ارز به طور خودکار بر اساس انتخاب زبان و کشور شما انتخاب می شود. اگر می خواهید آنها را تغییر دهید، باید به تنظیمات سیستم جهانی دستگاه خود بروید.</string>
+    <string name="screen_saver">محافظ صفحه</string>
+    <string name="source">منبع</string>
+    <string name="bitshares_logo">لوگوی BitShares</string>
+    <string name="default_folder">پوشه پیش فرض (/ PalmPay)</string>
+    <string name="txt_folder">پوشه</string>
+    <string name="choose">انتخاب کنید</string>
+    <string name="screen_saver_time">فعال بعد از ...</string>
+    <string name="one_minute">1 دقیقه</string>
+    <string name="three_minutes">3 دقیقه</string>
+    <string name="five_minutes">5 دقیقه</string>
+    <string name="local_ambassador">سفیر محلی</string>
+    <string name="ambassador_info">سفیران PalmPay هر 3 ثانیه پرداخت می شود. شغل آنها حمایت از بازرگانان محلی PalmPay و سازماندهی Monthly Crypto Meetups است. اگر شهر شما فهرست نشده باشد، شهر شما هنوز یک سفیر PalmPay ندارد. \n \nFor more info، به انجمن Agorise در Telegram مراجعه کنید: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">شهر</string>
+    <string name="country">کشور</string>
+    <string name="bugs_or_ideas">اشکالات یا ایده ها</string>
+    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">تایید کنید</string>
+    <string name="select">انتخاب کنید</string>
+    <string name="are_you_sure">شما مطمئن هستید؟</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">پشتیبان گیری</string>
+    <string name="copied_to_clipboard">کپی به کلیپ بورد</string>
+    <string name="bin_file_description">پرونده باین همیشه فایل پشتیبان .bin را به یک کارت حافظه MicroSD یا USB Stick ذخیره کنید.</string>
+    <string name="create_a_backup">یک پشتیبان ایجاد کنید</string>
+    <string name="brainkey_description">Brainkey کلمات بازیابی حساب که می توان آنها را اسیر کرد یا کپی کرد، اما ویرایش نشد.</string>
+    <string name="txt_brain_key_info">این را چاپ کنید یا آن را بنویسید. هر کسی که دسترسی به کلید بازیابی شما داشته باشد، به صندوقهای موجود در این کیف پول دسترسی خواهد داشت.</string>
+    <string name="view_and_copy">مشاهده و کپی</string>
+    <string name="title_bin_backup">پشتیبان گیری .bin</string>
+    <string name="hint_password">کلمه عبور</string>
+    <string name="hint_password_confirmation">تایید رمز عبور</string>
+    <string name="error_password_mandatory">باید رمز عبور را وارد کنید</string>
+    <string name="error_password_too_short">گذرواژه خیلی کوتاه است</string>
+    <string name="error_password_confirmation_mismatch">عدم هماهنگی رمز عبور و تأیید</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">حساب تجاری: %1$s</string>
+    <string name="upgrade_to_ltm">ارتقا به LTM</string>
+    <string name="upgrade_account_description">"ارتقا به عضویت LifeTime (LTM). حساب LTM Bitshares پرداخت نزدیک به صفر هزینه، دریافت 80٪ cashback و پاداش برای ارجاع."</string>
+    <string name="account_upgrade_title">ارتقای حساب کاربری</string>
+    <string name="account_upgrade_content">عضویت در زمان زندگی به شما اجازه می دهد تا با کمترین هزینه از هزینه های شبکه تجارت کنید. \n \nIt به حساب جاری "%1$s" \n \n اعمال خواهد شد با این حال با هزینه حدود 100 دلار پرداخت می شود در Bitshares. \n \n آیا شما مطمئن هستید که می خواهید ادامه دهید؟</string>
+    <string name="account_upgrade_wait_content">معامله شامل درخواست شما توسط شبکه انجام می شود</string>
+    <string name="error_upgrade_account_title">خطایی در تلاش برای ارتقا حساب کاربری</string>
+    <string name="error_upgrade_account_content">لطفا مطمئن شوید که حساب شما تعادل کافی برای پوشش هزینه ها دارد</string>
+    <string name="account_upgraded_title">حساب ارتقا یافته</string>
+    <string name="account_upgraded_content">تبریک می گویم! حساب کاربری شما به عضویت طول عمر افزوده شده است.</string>
+    <string name="remove_account">حذف حساب</string>
+    <string name="remove_account_description">این حساب Merchant را حذف کنید. حساب کاربری Merchant را از این دستگاه خارج کنید و یکی از موارد دیگر را ایجاد یا وارد کنید.</string>
+    <string name="txt_account_remove_confirmation">"آیا مطمئن هستید که می خواهید حساب %1$s را از این کیف پول حذف کنید؟"</string>
+    <string name="remove">برداشتن</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">خواندنی</string>
+    <string name="txt_customer_loyalty">امتیازات وفاداری ...</string>
+    <string name="warning_insufficient_reward_asset_balance">حساب شما هنوز %1$s ندارد. لطفا قبل از اینکه سعی کنید مشتریان خود را به عنوان امتیازات وفاداری به مشتریان بدست آورید.</string>
+    <string name="send">ارسال</string>
+    <string name="txt_for_every">برای هر</string>
+    <string name="txt_spent">صرف شده</string>
+    <string name="txt_bitcoin_altcoin_deposited">پذیرش تا 8 رمزنگاری:</string>
+    <string name="altcoins_should_not_more_than">لطفا بیش از 8 دارایی ورودی را انتخاب کنید</string>
+    <string name="bitshares_unselection_message">هسته اصلی Bitshares (BTS) مورد نیاز است.</string>
+    <string name="toast_low_volume_market">دارایی های کم حجم بازار به طور موقت غیر فعال شده اند آنها هنگامی که حجم بازار به میزان قابل توجهی افزایش می یابد، فعال خواهند شد</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">لوگو</string>
+    <string name="store_name">نام فروشگاه</string>
+    <string name="address">نشانی</string>
+    <string name="phone_number">شماره تلفن</string>
+    <string name="website">سایت اینترنتی</string>
+    <string name="message">پیام</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">قادر به ایجاد قالب باینری برای کلید نیست</string>
+    <string name="saving_bin_file_to_s">ذخیره فایل بن به: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">فایل باین با موفقیت به: %1$s</string>
+    <string name="unable_to_save_bin_file">قادر به ذخیره فایل باینری نیست</string>
+    <string name="creating_backup_file">ایجاد فایل پشتیبان</string>
+    <string name="fetching_key">دريافت کليد</string>
+    <string name="generating_bin_format">تولید فرمت باین</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">جستجو کردن</string>
+    <string name="filter">فیلتر کردن</string>
+    <string name="export">صادرات</string>
+    <string name="confirming">تأیید ...</string>
+    <string name="pdf_generated_msg_s">PDF تولید و ذخیره شده: %1$s</string>
+    <string name="pdf_generated_msg_error_s">قادر به تولید PDF نیست لطفا دوباره سعی کنید. خطا: %1$s</string>
+    <string name="csv_generated_msg_s">CSV تولید و ذخیره شده است: %1$s</string>
+    <string name="csv_generated_msg_error_s">قادر به تولید CSV نیست لطفا دوباره سعی کنید. خطا: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">همه</string>
+    <string name="sent">ارسال شد</string>
+    <string name="received">اخذ شده</string>
+    <string name="date_range">محدوده زمانی</string>
+    <string name="txt_to">به</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">مقدار فیات</string>
+    <string name="between">بین</string>
+    <string name="and">و</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">صادرات معاملات فیلتر شده</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">تولید محصول صادراتی</string>
+    <string name="exported_file_name">معاملات PalmPay</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">از جانب</string>
+    <string name="to">به</string>
+    <string name="memo">یادداشت</string>
+    <string name="date">تاریخ</string>
+    <string name="time">زمان</string>
+    <string name="crypto_amount">مقدار رمزنگاری</string>
+    <string name="crypto_symbol">نماد رمزنگاری</string>
+    <string name="keyed_in_fiat_amount">فیت محفوظ است</string>
+    <string name="total_fiat_amount">مجموع فیات مبلغ</string>
+    <string name="fiat_currency">فیات ارز</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt از</string>
+    <string name="item_n">مورد %1$d</string>
+    <string name="subtotal">زیرمجموعه</string>
+    <string name="network_fee">هزینه شبکه</string>
+    <string name="total">جمع</string>
+    <string name="paid_s_s">پرداخت %1$s %2$s</string>
+    <string name="change_due">تغییر به دلیل</string>
+    <string name="e_receipt_memo_s">یادداشت: %1$s</string>
+    <string name="e_receipt_date_s">تاریخ: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt از %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">پین قدیمی اشتباه است</string>
+    <string name="pin_changed_successfully">پین با موفقیت تغییر کرد</string>
+    <string name="please_enter_pin">لطفا شماره پین ​​را وارد کنید</string>
+    <string name="please_enter_pin_confirmation">لطفا تایید شماره PIN خود را وارد کنید</string>
+    <string name="title_change_pin">ویرایش پین</string>
+    <string name="txt_current_pin">شماره پین ​​کنونی</string>
+    <string name="please_enter_old_pin">لطفا شماره PIN قبلی را وارد کنید</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">خطای اتصال به گره، دوباره امتحان کنید</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">ما یک پرداخت ورودی دریافت کردیم اما هیچ درخواستی یافت نشد</string>
+
+</resources>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Lizentzia</string>
+    <string name="agree">Ados</string>
+    <string name="disagree">Ados</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Aktiboak kargatzen ...</string>
+    <string name="title_loading_asset_type_data">Aktibo motako datuak kargatzen ...</string>
+    <string name="title_assets_ready">Aktiboen datu-basea prest dago</string>
+    <string name="msg_loading_all_existing_assets">Eskaera batzuk egitea, lehendik dauden aktibo guztien zerrenda osoa lortzeko</string>
+    <string name="msg_loading_asset_type_data">Aktiboen datu gehiago eskatzea</string>
+    <string name="msg_loading_asset_in_database">Kargatu %1$d aktiboak datu-basera</string>
+    <string name="msg_assets_loaded">Hurrengoa, konfiguratu zure kontua ...</string>
+    <string name="error_fetching_marketcap_data">Ezin izan da marketineko datuak kargatu</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Kontua sortu</string>
+    <string name="txt_account_name">BitShares kontuaren izena</string>
+    <string name="unable_to_find_account_id">Ezin da erabiltzailearen kontuaren ID aurkitu</string>
+    <string name="error_invalid_account_name_explanation">Kontuaren izena 8 karaktere baino gehiago izan behar ditu, zenbaki bat eduki edo bokalarik ez. Azpimarratu karakterea ere ez da onartzen.</string>
+    <string name="create">Sortu</string>
+    <string name="error">Akatsa</string>
+    <string name="account_name_already_exist">Kontuaren izena dagoeneko existitzen da</string>
+    <string name="try_again">Saiatu berriro 5 minutu igaro ondoren</string>
+    <string name="txt_new_pin_confirmation">Berretsi PIN berria (6 digitu gehiago)</string>
+    <string name="error_wif">Errorea WIF gakoa sortzean</string>
+    <string name="error_faucet_template">Faucet-ek errore bat itzuli du. Msg: %1$s</string>
+    <string name="error_read_dict_file">Errorea hiztegi-fitxategia irakurtzean</string>
+    <string name="error_missing_account">Aplikazioa ezin izan du sortutako kontu berrien informazioa eskuratzeko</string>
+    <string name="create_account_title">Kontu berria sortzea</string>
+    <string name="create_account_message">Itxaron zure kontua sortzen den bitartean</string>
+    <string name="error_faucet_explanation">Zerbitzariak errorea eman du. Horretarako, IP helbide beretik datorren maiz eskaerak denbora laburrean banatzeko ezarritako mugak direla-eta gerta liteke. Itxaron 5 minutu eta saiatu berriro, edo aldatu beste sare batera, Adibidez wifi-tik cell-tik.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Ziurtatu zure brainkey babeskopia egin aurretik. Horrek zure kontua berreskuratzea ahalbidetzen du gailu honetan zerbait gertatuz gero.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Nola lehendik zegoen kontua inportatu nahi duzu?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF gakoa</string>
+    <string name="bin_file">.bin fitxategia</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Aukeratu 6+ digituko PINa</string>
+    <string name="txt_6_digits_pin_confirm">6 + digituak PIN berretsi</string>
+    <string name="please_enter_6_digit_pin">Idatzi 6 digitu PINa</string>
+    <string name="please_enter_6_digit_pin_confirm">Sartu zure PIN zenbakia berresteko</string>
+    <string name="mismatch_pin">Ez datoz bat pin</string>
+    <string name="please_enter_brainkey">Idatzi brainkey</string>
+    <string name="please_enter_correct_brainkey">Sartu eskuineko burbuila zuzena, 12 eta 16 hitz artean egon beharko luke.</string>
+    <string name="unable_to_load_brainkey">Ezin da burmuineko kargatu</string>
+    <string name="account_already_exist">Kontua lehendik ere badago</string>
+    <string name="importing_your_wallet">Zure zorroa inportatzean ...</string>
+    <string name="account_candidates_title">Aukeratu kontu bat</string>
+    <string name="account_candidates_content">Buruzko burmuinean eratorritako gakoak badirudi kontu bat baino gehiago kontrolatzeko erabiliko den, hautatu zein kontutan sartu nahi duzun</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Inportatu .bin fitxategia</string>
+    <string name="import_backup">Inportatu babeskopia .bin fitxategitik</string>
+    <string name="txt_no_internet_connection">Interneteko konexiorik ez</string>
+    <string name="no_file_chosen">Ez da fitxategirik hautatu</string>
+    <string name="choose_backup">Aukeratu babeskopia</string>
+    <string name="choose_file">Aukeratu Fitxategia</string>
+    <string name="txt_existing_password">Oraingo .bin fitxategia Pasahitza edo PINa</string>
+    <string name="txt_new_pin">PIN berria (6 digitu gehiago)</string>
+    <string name="importing_keys_from_bin_file">"Geziak inportatzen".</string>
+    <string name="please_make_sure_your_bin_file">Ziurtatu zure pin zuzena edo bin fitxategi zuzena hautatuta dagoela</string>
+    <string name="missing_existing_password">Sartu babeskopiaren fitxategi hau enkriptatzeko erabilitako pasahitza</string>
+    <string name="pin_number_request">Sartu babeskopiaren fitxategi hau kodetzeko erabilitako PIN kopurua</string>
+    <string name="pin_number_warning">PIN zenbakia gutxienez 6 digitu izan behar da</string>
+    <string name="backup_error_no_key_reference_found">Tekla hau erabiliz ez da aurkitu, ziurtatu eguneratu segurtasun kopia bat erabiltzen ari zarela.</string>
+    <string name="backup_error_no_wallet_backup">Ez dago zorroaren babeskopirik fitxategi honetan</string>
+    <string name="error_invalid_account">Kontu baliogabea, egiaztatu garuneko gakoa idazteko erroreak</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Inportazio</string>
+    <string name="title_account_load_result">Kontua kargatu da</string>
+    <string name="button_change_account">Aldaketa</string>
+    <string name="title_select_input_assets">Aukeratu aktiboak onartzeko.</string>
+    <string name="explanation_account_setup">Bitshares kontua konfiguratu beharko duzu ordainketak jasotzeko. Edo, dagoeneko baduzu, hemen inportatu dezakezu.</string>
+    <string name="explanation_output_asset">Aukeratu nahi duzun Smartcoin:</string>
+    <string name="next">hurrengo</string>
+    <string name="done">Done</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Ordaindu ezazu</string>
+    <string name="error_corrupted_key_title">Gezurrezko ustelkeria akatsa</string>
+    <string name="error_corrupted_key_content">Aplikazioa ezin da zure datu pribatuak enkriptatutako gako pribatuak berreskuratu. Hori dela eta, gakoak berriro sartu beharko dituzu. Edo brainkey baten forma edo formatu automatikoki zure sdcard-ean automatikoki sortutako bin backup fitxategia, kontua sortu zenez gero.</string>
+    <string name="invalid_pin">PIN baliogabea</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Hasiera</string>
+    <string name="txt_transactions">Transactions</string>
+    <string name="txt_refunds_returns">Itzultzeak / Returns</string>
+    <string name="txt_settlement">Settlement</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares nodoak</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Zenbatekoa ondorioz</string>
+    <string name="sub_total">Sub-, guztira:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Orden liburua</string>
+    <string name="content_error_market">Ez dago aginduak DEX-en, une honetan %1$s truke egitea baimentzen baitute. \n \nJarraitu ezarpenen pantailara eta hautatu beste irteera aktibo bat.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Ordaindu ezazu</string>
+    <string name="please_pay_s_s">Ordaindu: %1$s %2$s</string>
+    <string name="to_s">To: %1$s</string>
+    <string name="txt_network">Sareko kuota</string>
+    <string name="txt_please_wait">Itxaron mesedez</string>
+    <string name="error_node_unreachable">Ez dago nodorik iritsi</string>
+    <string name="invoice_subject">PalmPay faktura %1$stik</string>
+    <string name="before_s">Aurretik: %1$s</string>
+    <string name="share">Share</string>
+    <string name="share_with">Partekatu honekin</string>
+    <string name="connecting">Konektatzen ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Aukeratu ordainketa eskaera</string>
+    <string name="dialog_msg_select_pending_payment">Sarrera ordainketa bat detektatu da, baina ezin izan da aurretiaz eskatutako ordainketa automatikoki esleitu. Aukeratu zerrendako hurrengo ordainketa-eskaera zuzena.</string>
+    <string name="dialog_msg_confirm_pending_payment">Honek sarrerako ordainketa lotuko du %1$s__ aurrez erregistratutako ordainketaren eskaera</string>
+    <string name="dialog_msg_incoming_payment_details">Sarrerako ordainketaren xehetasunak</string>
+    <string name="dialog_generic_title_confirm">Ziur zaude?</string>
+    <string name="dialog_generic_msg_confirm">Kontuan izan ekintza hori ezin dela desegin</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Baztertu</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Ordainketa baieztatu da!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">ezarpenak</string>
+    <string name="general">General</string>
+    <string name="security">Segurtasuna</string>
+    <string name="backups">Segurtasun-kopiak</string>
+    <string name="tokens">token</string>
+    <string name="accounts">kontuak</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Gaua modua</string>
+    <string name="currency_info">Moneta automatikoki hautatzen da zure hizkuntzan eta herrialde aukeretan oinarrituta. Horiek aldatu nahi badituzu, gailuko sistema orokorraren doikuntzetara joan behar duzu.</string>
+    <string name="screen_saver">Pantaila babeslea</string>
+    <string name="source">Iturria</string>
+    <string name="bitshares_logo">BitShares-eko logotipoa</string>
+    <string name="default_folder">Karpeta lehenetsia (/ PalmPay)</string>
+    <string name="txt_folder">karpeta</string>
+    <string name="choose">Aukeratu</string>
+    <string name="screen_saver_time">Gaitu ondoren ...</string>
+    <string name="one_minute">1 minutu</string>
+    <string name="three_minutes">3 minutu</string>
+    <string name="five_minutes">5 minutu</string>
+    <string name="local_ambassador">Tokiko enbaxadorea</string>
+    <string name="ambassador_info">PalmPay enbaxadoreak hiru segundotan ordainduko dira. Lana PalmPay merkatari lokalen laguntza da eta hilero Crypto Meetups antolatu. Zure hiria zerrendatuta ez badago, zure hiria oraindik ez du PalmPay enbaxadore bat. \n \n Informazio gehiago nahi izanez gero, bisitatu Agorise komunitateak Telegramean: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">hiria</string>
+    <string name="country">Herria</string>
+    <string name="bugs_or_ideas">Bugs or Ideas?</string>
+    <string name="bugs_or_ideas_contact_info">Telegramen txata: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Onartu</string>
+    <string name="select">Aukeratu</string>
+    <string name="are_you_sure">Ziur zaude?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Arbela kopiatu da</string>
+    <string name="bin_file_description">Bin fitxategia. Beti segurtatu zure babeskopia .bin fitxategia MicroSD txartel sekretu batera edo USB gailu batera.</string>
+    <string name="create_a_backup">Sortu babeskopia</string>
+    <string name="brainkey_description">Brainkey. Kontua berreskuratzeko hitzak biltzeko edo kopiatzeko, baina ez editatu.</string>
+    <string name="txt_brain_key_info">Inprimatu hau edo idatzi ezazu. Zure berreskuratze teklarako sarbidea duen edonork zorro honetako zorraren sarbidea izango du.</string>
+    <string name="view_and_copy">Ikusi eta kopiatu</string>
+    <string name="title_bin_backup">Esportatu .bin babeskopia</string>
+    <string name="hint_password">Pasahitza</string>
+    <string name="hint_password_confirmation">Pasahitza berrespen</string>
+    <string name="error_password_mandatory">Pasahitza idatzi behar duzu</string>
+    <string name="error_password_too_short">Pasahitza laburregia da</string>
+    <string name="error_password_confirmation_mismatch">Pasahitza eta berrespena ez datoz bat</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Merchant kontua: %1$s</string>
+    <string name="upgrade_to_ltm">Berritu ezazu LTMra</string>
+    <string name="upgrade_account_description">"Upgrade to LifeTime Membership (LTM). Bitshares-en \'LTM kontuek zortzi tasak ordaintzen dituzte,% 80 cashback eta hobespenak lortzeko."</string>
+    <string name="account_upgrade_title">Berritu kontua</string>
+    <string name="account_upgrade_content">Life Ordua Kideek sare komertzialen tarifa murriztua merkaturatu dezakete. \n \nEgiazkoa izango da "%1$s" \n \n kontuan hartuta. Bitshares-ek ordaindutako 100 USD inguruko kostua du. \n \n Ziur al zaude jarraitu nahi duzula?</string>
+    <string name="account_upgrade_wait_content">Zure eskaera duen transakzioa sareak prozesatzen ari da</string>
+    <string name="error_upgrade_account_title">Akatsa kontua berritzen saiatzean</string>
+    <string name="error_upgrade_account_content">Ziurtatu zure kontuak oreka nahikoa duela kostuak estaltzeko</string>
+    <string name="account_upgraded_title">Kontua eguneratu da</string>
+    <string name="account_upgraded_content">Zorionak! Zure kontua Lifetime Kideara eguneratua izan da.</string>
+    <string name="remove_account">Kendu kontua</string>
+    <string name="remove_account_description">Kendu merkataritza-kontu hau. Kendu gailu honen goiko Merkataritza kontua eta beste bat sortu edo inportatu.</string>
+    <string name="txt_account_remove_confirmation">"Ziur al zaude \'%1$s\' kontua kendu nahi duzula zorro honetatik?</string>
+    <string name="remove">Kendu</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Desiragarria Smartcoin</string>
+    <string name="txt_customer_loyalty">Jaulkipenezko puntuen arazoa ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Zure kontuak ez ditu oraindik %1$s. Mesedez, eskuratu zenbait zure Leialtasun Puntuak bezalako bezeroei.</string>
+    <string name="send">Bidali</string>
+    <string name="txt_for_every">Guztientzat</string>
+    <string name="txt_spent">igaro</string>
+    <string name="txt_bitcoin_altcoin_deposited">Onartu 8 Kriptozurren:</string>
+    <string name="altcoins_should_not_more_than">Ez hautatu 8 sarrera baino gehiago</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) core token behar da.</string>
+    <string name="toast_low_volume_market">Bolumen txikiko merkatuko aktiboak ez daude aldi baterako desgaituta. Merkatuaren bolumena zenbatekoa handitzen den egunean gaituko dute</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logotipo</string>
+    <string name="store_name">Denda izena</string>
+    <string name="address">Helbidea</string>
+    <string name="phone_number">Telefono zenbakia</string>
+    <string name="website">Web</string>
+    <string name="message">Mezua</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Ezin da bin-formatua sortu gakoarentzat</string>
+    <string name="saving_bin_file_to_s">Fitxategia gordetzeko fitxategia: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin File gorde behar bezala: %1$s</string>
+    <string name="unable_to_save_bin_file">Ezin da bin fitxategi gorde</string>
+    <string name="creating_backup_file">Backup fitxategia sortzea</string>
+    <string name="fetching_key">Eskuratu gakoa</string>
+    <string name="generating_bin_format">Binizko formatua sortzea</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="export">Export</string>
+    <string name="confirming">Berresten ...</string>
+    <string name="pdf_generated_msg_s">Sortutako eta gordetako PDFa: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Ezin da pdf sortu. Berriro saiatu. Errorea: %1$s</string>
+    <string name="csv_generated_msg_s">Sortutako eta gordetako CSV: %1$s</string>
+    <string name="csv_generated_msg_error_s">Ezin da CSV sortu. Berriro saiatu. Errorea: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">guztiak</string>
+    <string name="sent">bidalia</string>
+    <string name="received">Jaso</string>
+    <string name="date_range">Data-tartea</string>
+    <string name="txt_to">to</string>
+    <string name="cryptocurrency">cryptocurrency</string>
+    <string name="fiat_amount">Fiat zenbatekoa</string>
+    <string name="between">Between</string>
+    <string name="and">eta</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Esportatu iragazi eragiketak</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Esportazio produktua sortzen</string>
+    <string name="exported_file_name">PalmPay-eragiketak</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">aurrera</string>
+    <string name="to">to</string>
+    <string name="memo">Memo</string>
+    <string name="date">data</string>
+    <string name="time">Ordua</string>
+    <string name="crypto_amount">Kriptoren zenbatekoa</string>
+    <string name="crypto_symbol">Kriptografiako ikurra</string>
+    <string name="keyed_in_fiat_amount">Keyed-in Fiat zenbatekoa</string>
+    <string name="total_fiat_amount">Guztira Fiat zenbatekoa</string>
+    <string name="fiat_currency">Fiat Moneta</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Elementua %1$d</string>
+    <string name="subtotal">Sub-Guztira</string>
+    <string name="network_fee">Sareko kuota</string>
+    <string name="total">Guztira</string>
+    <string name="paid_s_s">Ordainketa %1$s %2$s</string>
+    <string name="change_due">Aldaketaren ondorioz</string>
+    <string name="e_receipt_memo_s">Memoria: %1$s</string>
+    <string name="e_receipt_date_s">Data: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt tik %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">PIN zaharra okerra da</string>
+    <string name="pin_changed_successfully">PINa behar bezala aldatu da</string>
+    <string name="please_enter_pin">Idatzi PIN zenbakia</string>
+    <string name="please_enter_pin_confirmation">Sartu PIN zenbakia berrespena</string>
+    <string name="title_change_pin">Editatu PINa</string>
+    <string name="txt_current_pin">Uneko PIN zenbakia</string>
+    <string name="please_enter_old_pin">Idatzi PIN zenbaki zaharra</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Nodo konexioaren errorea, berriz saiatzen</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Sarrerako ordainketa bat lortu dugu, baina ez da eskaera aurkitu</string>
+
+</resources>

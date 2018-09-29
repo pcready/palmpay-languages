@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Laisene</string>
+    <string name="agree">Malilie</string>
+    <string name="disagree">Le malie</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Uunaina o meatotino ...</string>
+    <string name="title_loading_asset_type_data">Faʻamaumauga o faʻamaumauga o aseta ...</string>
+    <string name="title_assets_ready">Faʻamaumauga o le aseta</string>
+    <string name="msg_loading_all_existing_assets">Faia se faasologa o talosaga ina ia mafai ai ona maua le lisi atoa o aseta uma</string>
+    <string name="msg_loading_asset_type_data">Talosagaina nisi faʻamatalaga o aseta</string>
+    <string name="msg_loading_asset_in_database">Tupe faʻaalu aitalafu i le database</string>
+    <string name="msg_assets_loaded">Le isi, faamolemole faatulaga lau tala ...</string>
+    <string name="error_fetching_marketcap_data">Le mafai ona tuʻuina atu data marketcap</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Fatuina Tala</string>
+    <string name="txt_account_name">Igoa o le BitShares</string>
+    <string name="unable_to_find_account_id">Le mafai ona maua le id</string>
+    <string name="error_invalid_account_name_explanation">O le igoa o le tala e tatau ona sili atu nai lo le 8 tagata, e aofia ai se numera pe leai ni falesa. E le faʻatagaina foi le faʻamalosia o le amio.</string>
+    <string name="create">Fausia</string>
+    <string name="error">Laʻasaga</string>
+    <string name="account_name_already_exist">Faʻamatalaga o le igoa</string>
+    <string name="try_again">Faamolemole toe taumafai pe a maeʻa le 5 minute</string>
+    <string name="txt_new_pin_confirmation">Faamaonia le PIN fou (6+ numera)</string>
+    <string name="error_wif">Faʻailogaina o le fatuina o le WIF key</string>
+    <string name="error_faucet_template">Na toe foʻi mai le fagu se mea sese. Msg: %1$s</string>
+    <string name="error_read_dict_file">Faʻasalaga le faitauina o le lolomifefiloi</string>
+    <string name="error_missing_account">E le mafai e le app ona toe aumai faamatalaga e uiga i le tala fou na faia</string>
+    <string name="create_account_title">Fausiaina o se tala fou</string>
+    <string name="create_account_message">Faamolemole faatali ao faia lau tala</string>
+    <string name="error_faucet_explanation">Na toe foʻi le \'auʻaunaga i se mea sese. Atonu e mafua mai i se tapulaa fuafuaina ma le faamoemoe e faatulaga i le tulaga e le talia ai talosaga masani mai le tuatusi IP lava e tasi i se taimi puupuu. Faamolemole faatali mo le 5 minute ma toe taumafai, pe fesuiai i se mea eseese, Mo se faʻataʻitaʻiga mai le WiFi i le cell.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Faamolemole ia mautinoa e te faʻamautu lau brainkey ao lei alu. O lenei mea o le a mafai ai e oe ona toe maua lau tala pe afai e tupu se mea i lenei masini.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">E faʻapefea ona e faʻapipiʻi mai lau tusi o iai?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin File</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Filifili se PIN 6+ numera</string>
+    <string name="txt_6_digits_pin_confirm">6 + numera PIN faʻamaonia</string>
+    <string name="please_enter_6_digit_pin">Faʻamolemole tuʻu le PIN 6-PIN</string>
+    <string name="please_enter_6_digit_pin_confirm">Faʻamolemole tuʻu le faʻamaonia o lau numera PIN</string>
+    <string name="mismatch_pin">Pine pasese</string>
+    <string name="please_enter_brainkey">Faamolemole ulufale mai i le brainkey</string>
+    <string name="please_enter_correct_brainkey">Faamolemole ia saʻo le fai faikei, e tatau ona i ai i le va o le 12 ma le 16 upu.</string>
+    <string name="unable_to_load_brainkey">Le mafai ona gaʻo le failele</string>
+    <string name="account_already_exist">Faʻamatalaga ua iai</string>
+    <string name="importing_your_wallet">Auina mai o lau atotupe ...</string>
+    <string name="account_candidates_title">Faamolemole filifili se tala</string>
+    <string name="account_candidates_content">O ki e mafua mai i lenei brainkey e foliga mai e faʻaaoga e pulea ai le sili atu ma le tasi le tala, faamolemole filifili po o le fea tala e te manaʻo e teu mai</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Faʻamaumauga mai le faila file .bin</string>
+    <string name="import_backup">Faʻamaumauga mai le .bin faila</string>
+    <string name="txt_no_internet_connection">Leai se Initaneti</string>
+    <string name="no_file_chosen">Leai se faila na filifilia</string>
+    <string name="choose_backup">Filifili Tua</string>
+    <string name="choose_file">Filifili File</string>
+    <string name="txt_existing_password">Taimi nei faila faila Faila po o le PIN</string>
+    <string name="txt_new_pin">New PIN (6+ numera)</string>
+    <string name="importing_keys_from_bin_file">"Auina mai o Ki mai le faila faila"</string>
+    <string name="please_make_sure_your_bin_file">Faamolemole ia mautinoa o lau pine e saʻo pe saʻo le faila faila</string>
+    <string name="missing_existing_password">Faamolemole ia ulufale mai i le uputatala na faaaoga e inofi ai lenei faila faila</string>
+    <string name="pin_number_request">Faʻamolemole faʻafesoʻotaʻi le numera pine o loʻo faʻaaoga e faʻaoga ai lenei faila faila</string>
+    <string name="pin_number_warning">O le numera pine e tatau ona itiiti ifo i le 6 numera</string>
+    <string name="backup_error_no_key_reference_found">Leai se faʻamatalaga e maua ai lenei ki, faamolemole ia mautinoa o loʻo e faʻaaogaina se faila toe faʻaleleia.</string>
+    <string name="backup_error_no_wallet_backup">E le mafai ona maua se tuatusi siaki i lenei faila</string>
+    <string name="error_invalid_account">Faʻamatalaga le aoga, faamolemole siaki lau faila mo le taina o sese</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Faaulufale mai</string>
+    <string name="title_account_load_result">Faʻatupeina o tala</string>
+    <string name="button_change_account">Suiga</string>
+    <string name="title_select_input_assets">Filifili meatotino e talia.</string>
+    <string name="explanation_account_setup">O le ae manaomia le setiina o se teugatupe Bitshares ina ia maua ai totogi. Pe afai foi ua uma ona e maua, e mafai ona e faaulufale mai iinei.</string>
+    <string name="explanation_output_asset">Filifili lau Smartcoin manaʻoga:</string>
+    <string name="next">Le isi</string>
+    <string name="done">Ua faia</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Totogi</string>
+    <string name="error_corrupted_key_title">Faʻasologa sese sese</string>
+    <string name="error_corrupted_key_content">E le mafai e le app ona toe faʻaleleia au mea lilo faalilolilo mai le faʻamaumauga. Ona o lea mea ua tatau ai ona e toe ulufale i au ki. Pe i le tulaga o se brainkey poʻo le fausiaina o le faila laupepa faila lea sa fatuina ma teu faʻaputu i lau sdcard pe a fai na faia le tala e le app</string>
+    <string name="invalid_pin">PIN le aoga</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Aiga</string>
+    <string name="txt_transactions">Gaoioiga</string>
+    <string name="txt_refunds_returns">Faʻafou / Toe foi</string>
+    <string name="txt_settlement">Setete</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares nodes</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Aofai tatau</string>
+    <string name="sub_total">Sub-Aofai:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Faʻailoga le tusi tusi</string>
+    <string name="content_error_market">E leai se tulafono i le DEX o le a mafai ai ona matou faia le fesuiaiga i le %1$s i le taimi nei. \n ___Eliu alu i le siaki faʻamau ma filifili se isi aseta o gaosiga.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Faamolemole totogi</string>
+    <string name="please_pay_s_s">Faamolemole Totogi: %1$s %2$s</string>
+    <string name="to_s">I: %1$s</string>
+    <string name="txt_network">Taufesoʻotai i le upega tafailagi</string>
+    <string name="txt_please_wait">Faamolemole Faatali</string>
+    <string name="error_node_unreachable">E leai se pona e mafai ona ausia</string>
+    <string name="invoice_subject">PalmPay aitalafu mai le _______</string>
+    <string name="before_s">Muamua: %1$s</string>
+    <string name="share">Fetufaai</string>
+    <string name="share_with">Fetufaai ma</string>
+    <string name="connecting">Fesoʻotaʻiga ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Filifili talosaga ole totogiina</string>
+    <string name="dialog_msg_select_pending_payment">Na maua se totogi o loʻo oʻo mai, ae le mafai ona otometi ona tuʻuina atu i se totogi muamua na talosagaina. Faamolemole filifili le talosaga saʻo mai le lisi lea.</string>
+    <string name="dialog_msg_confirm_pending_payment">O lenei mea o le a faʻafesoʻotaʻi ai le totogi o loʻo oʻo mai i le talosaga o le totogi faʻamaumauga muamua o le %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Taʻiala o le totogiina o tupe</string>
+    <string name="dialog_generic_title_confirm">E mo\'i lava oe?</string>
+    <string name="dialog_generic_msg_confirm">Faamolemole ia maitauina e le mafai ona faʻaumatia lenei gaioiga</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Tuʻua</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Totogi faʻamaonia!</string>
+    <string name="txt_cool">SEKIA!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Faʻasologa</string>
+    <string name="general">Lautele</string>
+    <string name="security">Puipuiga</string>
+    <string name="backups">Laupepa</string>
+    <string name="tokens">Togi</string>
+    <string name="accounts">Faʻamatalaga</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Po o le po</string>
+    <string name="currency_info">O le tupe e otometi lava ona filifilia e faavae i lau gagana ma le filifilia o le atunuu. Afai e te manaʻo e sui na, e tatau ona e alu i le faatulagaga o le lalolagi o lau masini.</string>
+    <string name="screen_saver">Faʻamatalaga Mata</string>
+    <string name="source">Punaoa</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Laupepa faigata (/ PalmPay)</string>
+    <string name="txt_folder">Failautusi</string>
+    <string name="choose">Filifili</string>
+    <string name="screen_saver_time">Enable after ...</string>
+    <string name="one_minute">1 minute</string>
+    <string name="three_minutes">3 minute</string>
+    <string name="five_minutes">5 minute</string>
+    <string name="local_ambassador">Amepasa i le lotoifale</string>
+    <string name="ambassador_info">Ua totogi PalmPay Ambassadors i le 3 sekone. La latou galuega o le lagolagosua lea i le au faipisinisi a le PalPay ma faatulaga masina taitasi Crypto Meetups. Afai e le o lisiina lau \'aʻai, o lona uiga e leʻi i ai i lau aai se Palemia PalmPay. ______Mo nisi faʻamatalaga, asiasi i le sosaiete a Agorise ile Telegram: ______ <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Aai</string>
+    <string name="country">Atunuʻu</string>
+    <string name="bugs_or_ideas">Tusia po o Manatu?</string>
+    <string name="bugs_or_ideas_contact_info">Fesootaiga telefoni: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Talia</string>
+    <string name="select">Filifili</string>
+    <string name="are_you_sure">E mo\'i lava oe?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Toe foʻi mai brainkey</string>
+    <string name="copied_to_clipboard">Kopi i luga o le laupapa</string>
+    <string name="bin_file_description">Faila faila. Faʻasao i taimi uma lau faila i le faila .bin ile faila i le microSD card poʻo le USB Stick.</string>
+    <string name="create_a_backup">Fausia se faʻamaumauga</string>
+    <string name="brainkey_description">Brainkey. Faʻamatalaina o le toe faʻaleleia o tala e mafai ona puʻe pe kopi, ae le faʻamaonia.</string>
+    <string name="txt_brain_key_info">Tusi lolomi i fafo, pe tusi i lalo. Soo se tasi e iai lau avanoa e toe faʻaleleia ai, o le a mafai ona maua tupe i totonu o lenei atotupe.</string>
+    <string name="view_and_copy"><![CDATA[Faʻaaliga & Kopi]]></string>
+    <string name="title_bin_backup">Faʻasalalau fafo .bin</string>
+    <string name="hint_password">Numera e le iloa e sesi</string>
+    <string name="hint_password_confirmation">Faʻamaumauga o upu</string>
+    <string name="error_password_mandatory">E tatau ona e ulufale i se upu faila</string>
+    <string name="error_password_too_short">Upu pupuu e puupuu lava</string>
+    <string name="error_password_confirmation_mismatch">Motugaafa ma le faʻamaoniga o le faʻasologa</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Faʻamatalaga o Faʻatauga: %1$s</string>
+    <string name="upgrade_to_ltm">Faaleleia i le LTM</string>
+    <string name="upgrade_account_description">"Siʻitia i le LifeTime Membership (LTM). Bitshares \'LTM tala e totogi i--zero totogifuapauina, maua le 80% cashback ma ponesi mo tagata e faʻaaogaina."</string>
+    <string name="account_upgrade_title">Faaleleia le Teugatupe</string>
+    <string name="account_upgrade_content">O Le Taimi o le Ola O le avea ma sui auai e mafai ai ona e fefaʻatauaʻi ma se faʻaititia o seti o tau fesoʻotaʻiga \n \nO le a aoga i le tala o loʻo i ai nei "%1$s" _________Ea oʻo mai ma le tau e tusa ma le 100 USD faʻaalu i Bitshares. \n \nE te mautinoa e te manaʻo e alu?</string>
+    <string name="account_upgrade_wait_content">O le fefaʻatauaʻiga o loʻo aofia ai lau talosaga o loʻo gaosia e le fesoʻotaʻiga</string>
+    <string name="error_upgrade_account_title">Laʻasaga aʻo taumafai e faʻaleleia faʻamatalaga</string>
+    <string name="error_upgrade_account_content">Faamolemole ia mautinoa o lau tupe e lava le paleni e faʻaalu ai tau</string>
+    <string name="account_upgraded_title">Faʻaleleia le faʻaleleia</string>
+    <string name="account_upgraded_content">Faʻafetai! ua faʻafouina nei lau faʻamatalaga i le Sui Usufono.</string>
+    <string name="remove_account">Aveese le Teugatupe</string>
+    <string name="remove_account_description">Aveese lenei Faletupe Faʻatau. Aveese le Faʻamatalaga Tau Fefaʻatauaʻiga i luga aʻe mai lenei masini ma fatufatu pe faʻaulufale mai se isi.</string>
+    <string name="txt_account_remove_confirmation">"E te mautinoa e te manaʻo e aveese le tala \'%1$s\' mai lenei atotupe?"</string>
+    <string name="remove">Aveese</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Manaʻo Smartcoin</string>
+    <string name="txt_customer_loyalty">Faʻamaumauga o le Faamaoni o le ...</string>
+    <string name="warning_insufficient_reward_asset_balance">O lau faʻamatalaga e le o iai se isi %1$s. Faʻamolemole maua mai muamua ae e te leʻi taumafai e tuʻuina atu i au tagata faʻatau atu ni Faʻamaufaʻailogaina.</string>
+    <string name="send">Auina atu</string>
+    <string name="txt_for_every">Mo mea uma</string>
+    <string name="txt_spent">faʻaalu</string>
+    <string name="txt_bitcoin_altcoin_deposited">Taliaina e oʻo i le 8 Talosagaina:</string>
+    <string name="altcoins_should_not_more_than">Faamolemole filifili mai le sili atu i le 8 initaneti</string>
+    <string name="bitshares_unselection_message">E manaʻomia le faailoga Bitshares (BTS).</string>
+    <string name="toast_low_volume_market">O le maualalo o aseta maketi o loʻo faʻaletonu le tino. O le a faʻatagaina pe a oʻo i luga le siʻitia o le maketi i se aofaiga tele</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Fale teu oloa</string>
+    <string name="address">Tuatusi</string>
+    <string name="phone_number">Numera telefoni</string>
+    <string name="website">Upegalagi</string>
+    <string name="message">Savali</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Le mafai ona faʻapipiʻi le faatulagaga o pini mo le ki</string>
+    <string name="saving_bin_file_to_s">Faʻasaoina o le File File i le: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Faʻasaoina le manuia o Bin File i: %1$s</string>
+    <string name="unable_to_save_bin_file">Le mafai ona puipuia le faila faila</string>
+    <string name="creating_backup_file">Fausia le Faiga Faila</string>
+    <string name="fetching_key">Mauaina o le Ki</string>
+    <string name="generating_bin_format">Fausia le faatulagaga o pini</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Saili</string>
+    <string name="filter">Filu</string>
+    <string name="export">Faʻataulaga</string>
+    <string name="confirming">Faʻamaonia ...</string>
+    <string name="pdf_generated_msg_s">PDF na gaosia ma faasaoina: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Le mafai ona gaosia pdf. Faamolemole toe sue. Aʻo: %1$s</string>
+    <string name="csv_generated_msg_s">Faʻalauiloaina ma faasaoina le CSV: %1$s</string>
+    <string name="csv_generated_msg_error_s">Le mafai ona gaosia le csv. Faamolemole toe sue. Aʻo: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Faʻatasi</string>
+    <string name="sent">Auina mai</string>
+    <string name="received">Maua</string>
+    <string name="date_range">Aso o le Aso</string>
+    <string name="txt_to">i</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Tupe tele</string>
+    <string name="between">I le va</string>
+    <string name="and">ma</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">O faʻataulaga na faʻamauina ai fefaʻatauaiga</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Faʻaauau oloa faʻatau atu fafo</string>
+    <string name="exported_file_name">PalmPay-Gaoioiga</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Mai</string>
+    <string name="to">I</string>
+    <string name="memo">Manatua</string>
+    <string name="date">Aso</string>
+    <string name="time">Taimi</string>
+    <string name="crypto_amount">Crypto Aofaʻi</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Keyed-in Fiat Number</string>
+    <string name="total_fiat_amount">Aofaʻi Aofaʻi Tupe</string>
+    <string name="fiat_currency">Fiat Tupe</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Meataitasi %1$d</string>
+    <string name="subtotal">Sub-Aofaʻi</string>
+    <string name="network_fee">Taufesoʻotai i le upega tafailagi</string>
+    <string name="total">Aofaʻi</string>
+    <string name="paid_s_s">Tauina %1$s %2$s</string>
+    <string name="change_due">Suiga talafeagai</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Aso: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt from %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Tusa le saʻo le PIN</string>
+    <string name="pin_changed_successfully">Ua suia le PIN</string>
+    <string name="please_enter_pin">Faʻamolemole tuʻu le numera PIN</string>
+    <string name="please_enter_pin_confirmation">Faʻamolemole tuʻu lau faʻamaonia numera o le PIN</string>
+    <string name="title_change_pin">Faʻatoʻa le PIN</string>
+    <string name="txt_current_pin">Numera o le PIN i le taimi nei</string>
+    <string name="please_enter_old_pin">Faʻamolemole tuʻu le numera PIN tuai</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Faʻatonu le fesoʻotaʻiga o le node, toe faʻaleleia</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Na matou maua se totogi o loʻo sau, ae leai se talosaga e mafai ona maua</string>
+
+</resources>

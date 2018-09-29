@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Lizenz</string>
+    <string name="agree">Stëmmen</string>
+    <string name="disagree">Net averstane</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Luede vun Ass Werten ...</string>
+    <string name="title_loading_asset_type_data">Loading asset Type Datebank ...</string>
+    <string name="title_assets_ready">Asset Datebank preparéiert</string>
+    <string name="msg_loading_all_existing_assets">Dir hutt eng Rei vun Ufroen unzefroen, fir déi komplett Lëscht vun all existent Verméigen ze kréien</string>
+    <string name="msg_loading_asset_type_data">Weider Detailer maachen</string>
+    <string name="msg_loading_asset_in_database">Loaden %1$d Verméigen an der Datebank</string>
+    <string name="msg_assets_loaded">Als nächst sidd Dir Äre Kont opruffen ...</string>
+    <string name="error_fetching_marketcap_data">Konnt d\'Maartdeckeldaten net laden</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Account erstellen</string>
+    <string name="txt_account_name">Numm BitShares Kont</string>
+    <string name="unable_to_find_account_id">Benotzerkonto net fonnt</string>
+    <string name="error_invalid_account_name_explanation">Den Numm vum Kont huet entweder méi wéi 8 Zeechen, eng Zuel oder keng Vokalen hunn. Den Ënnerscore Charakter ass och net erlaabt.</string>
+    <string name="create">Erstellen</string>
+    <string name="error">Feeler</string>
+    <string name="account_name_already_exist">Account Numm gëtt schonn</string>
+    <string name="try_again">Probéiert nach 5 Minutte weider</string>
+    <string name="txt_new_pin_confirmation">Bestëmmten PIN (6 + Zifferen)</string>
+    <string name="error_wif">Feeler beim Schafen vum WIF-Schlëssel</string>
+    <string name="error_faucet_template">Den Hittel krut en Fehler. Mail: %1$s</string>
+    <string name="error_read_dict_file">Feeler beim Liesen vun D \'dictionary</string>
+    <string name="error_missing_account">D\'App konnt Informatioun iwwer déi nei erstallt Kont net kréien</string>
+    <string name="create_account_title">Neie Kont erstellen</string>
+    <string name="create_account_message">Wielt weg wann Dir Äre Kont erstallt</string>
+    <string name="error_faucet_explanation">De Server huet e Fehler fonnt. Dëst kéint wéint enger Limitatioun sinn objektiv gesetzlech festgeluegt ginn fir häufeg Wënsch déi aus der selweschter IP Adress an engem Kuerze verléieren. Waart 5 Minuten a versicht et nach erof oder wech un en anere Netzwierk, zB vun Wifi a Zell.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Gitt weg datt Dir Äert Handwierk backt, ier Dir matzemaachen. Dëst erlaabt Iech Äert Kont zréckzéien, wann et eppes mat dësem Gerät passéiert.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Wéi géift Dir gär Äre bestehende Kont importéieren?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin Datei</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Wielt eng 6+ Ziffer PIN</string>
+    <string name="txt_6_digits_pin_confirm">6+ Ziffer PIN bestätegen</string>
+    <string name="please_enter_6_digit_pin">Gidd weg d\'6-Ziffer-PIN</string>
+    <string name="please_enter_6_digit_pin_confirm">Gitt d\'Bestätigung vun Ärer PIN Nummer un</string>
+    <string name="mismatch_pin">Passwuertknäppchen</string>
+    <string name="please_enter_brainkey">Gitt d\'Brainkey un</string>
+    <string name="please_enter_correct_brainkey">Gitt weg korrekt brainkey, da sollt et tëschent 12 an 16 Wierder hunn.</string>
+    <string name="unable_to_load_brainkey">Kann net brakesch a loaden</string>
+    <string name="account_already_exist">Kont existéiert schonn</string>
+    <string name="importing_your_wallet">Import vu Portemonnaie ...</string>
+    <string name="account_candidates_title">Wielt e Kont op</string>
+    <string name="account_candidates_content">D\'Schlësselelemente vun dësem Handwierkstécker sinn benotzt ginn fir méi wéi ee Kont ze kontrolléieren, wielt weg wat fir e Kont op däer Dir importéiere wëllt</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Import .bin Datei</string>
+    <string name="import_backup">Import Backup aus .bin Datei</string>
+    <string name="txt_no_internet_connection">Keen Internet Connection</string>
+    <string name="no_file_chosen">Fichier net gewielt</string>
+    <string name="choose_backup">Wielt Backup</string>
+    <string name="choose_file">Wielt Date</string>
+    <string name="txt_existing_password">Aktuelle .bin Datei Passwuert oder PIN</string>
+    <string name="txt_new_pin">Nei PIN (6+ Zifferen)</string>
+    <string name="importing_keys_from_bin_file">"Keys importéieren aus Bin Datei"</string>
+    <string name="please_make_sure_your_bin_file">Gitt weg datt Äert Pin ass richteg oder korrekt bin Fichier gëtt gewielt</string>
+    <string name="missing_existing_password">Gidd weg de Passwuert fir dëse Service of</string>
+    <string name="pin_number_request">Gitt d\'PIN-Nummer unzefroen, fir dës Sicherungsdatei ze codéieren</string>
+    <string name="pin_number_warning">D\'Pin Nummer muss mindestens 6 Zifferen sinn</string>
+    <string name="backup_error_no_key_reference_found">Keen Account deen dëse Schlëssel fonnt gouf, ass fonnt, ob Dir eng aktualiséiert Backup-Datei benotzt.</string>
+    <string name="backup_error_no_wallet_backup">Kee Wallet Backup ka fonnt ginn an dësem Fichier</string>
+    <string name="error_invalid_account">Invalid Kont, kuckt Ierft den Hiéngeknäppel fir Fehlertippen ze maachen</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Importéieren</string>
+    <string name="title_account_load_result">Account opgeléist</string>
+    <string name="button_change_account">Änneren</string>
+    <string name="title_select_input_assets">Wielt de Verméigen ugeholl.</string>
+    <string name="explanation_account_setup">Dir musst e Bitshares Konto opruffen fir Pag\'en ze kréien. Oder wann Dir schonn eng hutt, da kënnt Dir et importéieren.</string>
+    <string name="explanation_output_asset">Wielt Äre Wënsch: Smartcoin:</string>
+    <string name="next">Nächst</string>
+    <string name="done">Gemaach</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Bezuelen</string>
+    <string name="error_corrupted_key_title">Keier Korruptiounsfehler</string>
+    <string name="error_corrupted_key_content">De App kann net verschlësselt privat Keesen aus der Datebank zréckgräifen. Wéinst deem Dir musst iech erneechen. Entweder an der Form vun enger Brainkey oder Formular fir d\'Behälter-Backup-Datei, déi automatesch an Ärem Sdcard gespeichert gouf, wann de Kont vun der App erstellt gouf</string>
+    <string name="invalid_pin">Invalid PIN</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Home</string>
+    <string name="txt_transactions">Transaktiounen</string>
+    <string name="txt_refunds_returns">Rembours / zréck</string>
+    <string name="txt_settlement">Settlement</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares Knuet</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Betrag ass wéinst</string>
+    <string name="sub_total">Sub-Total:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Bicher Bicherfehler</string>
+    <string name="content_error_market">Et ginn keng Uweisungen am DEX, déi eis erlaabt sinn, den Austausch zu %1$s am Moment auszeféieren. \n \nMellt Iech op d\'Astellungsmenü a wielt en anere Resultat.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Weg bezuelt</string>
+    <string name="please_pay_s_s">Bitte bezuelen: %1$s %2$s</string>
+    <string name="to_s">To: %1$s</string>
+    <string name="txt_network">Netzniveau</string>
+    <string name="txt_please_wait">Bitte warten</string>
+    <string name="error_node_unreachable">Keen Knuet konnt erreecht ginn</string>
+    <string name="invoice_subject">PalmPay Rechnung vun %1$s</string>
+    <string name="before_s">Virun: %1$s</string>
+    <string name="share">Share</string>
+    <string name="share_with">Deelen</string>
+    <string name="connecting">Verbannen ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Wielt Bezuelungsaufforderung</string>
+    <string name="dialog_msg_select_pending_payment">Eng Entrée gouf gemaach, mä konnt net automatesch un eng virdrun ze fréckereie bezuelen. Wielt weg d\'korrekt Bezuele vun der folgender Lëscht.</string>
+    <string name="dialog_msg_confirm_pending_payment">Dëst wäert d\'Entrée bezuelen bei der virdrun gespäicherten Zahlungsaussaz vun %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Detailer Ofhuelungsproblematik</string>
+    <string name="dialog_generic_title_confirm">Bass du secher?</string>
+    <string name="dialog_generic_msg_confirm">Maacht weg datt dës Aktioun net réckgängeg sinn</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Bezuelung bestätegt!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Astellungen</string>
+    <string name="general">General</string>
+    <string name="security">Sécherheet</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">Tokens</string>
+    <string name="accounts">Konten</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Night mode</string>
+    <string name="currency_info">D\'Währung gëtt automatësch ausgewielt baséiert op Äer Sprooch an Land auswielen. Wann Dir dës Ännerungen wëllt änneren, musst Dir op déi globale Systeme vun Ärem Apparat gelidden.</string>
+    <string name="screen_saver">Écran</string>
+    <string name="source">Source</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Standardmenu (/ PalmPay)</string>
+    <string name="txt_folder">Dossier</string>
+    <string name="choose">Wielt</string>
+    <string name="screen_saver_time">Eroplueden wann ...</string>
+    <string name="one_minute">1 Minute</string>
+    <string name="three_minutes">3 Minutten</string>
+    <string name="five_minutes">5 Minutten</string>
+    <string name="local_ambassador">Lokalen Ambassadeur</string>
+    <string name="ambassador_info">PalmPay Botschafter kriegen all 3 Sekonnen. Hir Aarbecht ass fir lokal PalmPay-Händler z\'ënnerstëtzen a moossnamen Crypto Meetups organiséieren. Wann Är Stad net opgelëscht ass, da gëtt Är Stad nach net e PalmPay Botschafter. \n \nFor more info, besicht d\'Agorise Gemeinschaft op Telegramm: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Stad</string>
+    <string name="country">Land</string>
+    <string name="bugs_or_ideas">Käferen oder Ideen?</string>
+    <string name="bugs_or_ideas_contact_info">Telegramm Chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Akzeptéieren</string>
+    <string name="select">Auswielen</string>
+    <string name="are_you_sure">Bass du secher?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Kopéiert am Clipboard</string>
+    <string name="bin_file_description">Bin Fichier. Erënnert ëmmer däi Backup .bin Datei op eng geheim MicroSD Kaart oder USB Stick.</string>
+    <string name="create_a_backup">E Backup erstallt</string>
+    <string name="brainkey_description">Brainkey. Account Recovery Worte kënnen agefouert ginn oder kopéiert ginn, awer net geännert ginn.</string>
+    <string name="txt_brain_key_info">Drécke dës eraus oder schreiwen et. Jiddereen deen Zougang zu Ärem RecuperateschName huet Zougang zu Fongen an dësem Portemonnaie.</string>
+    <string name="view_and_copy"><![CDATA[View & Kopie]]></string>
+    <string name="title_bin_backup">Export .bin Backup</string>
+    <string name="hint_password">Passwuert</string>
+    <string name="hint_password_confirmation">Passwuert confirméieren</string>
+    <string name="error_password_mandatory">Muss Passwuert erafen</string>
+    <string name="error_password_too_short">Passwuert ass ze kuerz</string>
+    <string name="error_password_confirmation_mismatch">Passwuert a Confirmatiounstäichkeet</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Händlerkont: %1$s</string>
+    <string name="upgrade_to_ltm">Upgrade op LTM</string>
+    <string name="upgrade_account_description">"Upgrade zu der LifeTime Membership (LTM). Bitshares \'LTM Konten bezuelen Nout Nullkäschten, kréien 80% Cashback an Präisser."</string>
+    <string name="account_upgrade_title">Upgrade Account</string>
+    <string name="account_upgrade_content">D\'Life Time Memberschaft erlaabt Iech mat engem reduzéierten Netzwierk ze bezuelen. \n \nIt wäert den aktuellen Account erofhuelen "%1$s" \n \nIt gëtt awer mat enger Käschte vun ongeféier 100 USD bezuelt a Bitshares. \n \nAch si sécher datt Dir wëllt virufueren?</string>
+    <string name="account_upgrade_wait_content">De Transaktioun mat Ärer Demande gëtt vum Netz veraarbecht</string>
+    <string name="error_upgrade_account_title">Feeler beim Versuch Account ze aktualiséieren</string>
+    <string name="error_upgrade_account_content">Gitt weg datt Äert Kont mat genuch Waasserkapazitéit fir d\'Käschte betrëfft</string>
+    <string name="account_upgraded_title">Account upgradéiert</string>
+    <string name="account_upgraded_content">Gratulatioun! Äre Kont gouf elo op d\'Lifetime Membership aktualiséiert.</string>
+    <string name="remove_account">Kont blockéieren</string>
+    <string name="remove_account_description">Dëse Merchantkont ewechhuelen. Huelt de Merchant Account iwwer dëse Gerät hannerlooss an eng aner z\'änneren oder z\'importéieren.</string>
+    <string name="txt_account_remove_confirmation">"Gitt Dir sécher datt Dir de Kont vun \'%1$s\' aus dësem Portemonnaie läschen wëllt?"</string>
+    <string name="remove">Fuert</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Gewënscht Smartcoin</string>
+    <string name="txt_customer_loyalty">Issue Loyalitéit Points wéi ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Äre Kont kënnt nach net %1$s. Gitt Iech e puer vir ier Dir versicht datt Dir Är Clienten als Loyalitéit Points gëtt.</string>
+    <string name="send">Schécken</string>
+    <string name="txt_for_every">Fir all</string>
+    <string name="txt_spent">ausginn</string>
+    <string name="txt_bitcoin_altcoin_deposited">Akzeptéiert bis zu 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Wielt weg méi wéi 8 Input Assets</string>
+    <string name="bitshares_unselection_message">De Bitshares (BTS) Kerntoken ass erfuerderlech.</string>
+    <string name="toast_low_volume_market">Low-volume Markteffekt ass temporär behënnert. Si ginn aktivéiert wann de Maartvolumen e grousse Betrag erhéicht</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Store Numm</string>
+    <string name="address">Adress</string>
+    <string name="phone_number">Telefonsnummer</string>
+    <string name="website">Site</string>
+    <string name="message">Noriicht</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Kann kee Formatformat zum Schlëssel generéieren</string>
+    <string name="saving_bin_file_to_s">Späichere bäi Datei ze speichern: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin Datei erofgeholl: %1$s</string>
+    <string name="unable_to_save_bin_file">Kann Dock File net gespäichert ginn</string>
+    <string name="creating_backup_file">Eropsetzen Datei z\'änneren</string>
+    <string name="fetching_key">Kuckt key</string>
+    <string name="generating_bin_format">Generéiere vu Formatform</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Sich</string>
+    <string name="filter">Filter</string>
+    <string name="export">Exportéieren</string>
+    <string name="confirming">Bestätegt ...</string>
+    <string name="pdf_generated_msg_s">PDF generéiert a gespäichert: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Kann net pdf generéieren. Wiedersprüng Wieder Feeler: %1$s</string>
+    <string name="csv_generated_msg_s">CSV generéiert a gespäichert: %1$s</string>
+    <string name="csv_generated_msg_error_s">Kann net CSV generéieren. Wiedersprüng Wieder Feeler: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">All</string>
+    <string name="sent">Geschéckt</string>
+    <string name="received">Received</string>
+    <string name="date_range">Datum Range</string>
+    <string name="txt_to">ze maachen</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat Betrag</string>
+    <string name="between">Zwëschen</string>
+    <string name="and">an</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Exportéiert Filtertransaktiounen</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Generéiere vum Exportprodukt</string>
+    <string name="exported_file_name">PalmPay Transaktiounen</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Vun</string>
+    <string name="to">To</string>
+    <string name="memo">Memo</string>
+    <string name="date">Datum</string>
+    <string name="time">Zäit</string>
+    <string name="crypto_amount">Crypto Betrag</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Keefer Fiat Betrag</string>
+    <string name="total_fiat_amount">Gesamt Fiat Amount</string>
+    <string name="fiat_currency">Fiat Währung</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Artikel %1$d</string>
+    <string name="subtotal">Sub-Total</string>
+    <string name="network_fee">Netzniveau</string>
+    <string name="total">Total</string>
+    <string name="paid_s_s">Bezuelt %1$s %2$s</string>
+    <string name="change_due">Change due</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Datum: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt vun %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Korrekt aler PIN</string>
+    <string name="pin_changed_successfully">PIN geännert</string>
+    <string name="please_enter_pin">Gitt eng PIN Nummer un</string>
+    <string name="please_enter_pin_confirmation">Gidd weg Är Confirmatioun PIN-Nummer</string>
+    <string name="title_change_pin">PIN opruffen</string>
+    <string name="txt_current_pin">Aktuelle PIN Nummer</string>
+    <string name="please_enter_old_pin">Gitt d\'aler PIN Nummer un</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Knappverbindungsfehler, erneit</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Mir hunn eng Entrée gemaach, awer keng Ufro ka fonnt ginn</string>
+
+</resources>

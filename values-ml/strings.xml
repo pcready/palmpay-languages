@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">ലൈസൻസ്</string>
+    <string name="agree">സമ്മതിക്കൂ</string>
+    <string name="disagree">വിസമ്മതിക്കുക</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">അസറ്റുകൾ ലോഡുചെയ്യുന്നു ...</string>
+    <string name="title_loading_asset_type_data">അസറ്റ് തര ഡാറ്റ ലോഡുചെയ്യുന്നു ...</string>
+    <string name="title_assets_ready">അസറ്റ് ഡാറ്റാബേസ് തയ്യാറാണ്</string>
+    <string name="msg_loading_all_existing_assets">നിലവിലുള്ള എല്ലാ അസറ്റുകളുടെയും പൂർണ്ണമായ ലിസ്റ്റ് നേടുന്നതിന് അഭ്യർത്ഥനകളുടെ ഒരു പരമ്പര നടത്തുക</string>
+    <string name="msg_loading_asset_type_data">കൂടുതൽ അസറ്റ് വിശദാംശങ്ങൾ അഭ്യർത്ഥിക്കുന്നു</string>
+    <string name="msg_loading_asset_in_database">ഡാറ്റാബേസിലേക്ക് %1$d അസറ്റുകൾ ലോഡുചെയ്തു</string>
+    <string name="msg_assets_loaded">അടുത്തതായി, നിങ്ങളുടെ അക്കൗണ്ട് സജ്ജീകരിക്കുക ...</string>
+    <string name="error_fetching_marketcap_data">മാർക്കറ്റ്കാപ്പ് ഡാറ്റ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">അക്കൗണ്ട് സൃഷ്ടിക്കുക</string>
+    <string name="txt_account_name">BitShares അക്കൗണ്ട് പേര്</string>
+    <string name="unable_to_find_account_id">ഉപയോക്തൃ അക്കൗണ്ട് ഐഡി കണ്ടെത്താനായില്ല</string>
+    <string name="error_invalid_account_name_explanation">അക്കൗണ്ട് പേരിൽ ഒന്നുകിൽ 8 പ്രതീകങ്ങളേ ഉള്ളൂ, അതിൽ ഒരു സംഖ്യയോ സ്വരാക്ഷോ ഒന്നും തന്നെ ഇല്ല. അണ്ടർസ്കോർ സ്വഭാവവും അനുവദനീയമല്ല.</string>
+    <string name="create">സൃഷ്ടിക്കാൻ</string>
+    <string name="error">പിശക്</string>
+    <string name="account_name_already_exist">അക്കൗണ്ട് നാമം ഇതിനകം നിലവിലുണ്ട്</string>
+    <string name="try_again">5 മിനിറ്റ് കഴിഞ്ഞ് വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="txt_new_pin_confirmation">പുതിയ പിൻ സ്ഥിരീകരിക്കുക (6+ അക്കങ്ങൾ)</string>
+    <string name="error_wif">WIF കീ സൃഷ്ടിക്കുന്നതിൽ പിശക്</string>
+    <string name="error_faucet_template">Faucet ഒരു തെറ്റ് ചെയ്തു. Msg: %1$s</string>
+    <string name="error_read_dict_file">നിഘണ്ടു ഫയൽ വായിക്കുന്നതിൽ പിശക്</string>
+    <string name="error_missing_account">പുതുതായി സൃഷ്ടിച്ച അക്കൌണ്ടിനെക്കുറിച്ചുള്ള വിവരങ്ങൾ വീണ്ടെടുക്കാൻ കഴിയുന്നില്ല</string>
+    <string name="create_account_title">പുതിയ അക്കൗണ്ട് സൃഷ്ടിക്കുന്നു</string>
+    <string name="create_account_message">നിങ്ങളുടെ അക്കൗണ്ട് സൃഷ്ടിക്കുമ്പോൾ ദയവായി കാത്തിരിക്കുക</string>
+    <string name="error_faucet_explanation">സെർവർ ഒരു പിശക് നേരിട്ടു. ഒരു ചെറിയ സമയ ഇടവേളയിൽ ഒരേ IP വിലാസത്തിൽ നിന്ന് വരുന്ന പതിവ് അഭ്യർത്ഥനകൾ അനുവദിക്കാതിരിക്കാൻ ക്രമീകൃതമായി സജ്ജീകരിച്ച ഒരു പരിധി ഇതിന് കാരണമാകാം. ദയവായി 5 മിനിറ്റ് കാത്തിരുന്ന് വീണ്ടും ശ്രമിക്കുക, അല്ലെങ്കിൽ മറ്റൊരു നെറ്റ്വർക്കിലേക്ക് മാറുക, ഉദാഹരണത്തിന് വൈഫൈ മുതൽ സെല്ലിൽ.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">മുന്നോട്ടു പോകുന്നതിനു മുമ്പ് നിങ്ങൾ നിങ്ങളുടെ ബ്രെയ്ക്കിനെ ബാക്കപ്പെടുക്കുന്നെന്ന് ദയവായി ഉറപ്പാക്കുക. ഈ ഉപകരണത്തിന് എന്തെങ്കിലും സംഭവിച്ചെങ്കിൽ ഇത് നിങ്ങളുടെ അക്കൗണ്ട് വീണ്ടെടുക്കാൻ നിങ്ങളെ അനുവദിക്കും.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">നിങ്ങളുടെ നിലവിലെ അക്കൗണ്ട് എങ്ങനെയാണ് ഇറക്കുമതിചെയ്യാൻ ആഗ്രഹിക്കുന്നത്?</string>
+    <string name="brainkey">ബ്രൈന്കെയ്</string>
+    <string name="wif_key">WIF കീ</string>
+    <string name="bin_file">.bin ഫയൽ</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">ബ്രൈന്കെയ്</string>
+    <string name="txt_6_digits_pin">6+ അക്ക PIN തിരഞ്ഞെടുക്കുക</string>
+    <string name="txt_6_digits_pin_confirm">6+ അക്ക PIN സ്ഥിരീകരിക്കുന്നു</string>
+    <string name="please_enter_6_digit_pin">6 അക്ക നമ്പർ PIN നൽകുക</string>
+    <string name="please_enter_6_digit_pin_confirm">ദയവായി നിങ്ങളുടെ പിൻ നമ്പറിന്റെ സ്ഥിരീകരണം നൽകുക</string>
+    <string name="mismatch_pin">പൊരുത്തമില്ലായ്മ</string>
+    <string name="please_enter_brainkey">ദയവായി ബ്രെയ്ങ്കി നൽകുക</string>
+    <string name="please_enter_correct_brainkey">കൃത്യമായ brainkey നൽകുക, അതിൽ 12 മുതൽ 16 വരെ വാക്കുകൾ ആവശ്യമാണ്.</string>
+    <string name="unable_to_load_brainkey">ബ്രായ്ങ്കി ലോഡുചെയ്യാനായില്ല</string>
+    <string name="account_already_exist">അക്കൗണ്ട് ഇതിനകം നിലവിലുണ്ട്</string>
+    <string name="importing_your_wallet">നിങ്ങളുടെ വാലറ്റ് ഇറക്കുമതി ചെയ്യുന്നു ...</string>
+    <string name="account_candidates_title">ഒരു അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക</string>
+    <string name="account_candidates_content">ഈ ബ്രൈങ്കിയിൽ നിന്നും ശേഖരിച്ച കീകൾ ഒന്നിലധികം അക്കൗണ്ടുകൾ നിയന്ത്രിക്കാൻ ഉപയോഗിക്കുന്നതായി തോന്നുന്നു, നിങ്ങൾ ഇറക്കുമതി ചെയ്യാൻ ആഗ്രഹിക്കുന്ന അക്കൌണ്ട് തിരഞ്ഞെടുക്കുക</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">.Bin ഫയൽ ഇമ്പോർട്ടുചെയ്യുക</string>
+    <string name="import_backup">.Bin ഫയലിൽ നിന്ന് ബാക്കപ്പ് ഇംപോർട്ട് ചെയ്യുക</string>
+    <string name="txt_no_internet_connection">ഇന്റർനെറ്റ് കണക്ഷൻ ഇല്ല</string>
+    <string name="no_file_chosen">ഒരു ഫയലും തെരഞ്ഞെടുത്തിട്ടില്ല</string>
+    <string name="choose_backup">ബാക്കപ്പ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="choose_file">ഫയൽ തിരഞ്ഞെടുക്കുക</string>
+    <string name="txt_existing_password">നിലവിലെ .bin ഫയൽ പാസ്വേഡ് അല്ലെങ്കിൽ പിൻ</string>
+    <string name="txt_new_pin">പുതിയ പിൻ (6+ അക്കങ്ങൾ)</string>
+    <string name="importing_keys_from_bin_file">"ബിൻ ഫയലിൽ നിന്നുള്ള കീകൾ ഇറക്കുമതി ചെയ്യുന്നു"</string>
+    <string name="please_make_sure_your_bin_file">നിങ്ങളുടെ പിൻ ശരിയാണോ അല്ലെങ്കിൽ ശരിയായ ബിൻ ഫയൽ തിരഞ്ഞെടുത്തുവെന്നത് ഉറപ്പാക്കുക</string>
+    <string name="missing_existing_password">ഈ ബാക്കപ്പ് ഫയൽ എൻക്രിപ്റ്റ് ചെയ്യുന്നതിന് ഉപയോഗിച്ച പാസ്വേഡ് ദയവായി നൽകുക</string>
+    <string name="pin_number_request">ഈ ബാക്കപ്പ് ഫയൽ എൻകോഡുചെയ്യാൻ ഉപയോഗിച്ച പിൻ നമ്പർ നൽകുക</string>
+    <string name="pin_number_warning">പിൻ നമ്പറിന് 6 അക്കങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം</string>
+    <string name="backup_error_no_key_reference_found">ഈ കീ ഉപയോഗിക്കുന്ന അക്കൗണ്ട് ഒന്നും കണ്ടെത്തിയില്ല, ദയവായി നിങ്ങൾ ഒരു ബാക്കപ്പ് ഫയൽ ഉപയോഗിക്കുമെന്ന് ഉറപ്പുവരുത്തുക.</string>
+    <string name="backup_error_no_wallet_backup">ഈ ഫയലിൽ വാലറ്റ് ബാക്കപ്പ് ലഭ്യമല്ല</string>
+    <string name="error_invalid_account">അസാധുവായ അക്കൗണ്ട്, പിശകുകൾ ടൈപ്പുചെയ്യുന്നതിന് നിങ്ങളുടെ തലച്ചോർ കീ പരിശോധിക്കുക</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">ഇമ്പോർട്ടുചെയ്യുക</string>
+    <string name="title_account_load_result">അക്കൗണ്ട് ലോഡുചെയ്തു</string>
+    <string name="button_change_account">മാറ്റുക</string>
+    <string name="title_select_input_assets">അംഗീകരിക്കാൻ അസറ്റുകൾ തിരഞ്ഞെടുക്കുക.</string>
+    <string name="explanation_account_setup">പേയ്മെന്റുകൾ സ്വീകരിക്കാൻ നിങ്ങൾ ഒരു Bitshere അക്കൗണ്ട് സെറ്റ് ചെയ്യണം. അല്ലെങ്കിൽ നിങ്ങൾക്ക് ഇതിനകം ഒന്ന് ഉണ്ടെങ്കിൽ, നിങ്ങൾക്ക് അത് ഇമ്പോർട്ടുചെയ്യാനാകും.</string>
+    <string name="explanation_output_asset">നിങ്ങളുടെ ആവശ്യമുള്ള സ്മാർട്കിൻ തിരഞ്ഞെടുക്കുക:</string>
+    <string name="next">അടുത്തത്</string>
+    <string name="done">ചെയ്തുകഴിഞ്ഞു</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">പണമടയ്ക്കുക</string>
+    <string name="error_corrupted_key_title">കീ അഴിമതി പിശക്</string>
+    <string name="error_corrupted_key_content">നിങ്ങളുടെ എൻക്രിപ്റ്റ് ചെയ്ത സ്വകാര്യ കീകൾ ഡാറ്റാബേസിൽ നിന്ന് വീണ്ടെടുക്കാൻ ആപ്പിന് കഴിയുന്നില്ല. ഇത് നിങ്ങളുടെ കീകൾ വീണ്ടും നൽകേണ്ടതുണ്ട്. ഒരു ബ്രെയ്ങ്കി രൂപത്തിൽ അല്ലെങ്കിൽ അക്കൗണ്ട് ഉപയോഗിച്ച് സൃഷ്ടിച്ചതാണെങ്കിൽ നിങ്ങളുടെ sdcard- ൽ യാന്ത്രികമായി ഉൽപാദിപ്പിക്കുകയും സൂക്ഷിക്കുകയും ചെയ്ത ബിൻ ബാക്കപ്പ് ഫയൽ രൂപപ്പെടുത്തുകയും</string>
+    <string name="invalid_pin">പിൻ അസാധുവാണ്</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">വീട്</string>
+    <string name="txt_transactions">ഇടപാടുകൾ</string>
+    <string name="txt_refunds_returns">റീഫണ്ടുകൾ / വരുമാനം</string>
+    <string name="txt_settlement">സെറ്റിൽമെന്റ്</string>
+    <string name="bitshares_nodes_dialog_title">ബിറ്റുകൾഷെഡ് നോഡുകൾ</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">നൽകേണ്ട തുക</string>
+    <string name="sub_total">ഉപ-മൊത്തം:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">ഓർഡർ ബുക്ക് പിശക്</string>
+    <string name="content_error_market">ഇപ്പോൾ %1$s- ലേക്ക് എക്സ്ചേഞ്ച് ചെയ്യാൻ ഞങ്ങളെ അനുവദിക്കുന്ന DEX- ൽ ഓർഡറുകളൊന്നുമില്ല. \n \nPage ക്രമീകരണ സ്ക്രീനിലേക്ക് പോയി മറ്റൊരു ഔട്ട്പുട്ട് അസറ്റ് തിരഞ്ഞെടുക്കുക.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">ദയവായി പണമടയ്ക്കുക</string>
+    <string name="please_pay_s_s">പണം നൽകുക: %1$s %2$s</string>
+    <string name="to_s">ഇതിലേക്ക്: %1$s</string>
+    <string name="txt_network">നെറ്റ്വർക്ക് ഫീസ്</string>
+    <string name="txt_please_wait">കാത്തിരിക്കൂ</string>
+    <string name="error_node_unreachable">നോഡുമായി ബന്ധപ്പെടാൻ കഴിഞ്ഞില്ല</string>
+    <string name="invoice_subject">%1$s ൽ നിന്നുള്ള PalmPay ഇൻവോയ്സ്</string>
+    <string name="before_s">മുമ്പ്: %1$s</string>
+    <string name="share">പങ്കിടുക</string>
+    <string name="share_with">ഇവരുമായി പങ്കിടുക</string>
+    <string name="connecting">കണക്റ്റുചെയ്യുന്നു ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">പേയ്മെന്റ് അഭ്യർത്ഥന തിരഞ്ഞെടുക്കുക</string>
+    <string name="dialog_msg_select_pending_payment">ഒരു ഇൻകമിംഗ് പേയ്മെന്റ് കണ്ടെത്തി, പക്ഷേ മുമ്പ് പണമടച്ച പണമടയ്ക്കലിന് യാന്ത്രികമായി അനുവദിക്കാനാവില്ല. ഇനിപ്പറയുന്ന ലിസ്റ്റിൽ നിന്നുള്ള ശരിയായ പേയ്മെന്റ് അഭ്യർത്ഥന തിരഞ്ഞെടുക്കുക.</string>
+    <string name="dialog_msg_confirm_pending_payment">ഇത് മുമ്പേ പണമടച്ചുള്ള പേയ്മെന്റ് അഭ്യർത്ഥനയിലേക്ക് ഇൻകമിംഗ് പേയ്മെന്റ് ലിങ്ക് ചെയ്യും ___s__</string>
+    <string name="dialog_msg_incoming_payment_details">ഇൻകമിംഗ് പേയ്മെന്റ് വിശദാംശങ്ങൾ</string>
+    <string name="dialog_generic_title_confirm">നിങ്ങള്ക്ക് ഉറപ്പാണോ?</string>
+    <string name="dialog_generic_msg_confirm">ഈ പ്രവർത്തനം പഴയപടിയാക്കാനാകില്ല എന്നത് ശ്രദ്ധിക്കുക</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">നിരസിക്കുക</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">പേയ്മെന്റ് സ്ഥിരീകരിച്ചു!</string>
+    <string name="txt_cool">കൂൾ!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="general">ജനറൽ</string>
+    <string name="security">സുരക്ഷ</string>
+    <string name="backups">ബാക്കപ്പുകൾ</string>
+    <string name="tokens">ടോക്കണുകൾ</string>
+    <string name="accounts">അക്കൗണ്ടുകൾ</string>
+    <string name="e_receipts">ഇ</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">രാത്രി മോഡ്</string>
+    <string name="currency_info">നിങ്ങളുടെ ഭാഷ, രാജ്യം തിരഞ്ഞെടുക്കൽ അടിസ്ഥാനമാക്കി കറൻസി സ്വയം തിരഞ്ഞെടുക്കുന്നു. നിങ്ങൾക്കത് മാറ്റണമെങ്കിൽ, നിങ്ങളുടെ ഉപകരണത്തിന്റെ ആഗോള വ്യവസ്ഥ ക്രമീകരണങ്ങളിലേക്ക് പോകണം.</string>
+    <string name="screen_saver">സ്ക്രീൻ സേവർ</string>
+    <string name="source">ഉറവിടം</string>
+    <string name="bitshares_logo">ബിറ്റ് ഷെയറുകൾ ലോഗോ</string>
+    <string name="default_folder">സഹജമായ ഫോൾഡർ (/ പാൽപെയ്)</string>
+    <string name="txt_folder">ഫോൾഡർ</string>
+    <string name="choose">തിരഞ്ഞെടുക്കുക</string>
+    <string name="screen_saver_time">ശേഷം പ്രവർത്തിക്കൂ ...</string>
+    <string name="one_minute">1 മിനിറ്റ്</string>
+    <string name="three_minutes">3 മിനിറ്റ്</string>
+    <string name="five_minutes">5 മിനിറ്റ്</string>
+    <string name="local_ambassador">പ്രാദേശിക അംബാസഡർ</string>
+    <string name="ambassador_info">ഓരോ മൂന്നു സെക്കൻഡിലും പാമ്മേ അംബാസിഡറുകൾ നൽകപ്പെടും. പ്രാദേശിക പാംപ വ്യാപാരികളെ സഹായിക്കുകയും പ്രതിമാസ ക്രിപ്റ്റോ മീറ്റപ്പുകൾ സംഘടിപ്പിക്കുകയും ചെയ്യുക എന്നതാണ് അവരുടെ ജോലി. നിങ്ങളുടെ നഗരം ലിസ്റ്റുചെയ്തിട്ടില്ലെങ്കിൽ, നിങ്ങളുടെ നഗരം ഇപ്പോഴും പാലംപാൽ അംബാസഡർ അല്ല. \n \n കൂടുതൽ വിവരങ്ങൾക്ക്, ടെലിഗ്രാം ലെ Agorise കമ്മ്യൂണിറ്റി സന്ദർശിക്കുക: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">നഗരം</string>
+    <string name="country">രാജ്യം</string>
+    <string name="bugs_or_ideas">ബഗുകൾ അല്ലെങ്കിൽ ആശയങ്ങൾ?</string>
+    <string name="bugs_or_ideas_contact_info">ടെലിഗ്രാം ചാറ്റ്: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">അംഗീകരിക്കുക</string>
+    <string name="select">തിരഞ്ഞെടുക്കുക</string>
+    <string name="are_you_sure">നിങ്ങള്ക്ക് ഉറപ്പാണോ?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">ബാക്ക്അപ്പ് ബ്രെയ്ങ്കി</string>
+    <string name="copied_to_clipboard">ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി</string>
+    <string name="bin_file_description">ബിൻ ഫയൽ. എപ്പോഴും നിങ്ങളുടെ ബാക്കപ്പ് നിങ്ങളുടെ .ബിൻ ഫയൽ ഒരു മൈക്രോഎസ്ഡി കാർഡ് അല്ലെങ്കിൽ യുഎസ്ബി സ്റ്റിക്ക് ആയി സംരക്ഷിക്കുക.</string>
+    <string name="create_a_backup">ഒരു ബാക്കപ്പ് സൃഷ്ടിക്കുക</string>
+    <string name="brainkey_description">ബ്രൈങ്കെ. വീണ്ടെടുക്കാനോ പകർത്താനോ കഴിയുന്ന, വീണ്ടെടുക്കാവുന്ന അക്കൗണ്ട് വീണ്ടെടുക്കൽ വാക്കുകൾ.</string>
+    <string name="txt_brain_key_info">ഇത് പ്രിന്റുചെയ്യുക, അല്ലെങ്കിൽ എഴുതുക. നിങ്ങളുടെ വീണ്ടെടുക്കൽ കീയിലേക്കുള്ള ആക്സസ്സുള്ള ആർക്കും ഈ വാലറ്റിൽ ഉള്ള ഫണ്ടിലേക്ക് ആക്സസ് ഉണ്ടായിരിക്കും.</string>
+    <string name="view_and_copy"><![CDATA[കാണുക & പകർത്തുക]]></string>
+    <string name="title_bin_backup">കയറ്റുമതി .ബിൻ ബാക്കപ്പ്</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirmation">പാസ്വേഡ് സ്ഥിരീകരണം</string>
+    <string name="error_password_mandatory">ഒരു പാസ്വേഡ് നൽകണം</string>
+    <string name="error_password_too_short">പാസ്വേഡ് വളരെ ചെറുതാണ്</string>
+    <string name="error_password_confirmation_mismatch">പാസ്വേഡും സ്ഥിരീകരണവും പൊരുത്തപ്പെടുന്നില്ല</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">മർച്ചന്റ് അക്കൗണ്ട്: %1$s</string>
+    <string name="upgrade_to_ltm">LTM ലേക്ക് അപ്ഗ്രേഡുചെയ്യുക</string>
+    <string name="upgrade_account_description">"ലൈഫ് ടൈം മെമ്പർഷിപ്പ് (എൽടിഎം) യിലേക്ക് അപ്ഗ്രേഡ് ചെയ്യുക, ബിറ്റ്ഷേറുകളുടെ എൽടിഎം അക്കൗണ്ടുകൾ പൂജിയ്ക്ക് സമീപം അടച്ച്, 80 ശതമാനം ക്യാഷ്ബാക്ക് നേടുകയും റഫറലുകൾക്കായി ബോണസ് നേടുകയും ചെയ്യുക."</string>
+    <string name="account_upgrade_title">അക്കൗണ്ട് നവീകരിക്കുക</string>
+    <string name="account_upgrade_content">ലൈഫ് ടൈം മെമ്പർഷിപ്പ് നിങ്ങളെ കുറഞ്ഞ തുക നെറ്റ്വർക്ക് ഫീസ് ഉപയോഗിച്ച് ട്രേഡ് ചെയ്യാൻ അനുവദിക്കുന്നു. \n \n ഇത് നിലവിലെ അക്കൗണ്ടിലേക്ക് പ്രാബല്യത്തിൽ വരും "%1$s" \n \n എന്നാൽ Bitshares- ൽ അടച്ച 100 ഡോളർ വിലകൊണ്ട് ഇത് ലഭിക്കുന്നു. \n \n തുടരണമെന്ന് തീർച്ചയാണോ?</string>
+    <string name="account_upgrade_wait_content">നിങ്ങളുടെ അഭ്യർത്ഥന അടങ്ങിയ ഇടപാട് നെറ്റ്വർക്കിനെ പ്രോസസ്സ് ചെയ്യുകയാണ്</string>
+    <string name="error_upgrade_account_title">അക്കൗണ്ട് അപ്ഗ്രേഡുചെയ്യാൻ ശ്രമിക്കുമ്പോൾ പിശക്</string>
+    <string name="error_upgrade_account_content">ചെലവുകൾ പരിമിതപ്പെടുത്തുന്നതിന് നിങ്ങളുടെ അക്കൗണ്ടിന് മതിയായ ബാലൻസ് ഉണ്ടെന്ന് ദയവായി ഉറപ്പുവരുത്തുക</string>
+    <string name="account_upgraded_title">അക്കൗണ്ട് അപ്ഗ്രേഡ് ചെയ്തു</string>
+    <string name="account_upgraded_content">അഭിനന്ദനങ്ങൾ! നിങ്ങളുടെ അക്കൌണ്ട് ഇപ്പോൾ ലൈഫ് ടൈം മെമ്പർഷിപ്പ് ആയി അപ്ഗ്രേഡ് ചെയ്യപ്പെട്ടു.</string>
+    <string name="remove_account">അക്കൗണ്ട് നീക്കംചെയ്യുക</string>
+    <string name="remove_account_description">ഈ മർച്ചന്റ് അക്കൗണ്ട് നീക്കംചെയ്യുക. ഈ ഉപകരണത്തിൽ നിന്ന് മുകളിലുള്ള മർച്ചന്റ് അക്കൗണ്ട് നീക്കംചെയ്ത് മറ്റൊന്ന് സൃഷ്ടിക്കൂ അല്ലെങ്കിൽ ഇമ്പോർട്ടുചെയ്യുക.</string>
+    <string name="txt_account_remove_confirmation">"ഈ വാലറ്റിൽ നിന്നും \'%1$s\' എന്ന അക്കൗണ്ട് നീക്കംചെയ്യണമെന്ന് നിങ്ങൾക്ക് തീർച്ചയാണോ?</string>
+    <string name="remove">നീക്കംചെയ്യുക</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">ആഗ്രഹിക്കുന്ന സ്മാർട്കോയിൻ</string>
+    <string name="txt_customer_loyalty">ലോയൽറ്റി പോയിന്റുകൾ ഇഷ്യു ചെയ്യുക ...</string>
+    <string name="warning_insufficient_reward_asset_balance">നിങ്ങളുടെ അക്കൗണ്ട് ഇതുവരെ ___s__ സ്വന്തമാക്കിയിട്ടില്ല. ലോയൽറ്റി പോയിന്റുകൾ എന്ന നിലയിൽ നിങ്ങളുടെ ഉപഭോക്താക്കൾക്ക് എന്തെങ്കിലും നൽകാൻ ശ്രമിക്കുന്നതിന് മുമ്പ് ചില ഏറ്റെടുക്കുക.</string>
+    <string name="send">അയയ്ക്കുക</string>
+    <string name="txt_for_every">ഓരോന്നിനും</string>
+    <string name="txt_spent">ചെലവഴിച്ചു</string>
+    <string name="txt_bitcoin_altcoin_deposited">8 ക്രിപ്റ്റോകററൻസിസ് വരെ അംഗീകരിക്കുക:</string>
+    <string name="altcoins_should_not_more_than">8 ഇൻപുട്ട് ആസ്കളിലധികം ദയവായി തിരഞ്ഞെടുക്കുക</string>
+    <string name="bitshares_unselection_message">Bitshares (BTS) കോർ ടോക്കൺ ആവശ്യമാണ്.</string>
+    <string name="toast_low_volume_market">ലോ വോളിയം മാർക്കറ്റ് ആസ്തികൾ താൽക്കാലികമായി അപ്രാപ്തമാക്കി. മാര്ക്കറ്റ് വോള്യം ഗണ്യമായ തോതിൽ ഉയർന്നു കഴിഞ്ഞാൽ അവ സജ്ജമാക്കും</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">ലോഗോ</string>
+    <string name="store_name">സ്റ്റോർ പേര്</string>
+    <string name="address">വിലാസം</string>
+    <string name="phone_number">ഫോൺ നമ്പർ</string>
+    <string name="website">വെബ്സൈറ്റ്</string>
+    <string name="message">സന്ദേശം</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">കീയ്ക്കായി ബിൻ ഫോർമാറ്റ് സൃഷ്ടിക്കാനായില്ല</string>
+    <string name="saving_bin_file_to_s">ഇതിലേക്ക് ബെയ്ൽ ഫയൽ സംരക്ഷിക്കുന്നു: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Bin ഫയൽ ഇതിലേക്ക് വിജയകരമായി സംരക്ഷിച്ചു: %1$s</string>
+    <string name="unable_to_save_bin_file">ബിൻ ഫയൽ സംരക്ഷിക്കാനായില്ല</string>
+    <string name="creating_backup_file">ബാക്കപ്പ് ഫയൽ സൃഷ്ടിക്കുന്നു</string>
+    <string name="fetching_key">കീ ലഭ്യമാക്കുന്നു</string>
+    <string name="generating_bin_format">ബിൻ ഫോർമാറ്റ് സൃഷ്ടിക്കുന്നു</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">തിരയുക</string>
+    <string name="filter">ഫിൽറ്റർ ചെയ്യുക</string>
+    <string name="export">കയറ്റുമതി ചെയ്യുക</string>
+    <string name="confirming">സ്ഥിരീകരിക്കുന്നു ...</string>
+    <string name="pdf_generated_msg_s">PDF നിർമ്മിക്കുകയും സംരക്ഷിക്കുകയും ചെയ്തു: %1$s</string>
+    <string name="pdf_generated_msg_error_s">പിഡിഎഫ് സൃഷ്ടിക്കാൻ കഴിയുന്നില്ല. വീണ്ടും ശ്രമിക്കുക. പിശക്: %1$s</string>
+    <string name="csv_generated_msg_s">CSV സൃഷ്ടിക്കുകയും സംരക്ഷിക്കുകയും ചെയ്തു: %1$s</string>
+    <string name="csv_generated_msg_error_s">Csv ഉണ്ടാക്കാൻ കഴിയുന്നില്ല. വീണ്ടും ശ്രമിക്കുക. പിശക്: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">എല്ലാം</string>
+    <string name="sent">അയച്ചു</string>
+    <string name="received">ലഭിച്ചു</string>
+    <string name="date_range">തീയതി പരിധി</string>
+    <string name="txt_to">ലേക്ക്</string>
+    <string name="cryptocurrency">ക്രിപ്റ്റോകരുറേൻ</string>
+    <string name="fiat_amount">ഫിയറ്റ് തുക</string>
+    <string name="between">ഇടയ്ക്കുള്ള</string>
+    <string name="and">ഒപ്പം</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">ഫിൽറ്റർ ചെയ്ത ഇടപാടുകൾ എക്സ്പോർട്ട് ചെയ്യുക</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">കയറ്റുമതി ഉൽപ്പന്നം സൃഷ്ടിക്കുന്നു</string>
+    <string name="exported_file_name">പാമ്മേ ഇടപാടുകള്</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">മുതൽ</string>
+    <string name="to">ലേക്ക്</string>
+    <string name="memo">മെമ്മോ</string>
+    <string name="date">തീയതി</string>
+    <string name="time">സമയം</string>
+    <string name="crypto_amount">ക്രിപ്റ്റോ തുക</string>
+    <string name="crypto_symbol">ക്രിപ്റ്റോ ചിഹ്നം</string>
+    <string name="keyed_in_fiat_amount">കീറ്റ്-ഇൻ ഫിയറ്റ് തുക</string>
+    <string name="total_fiat_amount">ആകെ ഫിയറ്റ് തുക</string>
+    <string name="fiat_currency">ഫിയറ്റ് കറൻസി</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">എരെചെഇപ്ത്</string>
+    <string name="item_n">ഇനം %1$d</string>
+    <string name="subtotal">സബ്-ടോട്ടൽ</string>
+    <string name="network_fee">നെറ്റ്വർക്ക് ഫീസ്</string>
+    <string name="total">ആകെ</string>
+    <string name="paid_s_s">പണമടച്ച %1$s %2$s</string>
+    <string name="change_due">കാരണം മാറ്റുക</string>
+    <string name="e_receipt_memo_s">മെമ്മോ: %1$s</string>
+    <string name="e_receipt_date_s">തീയതി: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">%1$s ൽ നിന്നുള്ള PalmPay eReceipt</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">പഴയ PIN തെറ്റാണ്</string>
+    <string name="pin_changed_successfully">PIN മാറ്റി</string>
+    <string name="please_enter_pin">പിൻ നമ്പർ നൽകുക</string>
+    <string name="please_enter_pin_confirmation">നിങ്ങളുടെ പിൻ നമ്പർ സ്ഥിരീകരണം നൽകുക</string>
+    <string name="title_change_pin">പിൻ എഡിറ്റുചെയ്യുക</string>
+    <string name="txt_current_pin">നിലവിലെ PIN നമ്പർ</string>
+    <string name="please_enter_old_pin">പഴയ PIN നമ്പർ നൽകുക</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">നോഡ് കണക്ഷൻ പിശക്, വീണ്ടും ശ്രമിക്കുന്നു</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">ഞങ്ങൾക്ക് ഒരു ഇൻകമിംഗ് പേയ്മെന്റ് ലഭിച്ചു, പക്ഷേ അഭ്യർത്ഥന കണ്ടെത്താനായില്ല</string>
+
+</resources>

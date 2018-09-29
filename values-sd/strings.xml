@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">لائسنس</string>
+    <string name="agree">اتفاق ڪيو</string>
+    <string name="disagree">نااهل</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">اثاثن تي لوڊ ڪندي ...</string>
+    <string name="title_loading_asset_type_data">اثاثو گھٽائڻ جي ڊيٽا کي لوڊ ڪندي</string>
+    <string name="title_assets_ready">اسسٽنٽ ڊيٽابيس تيار آهي</string>
+    <string name="msg_loading_all_existing_assets">سمورن درخواستن جي مڪمل فهرست حاصل ڪرڻ لاء هڪ سلسلو درخواستن کي ترتيب ڏيو</string>
+    <string name="msg_loading_asset_type_data">وڌيڪ اثاثن جي تفصيلن جي درخواست ڪئي وئي</string>
+    <string name="msg_loading_asset_in_database">ڊيٽابيس %1$d اثاثن جو ڊيٽابيس ۾</string>
+    <string name="msg_assets_loaded">اڳيون، مهرباني ڪري پنهنجو کاتو سيٽ ڪريو ...</string>
+    <string name="error_fetching_marketcap_data">بازارڪيڪ ڊيٽا کي لوڊ نه ٿي سگھي</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">اڪائونٽ ٺاهيو</string>
+    <string name="txt_account_name">BitShares اڪائونٽ جو نالو</string>
+    <string name="unable_to_find_account_id">صارف کاتي جي سڃاڻپ ڳولڻ جي قابل ناهي</string>
+    <string name="error_invalid_account_name_explanation">اڪائونٽ جو نالو آهي يا ته 8 کان وڌيڪ اکر آهي، هڪ نمبر شامل هجي يا ڪو اسز نه آهي. اڙيڙي وارو ڪردار کي اجازت نه آهي.</string>
+    <string name="create">ٺاهيو</string>
+    <string name="error">غلطي</string>
+    <string name="account_name_already_exist">اڪائونٽ جو نالو اڳ ۾ موجود آهي</string>
+    <string name="try_again">مهرباني ڪري 5 منٽن کان پوء ٻيهر ڪوشش ڪريو</string>
+    <string name="txt_new_pin_confirmation">نئين پن جي تصديق ڪريو (6+ انگن اکرن)</string>
+    <string name="error_wif">غلطي ٺاهڻ جي ڪري WIF</string>
+    <string name="error_faucet_template">غلطيء جي ڪري غلطي ڪئي. Msg: %1$s</string>
+    <string name="error_read_dict_file">غلطي کي فائل پڙهڻ ۾ غلطي</string>
+    <string name="error_missing_account">ايپ نئون ٺاهي اڪائونٽ بابت ڄاڻ حاصل ڪري نه سگهيو</string>
+    <string name="create_account_title">نئين اڪائونٽ ٺاهي رهيو آهي</string>
+    <string name="create_account_message">مهرباني ڪري انتظار ڪريو جڏهن توهان جو اڪائونٽ پيدا ٿيو</string>
+    <string name="error_faucet_explanation">سرور هڪ غلطي موٽي آيو آهي اهو شايد شايد ٿي سگهي ٿو ته محدود حد تائين ساڳئي IP پتي مان ٿوري وقت گزرڻ جي درخواستن کي رد ڪرڻ لاء حد تائين مقرر ڪيل حد جي حد تائين. مهرباني ڪري 5 منٽن جو انتظار ڪريو ۽ ٻيهر ڪوشش ڪريو، يا ڪنهن ٻئي نيٽ ورڪ ڏانهن تبديل ڪريو، مثال طور سيل کي وائي فائيٽ کان.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">مهرباني ڪري پڪ ڪريو ته توهان اڳيان وڌڻ کان پهرين توهان جي بهادر جي بيڪ اپ ڪريو. اهو توهان کي توهان جي اڪائونٽ کي ٻيهر بحال ڪرڻ جي اجازت ڏيندو.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">توهان پنهنجي موجوده اڪائونٽ کي ٻيهر درآمد ڪرڻ چاهيو ٿا؟</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">وائي آئي ڪيٻي</string>
+    <string name="bin_file">.bin فائل</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">6+ عددي پن چونڊيو</string>
+    <string name="txt_6_digits_pin_confirm">6+ انگن پن جي تصديق جي تصديق</string>
+    <string name="please_enter_6_digit_pin">مهرباني ڪري 6-پنو پنڊ داخل ڪريو</string>
+    <string name="please_enter_6_digit_pin_confirm">مھرباني ڪري پنھنجي PIN نمبر جي تصديق ڪريو</string>
+    <string name="mismatch_pin">پن چڪاس ڪريو</string>
+    <string name="please_enter_brainkey">مهرباني ڪري بهادرين داخل ڪريو</string>
+    <string name="please_enter_correct_brainkey">مهرباني ڪري صحيح بهادرين داخل ڪريو، ان ۾ 12 ۽ 16 لفظن جي وچ ۾ هجڻ گهرجي.</string>
+    <string name="unable_to_load_brainkey">بهادر کي لوڊ ڪرڻ ۾ ناڪام</string>
+    <string name="account_already_exist">اڪائونٽ اڳ ۾ موجود آهي</string>
+    <string name="importing_your_wallet">توهان جي واللي کي درآمد ڪريو ...</string>
+    <string name="account_candidates_title">مهرباني ڪري کاتي جو انتخاب ڪريو</string>
+    <string name="account_candidates_content">ھن چيڪني مان نڪتل چابن ھڪڙي حساب کان وڌيڪ ڪنٽرول ڪرڻ لاء استعمال ٿي لڳي، مھرباني ڪري جنھن جو کاتو توھان کي درآمد ڪرڻ چاھيو ٿا</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">بيبن فائل درآمد ڪريو</string>
+    <string name="import_backup">.bin فائل کان بيڪ اپ درآمد ڪريو</string>
+    <string name="txt_no_internet_connection">ڪوبه انٽرنيٽ وارو ڪنيڪشن</string>
+    <string name="no_file_chosen">ڪوبه فائل چونڊيو ناهي</string>
+    <string name="choose_backup">بيڪ اپ چونڊيو</string>
+    <string name="choose_file">فائل چونڊيو</string>
+    <string name="txt_existing_password">موجوده .bin فائل پاسورڊ يا پن</string>
+    <string name="txt_new_pin">نئون پن (6+ عدد)</string>
+    <string name="importing_keys_from_bin_file">"بن فائيل کان چيڪ درآمد"</string>
+    <string name="please_make_sure_your_bin_file">مهرباني ڪري پڪ ڪريو ته توهان جو پن صحيح آهي يا درست بن فائيل چونڊيو آهي</string>
+    <string name="missing_existing_password">مهرباني ڪري هن شئي واري فائل کي انڪوٽ ڪرڻ لاء استعمال ڪيو ويو</string>
+    <string name="pin_number_request">مهرباني ڪري هن باڪس فائل کي انڪوڊ ڪرڻ لاء استعمال ٿيل پن نمبر داخل ڪريو</string>
+    <string name="pin_number_warning">پن نمبر گھٽ ۾ گھٽ 6 عدد هجڻ گھرجي</string>
+    <string name="backup_error_no_key_reference_found">ڪو به اڪائونٽ استعمال نه ڪيو ويو هو، مهرباني ڪري پڪ ڪريو ته توهان تازه ڪاري بيڪ اپ فائل استعمال ڪري رهيا آهيو.</string>
+    <string name="backup_error_no_wallet_backup">ھن فائل ۾ ڪو واھٽل بيڪ حاصل نه ٿي سگھي</string>
+    <string name="error_invalid_account">مھرباني ڪري غلط اڪائونٽ، پنھنجي دماغ جي غلطي کي ٽائپنگ جي غلطي جي چڪاس ڪريو</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">آمد</string>
+    <string name="title_account_load_result">اڪائونٽ وڌايو</string>
+    <string name="button_change_account">تبديلي</string>
+    <string name="title_select_input_assets">قبول ڪرڻ لاء اثاثو منتخب ڪريو.</string>
+    <string name="explanation_account_setup">ادائگي حاصل ڪرڻ لاء توهان کي Bitshares اڪائونٽ سيٽ ڪرڻ جي ضرورت پوندي. يا جيڪڏهن توهان وٽ پهرين ئي آهي، توهان ان کي ٻيهر درآمد ڪري سگهو ٿا.</string>
+    <string name="explanation_output_asset">پنهنجي گهربل گهربل چونڊيو چونڊيو:</string>
+    <string name="next">اڳيون</string>
+    <string name="done">ٿي ويو</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">ادا ڪريو</string>
+    <string name="error_corrupted_key_title">اهم ڪرپشن غلطي</string>
+    <string name="error_corrupted_key_content">ايپليڪيشن توهان جي مرڪوز ٿيل نجي چابيس کي ڊيٽابيس مان بحال ڪرڻ ۾ ناڪام آهي. انهي جي ڪري توهان کي ٻيهر پنهنجي چئلينج ۾ داخل ڪرڻ جي ضرورت پوندي. يا ته هڪ بهادر جي روپ ۾ يا بن بئنڪ فارم ٺاهيو جيڪو جيڪو توهان جي ڊيڊڊ ۾ خودڪار ٺاهي ۽ محفوظ ڪيو ويو هو، اهو اڪائونٽ ايپ پاران پيدا ڪيو ويو هو.</string>
+    <string name="invalid_pin">غلط پن</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">گھر</string>
+    <string name="txt_transactions">ٽرانسڪشن</string>
+    <string name="txt_refunds_returns">رقم / واپسي</string>
+    <string name="txt_settlement">تصنيف</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares جوڙيندڙ</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">رقم جي ڪري</string>
+    <string name="sub_total">Sub-Total:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">آرڊر ڪتاب غلطي</string>
+    <string name="content_error_market">DEX ۾ ڪو به حڪم نه آهي ته اسان کي انهي وقت جي بدلي ۾ %1$s بدلي ڪرڻ جي اجازت ڏين ها. \n \n مهرباني ڪري سيٽنگون اسڪرين ڏانهن وڃو ۽ مختلف ٻاھران اثاثو منتخب ڪريو.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">مهرباني ڪري ادا ڪريو</string>
+    <string name="please_pay_s_s">مهرباني ڪري ادا ڪريو: %1$s %2$s</string>
+    <string name="to_s">ڏانهن: %1$s</string>
+    <string name="txt_network">نيٽ ورڪ فيس</string>
+    <string name="txt_please_wait">مهرباني ڪري انتظار ڪريو</string>
+    <string name="error_node_unreachable">ڪو به نوڊ پهچي نه سگهيو</string>
+    <string name="invoice_subject">%1$s کان PalmPay انوائس</string>
+    <string name="before_s">پهرين کان: %1$s</string>
+    <string name="share">شيئر ڪريو</string>
+    <string name="share_with">سان حصيداري ڪريو</string>
+    <string name="connecting">ڪنيڪشن ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">ادائگي جي درخواست چونڊيو</string>
+    <string name="dialog_msg_select_pending_payment">هڪ ايندڙ ادائگي جو پتو پئجي ويو، پر خود بخود اڳئين درخواست جي ادائيگي سان مقرر نه ٿي سگهيو. مھرباني ڪري ھيٺ ڏنل فهرست مان درست ادائيگي جي درخواست چونڊيو.</string>
+    <string name="dialog_msg_confirm_pending_payment">اهو ايندڙ آمدني کي %1$s جي اڳوڻي رڪارڊ ٿيل ادائگي جي درخواست سان ڳنڍيندي.</string>
+    <string name="dialog_msg_incoming_payment_details">ايندڙ ادائگي جي تفصيل</string>
+    <string name="dialog_generic_title_confirm">ڇا توهان کي پڪ آهي؟</string>
+    <string name="dialog_generic_msg_confirm">مهرباني ڪري نوٽ ڪريو ته اهو عمل رد نه ٿي ڪري سگھجي</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">بيقرار ڪريو</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">ادائيگي جي تصديق ڪئي وئي!</string>
+    <string name="txt_cool">عمده!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">سيٽنگون</string>
+    <string name="general">عام</string>
+    <string name="security">حفاظت</string>
+    <string name="backups">بیک اپ</string>
+    <string name="tokens">ٽوڪن</string>
+    <string name="accounts">اڪائونٽ</string>
+    <string name="e_receipts">اليڪٽرانڪٽ</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">رات جو طريقو</string>
+    <string name="currency_info">ڪرنسي خودڪار پنهنجي ٻوليء ۽ ملڪ جي چونڊ تي ٻڌل آهي. جيڪڏهن توهان انهن کي تبديل ڪرڻ چاهيو ٿا، توهان کي توهان جي ڊوائيس جي عالمي سسٽم جي سيٽنگون ڏانهن وڃو.</string>
+    <string name="screen_saver">اسڪرين سيور</string>
+    <string name="source">ذريعو</string>
+    <string name="bitshares_logo">BitShares لوگو</string>
+    <string name="default_folder">رٿيل فولڊر (/ PalmPay)</string>
+    <string name="txt_folder">فولڊر</string>
+    <string name="choose">چونڊيو</string>
+    <string name="screen_saver_time">بعد ۾ فعال ڪريو</string>
+    <string name="one_minute">1 منٽ</string>
+    <string name="three_minutes">3 منٽ</string>
+    <string name="five_minutes">5 منٽ</string>
+    <string name="local_ambassador">مقامي سفير</string>
+    <string name="ambassador_info">PalmPay سفيرس هر 3 سيڪنڊن جي ادا ڪئي. سندن نوڪري کي پالم پائي واپارين جي حمايت ڪرڻ آهي ۽ مهيني Crypto Meetups کي منظم ڪرڻ آهي. جيڪڏهن توهان جو شهر فهرست نه آهي، ته توهان جي شهر اڃان تائين پلمپ سفير ناهي. \n \n وڌيڪ معلومات لاء، مهرباني ڪري Agorise ڪميونٽي تي ٽيليگرام تي وڃو: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">شهر</string>
+    <string name="country">ملڪ</string>
+    <string name="bugs_or_ideas">چانڊيو يا خيالات؟</string>
+    <string name="bugs_or_ideas_contact_info">ٽيليگرام چيمٽ: http://t.me/Agorise \n اي ميل: Agorise@protonmail.ch</string>
+    <string name="accept">قبول ڪيو</string>
+    <string name="select">چونڊيو</string>
+    <string name="are_you_sure">ڇا توهان کي پڪ آهي؟</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">بیک اپ بهادر</string>
+    <string name="copied_to_clipboard">ڪلپ بورڊ ڏانهن نقل</string>
+    <string name="bin_file_description">بن فائيل. هميشه هڪ راز ڏانهن توهان جي بيڪ اپ بيڪ محفوظ ڪريو مائڪ ايس ايس ڊي ڪار يا يو ايس ٽي اسٽڻ.</string>
+    <string name="create_a_backup">هڪ بيڪ اپ ٺاهيو</string>
+    <string name="brainkey_description">برنگي. اڪائونٽ جي وصولي لفظ جيڪي گرفتار ٿي يا ڪاپي سگھي ٿو، پر تبديل نه ڪيو وڃي.</string>
+    <string name="txt_brain_key_info">ھن کي ڇپايو، يا ان کي لکو. ڪو به ماڻهو توهان جي وصولي چيڪ تائين رسائي سان هن واالٽ ۾ پئسن جي رسائي هوندي.</string>
+    <string name="view_and_copy">ڏسو ۽ نقل ڪريو</string>
+    <string name="title_bin_backup">ٻاھر موڪليو .ببن جي بيڪ اپ</string>
+    <string name="hint_password">پاسورڊ</string>
+    <string name="hint_password_confirmation">پاسورڊ جي تصديق</string>
+    <string name="error_password_mandatory">پاسورڊ داخل ٿيو</string>
+    <string name="error_password_too_short">پاسورڊ ڏاڍو ننڍو آھي</string>
+    <string name="error_password_confirmation_mismatch">پاسورڊ ۽ تصديق جي چڪاس</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">مرچنٽ اڪائونٽ: %1$s</string>
+    <string name="upgrade_to_ltm">LTM ڏانهن اپڊيٽ ڪريو</string>
+    <string name="upgrade_account_description">"لائف ٽيمپ جي رڪنيت کي اپڊيڊيو (ايل ٽي ايم). بيٽشاٽس \'ايل ٽي ايم اڪائونٽ اڪائونٽ صفر جي ويجهو ادا ڪندو، 80 سيڪڙو ڪئسڪ وٺڻ ۽ حوالن لاء بونس حاصل ڪريو.</string>
+    <string name="account_upgrade_title">اڪائونٽ کي تبديل ڪريو</string>
+    <string name="account_upgrade_content">لائف ٽائيم رڪنيت توهان کي نيٽ ورڪ فيس جي گهٽتائي سان تجارت ڪرڻ جي اجازت ڏئي ٿي. \n \n اهو موجوده وقت تائين "%1$s" \n \n تي اثر ايندو. بٽسارن ۾ ادا ڪيل 100 ملين ڊالر جي قيمت جي قيمت هجي. \n \n ڇا اوھان کي پڪ ڪرڻ چاھيو ٿا؟</string>
+    <string name="account_upgrade_wait_content">توهان جي درخواست سميت ٽرانزيڪشن نيٽورڪ طرفان پروسيس ڪئي ويندي آهي</string>
+    <string name="error_upgrade_account_title">اڪائونٽ کي اپڊيٽ ڪرڻ جي ڪوشش ۾ غلطي</string>
+    <string name="error_upgrade_account_content">مهرباني ڪري پڪ ڪريو ته توهان جي اڪائونٽ قيمت کي پورو ڪرڻ لاء ڪافي بيلنس آهي</string>
+    <string name="account_upgraded_title">اڪائونٽ کي اپڊيٽ ڪيو ويو آهي</string>
+    <string name="account_upgraded_content">مبارڪون هجن! توهان جو اڪائونٽ هاڻي لائفميٽ جي ميمبرن ۾ اپڊيٽ ڪيو ويو آهي.</string>
+    <string name="remove_account">اڪائونٽ ختم ڪريو</string>
+    <string name="remove_account_description">هن مرچنٽ اڪائونٽ کي هٽايو. هن ڊوائيس کان مٿي مرچنٽ اڪائونٽن کي هٽائي ڇڏيو ۽ هڪ مختلف ٺاهي يا درآمد ڪريو.</string>
+    <string name="txt_account_remove_confirmation">"ڇا توهان پڪ آهي ته توهان هن باليٽ مان اڪائونٽ \'%1$s\' هٽائي ڇڏيو؟</string>
+    <string name="remove">هٽايو</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">مطلوب اسمارڪڪين</string>
+    <string name="txt_customer_loyalty">مسئلن جي وفادار پوائنٽ جيئن ...</string>
+    <string name="warning_insufficient_reward_asset_balance">توهان جو اڪائونٽ ڪنهن به %1$s ڪونهي. مھرباني ڪري ڪجھھ حاصل ڪرڻ کان اڳ توھان پنھنجي وفاداري جي طور تي ڪنھن وفاداري پوائنٽون حاصل ڪرڻ جي ڪوشش ڪريو.</string>
+    <string name="send">موڪليو</string>
+    <string name="txt_for_every">هر لاء</string>
+    <string name="txt_spent">خرچ ڪيو</string>
+    <string name="txt_bitcoin_altcoin_deposited">قبول ڪريو 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">مهرباني ڪري 8 انٽي اثاثن کان سواء ٻيو ڪو نه چونڊيو</string>
+    <string name="bitshares_unselection_message">بيٽشاٽس (بي ٽي ايس) بنيادي ٽوڪ جي ضرورت هوندي آهي.</string>
+    <string name="toast_low_volume_market">گھٽ حجم مارڪيٽ اثاثا عارضي طور تي معذور آهن. هڪ ڀيرو مارڪيٽ جي مقدار ۾ وڏي مقدار ۾ وڌندي ويندي انهن کي فعال ڪيو ويندو</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">لوگو</string>
+    <string name="store_name">اسٽور جو نالو</string>
+    <string name="address">پتو</string>
+    <string name="phone_number">فون نمبر</string>
+    <string name="website">ويب سائٽ</string>
+    <string name="message">پيغام</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">ڪيٻيري لاء بن فارم ٺاهيو</string>
+    <string name="saving_bin_file_to_s">Bin Bin محفوظ ڪري: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">بن فائل ڪاميابي سان محفوظ ڪئي وئي: %1$s</string>
+    <string name="unable_to_save_bin_file">بن فائل محفوظ ڪرڻ جي قابل ناهي</string>
+    <string name="creating_backup_file">بيڪ اپ فائل ٺاهڻ</string>
+    <string name="fetching_key">ڇڪڻ جي ڇاڻ</string>
+    <string name="generating_bin_format">بن فارم ٺاهيو</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">ڳولھيو</string>
+    <string name="filter">فلٽر</string>
+    <string name="export">ٻاھر موڪليو</string>
+    <string name="confirming">تصديق ڪريو ...</string>
+    <string name="pdf_generated_msg_s">PDF ٺاهي ۽ محفوظ ڪيا ويا: %1$s</string>
+    <string name="pdf_generated_msg_error_s">پي پي آر ٺاهڻ جي قابل ناهي. مهرباني ڪري ٻيهر ڪوشش ڪريو. غلطي: %1$s</string>
+    <string name="csv_generated_msg_s">سي ڊي وي ٺاهيل ۽ محفوظ ڪئي: %1$s</string>
+    <string name="csv_generated_msg_error_s">سي ايس جي پيدا ڪرڻ ۾ ناڪام ٿي. مهرباني ڪري ٻيهر ڪوشش ڪريو. غلطي: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">سڀ</string>
+    <string name="sent">موڪليو ويو</string>
+    <string name="received">حاصل ڪيو</string>
+    <string name="date_range">تاريخ جي تاريخ</string>
+    <string name="txt_to">جي طرف</string>
+    <string name="cryptocurrency">ڪرڪيٽ</string>
+    <string name="fiat_amount">فٽٽ جي مقدار</string>
+    <string name="between">وچ ۾</string>
+    <string name="and">۽</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">ٻاھر ڪڍيندڙ ٽرانزيڪشن</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">سي ايس وي</string>
+    <string name="progress_export_generation">پيداوار جي پيداوار جي پيداوار</string>
+    <string name="exported_file_name">PalmPay-transaction</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">کان</string>
+    <string name="to">جي طرف</string>
+    <string name="memo">ميمو</string>
+    <string name="date">تاريخ</string>
+    <string name="time">وقت</string>
+    <string name="crypto_amount">Crypto Amount</string>
+    <string name="crypto_symbol">ڪرڪيٽ جو نشان</string>
+    <string name="keyed_in_fiat_amount">فيڪٽ ۾ ڄاڻايل قيمت</string>
+    <string name="total_fiat_amount">کلٽ فياض رقم</string>
+    <string name="fiat_currency">Fiat ڪرنسي</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">شيون %1$d</string>
+    <string name="subtotal">سب-کل</string>
+    <string name="network_fee">نيٽ ورڪ فيس</string>
+    <string name="total">ڪل</string>
+    <string name="paid_s_s">ادا %1$s %2$s</string>
+    <string name="change_due">ان جي ڪري تبديل ڪريو</string>
+    <string name="e_receipt_memo_s">ميمو: %1$s</string>
+    <string name="e_receipt_date_s">تاريخ: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">%1$s کان PalmPay eReceipt</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">غلط پنوڻو</string>
+    <string name="pin_changed_successfully">پن ڪاميابي سان تبديل ٿي</string>
+    <string name="please_enter_pin">مهرباني ڪري پن نمبر داخل ڪريو</string>
+    <string name="please_enter_pin_confirmation">مهرباني ڪري پنهنجي پن نمبر جي تصديق تصديق ڪريو</string>
+    <string name="title_change_pin">PIN تبديل ڪريو</string>
+    <string name="txt_current_pin">موجوده پن نمبر</string>
+    <string name="please_enter_old_pin">مهرباني ڪري پراڻي پن نمبر داخل ڪريو</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">نوڊڊ جو مسئلو غلط، ٻيهر وٺڻ</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">اسان هڪ ايندڙ ادائيگي مليون، پر ڪابه درخواست نه ملي سگهيو</string>
+
+</resources>

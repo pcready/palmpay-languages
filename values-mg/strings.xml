@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Mombamomba ny mpanoratra</string>
+    <string name="agree">mifanaraka</string>
+    <string name="disagree">tsy miombon-kevitra</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Loading assets ...</string>
+    <string name="title_loading_asset_type_data">Mankany ny angon-drakitra asetsy ...</string>
+    <string name="title_assets_ready">Asset database databatra</string>
+    <string name="msg_loading_all_existing_assets">Manaova andian-tsoratra maromaro mba hahazoana ny lisitra feno amin\'ny fananana rehetra misy</string>
+    <string name="msg_loading_asset_type_data">Mangatahana tsipiriany fanampiny</string>
+    <string name="msg_loading_asset_in_database">Nandoa ny fananana %1$d tao amin\'ny tahiry</string>
+    <string name="msg_assets_loaded">Manaraka, manorata ny kaontinao ...</string>
+    <string name="error_fetching_marketcap_data">Tsy afaka nampiditra angon-drakitra momba ny varotra</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Hamorona kaonty</string>
+    <string name="txt_account_name">Ny anaran\'ny kaonty BitShares</string>
+    <string name="unable_to_find_account_id">Tsy nahita ny kaonty user ID</string>
+    <string name="error_invalid_account_name_explanation">Ny anaran\'ny kaonty dia manana tarehintsoratra maherin\'ny 8, misy maromaro na tsy misy zanatsoratra. Tsy azo atao koa ny mampiavaka azy.</string>
+    <string name="create">mamorona</string>
+    <string name="error">Error</string>
+    <string name="account_name_already_exist">Efa misy ny anaran\'ny kaonty</string>
+    <string name="try_again">Avereno azafady aorian\'ny 5 minitra</string>
+    <string name="txt_new_pin_confirmation">Hamarino ny PIN vaovao (sanda 6+)</string>
+    <string name="error_wif">Hadisoana namorona ny WIF key</string>
+    <string name="error_faucet_template">Naverina ny fahadisoana ilay tavoahangy. Msg: %1$s</string>
+    <string name="error_read_dict_file">Hadisoana namaky ny rakitra diksionera</string>
+    <string name="error_missing_account">Ny rindrambaiko dia tsy afaka maka ny vaovao momba ilay kaonty vao noforonina</string>
+    <string name="create_account_title">Famoronana kaonty vaovao</string>
+    <string name="create_account_message">Andraso aorian\'ny namoronana ny kaontinao</string>
+    <string name="error_faucet_explanation">Namadika fahadisoana ny server. Mety ho noho ny fetra voafetra ny fametrahana fangatahana matetika avy amin\'ny adiresy IP ao anatin\'ny fotoana fohy. Andraso 5 minitra azafady ary andramo indray, na mifindrà amin\'ny tambazotra samihafa, Ohatra avy amin\'ny wifi amin\'ny sela.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Azafady azafady azonao atao ny manamboatra ny brainkey anao alohan\'ny handehananao. Izany dia hamela anao hamerina ny kaontinao raha misy zavatra mitranga amin\'ity fitaovana ity.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Ahoana no tianao hampidirana ny kaontinao misy anao?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin File</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Safidio PIN PIN 6+</string>
+    <string name="txt_6_digits_pin_confirm">6+ digits digits confirm</string>
+    <string name="please_enter_6_digit_pin">Ampidiro azafady ny PIN 6-nify</string>
+    <string name="please_enter_6_digit_pin_confirm">Ampidiro azafady ny fanamafisana ny laharan\'ny PIN anao</string>
+    <string name="mismatch_pin">Tsy misy pentina</string>
+    <string name="please_enter_brainkey">Mampidira brakey azafady</string>
+    <string name="please_enter_correct_brainkey">Ampidiro azafady araka ny tokony ho izy, tokony ho eo amin\'ny 12 ka hatramin\'ny 16 ny teny.</string>
+    <string name="unable_to_load_brainkey">Tsy afaka nampidirina brainkey</string>
+    <string name="account_already_exist">Efa misy ny kaonty</string>
+    <string name="importing_your_wallet">Mampiditra ny poketrao ...</string>
+    <string name="account_candidates_title">Mifidiana kaonty azafady</string>
+    <string name="account_candidates_content">Ny fanalahidy avy amin\'ity brainkey ity dia toa ampiasaina hanaraha-maso ny kaonty mihoatra ny iray, azafady mifidiana izay kaontinao tianao halefa</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Import ny .bin file</string>
+    <string name="import_backup">Import ny backup amin\'ny file .bin</string>
+    <string name="txt_no_internet_connection">Tsy misy fifandraisana Internet</string>
+    <string name="no_file_chosen">Tsy misy rakitra voafidy</string>
+    <string name="choose_backup">Safidio ny backup</string>
+    <string name="choose_file">Misafidiana rakitra</string>
+    <string name="txt_existing_password">Ny tenimiafina amin\'izao fotoana izao</string>
+    <string name="txt_new_pin">PIN vaovao (sanda 6+)</string>
+    <string name="importing_keys_from_bin_file">"Mampiditra fanalahidy avy amin\'ny rakitra Bin"</string>
+    <string name="please_make_sure_your_bin_file">Azafady azafady azafady ny pinanao marina na ny fichier voafidy</string>
+    <string name="missing_existing_password">Ampidiro azafady ny tenimiafina ampiasaina mba hampidirana ity rakitra backup ity</string>
+    <string name="pin_number_request">Ampidiro azafady ny laharan-pininao ampiasaina mba hametahana io rakitra backup io</string>
+    <string name="pin_number_warning">Ny tarehimarika boribory dia tsy maintsy farafahakeliny 6 isa</string>
+    <string name="backup_error_no_key_reference_found">Tsy hita ny kaonty nampiasana ity fanalahidy ity, azafady azafady azonao ampiasaina ny rakitra backup vaovao.</string>
+    <string name="backup_error_no_wallet_backup">Tsy misy kitapo finday azo hita ao anatin\'ity rakitra ity</string>
+    <string name="error_invalid_account">Valiny tsy mety, azafady azafady ny fanalahidin\'ny atidoha amin\'ny fanoratana diso</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Import</string>
+    <string name="title_account_load_result">Kaonty load</string>
+    <string name="button_change_account">Change</string>
+    <string name="title_select_input_assets">Fanteno ny fananana azo ekena.</string>
+    <string name="explanation_account_setup">Ilainao ny manangana kaonty Bitshares mba hahazoana vola. Na raha efa manana iray ianao dia afaka manondrana izany eto.</string>
+    <string name="explanation_output_asset">Mifidiana Smartcoin tianao:</string>
+    <string name="next">Manaraka</string>
+    <string name="done">vita</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Mialà amin\'ny</string>
+    <string name="error_corrupted_key_title">Hevi-diso momba ny kolikoly</string>
+    <string name="error_corrupted_key_content">Ny fampiharana dia tsy afaka manitsy ireo fanalahidy tsy voatanisa avy amin\'ny tahiry. Noho izany dia tsy maintsy hiditra ny fanalahidy indray ianao. Na amin\'ny endritsoratra na famolavolana ny rakitra back back izay namorona sy napetraka ho azy amin\'ny sdcard raha toa ka noforonina avy amin\'ny app ilay kaonty</string>
+    <string name="invalid_pin">PIN tsy mety</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Home</string>
+    <string name="txt_transactions">varotra</string>
+    <string name="txt_refunds_returns">Refunds / Returns</string>
+    <string name="txt_settlement">Settlement</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares nodes</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Banga ny vola</string>
+    <string name="sub_total">Zana-Total:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Soraty ny boky diso</string>
+    <string name="content_error_market">Tsy misy didy ao amin\'ny DEX izay ahafahantsika manatanteraka ny fifanakalozan-kevitra amin\'ny %1$s amin\'izao fotoana izao. \n \n Alefaso any amin\'ny efijery fametrahana ary mifidiana solosaina hafa.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Azafady mba mividiana</string>
+    <string name="please_pay_s_s">Azafady mba mividy: %1$s %2$s</string>
+    <string name="to_s">To: %1$s</string>
+    <string name="txt_network">Fiantohana tambajotra</string>
+    <string name="txt_please_wait">Andraso azafady</string>
+    <string name="error_node_unreachable">Tsy misy tapaka azo atonina</string>
+    <string name="invoice_subject">Faktiora PalmPay avy amin\'ny %1$s</string>
+    <string name="before_s">Talohan\'ny: %1$s</string>
+    <string name="share">Share</string>
+    <string name="share_with">Zarao amin\'ny</string>
+    <string name="connecting">Mampifandray ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Mifidiana fangatahana fangatahana</string>
+    <string name="dialog_msg_select_pending_payment">Nisy ny fandoavam-bola noraisina, saingy tsy azo nomena avy hatrany ny karamany. Azafady azafady ny fangatahana fangatahana mety amin\'ny lisitra manaraka.</string>
+    <string name="dialog_msg_confirm_pending_payment">Ity dia hampifandray ny fangatahana fidirana mankany amin\'ilay fangatahana fandoavam-bola taloha nalefan\'ny %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Ny antsipiriany momba ny karama</string>
+    <string name="dialog_generic_title_confirm">Azonao antoka ve izany?</string>
+    <string name="dialog_generic_msg_confirm">Mariho fa tsy azo esorina ity hetsika ity</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Vola azo antoka!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Settings</string>
+    <string name="general">General</string>
+    <string name="security">Security</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">famantarana</string>
+    <string name="accounts">Kaonty</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Night mode</string>
+    <string name="currency_info">Vola isam-bolana no mifidy vola arakaraka ny fiteninao sy ny safidinao. Raha te-hanova ireo ianao dia tsy maintsy miditra amin\'ny rafitry ny rafitra manerantany amin\'ny fitaovana misy anao.</string>
+    <string name="screen_saver">Fitsitsy efijery</string>
+    <string name="source">Source</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Ordinatera Default (/ PalmPay)</string>
+    <string name="txt_folder">lahatahiry</string>
+    <string name="choose">Mifidiana</string>
+    <string name="screen_saver_time">Alefaso aorian\'ny ...</string>
+    <string name="one_minute">1 Minute</string>
+    <string name="three_minutes">3 minitra</string>
+    <string name="five_minutes">5 minitra</string>
+    <string name="local_ambassador">Ambasadera eo an-toerana</string>
+    <string name="ambassador_info">Nomena 3 segondra avokoa ny Ambasadaoro PalmPay. Ny asany dia ny manohana ny mpivarotra PalmPay ao an-toerana ary mandamina ny Crypto Meetups isam-bolana. Raha tsy voatanisa ny tanànanao, dia mbola tsy manana Ambasadaoron\'ny PalmPay ny tanànanao. \n \n Raha mila fanazavana bebe kokoa dia tsidiho ny vondrom-piarahamonina Agorise amin\'ny telegrama: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">City</string>
+    <string name="country">Firenena</string>
+    <string name="bugs_or_ideas">Bugs or Ideas?</string>
+    <string name="bugs_or_ideas_contact_info">Fifandraisana telegrama: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Ekeo</string>
+    <string name="select">Select</string>
+    <string name="are_you_sure">Azonao antoka ve izany?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Alefaso amin\'ny rindrankajy</string>
+    <string name="bin_file_description">Fichier Bin. Tehirizo foana ny backup .bin ny rakitra ho an\'ny tsiambaratelo MicroSD na USB Stick.</string>
+    <string name="create_a_backup">Mamoròna backup</string>
+    <string name="brainkey_description">Brainkey. Ny teny fanarenana kaonty izay azo alaina na kopia, saingy tsy novaina.</string>
+    <string name="txt_brain_key_info">Soraty izany, na soraty izany. Izay manana fahafahana miditra amin\'ny fanalahidin\'ny fitrandrahana dia hanana fidirana amin\'ny vola ao amin\'ity kitapo ity.</string>
+    <string name="view_and_copy">Hizaha</string>
+    <string name="title_bin_backup">Export .bin backup</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirmation">Fanamafisana ny tenimiafina</string>
+    <string name="error_password_mandatory">Tsy maintsy miditra tenimiafina iray</string>
+    <string name="error_password_too_short">Fohy loatra ny tenimiafina</string>
+    <string name="error_password_confirmation_mismatch">Firaketana ny fisoratana sy ny fanamafisana</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Kaonty Merchant: %1$s</string>
+    <string name="upgrade_to_ltm">Upgrade to LTM</string>
+    <string name="upgrade_account_description">"Fanavaozana ny mpikambana ao amin\'ny LifeTime (LTM). Ny kaonty LTM bitshares dia mandoa saram-pamindram-bola tsy am-pisalasalana, mahazo 80% ny kitapom-bola sy ny bonus ho an\'ny referrals."</string>
+    <string name="account_upgrade_title">Upgrade Account</string>
+    <string name="account_upgrade_content">Ny Time Time Membership dia ahafahanao manakalo saram-pidin\'ny tambazotra. \n \nIny dia hampiharina amin\'ny kaonty misy ankehitriny "%1$s" \n \nIt kosa dia tonga amin\'ny vidin\'ny $ 100 any amin\'ny Bitshares. \n \nAho azonao antoka ve fa te handeha?</string>
+    <string name="account_upgrade_wait_content">Ny varotra misy ny fangatahanao dia alaina amin\'ny tambajotra</string>
+    <string name="error_upgrade_account_title">Hadisoana raha niezaka nanavao ny kaonty</string>
+    <string name="error_upgrade_account_content">Azafady azafady azafady ny kaontinao mba handoavana ny sanda</string>
+    <string name="account_upgraded_title">Ny fanavaozana ny kaonty</string>
+    <string name="account_upgraded_content">Arahabaina! Ny kaontinao ankehitriny dia nohavaozina ho an\'ny Lifetime Membership.</string>
+    <string name="remove_account">Esory ny kaonty</string>
+    <string name="remove_account_description">Esory ity kaonty Merchant ity. Esory ny kaonty Merchant ambony eto amin\'ity fitaovana ity ary manamboara na manindrona hafa.</string>
+    <string name="txt_account_remove_confirmation">"Azonao antoka ve fa tianao ny hanaisotra ny kaonty \'%1$s\' amin\'ity kitapo ity?"</string>
+    <string name="remove">Esory</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Desired Smartcoin</string>
+    <string name="txt_customer_loyalty">Hamaky ny tohiny ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Ny kaontinao mbola tsy manana ny %1$s. Miangavy anao hahazo ny sasany alohan\'ny hanandramanao hanome ny mpanjifanao ho Loyalty Points.</string>
+    <string name="send">Send</string>
+    <string name="txt_for_every">Ho an\'ny tsirairay</string>
+    <string name="txt_spent">lany</string>
+    <string name="txt_bitcoin_altcoin_deposited">Manaiky hatramin\'ny 8 Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Mifidiana azafady mihoatra ny 8 fananana</string>
+    <string name="bitshares_unselection_message">Ny famantarana ny Bitshares (BTS) dia ilaina.</string>
+    <string name="toast_low_volume_market">Ny tsenan\'ny tsena madinidinika ambany dia tsy ara-potoana. Halefa izy ireo rehefa hidina amin\'ny vola midadasika ny volan\'ny tsena</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Famantarana</string>
+    <string name="store_name">Tehirizo ny anaranao</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Nomeraon-telefaona</string>
+    <string name="website">Website</string>
+    <string name="message">Message</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Tsy afaka mamorona format format ho an\'ny fanalahidy</string>
+    <string name="saving_bin_file_to_s">Hanamboatra rakitra binà ho an\'ny: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Fichier Bin voafafa soa aman-tsara tamin\'ny: %1$s</string>
+    <string name="unable_to_save_bin_file">Tsy afaka namonjy rakitra bin</string>
+    <string name="creating_backup_file">Mamorona rakitra backup</string>
+    <string name="fetching_key">Famaritana ny fanalahidy</string>
+    <string name="generating_bin_format">Famoronana endri-tsoratra</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="export">Export</string>
+    <string name="confirming">Nanamafy ...</string>
+    <string name="pdf_generated_msg_s">PDF novokarina sy voavonjy: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Tsy afaka mamorona pdf. Avereno azafady. Error: %1$s</string>
+    <string name="csv_generated_msg_s">Namorona sy voavonjy ny CSV: %1$s</string>
+    <string name="csv_generated_msg_error_s">Tsy afaka namorona csv. Avereno azafady. Error: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">rehetra</string>
+    <string name="sent">Sent</string>
+    <string name="received">Received</string>
+    <string name="date_range">Daty Daty</string>
+    <string name="txt_to">ny</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat amount</string>
+    <string name="between">Teo anelanelan\'ny</string>
+    <string name="and">ary</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Hanafatra tranainy avy amin\'ny sivana</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Famokarana vokatra fanondranana</string>
+    <string name="exported_file_name">PalmPay-varotra</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="memo">Memo</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="crypto_amount">Crypto Amount</string>
+    <string name="crypto_symbol">Crypto Symbol</string>
+    <string name="keyed_in_fiat_amount">Fiat Amint</string>
+    <string name="total_fiat_amount">Fiataran\'ny total</string>
+    <string name="fiat_currency">Fiat Currency</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">%1$d</string>
+    <string name="subtotal">Zana-Total</string>
+    <string name="network_fee">Fiantohana tambajotra</string>
+    <string name="total">Total</string>
+    <string name="paid_s_s">Payed %1$s %2$s</string>
+    <string name="change_due">Fiovana tokony hatao</string>
+    <string name="e_receipt_memo_s">Memo: %1$s</string>
+    <string name="e_receipt_date_s">Daty: %1$s</string>
+    <string name="e_receipt_tx_s">Tx: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt avy amin\'ny %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">Tsy mety ny PIN taloha</string>
+    <string name="pin_changed_successfully">PIN dia niova tanteraka</string>
+    <string name="please_enter_pin">Soraty ny isa PIN</string>
+    <string name="please_enter_pin_confirmation">Ampidiro azafady ny mari-pamantarana PIN anao</string>
+    <string name="title_change_pin">Hanova PIN</string>
+    <string name="txt_current_pin">PIN misy amin\'izao fotoana izao</string>
+    <string name="please_enter_old_pin">Ampidiro azafady ny PIN taloha</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Famerenana ny fifandraisana amin\'ny node, mamerina indray</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Nahazo fidiram-bola izahay, nefa tsy nisy fangatahana hita</string>
+
+</resources>

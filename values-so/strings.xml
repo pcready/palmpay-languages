@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License Activity -->
+    <string name="license">Shatiga</string>
+    <string name="agree">Ogolow</string>
+    <string name="disagree">Kuma lihin</string>
+
+    <!-- Database Load Activity -->
+    <string name="title_loading_assets">Gaadiid hantida ...</string>
+    <string name="title_loading_asset_type_data">Xawilida macluumaadka hantida hantida ...</string>
+    <string name="title_assets_ready">Daabacaadda macluumaadka ee Asset</string>
+    <string name="msg_loading_all_existing_assets">Sameynta taxane taxane ah si loo helo liiska dhammeystiran dhammaan hantida jira</string>
+    <string name="msg_loading_asset_type_data">Faahfaahinta faahfaahinta hantida kale</string>
+    <string name="msg_loading_asset_in_database">Lacagta %1$d_ ee gawaarida lagu dhajiyay</string>
+    <string name="msg_assets_loaded">Marka xigta, fadlan koontadaada ...</string>
+    <string name="error_fetching_marketcap_data">Kama iibin karin xogta suuqa</string>
+
+    <!-- Create Account Activity -->
+    <string name="create_account">Abuur Akoon</string>
+    <string name="txt_account_name">Magaca xisaabta BitShares</string>
+    <string name="unable_to_find_account_id">Awood daro ma helin aqoonsiga akoontiga</string>
+    <string name="error_invalid_account_name_explanation">Magaca xisaabtu waa inuu lahaadaa wax ka badan 8 xuruuf, oo ku jira lambar ama aan lahayn wax shaqaale ah. Sidoo kale astaamaha underscore waxaa sidoo kale la oggol yahay.</string>
+    <string name="create">Abuuri</string>
+    <string name="error">Khalad</string>
+    <string name="account_name_already_exist">Magaca xisaabta horeba waa jira</string>
+    <string name="try_again">Fadlan iskuday 5 daqiiqo ka dib</string>
+    <string name="txt_new_pin_confirmation">Xaqiiji PIN cusub (6+ lambar)</string>
+    <string name="error_wif">Cilad sameynta WIF furaha</string>
+    <string name="error_faucet_template">Tubbeelka ayaa ku soo laabtay qalad. Msg: %1$s</string>
+    <string name="error_read_dict_file">Qalad akhrinta feylka</string>
+    <string name="error_missing_account">Appi ma noqon karin macluumaadka ku saabsan xisaabta cusub ee la abuuray</string>
+    <string name="create_account_title">Abuuritaanka xisaab cusub</string>
+    <string name="create_account_message">Fadlan sug intaad koontadaada la abuuray</string>
+    <string name="error_faucet_explanation">Sunta ayaa ku soo noqotay qalad. Tani waxaa laga yaabaa in ay sabab u tahay xaddidaad ujeedo u dhiganta si ay u diidaan codsiyada soo noqnoqda ee ka yimaada cinwaanka IP isla waqtigaas gaaban. Fadlan sug 5 daqiiqo oo mar kale iskuday, ama u beddel shabakad kale, Tusaale ahaan wifi ilaa unug.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Fadlan hubso inaad dib u soo celiso maskaxdaada ka hor intaadan bilaabin. Tani waxay kuu ogolaaneysaa inaad dib u soo celiso koontadaada haddii ay wax dhacaan qalabkan.</string>
+
+    <!-- Existing Account Fragment -->
+    <string name="how_import_account">Sideed jeclaan laheyd inaad ku soo dhejiso xisaabtaada hadda jirta?</string>
+    <string name="brainkey">BrainKey</string>
+    <string name="wif_key">WIF Key</string>
+    <string name="bin_file">.bin File</string>
+
+    <!-- Import Brainkey Activity -->
+    <string name="txt_brain_key">Brainkey</string>
+    <string name="txt_6_digits_pin">Dooro 6+ lambar PIN</string>
+    <string name="txt_6_digits_pin_confirm">6+ lambar PIN waa inuu xaqiijiyaa</string>
+    <string name="please_enter_6_digit_pin">Fadlan gali 6da lambar ee PIN</string>
+    <string name="please_enter_6_digit_pin_confirm">Fadlan gali xaqiijinta lambarkaaga PIN</string>
+    <string name="mismatch_pin">PIN-ga aan khaldaneyn</string>
+    <string name="please_enter_brainkey">Fadlan geli maskaxda</string>
+    <string name="please_enter_correct_brainkey">Fadlan geli maskaxda saxda ah, waa in ay haysaa inta u dhaxaysa 12 iyo 16 erey.</string>
+    <string name="unable_to_load_brainkey">Awood u laheyn in ay maskaxda gasho</string>
+    <string name="account_already_exist">Xisaab horeba waa jira</string>
+    <string name="importing_your_wallet">Iibinta boorsadaada ...</string>
+    <string name="account_candidates_title">Fadlan dooro xisaab</string>
+    <string name="account_candidates_content">Furaha furan ee maskaxdan ayaa u muuqda in loo isticmaalo in lagu xakameeyo in ka badan hal koonto, fadlan dooro xisaabta aad rabto inaad soo dejiso</string>
+
+    <!-- Import Backup Activity -->
+    <string name="import_bin_file">Soo qaado faylka .bin</string>
+    <string name="import_backup">Dib u soo celinta ka soo rogista faylka .bin</string>
+    <string name="txt_no_internet_connection">Ma jirto Xiriirka Internet-ka</string>
+    <string name="no_file_chosen">Lama doorto faylka</string>
+    <string name="choose_backup">Dooro Backup</string>
+    <string name="choose_file">Dooro File</string>
+    <string name="txt_existing_password">Faylka hadda .bin Password ama PIN</string>
+    <string name="txt_new_pin">PIN cusub (6+ lambar)</string>
+    <string name="importing_keys_from_bin_file">"Soo dejinta furaha faylka bin bin"</string>
+    <string name="please_make_sure_your_bin_file">Fadlan hubso in cirbaddaada ay sax tahay ama saxan tahay faylka bin</string>
+    <string name="missing_existing_password">Fadlan gali ereyga loo isticmaalo in lagu keydiyo faylkan</string>
+    <string name="pin_number_request">Fadlan gali lambarka sirta loo isticmaalo si aad u qorto faylkan</string>
+    <string name="pin_number_warning">Lambarka pin waa inuu ahaado ugu yaraan 6 lambar</string>
+    <string name="backup_error_no_key_reference_found">Xisaab la\'aan laguma helin furahaan, fadlan hubi inaad isticmaasho faylka dayactirka ee casriga ah.</string>
+    <string name="backup_error_no_wallet_backup">Lama helin kaydka jeebka ee faylkan</string>
+    <string name="error_invalid_account">Koontada aan sharci ahayn, fadlan hubi furahaaga maskaxda si aad u qorto khaladaadka</string>
+
+    <!-- Setup Process -->
+    <string name="txt_import">Soo dejinta</string>
+    <string name="title_account_load_result">Koontada lagu dhejiyay</string>
+    <string name="button_change_account">Beddel</string>
+    <string name="title_select_input_assets">Xulo hantida lagu aqbalo.</string>
+    <string name="explanation_account_setup">Waxaad u baahan doontaa inaad sameysid xisaab dhamaystiran si aad u hesho lacag. Ama haddii aad hore u haysatid, waxaad halkan ku dhoofin kartaa.</string>
+    <string name="explanation_output_asset">Dooro waxaad rabto Smartcoin:</string>
+    <string name="next">Xiga</string>
+    <string name="done">Done</string>
+
+    <!-- Main Activity -->
+    <string name="txt_pay_with">Lacag bixinta</string>
+    <string name="error_corrupted_key_title">Khaladaadka musuq-maasuqa</string>
+    <string name="error_corrupted_key_content">Barnaamijka ayaa awoodi kari waaya inuu furo furahaaga gaarka ah ee diiwangalinta keydka macluumaadka. Taas darteed waxaa lagaa doonayaa inaad mar kale furto furayaashaada. Midkoodna qaab maskaxda maskaxda ah ama samee faylka qaabka kaydka bin ee la soo saaray oo lagu kaydiyey si toos ah sdcard haddii koontada ay abuurtay app</string>
+    <string name="invalid_pin">PIN aan sax ahayn</string>
+
+    <!-- Main Activity Drawer -->
+    <string name="txt_home">Guriga</string>
+    <string name="txt_transactions">Wareejinta</string>
+    <string name="txt_refunds_returns">Soo celinta / Soo celinta</string>
+    <string name="txt_settlement">Dejinta</string>
+    <string name="bitshares_nodes_dialog_title">Xiddooyinka dhoobada ah</string>
+
+    <!-- Keypad Activity -->
+    <string name="txt_amount_due">Qadarka lacagta la bixiyay</string>
+    <string name="sub_total">Wadarta Wadarta:</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="dot">.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title_error_market">Ku dalbo khalad buug</string>
+    <string name="content_error_market">Ma jiraan wax amar ah oo ku jira DEX kaasoo noo ogolaanaya inaanu fulino isdhaafsiga ilaa %1$s hadda. \n \nFadlan waxaad tagtaa shaashadda goobaha oo aad doorato hanti kale oo ka duwan.</string>
+
+    <!-- QR Code Activity -->
+    <string name="txt_please_pay">Fadlan Lacag</string>
+    <string name="please_pay_s_s">Fadlan Lacageed: %1$s %2$s</string>
+    <string name="to_s">Ku: Ku: %1$s</string>
+    <string name="txt_network">Khidmadda shabakada</string>
+    <string name="txt_please_wait">Fadlan sug</string>
+    <string name="error_node_unreachable">Muraayad lama helayo</string>
+    <string name="invoice_subject">Bixinta PalmPay laga bilaabo %1$s</string>
+    <string name="before_s">Ka hor: %1$s</string>
+    <string name="share">La wadaag</string>
+    <string name="share_with">La wadaag</string>
+    <string name="connecting">Isku xirnaanta ...</string>
+
+    <!-- Select payment request dialog -->
+    <string name="dialog_select_payment_request_title">Xulo codsiga lacag-bixinta</string>
+    <string name="dialog_msg_select_pending_payment">Lacagta soo socota ayaa la ogaadey, laakiin si toos ah looguma qori karo lacag hore loo codsaday. Fadlan dooro codsiga lacag bixinta saxda ah liiska soo socda.</string>
+    <string name="dialog_msg_confirm_pending_payment">Tani waxay la xiriiri doontaa lacagta soo-galeysa ee codsiga hore ee la duubay ee %1$s</string>
+    <string name="dialog_msg_incoming_payment_details">Faahfaahinta bixinta ee soo socota</string>
+    <string name="dialog_generic_title_confirm">Ma hubtaa?</string>
+    <string name="dialog_generic_msg_confirm">Fadlan ogow in ficilkan aan la tirtiri karin</string>
+    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
+    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
+    <string name="dismiss">Iska daa</string>
+
+    <!-- Payment Confirmed Dialog -->
+    <string name="title_payment_confirmed">Lacagta la xaqiijiyay!</string>
+    <string name="txt_cool">COOL!</string>
+
+    <!-- Settings Activity -->
+    <string name="txt_settings">Goobaha</string>
+    <string name="general">Guud</string>
+    <string name="security">Amniga</string>
+    <string name="backups">Dayactirrada</string>
+    <string name="tokens">Wareegyo</string>
+    <string name="accounts">Xisaabaadka</string>
+    <string name="e_receipts">eReceipts</string>
+
+    <!-- General Settings -->
+    <string name="night_mode">Habka habeenkii</string>
+    <string name="currency_info">Lacagta si toos ah ayaa loo doortaa iyada oo ku saleysan xulashada luuqadaada iyo wadankaaga. Haddii aad rabto inaad bedesho kuwan, waa inaad tagtaa nidaamka nidaamka aduunka ee qalabkaaga.</string>
+    <string name="screen_saver">Screen Saver</string>
+    <string name="source">Xigasho</string>
+    <string name="bitshares_logo">BitShares Logo</string>
+    <string name="default_folder">Faylka caadiga (/ PalmPay)</string>
+    <string name="txt_folder">Faylka</string>
+    <string name="choose">Dooro</string>
+    <string name="screen_saver_time">Saameeya ka dib ...</string>
+    <string name="one_minute">1 daqiiqo</string>
+    <string name="three_minutes">3 daqiiqo</string>
+    <string name="five_minutes">5 daqiiqo</string>
+    <string name="local_ambassador">Danjiraha degaanka</string>
+    <string name="ambassador_info">Safiirada PalmPay waxay bixiyaan 3 ilbiriqsi kasta. Shaqadooda waa inay ku taageeraan ganacsatada PalmPay ee xaafadda oo ay abaabulaan bil kasta Kulamada Kulamada. Haddii magaaladaadu aysan ku liis gareynin, markaa magaaladu weli wali kuma laha danjire PalmPay. \n \n Wixii faahfaahin dheeraad ah, booqo beesha Agorise ee Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="city">Magaalada</string>
+    <string name="country">Dalka</string>
+    <string name="bugs_or_ideas">Bugsiyada ama Fikradaha?</string>
+    <string name="bugs_or_ideas_contact_info">Wadahadal teleefanka: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="accept">Ogolow</string>
+    <string name="select">Xulo</string>
+    <string name="are_you_sure">Ma hubtaa?</string>
+
+    <!-- Backups Settings -->
+    <string name="backup_brainkey">Maskaxda qaboojinta</string>
+    <string name="copied_to_clipboard">Kaarbareeyay qashinka</string>
+    <string name="bin_file_description">Faylka Bin. Had iyo jeer xafido kaydkaaga .bin feylka qarsoodi ah ee MicroSD ama USB Stick.</string>
+    <string name="create_a_backup">Abuur garee</string>
+    <string name="brainkey_description">Maskaxda. Ereyada soo kabashada xisaabta ee la qaadi karo ama la soo koobi karo, laakiin aan la habayn.</string>
+    <string name="txt_brain_key_info">Daabacee, ama qor. Qof kasta oo helaya furahaaga soo-kabashada waxa uu heli doonaa lacago ku jira jeebkaan.</string>
+    <string name="view_and_copy"><![CDATA[Eeg & Nuqul]]></string>
+    <string name="title_bin_backup">Dhoofinta .bin kaydinta</string>
+    <string name="hint_password">Furaha</string>
+    <string name="hint_password_confirmation">Aqoonsiga erayga</string>
+    <string name="error_password_mandatory">Waa inuu galaa sirta</string>
+    <string name="error_password_too_short">Furaha ereyga waa mid gaaban</string>
+    <string name="error_password_confirmation_mismatch">Password-ka iyo xaqiijinta isku-toosinta</string>
+
+    <!-- Account Settings -->
+    <string name="merchant_account_s">Xisaabiye ganacsi: %1$s</string>
+    <string name="upgrade_to_ltm">Ku cusbooneysii LTM</string>
+    <string name="upgrade_account_description">"Ku cusbooneysii lifaaqa LifeTime (LTM), xisaabaadka LTS-da ayaa bixiya khidmadaha ku dhow eber, ka hel 80% dib u soo celinta iyo gunooyinka loogu talagalay gudbinta."</string>
+    <string name="account_upgrade_title">Xisaabi Xisaabi</string>
+    <string name="account_upgrade_content">Xiliga Nolol-maalmeedka wuxuu kuu ogolaanayaa inaad la ganacsato qiimo jaban oo network ah. \n \nWaxay ku anfacayaan koontada hadda "%1$s" \n \nWaaase la yimaadaa qiyaastii qiyaastii 100 doolar oo lagu bixiyay Bitshares. \n \nMiyaad sugeysaa inaad sii wadato?</string>
+    <string name="account_upgrade_wait_content">Macaamilka oo ku jira codsigaaga waxaa lagu shaqeynayaa shabakada</string>
+    <string name="error_upgrade_account_title">Khalad markaad isku dayaysid inaad koontadaada kiciso</string>
+    <string name="error_upgrade_account_content">Fadlan hubso in xisaabtaada ay leedahay dheelitir ku filan si loo daboolo kharashyada</string>
+    <string name="account_upgraded_title">Koontada cusbooneysiinta</string>
+    <string name="account_upgraded_content">Hambalyo! koontadaada ayaa hadda loo cusbooneysiiyey Xubinta Lifetime.</string>
+    <string name="remove_account">Ka qaad Kaarka</string>
+    <string name="remove_account_description">Ka qaado Kaadhka Ganacsiga. Ka saar koontada Merchant ee kor ku xusan qalabkani oo abuuro ama soo dejiso mid kale.</string>
+    <string name="txt_account_remove_confirmation">"Ma hubtaa inaad rabto inaad ka saarto koontada \'%1$s\' ee boorsadaan?"</string>
+    <string name="remove">Ka saar</string>
+
+    <!-- Tokens Settings -->
+    <string name="txt_desired_smartcoin">Waxay rabtay Smartcoin</string>
+    <string name="txt_customer_loyalty">Xulashooyinka Xuduudaha sida ...</string>
+    <string name="warning_insufficient_reward_asset_balance">Koontadaada weli ma lehan %1$s. Fadlan soo iibso qaar ka hor intaanad isku dayin inaad siiso macaamiishaada sida Loyalty Points.</string>
+    <string name="send">Dir</string>
+    <string name="txt_for_every">Wixii kasta</string>
+    <string name="txt_spent">la qaatay</string>
+    <string name="txt_bitcoin_altcoin_deposited">Ogolaanshaha illaa 8 Aqoonsiga Cryptocurrencies:</string>
+    <string name="altcoins_should_not_more_than">Fadlan dooro wax aan ka badnayn 8 hantida hanti</string>
+    <string name="bitshares_unselection_message">Baahida Bitshares (BTS) waa loo baahan yahay.</string>
+    <string name="toast_low_volume_market">Hantida sicirka suuqa oo hooseeya ayaa si joogta ah naafo ah. Waxaa la furfuri doonaa marka mugga suuqyadu uu kordho qiimo badan</string>
+
+    <!-- eReceipt Settings -->
+    <string name="logo">Logo</string>
+    <string name="store_name">Magaca Magaca</string>
+    <string name="address">Cinwaanka</string>
+    <string name="phone_number">Lambarka taleefanka</string>
+    <string name="website">Websaydh</string>
+    <string name="message">Farriin</string>
+
+    <!-- .bin file related strings -->
+    <string name="unable_to_generate_bin_format_for_key">Awood daro in la abuuro habka loogu talagalay furaha furaha</string>
+    <string name="saving_bin_file_to_s">Kaydinta Kusoo Dhigayso: %1$s</string>
+    <string name="bin_file_saved_successfully_to_s">Dukumiintiga Bin Dumarka ayaa lagu guulaystay: %1$s</string>
+    <string name="unable_to_save_bin_file">Lama kaydin karin faylka bin</string>
+    <string name="creating_backup_file">Abuurista Fayl Dhamme</string>
+    <string name="fetching_key">Furaha Furaha</string>
+    <string name="generating_bin_format">Abuuritaanka qaabka bin</string>
+
+    <!-- Transactions Activity -->
+    <string name="search">Raadi</string>
+    <string name="filter">Falanqee</string>
+    <string name="export">Dhoofinta</string>
+    <string name="confirming">Xaqiijinta ...</string>
+    <string name="pdf_generated_msg_s">PDF oo la sameeyay oo la badbaadiyey: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Awood ma lahan karo abuurista pdf. Fadlan sii wad. Cilad: %1$s</string>
+    <string name="csv_generated_msg_s">CSV ayaa la sameeyay oo la badbaadiyey: %1$s</string>
+    <string name="csv_generated_msg_error_s">Awood uma leh in la sameeyo csv. Fadlan sii wad. Cilad: %1$s</string>
+
+    <!-- Transactions Filter Options -->
+    <string name="all">Dhammaan</string>
+    <string name="sent">Diray</string>
+    <string name="received">Helay</string>
+    <string name="date_range">Taariikhda Range</string>
+    <string name="txt_to">ilaa</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Qaddarka Fiat</string>
+    <string name="between">Inta u dhaxaysa</string>
+    <string name="and">iyo</string>
+
+    <!-- Transactions Export Options -->
+    <string name="export_dialog_title">Dhoofinta soodhawrka la dhoofiyo</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_csv">CSV</string>
+    <string name="progress_export_generation">Abuuritaanka alaabta dhoofinta</string>
+    <string name="exported_file_name">PalmPay-Gawaarida</string>
+
+    <!-- Transactions PDF/CSV export files columns -->
+    <string name="from">Laga soo bilaabo</string>
+    <string name="to">Ku</string>
+    <string name="memo">Memo</string>
+    <string name="date">Taariikhda</string>
+    <string name="time">Waqti</string>
+    <string name="crypto_amount">Xisaabta Xisaabta</string>
+    <string name="crypto_symbol">Calaamadda Crypto</string>
+    <string name="keyed_in_fiat_amount">Lacagta Muhiimka ah ee Fiat</string>
+    <string name="total_fiat_amount">Wadarta Wadarta Fiat</string>
+    <string name="fiat_currency">Fiat Money</string>
+
+    <!-- eReceipt Activity -->
+    <string name="e_receipt">eReceipt</string>
+    <string name="item_n">Sheyga %1$d_</string>
+    <string name="subtotal">Qeybta Wadarta</string>
+    <string name="network_fee">Khidmadda shabakada</string>
+    <string name="total">Wadarta</string>
+    <string name="paid_s_s">Lacageed %1$s %2$s</string>
+    <string name="change_due">Beddel xaaladda</string>
+    <string name="e_receipt_memo_s">Qoraalka: %1$s</string>
+    <string name="e_receipt_date_s">Taariikhda: %1$s</string>
+    <string name="e_receipt_tx_s">S: %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt laga bilaabo %1$s</string>
+
+    <!-- Pin Activity -->
+    <string name="incorrect_old_pin">PIN-da oo khalad ah</string>
+    <string name="pin_changed_successfully">PIN ayaa si guul leh u bedelay</string>
+    <string name="please_enter_pin">Fadlan gal lambarka PIN</string>
+    <string name="please_enter_pin_confirmation">Fadlan gali lambarkaaga PIN lambarkaaga</string>
+    <string name="title_change_pin">Isbeddel PIN</string>
+    <string name="txt_current_pin">Lambarka PIN hadda</string>
+    <string name="please_enter_old_pin">Fadlan gali lambarka PIN ee hore</string>
+
+    <!-- PalmPay Application -->
+    <string name="error_node_connectivity">Qalabka isku-xirka Node, dib-u-eegidda</string>
+
+    <!-- Payment handler -->
+    <string name="warning_incoming_payment_without_request">Waxaan helnay lacag soo gelitaan ah, laakiin wax codsi ah lama heli karo</string>
+
+</resources>

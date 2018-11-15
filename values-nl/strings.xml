@@ -2,37 +2,37 @@
 <resources>
     <!-- License Activity -->
     <string name="license">Licentie</string>
-    <string name="agree">Mee eens</string>
-    <string name="disagree">Het oneens zijn</string>
+    <string name="agree">Accepteren</string>
+    <string name="disagree">Weigeren</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Activa laden ...</string>
-    <string name="title_loading_asset_type_data">Gegevens van het activatype laden ...</string>
-    <string name="title_assets_ready">Activabestand klaar</string>
-    <string name="msg_loading_all_existing_assets">Een reeks verzoeken uitvoeren om de volledige lijst van alle bestaande activa te krijgen</string>
-    <string name="msg_loading_asset_type_data">Verzoek om verdere activadetails</string>
-    <string name="msg_loading_asset_in_database">Geladen %1$d-items in de database</string>
+    <string name="title_loading_assets">Assets laden ...</string>
+    <string name="title_loading_asset_type_data">Gegevens asset type laden ...</string>
+    <string name="title_assets_ready">Assets gereed</string>
+    <string name="msg_loading_all_existing_assets">Alle bestaande assets laden</string>
+    <string name="msg_loading_asset_type_data">Gegevens asset type laden</string>
+    <string name="msg_loading_asset_in_database">%1$d-items in de database geladen</string>
     <string name="msg_assets_loaded">Stel vervolgens uw account in ...</string>
-    <string name="error_fetching_marketcap_data">Kan marktcap-gegevens niet laden</string>
+    <string name="error_fetching_marketcap_data">Kan marketcap-gegevens niet laden</string>
 
     <!-- Create Account Activity -->
     <string name="create_account">Account aanmaken</string>
     <string name="txt_account_name">BitShares accountnaam</string>
     <string name="unable_to_find_account_id">Kan gebruikersaccount-ID niet vinden</string>
     <string name="error_invalid_account_name_explanation">De accountnaam moet meer dan 8 tekens bevatten, een cijfer bevatten of geen klinkers hebben. Het onderstrepingsteken is ook niet toegestaan.</string>
-    <string name="create">creëren</string>
+    <string name="create">Creëren</string>
     <string name="error">Fout</string>
     <string name="account_name_already_exist">Accountnaam bestaat al</string>
     <string name="try_again">Probeer het na 5 minuten opnieuw</string>
     <string name="txt_new_pin_confirmation">Bevestig nieuwe PIN (6+ cijfers)</string>
     <string name="error_wif">Fout bij het maken van de WIF-sleutel</string>
-    <string name="error_faucet_template">De kraan gaf een foutmelding. Msg: %1$s</string>
+    <string name="error_faucet_template">De faucet gaf een foutmelding. Msg: %1$s</string>
     <string name="error_read_dict_file">Fout bij lezen van woordenboekbestand</string>
     <string name="error_missing_account">De app kan geen informatie ophalen over het nieuw gemaakte account</string>
     <string name="create_account_title">Nieuw account maken</string>
-    <string name="create_account_message">Een ogenblik geduld, terwijl uw account is aangemaakt</string>
-    <string name="error_faucet_explanation">De server heeft een fout geretourneerd. Dit kan te wijten zijn aan een doelbewust ingestelde beperking om frequente verzoeken van eenzelfde IP-adres in een korte tijdsvertraging te verbieden. Wacht 5 minuten en probeer het opnieuw of schakel over naar een ander netwerk, bijvoorbeeld van wifi naar cel.</string>
-    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Zorg ervoor dat je een back-up maakt van je hersenactiviteit voordat je doorgaat. Hiermee kunt u uw account herstellen voor het geval er iets gebeurt met dit apparaat.</string>
+    <string name="create_account_message">Een ogenblik geduld, terwijl uw account wordt aangemaakt</string>
+    <string name="error_faucet_explanation">De server heeft een fout geretourneerd. Dit kan te wijten zijn aan een doelbewust ingestelde beperking om frequente verzoeken van eenzelfde IP-adres in korte tijd te verbieden. Wacht 5 minuten en probeer het opnieuw of schakel over naar een ander netwerk, bijvoorbeeld van wifi naar cel.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Zorg ervoor dat je een back-up maakt van je BrainKey voordat je doorgaat. Hiermee kunt u uw account herstellen voor het geval er iets gebeurt met dit apparaat.</string>
 
     <!-- Existing Account Fragment -->
     <string name="how_import_account">Hoe wilt u uw bestaande account importeren?</string>
@@ -42,12 +42,12 @@
 
     <!-- Import Brainkey Activity -->
     <string name="txt_brain_key">Brainkey</string>
-    <string name="txt_6_digits_pin">Kies een pincode met 6 of meer cijfers</string>
+    <string name="txt_6_digits_pin">Kies een pincode met 6 cijfers of meer</string>
     <string name="txt_6_digits_pin_confirm">6+ cijfers PIN bevestigen</string>
-    <string name="please_enter_6_digit_pin">Voer de pincode van zes cijfers in</string>
-    <string name="please_enter_6_digit_pin_confirm">Voer de bevestiging van uw pincode in</string>
-    <string name="mismatch_pin">Mismatch pin</string>
-    <string name="please_enter_brainkey">Voer alstublieft Brainkey in</string>
+    <string name="please_enter_6_digit_pin">Voer de pincode van zes of meer cijfers in</string>
+    <string name="please_enter_6_digit_pin_confirm">Voer ter bevestiging uw pincode nogmaals in</string>
+    <string name="mismatch_pin">PIN komt niet overeen</string>
+    <string name="please_enter_brainkey">Voer alstublieft uw Brainkey in</string>
     <string name="please_enter_correct_brainkey">Voer de juiste naam in, deze moet tussen de 12 en 16 woorden bevatten.</string>
     <string name="unable_to_load_brainkey">Kan brainkey niet laden</string>
     <string name="account_already_exist">Account bestaat al</string>
@@ -67,11 +67,11 @@
     <string name="importing_keys_from_bin_file">"Sleutels importeren uit Bin-bestand"</string>
     <string name="please_make_sure_your_bin_file">Zorg ervoor dat uw pin correct is of dat het juiste bin-bestand is geselecteerd</string>
     <string name="missing_existing_password">Voer het wachtwoord in dat is gebruikt om dit back-upbestand te versleutelen</string>
-    <string name="pin_number_request">Voer het pincode in die is gebruikt om dit back-upbestand te coderen</string>
+    <string name="pin_number_request">Voer de pincode in die is gebruikt om dit back-upbestand te coderen</string>
     <string name="pin_number_warning">Het pincode moet uit minimaal 6 cijfers bestaan</string>
     <string name="backup_error_no_key_reference_found">Er is geen account gevonden met behulp van deze sleutel. Controleer of u een bijgewerkt back-upbestand gebruikt.</string>
     <string name="backup_error_no_wallet_backup">Er is geen portefeuilleback-up gevonden in dit bestand</string>
-    <string name="error_invalid_account">Ongeldig account, controleer je hersensleutel voor typfouten</string>
+    <string name="error_invalid_account">Ongeldig account, controleer je BrainKey voor typfouten</string>
 
     <!-- Setup Process -->
     <string name="txt_import">Importeren</string>

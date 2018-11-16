@@ -76,25 +76,25 @@
     <!-- Setup Process -->
     <string name="txt_import">Importeren</string>
     <string name="title_account_load_result">Account geladen</string>
-    <string name="button_change_account">Verandering</string>
-    <string name="title_select_input_assets">Selecteer de te accepteren activa.</string>
-    <string name="explanation_account_setup">U moet een Bitshares-account instellen om betalingen te ontvangen. Of als u er al een hebt, kunt u deze hier importeren.</string>
+    <string name="button_change_account">Van account wisselen</string>
+    <string name="title_select_input_assets">Selecteer de te accepteren assets.</string>
+    <string name="explanation_account_setup">U moet een BitShares-account instellen om betalingen te ontvangen. Als u er al een hebt, kunt u deze hier importeren.</string>
     <string name="explanation_output_asset">Kies de gewenste Smartcoin:</string>
-    <string name="next">volgende</string>
-    <string name="done">Gedaan</string>
+    <string name="next">Volgende</string>
+    <string name="done">Gereed</string>
 
     <!-- Main Activity -->
     <string name="txt_pay_with">Betaal met</string>
     <string name="error_corrupted_key_title">Sleutel corruptie fout</string>
-    <string name="error_corrupted_key_content">De app kan uw gecodeerde privésleutels niet uit de database herstellen. Hierdoor bent u verplicht uw sleutels opnieuw in te voeren. Ofwel in de vorm van een brainkey of het bin-back-upbestand dat automatisch in uw sdcard is gegenereerd en opgeslagen als het account door de app is gemaakt</string>
+    <string name="error_corrupted_key_content">De app kan uw gecodeerde privésleutels niet uit de database herstellen. Hierdoor bent u verplicht uw sleutels opnieuw in te voeren. Ofwel in de vorm van een brainkey of het .bin-back-upbestand dat automatisch in uw telefoongeheugen is gegenereerd en opgeslagen wanneer het account door de app gemaakt werd</string>
     <string name="invalid_pin">Ongeldige pincode</string>
 
     <!-- Main Activity Drawer -->
-    <string name="txt_home">Huis</string>
-    <string name="txt_transactions">transacties</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_transactions">Transacties</string>
     <string name="txt_refunds_returns">Restituties / Retouren</string>
-    <string name="txt_settlement">Nederzetting</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares-knooppunten</string>
+    <string name="txt_settlement">Uitbetaling</string>
+    <string name="bitshares_nodes_dialog_title">Bitshares-nodes</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Te betalen bedrag</string>
@@ -115,12 +115,12 @@
     <string name="content_error_market">Er zijn geen opdrachten in de DEX die ons in staat stellen om op dit moment de uitwisseling met %1$s uit te voeren. \n \nGa naar het instellingenscherm en selecteer een ander uitvoeritem.</string>
 
     <!-- QR Code Activity -->
-    <string name="txt_please_pay">Betaal alsjeblieft</string>
+    <string name="txt_please_pay">Betaal alstublieft</string>
     <string name="please_pay_s_s">Betaal alstublieft: %1$s %2$s</string>
     <string name="to_s">Aan: %1$s</string>
-    <string name="txt_network">Netwerk vergoeding</string>
+    <string name="txt_network">Netwerk fee</string>
     <string name="txt_please_wait">Even geduld aub</string>
-    <string name="error_node_unreachable">Geen knooppunt kan worden bereikt</string>
+    <string name="error_node_unreachable">Geen node kan worden bereikt</string>
     <string name="invoice_subject">PalmPay-factuur van %1$s</string>
     <string name="before_s">Vóór: %1$s</string>
     <string name="share">Delen</string>
@@ -136,19 +136,19 @@
     <string name="dialog_generic_msg_confirm">Houd er rekening mee dat deze actie niet ongedaan kan worden gemaakt</string>
     <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
     <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
-    <string name="dismiss">ontslaan</string>
+    <string name="dismiss">Verbergen</string>
 
     <!-- Payment Confirmed Dialog -->
     <string name="title_payment_confirmed">Betaling bevestigd!</string>
-    <string name="txt_cool">KOEL!</string>
+    <string name="txt_cool">Super!</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">instellingen</string>
     <string name="general">Algemeen</string>
     <string name="security">Veiligheid</string>
-    <string name="backups">backups</string>
-    <string name="tokens">tokens</string>
-    <string name="accounts">accounts</string>
+    <string name="backups">Backups</string>
+    <string name="tokens">Tokens</string>
+    <string name="accounts">Accounts</string>
     <string name="e_receipts">eReceipts</string>
 
     <!-- General Settings -->
@@ -166,42 +166,42 @@
     <string name="five_minutes">5 minuten</string>
     <string name="local_ambassador">Lokale ambassadeur</string>
     <string name="ambassador_info">PalmPay-ambassadeurs worden elke 3 seconden betaald. Hun taak is om lokale PalmPay-verkopers te ondersteunen en maandelijkse Crypto Meetups te organiseren. Als jouw stad niet wordt vermeld, heeft jouw stad nog geen PalmPay-ambassadeur. \n \nVoor meer informatie, bezoek de Agorise-community op Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
-    <string name="city">stad</string>
-    <string name="country">land</string>
+    <string name="city">Stad</string>
+    <string name="country">Land</string>
     <string name="bugs_or_ideas">Bugs of ideeën?</string>
     <string name="bugs_or_ideas_contact_info">Telegram-chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
     <string name="accept">Aanvaarden</string>
-    <string name="select">kiezen</string>
+    <string name="select">Kiezen</string>
     <string name="are_you_sure">Weet je het zeker?</string>
 
     <!-- Backups Settings -->
-    <string name="backup_brainkey">Brainstieke backup</string>
+    <string name="backup_brainkey">BrainKey backup</string>
     <string name="copied_to_clipboard">Gekopieerd naar het klembord</string>
     <string name="bin_file_description">Bin-bestand. Sla uw backup .bin-bestand altijd op naar een geheime microSD-kaart of USB-stick.</string>
     <string name="create_a_backup">Maak een back-up</string>
     <string name="brainkey_description">Brainkey. Woorden voor accountherstel die kunnen worden vastgelegd of gekopieerd, maar niet bewerkt.</string>
-    <string name="txt_brain_key_info">Print dit uit, of noteer het. Iedereen met toegang tot uw herstelsleutel heeft toegang tot fondsen binnen deze portefeuille.</string>
+    <string name="txt_brain_key_info">Print dit uit, of noteer het. Iedereen met toegang tot uw BrainKey heeft toegang tot de inhoud deze portefeuille.</string>
     <string name="view_and_copy"><![CDATA[Bekijken & kopiëren]]></string>
-    <string name="title_bin_backup">Export .bin back-up</string>
+    <string name="title_bin_backup">.bin back-up exporteren</string>
     <string name="hint_password">Wachtwoord</string>
-    <string name="hint_password_confirmation">wachtwoordbevestiging</string>
-    <string name="error_password_mandatory">Moet een wachtwoord invoeren</string>
+    <string name="hint_password_confirmation">Wachtwoordbevestiging</string>
+    <string name="error_password_mandatory">Wachtwoord verplicht</string>
     <string name="error_password_too_short">Wachtwoord is te kort</string>
     <string name="error_password_confirmation_mismatch">Wachtwoord en bevestiging komen niet overeen</string>
 
     <!-- Account Settings -->
     <string name="merchant_account_s">Verkopersaccount: %1$s</string>
     <string name="upgrade_to_ltm">Upgrade naar LTM</string>
-    <string name="upgrade_account_description">"Upgrade naar LifeTime-lidmaatschap (LTM). De LTM-accounts van bitshares betalen bijna-nulkosten, krijgen 80% cashback en bonussen voor doorverwijzingen."</string>
+    <string name="upgrade_account_description">"Upgrade naar LifeTime-lidmaatschap (LTM). De LTM-accounts van BitShares betalen bijna-nulkosten, krijgen 80% cashback en bonussen voor doorverwijzingen."</string>
     <string name="account_upgrade_title">Upgrade account</string>
-    <string name="account_upgrade_content">Met het Life Time-lidmaatschap kunt u handelen met een beperkt aantal netwerkkosten. \n \nHet wordt van kracht op het huidige account "%1$s" \n \nHet komt echter met een prijs van ongeveer 100 USD betaald in Bitshares. \n \nWeet je zeker dat je wilt doorgaan?</string>
+    <string name="account_upgrade_content">Met het LifeTime-lidmaatschap kunt u handelen met een beperkt aantal netwerkkosten. \n \nHet wordt van kracht op het huidige account "%1$s" \n \nHet komt echter met een prijs van ongeveer 100 USD betaald in Bitshares. \n \nWeet je zeker dat je wilt doorgaan?</string>
     <string name="account_upgrade_wait_content">De transactie die uw aanvraag bevat, wordt door het netwerk verwerkt</string>
-    <string name="error_upgrade_account_title">Fout bij het upgraden van een account</string>
+    <string name="error_upgrade_account_title">Fout bij het upgraden van het account</string>
     <string name="error_upgrade_account_content">Zorg ervoor dat uw account voldoende saldo heeft om de kosten te dekken</string>
-    <string name="account_upgraded_title">Account geüpgraded</string>
-    <string name="account_upgraded_content">Gefeliciteerd! uw account is nu geüpgraded naar het Lifetime-lidmaatschap.</string>
+    <string name="account_upgraded_title">Account geüpgradet</string>
+    <string name="account_upgraded_content">Gefeliciteerd! uw account is nu geüpgradet naar het LifeTime-lidmaatschap.</string>
     <string name="remove_account">Verwijder account</string>
-    <string name="remove_account_description">Verwijder deze verkopersaccount. Verwijder de bovenstaande verkopersaccount van dit apparaat en maak of importeer een andere account.</string>
+    <string name="remove_account_description">Verwijder dit verkopersaccount. Verwijder de bovenstaande verkopersaccount van dit apparaat en maak of importeer een ander account.</string>
     <string name="txt_account_remove_confirmation">"Weet u zeker dat u het account \'%1$s\' uit deze portefeuille wilt verwijderen?"</string>
     <string name="remove">Verwijderen</string>
 
@@ -209,13 +209,13 @@
     <string name="txt_desired_smartcoin">Gewenste Smartcoin</string>
     <string name="txt_customer_loyalty">Geef loyaliteitspunten uit als ...</string>
     <string name="warning_insufficient_reward_asset_balance">Je account bezit nog geen %1$s. Verwerf er een paar voordat je probeert om het aan je klanten te geven als Loyalty Points.</string>
-    <string name="send">Sturen</string>
+    <string name="send">Versturen</string>
     <string name="txt_for_every">Voor iedere</string>
-    <string name="txt_spent">doorgebracht</string>
+    <string name="txt_spent">uitgegeven</string>
     <string name="txt_bitcoin_altcoin_deposited">Accepteer maximaal 8 Cryptocurrencies:</string>
     <string name="altcoins_should_not_more_than">Selecteer niet meer dan 8 invoeritems</string>
-    <string name="bitshares_unselection_message">Het kernkenmerk Bitshares (BTS) is vereist.</string>
-    <string name="toast_low_volume_market">Marktactiva met een laag volume zijn tijdelijk uitgeschakeld. Ze worden ingeschakeld zodra het marktvolume aanzienlijk stijgt</string>
+    <string name="bitshares_unselection_message">Het kernkenmerk BitShares (BTS) is vereist.</string>
+    <string name="toast_low_volume_market">Markt assets met een laag volume zijn tijdelijk uitgeschakeld. Ze worden ingeschakeld zodra het marktvolume aanzienlijk stijgt</string>
 
     <!-- eReceipt Settings -->
     <string name="logo">Logo</string>
@@ -232,7 +232,7 @@
     <string name="unable_to_save_bin_file">Kon bin-bestand niet opslaan</string>
     <string name="creating_backup_file">Back-upbestand maken</string>
     <string name="fetching_key">Sleutel ophalen</string>
-    <string name="generating_bin_format">Het genereren van bakformaat</string>
+    <string name="generating_bin_format">Het genereren van bin-format</string>
 
     <!-- Transactions Activity -->
     <string name="search">Zoeken</string>
@@ -240,18 +240,18 @@
     <string name="export">Exporteren</string>
     <string name="confirming">Bevestiging van ...</string>
     <string name="pdf_generated_msg_s">PDF gegenereerd en opgeslagen: %1$s</string>
-    <string name="pdf_generated_msg_error_s">Onmogelijk om pdf te genereren. Probeer het opnieuw. Fout: %1$s</string>
+    <string name="pdf_generated_msg_error_s">Onmogelijk om PDF te genereren. Probeer het opnieuw. Fout: %1$s</string>
     <string name="csv_generated_msg_s">CSV gegenereerd en opgeslagen: %1$s</string>
-    <string name="csv_generated_msg_error_s">Kan csv niet genereren. Probeer het opnieuw. Fout: %1$s</string>
+    <string name="csv_generated_msg_error_s">Kan CSV niet genereren. Probeer het opnieuw. Fout: %1$s</string>
 
     <!-- Transactions Filter Options -->
     <string name="all">Alle</string>
     <string name="sent">Verzonden</string>
     <string name="received">Ontvangen</string>
     <string name="date_range">Datumbereik</string>
-    <string name="txt_to">naar</string>
-    <string name="cryptocurrency">cryptogeld</string>
-    <string name="fiat_amount">Fiat aantal</string>
+    <string name="txt_to">Naar</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="fiat_amount">Fiat bedrag</string>
     <string name="between">Tussen</string>
     <string name="and">en</string>
 
@@ -265,7 +265,7 @@
     <!-- Transactions PDF/CSV export files columns -->
     <string name="from">Van</string>
     <string name="to">Naar</string>
-    <string name="memo">memo</string>
+    <string name="memo">Memo</string>
     <string name="date">Datum</string>
     <string name="time">Tijd</string>
     <string name="crypto_amount">Crypto Bedrag</string>
@@ -278,20 +278,20 @@
     <string name="e_receipt">eReceipt</string>
     <string name="item_n">Artikel %1$d</string>
     <string name="subtotal">Sub-Total</string>
-    <string name="network_fee">Netwerk vergoeding</string>
+    <string name="network_fee">Netwerk fee</string>
     <string name="total">Totaal</string>
     <string name="paid_s_s">Betaalde %1$s %2$s</string>
-    <string name="change_due">Verandering wegens</string>
+    <string name="change_due">Wisselgeld</string>
     <string name="e_receipt_memo_s">Memo: %1$s</string>
     <string name="e_receipt_date_s">Datum: %1$s</string>
     <string name="e_receipt_tx_s">Tx: %1$s</string>
-    <string name="e_receipt_subject">PalmPay eReceipt from %1$s</string>
+    <string name="e_receipt_subject">PalmPay eReceipt van %1$s</string>
 
     <!-- Pin Activity -->
     <string name="incorrect_old_pin">Onjuiste oude pincode</string>
     <string name="pin_changed_successfully">PIN is met succes gewijzigd</string>
     <string name="please_enter_pin">Voer pincode in</string>
-    <string name="please_enter_pin_confirmation">Voer uw pincode bevestiging in</string>
+    <string name="please_enter_pin_confirmation">Voer uw pincode ter bevestiging in</string>
     <string name="title_change_pin">PIN bewerken</string>
     <string name="txt_current_pin">Huidige pincode</string>
     <string name="please_enter_old_pin">Voer alstublieft de oude pincode in</string>

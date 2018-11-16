@@ -280,7 +280,7 @@
     <string name="subtotal">Sub-Total</string>
     <string name="network_fee">Netwerk fee</string>
     <string name="total">Totaal</string>
-    <string name="paid_s_s">Betaalde %1$s %2$s</string>
+    <string name="paid_s_s">Betaald %1$s %2$s</string>
     <string name="change_due">Wisselgeld</string>
     <string name="e_receipt_memo_s">Memo: %1$s</string>
     <string name="e_receipt_date_s">Datum: %1$s</string>

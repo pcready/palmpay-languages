@@ -46,7 +46,7 @@
     <string name="txt_6_digits_pin_confirm">6+ Ziffern PIN bestätigen</string>
     <string name="please_enter_6_digit_pin">Bitte geben Sie die 6-stellige PIN ein</string>
     <string name="please_enter_6_digit_pin_confirm">Bitte geben Sie die Bestätigung Ihrer PIN-Nummer ein</string>
-    <string name="mismatch_pin">Nicht übereinstimmender Stift</string>
+    <string name="mismatch_pin">Nicht übereinstimmender PIN</string>
     <string name="please_enter_brainkey">Bitte geben Sie den Schlüssel ein</string>
     <string name="please_enter_correct_brainkey">Bitte geben Sie den richtigen Schlüssel ein, er sollte zwischen 12 und 16 Wörter haben.</string>
     <string name="unable_to_load_brainkey">Der Schlüsselkey ​​konnte nicht geladen werden</string>

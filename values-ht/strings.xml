@@ -6,13 +6,13 @@
     <string name="disagree">Pa dakò</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Loading byen ...</string>
-    <string name="title_loading_asset_type_data">Loading kalite tip avantaj ...</string>
+    <string name="title_loading_assets">Loading byen…</string>
+    <string name="title_loading_asset_type_data">Loading kalite tip avantaj…</string>
     <string name="title_assets_ready">Baz done Byenke</string>
     <string name="msg_loading_all_existing_assets">Fè yon seri de demann yo nan lòd yo jwenn lis la konplè sou tout byen ki deja egziste</string>
     <string name="msg_loading_asset_type_data">Mande plis detay byen</string>
     <string name="msg_loading_asset_in_database">Chaje %1$d byen nan baz done a</string>
-    <string name="msg_assets_loaded">Next, tanpri konfigirasyon kont ou ...</string>
+    <string name="msg_assets_loaded">Next, tanpri konfigirasyon kont ou…</string>
     <string name="error_fetching_marketcap_data">Pa t \'kapab chaje done machecap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Tanpri antre brainkey kòrèk, li ta dwe gen ant 12 ak 16 mo.</string>
     <string name="unable_to_load_brainkey">Kapab chaje brainkey</string>
     <string name="account_already_exist">Kont deja egziste</string>
-    <string name="importing_your_wallet">Enpòte bous ou ...</string>
+    <string name="importing_your_wallet">Enpòte bous ou…</string>
     <string name="account_candidates_title">Tanpri chwazi yon kont</string>
     <string name="account_candidates_content">Kle ki sòti nan brainkey sa a sanble yo dwe itilize kontwole plis pase yon kont, tanpri chwazi ki kont ou vle enpòte</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Kle koripsyon kle</string>
     <string name="error_corrupted_key_content">App a se kapab refè chif chiffres prive ou soti nan baz done a. Paske nan sa a ou pral oblije antre nan kle ou ankò. Swa nan fòm lan nan yon brainkey oswa fòme dosye a backup bin ki te pwodwi ak estoke otomatikman nan sdcard ou a si te kont lan te kreye pa app a</string>
     <string name="invalid_pin">PIN ki valab</string>
+    <string name="network_loading_user_click_toast">Rezo a chaje. Souple tann…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Kay</string>
     <string name="txt_transactions">Tranzaksyon</string>
     <string name="txt_refunds_returns">Ranbous / retounen</string>
     <string name="txt_settlement">Règleman</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares nœuds</string>
+    <string name="bitshares_nodes_dialog_title">Blòk: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Kantite lajan an</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Souple tann</string>
     <string name="error_node_unreachable">Pa gen okenn ne ka rive</string>
     <string name="invoice_subject">Faktire PalmPay soti nan %1$s</string>
+    <string name="memo_warning">REMAK: jaden an memo oblije kòrèkteman matche ak peman ou a ak demann komèsan an.</string>
     <string name="before_s">Anvan: %1$s</string>
     <string name="share">Pataje</string>
     <string name="share_with">Pataje avèk yo</string>
-    <string name="connecting">Koneksyon ...</string>
+    <string name="connecting">Koneksyon…</string>
+    <string name="error_bridge_title">Bridge erè</string>
+    <string name="error_bridge_content">Pon a konvèsyon lajan sanble ap desann. \n \nPlease kontakte sipò. \n \nError kòd se: %1$d</string>
+    <string name="button_accept_tx">Aksepte tranzaksyon</string>
+    <string name="dialog_accept_tx_title">Aksepte tranzaksyon?</string>
+    <string name="dialog_accept_tx_summary">Te tranzaksyon an te detekte, men se pa ankò konplètman konfime.</string>
+    <string name="option_add_surety">Add garanti</string>
+    <string name="option_wait">Rete tann</string>
+    <string name="option_accept">Aksepte</string>
+    <string name="title__step_payment_seen">Peman wè</string>
+    <string name="msg__step_payment_seen">Ap tann pou konfimasyon rezo a</string>
+    <string name="msg__step_payment_seen_done">Peman ki te enkli nan yon blòk</string>
+    <string name="title__step_payment_received">Peman ou resevwa</string>
+    <string name="template_tx_progress">Ap tann pou plis konfimasyon rezo. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Ase konfimasyon te resevwa</string>
+    <string name="title__step_payment_confirmed">Peman konfime</string>
+    <string name="msg__step_payment_confirmed">Tranzaksyon Sòti a komèsan ak anbasadè inisye</string>
+    <string name="msg__step_payment_confirmed_done">Pwosesis peman konplete</string>
+    <string name="error_estimate_input_content_template">Erè pandan wap eseye estime kantite lajan an. \n \n Erè nan founisè pon an: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Te gen yon erè pandan wap trete demann ou an.</string>
+    <string name="error_payment_request_content_template">Founisè Bridge la pa kapab travay sou %1$s kounye a. Tanpri eseye ankò pita. \n \nError from bridge provider: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Chwazi demann peman</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Sa a pral konekte peman an fèk ap rantre nan demann lan peman anrejistre nan %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Peman detay ki fèk ap rantre</string>
     <string name="dialog_generic_title_confirm">Èske ou sèten?</string>
-    <string name="dialog_generic_msg_confirm">Tanpri sonje ke aksyon sa a pa ka retire</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Dechè</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Peman konfime!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Peman konfime!</string>
+    <string name="button__view_transactions">Gade tranzaksyon</string>
+    <string name="template__received">Resevwa: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Anviwònman</string>
     <string name="general">Jeneral</string>
-    <string name="security">Sekirite</string>
-    <string name="backups">Sovgad</string>
-    <string name="tokens">Peye</string>
     <string name="accounts">Kont</string>
+    <string name="tokens">Peye</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Mòd lannwit</string>
+    <string name="title__local_fiat_currency">Lokal Fiat Lajan</string>
     <string name="currency_info">Se lajan an otomatikman chwazi ki baze sou lang ou ak seleksyon peyi a. Si ou vle chanje sa yo, ou dwe ale nan anviwònman sistèm mondyal la nan aparèy ou an.</string>
     <string name="screen_saver">Ekran Saver</string>
     <string name="source">Sous</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Default katab (/ PalmPay)</string>
     <string name="txt_folder">Dosye</string>
     <string name="choose">Chwazi</string>
-    <string name="screen_saver_time">Pèmèt apre ...</string>
+    <string name="folder_has_no_images_error">Erè, folder nan chwazi pa gen okenn imaj</string>
+    <string name="screen_saver_time">Pèmèt apre…</string>
     <string name="one_minute">1 minit</string>
     <string name="three_minutes">3 minit</string>
     <string name="five_minutes">5 minit</string>
@@ -169,27 +189,43 @@
     <string name="city">Vil</string>
     <string name="country">Peyi</string>
     <string name="bugs_or_ideas">Pinèz oswa Lide?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Aksepte</string>
     <string name="select">Chwazi</string>
     <string name="are_you_sure">Èske ou sèten?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">Kopi nan clipboard</string>
-    <string name="bin_file_description">Bin dosye. Toujou sove backup ou .bin dosye nan yon sekrè MicroSD kat oswa baton USB.</string>
-    <string name="create_a_backup">Kreye yon backup</string>
-    <string name="brainkey_description">Brainkey. Kont rekiperasyon mo ki ka kaptire oswa kopye, men se pa modifye.</string>
-    <string name="txt_brain_key_info">Ekri sa a soti, oswa ekri li desann. Nenpòt ki moun ki gen aksè a kle rekiperasyon ou ap gen aksè a fon nan sa a bous.</string>
-    <string name="view_and_copy"><![CDATA[View & Kopi]]></string>
-    <string name="title_bin_backup">Export .bin backup</string>
-    <string name="hint_password">Modpas</string>
-    <string name="hint_password_confirmation">Modpas konfimasyon</string>
-    <string name="error_password_mandatory">Ou dwe antre nan yon modpas</string>
-    <string name="error_password_too_short">Modpas twò kout</string>
-    <string name="error_password_confirmation_mismatch">Modpas ak konfimasyon dezekilib</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Sekirite fèmen</string>
+    <string name="title__security_dialog">Chwazi yon Lock Sekirite</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Modèl</string>
+    <string name="text__none">Okenn</string>
+    <string name="button__choose">Chwazi</string>
+    <string name="title__re_enter_your_pin">Re-antre PIN ou</string>
+    <string name="msg__enter_your_pin">Mete PIN PalmPay ou a kontinye</string>
+    <string name="error__wrong_pin">PIN mal</string>
+    <string name="title__set_palmpay_security_lock">Mete PalmPay Sekirite</string>
+    <string name="msg__set_a_pin">Pou sekirite, mete yon PIN</string>
+    <string name="msg__min_pin_length">PIN yo dwe omwen 6 chif</string>
+    <string name="title__pins_dont_match">PINs pa t \'matche ak</string>
+    <string name="title__re_enter_your_pattern">Re-antre modèl ou an</string>
+    <string name="msg__enter_your_pattern">Antre nan modèl PalmPay ou a kontinye</string>
+    <string name="msg__set_a_pattern">Pou sekirite, mete yon modèl</string>
+    <string name="msg__release_finger">Dwèt lage lè fè</string>
+    <string name="button__clear">Klè</string>
+    <string name="button__next">Apre sa</string>
+    <string name="text__draw_an_unlock_pattern">Trase yon modèl déblotché</string>
+    <string name="msg__draw_pattern_confirm">Trase modèl ankò nan konfime</string>
+    <string name="button__confirm">Konfime</string>
+    <string name="msg__your_new_unlock_pattern">Nouvo modèl déblotché ou</string>
+    <string name="error__wrong_pattern">Move modèl</string>
+    <string name="text__pattern_recorded">Modèl anrejistre</string>
+    <string name="error__connect_at_least_4_dots">Konekte omwen 4 pwen. Eseye anko.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Twòp tantativ kòrèk. Eseye ankò nan %1$d minit.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Twòp tantativ kòrèk. Eseye ankò nan %1$d segonn.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Kouran Kont</string>
     <string name="merchant_account_s">Kont komèsan: %1$s</string>
     <string name="upgrade_to_ltm">Mete ajou nan LTM</string>
     <string name="upgrade_account_description">"Upgrade to LifeTime Manm (LTM). Kont LTM Bitshares \'peye frè tou pre-zewo, jwenn 80% kachbak ak bonis pou referans."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Èske ou sèten ou vle retire \'%1$s\' kont nan sa a bous?"</string>
     <string name="remove">Retire</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Desire Smartcoin</string>
-    <string name="txt_customer_loyalty">Nimewo lwayote pwen kòm ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Sovgad</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Kopi nan clipboard</string>
+    <string name="bin_file_description">Bin dosye. Toujou sove backup ou .bin dosye nan yon sekrè MicroSD kat oswa baton USB.</string>
+    <string name="create_a_backup">Kreye yon backup</string>
+    <string name="brainkey_description">Brainkey. Kont rekiperasyon mo ki ka kaptire oswa kopye, men se pa modifye.</string>
+    <string name="txt_brain_key_info">Ekri sa a soti, oswa ekri li desann. Nenpòt ki moun ki gen aksè a kle rekiperasyon ou ap gen aksè a fon nan sa a bous.</string>
+    <string name="view_and_copy"><![CDATA[View & Kopi]]></string>
+    <string name="title_bin_backup">Export .bin backup</string>
+    <string name="hint_password">Modpas</string>
+    <string name="hint_password_confirmation">Modpas konfimasyon</string>
+    <string name="error_password_mandatory">Ou dwe antre nan yon modpas</string>
+    <string name="error_password_too_short">Modpas twò kout</string>
+    <string name="error_password_confirmation_mismatch">Modpas ak konfimasyon dezekilib</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Desire Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Tout nan Cryptocurrencies yo ke ou te resevwa, yo se otomatikman konvèti nan Smartcoin vle ou yo ak sove nan BitShares ou Merchant Kont.</string>
+    <string name="title__loyalty_points">Lwayote Pwen yo</string>
+    <string name="msg__loyalty_points_description">Loyalty Points ka otomatikman voye bay kliyan ou yo lè yo depanse lajan avèk ou. Ou dwe posede kèk nan marqueur yo ke ou vle voye bay kliyan ou yo.</string>
     <string name="warning_insufficient_reward_asset_balance">Kont ou poko posede okenn %1$s. Tanpri, jwenn kèk anvan ou eseye bay nenpòt nan kliyan ou kòm Pwen lwayote.</string>
     <string name="send">Voye</string>
     <string name="txt_for_every">Pou chak</string>
     <string name="txt_spent">te pase</string>
-    <string name="txt_bitcoin_altcoin_deposited">Aksepte jiska 8 kriptoksèr:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency Preferences</string>
+    <string name="msg__cryptocurrency_preferences_description">Chwazi jiska 8 kriptoksèr popilè ke ou pral aksepte soti nan kliyan ou yo. Sa yo pyès monnen yo pral montre moute sou homescreen la. Ou ka chanje chwa sa yo nan nenpòt ki lè.</string>
     <string name="altcoins_should_not_more_than">Tanpri chwazi pa plis pase 8 opinyon byen</string>
-    <string name="bitshares_unselection_message">Bitshares (BTS) a siy nwayo obligatwa.</string>
     <string name="toast_low_volume_market">Low mache byen volim yo andikape tanporè. Yo pral pèmèt yon fwa volim nan mache leve nan yon kantite lajan konsiderab</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Non magazen</string>
     <string name="address">Adrès</string>
@@ -238,7 +292,11 @@
     <string name="search">Search</string>
     <string name="filter">Filtè</string>
     <string name="export">Export</string>
-    <string name="confirming">Konfime ...</string>
+    <string name="text__no_transactions">Pa gen tranzaksyon</string>
+    <string name="text__awaiting_payment">Ap tann Peman…</string>
+    <string name="text__confirming">Konfime…</string>
+    <string name="text__complete">Ranpli</string>
+    <string name="text__failed">Echwe</string>
     <string name="pdf_generated_msg_s">PDF pwodwi ak sove: %1$s</string>
     <string name="pdf_generated_msg_error_s">Kapab jenere pdf. Tanpri retry. Erè: %1$s</string>
     <string name="csv_generated_msg_s">CSV pwodwi ak sove: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Erè koneksyon ne, retrying</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Erè soti nan ne ne. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Resevwa kantite lajan erè</string>
+    <string name="error_payment_amount_content">Li sanble tankou nou te resevwa mwens pase sa ki te espere. Ranbousman an pral oblije trete manyèlman.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Nou te resevwa yon peman fèk ap rantre, men yo pa ka jwenn okenn demann</string>

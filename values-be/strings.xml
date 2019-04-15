@@ -6,13 +6,13 @@
     <string name="disagree">не згаджацца</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Загрузка актываў ...</string>
-    <string name="title_loading_asset_type_data">Загрузка дадзеных тыпу актываў ...</string>
+    <string name="title_loading_assets">Загрузка актываў…</string>
+    <string name="title_loading_asset_type_data">Загрузка дадзеных тыпу актываў…</string>
     <string name="title_assets_ready">База дадзеных актываў гатовая</string>
     <string name="msg_loading_all_existing_assets">Выкананне шэрагу запытаў для таго, каб атрымаць поўны спіс усіх існуючых актываў</string>
     <string name="msg_loading_asset_type_data">Запыт больш падрабязнай інфармацыі актываў</string>
     <string name="msg_loading_asset_in_database">Загружаны %1$d актывы ў базу дадзеных</string>
-    <string name="msg_assets_loaded">Далей, калі ласка, наладзіць ваш рахунак ...</string>
+    <string name="msg_assets_loaded">Далей, калі ласка, наладзіць ваш рахунак…</string>
     <string name="error_fetching_marketcap_data">Не атрымалася загрузіць дадзеныя Капіталізацыя</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Калі ласка, увядзіце правільны brainkey, ён павінен мець ад 12 да 16 слоў.</string>
     <string name="unable_to_load_brainkey">Немагчыма ўкласці brainkey</string>
     <string name="account_already_exist">Лік ужо існуе</string>
-    <string name="importing_your_wallet">Імпарт свайго кашалька ...</string>
+    <string name="importing_your_wallet">Імпарт свайго кашалька…</string>
     <string name="account_candidates_title">Калі ласка, абярыце уліковы запіс</string>
     <string name="account_candidates_content">Ключы, атрыманыя з гэтага brainkey, здаецца, выкарыстоўваюцца для кіравання больш аднаго ўліковага запісу, калі ласка, абярыце уліковы запіс вы хочаце імпартаваць</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Ключавая памылка карупцыі</string>
     <string name="error_corrupted_key_content">Прыкладанне не можа аднавіць зашыфраваныя сакрэтныя ключы з базы дадзеных. З-за гэтага вы \ будзеце павінны ўвесці ключы зноў. Альбо ў выглядзе brainkey або сфармаваць рэзервовы файл бен, які быў створаны і захаваны аўтаматычна ў вашым SDCard, калі уліковы запіс была створана дадаткам</string>
     <string name="invalid_pin">Няправільны PIN-код</string>
+    <string name="network_loading_user_click_toast">Сетка загружаецца. Калі ласка пачакай…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">дома</string>
     <string name="txt_transactions">аперацыі</string>
     <string name="txt_refunds_returns">Звароты / вяртанне</string>
     <string name="txt_settlement">засяленне</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares вузлы</string>
+    <string name="bitshares_nodes_dialog_title">Блок: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">сума доўгу</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Калі ласка пачакай</string>
     <string name="error_node_unreachable">Ні адзін вузел не можа быць дасягнуты</string>
     <string name="invoice_subject">PalmPay рахунак-фактура ад %1$s</string>
+    <string name="memo_warning">Заўвага: Поле памяткі неабходна правільна супаставіць плацёж з просьбай гандляра \ \'s.</string>
     <string name="before_s">Да: %1$s</string>
     <string name="share">доля</string>
     <string name="share_with">Падзяліцца з</string>
-    <string name="connecting">Падключэнне ...</string>
+    <string name="connecting">Падключэнне…</string>
+    <string name="error_bridge_title">памылка моста</string>
+    <string name="error_bridge_content">Мост канвертацыі валюты, здаецца ўніз. \n \nPlease звярніцеся ў службу падтрымкі. \n \nError код: %1$d</string>
+    <string name="button_accept_tx">прыняць здзелкі</string>
+    <string name="dialog_accept_tx_title">Прыняць здзелкі?</string>
+    <string name="dialog_accept_tx_summary">Здзелка была выяўленая, але яшчэ не цалкам пацверджана.</string>
+    <string name="option_add_surety">дадаць даручальніцтва</string>
+    <string name="option_wait">пачакайце</string>
+    <string name="option_accept">прымаць</string>
+    <string name="title__step_payment_seen">аплата бачыў</string>
+    <string name="msg__step_payment_seen">Чакаецца пацьверджаньне сеткі</string>
+    <string name="msg__step_payment_seen_done">Аплата была ўключана ў блок</string>
+    <string name="title__step_payment_received">плацёж атрыманы</string>
+    <string name="template_tx_progress">Чаканне больш сеткавых пацверджанняў. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Дастаткова пацверджання атрыманых</string>
+    <string name="title__step_payment_confirmed">аплата пацверджана</string>
+    <string name="msg__step_payment_confirmed">Выхад транзакцыі гандляра і амбасадарам ініцыявалі</string>
+    <string name="msg__step_payment_confirmed_done">Апрацоўка плацяжоў завершана</string>
+    <string name="error_estimate_input_content_template">Памылка пры спробе ацаніць аб\'ём уводу. \n \n Памылка ад правайдэра моста: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Там была памылка пры апрацоўцы запыту.</string>
+    <string name="error_payment_request_content_template">Пастаўшчык Мост не можа апрацаваць %1$s прама цяпер. Калі ласка паспрабуйце зноў пазней. \n \nError ад пастаўшчыка моста: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Выберыце аплатнае патрабаванне</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Гэта дазволіць звязаць які ўваходзіць плацёж запыт раней запісаным плацежным %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Ўваходныя аплатныя рэквізіты</string>
     <string name="dialog_generic_title_confirm">Вы ўпэўнены?</string>
-    <string name="dialog_generic_msg_confirm">Звярніце ўвагу, што гэта дзеянне не можа быць адменена</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">адхіляць</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Аплата пацвярджаецца!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Аплата пацвярджаецца!</string>
+    <string name="button__view_transactions">выгляд здзелкі</string>
+    <string name="template__received">Паступіла ў рэдакцыю: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">налады</string>
     <string name="general">агульны</string>
-    <string name="security">бяспекі</string>
-    <string name="backups">рэзервовыя копіі</string>
-    <string name="tokens">лексемы</string>
     <string name="accounts">рахункі</string>
+    <string name="tokens">лексемы</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">начны рэжым</string>
+    <string name="title__local_fiat_currency">Мясцовая валюта Fiat</string>
     <string name="currency_info">Валюта выбіраецца аўтаматычна ў залежнасці ад мовы і выбару краіны. Калі вы хочаце змяніць тыя, вы павінны перайсці да глабальных налад сістэмы вашага прылады.</string>
     <string name="screen_saver">Screen Saver</string>
     <string name="source">крыніца</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Тэчка па змаўчанні (/ PalmPay)</string>
     <string name="txt_folder">хуткасшывальнік</string>
     <string name="choose">выбіраць</string>
-    <string name="screen_saver_time">Ўключыць пасля ...</string>
+    <string name="folder_has_no_images_error">Памылка, абраная тэчка не мае малюнка</string>
+    <string name="screen_saver_time">Ўключыць пасля…</string>
     <string name="one_minute">1 хвіліна</string>
     <string name="three_minutes">3 хвіліны</string>
     <string name="five_minutes">5 хвілін</string>
@@ -169,12 +189,60 @@
     <string name="city">горад</string>
     <string name="country">краіна</string>
     <string name="bugs_or_ideas">Памылкі або ідэі?</string>
-    <string name="bugs_or_ideas_contact_info">Тэлеграма чат: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Тэлеграма: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">прымаць</string>
     <string name="select">выбраць</string>
     <string name="are_you_sure">Вы ўпэўнены?</string>
 
-    <!-- Backups Settings -->
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">замак бяспекі</string>
+    <string name="title__security_dialog">выберыце блакавальны</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">шаблон</string>
+    <string name="text__none">ні</string>
+    <string name="button__choose">выбіраць</string>
+    <string name="title__re_enter_your_pin">Паўторна увядзіце PIN-код</string>
+    <string name="msg__enter_your_pin">Калі ласка, увядзіце свой PIN-код PalmPay працягнуць</string>
+    <string name="error__wrong_pin">няправільны PIN</string>
+    <string name="title__set_palmpay_security_lock">Набор PalmPay бяспекі</string>
+    <string name="msg__set_a_pin">Для забеспячэння бяспекі, усталяваць PIN-код</string>
+    <string name="msg__min_pin_length">PIN-код павінен быць не менш за 6 лічбаў</string>
+    <string name="title__pins_dont_match">Загваздкі ня \ \'т матч</string>
+    <string name="title__re_enter_your_pattern">Паўторна увядзіце шаблон</string>
+    <string name="msg__enter_your_pattern">Пакіньце Ваш шаблон PalmPay працягнуць</string>
+    <string name="msg__set_a_pattern">Для забеспячэння бяспекі, ўсталяваць шаблон</string>
+    <string name="msg__release_finger">Адпусціце палец, калі зроблена</string>
+    <string name="button__clear">ясна</string>
+    <string name="button__next">наступны</string>
+    <string name="text__draw_an_unlock_pattern">Намаляваць малюнак разблакоўкі</string>
+    <string name="msg__draw_pattern_confirm">Намалюйце шаблон яшчэ раз, каб пацвердзіць</string>
+    <string name="button__confirm">пацвердзіць</string>
+    <string name="msg__your_new_unlock_pattern">Ваш новы шаблон разблакоўкі</string>
+    <string name="error__wrong_pattern">няправільны шаблон</string>
+    <string name="text__pattern_recorded">шаблон запісаны</string>
+    <string name="error__connect_at_least_4_dots">Падключэнне па меншай меры 4 кропкі. Паспрабуй яшчэ.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Занадта шмат няўдалых спробаў. Паспрабуйце яшчэ раз празь %1$d хвілін.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Занадта шмат няўдалых спробаў. Паспрабуйце яшчэ раз празь %1$d секунд.</string>
+
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">бягучы рахунак</string>
+    <string name="merchant_account_s">Merchant Account: %1$s</string>
+    <string name="upgrade_to_ltm">Абнаўленне да LTM</string>
+    <string name="upgrade_account_description">«Абнаўленне да пажыццёвага членства (LTM). LTM рахункі Bitshares \'заплаціць каля нуля збораў, атрымаеце 80% бонус і бонусы за реферала.»</string>
+    <string name="account_upgrade_title">Абнаўленне ўліковага запісу</string>
+    <string name="account_upgrade_content">Life Time Сяброўства дазваляе гандляваць з скарочаным наборам сеткавых плат. \n \nIt ўступіць у сілу на бягучы рахунак «%1$s» \n \nIt тым не менш прыходзіць з коштам каля 100 даляраў, выплачаных у Bitshares. \n \nAre Вы ўпэўненыя, што жадаеце працягнуць?</string>
+    <string name="account_upgrade_wait_content">Здзелка, якая змяшчае Ваш запыт апрацоўваецца ў сетцы</string>
+    <string name="error_upgrade_account_title">Памылка пры спробе абнавіць уліковы запіс</string>
+    <string name="error_upgrade_account_content">Калі ласка, пераканайцеся, што ваш уліковы запіс мае дастаткова баланс, каб пакрыць выдаткі</string>
+    <string name="account_upgraded_title">кошт мадэрнізаваны</string>
+    <string name="account_upgraded_content">Віншуем! Ваш рахунак цяпер быў павышаны да Lifetime Membership.</string>
+    <string name="remove_account">Выдаліць уліковы запіс</string>
+    <string name="remove_account_description">Выдаліць гэты гандлёвы рахунак. Выдаліце ​​Merchant Account вышэй ад гэтай прылады і стварыць або імпартаваць іншы.</string>
+    <string name="txt_account_remove_confirmation">«Вы ўпэўненыя, што жадаеце выдаліць уліковы запіс %1$s з гэтага кашалька?»</string>
+    <string name="remove">выдаленне</string>
+
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">рэзервовыя копіі</string>
     <string name="backup_brainkey">Рэзервовае капіраванне brainkey</string>
     <string name="copied_to_clipboard">Скапіявана ў буфер</string>
     <string name="bin_file_description">Bin файл. Заўсёды захоўвайце рэзервовую копію файла .bin на сакрэтным MicroSD карты або USB-Stick.</string>
@@ -189,35 +257,21 @@
     <string name="error_password_too_short">Пароль занадта кароткі</string>
     <string name="error_password_confirmation_mismatch">Пароль і пацвярджэнне неадпаведнасці</string>
 
-    <!-- Account Settings -->
-    <string name="merchant_account_s">Merchant Account: %1$s</string>
-    <string name="upgrade_to_ltm">Абнаўленне да LTM</string>
-    <string name="upgrade_account_description">«Абнаўленне да пажыццёвага членства (LTM). LTM рахункі Bitshares \'заплаціць каля нуля збораў, атрымаеце 80% бонус і бонусы за реферала.»</string>
-    <string name="account_upgrade_title">Абнаўленне ўліковага запісу</string>
-    <string name="account_upgrade_content">Life Time Сяброўства дазваляе гандляваць з скарочаным наборам сеткавых плат. \n \nIt ўступіць у сілу на бягучы рахунак «%1$s» \n \nIt тым не менш прыходзіць з коштам каля 100 даляраў, выплачаных у Bitshares. \n \nAre Вы ўпэўненыя, што жадаеце працягнуць?</string>
-    <string name="account_upgrade_wait_content">Здзелка, якая змяшчае Ваш запыт апрацоўваецца ў сетцы</string>
-    <string name="error_upgrade_account_title">Памылка пры спробе абнавіць уліковы запіс</string>
-    <string name="error_upgrade_account_content">Калі ласка, пераканайцеся, што ваш уліковы запіс мае дастаткова баланс, каб пакрыць выдаткі</string>
-    <string name="account_upgraded_title">кошт мадэрнізаваны</string>
-    <string name="account_upgraded_content">Віншуем! Ваш рахунак цяпер быў павышаны да Lifetime Membership.</string>
-    <string name="remove_account">Выдаліць уліковы запіс</string>
-    <string name="remove_account_description">Выдаліць гэты гандлёвы рахунак. Выдаліце ​​Merchant Account вышэй ад гэтай прылады і стварыць або імпартаваць іншы.</string>
-    <string name="txt_account_remove_confirmation">«Вы ўпэўненыя, што жадаеце выдаліць уліковы запіс" __ 1s __ "з гэтага кашалька?»</string>
-    <string name="remove">выдаленне</string>
-
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">жаданая Smartcoin</string>
-    <string name="txt_customer_loyalty">Выпуск Loyalty Points, як ...</string>
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">жаданая Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Усе Cryptocurrencies, што вы атрымалі, аўтаматычна канвертуецца ў Жаданай Smartcoin і захаваны ў вашым акаўнце BitShares Merchant.</string>
+    <string name="title__loyalty_points">акуляры лаяльнасці</string>
+    <string name="msg__loyalty_points_description">Лаяльнасць акуляры могуць быць аўтаматычна адпраўленыя вашым кліентам, калі яны марнуюць грошы з вамі. Вы павінны валодаць некаторымі з лексем, якія вы хочаце адправіць сваім кліентам.</string>
     <string name="warning_insufficient_reward_asset_balance">Ваш уліковы запіс яшчэ не валодае якім-небудзь %1$s. Калі ласка, набыць некаторыя, перш чым спрабаваць даваць якія-небудзь сваім кліентам у якасці бонусных балаў.</string>
     <string name="send">паслаць</string>
     <string name="txt_for_every">для кожнага</string>
     <string name="txt_spent">выдаткаваны</string>
-    <string name="txt_bitcoin_altcoin_deposited">Прымаць да 8 Cryptocurrencies:</string>
+    <string name="title__cryptocurrency_preferences">криптовалюта перавагі</string>
+    <string name="msg__cryptocurrency_preferences_description">Выберыце да 8 папулярных cryptocurrencies, што вы будзеце прымаць ад сваіх кліентаў. Гэтыя манеты будуць адлюстроўвацца на галоўным экране. Вы можаце змяніць гэты выбар у любы час.</string>
     <string name="altcoins_should_not_more_than">Калі ласка, абярыце не больш за 8 ўваходных актываў</string>
-    <string name="bitshares_unselection_message">Ядро маркер Bitshares (БПС) патрабуецца.</string>
     <string name="toast_low_volume_market">Нізкі аб\'ём рынку актывы часова адключаныя. Яны будуць уключаны, калі аб\'ём рынка падымаецца на значную суму</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">лагатып</string>
     <string name="store_name">назва крамы</string>
     <string name="address">адрас</string>
@@ -238,7 +292,11 @@
     <string name="search">пошук</string>
     <string name="filter">фільтр</string>
     <string name="export">экспарт</string>
-    <string name="confirming">Пацверджанне ...</string>
+    <string name="text__no_transactions">няма Здзелкі</string>
+    <string name="text__awaiting_payment">Чаканне аплаты…</string>
+    <string name="text__confirming">Пацверджанне…</string>
+    <string name="text__complete">поўны</string>
+    <string name="text__failed">Не атрымалася</string>
     <string name="pdf_generated_msg_s">PDF створаны і захаваны: %1$s</string>
     <string name="pdf_generated_msg_error_s">Немагчыма стварыць PDF-файл. Калі ласка, паспрабуйце яшчэ раз. Памылка: %1$s</string>
     <string name="csv_generated_msg_s">CSV створаны і захаваны: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Памылка злучэння з вузлом, паўторная спроба</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Памылка ад поўнага вузла. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Атрыманае колькасць Разыходжанне</string>
+    <string name="error_payment_amount_content">Падобна на тое, што мы атрымалі менш, чым чакалася. Зварот павінен быць апрацаваны ўручную.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Мы атрымалі які ўваходзіць плацёж, але ніякага запыту не можа быць знойдзены</string>

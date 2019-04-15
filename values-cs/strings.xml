@@ -6,13 +6,13 @@
     <string name="disagree">Nesouhlasit</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Načítání položek ...</string>
-    <string name="title_loading_asset_type_data">Načítání dat typu dat ...</string>
+    <string name="title_loading_assets">Načítání položek…</string>
+    <string name="title_loading_asset_type_data">Načítání dat typu dat…</string>
     <string name="title_assets_ready">Databáze aktiv připravena</string>
     <string name="msg_loading_all_existing_assets">Proveďte řadu žádostí, abyste získali úplný seznam všech existujících aktiv</string>
     <string name="msg_loading_asset_type_data">Žádost o další podrobnosti o majetku</string>
     <string name="msg_loading_asset_in_database">Načtené položky %1$d do databáze</string>
-    <string name="msg_assets_loaded">Dále nastavte svůj účet ...</string>
+    <string name="msg_assets_loaded">Dále nastavte svůj účet…</string>
     <string name="error_fetching_marketcap_data">Nelze načíst data marketcap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Zadejte prosím správné brainkey, měl by mít mezi 12 a 16 slovy.</string>
     <string name="unable_to_load_brainkey">Nelze načíst brainkey</string>
     <string name="account_already_exist">Účet již existuje</string>
-    <string name="importing_your_wallet">Import peněženky ...</string>
+    <string name="importing_your_wallet">Import peněženky…</string>
     <string name="account_candidates_title">Vyberte prosím účet</string>
     <string name="account_candidates_content">Klíče odvozené z tohoto brainkey se zdají být použity pro ovládání více než jednoho účtu, vyberte prosím účet, který chcete importovat</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Klíčová chyba korupce</string>
     <string name="error_corrupted_key_content">Aplikace nemůže obnovit šifrované soukromé klíče z databáze. Z tohoto důvodu budete muset znovu zadat své klíče. Buď ve tvaru brainkey nebo v podobě záložního souboru zálohy, který byl automaticky generován a uložen ve vaší sdcard, pokud byl účet vytvořen aplikací</string>
     <string name="invalid_pin">Neplatný kód PIN</string>
+    <string name="network_loading_user_click_toast">Síť se načítá. Prosím, čekejte…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Domov</string>
     <string name="txt_transactions">Transakce</string>
     <string name="txt_refunds_returns">Náhrady / Návraty</string>
     <string name="txt_settlement">Vyrovnání</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares uzly</string>
+    <string name="bitshares_nodes_dialog_title">Blok: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Splatná částka</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Prosím, čekejte</string>
     <string name="error_node_unreachable">Žádný uzel nebylo dosažitelný</string>
     <string name="invoice_subject">PalmPay faktura z %1$s</string>
+    <string name="memo_warning">POZNÁMKA: Položka poznámky je povinná správně odpovídat vaší platbě s požadavkem obchodníka.</string>
     <string name="before_s">Před: %1$s</string>
     <string name="share">Podíl</string>
     <string name="share_with">Sdílet s</string>
     <string name="connecting">Spojovací…</string>
+    <string name="error_bridge_title">Chyba mostu</string>
+    <string name="error_bridge_content">Přechodový měnový most se zdá být nefunkční. \n \nProsím kontaktujte podporu. \n \nError kód je: %1$d</string>
+    <string name="button_accept_tx">Přijmout transakci</string>
+    <string name="dialog_accept_tx_title">Přijmout transakci?</string>
+    <string name="dialog_accept_tx_summary">Transakce byla zjištěna, ale ještě není plně potvrzena.</string>
+    <string name="option_add_surety">Přidat jistotu</string>
+    <string name="option_wait">Počkejte</string>
+    <string name="option_accept">Akceptovat</string>
+    <string name="title__step_payment_seen">Platba je vidět</string>
+    <string name="msg__step_payment_seen">Čekání na potvrzení sítě</string>
+    <string name="msg__step_payment_seen_done">Platba byla zahrnuta v bloku</string>
+    <string name="title__step_payment_received">Přijatá platba</string>
+    <string name="template_tx_progress">Čeká na další potvrzení sítě. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Dostalo se dost potvrzení</string>
+    <string name="title__step_payment_confirmed">Platba potvrzena</string>
+    <string name="msg__step_payment_confirmed">Byla zahájena výstupní transakce obchodníkovi a velvyslancům</string>
+    <string name="msg__step_payment_confirmed_done">Zpracování plateb bylo dokončeno</string>
+    <string name="error_estimate_input_content_template">Chyba při pokusu o odhad vstupní částky. \n \n Chyba od poskytovatele mostu: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Při zpracování vašeho požadavku došlo k chybě.</string>
+    <string name="error_payment_request_content_template">Zprostředkovatel Bridge nemůže zpracovat %1$s právě teď. Prosím zkuste to znovu později. \n \nError od poskytovatele mostu: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Vyberte požadavek na platbu</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Tím se propojí příchozí platba s dříve zaznamenanou žádostí o platbu %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Údaje o příchozích platbách</string>
     <string name="dialog_generic_title_confirm">Jsi si jistá?</string>
-    <string name="dialog_generic_msg_confirm">Upozorňujeme, že tuto akci nelze vrátit zpět</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Propustit</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Platba potvrzena!</string>
-    <string name="txt_cool">CHLADNÝ!</string>
+    <string name="title__payment_confirmed">Platba potvrzena!</string>
+    <string name="button__view_transactions">Zobrazit transakce</string>
+    <string name="template__received">Přijato: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Nastavení</string>
     <string name="general">Všeobecné</string>
-    <string name="security">Bezpečnostní</string>
-    <string name="backups">Zálohování</string>
-    <string name="tokens">Tokeny</string>
     <string name="accounts">Účty</string>
+    <string name="tokens">Tokeny</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settingsv > General -->
     <string name="night_mode">Noční režim</string>
+    <string name="title__local_fiat_currency">Místní měna Fiat</string>
     <string name="currency_info">Měna je automaticky vybrána na základě výběru jazyka a země. Chcete-li je změnit, musíte přejít na globální nastavení systému vašeho zařízení.</string>
     <string name="screen_saver">Spořič obrazovky</string>
     <string name="source">Zdroj</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Výchozí složka (/ PalmPay)</string>
     <string name="txt_folder">Složka</string>
     <string name="choose">Vybrat</string>
-    <string name="screen_saver_time">Povolit po ...</string>
+    <string name="folder_has_no_images_error">Chyba, vybraná složka nemá žádné obrázky</string>
+    <string name="screen_saver_time">Povolit po…</string>
     <string name="one_minute">1 minuta</string>
     <string name="three_minutes">3 minuty</string>
     <string name="five_minutes">5 minut</string>
@@ -169,27 +189,43 @@
     <string name="city">Město</string>
     <string name="country">Země</string>
     <string name="bugs_or_ideas">Chyby nebo nápady?</string>
-    <string name="bugs_or_ideas_contact_info">Telefonický rozhovor: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Akceptovat</string>
     <string name="select">Vybrat</string>
     <string name="are_you_sure">Jsi si jistá?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Zálohování brainkey</string>
-    <string name="copied_to_clipboard">Zkopírován do schránky</string>
-    <string name="bin_file_description">Bin soubor. Záložní soubor .bin vždy ukládejte na tajnou kartu MicroSD nebo USB Stick.</string>
-    <string name="create_a_backup">Vytvořte zálohu</string>
-    <string name="brainkey_description">Brainkey. Slova pro obnovení účtu, která mohou být zachycena nebo zkopírována, ale nikoli upravená.</string>
-    <string name="txt_brain_key_info">Vytiskněte si ho nebo si jej zapište. Každý, kdo má přístup k vašemu klíči pro obnovení, bude mít přístup k prostředkům v této peněžence.</string>
-    <string name="view_and_copy">Zobrazení a kopírování</string>
-    <string name="title_bin_backup">Exportovat zálohu .bin</string>
-    <string name="hint_password">Heslo</string>
-    <string name="hint_password_confirmation">Potvrzení hesla</string>
-    <string name="error_password_mandatory">Musíte zadat heslo</string>
-    <string name="error_password_too_short">Heslo je příliš krátké</string>
-    <string name="error_password_confirmation_mismatch">Heslo a nesoulad s potvrzením</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Bezpečnostní zámek</string>
+    <string name="title__security_dialog">Vyberte bezpečnostní zámek</string>
+    <string name="text__pin">KOLÍK</string>
+    <string name="text__pattern">Vzor</string>
+    <string name="text__none">Žádný</string>
+    <string name="button__choose">Vybrat</string>
+    <string name="title__re_enter_your_pin">Zadejte znovu kód PIN</string>
+    <string name="msg__enter_your_pin">Zadejte svůj PIN PalmPay a pokračujte</string>
+    <string name="error__wrong_pin">Špatný kód PIN</string>
+    <string name="title__set_palmpay_security_lock">Nastavte bezpečnost PalmPay</string>
+    <string name="msg__set_a_pin">Pro zabezpečení nastavte kód PIN</string>
+    <string name="msg__min_pin_length">Kód PIN musí být nejméně 6 číslic</string>
+    <string name="title__pins_dont_match">PINy neodpovídají</string>
+    <string name="title__re_enter_your_pattern">Zadejte znovu vzor</string>
+    <string name="msg__enter_your_pattern">Zadejte svůj vzor PalmPay a pokračujte</string>
+    <string name="msg__set_a_pattern">Pro zabezpečení nastavte vzor</string>
+    <string name="msg__release_finger">Po dokončení uvolněte prst</string>
+    <string name="button__clear">Průhledná</string>
+    <string name="button__next">další</string>
+    <string name="text__draw_an_unlock_pattern">Nakreslete vzor odemknutí</string>
+    <string name="msg__draw_pattern_confirm">Chcete-li potvrdit, znovu nakreslete vzorek</string>
+    <string name="button__confirm">Potvrdit</string>
+    <string name="msg__your_new_unlock_pattern">Nový vzor odemknutí</string>
+    <string name="error__wrong_pattern">Špatný vzor</string>
+    <string name="text__pattern_recorded">Vzorek byl zaznamenán</string>
+    <string name="error__connect_at_least_4_dots">Připojte alespoň 4 body. Zkus to znovu.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Příliš mnoho nesprávných pokusů. Zkuste to znovu za %1$d minut.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Příliš mnoho nesprávných pokusů. Zkuste to znovu za %1$d sekund.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Běžný účet</string>
     <string name="merchant_account_s">Účet obchodníka: %1$s</string>
     <string name="upgrade_to_ltm">Upgradovat na LTM</string>
     <string name="upgrade_account_description">"Upgradujte na členství v LifeTime (LTM). Účty společnosti Bitshares za LTM zaplatí téměř nulové poplatky, získávají 80% vrácení peněz a bonusy pro doporučení."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Opravdu chcete z tohoto peněženky odstranit účet" %1$s "?"</string>
     <string name="remove">Odstranit</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Požadovaná funkce Smartcoin</string>
-    <string name="txt_customer_loyalty">Vydávat věrnostní body jako ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Zálohování</string>
+    <string name="backup_brainkey">Zálohování brainkey</string>
+    <string name="copied_to_clipboard">Zkopírován do schránky</string>
+    <string name="bin_file_description">Bin soubor. Záložní soubor .bin vždy ukládejte na tajnou kartu MicroSD nebo USB Stick.</string>
+    <string name="create_a_backup">Vytvořte zálohu</string>
+    <string name="brainkey_description">Brainkey. Slova pro obnovení účtu, která mohou být zachycena nebo zkopírována, ale nikoli upravená.</string>
+    <string name="txt_brain_key_info">Vytiskněte si ho nebo si jej zapište. Každý, kdo má přístup k vašemu klíči pro obnovení, bude mít přístup k prostředkům v této peněžence.</string>
+    <string name="view_and_copy">Zobrazení a kopírování</string>
+    <string name="title_bin_backup">Exportovat zálohu .bin</string>
+    <string name="hint_password">Heslo</string>
+    <string name="hint_password_confirmation">Potvrzení hesla</string>
+    <string name="error_password_mandatory">Musíte zadat heslo</string>
+    <string name="error_password_too_short">Heslo je příliš krátké</string>
+    <string name="error_password_confirmation_mismatch">Heslo a nesoulad s potvrzením</string>
+
+    <!-- Settingsv > Tokens -->
+    <string name="title__desired_smartcoin">Požadovaná funkce Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Všechny získané Cryptocurrences jsou automaticky převedeny do Vašeho Požadovaného Smartcoin a uloženy v obchodním účtu BitShares.</string>
+    <string name="title__loyalty_points">Věrnostní body</string>
+    <string name="msg__loyalty_points_description">Věrnostní body mohou být automaticky odeslány vašim zákazníkům, když s vámi utratí peníze. Musíte vlastnit některé tokeny, které chcete odeslat svým zákazníkům.</string>
     <string name="warning_insufficient_reward_asset_balance">Váš účet ještě nevlastní %1$s. Předtím, než se pokusíte poskytnout svým zákazníkům jako věrnostní body, získáte některé.</string>
     <string name="send">Poslat</string>
     <string name="txt_for_every">Pro každého</string>
     <string name="txt_spent">strávil</string>
-    <string name="txt_bitcoin_altcoin_deposited">Přijmout až 8 Cryptocurrencies:</string>
+    <string name="title__cryptocurrency_preferences">Předvolby kryptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">Vyberte si až 8 populárních kryptocurrencí, které přijmete od svých zákazníků. Tyto mince se zobrazí na úvodní obrazovce. Tyto možnosti můžete kdykoli změnit.</string>
     <string name="altcoins_should_not_more_than">Zvolte prosím maximálně 8 vstupních položek</string>
-    <string name="bitshares_unselection_message">Je vyžadován klíčový klíč Bitshares (BTS).</string>
     <string name="toast_low_volume_market">Tržní majetek s nízkým objemem je dočasně zakázán. Budou povoleny, jakmile objem trhu vzroste do značné míry</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settingsv > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Jméno obchodu</string>
     <string name="address">Adresa</string>
@@ -238,7 +292,11 @@
     <string name="search">Vyhledávání</string>
     <string name="filter">Filtr</string>
     <string name="export">Vývozní</string>
-    <string name="confirming">Potvrzení ...</string>
+    <string name="text__no_transactions">Žádné transakce</string>
+    <string name="text__awaiting_payment">Čekání na platbu…</string>
+    <string name="text__confirming">Potvrzení…</string>
+    <string name="text__complete">Kompletní</string>
+    <string name="text__failed">Selhalo</string>
     <string name="pdf_generated_msg_s">PDF vytvořeno a uloženo: %1$s</string>
     <string name="pdf_generated_msg_error_s">Nelze generovat pdf. Zkuste to prosím znovu. Chyba: %1$s</string>
     <string name="csv_generated_msg_s">CSV generováno a uloženo: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Chyba připojení uzlu, opakování</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Chyba z plného uzlu. Zpráva: %1$s</string>
+    <string name="error_payment_amount_title">Nedostatek přijaté částky</string>
+    <string name="error_payment_amount_content">Zdá se, že jsme dostali méně, než se očekávalo. Návrat bude muset být zpracován ručně.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Dostali jsme příchozí platbu, ale nebylo možné žádnou žádost najít</string>

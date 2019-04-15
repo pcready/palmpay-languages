@@ -6,13 +6,13 @@
     <string name="disagree">макул</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Loading каражаттар ...</string>
-    <string name="title_loading_asset_type_data">Мүлк түрү маалыматтарды жүктөлүүдө ...</string>
+    <string name="title_loading_assets">Loading каражаттар…</string>
+    <string name="title_loading_asset_type_data">Мүлк түрү маалыматтарды жүктөлүүдө…</string>
     <string name="title_assets_ready">Мүлк базасы даяр</string>
     <string name="msg_loading_all_existing_assets">үчүн суроо-бир катар жүргүзүүгө бардык иштеп жаткан каражаттардын толук тизмегин алуу</string>
     <string name="msg_loading_asset_type_data">андан ары мүлк маалымат суралууда</string>
     <string name="msg_loading_asset_in_database">базасына %1$d мүлкүн Улант</string>
-    <string name="msg_assets_loaded">Кийинки, сиздин аккаунт суранам орнотуу ...</string>
+    <string name="msg_assets_loaded">Кийинки, сиздин аккаунт суранам орнотуу…</string>
     <string name="error_fetching_marketcap_data">marketcap маалымат жүктөлгөн жок</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Сураныч, туура brainkey киргизип, 12 жана 16-аяттардагы сөздөрү бири болушу керек.</string>
     <string name="unable_to_load_brainkey">brainkey жүктөлбөй жатат</string>
     <string name="account_already_exist">бар эсеби</string>
-    <string name="importing_your_wallet">Капчык импорттолууда ...</string>
+    <string name="importing_your_wallet">Капчык импорттолууда…</string>
     <string name="account_candidates_title">Сураныч, эсеп тандоо</string>
     <string name="account_candidates_content">Бул brainkey алынган ачкычтар бир эмес, бир нече каттоо жазуусун башкаруу үчүн колдонулат окшойт, сен импорттоого каалаган эсеп турган сураныч тандоо</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Негизги паракорчулук ката</string>
     <string name="error_corrupted_key_content">колдонмо базасын өз ИП купуя ачкычтарды калыбына келтире албайт. Анткени сен \ бул "кайра баскычтарын кирүү үчүн талап кылынат жөнөтөбүз. Бул эсеп колдонмо тарабынан түзүлгөн болсо, бир brainkey же өндүрүлгөн жана sdcard дароо сакталган бин камдык билэни пайда түрүндө</string>
     <string name="invalid_pin">Жараксыз PIN</string>
+    <string name="network_loading_user_click_toast">Network жүктөөдө. Сураныч, күтүп…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">үй</string>
     <string name="txt_transactions">бүтүмдөр</string>
     <string name="txt_refunds_returns">Төлөп берүүлөр / кетет</string>
     <string name="txt_settlement">чечүү</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares бездери</string>
+    <string name="bitshares_nodes_dialog_title">Блок: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">өлчөмү</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Сураныч, күтө</string>
     <string name="error_node_unreachable">Эч бир түйүн жетти мүмкүн</string>
     <string name="invoice_subject">%1$s тартып PalmPay эсеп-дүмүрчөк</string>
+    <string name="memo_warning">ЭСКЕРТҮҮ: эсине талаа туура соодагер \ "суранычы менен төлөп дал талап кылынат.</string>
     <string name="before_s">Чейин: %1$s</string>
     <string name="share">Бөлүшүү</string>
     <string name="share_with">менен бөлүшүү</string>
-    <string name="connecting">Туташууда ...</string>
+    <string name="connecting">Туташууда…</string>
+    <string name="error_bridge_title">Bridge ката</string>
+    <string name="error_bridge_content">акча айландыруу көпүрө кулап окшойт. \n \nPlease байланыш колдоо. \n \nError коду: %1$d</string>
+    <string name="button_accept_tx">бүтүм кабыл алуу</string>
+    <string name="dialog_accept_tx_title">бүтүм кабыл?</string>
+    <string name="dialog_accept_tx_summary">бүтүм табылды, бирок толугу менен тастыкталган жок.</string>
+    <string name="option_add_surety">кепилге кошуу</string>
+    <string name="option_wait">күтүү</string>
+    <string name="option_accept">кабыл алуу</string>
+    <string name="title__step_payment_seen">Төлөм көргөн</string>
+    <string name="msg__step_payment_seen">тармак ырастоо үчүн күтүүдө</string>
+    <string name="msg__step_payment_seen_done">Төлөм блок-жылы киргизилген</string>
+    <string name="title__step_payment_received">Төлөм кабыл алынды</string>
+    <string name="template_tx_progress">көп тармак ырасталган күтүлүүдө. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Жетет тастыктама алынган</string>
+    <string name="title__step_payment_confirmed">Төлөм ырасталды</string>
+    <string name="msg__step_payment_confirmed">соодагер жана элчилер менен Output бүтүм козголгон</string>
+    <string name="msg__step_payment_confirmed_done">Төлөм кайра иштетүү аяктады</string>
+    <string name="error_estimate_input_content_template">Error киргизүү суммасын аныктоо үчүн аракет кылып жатканда. \n \n көпүрө берген Error: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Сиздин суранычты иштетүү учурунда ката болду.</string>
+    <string name="error_payment_request_content_template">Bridge камсыздоочу азыр %1$s иштетүү мүмкүн болбой жатат. Сураныч, кийин кайра аракет. \n көпүрө камсыз \nError: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Select төлөм талабы</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Бул %1$s мурда жазылган төлөм суроо келип түшкөн төлөмдөрдү байланыштырат</string>
     <string name="dialog_msg_incoming_payment_details">Кирген төлөм чоо-жайы</string>
     <string name="dialog_generic_title_confirm">Ишенесиңби?</string>
-    <string name="dialog_generic_msg_confirm">Бул аракетти артка кайтаруу мүмкүн эмес экенин эске</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">бошотуу</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Төлөм ырасталды!</string>
-    <string name="txt_cool">БАРАКЕЛДЕ!</string>
+    <string name="title__payment_confirmed">Төлөм ырасталды!</string>
+    <string name="button__view_transactions">ЖМКнын бүтүмдөр</string>
+    <string name="template__received">Кабыл: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Орнотуулар</string>
     <string name="general">жалпы</string>
-    <string name="security">коопсуздук</string>
-    <string name="backups">Камдык</string>
-    <string name="tokens">Tokens</string>
     <string name="accounts">Каттоо</string>
+    <string name="tokens">Tokens</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Түнкү режим</string>
+    <string name="title__local_fiat_currency">Жергиликтүү Fiat акчалар</string>
     <string name="currency_info">акча жазуусу сиздин тилде жана өлкө тандап алуу негизинде тандалат. Эгер бул өзгөрткүбүз келсе, анда сиз түзмөктүн глобалдык система жөндөөлөрүнө баруу керек.</string>
     <string name="screen_saver">Экран сактагыч</string>
     <string name="source">булак</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">По умолчанию Папканы (/ PalmPay)</string>
     <string name="txt_folder">папка</string>
     <string name="choose">тандоо</string>
-    <string name="screen_saver_time">кийин иштетүү ...</string>
+    <string name="folder_has_no_images_error">Ката, тандап Папканы жок сүрөттөрдү элек</string>
+    <string name="screen_saver_time">кийин иштетүү…</string>
     <string name="one_minute">1 мүнөт</string>
     <string name="three_minutes">3 мүнөт</string>
     <string name="five_minutes">5 мүнөт</string>
@@ -169,27 +189,43 @@
     <string name="city">Сити</string>
     <string name="country">мамлекет</string>
     <string name="bugs_or_ideas">Bugs же Ideas?</string>
-    <string name="bugs_or_ideas_contact_info">Телеграммада мындай маек: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Телеграммада: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">кабыл алуу</string>
     <string name="select">тандоо</string>
     <string name="are_you_sure">Ишенесиңби?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">камдык brainkey</string>
-    <string name="copied_to_clipboard">тактасына көчүрүлдү</string>
-    <string name="bin_file_description">Бин билэ. Ар дайым жашыруун MicroSD картасы же USB карманууга Камдык .bin сактап.</string>
-    <string name="create_a_backup">камдык сактоо</string>
-    <string name="brainkey_description">Brainkey. Каттоо эсебин калыбына келтирүү сөздөрү басып же көчүрүлүп алышы мүмкүн, бирок, түзөтүлдү эмес.</string>
-    <string name="txt_brain_key_info">Бул жерден Басып чыгаруу, же жаз. Калыбына баскычына жетүү менен кимдир бирөө бул капчыкка ичинде каражаттарды алуу мүмкүнчүлүгүнө ээ болот.</string>
-    <string name="view_and_copy"><![CDATA[ЖМКнын & Көчүрүү]]></string>
-    <string name="title_bin_backup">Экспорт .bin камдоону</string>
-    <string name="hint_password">Купуя сөз</string>
-    <string name="hint_password_confirmation">Сырсөз ырастоо</string>
-    <string name="error_password_mandatory">сырсөз керек</string>
-    <string name="error_password_too_short">Сырсөз өтө кыска</string>
-    <string name="error_password_confirmation_mismatch">Сырсөз жана анын ырастоосу дал келбейт</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Коопсуздук Lock</string>
+    <string name="title__security_dialog">Коопсуздук кулпуну тандоо</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Үлгү</string>
+    <string name="text__none">эч ким</string>
+    <string name="button__choose">тандоо</string>
+    <string name="title__re_enter_your_pin">Re-кире ПИН</string>
+    <string name="msg__enter_your_pin">Кириш улантуу үчүн битси PIN</string>
+    <string name="error__wrong_pin">PIN-код туура эмес</string>
+    <string name="title__set_palmpay_security_lock">Set битси коопсуздук</string>
+    <string name="msg__set_a_pin">коопсуздук үчүн PIN койду</string>
+    <string name="msg__min_pin_length">PIN кеминде 6 орундуу болуусу зарыл</string>
+    <string name="title__pins_dont_match">PINдер туура \ \'дер дал келүү</string>
+    <string name="title__re_enter_your_pattern">Re-кире үлгүнү</string>
+    <string name="msg__enter_your_pattern">улантуу үчүн битси үлгү кириш</string>
+    <string name="msg__set_a_pattern">коопсуздук үчүн үлгү калтырган</string>
+    <string name="msg__release_finger">Бүткөндө манжасын бошоткула</string>
+    <string name="button__clear">ачык</string>
+    <string name="button__next">кийинки</string>
+    <string name="text__draw_an_unlock_pattern">Кулпуну ачуу үлгүсүн жакындагыла</string>
+    <string name="msg__draw_pattern_confirm">ырастоо үчүн, үлгү ачкычты</string>
+    <string name="button__confirm">ырастоо</string>
+    <string name="msg__your_new_unlock_pattern">Сиздин жаңы үлгү</string>
+    <string name="error__wrong_pattern">Үлгү туура эмес</string>
+    <string name="text__pattern_recorded">Үлгү жазылган</string>
+    <string name="error__connect_at_least_4_dots">жок эле дегенде 4 чекиттерди бириктире. Кайра аракет кыл.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Туура эмес аракеттер өтө көп. %1$d мүнөттөн кийин кайра аракет кыл.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Туура эмес аракеттер өтө көп. %1$d секундадан кийин дагы аракет кылып.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Учурдагы каттоо эсеби</string>
     <string name="merchant_account_s">Сатуучунун каттоо эсеби: %1$s</string>
     <string name="upgrade_to_ltm">LTM көтөрүү</string>
     <string name="upgrade_account_description">"Өмүр бою мүчөлүк (LTM). Bitshares" LTM эсептери, жакын-нөл жыйымдарды төлөөгө багыттоо үчүн 80% кешбек жана бонустарды алууну жогорулатуу ".</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Чын эле бул капчыгынан эсеп" %1$s "алып келеби?"</string>
     <string name="remove">жок кылуу</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">каалаган Smartcoin</string>
-    <string name="txt_customer_loyalty">Issue берилгендик катары Упай ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Камдык</string>
+    <string name="backup_brainkey">камдык brainkey</string>
+    <string name="copied_to_clipboard">тактасына көчүрүлдү</string>
+    <string name="bin_file_description">Бин билэ. Ар дайым жашыруун MicroSD картасы же USB карманууга Камдык .bin сактап.</string>
+    <string name="create_a_backup">камдык сактоо</string>
+    <string name="brainkey_description">Brainkey. Каттоо эсебин калыбына келтирүү сөздөрү басып же көчүрүлүп алышы мүмкүн, бирок, түзөтүлдү эмес.</string>
+    <string name="txt_brain_key_info">Бул жерден Басып чыгаруу, же жаз. Калыбына баскычына жетүү менен кимдир бирөө бул капчыкка ичинде каражаттарды алуу мүмкүнчүлүгүнө ээ болот.</string>
+    <string name="view_and_copy"><![CDATA[ЖМКнын & Көчүрүү]]></string>
+    <string name="title_bin_backup">Экспорт .bin камдоону</string>
+    <string name="hint_password">Купуя сөз</string>
+    <string name="hint_password_confirmation">Сырсөз ырастоо</string>
+    <string name="error_password_mandatory">сырсөз керек</string>
+    <string name="error_password_too_short">Сырсөз өтө кыска</string>
+    <string name="error_password_confirmation_mismatch">Сырсөз жана анын ырастоосу дал келбейт</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">каалаган Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Сиз алган Cryptocurrencies баары түрдө истаган Smartcoin айландырылат жана BitShares Сатуучунун каттоо сакталат.</string>
+    <string name="title__loyalty_points">Берилгендик упай</string>
+    <string name="msg__loyalty_points_description">Берилгендик Points Алар сени менен, акча короткону түрдө кардарлар үчүн жиберилиши мүмкүн. Сиз кардарлар жиберүүгө келиштирүү Токендер айрым ээ болушу керек.</string>
     <string name="warning_insufficient_reward_asset_balance">Сиздин эсеп ге %1$s ээ эмес. Эгер берилгендик чекити катары кардарлардын ар кандай бергенге аракет мурун айрым ээ.</string>
     <string name="send">жиберүү</string>
     <string name="txt_for_every">Ар бири үчүн</string>
     <string name="txt_spent">сарпталган</string>
-    <string name="txt_bitcoin_altcoin_deposited">8 Cryptocurrencies чейин кабыл:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency Preferences</string>
+    <string name="msg__cryptocurrency_preferences_description">Эгер керектөөчүлөрдүн кабыл 8 элдик cryptocurrencies чейин тандоо. Бул тыйындар экрандан көрүнөт. Каалаган убакта бул чечим өзгөртө аласыз.</string>
     <string name="altcoins_should_not_more_than">Сураныч, 8 киргизүү каражаттары көп эмес тандоо</string>
-    <string name="bitshares_unselection_message">Bitshares (БТС) негизги белгиси талап кылынат.</string>
     <string name="toast_low_volume_market">Төмөн көлөмү рыноктук каражаттар убактылуу токтотулган. Алар базар көлөмү бир топ суммага көтөрүлүп жолу иштетилет</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Логотип</string>
     <string name="store_name">Дүкөндүн аты</string>
     <string name="address">дарек</string>
@@ -238,7 +292,11 @@
     <string name="search">издөө</string>
     <string name="filter">чыпка</string>
     <string name="export">экспорттоо</string>
-    <string name="confirming">Ырасталууда ...</string>
+    <string name="text__no_transactions">эч кандай бүтүмдөр</string>
+    <string name="text__awaiting_payment">Төлөм күтүп…</string>
+    <string name="text__confirming">Ырасталууда…</string>
+    <string name="text__complete">бүткөн</string>
+    <string name="text__failed">ишке ашкан жок</string>
     <string name="pdf_generated_msg_s">PDF түзүлгөн жана сакталган: %1$s</string>
     <string name="pdf_generated_msg_error_s">PDF түзүү мүмкүн болбой жатат. Сураныч, кайра. Ката: %1$s</string>
     <string name="csv_generated_msg_s">CSV түзүлгөн жана сакталган: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Node туташуу катасы, дагы бир жолу аракет жасалууда</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">толук түйүнүнөн ката. Кабар: %1$s</string>
+    <string name="error_payment_amount_title">Кабыл алынган сумма айырмачылыктар</string>
+    <string name="error_payment_amount_content">Биз эмне күтүлөрүн айтып дан кем эмес добуш алган окшойт. кайтаруу кол менен кайра иштетүү керек.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Биз Кирүүчү төлөп туруп, бирок, эч кандай өтүнүч табылышы мүмкүн</string>

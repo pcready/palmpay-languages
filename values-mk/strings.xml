@@ -6,13 +6,13 @@
     <string name="disagree">Не се согласувам</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Вчитување средства ...</string>
-    <string name="title_loading_asset_type_data">Се вчитуваат податоци за тип на средства ...</string>
+    <string name="title_loading_assets">Вчитување средства…</string>
+    <string name="title_loading_asset_type_data">Се вчитуваат податоци за тип на средства…</string>
     <string name="title_assets_ready">Подготвена е база на податоци</string>
     <string name="msg_loading_all_existing_assets">Вршење серија на барања со цел да се добие комплетната листа на сите постоечки средства</string>
     <string name="msg_loading_asset_type_data">Барање дополнителни информации за средствата</string>
     <string name="msg_loading_asset_in_database">Вчитани средства %1$d во базата на податоци</string>
-    <string name="msg_assets_loaded">Следно, молам подесување на вашата сметка ...</string>
+    <string name="msg_assets_loaded">Следно, молам подесување на вашата сметка…</string>
     <string name="error_fetching_marketcap_data">Не можам да ги вчитам податоците на пазарот</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Внесете го точниот мозок, треба да има помеѓу 12 и 16 зборови.</string>
     <string name="unable_to_load_brainkey">Не може да се вчита мозочниот копче</string>
     <string name="account_already_exist">Сметката веќе постои</string>
-    <string name="importing_your_wallet">Внесување на вашиот паричник ...</string>
+    <string name="importing_your_wallet">Внесување на вашиот паричник…</string>
     <string name="account_candidates_title">Изберете сметка</string>
     <string name="account_candidates_content">Клучевите добиени од овој мозок се чини дека се користат за контрола на повеќе од една сметка, ве молиме изберете која сметка сакате да ја внесете</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Клучна грешка при корупцијата</string>
     <string name="error_corrupted_key_content">Апликацијата не може да ги поврати вашите криптирани приватни клучеви од базата на податоци. Поради ова, ќе бидете обврзани повторно да ги внесете вашите клучеви. Или во форма на мозочен удар или формирајте ја датотеката за резервна копија за бин, која беше генерирана и автоматски зачувана во вашата sdcard, ако сметката е создадена од апликацијата</string>
     <string name="invalid_pin">Невалиден PIN</string>
+    <string name="network_loading_user_click_toast">Мрежата се вчитува. Ве молам почекајте…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Дома</string>
     <string name="txt_transactions">Трансакции</string>
     <string name="txt_refunds_returns">Повраток / враќање</string>
     <string name="txt_settlement">Населба</string>
-    <string name="bitshares_nodes_dialog_title">Битшарести јазли</string>
+    <string name="bitshares_nodes_dialog_title">Блок: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Износот што го должи</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Ве молам почекајте</string>
     <string name="error_node_unreachable">Не може да се достигне ниту еден јазол</string>
     <string name="invoice_subject">Фактура на PalmPay од %1$s</string>
+    <string name="memo_warning">ЗАБЕЛЕШКА: Полето за белешки е потребно правилно да одговара на вашето плаќање со барање на трговецот.</string>
     <string name="before_s">Пред: %1$s</string>
     <string name="share">Сподели</string>
     <string name="share_with">Сподели со</string>
-    <string name="connecting">Поврзување ...</string>
+    <string name="connecting">Поврзување…</string>
+    <string name="error_bridge_title">Грешка во мостот</string>
+    <string name="error_bridge_content">Се чини дека мостот за конверзија на валутите е долу. \n \n Ве молиме контактирајте со поддршката. \n \nИнтрорен код е: %1$d</string>
+    <string name="button_accept_tx">Прифати трансакција</string>
+    <string name="dialog_accept_tx_title">Прифати трансакција?</string>
+    <string name="dialog_accept_tx_summary">Трансакцијата е откриена, но сè уште не е целосно потврдена.</string>
+    <string name="option_add_surety">Додај гаранција</string>
+    <string name="option_wait">Чекај</string>
+    <string name="option_accept">Прифати</string>
+    <string name="title__step_payment_seen">Плаќањето е видено</string>
+    <string name="msg__step_payment_seen">Чекајќи потврда за мрежа</string>
+    <string name="msg__step_payment_seen_done">Плаќањето е вклучено во блок</string>
+    <string name="title__step_payment_received">Уплатата примена</string>
+    <string name="template_tx_progress">Чекајќи повеќе мрежни потврди. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Доста потврди</string>
+    <string name="title__step_payment_confirmed">Потврдено плаќање</string>
+    <string name="msg__step_payment_confirmed">Започна излезната трансакција за трговците и амбасадорите</string>
+    <string name="msg__step_payment_confirmed_done">Процесот на плаќање е завршен</string>
+    <string name="error_estimate_input_content_template">Грешка при обидот да се процени влезната вредност. \n \n Грешка од мостот: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Имаше грешка при обработката на вашето барање.</string>
+    <string name="error_payment_request_content_template">Мостот провајдерот не може да ги обработува %1$s токму сега. Обидете се повторно подоцна. \n \nОткривање од мостот: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Изберете барање за плаќање</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Ова ќе ја поврзе исплатата на претходно платено барање за %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Детали за пристигнати плаќања</string>
     <string name="dialog_generic_title_confirm">Дали си сигурен?</string>
-    <string name="dialog_generic_msg_confirm">Забележете дека ова дејство не може да се врати</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Отфрли</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Потврдено е исплата!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Потврдено е исплата!</string>
+    <string name="button__view_transactions">Прикажи ги трансакциите</string>
+    <string name="template__received">Добиени: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Поставки</string>
     <string name="general">Општо</string>
-    <string name="security">Безбедност</string>
-    <string name="backups">Бекап</string>
-    <string name="tokens">Токени</string>
     <string name="accounts">Сметки</string>
+    <string name="tokens">Токени</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Ноќен режим</string>
+    <string name="title__local_fiat_currency">Локална валута на Fiat</string>
     <string name="currency_info">Валутата се избира автоматски врз основа на вашиот избор на јазик и држава. Ако сакате да ги промените, морате да одите до глобалните системски поставки на Вашиот уред.</string>
     <string name="screen_saver">Screen Saver</string>
     <string name="source">Извор</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Стандардна папка (/ PalmPay)</string>
     <string name="txt_folder">Папка</string>
     <string name="choose">Изберете</string>
-    <string name="screen_saver_time">Овозможи по ...</string>
+    <string name="folder_has_no_images_error">Грешка, избраната папка нема слики</string>
+    <string name="screen_saver_time">Овозможи по…</string>
     <string name="one_minute">1 минута</string>
     <string name="three_minutes">3 минути</string>
     <string name="five_minutes">5 минути</string>
@@ -169,27 +189,43 @@
     <string name="city">Град</string>
     <string name="country">Земја</string>
     <string name="bugs_or_ideas">Грешки или идеи?</string>
-    <string name="bugs_or_ideas_contact_info">Телеграмски разговор: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Прифати</string>
     <string name="select">Изберете</string>
     <string name="are_you_sure">Дали си сигурен?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Резервна копија на мозочен удар</string>
-    <string name="copied_to_clipboard">Копирано на таблата со исечоци</string>
-    <string name="bin_file_description">Бин датотека. Секогаш зачувајте ја вашата .BIN датотека во тајна MicroSD картичка или USB Stick.</string>
-    <string name="create_a_backup">Направете резервна копија</string>
-    <string name="brainkey_description">Brainkey. Зборови за наплата на сметка што може да се фатат или копираат, но не се уредуваат.</string>
-    <string name="txt_brain_key_info">Испечатете го ова или запишете го. Секој со пристап до клучот за обновување ќе има пристап до фондови во овој паричник.</string>
-    <string name="view_and_copy">Преглед и копирање</string>
-    <string name="title_bin_backup">Извоз .bin резервна копија</string>
-    <string name="hint_password">Лозинка</string>
-    <string name="hint_password_confirmation">Потврда на лозинка</string>
-    <string name="error_password_mandatory">Мора да внесете лозинка</string>
-    <string name="error_password_too_short">Лозинката е премногу кратка</string>
-    <string name="error_password_confirmation_mismatch">Лозинка и неусогласеност со потврдата</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Заклучување на безбедност</string>
+    <string name="title__security_dialog">Изберете заклучување за безбедност</string>
+    <string name="text__pin">ПИН</string>
+    <string name="text__pattern">Модел</string>
+    <string name="text__none">Никој</string>
+    <string name="button__choose">Изберете</string>
+    <string name="title__re_enter_your_pin">Повторно внесете го вашиот ПИН</string>
+    <string name="msg__enter_your_pin">Внесете го вашиот Битси PIN за да продолжите</string>
+    <string name="error__wrong_pin">Погрешен ПИН</string>
+    <string name="title__set_palmpay_security_lock">Поставете PalmPay безбедност</string>
+    <string name="msg__set_a_pin">За безбедност, поставете PIN</string>
+    <string name="msg__min_pin_length">ПИН мора да биде најмалку 6 цифри</string>
+    <string name="title__pins_dont_match">ПИН не се совпаѓаат</string>
+    <string name="title__re_enter_your_pattern">Повторно внесете ја вашата шема</string>
+    <string name="msg__enter_your_pattern">Внесете ја вашата Битси шема за да продолжите</string>
+    <string name="msg__set_a_pattern">За безбедност, поставете шема</string>
+    <string name="msg__release_finger">Отпуштете го прстот кога ќе завршите</string>
+    <string name="button__clear">Јасно</string>
+    <string name="button__next">Следно</string>
+    <string name="text__draw_an_unlock_pattern">Нацртај шема за отклучување</string>
+    <string name="msg__draw_pattern_confirm">Нацртајте ја шаблонот повторно за да потврдите</string>
+    <string name="button__confirm">Потврди</string>
+    <string name="msg__your_new_unlock_pattern">Вашата нова шема за отклучување</string>
+    <string name="error__wrong_pattern">Погрешен модел</string>
+    <string name="text__pattern_recorded">Снимката е снимена</string>
+    <string name="error__connect_at_least_4_dots">Поврзете најмалку 4 точки. Обиди се повторно.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Премногу неточни обиди. Обидете се повторно во %1$d минути.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Премногу неточни обиди. Обидете се повторно за %1$d секунди.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Моментална сметка</string>
     <string name="merchant_account_s">Трговска сметка: %1$s</string>
     <string name="upgrade_to_ltm">Надградба на LTM</string>
     <string name="upgrade_account_description">"Надградување на LifeTime членството (LTM). Битшаревите LTM сметки плаќаат речиси нула такси, добиваат 80% готовина и бонуси за реферали".</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Дали сте сигурни дека сакате да ја отстраните сметката" %1$s "од овој паричник?"</string>
     <string name="remove">Отстрани</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Посакуван Smartcoin</string>
-    <string name="txt_customer_loyalty">Идентификувајте ги точките за лојалност како ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Бекап</string>
+    <string name="backup_brainkey">Резервна копија на мозочен удар</string>
+    <string name="copied_to_clipboard">Копирано на таблата со исечоци</string>
+    <string name="bin_file_description">Бин датотека. Секогаш зачувајте ја вашата .BIN датотека во тајна MicroSD картичка или USB Stick.</string>
+    <string name="create_a_backup">Направете резервна копија</string>
+    <string name="brainkey_description">Brainkey. Зборови за наплата на сметка што може да се фатат или копираат, но не се уредуваат.</string>
+    <string name="txt_brain_key_info">Испечатете го ова или запишете го. Секој со пристап до клучот за обновување ќе има пристап до фондови во овој паричник.</string>
+    <string name="view_and_copy">Преглед и копирање</string>
+    <string name="title_bin_backup">Извоз .bin резервна копија</string>
+    <string name="hint_password">Лозинка</string>
+    <string name="hint_password_confirmation">Потврда на лозинка</string>
+    <string name="error_password_mandatory">Мора да внесете лозинка</string>
+    <string name="error_password_too_short">Лозинката е премногу кратка</string>
+    <string name="error_password_confirmation_mismatch">Лозинка и неусогласеност со потврдата</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Посакуван Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Сите Cryptocurrencies што сте ги примиле, автоматски се претвораат во вашиот Посакуван Smartcoin и се зачувуваат во вашата Merchant Account сметка.</string>
+    <string name="title__loyalty_points">Поени за лојалност</string>
+    <string name="msg__loyalty_points_description">Точките за лојалност можат автоматски да се испраќаат до вашите клиенти кога трошат пари со вас. Мора да поседувате некои од токените кои сакате да ги испратите до вашите клиенти.</string>
     <string name="warning_insufficient_reward_asset_balance">Вашата сметка сè уште не поседува %1$s. Ве молиме да се здобијат со некои пред да се обидете да им дадете на своите клиенти како Точки на лојалност.</string>
     <string name="send">Испрати</string>
     <string name="txt_for_every">За секој</string>
     <string name="txt_spent">потрошени</string>
-    <string name="txt_bitcoin_altcoin_deposited">Прифати до 8 криптовекуности:</string>
+    <string name="title__cryptocurrency_preferences">Преференции на криптовалентност</string>
+    <string name="msg__cryptocurrency_preferences_description">Изберете до 8 популарни криптовекови кои ќе ги прифатите од вашите клиенти. Овие монети ќе се појави на почеток. Овие избори можете да ги промените во секое време.</string>
     <string name="altcoins_should_not_more_than">Изберете не повеќе од 8 влезни средства</string>
-    <string name="bitshares_unselection_message">Потребна е јадрото на клучот Bitshares (BTS).</string>
     <string name="toast_low_volume_market">Средствата на пазарот со мал обем се привремено оневозможени. Тие ќе бидат овозможени откако пазарниот волумен ќе се зголеми до значителен износ</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Лого</string>
     <string name="store_name">Зачувај име</string>
     <string name="address">Адреса</string>
@@ -238,7 +292,11 @@
     <string name="search">Пребарување</string>
     <string name="filter">Филтрирај</string>
     <string name="export">Извоз</string>
-    <string name="confirming">Потврдува ...</string>
+    <string name="text__no_transactions">Нема трансакции</string>
+    <string name="text__awaiting_payment">Чекам на плаќање…</string>
+    <string name="text__confirming">Потврдува…</string>
+    <string name="text__complete">Заврши</string>
+    <string name="text__failed">Не успеа</string>
     <string name="pdf_generated_msg_s">PDF генерирани и зачувани: %1$s</string>
     <string name="pdf_generated_msg_error_s">Не може да се генерира pdf. Ве молиме обидете се повторно. Грешка: %1$s</string>
     <string name="csv_generated_msg_s">Создадено и зачувано CSV: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Грешка при поврзување на јазол, повторување</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Грешка од целосниот јазол. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Нееднаквост на примената износи</string>
+    <string name="error_payment_amount_content">Се чини дека добивме помалку од она што се очекуваше. Повратот ќе мора да биде обработен рачно.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Добивме дојдовно плаќање, но ниедно барање не може да се најде</string>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- License Activity -->
     <string name="license">Lisensya</string>
@@ -6,13 +5,13 @@
     <string name="disagree">Hindi sumang-ayon</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Naglo-load ng mga asset ...</string>
-    <string name="title_loading_asset_type_data">Naglo-load ng data ng uri ng asset ...</string>
+    <string name="title_loading_assets">Naglo-load ng mga asset…</string>
+    <string name="title_loading_asset_type_data">Naglo-load ng data ng uri ng asset…</string>
     <string name="title_assets_ready">Handa na ang database ng asset</string>
     <string name="msg_loading_all_existing_assets">Gumaganap ng isang serye ng mga kahilingan upang makuha ang kumpletong listahan ng lahat ng umiiral na mga asset</string>
     <string name="msg_loading_asset_type_data">Humihiling ng karagdagang mga detalye ng asset</string>
     <string name="msg_loading_asset_in_database">Na-load na %1$d asset sa database</string>
-    <string name="msg_assets_loaded">Susunod, paki-setup ang iyong account ...</string>
+    <string name="msg_assets_loaded">Susunod, paki-setup ang iyong account…</string>
     <string name="error_fetching_marketcap_data">Hindi ma-load ang data ng marketcap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +50,7 @@
     <string name="please_enter_correct_brainkey">Mangyaring ipasok ang tamang brainkey, dapat itong magkaroon ng 12 at 16 na salita.</string>
     <string name="unable_to_load_brainkey">Hindi ma-load ang brainkey</string>
     <string name="account_already_exist">Naririyan na ang account na ito</string>
-    <string name="importing_your_wallet">Pag-import ng iyong pitaka ...</string>
+    <string name="importing_your_wallet">Pag-import ng iyong pitaka…</string>
     <string name="account_candidates_title">Mangyaring pumili ng isang account</string>
     <string name="account_candidates_content">Ang mga key na nagmula sa brainkey na ito ay tila ginagamit upang kontrolin ang higit sa isang account, mangyaring piliin kung aling account ang nais mong i-import</string>
 
@@ -88,13 +87,14 @@
     <string name="error_corrupted_key_title">Key error sa katiwalian</string>
     <string name="error_corrupted_key_content">Hindi nabawi ng app ang iyong naka-encrypt na mga pribadong key mula sa database. Dahil dito kailangan mong ipasok muli ang iyong mga key. Alinman sa anyo ng isang brainkey o bumuo ng bin backup file na binuo at awtomatikong naka-imbak sa iyong sdcard kung ang account ay nilikha ng app</string>
     <string name="invalid_pin">Di-wastong PIN</string>
+    <string name="network_loading_user_click_toast">Naglo-load ang network. Mangyaring maghintay…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Bahay</string>
     <string name="txt_transactions">Mga transaksyon</string>
     <string name="txt_refunds_returns">Mga Refund / Pagbabalik</string>
     <string name="txt_settlement">Settlement</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares node</string>
+    <string name="bitshares_nodes_dialog_title">I-block: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Halagang dapat bayaran</string>
@@ -122,10 +122,31 @@
     <string name="txt_please_wait">Mangyaring Maghintay</string>
     <string name="error_node_unreachable">Walang node ang maabot</string>
     <string name="invoice_subject">Invoice ng PalmPay mula sa %1$s</string>
+    <string name="memo_warning">TANDAAN: Ang patlang ng memo ay kinakailangan upang maitugma nang wasto ang iyong pagbabayad sa kahilingan ng merchant.</string>
     <string name="before_s">Bago: %1$s</string>
     <string name="share">Ibahagi</string>
     <string name="share_with">Ibahagi sa</string>
-    <string name="connecting">Kumokonekta ...</string>
+    <string name="connecting">Kumokonekta…</string>
+    <string name="error_bridge_title">Error sa tulay</string>
+    <string name="error_bridge_content">Mukhang bumaba ang tulay ng conversion currency. \n \nMangyaring makipag-ugnay sa suporta. Ang \n \nError code ay: %1$d</string>
+    <string name="button_accept_tx">Tanggapin ang transaksyon</string>
+    <string name="dialog_accept_tx_title">Tanggapin ang transaksyon?</string>
+    <string name="dialog_accept_tx_summary">Nakita ang transaksyon, ngunit hindi pa nakumpirma.</string>
+    <string name="option_add_surety">Magdagdag ng surety</string>
+    <string name="option_wait">Maghintay</string>
+    <string name="option_accept">Tanggapin</string>
+    <string name="title__step_payment_seen">Nakikita ang pagbabayad</string>
+    <string name="msg__step_payment_seen">Naghihintay ng kumpirmasyon sa network</string>
+    <string name="msg__step_payment_seen_done">Ang kabayaran ay kasama sa isang bloke</string>
+    <string name="title__step_payment_received">Natanggap ang kabayaran</string>
+    <string name="template_tx_progress">Naghihintay para sa higit pang mga kumpirmasyon sa network. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Sapat na kumpirmasyon ang natanggap</string>
+    <string name="title__step_payment_confirmed">Nakumpirma ang kabayaran</string>
+    <string name="msg__step_payment_confirmed">Ang transaksyon ng Output sa mga merchant at ambassadors ay pinasimulan</string>
+    <string name="msg__step_payment_confirmed_done">Nakumpleto ang processing processing</string>
+    <string name="error_estimate_input_content_template">Error habang sinusubukang tantyahin ang halaga ng pag-input. \n \n Error sa tulay provider: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Nagkaroon ng error habang pinoproseso ang iyong kahilingan.</string>
+    <string name="error_payment_request_content_template">Hindi maaaring iproseso ng provider ng Bridge ang %1$s ngayon. Subukang muli mamaya. \n \nError mula sa tulay provider: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Pumili ng kahilingan sa pagbabayad</string>
@@ -133,26 +154,23 @@
     <string name="dialog_msg_confirm_pending_payment">I-link nito ang papasok na pagbabayad sa dating naitala na kahilingan sa pagbabayad ng %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Mga paparating na detalye ng pagbabayad</string>
     <string name="dialog_generic_title_confirm">Sigurado ka ba?</string>
-    <string name="dialog_generic_msg_confirm">Mangyaring tandaan na ang pagkilos na ito ay hindi maaaring bawiin</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Huwag pansinin</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Nakumpirma ang kabayaran!</string>
-    <string name="txt_cool">MALAMIG!</string>
+    <string name="title__payment_confirmed">Nakumpirma ang kabayaran!</string>
+    <string name="button__view_transactions">Tingnan ang Mga Transaksyon</string>
+    <string name="template__received">Natanggap: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Mga Setting</string>
     <string name="general">Pangkalahatan</string>
-    <string name="security">Seguridad</string>
-    <string name="backups">Mga Backup</string>
-    <string name="tokens">Mga Token</string>
     <string name="accounts">Mga Account</string>
+    <string name="tokens">Mga Token</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Mode ng gabi</string>
+    <string name="title__local_fiat_currency">Lokal na Fiat na Pera</string>
     <string name="currency_info">Ang pera ay awtomatikong pinili batay sa pagpili ng iyong wika at bansa. Kung gusto mong baguhin ang mga iyon, dapat kang pumunta sa mga setting ng pandaigdigang sistema ng iyong aparato.</string>
     <string name="screen_saver">Screen Saver</string>
     <string name="source">Pinagmulan</string>
@@ -160,7 +178,8 @@
     <string name="default_folder">Default na folder (/ PalmPay)</string>
     <string name="txt_folder">Folder</string>
     <string name="choose">Pumili</string>
-    <string name="screen_saver_time">Paganahin pagkatapos ...</string>
+    <string name="folder_has_no_images_error">Ang error, ang napiling folder ay walang mga imahe</string>
+    <string name="screen_saver_time">Paganahin pagkatapos…</string>
     <string name="one_minute">1 Minuto</string>
     <string name="three_minutes">3 minuto</string>
     <string name="five_minutes">5 Minuto</string>
@@ -169,27 +188,43 @@
     <string name="city">Lungsod</string>
     <string name="country">Bansa</string>
     <string name="bugs_or_ideas">Mga Bug o Mga Ideya?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Tanggapin</string>
     <string name="select">Piliin ang</string>
     <string name="are_you_sure">Sigurado ka ba?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">Kinopya sa clipboard</string>
-    <string name="bin_file_description">Bin file. Laging i-save ang iyong backup .bin file sa isang lihim na MicroSD card o USB Stick.</string>
-    <string name="create_a_backup">Gumawa ng backup</string>
-    <string name="brainkey_description">Brainkey. Mga salita sa pagbawi ng account na maaaring makuha o kopyahin, ngunit hindi na-edit.</string>
-    <string name="txt_brain_key_info">I-print ito, o isulat ito. Ang sinumang may access sa iyong recovery key ay magkakaroon ng access sa mga pondo sa loob ng wallet na ito.</string>
-    <string name="view_and_copy">Tingnan at Kopyahin</string>
-    <string name="title_bin_backup">I-export ang .bin backup</string>
-    <string name="hint_password">Password</string>
-    <string name="hint_password_confirmation">Pagkumpirma ng password</string>
-    <string name="error_password_mandatory">Dapat magpasok ng isang password</string>
-    <string name="error_password_too_short">Masyadong maikli ang password</string>
-    <string name="error_password_confirmation_mismatch">Mismatch ng password at kumpirmasyon</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Security Lock</string>
+    <string name="title__security_dialog">Pumili ng Security Lock</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Pattern</string>
+    <string name="text__none">Wala</string>
+    <string name="button__choose">Pumili</string>
+    <string name="title__re_enter_your_pin">Muling ipasok ang iyong PIN</string>
+    <string name="msg__enter_your_pin">Ipasok ang iyong PalmPay PIN upang magpatuloy</string>
+    <string name="error__wrong_pin">Maling PIN</string>
+    <string name="title__set_palmpay_security_lock">Itakda ang PalmPay Security</string>
+    <string name="msg__set_a_pin">Para sa seguridad, itakda ang isang PIN</string>
+    <string name="msg__min_pin_length">Ang PIN ay kailangang hindi bababa sa 6 na digit</string>
+    <string name="title__pins_dont_match">Ang mga PIN ay hindi tumutugma</string>
+    <string name="title__re_enter_your_pattern">Muling ipasok ang iyong pattern</string>
+    <string name="msg__enter_your_pattern">Ipasok ang iyong PalmPay pattern upang magpatuloy</string>
+    <string name="msg__set_a_pattern">Para sa seguridad, magtakda ng Pattern</string>
+    <string name="msg__release_finger">Ilabas ang daliri kapag tapos na</string>
+    <string name="button__clear">Malinaw</string>
+    <string name="button__next">Susunod</string>
+    <string name="text__draw_an_unlock_pattern">Gumuhit ng pattern sa pag-unlock</string>
+    <string name="msg__draw_pattern_confirm">Gumuhit muli ng pattern upang kumpirmahin</string>
+    <string name="button__confirm">Kumpirmahin</string>
+    <string name="msg__your_new_unlock_pattern">Ang iyong bagong pattern sa pag-unlock</string>
+    <string name="error__wrong_pattern">Maling pattern</string>
+    <string name="text__pattern_recorded">Naitala ang pattern</string>
+    <string name="error__connect_at_least_4_dots">Kumonekta ng hindi bababa sa 4 tuldok. Subukang muli.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Masyadong maraming mga maling pagtatangka. Subukan muli sa %1$d minuto.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Masyadong maraming mga maling pagtatangka. Subukan muli sa %1$d segundo.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Kasalukuyang Account</string>
     <string name="merchant_account_s">Merchant Account: %1$s</string>
     <string name="upgrade_to_ltm">Mag-upgrade sa LTM</string>
     <string name="upgrade_account_description">"I-upgrade sa LifeTime Membership (LTM). Ang mga account ng LTM ng Bitshares ay nagbabayad ng halos zero na bayad, makakuha ng 80% cashback at mga bonus para sa mga referral."</string>
@@ -205,19 +240,37 @@
     <string name="txt_account_remove_confirmation">"Sigurado ka bang gusto mong alisin ang account na \'%1$s\' mula sa wallet na ito?"</string>
     <string name="remove">Alisin</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Ninanais na Smartcoin</string>
-    <string name="txt_customer_loyalty">Issue Loyalty Points bilang ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Mga Backup</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Kinopya sa clipboard</string>
+    <string name="bin_file_description">Bin file. Laging i-save ang iyong backup .bin file sa isang lihim na MicroSD card o USB Stick.</string>
+    <string name="create_a_backup">Gumawa ng backup</string>
+    <string name="brainkey_description">Brainkey. Mga salita sa pagbawi ng account na maaaring makuha o kopyahin, ngunit hindi na-edit.</string>
+    <string name="txt_brain_key_info">I-print ito, o isulat ito. Ang sinumang may access sa iyong recovery key ay magkakaroon ng access sa mga pondo sa loob ng wallet na ito.</string>
+    <string name="view_and_copy">Tingnan at Kopyahin</string>
+    <string name="title_bin_backup">I-export ang .bin backup</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirmation">Pagkumpirma ng password</string>
+    <string name="error_password_mandatory">Dapat magpasok ng isang password</string>
+    <string name="error_password_too_short">Masyadong maikli ang password</string>
+    <string name="error_password_confirmation_mismatch">Mismatch ng password at kumpirmasyon</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Ninanais na Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Ang lahat ng mga Cryptocurrency na iyong natanggap, ay awtomatikong na-convert sa iyong Ninanais na Smartcoin at na-save sa iyong BitShares Merchant Account.</string>
+    <string name="title__loyalty_points">Mga Pondo ng Katapatan</string>
+    <string name="msg__loyalty_points_description">Ang Mga Punto ng Katapatan ay maaaring awtomatikong ipapadala sa iyong mga customer kapag gumastos sila ng pera sa iyo. Dapat mong pagmamay-ari ang ilan sa mga token na nais mong ipadala sa iyong mga customer.</string>
     <string name="warning_insufficient_reward_asset_balance">Ang iyong account ay hindi nagmamay-ari ng anumang %1$s. Mangyaring kumuha ng bago bago mo subukan na magbigay ng anuman sa iyong mga customer bilang Mga Loyalty Points.</string>
     <string name="send">Ipadala</string>
     <string name="txt_for_every">Sa bawat</string>
     <string name="txt_spent">ginugol</string>
-    <string name="txt_bitcoin_altcoin_deposited">Tanggapin ang hanggang sa 8 Cryptocurrency:</string>
+    <string name="title__cryptocurrency_preferences">Mga Kagustuhan sa Cryptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">Pumili ng hanggang sa 8 sikat na cryptocurrency na tatanggapin mo mula sa iyong mga customer. Ang mga barya na ito ay lalabas sa homescreen. Maaari mong baguhin ang mga pagpipiliang ito anumang oras.</string>
     <string name="altcoins_should_not_more_than">Mangyaring pumili ng hindi hihigit sa 8 mga asset ng pag-input</string>
-    <string name="bitshares_unselection_message">Ang token ng Bitshares (BTS) ay kinakailangan.</string>
     <string name="toast_low_volume_market">Ang mga asset ng mababang halaga ng merkado ay pansamantalang hindi pinagana. Ang mga ito ay magagawa kapag ang dami ng merkado ay umabot sa isang malaking halaga</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">I-imbak ang Pangalan</string>
     <string name="address">Address</string>
@@ -238,7 +291,11 @@
     <string name="search">Paghahanap</string>
     <string name="filter">Salain</string>
     <string name="export">I-export</string>
-    <string name="confirming">Kinukumpirma ...</string>
+    <string name="text__no_transactions">Walang mga Transaksyon</string>
+    <string name="text__awaiting_payment">Naghihintay sa Pagbabayad…</string>
+    <string name="text__confirming">Kinukumpirma…</string>
+    <string name="text__complete">Kumpletuhin</string>
+    <string name="text__failed">Nabigo</string>
     <string name="pdf_generated_msg_s">Nilikha at na-save na PDF: %1$s</string>
     <string name="pdf_generated_msg_error_s">Hindi makagawa ng pdf. Mangyaring muling subukan. Error: %1$s</string>
     <string name="csv_generated_msg_s">Nilikha at na-save ang CSV: %1$s</string>
@@ -298,6 +355,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Error sa koneksyon ng node, muling pagsusulit</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Error mula sa buong node. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Natanggap ang pagkakaiba ng halaga</string>
+    <string name="error_payment_amount_content">Tila tulad ng natanggap namin mas mababa kaysa sa kung ano ang inaasahan. Ang refund ay kailangang ma-proseso nang manu-mano.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Nakuha namin ang isang papasok na pagbabayad, ngunit walang kahilingan ang maaaring matagpuan</string>

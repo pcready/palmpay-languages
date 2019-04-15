@@ -6,13 +6,13 @@
     <string name="disagree">Dezacord</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Se încarcă active ...</string>
-    <string name="title_loading_asset_type_data">Se încarcă date despre tipul de material ...</string>
+    <string name="title_loading_assets">Se încarcă active…</string>
+    <string name="title_loading_asset_type_data">Se încarcă date despre tipul de material…</string>
     <string name="title_assets_ready">Baza de date a activelor este gata</string>
     <string name="msg_loading_all_existing_assets">Efectuați o serie de solicitări pentru a obține o listă completă a tuturor activelor existente</string>
     <string name="msg_loading_asset_type_data">Solicitarea unor detalii suplimentare privind activul</string>
     <string name="msg_loading_asset_in_database">Au fost încărcate active %1$d în baza de date</string>
-    <string name="msg_assets_loaded">Apoi, configurați-vă contul ...</string>
+    <string name="msg_assets_loaded">Apoi, configurați-vă contul…</string>
     <string name="error_fetching_marketcap_data">Nu s-au putut încărca datele de piață</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Introduceți brainkey corect, ar trebui să aibă între 12 și 16 cuvinte.</string>
     <string name="unable_to_load_brainkey">Imposibil de încărcat brainkey</string>
     <string name="account_already_exist">Contul Există deja</string>
-    <string name="importing_your_wallet">Importarea portofelului dvs. ...</string>
+    <string name="importing_your_wallet">Importarea portofelului dvs…</string>
     <string name="account_candidates_title">Selectați un cont</string>
     <string name="account_candidates_content">Cheile derivate din acest brainkey par să fie folosite pentru a controla mai multe conturi, selectați ce cont doriți să importați</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Eroare de corupție cheie</string>
     <string name="error_corrupted_key_content">Aplicația nu reușește să recupereze cheile private criptate din baza de date. Din această cauză veți fi obligați să introduceți din nou cheile. Fie sub formă de Brainkey, fie din fișierul de rezervă de rezervă care a fost generat și stocat automat în cartela dvs. sdcard dacă contul a fost creat de aplicație</string>
     <string name="invalid_pin">Cod PIN nevalid</string>
+    <string name="network_loading_user_click_toast">Rețeaua se încarcă. Te rog asteapta…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Acasă</string>
     <string name="txt_transactions">tranzacţii</string>
     <string name="txt_refunds_returns">Rambursări / Returnează</string>
     <string name="txt_settlement">așezare</string>
-    <string name="bitshares_nodes_dialog_title">Noduri Bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Blochează: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Suma datorată</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Te rog asteapta</string>
     <string name="error_node_unreachable">Nu s-ar putea ajunge la nod</string>
     <string name="invoice_subject">Factura PalmPay de la %1$s</string>
+    <string name="memo_warning">NOTĂ: Este necesar câmpul de memorie pentru a corespunde corect plății dvs. cu solicitarea comerciantului.</string>
     <string name="before_s">Înainte: %1$s</string>
     <string name="share">Acțiune</string>
     <string name="share_with">Împarte cu</string>
-    <string name="connecting">Conectarea ...</string>
+    <string name="connecting">Conectarea…</string>
+    <string name="error_bridge_title">Eroare de punte</string>
+    <string name="error_bridge_content">Podul de conversie valutară pare să fie în scădere. \n \nVă rugăm să contactați asistența. \n \nCodul erorii este: %1$d</string>
+    <string name="button_accept_tx">Acceptați tranzacția</string>
+    <string name="dialog_accept_tx_title">Acceptați tranzacția?</string>
+    <string name="dialog_accept_tx_summary">Tranzacția a fost detectată, dar nu a fost încă confirmată în întregime.</string>
+    <string name="option_add_surety">Adaugă siguranța</string>
+    <string name="option_wait">Aștepta</string>
+    <string name="option_accept">Accept</string>
+    <string name="title__step_payment_seen">Plata văzută</string>
+    <string name="msg__step_payment_seen">În așteptarea confirmării rețelei</string>
+    <string name="msg__step_payment_seen_done">Plata a fost inclusă într-un bloc</string>
+    <string name="title__step_payment_received">Plata primita</string>
+    <string name="template_tx_progress">Se așteaptă mai multe confirmări ale rețelei. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Au fost primite destul de multe confirmări</string>
+    <string name="title__step_payment_confirmed">Plata confirmată</string>
+    <string name="msg__step_payment_confirmed">Tranzacție de ieșire către comerciant și ambasadori inițiată</string>
+    <string name="msg__step_payment_confirmed_done">Modificarea procesului de plată</string>
+    <string name="error_estimate_input_content_template">Eroare la încercarea de a estima cantitatea de intrare. \n \n Eroare de la furnizorul de pod: \n \n %1$s</string>
+    <string name="error_payment_processing_content">A apărut o eroare în timpul procesării cererii dvs.</string>
+    <string name="error_payment_request_content_template">Furnizorul Bridge nu poate procesa %1$s chiar acum. Vă rugăm să încercați din nou mai târziu. \n \nError de la furnizorul de pod: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Selectați o solicitare de plată</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Aceasta va lega plata primită la solicitarea de plată înregistrată anterior de %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Detaliile de plată primite</string>
     <string name="dialog_generic_title_confirm">Esti sigur?</string>
-    <string name="dialog_generic_msg_confirm">Rețineți că această acțiune nu poate fi anulată</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">destitui</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Plata confirmată!</string>
-    <string name="txt_cool">MISTO!</string>
+    <string name="title__payment_confirmed">Plata confirmată!</string>
+    <string name="button__view_transactions">Vizualizați tranzacțiile</string>
+    <string name="template__received">Primit: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Setări</string>
     <string name="general">General</string>
-    <string name="security">Securitate</string>
-    <string name="backups">Copiile de rezervă</string>
-    <string name="tokens">Jetoane</string>
     <string name="accounts">Conturi</string>
+    <string name="tokens">Jetoane</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Modul de noapte</string>
+    <string name="title__local_fiat_currency">Moneda locală Fiat</string>
     <string name="currency_info">Moneda este selectată automat în funcție de limba și selecția țării dvs. Dacă doriți să le schimbați, trebuie să accesați setările globale de sistem ale aparatului.</string>
     <string name="screen_saver">Screen saver</string>
     <string name="source">Sursă</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Dosarul prestabilit (/ PalmPay)</string>
     <string name="txt_folder">Pliant</string>
     <string name="choose">Alege</string>
-    <string name="screen_saver_time">Activează după ...</string>
+    <string name="folder_has_no_images_error">Eroare, dosarul ales nu are imagini</string>
+    <string name="screen_saver_time">Activează după…</string>
     <string name="one_minute">1 minut</string>
     <string name="three_minutes">3 minute</string>
     <string name="five_minutes">5 minute</string>
@@ -169,27 +189,43 @@
     <string name="city">Oraș</string>
     <string name="country">Țară</string>
     <string name="bugs_or_ideas">Bugs sau idei?</string>
-    <string name="bugs_or_ideas_contact_info">Cablu de telegrame: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegramă: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Accept</string>
     <string name="select">Selectați</string>
     <string name="are_you_sure">Esti sigur?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Copie de rezervă</string>
-    <string name="copied_to_clipboard">Copiat în clipboard</string>
-    <string name="bin_file_description">Bin fișier. Salvați întotdeauna fișierul .bin de rezervă într-o cartelă secretă MicroSD sau stick USB.</string>
-    <string name="create_a_backup">Creați o copie de siguranță</string>
-    <string name="brainkey_description">Brainkey. Cuvintele de recuperare a contului care pot fi capturate sau copiate, dar nu sunt editate.</string>
-    <string name="txt_brain_key_info">Imprimați acest lucru sau scrieți-l. Oricine are acces la cheia de recuperare va avea acces la fonduri din portofel.</string>
-    <string name="view_and_copy">Vedeți și copiați</string>
-    <string name="title_bin_backup">Exportați copia de rezervă .bin</string>
-    <string name="hint_password">Parola</string>
-    <string name="hint_password_confirmation">Confirmarea parolei</string>
-    <string name="error_password_mandatory">Trebuie să introduceți o parolă</string>
-    <string name="error_password_too_short">Parola este prea scurtă</string>
-    <string name="error_password_confirmation_mismatch">Parolă și nepotrivire de confirmare</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Blocare de securitate</string>
+    <string name="title__security_dialog">Alegeți un blocaj de securitate</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Model</string>
+    <string name="text__none">Nici unul</string>
+    <string name="button__choose">Alege</string>
+    <string name="title__re_enter_your_pin">Introduceți din nou codul PIN</string>
+    <string name="msg__enter_your_pin">Introduceți PIN-ul PalmPay pentru a continua</string>
+    <string name="error__wrong_pin">Cod PIN greșit</string>
+    <string name="title__set_palmpay_security_lock">Setați securitatea PalmPay</string>
+    <string name="msg__set_a_pin">Pentru securitate, setați un cod PIN</string>
+    <string name="msg__min_pin_length">PIN-ul trebuie să fie de cel puțin 6 cifre</string>
+    <string name="title__pins_dont_match">PIN-urile nu se potrivesc</string>
+    <string name="title__re_enter_your_pattern">Reintroduceți modelul</string>
+    <string name="msg__enter_your_pattern">Introduceți modelul PalmPay pentru a continua</string>
+    <string name="msg__set_a_pattern">Pentru securitate, setați un model</string>
+    <string name="msg__release_finger">Eliberați degetul când ați terminat</string>
+    <string name="button__clear">clar</string>
+    <string name="button__next">Următor →</string>
+    <string name="text__draw_an_unlock_pattern">Desenați un model de deblocare</string>
+    <string name="msg__draw_pattern_confirm">Desenați din nou modelul pentru a confirma</string>
+    <string name="button__confirm">A confirma</string>
+    <string name="msg__your_new_unlock_pattern">Noul model de deblocare</string>
+    <string name="error__wrong_pattern">Modelul greșit</string>
+    <string name="text__pattern_recorded">Modelul înregistrat</string>
+    <string name="error__connect_at_least_4_dots">Conectați cel puțin 4 puncte. Încearcă din nou.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Prea multe încercări incorecte. Încercați din nou în %1$d minute.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Prea multe încercări incorecte. Încercați din nou în %1$d secunde.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Contul curent</string>
     <string name="merchant_account_s">Contul comerciantului: %1$s</string>
     <string name="upgrade_to_ltm">Treceți la LTM</string>
     <string name="upgrade_account_description">"Îmbunătățiți calitatea de membru al LifeTime (LTM). Conturile LTM ale Bitshares plătesc taxe de aproape zero, primiți 80% cashback și bonusuri pentru trimiteri."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Sigur doriți să eliminați contul" %1$s "din acest portofel?"</string>
     <string name="remove">Elimina</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Smartcoin dorit</string>
-    <string name="txt_customer_loyalty">Emiteți puncte de loialitate ca ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Copiile de rezervă</string>
+    <string name="backup_brainkey">Copie de rezervă</string>
+    <string name="copied_to_clipboard">Copiat în clipboard</string>
+    <string name="bin_file_description">Bin fișier. Salvați întotdeauna fișierul .bin de rezervă într-o cartelă secretă MicroSD sau stick USB.</string>
+    <string name="create_a_backup">Creați o copie de siguranță</string>
+    <string name="brainkey_description">Brainkey. Cuvintele de recuperare a contului care pot fi capturate sau copiate, dar nu sunt editate.</string>
+    <string name="txt_brain_key_info">Imprimați acest lucru sau scrieți-l. Oricine are acces la cheia de recuperare va avea acces la fonduri din portofel.</string>
+    <string name="view_and_copy">Vedeți și copiați</string>
+    <string name="title_bin_backup">Exportați copia de rezervă .bin</string>
+    <string name="hint_password">Parola</string>
+    <string name="hint_password_confirmation">Confirmarea parolei</string>
+    <string name="error_password_mandatory">Trebuie să introduceți o parolă</string>
+    <string name="error_password_too_short">Parola este prea scurtă</string>
+    <string name="error_password_confirmation_mismatch">Parolă și nepotrivire de confirmare</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Smartcoin dorit</string>
+    <string name="msg__desired_smartcoin_description">Toate criptocuritatele pe care le-ați primit sunt convertite automat în Smartcoinul dorit și salvate în contul dvs. de comercianți BitShares.</string>
+    <string name="title__loyalty_points">Puncte de loialitate</string>
+    <string name="msg__loyalty_points_description">Punctele de loialitate pot fi trimise automat clienților dvs. atunci când aceștia cheltuiesc bani cu dvs. Trebuie să dețineți câteva dintre jetoanele pe care doriți să le trimiteți clienților dvs.</string>
     <string name="warning_insufficient_reward_asset_balance">Contul dvs. nu deține încă nicio %1$s. Achiziționați câteva înainte de a încerca să oferiți clienților dvs. puncte de loialitate.</string>
     <string name="send">Trimite</string>
     <string name="txt_for_every">Pentru fiecare</string>
     <string name="txt_spent">a petrecut</string>
-    <string name="txt_bitcoin_altcoin_deposited">Acceptați până la 8 criptocuritate:</string>
+    <string name="title__cryptocurrency_preferences">Preferințele de criptare</string>
+    <string name="msg__cryptocurrency_preferences_description">Alegeți până la 8 criptocurrente populare pe care le veți accepta de la clienții dvs. Aceste monede vor apărea pe ecranul de start. Puteți schimba aceste opțiuni în orice moment.</string>
     <string name="altcoins_should_not_more_than">Selectați maximum 8 elemente de intrare</string>
-    <string name="bitshares_unselection_message">Este necesar tokenul Bitshares (BTS).</string>
     <string name="toast_low_volume_market">Activele de piață cu volum redus sunt temporar dezactivate. Acestea vor fi activate odată ce volumul pieței va crește considerabil</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Siglă</string>
     <string name="store_name">Numele magazinului</string>
     <string name="address">Adresa</string>
@@ -238,7 +292,11 @@
     <string name="search">Căutare</string>
     <string name="filter">Filtru</string>
     <string name="export">Export</string>
-    <string name="confirming">Confirmarea ...</string>
+    <string name="text__no_transactions">Nu există tranzacții</string>
+    <string name="text__awaiting_payment">În așteptarea plății…</string>
+    <string name="text__confirming">Confirmarea…</string>
+    <string name="text__complete">Complet</string>
+    <string name="text__failed">A eșuat</string>
     <string name="pdf_generated_msg_s">PDF generat și salvat: %1$s</string>
     <string name="pdf_generated_msg_error_s">Imposibil de generat pdf. Reîncercați. Eroare: %1$s</string>
     <string name="csv_generated_msg_s">CSV generate și salvate: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Eroare conexiune la nod, reîncercare</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Eroare de la nodul complet. Mesaj: %1$s</string>
+    <string name="error_payment_amount_title">Diferența sumă primită</string>
+    <string name="error_payment_amount_content">Se pare că am primit mai puțin decât era de așteptat. Rambursarea va trebui procesată manual.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Avem o plată viitoare, dar nu a putut fi găsită nicio cerere</string>

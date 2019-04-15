@@ -6,13 +6,13 @@
     <string name="disagree">Ora setuju</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Loading assets ...</string>
-    <string name="title_loading_asset_type_data">Loading data jinis aset ...</string>
+    <string name="title_loading_assets">Loading assets…</string>
+    <string name="title_loading_asset_type_data">Loading data jinis aset…</string>
     <string name="title_assets_ready">Database basis siap</string>
     <string name="msg_loading_all_existing_assets">Nindakake seri panjalukan kanggo entuk dhaptar lengkap kabeh aset sing ana</string>
     <string name="msg_loading_asset_type_data">Njaluk rincian aset liyane</string>
     <string name="msg_loading_asset_in_database">Aset %1$d dimuat menyang basis data</string>
-    <string name="msg_assets_loaded">Sabanjure, mangga persiyapan akun sampeyan ...</string>
+    <string name="msg_assets_loaded">Sabanjure, mangga persiyapan akun sampeyan…</string>
     <string name="error_fetching_marketcap_data">Ora bisa mbukak data pasar saham</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Mangga ngetik tombol karangan sing bener, mesthine duwe antara 12 lan 16 tembung.</string>
     <string name="unable_to_load_brainkey">Ora bisa mbukak brainkey</string>
     <string name="account_already_exist">Akun wis ana</string>
-    <string name="importing_your_wallet">Ngimpor dompetmu ...</string>
+    <string name="importing_your_wallet">Ngimpor dompetmu…</string>
     <string name="account_candidates_title">Mangga pilih akun</string>
     <string name="account_candidates_content">Tombol sing ditemokake saka tombol cerdas iki bakal digunakake kanggo ngontrol luwih saka siji akun, pilih akun sing pengin diimpor</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Kesalahan utama korupsi</string>
     <string name="error_corrupted_key_content">Aplikasi ora bisa ngobati kunci pribadi sing dienkripsi saka basis data. Amarga iki sampeyan bakal kudu ngetik tombol maneh. Salah siji ing wangun kunci otak utawa mbentuk file serep bin sing kui lan disimpen kanthi otomatis ing sdcard sampeyan yen akun kasebut digawe dening app</string>
     <string name="invalid_pin">PIN ora sah</string>
+    <string name="network_loading_user_click_toast">Jaringan loading. Mangga ngenteni…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Ngarep</string>
     <string name="txt_transactions">Transaksi</string>
     <string name="txt_refunds_returns">Mbalekaken / Ngasilake</string>
     <string name="txt_settlement">Perkampungan</string>
-    <string name="bitshares_nodes_dialog_title">Node bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Blokir: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Jumlah amarga</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Mangga Tunggu</string>
     <string name="error_node_unreachable">Ora ana simpul sing bisa dihubungi</string>
     <string name="invoice_subject">Faktur PalmPay dari %1$s</string>
+    <string name="memo_warning">CATETAN: Bidang memo kudu bener cocog karo pembayaran sampeyan karo permintaan pedagang.</string>
     <string name="before_s">Sadurunge: %1$s</string>
     <string name="share">Nuduhake</string>
     <string name="share_with">Nuduhake karo</string>
-    <string name="connecting">Nyambungake ...</string>
+    <string name="connecting">Nyambungake…</string>
+    <string name="error_bridge_title">Kesalahan jembatan</string>
+    <string name="error_bridge_content">Jembatan konversi mata uang katon mudhun. \n \nSampeyan hubungi support. \n \nCrack code yaiku: %1$d</string>
+    <string name="button_accept_tx">Nampa transaksi</string>
+    <string name="dialog_accept_tx_title">Nampa transaksi?</string>
+    <string name="dialog_accept_tx_summary">Transaksi wis dideteksi, nanging durung dikonfirmasi kanthi lengkap.</string>
+    <string name="option_add_surety">Tambah surety</string>
+    <string name="option_wait">Ngenteni</string>
+    <string name="option_accept">Nampa</string>
+    <string name="title__step_payment_seen">Pembayaran katon</string>
+    <string name="msg__step_payment_seen">Nunggu konfirmasi jaringan</string>
+    <string name="msg__step_payment_seen_done">Pembayaran wis klebu ing blok</string>
+    <string name="title__step_payment_received">Pembayaran ditampa</string>
+    <string name="template_tx_progress">Nunggu konfirmasi jaringan luwih akeh. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Konfirmasi sing cukup ditampa</string>
+    <string name="title__step_payment_confirmed">Pembayaran dikonfirmasi</string>
+    <string name="msg__step_payment_confirmed">Transaksi transaksi kanggo merchant lan utusan diwiwiti</string>
+    <string name="msg__step_payment_confirmed_done">Proses pembayaran rampung</string>
+    <string name="error_estimate_input_content_template">Kesalahan nalika nyoba ngestimasi jumlah input. \n \n Kesalahan saka penyedia jembatan: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Ana kesalahan nalika proses panyuwunan sampeyan.</string>
+    <string name="error_payment_request_content_template">Penyedia jembatan tidak bisa proses %1$s sekarang. Mangga nyoba maneh mengko. \n \nError from bridge provider: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Pilih panyuwunan</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Iki bakal nandhani pembayaran sing mlebu ing panjalukan pembayaran sing wis direkam saka %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Rincian pembayaran sing bakal teka</string>
     <string name="dialog_generic_title_confirm">Apa sampeyan yakin?</string>
-    <string name="dialog_generic_msg_confirm">Elinga yen tindakan iki ora bisa dibatalake</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Tolak</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Pembayaran dikonfirmasi!</string>
-    <string name="txt_cool">Cepet!</string>
+    <string name="title__payment_confirmed">Pembayaran dikonfirmasi!</string>
+    <string name="button__view_transactions">Ndeleng Transaksi</string>
+    <string name="template__received">Ditampa: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Setelan</string>
     <string name="general">Umum</string>
-    <string name="security">Keamanan</string>
-    <string name="backups">Nggawe</string>
-    <string name="tokens">Token</string>
     <string name="accounts">Akun</string>
+    <string name="tokens">Token</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Mode wengi</string>
+    <string name="title__local_fiat_currency">Mata Wang Fiat lokal</string>
     <string name="currency_info">Mata uang otomatis dipilih miturut pilihan basa lan negara sampeyan. Yen sampeyan pengin ngganti, sampeyan kudu pindhah menyang setelan sistem global ing piranti sampeyan.</string>
     <string name="screen_saver">Screen Saver</string>
     <string name="source">Sumber</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Folder standar (/ PalmPay)</string>
     <string name="txt_folder">Folder</string>
     <string name="choose">Pilih</string>
-    <string name="screen_saver_time">Aktifake sawise ...</string>
+    <string name="folder_has_no_images_error">Kesalahan, folder sing dipilih ora duwe gambar</string>
+    <string name="screen_saver_time">Aktifake sawise…</string>
     <string name="one_minute">1 Minute</string>
     <string name="three_minutes">3 Menit</string>
     <string name="five_minutes">5 Menit</string>
@@ -169,27 +189,43 @@
     <string name="city">Kutha</string>
     <string name="country">Negara</string>
     <string name="bugs_or_ideas">Bugs utawa Ideas?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram chatting: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Nampa</string>
     <string name="select">Pilih</string>
     <string name="are_you_sure">Apa sampeyan yakin?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Gawe serep otak</string>
-    <string name="copied_to_clipboard">Disalin menyang clipboard</string>
-    <string name="bin_file_description">File bin. Tansah simpen serep. Mbisakake file menyang kertu MicroSD rahasia utawa USB Stick.</string>
-    <string name="create_a_backup">Nggawe cadangan</string>
-    <string name="brainkey_description">Brainkey. Tembung pemulihan akun sing bisa ditangkep utawa disalin, nanging ora diowahi.</string>
-    <string name="txt_brain_key_info">Print metu iki, utawa nulis. Sapa wae sing nduweni akses menyang tombol pemulihan sampeyan bakal nduweni akses menyang dana ing dompet iki.</string>
-    <string name="view_and_copy"><![CDATA[Ndeleng & Nyalin]]></string>
-    <string name="title_bin_backup">Ekspor .bin cadangan</string>
-    <string name="hint_password">Pangguna Sandi</string>
-    <string name="hint_password_confirmation">Konfirmasi sandhi</string>
-    <string name="error_password_mandatory">Kudu mlebu sandhi</string>
-    <string name="error_password_too_short">Pangguna sithik banget</string>
-    <string name="error_password_confirmation_mismatch">Sandi lan konfirmasi ora cocog</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Kunci Keamanan</string>
+    <string name="title__security_dialog">Pilih Kunci Keamanan</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Pola</string>
+    <string name="text__none">Ora Ana</string>
+    <string name="button__choose">Pilih</string>
+    <string name="title__re_enter_your_pin">Ketik maneh PIN</string>
+    <string name="msg__enter_your_pin">Ketik PIN PalmPay terus</string>
+    <string name="error__wrong_pin">PIN salah</string>
+    <string name="title__set_palmpay_security_lock">Setel Keamanan PalmPay</string>
+    <string name="msg__set_a_pin">Kanggo keamanan, atur PIN</string>
+    <string name="msg__min_pin_length">PIN kudu paling sethithik 6 digit</string>
+    <string name="title__pins_dont_match">PIN ora cocok</string>
+    <string name="title__re_enter_your_pattern">Lebokake maneh pola sampeyan</string>
+    <string name="msg__enter_your_pattern">Ketik pola PalmPay terus</string>
+    <string name="msg__set_a_pattern">Kanggo keamanan, atur pola</string>
+    <string name="msg__release_finger">Muter driji nalika rampung</string>
+    <string name="button__clear">Mbusak</string>
+    <string name="button__next">Sabanjure</string>
+    <string name="text__draw_an_unlock_pattern">Gambar pola bukak kunci</string>
+    <string name="msg__draw_pattern_confirm">Tulis pola maneh kanggo konfirmasi</string>
+    <string name="button__confirm">Konfirmasi</string>
+    <string name="msg__your_new_unlock_pattern">Pola pambuka kunci sampeyan anyar</string>
+    <string name="error__wrong_pattern">Pola salah</string>
+    <string name="text__pattern_recorded">Pola direkam</string>
+    <string name="error__connect_at_least_4_dots">Sambungake paling ora 4 titik. Coba maneh.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Kakehan usaha sing salah. Coba maneh ing menit %1$d.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Kakehan usaha sing salah. Coba maneh ing %1$d detik.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Akun saiki</string>
     <string name="merchant_account_s">Akun Merchant: %1$s</string>
     <string name="upgrade_to_ltm">Nganyarke menyang LTM</string>
     <string name="upgrade_account_description">"Nganyarke kanggo LifeTime Keanggotaan (LTM). Akun LTM Bitshares mbayar biaya nampi nampani, njaluk dhuwit 80% lan bonus kanggo pitunjuk."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Apa sampeyan pengin mbusak akun \'%1$s\' saka dompet iki?"</string>
     <string name="remove">Mbusak</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Dikarepake Smartcoin</string>
-    <string name="txt_customer_loyalty">Isi Loyalitas Poin minangka ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Nggawe</string>
+    <string name="backup_brainkey">Gawe serep otak</string>
+    <string name="copied_to_clipboard">Disalin menyang clipboard</string>
+    <string name="bin_file_description">File bin. Tansah simpen serep. Mbisakake file menyang kertu MicroSD rahasia utawa USB Stick.</string>
+    <string name="create_a_backup">Nggawe cadangan</string>
+    <string name="brainkey_description">Brainkey. Tembung pemulihan akun sing bisa ditangkep utawa disalin, nanging ora diowahi.</string>
+    <string name="txt_brain_key_info">Print metu iki, utawa nulis. Sapa wae sing nduweni akses menyang tombol pemulihan sampeyan bakal nduweni akses menyang dana ing dompet iki.</string>
+    <string name="view_and_copy"><![CDATA[Ndeleng & Nyalin]]></string>
+    <string name="title_bin_backup">Ekspor .bin cadangan</string>
+    <string name="hint_password">Pangguna Sandi</string>
+    <string name="hint_password_confirmation">Konfirmasi sandhi</string>
+    <string name="error_password_mandatory">Kudu mlebu sandhi</string>
+    <string name="error_password_too_short">Pangguna sithik banget</string>
+    <string name="error_password_confirmation_mismatch">Sandi lan konfirmasi ora cocog</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Dikarepake Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Kabeh Cryptocurrencies sing ditampa, kanthi otomatis diowahi dadi Smartcoin sing Disenengi lan disimpen ing BitShares Merchant Account.</string>
+    <string name="title__loyalty_points">Loyalty Points</string>
+    <string name="msg__loyalty_points_description">Poin Loyalitas bisa dikirim kanthi otomatis menyang pelanggan nalika ngentekake dhuwit karo sampeyan. Sampeyan kudu duwe sawetara token sing arep dikirim menyang pelanggan.</string>
     <string name="warning_insufficient_reward_asset_balance">Akun sampeyan durung duwe %1$s wae. Mangga entuk sawetara sadurunge nyoba kanggo menehi apa wae kanggo pelanggan minangka Poin Loyalitas.</string>
     <string name="send">Kirim</string>
     <string name="txt_for_every">Kanggo saben</string>
     <string name="txt_spent">ngginakaken</string>
-    <string name="txt_bitcoin_altcoin_deposited">Nampa nganti 8 Cryptocurrencies:</string>
+    <string name="title__cryptocurrency_preferences">Preferensi Cryptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">Pilih nganti 8 populer cryptocurrencies sing bakal ditampa saka pelanggan. Koin kasebut bakal muncul ing homescreen. Sampeyan bisa ngganti pilihan iki kapan wae.</string>
     <string name="altcoins_should_not_more_than">Pilih ora luwih saka 8 aset input</string>
-    <string name="bitshares_unselection_message">Token inti Bitshares (BTS) dibutuhake.</string>
     <string name="toast_low_volume_market">Aset pasar volume sing kurang bisa dipateni. Padha bakal aktif yen volume pasar mundhak akeh</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Jeneng Toko</string>
     <string name="address">Alamat</string>
@@ -238,7 +292,11 @@
     <string name="search">Nggoleki</string>
     <string name="filter">Filter</string>
     <string name="export">Ekspor</string>
-    <string name="confirming">Ngonfirmasi ...</string>
+    <string name="text__no_transactions">Ora Transaksi</string>
+    <string name="text__awaiting_payment">Nganti Pembayaran…</string>
+    <string name="text__confirming">Ngonfirmasi…</string>
+    <string name="text__complete">Lengkap</string>
+    <string name="text__failed">Gagal</string>
     <string name="pdf_generated_msg_s">PDF kui lan disimpen: %1$s</string>
     <string name="pdf_generated_msg_error_s">Ora bisa ngasilake pdf. Coba maneh. Kesalahan: %1$s</string>
     <string name="csv_generated_msg_s">CSV dibentuk lan disimpen: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Kesalahan sambungan simpul, coba maneh</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Kesalahan saka simpul lengkap. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Ditampa jumlah prasida</string>
+    <string name="error_payment_amount_content">Misale jek keprungu kurang saka apa sing diarepake. Pengembalian dana kudu diproses kanthi manual.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">We got pembayaran mlebu, nanging ora ana panyuwunan</string>

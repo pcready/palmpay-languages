@@ -6,13 +6,13 @@
     <string name="disagree">અસંમત</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">સંપત્તિ લોડ કરી રહ્યું છે ...</string>
-    <string name="title_loading_asset_type_data">સંપત્તિ પ્રકાર ડેટા લોડ કરી રહ્યું છે ...</string>
+    <string name="title_loading_assets">સંપત્તિ લોડ કરી રહ્યું છે…</string>
+    <string name="title_loading_asset_type_data">સંપત્તિ પ્રકાર ડેટા લોડ કરી રહ્યું છે…</string>
     <string name="title_assets_ready">સંપત્તિ ડેટાબેસ તૈયાર છે</string>
     <string name="msg_loading_all_existing_assets">બધી હાલની અસ્કયામતોની સંપૂર્ણ સૂચિ મેળવવા માટે વિનંતીઓની શ્રેણીની કામગીરી કરવી</string>
     <string name="msg_loading_asset_type_data">વધુ સંપત્તિની વિગતોની વિનંતી કરી રહ્યાં છે</string>
     <string name="msg_loading_asset_in_database">ડેટાબેઝમાં %1$d સંપત્તિ લોડ કરી</string>
-    <string name="msg_assets_loaded">આગળ, કૃપા કરીને તમારું એકાઉન્ટ સેટ કરો ...</string>
+    <string name="msg_assets_loaded">આગળ, કૃપા કરીને તમારું એકાઉન્ટ સેટ કરો…</string>
     <string name="error_fetching_marketcap_data">માર્કેટકેપ ડેટા લોડ કરી શકાયું નથી</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">કૃપા કરીને સાચી બ્રિંકી દાખલ કરો, તે 12 અને 16 વચ્ચેની હોવી જોઈએ.</string>
     <string name="unable_to_load_brainkey">બ્રેંકી લોડ કરવામાં અસમર્થ</string>
     <string name="account_already_exist">એકાઉન્ટ પહેલેથી અસ્તિત્વમાં છે</string>
-    <string name="importing_your_wallet">તમારા વૉલેટને આયાત કરી રહ્યું છે ...</string>
+    <string name="importing_your_wallet">તમારા વૉલેટને આયાત કરી રહ્યું છે…</string>
     <string name="account_candidates_title">મહેરબાની કરીને એક એકાઉન્ટ પસંદ કરો</string>
     <string name="account_candidates_content">આ બ્રેંકિનીમાંથી બનાવેલી ચાવીઓ એક કરતાં વધુ એકાઉન્ટને નિયંત્રિત કરવા માટે ઉપયોગમાં લેવાય છે, કૃપા કરીને તમે કયા એકાઉન્ટને આયાત કરવા માંગો છો તે પસંદ કરો</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">કી ભ્રષ્ટાચાર ભૂલ</string>
     <string name="error_corrupted_key_content">એપ્લિકેશન ડેટાબેઝમાંથી તમારી એનક્રિપ્ટ થયેલ ખાનગી કીને પુનઃપ્રાપ્ત કરવામાં અસમર્થ છે. આને કારણે તમારે ફરીથી તમારી કીઓ દાખલ કરવી પડશે. ક્યાં તો બ્રેકીની રૂપમાં અથવા બૅન બૅકઅપ ફાઇલ બનાવો કે જે તમારા SD કાર્ડમાં જનરેટ થઈ અને સ્વયંચાલિત રીતે સંગ્રહિત થાય છે જો એકાઉન્ટ એપ્લિકેશન દ્વારા બનાવેલ હોય</string>
     <string name="invalid_pin">અમાન્ય PIN</string>
+    <string name="network_loading_user_click_toast">નેટવર્ક લોડ થઈ રહ્યું છે. મહેરબાની કરી રાહ જુવો…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">ઘર</string>
     <string name="txt_transactions">વ્યવહારો</string>
     <string name="txt_refunds_returns">રિફંડ્સ / રીટર્ન</string>
     <string name="txt_settlement">સમાધાન</string>
-    <string name="bitshares_nodes_dialog_title">બિટ્સહેર્સ ગાંઠો</string>
+    <string name="bitshares_nodes_dialog_title">અવરોધિત કરો: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">બાકી નીકળતી રકમ</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">મહેરબાની કરી રાહ જુવો</string>
     <string name="error_node_unreachable">કોઈ નોડ પહોંચી શકાયું નથી</string>
     <string name="invoice_subject">%1$s થી પામપે ઇનવોઇસ</string>
+    <string name="memo_warning">નોંધ: વેપારીની વિનંતિ સાથે તમારા ચુકવણીને યોગ્ય રીતે મેચ કરવા માટે મેમો ફીલ્ડની આવશ્યકતા છે.</string>
     <string name="before_s">પહેલાં: %1$s</string>
     <string name="share">શેર કરો</string>
     <string name="share_with">સાથે શેર કરો</string>
-    <string name="connecting">કનેક્ટ કરી રહ્યું છે ...</string>
+    <string name="connecting">કનેક્ટ કરી રહ્યું છે…</string>
+    <string name="error_bridge_title">બ્રિજ ભૂલ</string>
+    <string name="error_bridge_content">ચલણ રૂપાંતરણ પુલ નીચે લાગે છે. ___ _____ કૃપા કરીને સપોર્ટનો સંપર્ક કરો. \n \n ઇરર કોડ છે: %1$d</string>
+    <string name="button_accept_tx">વ્યવહારો સ્વીકારો</string>
+    <string name="dialog_accept_tx_title">ટ્રાન્ઝેક્શન સ્વીકારો?</string>
+    <string name="dialog_accept_tx_summary">ટ્રાન્ઝેક્શન મળ્યું છે, પરંતુ હજી સુધી પુષ્ટિ થઈ નથી.</string>
+    <string name="option_add_surety">ખાતરી કરો</string>
+    <string name="option_wait">રાહ જુઓ</string>
+    <string name="option_accept">સ્વીકારો</string>
+    <string name="title__step_payment_seen">ચુકવણી જોઈ</string>
+    <string name="msg__step_payment_seen">નેટવર્ક ખાતરી માટે રાહ જોઈ રહ્યું છે</string>
+    <string name="msg__step_payment_seen_done">ચુકવણી એક બ્લોકમાં સમાવવામાં આવેલ છે</string>
+    <string name="title__step_payment_received">ચુકવણી પ્રાપ્ત થઈ</string>
+    <string name="template_tx_progress">વધુ નેટવર્ક ખાતરી માટે રાહ જોઈ રહ્યું છે. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">પૂરતી પુષ્ટિ પ્રાપ્ત થઈ</string>
+    <string name="title__step_payment_confirmed">ચુકવણી પુષ્ટિ</string>
+    <string name="msg__step_payment_confirmed">વેપારી અને રાજદૂતોને આઉટપુટ ટ્રાંઝેક્શન શરૂ કર્યું</string>
+    <string name="msg__step_payment_confirmed_done">ચુકવણી પ્રક્રિયા પૂર્ણ થઈ</string>
+    <string name="error_estimate_input_content_template">ઇનપુટ રકમનો અંદાજ કાઢવાનો પ્રયાસ કરતી વખતે ભૂલ. \n \n બ્રિજ પ્રદાતા તરફથી ભૂલ: \n \n %1$s</string>
+    <string name="error_payment_processing_content">તમારી વિનંતી પર પ્રક્રિયા કરતી વખતે ભૂલ આવી છે.</string>
+    <string name="error_payment_request_content_template">બ્રિજ પ્રદાતા હમણાં %1$s પર પ્રક્રિયા કરી શકશે નહીં. પછીથી ફરી પ્રયત્ન કરો. \n \n બ્રિજ પ્રદાતા તરફથી ભૂલ: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">ચુકવણી વિનંતી પસંદ કરો</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">આ ઇનકમિંગ ચુકવણીને %1$s ની પહેલાંની રેકોર્ડ કરેલ ચુકવણી વિનંતી સાથે લિંક કરશે.</string>
     <string name="dialog_msg_incoming_payment_details">આવનારી ચુકવણી વિગતો</string>
     <string name="dialog_generic_title_confirm">શું તમે ખાતરી કરો છો?</string>
-    <string name="dialog_generic_msg_confirm">મહેરબાની કરીને નોંધ કરો કે આ ક્રિયા પૂર્વવત્ કરી શકાતી નથી</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">કાઢી નાખો</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">ચુકવણી પુષ્ટિ!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">ચુકવણી પુષ્ટિ!</string>
+    <string name="button__view_transactions">વ્યવહારો જુઓ</string>
+    <string name="template__received">પ્રાપ્ત: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">સેટિંગ્સ</string>
     <string name="general">જનરલ</string>
-    <string name="security">સુરક્ષા</string>
-    <string name="backups">બૅકઅપ્સ</string>
-    <string name="tokens">ટોકન્સ</string>
     <string name="accounts">એકાઉન્ટ્સ</string>
+    <string name="tokens">ટોકન્સ</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">નાઇટ મોડ</string>
+    <string name="title__local_fiat_currency">સ્થાનિક ફિયાટ કરન્સી</string>
     <string name="currency_info">ચલણ આપમેળે તમારી ભાષા અને દેશ પસંદગીના આધારે પસંદ થાય છે. જો તમે તે બદલવા માંગો છો, તો તમારે તમારા ઉપકરણની વૈશ્વિક સિસ્ટમ સેટિંગ્સ પર જવું પડશે.</string>
     <string name="screen_saver">સ્ક્રીન સેવર</string>
     <string name="source">સ્રોત</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">ડિફૉલ્ટ ફોલ્ડર (/ પામપે)</string>
     <string name="txt_folder">ફોલ્ડર</string>
     <string name="choose">પસંદ કરો</string>
-    <string name="screen_saver_time">પછી સક્ષમ કરો ...</string>
+    <string name="folder_has_no_images_error">ભૂલ, પસંદ કરેલ ફોલ્ડરમાં કોઈ છબીઓ નથી</string>
+    <string name="screen_saver_time">પછી સક્ષમ કરો…</string>
     <string name="one_minute">1 મિનિટે</string>
     <string name="three_minutes">3 મિનિટ</string>
     <string name="five_minutes">5 મિનિટ</string>
@@ -169,27 +189,43 @@
     <string name="city">શહેર</string>
     <string name="country">દેશ</string>
     <string name="bugs_or_ideas">બગ્સ અથવા વિચારો?</string>
-    <string name="bugs_or_ideas_contact_info">ટેલિગ્રામ ચેટ: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">ટેલિગ્રામ: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">સ્વીકારો</string>
     <string name="select">પસંદ કરો</string>
     <string name="are_you_sure">શું તમે ખાતરી કરો છો?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">બૅકઅપ બ્રેકી</string>
-    <string name="copied_to_clipboard">ક્લિપબોર્ડ પર કૉપિ કર્યું</string>
-    <string name="bin_file_description">બિન ફાઇલ. હંમેશાં તમારા બૅકઅપને સંગ્રહિત કરો .bin ફાઇલને કોઈ ગુપ્ત માઇક્રોએસડી કાર્ડ અથવા યુએસબી સ્ટીક પર સાચવો.</string>
-    <string name="create_a_backup">બેકઅપ બનાવો</string>
-    <string name="brainkey_description">બ્રેન્કી. એકાઉન્ટ પુનઃપ્રાપ્તિ શબ્દો જે કેપ્ચર અથવા કૉપિ કરી શકાય છે, પરંતુ સંપાદિત કરી શકાતા નથી.</string>
-    <string name="txt_brain_key_info">આને છાપો અથવા તેને લખો. તમારી પુનઃપ્રાપ્તિ કીની ઍક્સેસ ધરાવતા કોઈપણને આ વૉલેટની અંદર ફંડ્સની ઍક્સેસ હશે.</string>
-    <string name="view_and_copy">જુઓ અને કૉપિ કરો</string>
-    <string name="title_bin_backup">નિકાસ .બીબી બેકઅપ</string>
-    <string name="hint_password">પાસવર્ડ</string>
-    <string name="hint_password_confirmation">પાસવર્ડ ખાતરી</string>
-    <string name="error_password_mandatory">પાસવર્ડ દાખલ કરવો આવશ્યક છે</string>
-    <string name="error_password_too_short">પાસવર્ડ ખૂબ ટૂંકા છે</string>
-    <string name="error_password_confirmation_mismatch">પાસવર્ડ અને પુષ્ટિ મેળ ખાતી નથી</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">સુરક્ષા લોક</string>
+    <string name="title__security_dialog">સુરક્ષા લૉક પસંદ કરો</string>
+    <string name="text__pin">પિન</string>
+    <string name="text__pattern">પેટર્ન</string>
+    <string name="text__none">કોઈ નહીં</string>
+    <string name="button__choose">પસંદ કરો</string>
+    <string name="title__re_enter_your_pin">તમારો PIN ફરીથી દાખલ કરો</string>
+    <string name="msg__enter_your_pin">ચાલુ રાખવા માટે તમારો બીટીટીસી PIN દાખલ કરો</string>
+    <string name="error__wrong_pin">ખોટો PIN</string>
+    <string name="title__set_palmpay_security_lock">બીટીટીએસ સિક્યુરિટી સેટ કરો</string>
+    <string name="msg__set_a_pin">સુરક્ષા માટે, એક PIN સેટ કરો</string>
+    <string name="msg__min_pin_length">PIN ઓછામાં ઓછા 6 અંકોનો હોવો આવશ્યક છે</string>
+    <string name="title__pins_dont_match">PIN મેળ ખાતા નથી</string>
+    <string name="title__re_enter_your_pattern">તમારી પેટર્ન ફરી દાખલ કરો</string>
+    <string name="msg__enter_your_pattern">ચાલુ રાખવા માટે તમારું બાયટ્ટી પેટર્ન દાખલ કરો</string>
+    <string name="msg__set_a_pattern">સુરક્ષા માટે, એક પેટર્ન સેટ કરો</string>
+    <string name="msg__release_finger">પૂર્ણ થાય ત્યારે આંગળી છોડો</string>
+    <string name="button__clear">ચોખ્ખુ</string>
+    <string name="button__next">આગળ</string>
+    <string name="text__draw_an_unlock_pattern">અનલૉક પેટર્ન દોરો</string>
+    <string name="msg__draw_pattern_confirm">પુષ્ટિ કરવા માટે ફરીથી પેટર્ન દોરો</string>
+    <string name="button__confirm">પુષ્ટિ કરો</string>
+    <string name="msg__your_new_unlock_pattern">તમારું નવું અનલૉક પેટર્ન</string>
+    <string name="error__wrong_pattern">ખોટી પેટર્ન</string>
+    <string name="text__pattern_recorded">પેટર્ન રેકોર્ડ</string>
+    <string name="error__connect_at_least_4_dots">ઓછામાં ઓછા 4 બિંદુઓથી કનેક્ટ કરો. ફરીથી પ્રયત્ન કરો.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">ઘણાં બધા ખોટા પ્રયાસો. ફરીથી પ્રયાસ કરો %1$d મિનિટ.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">ઘણાં બધા ખોટા પ્રયાસો. %1$d સેકંડમાં ફરી પ્રયાસ કરો.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">ચાલુ ખાતાની</string>
     <string name="merchant_account_s">વેપારી ખાતું: %1$s</string>
     <string name="upgrade_to_ltm">એલટીએમ પર અપગ્રેડ કરો</string>
     <string name="upgrade_account_description">"લાઇફટાઇમ સભ્યપદ (એલટીએમ) પર અપગ્રેડ કરો. બીટ્સહેર્સના એલટીએમ એકાઉન્ટ્સ નજીકથી શૂન્ય ફી ચૂકવે છે, રેફરલ્સ માટે 80% કેશબેક્સ અને બોનસ મેળવો."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"શું તમે ખરેખર આ વૉલેટમાંથી \'%1$s\' એકાઉન્ટને કાઢવા માંગો છો?"</string>
     <string name="remove">દૂર કરો</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">ઇચ્છિત Smartcoin</string>
-    <string name="txt_customer_loyalty">ઇશ્યુ લોયલ્ટી પોઇન્ટ્સ તરીકે ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">બૅકઅપ્સ</string>
+    <string name="backup_brainkey">બૅકઅપ બ્રેકી</string>
+    <string name="copied_to_clipboard">ક્લિપબોર્ડ પર કૉપિ કર્યું</string>
+    <string name="bin_file_description">બિન ફાઇલ. હંમેશાં તમારા બૅકઅપને સંગ્રહિત કરો .bin ફાઇલને કોઈ ગુપ્ત માઇક્રોએસડી કાર્ડ અથવા યુએસબી સ્ટીક પર સાચવો.</string>
+    <string name="create_a_backup">બેકઅપ બનાવો</string>
+    <string name="brainkey_description">બ્રેન્કી. એકાઉન્ટ પુનઃપ્રાપ્તિ શબ્દો જે કેપ્ચર અથવા કૉપિ કરી શકાય છે, પરંતુ સંપાદિત કરી શકાતા નથી.</string>
+    <string name="txt_brain_key_info">આને છાપો અથવા તેને લખો. તમારી પુનઃપ્રાપ્તિ કીની ઍક્સેસ ધરાવતા કોઈપણને આ વૉલેટની અંદર ફંડ્સની ઍક્સેસ હશે.</string>
+    <string name="view_and_copy">જુઓ અને કૉપિ કરો</string>
+    <string name="title_bin_backup">નિકાસ .બીબી બેકઅપ</string>
+    <string name="hint_password">પાસવર્ડ</string>
+    <string name="hint_password_confirmation">પાસવર્ડ ખાતરી</string>
+    <string name="error_password_mandatory">પાસવર્ડ દાખલ કરવો આવશ્યક છે</string>
+    <string name="error_password_too_short">પાસવર્ડ ખૂબ ટૂંકા છે</string>
+    <string name="error_password_confirmation_mismatch">પાસવર્ડ અને પુષ્ટિ મેળ ખાતી નથી</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">ઇચ્છિત Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">તમે પ્રાપ્ત કરેલી બધી ક્રિપ્ટોક્યુરન્સીઝ, આપમેળે તમારા ઇચ્છિત સ્માર્ટકોઇનમાં રૂપાંતરિત થાય છે અને તમારા બિટશેર્સ મર્ચન્ટ એકાઉન્ટમાં સાચવેલી હોય છે.</string>
+    <string name="title__loyalty_points">વફાદારી પોઇંટ્સ</string>
+    <string name="msg__loyalty_points_description">જ્યારે તેઓ તમારી સાથે નાણાં ખર્ચે છે ત્યારે લોયલ્ટી પોઇંટ્સ આપમેળે તમારા ગ્રાહકોને મોકલી શકાય છે. તમે તમારા ગ્રાહકોને મોકલવા માંગો છો તે ટોકન્સની માલિકી લેવી આવશ્યક છે.</string>
     <string name="warning_insufficient_reward_asset_balance">તમારું એકાઉન્ટ હજી સુધી કોઈપણ %1$s નું નથી. તમે લોયલ્ટી પોઇંટ્સ તરીકે તમારા ગ્રાહકોને કોઈપણ આપવાનો પ્રયાસ કરો તે પહેલાં કૃપા કરીને કેટલાક પ્રાપ્ત કરો.</string>
     <string name="send">મોકલો</string>
     <string name="txt_for_every">બધા માટે</string>
     <string name="txt_spent">ખર્ચ્યા</string>
-    <string name="txt_bitcoin_altcoin_deposited">8 ક્રિપ્ટોક્યુરેન્સીઝને સ્વીકારો:</string>
+    <string name="title__cryptocurrency_preferences">ક્રિપ્ટોક્યુરન્સી પસંદગીઓ</string>
+    <string name="msg__cryptocurrency_preferences_description">8 જેટલી લોકપ્રિય ક્રિપ્ટોક્યુરન્સીઝ પસંદ કરો કે જે તમે તમારા ગ્રાહકો પાસેથી સ્વીકારો છો. આ સિક્કા હોમસ્ક્રીન પર દેખાશે. તમે આ પસંદગીઓ કોઈપણ સમયે બદલી શકો છો.</string>
     <string name="altcoins_should_not_more_than">કૃપા કરીને 8 થી વધુ ઇનપુટ અસ્કયામતો પસંદ કરો</string>
-    <string name="bitshares_unselection_message">બિટ્સહેર્સ (બીટીએસ) કોર ટોકન જરૂરી છે.</string>
     <string name="toast_low_volume_market">લો વોલ્યુમ માર્કેટ અસ્કયામતો અસ્થાયી રૂપે અક્ષમ છે. એકવાર બજારમાં વોલ્યુમ નોંધપાત્ર પ્રમાણમાં વધે તે પછી તેઓ સક્ષમ થઈ જશે</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">લોગો</string>
     <string name="store_name">દુકાન નામ</string>
     <string name="address">સરનામું</string>
@@ -238,7 +292,11 @@
     <string name="search">શોધો</string>
     <string name="filter">ફિલ્ટર કરો</string>
     <string name="export">નિકાસ</string>
-    <string name="confirming">પુષ્ટિ કરી રહ્યું છે ...</string>
+    <string name="text__no_transactions">કોઈ વ્યવહારો નથી</string>
+    <string name="text__awaiting_payment">ચુકવણી પ્રતીક્ષામાં…</string>
+    <string name="text__confirming">પુષ્ટિ કરી રહ્યું છે…</string>
+    <string name="text__complete">પૂર્ણ</string>
+    <string name="text__failed">નિષ્ફળ</string>
     <string name="pdf_generated_msg_s">પીડીએફ જનરેટ અને સાચવેલ: %1$s</string>
     <string name="pdf_generated_msg_error_s">પીડીએફ પેદા કરવામાં અસમર્થ. મહેરબાની કરીને ફરી પ્રયાસ કરો. ભૂલ: %1$s</string>
     <string name="csv_generated_msg_s">CSV જનરેટ અને સાચવેલ: %1$s</string>
@@ -276,7 +334,7 @@
 
     <!-- eReceipt Activity -->
     <string name="e_receipt">eReceipt</string>
-    <string name="item_n">આઇટમ __1 ડી__</string>
+    <string name="item_n">આઇટમ %1$d</string>
     <string name="subtotal">ઉપ-કુલ</string>
     <string name="network_fee">Network fee</string>
     <string name="total">કુલ</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">નોડ કનેક્શન ભૂલ, ફરીથી પ્રયત્ન કરી રહ્યું છે</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">સંપૂર્ણ નોડ માંથી ભૂલ. સંદેશ: %1$s</string>
+    <string name="error_payment_amount_title">રકમ વિસંગતતા પ્રાપ્ત</string>
+    <string name="error_payment_amount_content">એવું લાગે છે કે અમને અપેક્ષિત કરતાં ઓછું મળ્યું હતું. રિફંડ જાતે જ પ્રક્રિયા કરવી પડશે.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">અમને આવનારી ચુકવણી મળી, પરંતુ કોઈ વિનંતી મળી શકી ન હતી</string>

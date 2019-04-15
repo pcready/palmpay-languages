@@ -6,13 +6,13 @@
     <string name="disagree">Haikubaliani</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Inapakia mali ...</string>
-    <string name="title_loading_asset_type_data">Inapakia data ya aina ya mali ...</string>
+    <string name="title_loading_assets">Inapakia mali…</string>
+    <string name="title_loading_asset_type_data">Inapakia data ya aina ya mali…</string>
     <string name="title_assets_ready">Nambari ya faragha tayari</string>
     <string name="msg_loading_all_existing_assets">Inafanya mfululizo wa maombi ili kupata orodha kamili ya mali zilizopo</string>
     <string name="msg_loading_asset_type_data">Inahitaji maelezo zaidi ya kipengee</string>
     <string name="msg_loading_asset_in_database">Imechukua mali %1$d kwenye databana</string>
-    <string name="msg_assets_loaded">Halafu, tafadhali kuanzisha akaunti yako ...</string>
+    <string name="msg_assets_loaded">Halafu, tafadhali kuanzisha akaunti yako…</string>
     <string name="error_fetching_marketcap_data">Haikuweza kupakia data ya soko</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Tafadhali ingiza maandishi sahihi ya ubongo, inapaswa kuwa na maneno kati ya 12 na 16.</string>
     <string name="unable_to_load_brainkey">Haiwezi kupakia ubongo</string>
     <string name="account_already_exist">Akaunti tayari iko</string>
-    <string name="importing_your_wallet">Kuingiza mkoba wako ...</string>
+    <string name="importing_your_wallet">Kuingiza mkoba wako…</string>
     <string name="account_candidates_title">Tafadhali chagua akaunti</string>
     <string name="account_candidates_content">Vifunguo vinavyotokana na ubongo huu wa ubongo vinaonekana kutumiwa kudhibiti akaunti zaidi ya moja, tafadhali chagua akaunti ambayo unataka kuagiza</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Hitilafu muhimu ya rushwa</string>
     <string name="error_corrupted_key_content">Programu haiwezi kurejesha funguo zako za kibinafsi zilizofichwa kutoka kwenye databana. Kwa sababu hii utahitajika kuingia funguo zako tena. Labda kwa fomu ya ubongo au kuunda faili ya salama ya bin ambayo ilizalishwa na kuhifadhiwa moja kwa moja kwenye sdcard yako ikiwa akaunti iliundwa na programu</string>
     <string name="invalid_pin">PIN batili</string>
+    <string name="network_loading_user_click_toast">Mtandao unapakia. Tafadhali subiri…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Nyumbani</string>
     <string name="txt_transactions">Shughuli</string>
     <string name="txt_refunds_returns">Marejesho / Kurudi</string>
     <string name="txt_settlement">Makazi</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares nodes</string>
+    <string name="bitshares_nodes_dialog_title">Piga: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Kiasi kinachofaa</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Tafadhali subiri</string>
     <string name="error_node_unreachable">Hakuna nodi inaweza kufikiwa</string>
     <string name="invoice_subject">Dawa ya PalmPay kutoka %1$s</string>
+    <string name="memo_warning">KUMBUKA: shamba la memo inahitajika ili kufanana sawa na malipo yako na ombi la mfanyabiashara.</string>
     <string name="before_s">Kabla ya: %1$s</string>
     <string name="share">Shiriki</string>
     <string name="share_with">Shiriki na</string>
-    <string name="connecting">Kuunganisha ...</string>
+    <string name="connecting">Kuunganisha…</string>
+    <string name="error_bridge_title">Hitilafu ya Bridge</string>
+    <string name="error_bridge_content">Daraja la ubadilishaji wa sarafu inaonekana kuwa chini. \n \n Tafadhali wasiliana na msaada. \n \nKisio cha uharibifu ni: %1$d</string>
+    <string name="button_accept_tx">Kukubali shughuli</string>
+    <string name="dialog_accept_tx_title">Kukubali shughuli?</string>
+    <string name="dialog_accept_tx_summary">Shughuli hiyo imegunduliwa, lakini haijahakikishwa kikamilifu.</string>
+    <string name="option_add_surety">Ongeza uhakikisho</string>
+    <string name="option_wait">Kusubiri</string>
+    <string name="option_accept">Kukubali</string>
+    <string name="title__step_payment_seen">Malipo yameonekana</string>
+    <string name="msg__step_payment_seen">Inasubiri uthibitishaji wa mtandao</string>
+    <string name="msg__step_payment_seen_done">Malipo yamejumuishwa kwenye kizuizi</string>
+    <string name="title__step_payment_received">Malipo yamepokelewa</string>
+    <string name="template_tx_progress">Inasubiri uthibitisho zaidi wa mtandao. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Vidokezo vya kutosha vilipokelewa</string>
+    <string name="title__step_payment_confirmed">Malipo yalithibitishwa</string>
+    <string name="msg__step_payment_confirmed">Shughuli ya utoaji wa biashara kwa wauzaji na wajumbe ulioanzishwa</string>
+    <string name="msg__step_payment_confirmed_done">Usindikaji wa malipo umekamilika</string>
+    <string name="error_estimate_input_content_template">Hitilafu wakati wa kujaribu kulinganisha kiasi cha pembejeo. \n \n Hitilafu kutoka kwa mtoa huduma wa daraja: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Kumekuwa na hitilafu wakati wa kusindika ombi lako.</string>
+    <string name="error_payment_request_content_template">Mtoaji wa Bridge hawezi kusindika %1$s hivi sasa. Tafadhali jaribu tena baadae. \n \nKuharibu kutoka kwa mtoa huduma wa daraja: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Chagua ombi la malipo</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Hii itaunganisha malipo inayoingia kwenye ombi la malipo ya awali ya %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Maelezo ya malipo ya ujao</string>
     <string name="dialog_generic_title_confirm">Una uhakika?</string>
-    <string name="dialog_generic_msg_confirm">Tafadhali kumbuka kuwa hatua hii haiwezi kufutwa</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Futa</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Malipo imethibitishwa!</string>
-    <string name="txt_cool">BARIDI!</string>
+    <string name="title__payment_confirmed">Malipo imethibitishwa!</string>
+    <string name="button__view_transactions">Angalia Shughuli</string>
+    <string name="template__received">Imepokea: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Mipangilio</string>
     <string name="general">Mkuu</string>
-    <string name="security">Usalama</string>
-    <string name="backups">Backups</string>
-    <string name="tokens">Ishara</string>
     <string name="accounts">Akaunti</string>
+    <string name="tokens">Ishara</string>
     <string name="e_receipts">Receipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Hali ya usiku</string>
+    <string name="title__local_fiat_currency">Fedha ya Mitaa ya Fiat</string>
     <string name="currency_info">Sarafu ni kuchaguliwa moja kwa moja kulingana na lugha yako na uteuzi wa nchi. Ikiwa unataka kubadilisha hayo, lazima uende kwenye mipangilio ya mfumo wa kimataifa ya kifaa chako.</string>
     <string name="screen_saver">Msaidizi wa skrini</string>
     <string name="source">Chanzo</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Folda ya default (/ PalmPay)</string>
     <string name="txt_folder">Folda</string>
     <string name="choose">Chagua</string>
-    <string name="screen_saver_time">Wezesha baada ya ...</string>
+    <string name="folder_has_no_images_error">Hitilafu, folda iliyochaguliwa haina picha</string>
+    <string name="screen_saver_time">Wezesha baada ya…</string>
     <string name="one_minute">dakika 1</string>
     <string name="three_minutes">Dakika 3</string>
     <string name="five_minutes">Mada 5</string>
@@ -169,27 +189,43 @@
     <string name="city">Jiji</string>
     <string name="country">Nchi</string>
     <string name="bugs_or_ideas">Bugs au Mawazo?</string>
-    <string name="bugs_or_ideas_contact_info">Mazungumzo ya telegram: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Kukubali</string>
     <string name="select">Chagua</string>
     <string name="are_you_sure">Una uhakika?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">Ilikopishwa kwenye ubao wa video</string>
-    <string name="bin_file_description">Faili ya Bin. Daima salama yako ya faili .bin faili kwenye kadi ya siri ya MicroSD au Fimbo ya USB.</string>
-    <string name="create_a_backup">Unda salama</string>
-    <string name="brainkey_description">Brainkey. Maneno ya kufufua Akaunti ambayo yanaweza kufungwa au kunakiliwa, lakini haijahaririwa.</string>
-    <string name="txt_brain_key_info">Chapisha hili nje, au uandike. Mtu yeyote aliye na ufunguo wa ufunguo wako wa kurejesha atapata upatikanaji wa fedha ndani ya mkoba huu.</string>
-    <string name="view_and_copy"><![CDATA[Tazama & Nakala]]></string>
-    <string name="title_bin_backup">Export .bin Backup</string>
-    <string name="hint_password">Nenosiri</string>
-    <string name="hint_password_confirmation">Uhakikisho wa nenosiri</string>
-    <string name="error_password_mandatory">Lazima uingie nenosiri</string>
-    <string name="error_password_too_short">Neno la siri ni fupi mno</string>
-    <string name="error_password_confirmation_mismatch">Neno la siri na uthibitishaji</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Vifungo vya Usalama</string>
+    <string name="title__security_dialog">Chagua Kizuizi cha Usalama</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Sifa</string>
+    <string name="text__none">Hakuna</string>
+    <string name="button__choose">Chagua</string>
+    <string name="title__re_enter_your_pin">Rejesha tena PIN yako</string>
+    <string name="msg__enter_your_pin">Ingiza PIN yako ya PalmPay ili kuendelea</string>
+    <string name="error__wrong_pin">PIN isiyo sahihi</string>
+    <string name="title__set_palmpay_security_lock">Weka Usalama wa PalmPay</string>
+    <string name="msg__set_a_pin">Kwa usalama, weka PIN</string>
+    <string name="msg__min_pin_length">PIN lazima iwe angalau tarakimu 6</string>
+    <string name="title__pins_dont_match">PIN hazipatikani</string>
+    <string name="title__re_enter_your_pattern">Rejesha tena ruwaza yako</string>
+    <string name="msg__enter_your_pattern">Ingiza mfano wako wa PalmPay ili uendelee</string>
+    <string name="msg__set_a_pattern">Kwa usalama, weka Mfano</string>
+    <string name="msg__release_finger">Fungua kidole wakati umefanywa</string>
+    <string name="button__clear">Futa</string>
+    <string name="button__next">Ifuatayo</string>
+    <string name="text__draw_an_unlock_pattern">Chora ruwaza ya kufungua</string>
+    <string name="msg__draw_pattern_confirm">Chora mfano tena kuthibitisha</string>
+    <string name="button__confirm">Thibitisha</string>
+    <string name="msg__your_new_unlock_pattern">Njia yako ya kufungua mpya</string>
+    <string name="error__wrong_pattern">Njia isiyo sahihi</string>
+    <string name="text__pattern_recorded">Sura iliyorekodi</string>
+    <string name="error__connect_at_least_4_dots">Unganisha angalau dots 4. Jaribu tena.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Majaribio mengi yasiyo sahihi. Jaribu tena katika dakika %1$d.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Majaribio mengi yasiyo sahihi. Jaribu tena katika sekunde %1$d.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Akaunti ya sasa</string>
     <string name="merchant_account_s">Akaunti ya Wafanyabiashara: %1$s</string>
     <string name="upgrade_to_ltm">Uboresha hadi LTM</string>
     <string name="upgrade_account_description">"Uboresha Upya Ushauri wa Maisha ya Maisha (LTM). Akaunti za Bitshares \'LTM hulipa ada za karibu-zero, kupata asilimia 80 ya fedha na mabonasi kwa ajili ya uhamisho."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Una uhakika unataka kuondoa akaunti \'%1$s\' kutoka kwenye mkoba huu?"</string>
     <string name="remove">Ondoa</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Smartcoin inatamani</string>
-    <string name="txt_customer_loyalty">Tunga Pointi ya Uaminifu kama ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Backups</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Ilikopishwa kwenye ubao wa video</string>
+    <string name="bin_file_description">Faili ya Bin. Daima salama yako ya faili .bin faili kwenye kadi ya siri ya MicroSD au Fimbo ya USB.</string>
+    <string name="create_a_backup">Unda salama</string>
+    <string name="brainkey_description">Brainkey. Maneno ya kufufua Akaunti ambayo yanaweza kufungwa au kunakiliwa, lakini haijahaririwa.</string>
+    <string name="txt_brain_key_info">Chapisha hili nje, au uandike. Mtu yeyote aliye na ufunguo wa ufunguo wako wa kurejesha atapata upatikanaji wa fedha ndani ya mkoba huu.</string>
+    <string name="view_and_copy"><![CDATA[Tazama & Nakala]]></string>
+    <string name="title_bin_backup">Export .bin Backup</string>
+    <string name="hint_password">Nenosiri</string>
+    <string name="hint_password_confirmation">Uhakikisho wa nenosiri</string>
+    <string name="error_password_mandatory">Lazima uingie nenosiri</string>
+    <string name="error_password_too_short">Neno la siri ni fupi mno</string>
+    <string name="error_password_confirmation_mismatch">Neno la siri na uthibitishaji</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Smartcoin inatamani</string>
+    <string name="msg__desired_smartcoin_description">Vipeperushi vyote ulivyopokea, vinaongozwa moja kwa moja kwenye Smartcoin yako inayotamani na kuhifadhiwa kwenye Akaunti yako ya BitShares Merchant.</string>
+    <string name="title__loyalty_points">Pole ya Uaminifu</string>
+    <string name="msg__loyalty_points_description">Vidokezo vya uaminifu vinaweza kutumwa kwa wateja wako wakati wanapotumia pesa na wewe. Lazima uwe na baadhi ya ishara ambazo unataka kutuma kwa wateja wako.</string>
     <string name="warning_insufficient_reward_asset_balance">Akaunti yako bado haijui %1$s yoyote. Tafadhali pata baadhi kabla ya kujaribu kutoa yoyote kwa wateja wako kama Vidokezo vya Uaminifu.</string>
     <string name="send">Tuma</string>
     <string name="txt_for_every">Kwa kila</string>
     <string name="txt_spent">alitumia</string>
-    <string name="txt_bitcoin_altcoin_deposited">Kukubali hadi 8 Cryptocurrencies:</string>
+    <string name="title__cryptocurrency_preferences">Mapendeleo ya Cryptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">Chagua hadi 8 maandishi maarufu ambayo utakubali kutoka kwa wateja wako. Sarafu hizi zitaonyeshwa kwenye skrini ya nyumbani. Unaweza kubadilisha uchaguzi huu wakati wowote.</string>
     <string name="altcoins_should_not_more_than">Tafadhali chagua mali isiyoingizwa ya zaidi ya 8</string>
-    <string name="bitshares_unselection_message">Kitambulisho cha msingi cha Bitshares (BTS) kinahitajika.</string>
     <string name="toast_low_volume_market">Maliko ya soko la kiasi cha chini ni walemavu. Watawezeshwa mara moja kiasi cha soko kinapoongezeka kwa kiasi kikubwa</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Rangi</string>
     <string name="store_name">Jina la Duka</string>
     <string name="address">Anwani</string>
@@ -238,7 +292,11 @@
     <string name="search">Tafuta</string>
     <string name="filter">Futa</string>
     <string name="export">Tuma nje</string>
-    <string name="confirming">Inathibitisha ...</string>
+    <string name="text__no_transactions">Hakuna Shughuli</string>
+    <string name="text__awaiting_payment">Inasubiri Malipo…</string>
+    <string name="text__confirming">Inathibitisha…</string>
+    <string name="text__complete">Jaza</string>
+    <string name="text__failed">Imeshindwa</string>
     <string name="pdf_generated_msg_s">PDF imezalishwa na kuokolewa: %1$s</string>
     <string name="pdf_generated_msg_error_s">Haiwezi kuzalisha pdf. Tafadhali jaribu tena. Hitilafu: %1$s</string>
     <string name="csv_generated_msg_s">CSV imezalishwa na kuokolewa: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Hitilafu ya kuunganisha node, kujaribu tena</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Hitilafu kutoka kwa node kamili. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Imepokea kiasi cha kutofautiana</string>
+    <string name="error_payment_amount_content">Inaonekana kama tulipokea chini ya kile kilichotarajiwa. Marejesho ya lazima yatafanywa kwa manually.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Tuna malipo ya ujao, lakini hakuna ombi linaloweza kupatikana</string>

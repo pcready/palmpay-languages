@@ -6,13 +6,13 @@
     <string name="disagree">Διαφωνώ</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Φόρτωση στοιχείων ...</string>
-    <string name="title_loading_asset_type_data">Φόρτωση δεδομένων τύπου δεδομένων ...</string>
+    <string name="title_loading_assets">Φόρτωση στοιχείων…</string>
+    <string name="title_loading_asset_type_data">Φόρτωση δεδομένων τύπου δεδομένων…</string>
     <string name="title_assets_ready">Η βάση δεδομένων για στοιχεία ενεργητικού έτοιμη</string>
     <string name="msg_loading_all_existing_assets">Εκτελέστε μια σειρά αιτημάτων για να λάβετε τον πλήρη κατάλογο όλων των υπαρχόντων στοιχείων</string>
     <string name="msg_loading_asset_type_data">Αίτημα για περαιτέρω στοιχεία του ενεργητικού</string>
     <string name="msg_loading_asset_in_database">Καταχωρημένα στοιχεία %1$d στη βάση δεδομένων</string>
-    <string name="msg_assets_loaded">Στη συνέχεια, ρυθμίστε τον λογαριασμό σας ...</string>
+    <string name="msg_assets_loaded">Στη συνέχεια, ρυθμίστε τον λογαριασμό σας…</string>
     <string name="error_fetching_marketcap_data">Δεν ήταν δυνατή η φόρτωση δεδομένων marketcap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Παρακαλούμε εισάγετε το σωστό brainkey, θα πρέπει να έχει μεταξύ 12 και 16 λέξεις.</string>
     <string name="unable_to_load_brainkey">Δεν είναι δυνατή η φόρτωση του brainkey</string>
     <string name="account_already_exist">Ο λογαριασμός υπάρχει ήδη</string>
-    <string name="importing_your_wallet">Εισαγάγετε το πορτοφόλι σας ...</string>
+    <string name="importing_your_wallet">Εισαγάγετε το πορτοφόλι σας…</string>
     <string name="account_candidates_title">Επιλέξτε ένα λογαριασμό</string>
     <string name="account_candidates_content">Τα κλειδιά που προέρχονται από αυτό το brainkey φαίνεται να χρησιμοποιούνται για τον έλεγχο περισσότερων από ένα λογαριασμών, επιλέξτε ποιο λογαριασμό θέλετε να εισαγάγετε</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Βασικό σφάλμα διαφθοράς</string>
     <string name="error_corrupted_key_content">Η εφαρμογή δεν μπορεί να ανακτήσει τα κρυπτογραφημένα ιδιωτικά κλειδιά σας από τη βάση δεδομένων. Εξαιτίας αυτού, θα πρέπει να εισάγετε ξανά τα κλειδιά σας. Είτε με τη μορφή ενός brainkey είτε από το αρχείο backup του bin που δημιουργήθηκε και αποθηκεύτηκε αυτόματα στο sdcard σας αν ο λογαριασμός δημιουργήθηκε από την εφαρμογή</string>
     <string name="invalid_pin">Μη έγκυρο PIN</string>
+    <string name="network_loading_user_click_toast">Το δίκτυο φορτώνεται. Παρακαλώ περιμένετε…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Σπίτι</string>
     <string name="txt_transactions">Συναλλαγές</string>
     <string name="txt_refunds_returns">Επιστροφές / επιστροφές</string>
     <string name="txt_settlement">Επίλυση</string>
-    <string name="bitshares_nodes_dialog_title">Κόμβοι Bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Αποκλεισμός: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Οφειλόμενο ποσό</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Παρακαλώ περιμένετε</string>
     <string name="error_node_unreachable">Κανένας κόμβος δεν μπορούσε να επιτευχθεί</string>
     <string name="invoice_subject">Τιμολόγιο PalmPay από %1$s</string>
+    <string name="memo_warning">ΣΗΜΕΙΩΣΗ: Το πεδίο σημείωσης πρέπει να αντιστοιχεί σωστά στην πληρωμή σας με το αίτημα του εμπόρου.</string>
     <string name="before_s">Πριν: %1$s</string>
     <string name="share">Μερίδιο</string>
     <string name="share_with">Μοιραστείτε το με</string>
     <string name="connecting">Συνδετικός…</string>
+    <string name="error_bridge_title">Γέφυρα σφάλμα</string>
+    <string name="error_bridge_content">Η γέφυρα μετατροπής νομίσματος φαίνεται να είναι κάτω. \n \nΠαρακαλώ επικοινωνήστε με την υποστήριξη. \n \nΟ κωδικός σφάλματος είναι: %1$d</string>
+    <string name="button_accept_tx">Αποδοχή συναλλαγής</string>
+    <string name="dialog_accept_tx_title">Αποδοχή συναλλαγής;</string>
+    <string name="dialog_accept_tx_summary">Η συναλλαγή έχει εντοπιστεί, αλλά δεν έχει ακόμη επιβεβαιωθεί πλήρως.</string>
+    <string name="option_add_surety">Προσθέστε εγγύηση</string>
+    <string name="option_wait">Περιμένετε</string>
+    <string name="option_accept">Αποδέχομαι</string>
+    <string name="title__step_payment_seen">Πληρωμή πληρωμής</string>
+    <string name="msg__step_payment_seen">Αναμονή για επιβεβαίωση δικτύου</string>
+    <string name="msg__step_payment_seen_done">Η πληρωμή έχει συμπεριληφθεί σε ένα μπλοκ</string>
+    <string name="title__step_payment_received">Η πληρωμή ελήφθη</string>
+    <string name="template_tx_progress">Αναμονή για περισσότερες επιβεβαιώσεις δικτύου. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Έχουν ληφθεί αρκετές επιβεβαιώσεις</string>
+    <string name="title__step_payment_confirmed">Η πληρωμή επιβεβαιώθηκε</string>
+    <string name="msg__step_payment_confirmed">Η συναλλαγή εξόδου στους εμπόρους και τους πρεσβευτές ξεκίνησε</string>
+    <string name="msg__step_payment_confirmed_done">Η επεξεργασία πληρωμής ολοκληρώθηκε</string>
+    <string name="error_estimate_input_content_template">Σφάλμα κατά την προσπάθεια εκτίμησης του ποσού εισόδου. \n \n Σφάλμα από τον παροχέα γέφυρας: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Παρουσιάστηκε σφάλμα κατά την επεξεργασία του αιτήματός σας.</string>
+    <string name="error_payment_request_content_template">Ο πάροχος της Γέφυρας δεν μπορεί να επεξεργαστεί %1$s αυτή τη στιγμή. Παρακαλώ προσπαθήστε ξανά αργότερα. \n \nΕντίσταση από τον προμηθευτή γέφυρας: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Επιλέξτε αίτημα πληρωμής</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Αυτό θα συνδέσει την εισερχόμενη πληρωμή με το προηγουμένως καταγεγραμμένο αίτημα πληρωμής του %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Στοιχεία εισερχόμενης πληρωμής</string>
     <string name="dialog_generic_title_confirm">Είσαι σίγουρος?</string>
-    <string name="dialog_generic_msg_confirm">Λάβετε υπόψη ότι αυτή η ενέργεια δεν μπορεί να ανακληθεί</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Απολύω</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Η πληρωμή επιβεβαιώθηκε!</string>
-    <string name="txt_cool">ΔΡΟΣΕΡΟΣ!</string>
+    <string name="title__payment_confirmed">Η πληρωμή επιβεβαιώθηκε!</string>
+    <string name="button__view_transactions">Προβολή συναλλαγών</string>
+    <string name="template__received">Λήψη: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Ρυθμίσεις</string>
     <string name="general">Γενικός</string>
-    <string name="security">Ασφάλεια</string>
-    <string name="backups">Δημιουργία αντιγράφων ασφαλείας</string>
-    <string name="tokens">Σημεία πώλησης</string>
     <string name="accounts">Λογαριασμοί</string>
+    <string name="tokens">Σημεία πώλησης</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Νυχτερινή λειτουργία</string>
+    <string name="title__local_fiat_currency">Τοπικό νόμισμα Fiat</string>
     <string name="currency_info">Το νόμισμα επιλέγεται αυτόματα ανάλογα με τη γλώσσα και τη χώρα σας. Αν θέλετε να αλλάξετε αυτές, πρέπει να μεταβείτε στις ρυθμίσεις του παγκόσμιου συστήματος της συσκευής σας.</string>
     <string name="screen_saver">Προστασία οθόνης</string>
     <string name="source">Πηγή</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Προκαθορισμένος φάκελος (/ PalmPay)</string>
     <string name="txt_folder">Ντοσιέ</string>
     <string name="choose">Επιλέγω</string>
-    <string name="screen_saver_time">Ενεργοποίηση μετά ...</string>
+    <string name="folder_has_no_images_error">Σφάλμα, ο φάκελος που έχετε επιλέξει δεν έχει εικόνες</string>
+    <string name="screen_saver_time">Ενεργοποίηση μετά…</string>
     <string name="one_minute">1 λεπτό</string>
     <string name="three_minutes">3 λεπτά</string>
     <string name="five_minutes">5 λεπτά</string>
@@ -169,27 +189,43 @@
     <string name="city">Πόλη</string>
     <string name="country">Χώρα</string>
     <string name="bugs_or_ideas">Σφάλματα ή ιδέες;</string>
-    <string name="bugs_or_ideas_contact_info">Τηλεφωνική συνομιλία: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Τηλεγράφημα: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Αποδέχομαι</string>
     <string name="select">Επιλέγω</string>
     <string name="are_you_sure">Είσαι σίγουρος?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">Αντιγραφή στο πρόχειρο</string>
-    <string name="bin_file_description">Αρχείο Bin. Αποθηκεύετε πάντα το αρχείο .bin backup σε μια μυστική κάρτα MicroSD ή στο USB Stick.</string>
-    <string name="create_a_backup">Δημιουργήστε ένα αντίγραφο ασφαλείας</string>
-    <string name="brainkey_description">Brainkey. Λίστες ανάκτησης λογαριασμού που μπορούν να ληφθούν ή να αντιγραφούν, αλλά δεν έχουν επεξεργαστεί.</string>
-    <string name="txt_brain_key_info">Εκτυπώστε το ή γράψτε το. Οποιοσδήποτε έχει πρόσβαση στο κλειδί ανάκτησης θα έχει πρόσβαση σε πόρους μέσα σε αυτό το πορτοφόλι.</string>
-    <string name="view_and_copy"><![CDATA[Προβολή & Αντιγραφή]]></string>
-    <string name="title_bin_backup">Εξαγωγή αντιγράφου .bin</string>
-    <string name="hint_password">Κωδικός πρόσβασης</string>
-    <string name="hint_password_confirmation">Επιβεβαίωση κωδικού πρόσβασης</string>
-    <string name="error_password_mandatory">Πρέπει να εισαγάγετε έναν κωδικό πρόσβασης</string>
-    <string name="error_password_too_short">Ο κωδικός πρόσβασης είναι πολύ μικρός</string>
-    <string name="error_password_confirmation_mismatch">Κωδικός πρόσβασης και αναντιστοιχία επιβεβαίωσης</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Κλείδωμα ασφαλείας</string>
+    <string name="title__security_dialog">Επιλέξτε ένα κλείδωμα ασφαλείας</string>
+    <string name="text__pin">ΚΑΡΦΙΤΣΑ</string>
+    <string name="text__pattern">Πρότυπο</string>
+    <string name="text__none">Κανένας</string>
+    <string name="button__choose">Επιλέγω</string>
+    <string name="title__re_enter_your_pin">Καταχωρίστε ξανά το PIN σας</string>
+    <string name="msg__enter_your_pin">Εισαγάγετε το PIN PalmPay για να συνεχίσετε</string>
+    <string name="error__wrong_pin">Λάθος κωδικό PIN</string>
+    <string name="title__set_palmpay_security_lock">Ορίστε την ασφάλεια PalmPay</string>
+    <string name="msg__set_a_pin">Για ασφάλεια, ορίστε ένα PIN</string>
+    <string name="msg__min_pin_length">Το PIN πρέπει να είναι τουλάχιστον 6 ψηφία</string>
+    <string name="title__pins_dont_match">Τα PIN δεν ταιριάζουν</string>
+    <string name="title__re_enter_your_pattern">Εισαγάγετε ξανά το μοτίβο σας</string>
+    <string name="msg__enter_your_pattern">Εισαγάγετε το μοτίβο PalmPay για να συνεχίσετε</string>
+    <string name="msg__set_a_pattern">Για ασφάλεια, ορίστε ένα μοτίβο</string>
+    <string name="msg__release_finger">Αφήστε το δάκτυλο όταν τελειώσετε</string>
+    <string name="button__clear">Σαφή</string>
+    <string name="button__next">Επόμενο</string>
+    <string name="text__draw_an_unlock_pattern">Σχεδιάστε ένα μοτίβο ξεκλειδώματος</string>
+    <string name="msg__draw_pattern_confirm">Σχεδιάστε ξανά το μοτίβο για επιβεβαίωση</string>
+    <string name="button__confirm">Επιβεβαιώνω</string>
+    <string name="msg__your_new_unlock_pattern">Το νέο μοτίβο ξεκλειδώματος</string>
+    <string name="error__wrong_pattern">Λάθος μοτίβο</string>
+    <string name="text__pattern_recorded">Έγγραφο που καταγράφηκε</string>
+    <string name="error__connect_at_least_4_dots">Συνδέστε τουλάχιστον 4 κουκίδες. Προσπάθησε ξανά.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Πάρα πολλές λανθασμένες προσπάθειες. Δοκιμάστε ξανά σε %1$d λεπτά.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Πάρα πολλές λανθασμένες προσπάθειες. Δοκιμάστε ξανά σε %1$d δευτερόλεπτα.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Τρεχούμενος λογαριασμός</string>
     <string name="merchant_account_s">Εμπορικός λογαριασμός: %1$s</string>
     <string name="upgrade_to_ltm">Αναβάθμιση σε LTM</string>
     <string name="upgrade_account_description">"Αναβαθμίστε τη συμμετοχή στο LifeTime (LTM). Οι λογαριασμοί LTM του Bitshares πληρώνουν σχεδόν μηδενικά τέλη, λάβετε το 80% επιστροφής χρημάτων και τα μπόνους για παραπομπές."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Είστε βέβαιοι ότι θέλετε να καταργήσετε το λογαριασμό" %1$s "από αυτό το πορτοφόλι;"</string>
     <string name="remove">Αφαιρώ</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Desired Smartcoin</string>
-    <string name="txt_customer_loyalty">Έκδοση Σημείων Πίστης ως ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Δημιουργία αντιγράφων ασφαλείας</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Αντιγραφή στο πρόχειρο</string>
+    <string name="bin_file_description">Αρχείο Bin. Αποθηκεύετε πάντα το αρχείο .bin backup σε μια μυστική κάρτα MicroSD ή στο USB Stick.</string>
+    <string name="create_a_backup">Δημιουργήστε ένα αντίγραφο ασφαλείας</string>
+    <string name="brainkey_description">Brainkey. Λίστες ανάκτησης λογαριασμού που μπορούν να ληφθούν ή να αντιγραφούν, αλλά δεν έχουν επεξεργαστεί.</string>
+    <string name="txt_brain_key_info">Εκτυπώστε το ή γράψτε το. Οποιοσδήποτε έχει πρόσβαση στο κλειδί ανάκτησης θα έχει πρόσβαση σε πόρους μέσα σε αυτό το πορτοφόλι.</string>
+    <string name="view_and_copy"><![CDATA[Προβολή & Αντιγραφή]]></string>
+    <string name="title_bin_backup">Εξαγωγή αντιγράφου .bin</string>
+    <string name="hint_password">Κωδικός πρόσβασης</string>
+    <string name="hint_password_confirmation">Επιβεβαίωση κωδικού πρόσβασης</string>
+    <string name="error_password_mandatory">Πρέπει να εισαγάγετε έναν κωδικό πρόσβασης</string>
+    <string name="error_password_too_short">Ο κωδικός πρόσβασης είναι πολύ μικρός</string>
+    <string name="error_password_confirmation_mismatch">Κωδικός πρόσβασης και αναντιστοιχία επιβεβαίωσης</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Desired Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Όλα τα Cryptocurrencies που λάβατε, μετατρέπονται αυτόματα σε επιθυμητό Smartcoin και αποθηκεύονται στο BitShares Merchant Account.</string>
+    <string name="title__loyalty_points">Σημεία Πίστης</string>
+    <string name="msg__loyalty_points_description">Οι Πόντοι Πίστης μπορούν να αποσταλούν αυτόματα στους πελάτες σας όταν ξοδεύουν χρήματα μαζί σας. Πρέπει να είστε κάτοχοι μερικών από τις μάρκες που θέλετε να στείλετε στους πελάτες σας.</string>
     <string name="warning_insufficient_reward_asset_balance">Ο λογαριασμός σας δεν διαθέτει ακόμη %1$s. Προσπαθήστε να αποκτήσετε κάποια προτού να προσπαθήσετε να δώσετε στους πελάτες σας ως Πόντοι Πίστης.</string>
     <string name="send">Στείλετε</string>
     <string name="txt_for_every">Για κάθε</string>
     <string name="txt_spent">ξόδεψε</string>
-    <string name="txt_bitcoin_altcoin_deposited">Αποδοχή έως και 8 κρυπτοσυστημάτων:</string>
+    <string name="title__cryptocurrency_preferences">Προτιμήσεις κρυπτογράφησης</string>
+    <string name="msg__cryptocurrency_preferences_description">Επιλέξτε έως και 8 δημοφιλή κρυπτοσυστήματα που θα δεχθείτε από τους πελάτες σας. Αυτά τα κέρματα θα εμφανιστούν στην αρχική οθόνη. Μπορείτε να αλλάξετε αυτές τις επιλογές ανά πάσα στιγμή.</string>
     <string name="altcoins_should_not_more_than">Επιλέξτε όχι περισσότερα από 8 στοιχεία εισόδου</string>
-    <string name="bitshares_unselection_message">Απαιτείται το σήμα πυρήνα Bitshares (BTS).</string>
     <string name="toast_low_volume_market">Τα περιουσιακά στοιχεία της αγοράς χαμηλού όγκου είναι προσωρινά αναπήδημα. Θα ενεργοποιηθούν μόλις αυξηθεί ο όγκος της αγοράς σε σημαντικό ποσό</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Λογότυπο</string>
     <string name="store_name">Όνομα καταστήματος</string>
     <string name="address">Διεύθυνση</string>
@@ -238,7 +292,11 @@
     <string name="search">Ψάξιμο</string>
     <string name="filter">Φίλτρο</string>
     <string name="export">Εξαγωγή</string>
-    <string name="confirming">Επιβεβαιώνοντας ...</string>
+    <string name="text__no_transactions">Δεν υπάρχουν συναλλαγές</string>
+    <string name="text__awaiting_payment">Εν αναμονή πληρωμής…</string>
+    <string name="text__confirming">Επιβεβαιώνοντας…</string>
+    <string name="text__complete">Πλήρης</string>
+    <string name="text__failed">Απέτυχε</string>
     <string name="pdf_generated_msg_s">Το PDF δημιουργήθηκε και αποθηκεύτηκε: %1$s</string>
     <string name="pdf_generated_msg_error_s">Δεν είναι δυνατή η δημιουργία pdf. Δοκιμάστε ξανά. Σφάλμα: %1$s</string>
     <string name="csv_generated_msg_s">Το CSV δημιουργήθηκε και αποθηκεύτηκε: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Σφάλμα σύνδεσης κόμβου, επανάληψη</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Σφάλμα από τον πλήρη κόμβο. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Απόκλιση ληφθέντος ποσού</string>
+    <string name="error_payment_amount_content">Φαίνεται ότι λάβαμε λιγότερα από ό, τι αναμενόταν. Η επιστροφή χρημάτων πρέπει να γίνει χειροκίνητα.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Πήραμε μια εισερχόμενη πληρωμή, αλλά δεν βρέθηκε κανένα αίτημα</string>

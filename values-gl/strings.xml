@@ -6,13 +6,13 @@
     <string name="disagree">Desacordo</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Cargando os activos ...</string>
-    <string name="title_loading_asset_type_data">Cargando datos do tipo de activo ...</string>
+    <string name="title_loading_assets">Cargando os activos…</string>
+    <string name="title_loading_asset_type_data">Cargando datos do tipo de activo…</string>
     <string name="title_assets_ready">Base de datos de activos listos</string>
     <string name="msg_loading_all_existing_assets">Realizar unha serie de solicitudes para obter a lista completa de todos os activos existentes</string>
     <string name="msg_loading_asset_type_data">Solicitude de novos datos de activos</string>
     <string name="msg_loading_asset_in_database">Cargou os activos %1$d na base de datos</string>
-    <string name="msg_assets_loaded">A continuación, configura a túa conta ...</string>
+    <string name="msg_assets_loaded">A continuación, configura a túa conta…</string>
     <string name="error_fetching_marketcap_data">Non se puideron cargar os datos do marketcap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Introduza o brainkey correcto, debería ter entre 12 e 16 palabras.</string>
     <string name="unable_to_load_brainkey">Non se pode cargar o brainkey</string>
     <string name="account_already_exist">A conta xa existe</string>
-    <string name="importing_your_wallet">Importando a túa billetera ...</string>
+    <string name="importing_your_wallet">Importando a túa billetera…</string>
     <string name="account_candidates_title">Selecciona unha conta</string>
     <string name="account_candidates_content">As claves derivadas deste cerebro parece que se usan para controlar máis dunha conta, seleccione a que quere importar</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Erro de corrupción clave</string>
     <string name="error_corrupted_key_content">A aplicación non pode recuperar as túas claves privadas cifradas da base de datos. Debido a isto, terás que introducir as túas claves outra vez. Ou na forma dun brainkey ou forma o ficheiro de copia de seguridade de liñas que foi xerado e almacenado automaticamente no seu sdcard se a aplicación foi creada pola aplicación</string>
     <string name="invalid_pin">PIN inválido</string>
+    <string name="network_loading_user_click_toast">A rede está a cargar. Agarda…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Inicio</string>
     <string name="txt_transactions">Transaccións</string>
     <string name="txt_refunds_returns">Reembolsos / Devolucións</string>
     <string name="txt_settlement">Liquidación</string>
-    <string name="bitshares_nodes_dialog_title">Nodos bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Bloque: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Importe debido</string>
@@ -122,10 +123,32 @@
     <string name="txt_please_wait">Agarde</string>
     <string name="error_node_unreachable">Non se puido alcanzar ningún nodo</string>
     <string name="invoice_subject">Factura de PalmPay desde %1$s</string>
+    <string name="memo_warning">NOTA: o campo de nota é necesario para combinar correctamente o seu pagamento coa solicitude do comerciante.</string>
     <string name="before_s">Antes: %1$s</string>
     <string name="share">Comparte</string>
     <string name="share_with">Compartir con</string>
-    <string name="connecting">Conectando ...</string>
+    <string name="connecting">Conectando…</string>
+    <string name="error_bridge_title">Erro de ponte</string>
+    <string name="error_bridge_content">A ponte de conversión de moeda parece estar abaixo. \n \nPóngase en contacto co servizo de asistencia. \n \n O código de erro é: %1$d</string>
+    <string name="button_accept_tx">Acepte a transacción</string>
+    <string name="dialog_accept_tx_title">Aceptar a transacción?</string>
+    <string name="dialog_accept_tx_summary">Detectouse a transacción, pero aínda non está totalmente confirmada.</string>
+    <string name="option_add_surety">Engadir garantía</string>
+    <string name="option_wait">Agarde</string>
+    <string name="option_accept">Aceptar</string>
+    <string name="title__step_payment_seen">Pagamento visto</string>
+    <string name="msg__step_payment_seen">Agardando a confirmación da rede</string>
+    <string name="msg__step_payment_seen_done">O pagamento incluír nun bloque</string>
+    <string name="title__step_payment_received">Pagamento recibido</string>
+    <string name="template_tx_progress">Esperando máis confirmacións de rede. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Recibidas confirmacións</string>
+    <string name="title__step_payment_confirmed">Pagamento confirmado</string>
+    <string name="msg__step_payment_confirmed">Iniciada a transacción de saída ao comerciante e aos embaixadores</string>
+    <string name="msg__step_payment_confirmed_done">O procesamento de pagamentos completouse</string>
+    <string name="error_estimate_input_content_template">Erro ao tentar estimar o valor de entrada. \n \n Erro do provedor da ponte: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Produciuse un erro ao procesar a túa solicitude.</string>
+    <string name="error_payment_request_content_template">O provedor de Bridge non pode procesar %1$s agora mesmo. Por favor inténtao de novo máis tarde. \n \nErro do provedor da ponte: \n \n "%2$s"</string>
+
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Selecciona a solicitude de pago</string>
@@ -133,26 +156,23 @@
     <string name="dialog_msg_confirm_pending_payment">Isto ligará o pagamento entrante á solicitude de pagamento previamente rexistrada de %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Detalles de pagamento entrantes</string>
     <string name="dialog_generic_title_confirm">Estás seguro?</string>
-    <string name="dialog_generic_msg_confirm">Ten en conta que esta acción non se pode desfacer</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Despedir</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Pagamento confirmado</string>
-    <string name="txt_cool">¡COOL!</string>
+    <string name="title__payment_confirmed">Pagamento confirmado</string>
+    <string name="button__view_transactions">Ver transaccións</string>
+    <string name="template__received">Recibido: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Configuración</string>
     <string name="general">Xeral</string>
-    <string name="security">Seguridade</string>
-    <string name="backups">Copias de seguranza</string>
-    <string name="tokens">Tokens</string>
     <string name="accounts">Contas</string>
+    <string name="tokens">Tokens</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Modo nocturno</string>
+    <string name="title__local_fiat_currency">Moneda local de Fiat</string>
     <string name="currency_info">A moeda é seleccionada automaticamente segundo a súa selección de idioma e país. Se queres cambiar esas, debes ir á configuración global do teu dispositivo.</string>
     <string name="screen_saver">Protector de pantalla</string>
     <string name="source">Fonte</string>
@@ -160,7 +180,8 @@
     <string name="default_folder">Cartafol predeterminado (/ PalmPay)</string>
     <string name="txt_folder">Cartafol</string>
     <string name="choose">Elixe</string>
-    <string name="screen_saver_time">Activar despois de ...</string>
+    <string name="folder_has_no_images_error">Erro, o cartafol escollido non ten imaxes</string>
+    <string name="screen_saver_time">Activar despois de…</string>
     <string name="one_minute">1 minuto</string>
     <string name="three_minutes">3 minutos</string>
     <string name="five_minutes">5 minutos</string>
@@ -169,27 +190,43 @@
     <string name="city">Cidade</string>
     <string name="country">País</string>
     <string name="bugs_or_ideas">Erros ou ideas?</string>
-    <string name="bugs_or_ideas_contact_info">Chat de Telegram: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Aceptar</string>
     <string name="select">Seleccionar</string>
     <string name="are_you_sure">Estás seguro?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Bucle de respaldo</string>
-    <string name="copied_to_clipboard">Copiado ao portarretallos</string>
-    <string name="bin_file_description">Ficheiro Bin. Garde sempre o ficheiro de copia de seguridade .bin a unha tarxeta MicroSD ou USB Stick secretas.</string>
-    <string name="create_a_backup">Crea unha copia de seguridade</string>
-    <string name="brainkey_description">Brainkey. Palabras de recuperación da conta que poden ser capturadas ou copiadas, pero non editadas.</string>
-    <string name="txt_brain_key_info">Imprimir isto ou anótelo. Calquera que teña acceso á túa clave de recuperación terá acceso aos fondos dentro desta carteira.</string>
-    <string name="view_and_copy">Ver e Copiar</string>
-    <string name="title_bin_backup">Exportar copia de seguranza .bin</string>
-    <string name="hint_password">Contrasinal</string>
-    <string name="hint_password_confirmation">Confirmación por contrasinal</string>
-    <string name="error_password_mandatory">Debe introducir un contrasinal</string>
-    <string name="error_password_too_short">A contrasinal é moi curta</string>
-    <string name="error_password_confirmation_mismatch">Contrasinal e desacordo de confirmación</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Bloqueo de seguridade</string>
+    <string name="title__security_dialog">Escolle un bloqueo de seguridade</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Patrón</string>
+    <string name="text__none">Nada</string>
+    <string name="button__choose">Elixe</string>
+    <string name="title__re_enter_your_pin">Volve escribir o PIN</string>
+    <string name="msg__enter_your_pin">Introduce o teu PIN de PalmPay para continuar</string>
+    <string name="error__wrong_pin">PIN incorrecto</string>
+    <string name="title__set_palmpay_security_lock">Configurar a seguridade PalmPay</string>
+    <string name="msg__set_a_pin">Por seguridade, configure un PIN</string>
+    <string name="msg__min_pin_length">O PIN debe ter polo menos 6 díxitos</string>
+    <string name="title__pins_dont_match">Os PIN non coinciden</string>
+    <string name="title__re_enter_your_pattern">Volve introducir o teu patrón</string>
+    <string name="msg__enter_your_pattern">Introduce o teu patrón PalmPay para continuar</string>
+    <string name="msg__set_a_pattern">Por seguridade, estableza un patrón</string>
+    <string name="msg__release_finger">Deitar o dedo cando estea feito</string>
+    <string name="button__clear">Claro</string>
+    <string name="button__next">Seguinte</string>
+    <string name="text__draw_an_unlock_pattern">Debuxa un patrón de desbloqueo</string>
+    <string name="msg__draw_pattern_confirm">Debuxe o debuxo de novo para confirmar</string>
+    <string name="button__confirm">Confirmar</string>
+    <string name="msg__your_new_unlock_pattern">O teu novo patrón de desbloqueo</string>
+    <string name="error__wrong_pattern">Patrón incorrecto</string>
+    <string name="text__pattern_recorded">Patrón gravado</string>
+    <string name="error__connect_at_least_4_dots">Conecta polo menos 4 puntos. Téntao de novo.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Demasiados intentos incorrectos. Téntao de novo en %1$d minutos.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Demasiados intentos incorrectos. Téntao de novo en %1$d segundos.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Conta corrente</string>
     <string name="merchant_account_s">Conta de comerciante: %1$s</string>
     <string name="upgrade_to_ltm">Actualiza a LTM</string>
     <string name="upgrade_account_description">"Actualización á membresía de LifeTime (LTM). As contas LTM de Bitshares pagan taxas de preto de cero, obteñen un 80% de reembolso e bonos para referencias".</string>
@@ -205,19 +242,37 @@
     <string name="txt_account_remove_confirmation">"¿Estás seguro de que queres eliminar a conta \'%1$s\' desta carteira?"</string>
     <string name="remove">Quitar</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Smartcoin desexado</string>
-    <string name="txt_customer_loyalty">Emite puntos de fidelidade como ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Copias de seguranza</string>
+    <string name="backup_brainkey">Bucle de respaldo</string>
+    <string name="copied_to_clipboard">Copiado ao portarretallos</string>
+    <string name="bin_file_description">Ficheiro Bin. Garde sempre o ficheiro de copia de seguridade .bin a unha tarxeta MicroSD ou USB Stick secretas.</string>
+    <string name="create_a_backup">Crea unha copia de seguridade</string>
+    <string name="brainkey_description">Brainkey. Palabras de recuperación da conta que poden ser capturadas ou copiadas, pero non editadas.</string>
+    <string name="txt_brain_key_info">Imprimir isto ou anótelo. Calquera que teña acceso á túa clave de recuperación terá acceso aos fondos dentro desta carteira.</string>
+    <string name="view_and_copy">Ver e Copiar</string>
+    <string name="title_bin_backup">Exportar copia de seguranza .bin</string>
+    <string name="hint_password">Contrasinal</string>
+    <string name="hint_password_confirmation">Confirmación por contrasinal</string>
+    <string name="error_password_mandatory">Debe introducir un contrasinal</string>
+    <string name="error_password_too_short">A contrasinal é moi curta</string>
+    <string name="error_password_confirmation_mismatch">Contrasinal e desacordo de confirmación</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Smartcoin desexado</string>
+    <string name="msg__desired_smartcoin_description">Todas as Criptográficas que recibiu son convertidas automaticamente no seu Smartcoin desexado e gardadas na súa conta de comerciante de BitShares.</string>
+    <string name="title__loyalty_points">Puntos de fidelidade</string>
+    <string name="msg__loyalty_points_description">Os puntos de fidelidade poden ser enviados automaticamente aos seus clientes cando gastan cartos contigo. Debes ter algúns dos tokens que desexas enviar aos teus clientes.</string>
     <string name="warning_insufficient_reward_asset_balance">A túa conta aínda non ten ningún %1$s. Adquire algúns antes de tentar darlle aos seus clientes como puntos de fidelidade.</string>
     <string name="send">Enviar</string>
     <string name="txt_for_every">Por cada</string>
     <string name="txt_spent">gasto</string>
-    <string name="txt_bitcoin_altcoin_deposited">Aceptar ata 8 Criptocidades:</string>
+    <string name="title__cryptocurrency_preferences">Preferencias de criptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">Escolle ata 8 criptoconetos populares que aceptarás dos teus clientes. Estas moedas aparecerán na pantalla de inicio. Podes cambiar estas opcións en calquera momento.</string>
     <string name="altcoins_should_not_more_than">Non seleccione máis de 8 activos de entrada</string>
-    <string name="bitshares_unselection_message">Requírese o token do núcleo Bitshares (BTS).</string>
     <string name="toast_low_volume_market">Os activos de baixo volume do mercado están desactivados temporalmente. Estarán habilitados unha vez que o volume do mercado suba considerablemente</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Nome da tenda</string>
     <string name="address">Enderezo</string>
@@ -238,7 +293,11 @@
     <string name="search">Busca</string>
     <string name="filter">Filtro</string>
     <string name="export">Exportar</string>
-    <string name="confirming">Confirmando ...</string>
+    <string name="text__no_transactions">Sen transaccións</string>
+    <string name="text__awaiting_payment">Agardando Pagamento…</string>
+    <string name="text__confirming">Confirmando…</string>
+    <string name="text__complete">Completa</string>
+    <string name="text__failed">Fallou</string>
     <string name="pdf_generated_msg_s">PDF xerado e gardado: %1$s</string>
     <string name="pdf_generated_msg_error_s">Non se pode xerar pdf. Tente de novo. Erro: %1$s</string>
     <string name="csv_generated_msg_s">CSV xerado e gardado: %1$s</string>
@@ -298,6 +357,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Erro de conexión de nodo, volvendo intentar</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Erro do nodo completo. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Discrepancia de cantidade recibida</string>
+    <string name="error_payment_amount_content">Parece que recibimos menos do que se esperaba. O reembolso terá que ser procesado manualmente.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Recibimos un pagamento entrante, pero non se puido atopar ningunha solicitude</string>

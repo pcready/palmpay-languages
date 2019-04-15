@@ -6,13 +6,13 @@
     <string name="disagree">olla eri mieltä</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Varojen lisääminen ...</string>
-    <string name="title_loading_asset_type_data">Ladattavien tiedostotyyppien lataaminen ...</string>
+    <string name="title_loading_assets">Varojen lisääminen…</string>
+    <string name="title_loading_asset_type_data">Ladattavien tiedostotyyppien lataaminen…</string>
     <string name="title_assets_ready">Omaisuustietokanta on valmis</string>
     <string name="msg_loading_all_existing_assets">Useiden pyyntöjen suorittaminen saadaksesi täydellisen luettelon kaikista olemassa olevista varoista</string>
     <string name="msg_loading_asset_type_data">Pyydetään lisäomaisuutta koskevia tietoja</string>
     <string name="msg_loading_asset_in_database">Lisättiin %1$d omaisuus tietokantaan</string>
-    <string name="msg_assets_loaded">Seuraavaksi aseta tiliisi ...</string>
+    <string name="msg_assets_loaded">Seuraavaksi aseta tiliisi…</string>
     <string name="error_fetching_marketcap_data">Marketcap-tietoja ei voitu ladata</string>
 
     <!-- Create Account Activity -->
@@ -48,10 +48,10 @@
     <string name="please_enter_6_digit_pin_confirm">Anna PIN-koodisi vahvistus</string>
     <string name="mismatch_pin">Epäyhtenäinen tappi</string>
     <string name="please_enter_brainkey">Anna aivokahva</string>
-    <string name="please_enter_correct_brainkey">Anna oikea aivokuvake, sen pitäisi olla 12 - 16 sanaa.</string>
+    <string name="please_enter_correct_brainkey">Anna oikea aivokuvake, sen pitäisi olla 12 – 16 sanaa.</string>
     <string name="unable_to_load_brainkey">Aivoa ei voi ladata</string>
     <string name="account_already_exist">Tili on jo olemassa</string>
-    <string name="importing_your_wallet">Lompakon tuominen ...</string>
+    <string name="importing_your_wallet">Lompakon tuominen…</string>
     <string name="account_candidates_title">Valitse tili</string>
     <string name="account_candidates_content">Näistä aivokuvasta saatuja avaimia käytetään hallita useampia kuin yhtä tiliä, valitse tili, jonka haluat tuoda</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Avain korruptiovirhe</string>
     <string name="error_corrupted_key_content">Sovellus ei pysty palauttamaan salattuja yksityisiä avaimia tietokannasta. Tästä syystä sinun tulee syöttää avaimet uudelleen. Joko joko aivokuvake tai lomake varmuuskopio-tiedostosta, joka luotiin ja tallennettiin automaattisesti sdcard-tilillesi, jos sovellus on luonut tilin</string>
     <string name="invalid_pin">Virheellinen PIN-koodi</string>
+    <string name="network_loading_user_click_toast">Verkko latautuu. Odota…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Koti</string>
     <string name="txt_transactions">liiketoimet</string>
     <string name="txt_refunds_returns">Hyvitykset / palautus</string>
     <string name="txt_settlement">tilitys</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares-solmut</string>
+    <string name="bitshares_nodes_dialog_title">Lohko: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Määrä on maksettava</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Odota</string>
     <string name="error_node_unreachable">Mitään solmua ei voitu saavuttaa</string>
     <string name="invoice_subject">PalmPay-lasku alkaen %1$s</string>
+    <string name="memo_warning">HUOMAUTUS: Muistikenttä on välttämätön, jotta maksusi voidaan sovittaa oikein kauppiaan pyyntöön.</string>
     <string name="before_s">Ennen: %1$s</string>
     <string name="share">Jaa</string>
     <string name="share_with">Jakaa</string>
-    <string name="connecting">Yhdistetään ...</string>
+    <string name="connecting">Yhdistetään…</string>
+    <string name="error_bridge_title">Sillan virhe</string>
+    <string name="error_bridge_content">Valuuttamuuntosilta näyttää olevan alas. \n \nNäytä yhteystiedot. \n \nViruskoodi on: %1$d</string>
+    <string name="button_accept_tx">Hyväksy tapahtuma</string>
+    <string name="dialog_accept_tx_title">Hyväksy tapahtuma?</string>
+    <string name="dialog_accept_tx_summary">Kauppa on havaittu, mutta sitä ei ole vielä täysin vahvistettu.</string>
+    <string name="option_add_surety">Lisää vakuus</string>
+    <string name="option_wait">Odota</string>
+    <string name="option_accept">Hyväksyä</string>
+    <string name="title__step_payment_seen">Maksu nähdään</string>
+    <string name="msg__step_payment_seen">Odotetaan verkon vahvistusta</string>
+    <string name="msg__step_payment_seen_done">Maksu on sisällytetty lohkoon</string>
+    <string name="title__step_payment_received">Maksu vastaanotettu</string>
+    <string name="template_tx_progress">Odotetaan lisää verkon vahvistuksia. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Saatu riittävästi vahvistuksia</string>
+    <string name="title__step_payment_confirmed">Maksu vahvistettu</string>
+    <string name="msg__step_payment_confirmed">Tuotantotapahtuma kauppiaille ja suurlähettiläille aloitettiin</string>
+    <string name="msg__step_payment_confirmed_done">Maksujen käsittely on valmis</string>
+    <string name="error_estimate_input_content_template">Virhe arvioitaessa tulon määrää. \n \n Sillan tarjoajan virhe: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Pyyntöä käsiteltäessä on tapahtunut virhe.</string>
+    <string name="error_payment_request_content_template">Bridge-palveluntarjoaja ei voi käsitellä %1$s nyt. Yritä uudelleen myöhemmin. \n \nVirhe sillan tarjoajalta: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Valitse maksupyyntö</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Tämä yhdistää saapuvan maksun aiemmin kirjattuun maksupyyntöön %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Saapuvat maksutiedot</string>
     <string name="dialog_generic_title_confirm">Oletko varma?</string>
-    <string name="dialog_generic_msg_confirm">Huomaa, että tätä toimintoa ei voi kumota</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">erottaa</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Maksu vahvistettu!</string>
-    <string name="txt_cool">VIILEÄ!</string>
+    <string name="title__payment_confirmed">Maksu vahvistettu!</string>
+    <string name="button__view_transactions">Näytä tapahtumat</string>
+    <string name="template__received">Vastaanotettu: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">asetukset</string>
     <string name="general">yleinen</string>
-    <string name="security">turvallisuus</string>
-    <string name="backups">varmuuskopiot</string>
-    <string name="tokens">tokens</string>
     <string name="accounts">tilit</string>
+    <string name="tokens">tokens</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Yötila</string>
+    <string name="title__local_fiat_currency">Paikallinen Fiat-valuutta</string>
     <string name="currency_info">Valuutan valinta tapahtuu automaattisesti kielen ja maan valinnan mukaan. Jos haluat muuttaa niitä, sinun on siirryttävä laitteesi yleisiin järjestelmäasetuksiin.</string>
     <string name="screen_saver">Näytönsäästäjä</string>
     <string name="source">Lähde</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Oletuskansio (/ PalmPay)</string>
     <string name="txt_folder">Kansio</string>
     <string name="choose">Valita</string>
-    <string name="screen_saver_time">Ota käyttöön ...</string>
+    <string name="folder_has_no_images_error">Virhe, valitulla kansiolla ei ole kuvia</string>
+    <string name="screen_saver_time">Ota käyttöön…</string>
     <string name="one_minute">1 minuutti</string>
     <string name="three_minutes">3 minuuttia</string>
     <string name="five_minutes">5 minuuttia</string>
@@ -169,27 +189,43 @@
     <string name="city">Kaupunki</string>
     <string name="country">Maa</string>
     <string name="bugs_or_ideas">Vihjeitä tai ideoita?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram-chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Sähke: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Hyväksyä</string>
     <string name="select">valita</string>
     <string name="are_you_sure">Oletko varma?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Varmuuskopioi aivokuvake</string>
-    <string name="copied_to_clipboard">Kopioidaan leikepöydälle</string>
-    <string name="bin_file_description">Bin-tiedosto. Tallenna aina varmuuskopio .bin-tiedosto salainen MicroSD-kortti tai USB-muistitikku.</string>
-    <string name="create_a_backup">Luo varmuuskopio</string>
-    <string name="brainkey_description">Brainkey. Tilin palautussanat, jotka voidaan ottaa talteen tai kopioida, mutta joita ei muokata.</string>
-    <string name="txt_brain_key_info">Tulosta tämä tai kirjoita se. Jokainen, jolla on käyttöoikeus palautusavaimeen, saa käyttöön tämän lompakon rahastot.</string>
-    <string name="view_and_copy"><![CDATA[Näytä & kopioi]]></string>
-    <string name="title_bin_backup">Vie .bin-varmuuskopio</string>
-    <string name="hint_password">Salasana</string>
-    <string name="hint_password_confirmation">salasanan vahvistus</string>
-    <string name="error_password_mandatory">Anna salasana</string>
-    <string name="error_password_too_short">Salasana on liian lyhyt</string>
-    <string name="error_password_confirmation_mismatch">Salasana ja vahvistuksen yhteensopimattomuus</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Turvalukko</string>
+    <string name="title__security_dialog">Valitse suojauslukko</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Kuvio</string>
+    <string name="text__none">Ei mitään</string>
+    <string name="button__choose">Valita</string>
+    <string name="title__re_enter_your_pin">Anna PIN-koodi uudelleen</string>
+    <string name="msg__enter_your_pin">Syötä PalmPay-PIN-koodi jatkaaksesi</string>
+    <string name="error__wrong_pin">Väärä PIN-koodi</string>
+    <string name="title__set_palmpay_security_lock">Aseta PalmPay Security</string>
+    <string name="msg__set_a_pin">Aseta PIN-koodi tietoturvaa varten</string>
+    <string name="msg__min_pin_length">PIN-koodin on oltava vähintään 6 numeroa</string>
+    <string name="title__pins_dont_match">PIN-koodit eivät täsmää</string>
+    <string name="title__re_enter_your_pattern">Anna kuvio uudelleen</string>
+    <string name="msg__enter_your_pattern">Syötä PalmPay-kuvio jatkaaksesi</string>
+    <string name="msg__set_a_pattern">Määritä suojaus valitsemalla kuvio</string>
+    <string name="msg__release_finger">Vapauta sormi, kun olet valmis</string>
+    <string name="button__clear">Asia selvä</string>
+    <string name="button__next">Seuraava</string>
+    <string name="text__draw_an_unlock_pattern">Piirrä avausmallia</string>
+    <string name="msg__draw_pattern_confirm">Piirrä kuvio uudelleen vahvistaaksesi</string>
+    <string name="button__confirm">Vahvistaa</string>
+    <string name="msg__your_new_unlock_pattern">Uusi avausmallisi</string>
+    <string name="error__wrong_pattern">Väärä kuvio</string>
+    <string name="text__pattern_recorded">Kuvio tallennettu</string>
+    <string name="error__connect_at_least_4_dots">Yhdistä vähintään 4 pistettä. Yritä uudelleen.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Liian monta väärää yritystä. Yritä uudelleen %1$d minuuttia.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Liian monta väärää yritystä. Yritä uudelleen %1$d sekunnissa.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Nykyinen tili</string>
     <string name="merchant_account_s">Kauppiastili: %1$s</string>
     <string name="upgrade_to_ltm">Päivitä LTM: hen</string>
     <string name="upgrade_account_description">"Päivitä LifeTime Membershipiin (LTM). Bitsharesin LTM-tilit maksavat lähes nolla-palkkioita, saavat 80% käteispalautuksen ja bonukset viittauksille."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Haluatko varmasti poistaa tilin" %1$s "tästä lompakosta?"</string>
     <string name="remove">Poistaa</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Haluttu Smartcoin</string>
-    <string name="txt_customer_loyalty">Issue Loyalty Points ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">varmuuskopiot</string>
+    <string name="backup_brainkey">Varmuuskopioi aivokuvake</string>
+    <string name="copied_to_clipboard">Kopioidaan leikepöydälle</string>
+    <string name="bin_file_description">Bin-tiedosto. Tallenna aina varmuuskopio .bin-tiedosto salainen MicroSD-kortti tai USB-muistitikku.</string>
+    <string name="create_a_backup">Luo varmuuskopio</string>
+    <string name="brainkey_description">Brainkey. Tilin palautussanat, jotka voidaan ottaa talteen tai kopioida, mutta joita ei muokata.</string>
+    <string name="txt_brain_key_info">Tulosta tämä tai kirjoita se. Jokainen, jolla on käyttöoikeus palautusavaimeen, saa käyttöön tämän lompakon rahastot.</string>
+    <string name="view_and_copy"><![CDATA[Näytä & kopioi]]></string>
+    <string name="title_bin_backup">Vie .bin-varmuuskopio</string>
+    <string name="hint_password">Salasana</string>
+    <string name="hint_password_confirmation">salasanan vahvistus</string>
+    <string name="error_password_mandatory">Anna salasana</string>
+    <string name="error_password_too_short">Salasana on liian lyhyt</string>
+    <string name="error_password_confirmation_mismatch">Salasana ja vahvistuksen yhteensopimattomuus</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Haluttu Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Kaikki saamasi cryptocurrencies muunnetaan automaattisesti haluamallesi Smartcoiin ja tallennetaan BitShares-kauppiastiliisi.</string>
+    <string name="title__loyalty_points">Lojaalisuuspisteet</string>
+    <string name="msg__loyalty_points_description">Lojaalisuuspisteet voidaan lähettää asiakkaillesi automaattisesti, kun he käyttävät rahaa kanssasi. Sinun täytyy omistaa joitakin merkkejä, jotka haluat lähettää asiakkaillesi.</string>
     <string name="warning_insufficient_reward_asset_balance">Tililläsi ei vielä ole yhtään %1$s. Hanki joitain ennen kuin yrität antaa asiakkaillesi Loyalty Points -pisteitä.</string>
     <string name="send">Lähettää</string>
     <string name="txt_for_every">Jokaiselle</string>
     <string name="txt_spent">käytetty</string>
-    <string name="txt_bitcoin_altcoin_deposited">Hyväksy korkeintaan 8 salausvaluutta:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency Preferences</string>
+    <string name="msg__cryptocurrency_preferences_description">Valitse enintään 8 suosituinta cryptocurrencies, jotka hyväksyt asiakkailta. Nämä kolikot näkyvät kotinäytössä. Voit muuttaa näitä valintoja milloin tahansa.</string>
     <string name="altcoins_should_not_more_than">Valitse enintään 8 syöttöomaisuutta</string>
-    <string name="bitshares_unselection_message">Bitshares (BTS) ydintunniste on pakollinen.</string>
     <string name="toast_low_volume_market">Pienet myyntivarat ovat tilapäisesti poissa käytöstä. Ne otetaan käyttöön, kun markkinoiden volyymi kasvaa huomattavasti</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Myymälän nimi</string>
     <string name="address">Osoite</string>
@@ -238,7 +292,11 @@
     <string name="search">Hae</string>
     <string name="filter">Suodattaa</string>
     <string name="export">Viedä</string>
-    <string name="confirming">Vahvistavat ...</string>
+    <string name="text__no_transactions">Ei tapahtumia</string>
+    <string name="text__awaiting_payment">Odotetaan maksua…</string>
+    <string name="text__confirming">Vahvistavat…</string>
+    <string name="text__complete">Saattaa loppuun</string>
+    <string name="text__failed">epäonnistui</string>
     <string name="pdf_generated_msg_s">PDF tuotettu ja tallennettu: %1$s</string>
     <string name="pdf_generated_msg_error_s">PDF-tiedostoa ei voitu luoda. Yritä uudelleen. Virhe: %1$s</string>
     <string name="csv_generated_msg_s">CSV tuotettiin ja tallennettiin: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Solmun yhteysvirhe, yritetään uudelleen</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Virhe täydeltä solmulta. Viesti: %1$s</string>
+    <string name="error_payment_amount_title">Vastaanotettu summaero</string>
+    <string name="error_payment_amount_content">Näyttää siltä, että saimme vähemmän kuin odotettiin. Palautus on käsiteltävä käsin.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Saimme saapuvan maksun, mutta pyyntöä ei löytynyt</string>

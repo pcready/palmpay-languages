@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Lỗi tham nhũng chính</string>
     <string name="error_corrupted_key_content">Ứng dụng không thể khôi phục các khóa riêng được mã hóa của bạn từ cơ sở dữ liệu. Bởi vì điều này bạn sẽ được yêu cầu nhập lại khóa của bạn. Hoặc dưới dạng một bộ não hoặc tạo tệp sao lưu bin được tạo và lưu trữ tự động trong sdcard của bạn nếu tài khoản được tạo bởi ứng dụng</string>
     <string name="invalid_pin">Mã PIN không hợp lệ</string>
+    <string name="network_loading_user_click_toast">Đang tải mạng. Vui lòng chờ…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Nhà</string>
     <string name="txt_transactions">Giao dịch</string>
     <string name="txt_refunds_returns">Hoàn lại tiền / Trả lại</string>
     <string name="txt_settlement">Giải quyết</string>
-    <string name="bitshares_nodes_dialog_title">Các nút bithares</string>
+    <string name="bitshares_nodes_dialog_title">Chặn: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Số tiền đến hạn</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Vui lòng đợi</string>
     <string name="error_node_unreachable">Không có nút nào có thể đạt được</string>
     <string name="invoice_subject">Hóa đơn PalmPay từ %1$s</string>
+    <string name="memo_warning">LƯU Ý: Trường ghi nhớ được yêu cầu khớp chính xác khoản thanh toán của bạn với yêu cầu của người bán.</string>
     <string name="before_s">Trước: %1$s</string>
     <string name="share">Chia sẻ</string>
     <string name="share_with">Chia sẽ với</string>
     <string name="connecting">Đang kết nối…</string>
+    <string name="error_bridge_title">Lỗi cầu</string>
+    <string name="error_bridge_content">Cây cầu chuyển đổi tiền tệ dường như đang xuống. \n \n Vui lòng liên hệ với bộ phận hỗ trợ. \n \nError mã là: %1$d</string>
+    <string name="button_accept_tx">Chấp nhận giao dịch</string>
+    <string name="dialog_accept_tx_title">Chấp nhận giao dịch?</string>
+    <string name="dialog_accept_tx_summary">Giao dịch đã được phát hiện, nhưng chưa được xác nhận đầy đủ.</string>
+    <string name="option_add_surety">Thêm sự chắc chắn</string>
+    <string name="option_wait">Chờ đợi</string>
+    <string name="option_accept">Chấp nhận</string>
+    <string name="title__step_payment_seen">Thanh toán thấy</string>
+    <string name="msg__step_payment_seen">Chờ xác nhận mạng</string>
+    <string name="msg__step_payment_seen_done">Thanh toán đã được bao gồm trong một khối</string>
+    <string name="title__step_payment_received">Thanh toán nhận được</string>
+    <string name="template_tx_progress">Chờ đợi để xác nhận thêm mạng. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Đủ các xác nhận nhận được</string>
+    <string name="title__step_payment_confirmed">Xác nhận thanh toán</string>
+    <string name="msg__step_payment_confirmed">Giao dịch đầu ra cho thương gia và đại sứ bắt đầu</string>
+    <string name="msg__step_payment_confirmed_done">Hoàn tất xử lý thanh toán</string>
+    <string name="error_estimate_input_content_template">Lỗi trong khi cố gắng ước tính số lượng đầu vào. \n \n Lỗi từ nhà cung cấp cầu: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Đã có một lỗi trong khi xử lý yêu cầu của bạn.</string>
+    <string name="error_payment_request_content_template">Nhà cung cấp Bridge không thể xử lý %1$s ngay bây giờ. Vui lòng thử lại sau. \n \nError từ nhà cung cấp cầu nối: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Chọn yêu cầu thanh toán</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Điều này sẽ liên kết thanh toán đến với yêu cầu thanh toán được ghi lại trước đó là %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Chi tiết thanh toán đến</string>
     <string name="dialog_generic_title_confirm">Bạn có chắc không?</string>
-    <string name="dialog_generic_msg_confirm">Xin lưu ý rằng hành động này không thể hoàn tác</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Bỏ qua</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Đã xác nhận thanh toán!</string>
-    <string name="txt_cool">MÁT MẺ!</string>
+    <string name="title__payment_confirmed">Đã xác nhận thanh toán!</string>
+    <string name="button__view_transactions">Xem giao dịch</string>
+    <string name="template__received">Đã nhận: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Cài đặt</string>
     <string name="general">Chung</string>
-    <string name="security">Bảo vệ</string>
-    <string name="backups">Sao lưu</string>
-    <string name="tokens">Mã thông báo</string>
     <string name="accounts">Tài khoản</string>
+    <string name="tokens">Mã thông báo</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Chế độ ban đêm</string>
+    <string name="title__local_fiat_currency">Tiền tệ địa phương</string>
     <string name="currency_info">Đơn vị tiền tệ được chọn tự động dựa trên lựa chọn ngôn ngữ và quốc gia của bạn. Nếu bạn muốn thay đổi chúng, bạn phải đi đến các thiết lập hệ thống toàn cầu của thiết bị của bạn.</string>
     <string name="screen_saver">Bảo vệ màn hình</string>
     <string name="source">Nguồn</string>
@@ -160,6 +179,7 @@
     <string name="default_folder">Thư mục mặc định (/ PalmPay)</string>
     <string name="txt_folder">Thư mục</string>
     <string name="choose">Chọn</string>
+    <string name="folder_has_no_images_error">Lỗi, thư mục đã chọn không có hình ảnh</string>
     <string name="screen_saver_time">Bật sau…</string>
     <string name="one_minute">1 phút</string>
     <string name="three_minutes">3 phút</string>
@@ -169,27 +189,43 @@
     <string name="city">Thành phố</string>
     <string name="country">Quốc gia</string>
     <string name="bugs_or_ideas">Lỗi hoặc ý tưởng?</string>
-    <string name="bugs_or_ideas_contact_info">Trò chuyện Telegram: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Chấp nhận</string>
     <string name="select">Lựa chọn</string>
     <string name="are_you_sure">Bạn có chắc không?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Sao lưu não</string>
-    <string name="copied_to_clipboard">Sao chép vào clipboard</string>
-    <string name="bin_file_description">Tệp Bin. Luôn lưu tệp .bin sao lưu của bạn vào thẻ MicroSD hoặc thẻ nhớ USB bí mật.</string>
-    <string name="create_a_backup">Tạo bản sao lưu</string>
-    <string name="brainkey_description">Brainkey. Các từ khôi phục tài khoản có thể được chụp hoặc sao chép, nhưng không được chỉnh sửa.</string>
-    <string name="txt_brain_key_info">In ra, hoặc viết nó xuống. Bất kỳ ai có quyền truy cập vào khóa khôi phục của bạn sẽ có quyền truy cập vào tiền trong ví này.</string>
-    <string name="view_and_copy">Xem và sao chép</string>
-    <string name="title_bin_backup">Xuất sao lưu .bin</string>
-    <string name="hint_password">Mật khẩu</string>
-    <string name="hint_password_confirmation">xác nhận mật khẩu</string>
-    <string name="error_password_mandatory">Phải nhập mật khẩu</string>
-    <string name="error_password_too_short">Mật khẩu quá ngắn</string>
-    <string name="error_password_confirmation_mismatch">Mật khẩu và xác nhận không phù hợp</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Khóa bảo mật</string>
+    <string name="title__security_dialog">Chọn một khóa bảo mật</string>
+    <string name="text__pin">GHIM</string>
+    <string name="text__pattern">Mẫu</string>
+    <string name="text__none">không ai</string>
+    <string name="button__choose">Chọn</string>
+    <string name="title__re_enter_your_pin">Nhập lại mã PIN của bạn</string>
+    <string name="msg__enter_your_pin">Nhập mã PIN PalmPay của bạn để tiếp tục</string>
+    <string name="error__wrong_pin">Pin sai</string>
+    <string name="title__set_palmpay_security_lock">Đặt bảo mật PalmPay</string>
+    <string name="msg__set_a_pin">Để bảo mật, hãy đặt mã PIN</string>
+    <string name="msg__min_pin_length">PIN phải có ít nhất 6 chữ số</string>
+    <string name="title__pins_dont_match">Mã PIN không khớp</string>
+    <string name="title__re_enter_your_pattern">Nhập lại mẫu của bạn</string>
+    <string name="msg__enter_your_pattern">Nhập mẫu PalmPay của bạn để tiếp tục</string>
+    <string name="msg__set_a_pattern">Để bảo mật, hãy đặt Mẫu</string>
+    <string name="msg__release_finger">Thả ngón tay ra khi hoàn thành</string>
+    <string name="button__clear">Thông thoáng</string>
+    <string name="button__next">Kế tiếp</string>
+    <string name="text__draw_an_unlock_pattern">Vẽ một mẫu mở khóa</string>
+    <string name="msg__draw_pattern_confirm">Vẽ lại mẫu để xác nhận</string>
+    <string name="button__confirm">Xác nhận</string>
+    <string name="msg__your_new_unlock_pattern">Mẫu mở khóa mới của bạn</string>
+    <string name="error__wrong_pattern">Mẫu sai</string>
+    <string name="text__pattern_recorded">Mẫu đã ghi</string>
+    <string name="error__connect_at_least_4_dots">Kết nối ít nhất 4 điểm. Thử lại.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Quá nhiều lần thử sai. Hãy thử lại sau %1$d phút.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Quá nhiều lần thử sai. Hãy thử lại sau %1$d giây.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Tài khoản hiện tại</string>
     <string name="merchant_account_s">Tài khoản người bán: %1$s</string>
     <string name="upgrade_to_ltm">Nâng cấp lên LTM</string>
     <string name="upgrade_account_description">"Nâng cấp lên thành viên LifeTime (LTM). Tài khoản LTM Bitshares \'trả các khoản phí gần bằng 0, nhận 80% tiền hoàn lại và tiền thưởng cho các giới thiệu."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Bạn có chắc chắn muốn xóa tài khoản \'%1$s\' khỏi ví này không?"</string>
     <string name="remove">Tẩy</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Smartcoin mong muốn</string>
-    <string name="txt_customer_loyalty">Phát hành điểm khách hàng thân thiết dưới dạng…</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Sao lưu</string>
+    <string name="backup_brainkey">Sao lưu não</string>
+    <string name="copied_to_clipboard">Sao chép vào clipboard</string>
+    <string name="bin_file_description">Tệp Bin. Luôn lưu tệp .bin sao lưu của bạn vào thẻ MicroSD hoặc thẻ nhớ USB bí mật.</string>
+    <string name="create_a_backup">Tạo bản sao lưu</string>
+    <string name="brainkey_description">Brainkey. Các từ khôi phục tài khoản có thể được chụp hoặc sao chép, nhưng không được chỉnh sửa.</string>
+    <string name="txt_brain_key_info">In ra, hoặc viết nó xuống. Bất kỳ ai có quyền truy cập vào khóa khôi phục của bạn sẽ có quyền truy cập vào tiền trong ví này.</string>
+    <string name="view_and_copy">Xem và sao chép</string>
+    <string name="title_bin_backup">Xuất sao lưu .bin</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_password_confirmation">xác nhận mật khẩu</string>
+    <string name="error_password_mandatory">Phải nhập mật khẩu</string>
+    <string name="error_password_too_short">Mật khẩu quá ngắn</string>
+    <string name="error_password_confirmation_mismatch">Mật khẩu và xác nhận không phù hợp</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Smartcoin mong muốn</string>
+    <string name="msg__desired_smartcoin_description">Tất cả các loại tiền điện tử mà bạn nhận được, sẽ tự động được chuyển đổi thành Smartcoin mong muốn của bạn và được lưu trong Tài khoản người bán BitShares của bạn.</string>
+    <string name="title__loyalty_points">Điểm trung thành</string>
+    <string name="msg__loyalty_points_description">Điểm trung thành có thể được tự động gửi cho khách hàng của bạn khi họ chi tiền với bạn. Bạn phải sở hữu một số mã thông báo mà bạn muốn gửi cho khách hàng của mình.</string>
     <string name="warning_insufficient_reward_asset_balance">Tài khoản của bạn chưa sở hữu bất kỳ %1$s nào. Hãy mua một số trước khi bạn cố gắng cung cấp cho bất kỳ khách hàng của bạn là Điểm khách hàng thân thiết.</string>
     <string name="send">Gửi</string>
     <string name="txt_for_every">Cho mọi</string>
     <string name="txt_spent">bỏ ra</string>
-    <string name="txt_bitcoin_altcoin_deposited">Chấp nhận tối đa 8 tiền điện tử:</string>
+    <string name="title__cryptocurrency_preferences">Tùy chọn tiền điện tử</string>
+    <string name="msg__cryptocurrency_preferences_description">Chọn tối đa 8 loại tiền điện tử phổ biến mà bạn sẽ chấp nhận từ khách hàng của mình. Những đồng tiền này sẽ hiển thị trên màn hình chính. Bạn có thể thay đổi những lựa chọn này bất cứ lúc nào.</string>
     <string name="altcoins_should_not_more_than">Vui lòng chọn không quá 8 nội dung đầu vào</string>
-    <string name="bitshares_unselection_message">Mã thông báo cốt lõi Bitshares (BTS) là bắt buộc.</string>
     <string name="toast_low_volume_market">Tài sản thị trường khối lượng thấp bị vô hiệu hóa tạm thời. Chúng sẽ được kích hoạt khi khối lượng thị trường tăng lên một lượng đáng kể</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Tên cửa hàng</string>
     <string name="address">Địa chỉ nhà</string>
@@ -238,7 +292,11 @@
     <string name="search">Tìm kiếm</string>
     <string name="filter">Bộ lọc</string>
     <string name="export">Xuất khẩu</string>
-    <string name="confirming">Đang xác nhận…</string>
+    <string name="text__no_transactions">Không có giao dịch</string>
+    <string name="text__awaiting_payment">Đang chờ thanh toán…</string>
+    <string name="text__confirming">Khẳng định giáo dục</string>
+    <string name="text__complete">Hoàn thành</string>
+    <string name="text__failed">Thất bại</string>
     <string name="pdf_generated_msg_s">Đã tạo và lưu PDF: %1$s</string>
     <string name="pdf_generated_msg_error_s">Không thể tạo pdf. Làm ơn hãy thử lại. Lỗi: %1$s</string>
     <string name="csv_generated_msg_s">CSV được tạo và lưu: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Lỗi kết nối nút, thử lại</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Lỗi từ nút đầy đủ. Thưa: %1$s</string>
+    <string name="error_payment_amount_title">Số tiền chênh lệch nhận được</string>
+    <string name="error_payment_amount_content">Có vẻ như chúng tôi nhận được ít hơn những gì được mong đợi. Việc hoàn trả sẽ phải được xử lý thủ công.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Chúng tôi nhận được khoản thanh toán đến nhưng không thể tìm thấy yêu cầu nào</string>

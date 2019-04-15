@@ -6,13 +6,13 @@
     <string name="disagree">Ne strinjam se</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Nalaganje sredstev ...</string>
-    <string name="title_loading_asset_type_data">Nalaganje podatkov o vrsti sredstva ...</string>
+    <string name="title_loading_assets">Nalaganje sredstev…</string>
+    <string name="title_loading_asset_type_data">Nalaganje podatkov o vrsti sredstva…</string>
     <string name="title_assets_ready">Pripravljena baza podatkov je pripravljena</string>
     <string name="msg_loading_all_existing_assets">Izvedite vrsto zahtev, da dobite popoln seznam vseh obstoječih sredstev</string>
     <string name="msg_loading_asset_type_data">Zahteva nadaljnje podatke o sredstvu</string>
     <string name="msg_loading_asset_in_database">Naložena sredstva %1$d v bazo podatkov</string>
-    <string name="msg_assets_loaded">Nato nastavite svoj račun ...</string>
+    <string name="msg_assets_loaded">Nato nastavite svoj račun…</string>
     <string name="error_fetching_marketcap_data">Podatkov tržišča ni bilo mogoče naložiti</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Prosimo, vnesite pravilen mozak, mora imeti med 12 in 16 besedami.</string>
     <string name="unable_to_load_brainkey">Brez obremenitve mozaka</string>
     <string name="account_already_exist">Račun že obstaja</string>
-    <string name="importing_your_wallet">Uvažanje vaše denarnice ...</string>
+    <string name="importing_your_wallet">Uvažanje vaše denarnice…</string>
     <string name="account_candidates_title">Izberite račun</string>
     <string name="account_candidates_content">Ključi, ki izhajajo iz te možganske ikone, se uporabljajo za nadzor več računov, prosimo, izberite, kateri račun želite uvoziti</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Ključna napaka korupcije</string>
     <string name="error_corrupted_key_content">Aplikacija ne more obnoviti vaših šifriranih zasebnih ključev iz baze podatkov. Zaradi tega boste morali znova vnesti svoje ključe. V obliki možganskega tulca ali pa ustvarite varnostno kopijo bin, ki je bila ustvarjena in shranjena samodejno v svoji kartici sdcard, če je račun ustvaril aplikacija</string>
     <string name="invalid_pin">Neveljaven PIN</string>
+    <string name="network_loading_user_click_toast">Omrežje se naloži. Prosim počakaj…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Domov</string>
     <string name="txt_transactions">Transakcije</string>
     <string name="txt_refunds_returns">Povračila / vračila</string>
     <string name="txt_settlement">Naselje</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares vozlišča</string>
+    <string name="bitshares_nodes_dialog_title">Blokiraj: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Znesek dolgovan</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Prosim počakaj</string>
     <string name="error_node_unreachable">Nobeno vozlišče ni bilo mogoče doseči</string>
     <string name="invoice_subject">Račun PalmPay od %1$s</string>
+    <string name="memo_warning">OPOMBA: Polje za beleženje je potrebno za pravilno ujemanje plačila z zahtevo trgovca.</string>
     <string name="before_s">Pred: %1$s</string>
     <string name="share">Deliti</string>
     <string name="share_with">Deliti z</string>
-    <string name="connecting">Povezovanje ...</string>
+    <string name="connecting">Povezovanje…</string>
+    <string name="error_bridge_title">Napaka mostu</string>
+    <string name="error_bridge_content">Zdi se, da je most za pretvorbo valut nižji. \n \nProsimo kontaktirajte podporo. \n \nError koda je: %1$d</string>
+    <string name="button_accept_tx">Sprejmite transakcijo</string>
+    <string name="dialog_accept_tx_title">Sprejmite transakcijo?</string>
+    <string name="dialog_accept_tx_summary">Transakcija je bila zaznana, vendar še ni v celoti potrjena.</string>
+    <string name="option_add_surety">Dodajte poroštvo</string>
+    <string name="option_wait">Počakaj</string>
+    <string name="option_accept">Sprejmi</string>
+    <string name="title__step_payment_seen">Plačilo videno</string>
+    <string name="msg__step_payment_seen">Čakanje na potrditev omrežja</string>
+    <string name="msg__step_payment_seen_done">Plačilo je vključeno v blok</string>
+    <string name="title__step_payment_received">Plačilo sprejeto</string>
+    <string name="template_tx_progress">Čakanje na več potrditev omrežja. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Prejetih dovolj potrditev</string>
+    <string name="title__step_payment_confirmed">Plačilo je bilo potrjeno</string>
+    <string name="msg__step_payment_confirmed">Začela se je izhodna transakcija trgovcem in ambasadorjem</string>
+    <string name="msg__step_payment_confirmed_done">Obdelava plačila je končana</string>
+    <string name="error_estimate_input_content_template">Napaka pri ocenjevanju vhodnega zneska. \n \n Napaka pri ponudniku mostov: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Pri obdelavi vaše zahteve je prišlo do napake.</string>
+    <string name="error_payment_request_content_template">Ponudnik Bridge trenutno ne more obdelati %1$s. Prosim poskusite kasneje. \n \nError od ponudnika mostov: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Izberite zahtevek za plačilo</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">To bo povezalo dohodno plačilo s predhodno zabeleženim zahtevkom za plačilo %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Podrobnosti o dohodku</string>
     <string name="dialog_generic_title_confirm">Ali si prepričan?</string>
-    <string name="dialog_generic_msg_confirm">Upoštevajte, da tega dejanja ni mogoče razveljaviti</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Zavrni</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Plačilo potrjeno!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Plačilo potrjeno!</string>
+    <string name="button__view_transactions">Ogled transakcij</string>
+    <string name="template__received">Prejeto: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Nastavitve</string>
     <string name="general">Splošno</string>
-    <string name="security">Varnost</string>
-    <string name="backups">Varnostne kopije</string>
-    <string name="tokens">Žetoni</string>
     <string name="accounts">Računi</string>
+    <string name="tokens">Žetoni</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Nočni način</string>
+    <string name="title__local_fiat_currency">Lokalna valuta Fiat</string>
     <string name="currency_info">Valuta se samodejno izbere glede na izbiro jezika in države. Če jih želite spremeniti, morate obiskati globalne sistemske nastavitve vaše naprave.</string>
     <string name="screen_saver">Ohranjevalnik zaslona</string>
     <string name="source">Vir</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Privzeta mapa (/ PalmPay)</string>
     <string name="txt_folder">Mapa</string>
     <string name="choose">Izberite</string>
-    <string name="screen_saver_time">Omogoči po ...</string>
+    <string name="folder_has_no_images_error">Napaka, izbrana mapa nima slik</string>
+    <string name="screen_saver_time">Omogoči po…</string>
     <string name="one_minute">1 minuto</string>
     <string name="three_minutes">3 minut</string>
     <string name="five_minutes">5 minut</string>
@@ -169,27 +189,43 @@
     <string name="city">Mesto</string>
     <string name="country">Država</string>
     <string name="bugs_or_ideas">Bugs ali Ideje?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram klepet: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Sprejmi</string>
     <string name="select">Izberite</string>
     <string name="are_you_sure">Ali si prepričan?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Varnostno kopiranje možganov</string>
-    <string name="copied_to_clipboard">Kopirano v odložišče</string>
-    <string name="bin_file_description">Bin datoteka. Vedno shranite varnostno datoteko .bin na skrito kartico MicroSD ali USB Stick.</string>
-    <string name="create_a_backup">Ustvarite varnostno kopijo</string>
-    <string name="brainkey_description">Brainkey. Besede za obnovitev računa, ki jih je mogoče ujeti ali kopirati, vendar niso urejeni.</string>
-    <string name="txt_brain_key_info">Natisnite to ali napišite. Vsakdo, ki ima dostop do ključa za obnovitev, ima dostop do sredstev znotraj te denarnice.</string>
-    <string name="view_and_copy">Ogled in kopiranje</string>
-    <string name="title_bin_backup">Izvozi varnostno kopijo .bin</string>
-    <string name="hint_password">Geslo</string>
-    <string name="hint_password_confirmation">potrditev gesla</string>
-    <string name="error_password_mandatory">Vnesti morate geslo</string>
-    <string name="error_password_too_short">Geslo je prekratek</string>
-    <string name="error_password_confirmation_mismatch">Geslo in potrditev neusklajenosti</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Varnostna ključavnica</string>
+    <string name="title__security_dialog">Izberite varnostno ključavnico</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Vzorec</string>
+    <string name="text__none">Jih ni</string>
+    <string name="button__choose">Izberite</string>
+    <string name="title__re_enter_your_pin">Znova vnesite kodo PIN</string>
+    <string name="msg__enter_your_pin">Za nadaljevanje vnesite PIN kodo PalmPay</string>
+    <string name="error__wrong_pin">Napačna koda PIN</string>
+    <string name="title__set_palmpay_security_lock">Nastavite varnostno zaščito PalmPay</string>
+    <string name="msg__set_a_pin">Za varnost nastavite kodo PIN</string>
+    <string name="msg__min_pin_length">Koda PIN mora biti vsaj 6-mestna</string>
+    <string name="title__pins_dont_match">Koda PIN se ne ujema</string>
+    <string name="title__re_enter_your_pattern">Ponovno vnesite vzorec</string>
+    <string name="msg__enter_your_pattern">Za nadaljevanje vnesite svoj PalmPay vzorec</string>
+    <string name="msg__set_a_pattern">Za varnost nastavite vzorec</string>
+    <string name="msg__release_finger">Ko končate, spustite prst</string>
+    <string name="button__clear">Jasno</string>
+    <string name="button__next">Naslednji</string>
+    <string name="text__draw_an_unlock_pattern">Narišite vzorec za odklepanje</string>
+    <string name="msg__draw_pattern_confirm">Ponovno narišite vzorec za potrditev</string>
+    <string name="button__confirm">Potrdite</string>
+    <string name="msg__your_new_unlock_pattern">Vaš novi vzorec za odklepanje</string>
+    <string name="error__wrong_pattern">Napačen vzorec</string>
+    <string name="text__pattern_recorded">Vzorec je zabeležen</string>
+    <string name="error__connect_at_least_4_dots">Priključite vsaj 4 pike. Poskusi ponovno.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Preveč nepravilnih poskusov. Poskusite znova čez %1$d minut.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Preveč nepravilnih poskusov. Poskusite znova čez %1$d sekund.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Trenutni račun</string>
     <string name="merchant_account_s">Merchant Account: %1$s</string>
     <string name="upgrade_to_ltm">Nadgradite na LTM</string>
     <string name="upgrade_account_description">"Upgrade to LifeTime Membership (LTM). Bitsharesovi LTM računi plačujejo skoraj nič plačila, dobijo 80% denarnih sredstev in bonusi za napotitve."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Ali ste prepričani, da želite odstraniti račun \'%1$s\' iz te denarnice?"</string>
     <string name="remove">Odstraniti</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Želeni Smartcoin</string>
-    <string name="txt_customer_loyalty">Točke zvestobe izdajte kot ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Varnostne kopije</string>
+    <string name="backup_brainkey">Varnostno kopiranje možganov</string>
+    <string name="copied_to_clipboard">Kopirano v odložišče</string>
+    <string name="bin_file_description">Bin datoteka. Vedno shranite varnostno datoteko .bin na skrito kartico MicroSD ali USB Stick.</string>
+    <string name="create_a_backup">Ustvarite varnostno kopijo</string>
+    <string name="brainkey_description">Brainkey. Besede za obnovitev računa, ki jih je mogoče ujeti ali kopirati, vendar niso urejeni.</string>
+    <string name="txt_brain_key_info">Natisnite to ali napišite. Vsakdo, ki ima dostop do ključa za obnovitev, ima dostop do sredstev znotraj te denarnice.</string>
+    <string name="view_and_copy">Ogled in kopiranje</string>
+    <string name="title_bin_backup">Izvozi varnostno kopijo .bin</string>
+    <string name="hint_password">Geslo</string>
+    <string name="hint_password_confirmation">potrditev gesla</string>
+    <string name="error_password_mandatory">Vnesti morate geslo</string>
+    <string name="error_password_too_short">Geslo je prekratek</string>
+    <string name="error_password_confirmation_mismatch">Geslo in potrditev neusklajenosti</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Želeni Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Vse Cryptocurrencies, ki ste jih prejeli, se samodejno pretvorijo v želeni Smartcoin in shranijo v vaš BitShares Merchant račun.</string>
+    <string name="title__loyalty_points">Točke zvestobe</string>
+    <string name="msg__loyalty_points_description">Točke zvestobe lahko samodejno pošljejo vašim strankam, ko porabijo denar z vami. Morate imeti nekaj žetonov, ki jih želite poslati svojim strankam.</string>
     <string name="warning_insufficient_reward_asset_balance">Vaš račun še ni v lasti %1$s. Prosimo, pridobite nekaj, preden poskušate dati kakršne koli svoje stranke kot točke zvestobe.</string>
     <string name="send">Pošlji</string>
     <string name="txt_for_every">Za vsakega</string>
     <string name="txt_spent">preživel</string>
-    <string name="txt_bitcoin_altcoin_deposited">Sprejmi do 8 kriptokutentov:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency Preferences</string>
+    <string name="msg__cryptocurrency_preferences_description">Izberite do 8 priljubljenih kripto valut, ki jih boste sprejeli od svojih strank. Ti kovanci bodo prikazani na začetnem zaslonu. Te izbire lahko kadar koli spremenite.</string>
     <string name="altcoins_should_not_more_than">Prosimo, izberite največ 8 vhodnih sredstev</string>
-    <string name="bitshares_unselection_message">Potreben je ključni žeton Bitshares (BTS).</string>
     <string name="toast_low_volume_market">Tržna sredstva majhnega obsega so začasno onemogočena. Omogočili jih bodo, ko se bo tržni volumen znatno povečal</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Ime trgovine</string>
     <string name="address">Naslov</string>
@@ -238,7 +292,11 @@
     <string name="search">Iskanje</string>
     <string name="filter">Filter</string>
     <string name="export">Izvozi</string>
-    <string name="confirming">Potrjevanje ...</string>
+    <string name="text__no_transactions">Ni transakcij</string>
+    <string name="text__awaiting_payment">Čakanje na plačilo…</string>
+    <string name="text__confirming">Potrjevanje…</string>
+    <string name="text__complete">Popolno</string>
+    <string name="text__failed">Neuspešno</string>
     <string name="pdf_generated_msg_s">Ustvarjeno in shranjeno PDF: %1$s</string>
     <string name="pdf_generated_msg_error_s">Ni mogoče ustvariti pdf-ja. Prosimo, poskusite ponovno. Napaka: %1$s</string>
     <string name="csv_generated_msg_s">Ustvarjeno in shranjeno CSV: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Napaka pri povezavi vozlišča, ponovitev</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Napaka pri polnem vozlišču. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Razlika v prejetem znesku</string>
+    <string name="error_payment_amount_content">Zdi se, da smo prejeli manj, kot smo pričakovali. Povračilo bo treba ročno obdelati.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Dobili smo plačilo, vendar ni bilo mogoče najti nobene zahteve</string>

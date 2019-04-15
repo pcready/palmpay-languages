@@ -6,13 +6,13 @@
     <string name="disagree">не соглашаться</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Загрузка активов ...</string>
-    <string name="title_loading_asset_type_data">Загрузка данных типа актива ...</string>
+    <string name="title_loading_assets">Загрузка активов…</string>
+    <string name="title_loading_asset_type_data">Загрузка данных типа актива…</string>
     <string name="title_assets_ready">Готовая база данных активов</string>
     <string name="msg_loading_all_existing_assets">Выполнение серии запросов для получения полного списка всех существующих активов</string>
     <string name="msg_loading_asset_type_data">Запрос дополнительной информации об объекте</string>
     <string name="msg_loading_asset_in_database">Загруженные %1$d активы в базу данных</string>
-    <string name="msg_assets_loaded">Затем, пожалуйста, настройте свою учетную запись ...</string>
+    <string name="msg_assets_loaded">Затем, пожалуйста, настройте свою учетную запись…</string>
     <string name="error_fetching_marketcap_data">Не удалось загрузить данные маркет-качка</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Пожалуйста, введите правильный brainkey, он должен иметь от 12 до 16 слов.</string>
     <string name="unable_to_load_brainkey">Невозможно загрузить Brainkey</string>
     <string name="account_already_exist">Аккаунт уже существует</string>
-    <string name="importing_your_wallet">Импорт вашего кошелька ...</string>
+    <string name="importing_your_wallet">Импорт вашего кошелька…</string>
     <string name="account_candidates_title">Выберите аккаунт</string>
     <string name="account_candidates_content">Ключи, полученные из этого brainkey, похоже, используются для управления несколькими учетными записями, выберите, какую учетную запись вы хотите импортировать</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Ошибка повреждения ключа</string>
     <string name="error_corrupted_key_content">Приложение не может восстановить ваши закрытые секретные ключи из базы данных. Из-за этого вам снова потребуется ввести ключи. Либо в форме brainkey, либо сформируйте резервный файл bin, который был сгенерирован и сохранен автоматически на вашей SD-карте, если учетная запись была создана приложением</string>
     <string name="invalid_pin">Неверный PIN-код</string>
+    <string name="network_loading_user_click_toast">Сеть загружается. Пожалуйста, подождите…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Главная</string>
     <string name="txt_transactions">операции</string>
     <string name="txt_refunds_returns">Возвраты / возврат</string>
     <string name="txt_settlement">Поселок</string>
-    <string name="bitshares_nodes_dialog_title">Узлы Bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Блок: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Сумма долга</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Пожалуйста, подождите</string>
     <string name="error_node_unreachable">Ни один узел не может быть достигнут</string>
     <string name="invoice_subject">Счет на PalmPay от %1$s</string>
+    <string name="memo_warning">ПРИМЕЧАНИЕ. Поле «Памятка» необходимо для правильного соответствия вашего платежа запросу продавца.</string>
     <string name="before_s">До: %1$s</string>
     <string name="share">Поделиться</string>
     <string name="share_with">Поделиться с</string>
-    <string name="connecting">Подключение ...</string>
+    <string name="connecting">Подключение…</string>
+    <string name="error_bridge_title">Ошибка моста</string>
+    <string name="error_bridge_content">Мост конвертации валют, похоже, разрушен. \n \nПожалуйста, свяжитесь со службой поддержки. \n \n Код ошибки: %1$d</string>
+    <string name="button_accept_tx">Принять транзакцию</string>
+    <string name="dialog_accept_tx_title">Принять транзакцию?</string>
+    <string name="dialog_accept_tx_summary">Транзакция была обнаружена, но еще не полностью подтверждена.</string>
+    <string name="option_add_surety">Добавить поручительство</string>
+    <string name="option_wait">Подождите</string>
+    <string name="title__step_payment_seen">Платеж видел</string>
+    <string name="msg__step_payment_seen">Ожидание подтверждения сети</string>
+    <string name="msg__step_payment_seen_done">Оплата была включена в блок</string>
+    <string name="title__step_payment_received">Платеж получен</string>
+    <string name="template_tx_progress">Ожидание большего количества сетевых подтверждений. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Получено достаточно подтверждений</string>
+    <string name="title__step_payment_confirmed">Платеж подтвержден</string>
+    <string name="msg__step_payment_confirmed">Начата выходная транзакция для торговца и послов</string>
+    <string name="msg__step_payment_confirmed_done">Обработка платежа завершена</string>
+    <string name="error_estimate_input_content_template">Ошибка при попытке оценить сумму ввода. \n \n Ошибка от провайдера моста: \n \n %1$s</string>
+    <string name="error_payment_processing_content">При обработке вашего запроса произошла ошибка.</string>
+    <string name="error_payment_request_content_template">Поставщик Bridge не может обработать %1$s прямо сейчас. Пожалуйста, попробуйте позже. \n \nОшибка от поставщика моста: \n \n "%2$s"</string>
+
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Выберите платежный запрос</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Это свяжет входящий платеж с ранее зарегистрированным платежным запросом %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Сведения о входящем платеже</string>
     <string name="dialog_generic_title_confirm">Ты уверен?</string>
-    <string name="dialog_generic_msg_confirm">Обратите внимание, что это действие не может быть отменено</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">отклонять</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Оплата подтверждена!</string>
-    <string name="txt_cool">КРУТО!</string>
+    <string name="title__payment_confirmed">Оплата подтверждена!</string>
+    <string name="button__view_transactions">Просмотр транзакций</string>
+    <string name="template__received">Получено: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">настройки</string>
     <string name="general">Генеральная</string>
-    <string name="security">Безопасность</string>
-    <string name="backups">Резервные копии</string>
-    <string name="tokens">Лексемы</string>
     <string name="accounts">Счета</string>
+    <string name="tokens">Лексемы</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Ночной режим</string>
+    <string name="title__local_fiat_currency">Местная валюта Fiat</string>
     <string name="currency_info">Валюта автоматически выбирается на основе вашего языка и выбора страны. Если вы хотите изменить их, вы должны перейти к глобальным системным настройкам своего устройства.</string>
     <string name="screen_saver">Хранитель экрана</string>
     <string name="source">Источник</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Папка по умолчанию (/ PalmPay)</string>
     <string name="txt_folder">скоросшиватель</string>
     <string name="choose">выберите</string>
-    <string name="screen_saver_time">Включить после ...</string>
+    <string name="folder_has_no_images_error">Ошибка, выбранная папка не имеет изображений</string>
+    <string name="screen_saver_time">Включить после…</string>
     <string name="one_minute">1 минута</string>
     <string name="three_minutes">3 минуты</string>
     <string name="five_minutes">5 минут</string>
@@ -169,27 +189,43 @@
     <string name="city">город</string>
     <string name="country">Страна</string>
     <string name="bugs_or_ideas">Ошибки или идеи?</string>
-    <string name="bugs_or_ideas_contact_info">Телефонный чат: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Телеграмма: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">принимать</string>
     <string name="select">Выбрать</string>
     <string name="are_you_sure">Ты уверен?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Резервное копирование</string>
-    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
-    <string name="bin_file_description">Бин-файл. Всегда сохраняйте резервный файл .bin на секретной карте MicroSD или USB Stick.</string>
-    <string name="create_a_backup">Создать резервную копию</string>
-    <string name="brainkey_description">Brainkey. Слова восстановления учетной записи, которые могут быть захвачены или скопированы, но не отредактированы.</string>
-    <string name="txt_brain_key_info">Распечатайте это или запишите. Любой, у кого есть доступ к вашему ключу восстановления, будет иметь доступ к средствам в этом кошельке.</string>
-    <string name="view_and_copy">Просмотр и копирование</string>
-    <string name="title_bin_backup">Экспорт .bin backup</string>
-    <string name="hint_password">пароль</string>
-    <string name="hint_password_confirmation">Подтверждение пароля</string>
-    <string name="error_password_mandatory">Необходимо ввести пароль</string>
-    <string name="error_password_too_short">Пароль слишком короткий</string>
-    <string name="error_password_confirmation_mismatch">Несоответствие пароля и подтверждения</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Замок безопасности</string>
+    <string name="title__security_dialog">Выберите замок безопасности</string>
+    <string name="text__pin">ШТЫРЬ</string>
+    <string name="text__pattern">Шаблон</string>
+    <string name="text__none">Никто</string>
+    <string name="button__choose">выберите</string>
+    <string name="title__re_enter_your_pin">Введите ваш PIN-код еще раз</string>
+    <string name="msg__enter_your_pin">Введите свой PalmPay PIN, чтобы продолжить</string>
+    <string name="error__wrong_pin">Неверный PIN-код</string>
+    <string name="title__set_palmpay_security_lock">Установить PalmPay Security</string>
+    <string name="msg__set_a_pin">В целях безопасности установите PIN-код</string>
+    <string name="msg__min_pin_length">PIN-код должен быть не менее 6 цифр</string>
+    <string name="title__pins_dont_match">PIN-коды не совпадают</string>
+    <string name="title__re_enter_your_pattern">Повторно введите ваш шаблон</string>
+    <string name="msg__enter_your_pattern">Введите свой шаблон PalmPay, чтобы продолжить</string>
+    <string name="msg__set_a_pattern">Для безопасности установите шаблон</string>
+    <string name="msg__release_finger">Отпустите палец, когда закончите</string>
+    <string name="button__clear">Очистить</string>
+    <string name="button__next">следующий</string>
+    <string name="text__draw_an_unlock_pattern">Нарисуйте шаблон разблокировки</string>
+    <string name="msg__draw_pattern_confirm">Нарисуйте образец еще раз, чтобы подтвердить</string>
+    <string name="button__confirm">подтвердить</string>
+    <string name="msg__your_new_unlock_pattern">Ваш новый шаблон разблокировки</string>
+    <string name="error__wrong_pattern">Неправильный образец</string>
+    <string name="text__pattern_recorded">Шаблон записан</string>
+    <string name="error__connect_at_least_4_dots">Подключите как минимум 4 точки. Попробуйте снова.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Слишком много неверных попыток. Попробуйте снова через %1$d минут.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Слишком много неверных попыток. Повторите попытку через %1$d секунд.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Текущий счет</string>
     <string name="merchant_account_s">Merchant Account: %1$s</string>
     <string name="upgrade_to_ltm">Обновление до LTM</string>
     <string name="upgrade_account_description">«Обновите членство в LifeTime (LTM). Учетные записи LTM Bitshares платят почти нулевые сборы, получают 80% cashback и бонусы за рефералов».</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">«Вы уверены, что хотите удалить учетную запись« %1$s »из этого кошелька?»</string>
     <string name="remove">Удалить</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Желаемый Smartcoin</string>
-    <string name="txt_customer_loyalty">Выдавать баллы лояльности как ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Резервные копии</string>
+    <string name="backup_brainkey">Резервное копирование</string>
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="bin_file_description">Бин-файл. Всегда сохраняйте резервный файл .bin на секретной карте MicroSD или USB Stick.</string>
+    <string name="create_a_backup">Создать резервную копию</string>
+    <string name="brainkey_description">Brainkey. Слова восстановления учетной записи, которые могут быть захвачены или скопированы, но не отредактированы.</string>
+    <string name="txt_brain_key_info">Распечатайте это или запишите. Любой, у кого есть доступ к вашему ключу восстановления, будет иметь доступ к средствам в этом кошельке.</string>
+    <string name="view_and_copy">Просмотр и копирование</string>
+    <string name="title_bin_backup">Экспорт .bin backup</string>
+    <string name="hint_password">пароль</string>
+    <string name="hint_password_confirmation">Подтверждение пароля</string>
+    <string name="error_password_mandatory">Необходимо ввести пароль</string>
+    <string name="error_password_too_short">Пароль слишком короткий</string>
+    <string name="error_password_confirmation_mismatch">Несоответствие пароля и подтверждения</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Желаемый Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Все полученные вами криптовалюты автоматически конвертируются в желаемую Smartcoin и сохраняются в вашей учетной записи BitShares Merchant.</string>
+    <string name="title__loyalty_points">Очки лояльности</string>
+    <string name="msg__loyalty_points_description">Очки лояльности могут автоматически отправляться вашим клиентам, когда они тратят деньги вместе с вами. Вы должны владеть некоторыми токенами, которые хотите отправить своим клиентам.</string>
     <string name="warning_insufficient_reward_asset_balance">У вашей учетной записи еще нет %1$s. Пожалуйста, приобретите некоторые, прежде чем пытаться дать их своим клиентам в качестве очков лояльности.</string>
     <string name="send">послать</string>
     <string name="txt_for_every">Для каждого</string>
     <string name="txt_spent">потраченный</string>
-    <string name="txt_bitcoin_altcoin_deposited">Принимать до 8 криптоволокнов:</string>
+    <string name="title__cryptocurrency_preferences">Настройки криптовалюты</string>
+    <string name="msg__cryptocurrency_preferences_description">Выберите до 8 популярных криптовалют, которые вы будете принимать от своих клиентов. Эти монеты будут отображаться на рабочем столе. Вы можете изменить эти варианты в любое время.</string>
     <string name="altcoins_should_not_more_than">Выберите не более 8 входных активов</string>
-    <string name="bitshares_unselection_message">Требуется базовый токен Bitshares (BTS).</string>
     <string name="toast_low_volume_market">Низкие объемы рыночных активов временно отключены. Они будут включены после того, как объем рынка возрастет до значительной суммы</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">логотип</string>
     <string name="store_name">Название магазина</string>
     <string name="address">Адрес</string>
@@ -238,7 +292,11 @@
     <string name="search">Поиск</string>
     <string name="filter">Фильтр</string>
     <string name="export">экспорт</string>
-    <string name="confirming">Подтверждение ...</string>
+    <string name="text__no_transactions">Нет транзакций</string>
+    <string name="text__awaiting_payment">Ожидание оплаты…</string>
+    <string name="text__confirming">Подтверждение…</string>
+    <string name="text__complete">полный</string>
+    <string name="text__failed">Не удалось</string>
     <string name="pdf_generated_msg_s">PDF сгенерирован и сохранен: %1$s</string>
     <string name="pdf_generated_msg_error_s">Не удалось создать PDF. Повторите попытку. Ошибка: %1$s</string>
     <string name="csv_generated_msg_s">CSV сгенерирован и сохранен: %1$s</string>
@@ -299,7 +357,11 @@
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Ошибка подключения узла, повторная попытка</string>
 
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Ошибка от полного узла. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Расхождение полученной суммы</string>
+    <string name="error_payment_amount_content">Кажется, мы получили меньше, чем ожидали. Возврат должен быть обработан вручную.</string>
+
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Мы получили входящий платеж, но запрос не найден</string>
-
 </resources>

@@ -6,13 +6,13 @@
     <string name="disagree">එකඟ නොවනු ඇත</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">වත්කම් පිරවීම ...</string>
-    <string name="title_loading_asset_type_data">වත්කම් වර්ග දත්ත සම්පුර්ණ කර ...</string>
+    <string name="title_loading_assets">වත්කම් පිරවීම…</string>
+    <string name="title_loading_asset_type_data">වත්කම් වර්ග දත්ත සම්පුර්ණ කර…</string>
     <string name="title_assets_ready">වත්කම් දත්ත ගබඩාව සූදානම්</string>
     <string name="msg_loading_all_existing_assets">පවත්නා වත්කම්වල සම්පූර්ණ ලැයිස්තුව ලබා ගැනීම සඳහා ඉල්ලීම් මාලාවක් ක්රියාත්මක කිරීම</string>
     <string name="msg_loading_asset_type_data">වැඩිදුර වත්කම් විස්තර ඉල්ලීම</string>
     <string name="msg_loading_asset_in_database">%1$d වත්කම් දත්තගබඩාව වෙත පටවා ඇත</string>
-    <string name="msg_assets_loaded">මීලඟට කරුණාකර ඔබගේ ගිණුම සකසන්න ...</string>
+    <string name="msg_assets_loaded">මීලඟට කරුණාකර ඔබගේ ගිණුම සකසන්න…</string>
     <string name="error_fetching_marketcap_data">වෙළඳපොළ දත්ත පැටවිය නොහැක</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">කරුණාකර නිවැරදි මොළේට ඇතුල් කරන්න, එය වචන 12 සිට 16 දක්වා තිබිය යුතුය.</string>
     <string name="unable_to_load_brainkey">මොළොක් පැටවා පූජා කිරීමට නොහැකි විය</string>
     <string name="account_already_exist">ගිණුම දැනටමත් පවතී</string>
-    <string name="importing_your_wallet">ඔබගේ පසුම්බිය ආනයනය කිරීම ...</string>
+    <string name="importing_your_wallet">ඔබගේ පසුම්බිය ආනයනය කිරීම…</string>
     <string name="account_candidates_title">කරුණාකර ගිණුමක් තෝරන්න</string>
     <string name="account_candidates_content">එක් මොඩියුලයකට වඩා පාලනය කිරීම සඳහා මෙම මොලුවාගෙන් ලැබුණු යතුරු භාවිතා කරනු ඇත, කරුණාකර ඔබට ආයාත කිරීමට කැමති ගිණුම තෝරන්න</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">ප්රධාන දූෂණ දෝෂය</string>
     <string name="error_corrupted_key_content">ඔබගේ ගුප්තකේතනය කළ පෞද්ගලික යතුරු දත්ත ගබඩාවෙන් ආපසු අයදුම්පතට ඔබගේ යෙදුමට නොහැක. මේ නිසා ඔබගේ යතුරු නැවත ඇතුල් කිරීමට ඔබට අවශ්ය වනු ඇත. මොඩියුලමේ ස්වරූපයෙන් හෝ බිංදුනු බැකප් ගොනුවක් සාදා ස්වයංක්රීයව ඔබේ sdcard තුල ගබඩා කර ඇත.</string>
     <string name="invalid_pin">වලංගු නොවන PIN</string>
+    <string name="network_loading_user_click_toast">ජාලය පැටවීමයි. කරුණාකර රැඳී සිටින්න…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">ගෙදර</string>
     <string name="txt_transactions">ගනුදෙනු</string>
     <string name="txt_refunds_returns">ආපසු ගෙවීම් / ප්රතිලාභ</string>
     <string name="txt_settlement">නිරවුල්</string>
-    <string name="bitshares_nodes_dialog_title">බිසරස් නෝඩ්</string>
+    <string name="bitshares_nodes_dialog_title">වාරණ: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">නියමිත ප්රමාණය</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">කරුණාකර රැඳී සිටින්න</string>
     <string name="error_node_unreachable">කිසිඳු නෝඩයක් ළඟා විය නොහැක</string>
     <string name="invoice_subject">%1$s සිට PalmPay ඉන්වොයිසිය</string>
+    <string name="memo_warning">සටහන: වෙළඳ දැන්වීමේ ඉල්ලීම සමග ඔබගේ ගෙවීම් නිවැරදිව ගැලපෙන ලෙස මතක සටහන් ක්ෂේත්රය අවශ්ය වේ.</string>
     <string name="before_s">පෙර: %1$s</string>
     <string name="share">බෙදාගන්න</string>
     <string name="share_with">සමඟ බෙදාගන්න</string>
-    <string name="connecting">සම්බන්ධ කිරීම ...</string>
+    <string name="connecting">සම්බන්ධ කිරීම…</string>
+    <string name="error_bridge_title">පාලම දෝෂය</string>
+    <string name="error_bridge_content">මුදල් පරිවර්තන පාලම පහත වැටේ. \n \n කරුණාකර සහයෝගය ලබා දෙන්න. \n \nError කේතය: %1$d</string>
+    <string name="button_accept_tx">ගනුදෙනුව භාර ගන්න</string>
+    <string name="dialog_accept_tx_title">ගනුදෙනුව භාර ගන්නද?</string>
+    <string name="dialog_accept_tx_summary">මෙම ගනුදෙනුව අනාවරණය කර ඇත, නමුත් තවමත් සම්පූර්ණයෙන්ම තහවුරු කර නොමැත.</string>
+    <string name="option_add_surety">සුරක්ෂිත කරන්න</string>
+    <string name="option_wait">ඉන්න</string>
+    <string name="option_accept">පිළිගන්න</string>
+    <string name="title__step_payment_seen">ගෙවුම් ගෙවීම</string>
+    <string name="msg__step_payment_seen">ජාලය තහවුරු කිරීමක් බලා සිටීම</string>
+    <string name="msg__step_payment_seen_done">වාරිකය තුළ ගෙවීමක් ඇතුලත් කර ඇත</string>
+    <string name="title__step_payment_received">ලැබුණු ගෙවීම්</string>
+    <string name="template_tx_progress">තවත් ජාල තහවුරු කිරීම් සඳහා රැඳී සිටීම. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">ලැබී ඇති ස්ථිර කිරීම්</string>
+    <string name="title__step_payment_confirmed">ගෙවීම් තහවුරු කර ඇත</string>
+    <string name="msg__step_payment_confirmed">වෙළෙන්දන් හා තානාපතිවරුන් සඳහා ආරම්භක ගනුදෙනුවක් ආරම්භ කර ඇත</string>
+    <string name="msg__step_payment_confirmed_done">ගෙවීම් කටයුතු අවසන්</string>
+    <string name="error_estimate_input_content_template">ආදාන ප්රමාණය තක්සේරු කිරීමට උත්සාහ කරන විට දෝෂයකි. \n \n පාලක සපයන්නාගේ දෝෂය: \n \n %1$s</string>
+    <string name="error_payment_processing_content">ඔබගේ ඉල්ලීම පිළියෙල කිරීමේදී දෝශයක් ඇති විය.</string>
+    <string name="error_payment_request_content_template">පාලක සපයන්නා %1$s දැන්මම ක්රියා කළ නොහැක. කරුණාකර පසුව නැවත උත්සාහ කරන්න. \n \n පාලම සපයන්නන් වෙතින්: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">ගෙවීම් ඉල්ලීම තෝරන්න</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">මෙමඟින් පෙරගෙවුම් ගෙවීම් ඉල්ලීම %1$s</string>
     <string name="dialog_msg_incoming_payment_details">පැමිණීමේ ගෙවීම් විස්තර</string>
     <string name="dialog_generic_title_confirm">ඔබට විශ්වාසද?</string>
-    <string name="dialog_generic_msg_confirm">මෙම ක්රියාව අහෝසි කළ නොහැකි බව කරුණාවෙන් සලකන්න</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">ප්රතික්ෂේප කරන්න</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">ගෙවීම් තහවුරු කර ඇත!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">ගෙවීම් තහවුරු කර ඇත!</string>
+    <string name="button__view_transactions">ගනුදෙනුව බලන්න</string>
+    <string name="template__received">ලැබුණු: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">සැකසුම්</string>
     <string name="general">ජනරාල්</string>
-    <string name="security">ආරක්ෂක</string>
-    <string name="backups">බැකප්</string>
-    <string name="tokens">ටෝකන්ස්</string>
     <string name="accounts">ගිණුම්</string>
+    <string name="tokens">ටෝකන්ස්</string>
     <string name="e_receipts">eResipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">රාත්රී ප්රකාරය</string>
+    <string name="title__local_fiat_currency">දේශීය ෆියට් ව්යවහාර මුදල්</string>
     <string name="currency_info">ඔබගේ භාෂාව සහ රට තෝරා ගැනීම මත පදනම්ව මුදල් ඒකකය ස්වයංක්රීයව තෝරා ගනු ලැබේ. ඔබට ඒවා වෙනස් කිරීමට අවශ්ය නම්, ඔබේ උපාංගයේ ගෝලීය පද්ධති සැකසුම් වෙත යන්න.</string>
     <string name="screen_saver">තිර සුරැකුම</string>
     <string name="source">මූලාශ්රය</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">පෙරනිමි ෆෝල්ඩරය (/ PalmPay)</string>
     <string name="txt_folder">බහාලුම්</string>
     <string name="choose">තෝරා</string>
-    <string name="screen_saver_time">පසු ...</string>
+    <string name="folder_has_no_images_error">දෝෂයක්, තෝරාගත් ෆෝල්ඩරයෙහි කිසිදු රූපයක් නොමැත</string>
+    <string name="screen_saver_time">පසු…</string>
     <string name="one_minute">1 විනාඩියක්</string>
     <string name="three_minutes">විනාඩි 3 යි</string>
     <string name="five_minutes">විනාඩි 5 යි</string>
@@ -169,27 +189,43 @@
     <string name="city">නගරය</string>
     <string name="country">රට</string>
     <string name="bugs_or_ideas">දෝෂ හෝ අදහස්?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorize</string>
     <string name="accept">පිළිගන්න</string>
     <string name="select">තෝරන්න</string>
     <string name="are_you_sure">ඔබට විශ්වාසද?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">බැක්ටීරියා බැකප්</string>
-    <string name="copied_to_clipboard">පසුරු පුවරුවට පිටපත් කර ඇත</string>
-    <string name="bin_file_description">බින් ගොනු. ඔබගේ උපස්ථය .bin ගොනුව රහස් MicroSD කාඩ්පත හෝ USB ස්පර්ශය වෙත නිතරම සුරකින්න.</string>
-    <string name="create_a_backup">උපස්ථයක් සාදන්න</string>
-    <string name="brainkey_description">Brainkey. අල්ලා ගැනීම හෝ පිටපත් කළ හැකි ගිණුම් ප්රතිසාධනය, නමුත් සංස්කරණය කළ නොහැක.</string>
-    <string name="txt_brain_key_info">මෙය මුද්රණය කරන්න, නැත්නම් එය ලියන්න. ඔබගේ සුවවීමේ යතුර වෙත පිවිසිය හැකි ඕනෑම කෙනෙකුට මෙම පසුම්බිය තුළ මුදල් ලබා ගත හැක.</string>
-    <string name="view_and_copy">බලන්න සහ පිටපත් කරන්න</string>
-    <string name="title_bin_backup">අපනයන .bin උපස්ථය</string>
-    <string name="hint_password">මුරපදය</string>
-    <string name="hint_password_confirmation">මුරපදය තහවුරු කිරීම</string>
-    <string name="error_password_mandatory">මුරපදයක් ඇතුලත් කල යුතුය</string>
-    <string name="error_password_too_short">රහස්පදය ඉතා කෙටි වේ</string>
-    <string name="error_password_confirmation_mismatch">රහස්පදය සහ තහවුරු නොකිරීම</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">ආරක්ෂක ලොක්</string>
+    <string name="title__security_dialog">ආරක්ෂක ලොක් එකක් තෝරන්න</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">රටාව</string>
+    <string name="text__none">නැත</string>
+    <string name="button__choose">තෝරා</string>
+    <string name="title__re_enter_your_pin">ඔබගේ PIN අංකය නැවත ඇතුළත් කරන්න</string>
+    <string name="msg__enter_your_pin">ඉදිරියට කරගෙන යාමට PalmPay PIN ඇතුලත් කරන්න</string>
+    <string name="error__wrong_pin">වැරදි PIN එකක්</string>
+    <string name="title__set_palmpay_security_lock">PalmPay ආරක්ෂාව පිහිටුවන්න</string>
+    <string name="msg__set_a_pin">ආරක්ෂාව සඳහා, PIN එකක් සකස් කරන්න</string>
+    <string name="msg__min_pin_length">PIN අංකය අවම වශයෙන් 6 ක් විය යුතුය</string>
+    <string name="title__pins_dont_match">PIN වල නොගැලපේ</string>
+    <string name="title__re_enter_your_pattern">ඔබගේ රටාව නැවත ඇතුල් කරන්න</string>
+    <string name="msg__enter_your_pattern">ඉදිරියට කරගෙන යාමට PalmPay රටාව ඇතුල් කරන්න</string>
+    <string name="msg__set_a_pattern">ආරක්ෂාව සඳහා, මෝස්තරයක් සකස් කරන්න</string>
+    <string name="msg__release_finger">සිදු කරන විට ඇඟිලි මුදාහැරීම</string>
+    <string name="button__clear">පැහැදිලිව</string>
+    <string name="button__next">ඊළඟ</string>
+    <string name="text__draw_an_unlock_pattern">අගුළු හැරීමේ රටාවක් අඳින්න</string>
+    <string name="msg__draw_pattern_confirm">තහවුරු කිරීමට නැවත සැකසීමට</string>
+    <string name="button__confirm">තහවුරු කරන්න</string>
+    <string name="msg__your_new_unlock_pattern">ඔබගේ නව අගුළු හැරීමේ රටාව</string>
+    <string name="error__wrong_pattern">වැරදි රටාව</string>
+    <string name="text__pattern_recorded">සිතියම සටහන් කර ඇත</string>
+    <string name="error__connect_at_least_4_dots">අවම වශයෙන් 4 ටොක් සම්බන්ධ කරගන්න. නැවත උත්සහා කරන්න.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">වැරදි ප්රයෝග බොහොමයක්. %1$d විනාඩි තුළ නැවත උත්සාහ කරන්න.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">වැරදි ප්රයෝග බොහොමයක්. %1$d තත්පර නැවත උත්සාහ කරන්න.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">ජංගම ගිණුම</string>
     <string name="merchant_account_s">වෙළඳ ගිණුම: %1$s</string>
     <string name="upgrade_to_ltm">LTM වෙත උත්ශ්රේණි කිරීම</string>
     <string name="upgrade_account_description">"LifeTime සාමාජිකත්වය වැඩිදියුණු කිරීම (LTM) දක්වා වැඩි කිරීම." Bitshares \'LTM ගිණුම් සඳහා ශුන්ය ගාස්තු කිසිවක් ගෙවන්නේ නැත, 80% මුදල් ආපසු ගැනීම සහ යොමු කිරීම සඳහා බෝනස් ලබා ගන්න. "</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">මෙම ගිණුමෙන් \'%1$s\' ගිණුම ඉවත් කිරීමට ඔබට අවශ්යද? \'</string>
     <string name="remove">ඉවත් කරන්න</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">කැමති Smartcoin</string>
-    <string name="txt_customer_loyalty">පක්ෂපාතීත්ව ලකුණු නිකුත් කරන්න ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">බැකප්</string>
+    <string name="backup_brainkey">බැක්ටීරියා බැකප්</string>
+    <string name="copied_to_clipboard">පසුරු පුවරුවට පිටපත් කර ඇත</string>
+    <string name="bin_file_description">බින් ගොනු. ඔබගේ උපස්ථය .bin ගොනුව රහස් MicroSD කාඩ්පත හෝ USB ස්පර්ශය වෙත නිතරම සුරකින්න.</string>
+    <string name="create_a_backup">උපස්ථයක් සාදන්න</string>
+    <string name="brainkey_description">Brainkey. අල්ලා ගැනීම හෝ පිටපත් කළ හැකි ගිණුම් ප්රතිසාධනය, නමුත් සංස්කරණය කළ නොහැක.</string>
+    <string name="txt_brain_key_info">මෙය මුද්රණය කරන්න, නැත්නම් එය ලියන්න. ඔබගේ සුවවීමේ යතුර වෙත පිවිසිය හැකි ඕනෑම කෙනෙකුට මෙම පසුම්බිය තුළ මුදල් ලබා ගත හැක.</string>
+    <string name="view_and_copy">බලන්න සහ පිටපත් කරන්න</string>
+    <string name="title_bin_backup">අපනයන .bin උපස්ථය</string>
+    <string name="hint_password">මුරපදය</string>
+    <string name="hint_password_confirmation">මුරපදය තහවුරු කිරීම</string>
+    <string name="error_password_mandatory">මුරපදයක් ඇතුලත් කල යුතුය</string>
+    <string name="error_password_too_short">රහස්පදය ඉතා කෙටි වේ</string>
+    <string name="error_password_confirmation_mismatch">රහස්පදය සහ තහවුරු නොකිරීම</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">කැමති Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">ඔබ ලබා ගත් සියලු ගුප්ත ෙත්රීම් ස්වයංක්රීයව ඔබගේ කැමති Smartcoin බවට පරිවර්තනය කර ඔබගේ BitShales මර්චන්ට් ගිණුමේ සුරක්ෂිත කර ඇත.</string>
+    <string name="title__loyalty_points">ලෝයල්ටි පොයින්ට්ස්</string>
+    <string name="msg__loyalty_points_description">ඔබ සමඟ මුදල් වියදම් කරන විට, ඔබේ ගනුදෙනුකරුවන්ට ලෝයල්ටි ටෙන්ඩර් ස්වයංක්රීයව යවනු ලැබේ. ඔබ ඔබේ ගනුදෙනුකරුවන් වෙත යැවීමට කැමති ටෝකන්ස් කිහිපයක් ඔබට තිබිය යුතුය.</string>
     <string name="warning_insufficient_reward_asset_balance">ඔබගේ ගිණුමට තවමත් %1$s නැත. කරුණාකර ඔබේ ගනුදෙනුකරුවන්ට පක්ෂපාතීත්වයේ ලකුණු ලබා දීමට උත්සාහ කරන්න.</string>
     <string name="send">යවන්න</string>
     <string name="txt_for_every">සෑම එකක්ම</string>
     <string name="txt_spent">වියදම් කර ඇත</string>
-    <string name="txt_bitcoin_altcoin_deposited">ගුප්ත කේතාංක 8 ක් දක්වා පිළිගන්න:</string>
+    <string name="title__cryptocurrency_preferences">ගුප්තකේකතා මනාපයන්</string>
+    <string name="msg__cryptocurrency_preferences_description">ඔබගේ ගනුදෙනුකරුවන්ගෙන් ඔබ පිළිගන්නා ජනප්රිය ගුප්ත චලිතයන් 8 ක් දක්වා තෝරන්න. මෙම කාසි පෙන්වනු ලබන්නේ නරුම තිරය මතය. ඔබට මෙම තේරීම් ඕනෑම අවස්ථාවකදී වෙනස් කළ හැකිය.</string>
     <string name="altcoins_should_not_more_than">කරුණාකර ආදාන වත්කම් 8 කට වැඩි ගණනක් තෝරන්න</string>
-    <string name="bitshares_unselection_message">Bitshares (BTS) කේන්ද්රීය ටෝකනය අවශ්ය වේ.</string>
     <string name="toast_low_volume_market">අඩු වෙළුම් වත්කම් තාවකාලිකව ආබාධිතයි. වෙලඳපොල පරිමාව සැලකිය යුතු ප්රමාණයක් දක්වා ඉහළ නැංවෙන විට ඒවා සක්රීය කරනු ඇත</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">ලාංඡනය</string>
     <string name="store_name">නමේ නම</string>
     <string name="address">ලිපිනය</string>
@@ -238,7 +292,11 @@
     <string name="search">සෙවීම</string>
     <string name="filter">පෙරහන</string>
     <string name="export">අපනයන</string>
-    <string name="confirming">තහවුරු කරන්න ...</string>
+    <string name="text__no_transactions">ගනුදෙනුවක් නැත</string>
+    <string name="text__awaiting_payment">ගෙවීමක් අපේක්ෂා කරනවා…</string>
+    <string name="text__confirming">තහවුරු කරන්න…</string>
+    <string name="text__complete">සම්පූර්ණයි</string>
+    <string name="text__failed">අසමත් විය</string>
     <string name="pdf_generated_msg_s">PDF ජනනය සහ සුරකයි: %1$s</string>
     <string name="pdf_generated_msg_error_s">Pdf ජනනය කළ නොහැක. කරුණාකර නැවත උත්සාහ කරන්න. දෝෂය: %1$s</string>
     <string name="csv_generated_msg_s">CSV උත්පාදනය කර ඉතිරි කර ඇත: %1$s</string>
@@ -285,7 +343,7 @@
     <string name="e_receipt_memo_s">සටහන: %1$s</string>
     <string name="e_receipt_date_s">දිනය: %1$s</string>
     <string name="e_receipt_tx_s">Tx: %1$s</string>
-    <string name="e_receipt_subject">↑ 1s සිට PalmPay eReceipt</string>
+    <string name="e_receipt_subject">%1$s සිට PalmPay eReceipt</string>
 
     <!-- Pin Activity -->
     <string name="incorrect_old_pin">පැරණි PIN අංකය වැරදියි</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Node සම්බන්ධතා දෝශයකි, නැවත උත්සහ කිරීම</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">සම්පූර්ණ නෝඩයේ දෝෂයකි. Msg: %1$s</string>
+    <string name="error_payment_amount_title">ලැබුණු ප්රමාණය විෂමතාව</string>
+    <string name="error_payment_amount_content">අප බලාපොරොත්තු වූ දේට වඩා අඩු මුදලක් අපට ලැබුණා වගේ පෙනේ. ආපසු ගෙවීම අතින් සකස් කළ යුතුය.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">අපට ලැබෙන ගෙවීමක් ලැබී ඇත, නමුත් කිසිදු ඉල්ලීමක් සොයාගත නොහැකි විය</string>

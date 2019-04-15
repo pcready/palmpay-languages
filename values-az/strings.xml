@@ -6,8 +6,8 @@
     <string name="disagree">Razı deyiləm</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Aktivlər yüklənir ...</string>
-    <string name="title_loading_asset_type_data">Aktivin tipi məlumatları yüklənir ...</string>
+    <string name="title_loading_assets">Aktivlər yüklənir…</string>
+    <string name="title_loading_asset_type_data">Aktivin tipi məlumatları yüklənir…</string>
     <string name="title_assets_ready">Asset bazası hazırdır</string>
     <string name="msg_loading_all_existing_assets">Bütün mövcud varlıqların tam siyahısını almaq üçün bir sıra istəklər yerinə yetirir</string>
     <string name="msg_loading_asset_type_data">Daha ətraflı məlumat tələb etmək</string>
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Xahiş edirik düzgün brainkey girin, 12 ilə 16 söz arasında olmalıdır.</string>
     <string name="unable_to_load_brainkey">Brainkey yüklənə bilmir</string>
     <string name="account_already_exist">Hesab artıq mövcuddur</string>
-    <string name="importing_your_wallet">Cüzdanınızı idxal et ...</string>
+    <string name="importing_your_wallet">Cüzdanınızı idxal et…</string>
     <string name="account_candidates_title">Xahiş edirik bir haqq-hesab seçin</string>
     <string name="account_candidates_content">Bu brainkey-dən çıxarılan düymələr birdən çox hesabı nəzarət etmək üçün istifadə olunur, xahiş edirik idxal etmək istədiyiniz hesabı seçin</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Əsas korrupsiya səhvi</string>
     <string name="error_corrupted_key_content">Proqram, verilənlər bazasından şifrəli xüsusi açarlarınızı bərpa edə bilmir. Bunun üçün açarlarınızı yenidən girmək tələb olunacaq. Bir brackey şəklində ya da hesabın app tərəfindən yaradıldığı halda sdcard-da avtomatik olaraq yaradılan və saxlanılan bin yedek faylını təşkil edir</string>
     <string name="invalid_pin">Yanlış PIN kodu</string>
+    <string name="network_loading_user_click_toast">Şəbəkə yüklənir. Zəhmət olmasa, gözləyin…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Ev</string>
     <string name="txt_transactions">Əməliyyatlar</string>
     <string name="txt_refunds_returns">Geri qaytarmalar / qaytarır</string>
     <string name="txt_settlement">Qarşılaşma</string>
-    <string name="bitshares_nodes_dialog_title">Bitişlərin qovşaqları</string>
+    <string name="bitshares_nodes_dialog_title">Blok: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Məbləğ</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Zəhmət olmasa, gözləyin</string>
     <string name="error_node_unreachable">Heç bir node çatıla bilməz</string>
     <string name="invoice_subject">%1$s dən PalmPay fakturası</string>
+    <string name="memo_warning">Qeyd: Memo sahəsi tacirin tələbi ilə ödənişinizi düzgün şəkildə uyğunlaşdırmaq üçün tələb olunur.</string>
     <string name="before_s">Əvvəllər: %1$s</string>
     <string name="share">Paylaş</string>
     <string name="share_with">Paylaşın</string>
-    <string name="connecting">Birləşən ...</string>
+    <string name="connecting">Birləşən…</string>
+    <string name="error_bridge_title">Bridge xətası</string>
+    <string name="error_bridge_content">Valyuta dönüşüm körpüsü aşağı düşür. \n \nƏlələ əlaqə saxlayın. \n \nError kodu: %1$d</string>
+    <string name="button_accept_tx">Əməliyyat qəbul et</string>
+    <string name="dialog_accept_tx_title">Əməliyyatın qəbul edilməsi?</string>
+    <string name="dialog_accept_tx_summary">Əməliyyat aşkar edilmiş, lakin tam təsdiqlənməmişdir.</string>
+    <string name="option_add_surety">Əksinə əlavə et</string>
+    <string name="option_wait">Gözləmək</string>
+    <string name="option_accept">Qəbul edin</string>
+    <string name="title__step_payment_seen">Ödəmə görüldü</string>
+    <string name="msg__step_payment_seen">Şəbəkə təsdiqini gözləyirəm</string>
+    <string name="msg__step_payment_seen_done">Ödəniş bloka daxil edilmişdir</string>
+    <string name="title__step_payment_received">Ödəmə alındı</string>
+    <string name="template_tx_progress">Daha çox şəbəkə təsdiqini gözləyirəm. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Alınan təsdiqlər kifayətdir</string>
+    <string name="title__step_payment_confirmed">Ödəmə təsdiqləndi</string>
+    <string name="msg__step_payment_confirmed">Tacir və səfirlərə çıxış əməliyyatı başladı</string>
+    <string name="msg__step_payment_confirmed_done">Ödəmə əməliyyatı başa çatdı</string>
+    <string name="error_estimate_input_content_template">Giriş məbləğini qiymətləndirməyə çalışarkən səhv. \n \n Körpü provayderindən gələn səhv: \n \n %1$s</string>
+    <string name="error_payment_processing_content">İstəyinizi işləyərkən bir səhv baş verdi.</string>
+    <string name="error_payment_request_content_template">Körpü provayderi hazırda %1$s işləmir. Zəhmət olmasa bir az sonra yenə cəhd edin. \n \nError körpü provayderi: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Ödəmə tələbini seçin</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Bu, gələn ödənişi əvvəllər qeydə alınmış ödəniş tələbi ilə %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Daxil olan ödəniş məlumatları</string>
     <string name="dialog_generic_title_confirm">Sən əminsən?</string>
-    <string name="dialog_generic_msg_confirm">Bu hərəkətin geri alınmamasını unutmayın</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Çıxarın</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Ödəmə təsdiqləndi!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Ödəmə təsdiqləndi!</string>
+    <string name="button__view_transactions">Əməliyyatlara baxın</string>
+    <string name="template__received">Alındı: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Ayarlar</string>
     <string name="general">Ümumi</string>
-    <string name="security">Təhlükəsizlik</string>
-    <string name="backups">Backups</string>
-    <string name="tokens">Tokens</string>
     <string name="accounts">Hesablar</string>
+    <string name="tokens">Tokens</string>
     <string name="e_receipts">e-borclar</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Gecə rejimi</string>
+    <string name="title__local_fiat_currency">Yerli Fiat Valyuta</string>
     <string name="currency_info">Valyuta, dil və ölkə seçiminizə əsasən avtomatik olaraq seçilir. Bunları dəyişdirmək istəyirsinizsə, cihazınızın qlobal sistem ayarlarına keçməlisiniz.</string>
     <string name="screen_saver">Ekran qoruyucu</string>
     <string name="source">Mənbə</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Varsayılan qovluq (/ PalmPay)</string>
     <string name="txt_folder">Qovluq</string>
     <string name="choose">Seçin</string>
-    <string name="screen_saver_time">Daha sonra ...</string>
+    <string name="folder_has_no_images_error">Hata, seçilən qovluqda şəkillər yoxdur</string>
+    <string name="screen_saver_time">Daha sonra…</string>
     <string name="one_minute">1 dəqiqə</string>
     <string name="three_minutes">3 dəqiqə</string>
     <string name="five_minutes">5 dəqiqə</string>
@@ -169,12 +189,60 @@
     <string name="city">Şəhər</string>
     <string name="country">Ölkə</string>
     <string name="bugs_or_ideas">Bugs və ya fikir?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram söhbəti: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Teleqram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Qəbul edin</string>
     <string name="select">Seçin</string>
     <string name="are_you_sure">Sən əminsən?</string>
 
-    <!-- Backups Settings -->
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Təhlükəsizlik Kilidi</string>
+    <string name="title__security_dialog">Təhlükəsizlik Kilidi seçin</string>
+    <string name="text__pin">PİN</string>
+    <string name="text__pattern">Pattern</string>
+    <string name="text__none">Yoxdur</string>
+    <string name="button__choose">Seçin</string>
+    <string name="title__re_enter_your_pin">PİN kodunuzu yenidən daxil edin</string>
+    <string name="msg__enter_your_pin">Davam etmək üçün PalmPay PİN kodunuzu daxil edin</string>
+    <string name="error__wrong_pin">Yanlış PIN kodu</string>
+    <string name="title__set_palmpay_security_lock">PalmPay Təhlükəsizlik qurun</string>
+    <string name="msg__set_a_pin">Təhlükəsizlik üçün PIN təyin edin</string>
+    <string name="msg__min_pin_length">PIN ən azı 6 rəqəm olmalıdır</string>
+    <string name="title__pins_dont_match">PIN\'lər uyğun deyil</string>
+    <string name="title__re_enter_your_pattern">Modelinizi yenidən daxil edin</string>
+    <string name="msg__enter_your_pattern">Davam etmək üçün PalmPay modelinizi daxil edin</string>
+    <string name="msg__set_a_pattern">Təhlükəsizlik üçün bir Pattern seçin</string>
+    <string name="msg__release_finger">Bitirdikdən sonra barmağı buraxın</string>
+    <string name="button__clear">Aydındır</string>
+    <string name="button__next">İrəli</string>
+    <string name="text__draw_an_unlock_pattern">Kilidləmə modelini çəkin</string>
+    <string name="msg__draw_pattern_confirm">Təsdiq etmək üçün yenidən nümunə çəkin</string>
+    <string name="button__confirm">Təsdiq edin</string>
+    <string name="msg__your_new_unlock_pattern">Yeni kilidini açmaq nümunəsi</string>
+    <string name="error__wrong_pattern">Yanlış nümunə</string>
+    <string name="text__pattern_recorded">Pattern qeydə alındı</string>
+    <string name="error__connect_at_least_4_dots">Ən azı 4 nöqtə qoşun. Yenidən cəhd elə.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Çox çox yanlış cəhd. %1$d dəqiqə ərzində yenidən cəhd edin.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Çox çox yanlış cəhd. %1$d saniyə ərzində yenidən cəhd edin.</string>
+
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Cari hesab</string>
+    <string name="merchant_account_s">Satıcı hesabı: %1$s</string>
+    <string name="upgrade_to_ltm">LTM-ə yüksəldin</string>
+    <string name="upgrade_account_description">"LifeTime üzvlüyünə yüksəltmək (LTM). Bitmərtəbələr" LTM hesabları yaxın sıfır ödənişləri ödəyir, 80% -lik pulköçürmə və referallar üçün bonuslar əldə edir. "</string>
+    <string name="account_upgrade_title">Hesabınızı təkmilləşdirin</string>
+    <string name="account_upgrade_content">Həyat Zamanı Üzvləri, şəbəkə haqlarının azaldılmış dəsti ilə ticarət etməyə imkan verir. __ __ __ ___ ___ __ __ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ _______    Əgər davam etmək istədiyinizə əminəm?</string>
+    <string name="account_upgrade_wait_content">İstəyinizi ehtiva edən əməliyyat şəbəkə tərəfindən işlənir</string>
+    <string name="error_upgrade_account_title">Hesabınızı təkmilləşdirməyə çalışarkən səhv</string>
+    <string name="error_upgrade_account_content">Hesabınızın xərcləri ödəmək üçün kifayət qədər tarazlığa malik olduğundan əmin olun</string>
+    <string name="account_upgraded_title">Hesab yüksəlmişdir</string>
+    <string name="account_upgraded_content">Təbrik edirik! hesabınız indi Lifetime Üyeliğine yükseltilmiştir.</string>
+    <string name="remove_account">Hesabı sil</string>
+    <string name="remove_account_description">Bu Merchant Hesabını sil. Bu cihazdan yuxarı Merchant Hesabını silin və başqa bir yaratmaq və ya idxal et.</string>
+    <string name="txt_account_remove_confirmation">"Hesabınızı" %1$s "hesabını bu cüzdandan çıxarmaq istəyirdinizmi?"</string>
+    <string name="remove">Sil</string>
+
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Backups</string>
     <string name="backup_brainkey">Backup brainkey</string>
     <string name="copied_to_clipboard">Panoya kopyaladım</string>
     <string name="bin_file_description">Bin fayl. Yediyiniz .bin faylını gizli bir MicroSD kartına və ya USB Stickə həmişə saxlayın.</string>
@@ -189,35 +257,21 @@
     <string name="error_password_too_short">Şifrə çox qısa</string>
     <string name="error_password_confirmation_mismatch">Şifrə və təsdiq uyğunsuzluğu</string>
 
-    <!-- Account Settings -->
-    <string name="merchant_account_s">Satıcı hesabı: %1$s</string>
-    <string name="upgrade_to_ltm">LTM-ə yüksəldin</string>
-    <string name="upgrade_account_description">"LifeTime üzvlüyünə yüksəltmək (LTM). Bitmərtəbələr" LTM hesabları yaxın sıfır ödənişləri ödəyir, 80% -lik pulköçürmə və referallar üçün bonuslar əldə edir. "</string>
-    <string name="account_upgrade_title">Hesabınızı təkmilləşdirin</string>
-    <string name="account_upgrade_content">Həyat Zamanı Üzvləri, şəbəkə haqlarının azaldılmış dəsti ilə ticarət etməyə imkan verir. __ __ __ ___ ___ __ __ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ _______ \n \nƏgər davam etmək istədiyinizə əminəm?</string>
-    <string name="account_upgrade_wait_content">İstəyinizi ehtiva edən əməliyyat şəbəkə tərəfindən işlənir</string>
-    <string name="error_upgrade_account_title">Hesabınızı təkmilləşdirməyə çalışarkən səhv</string>
-    <string name="error_upgrade_account_content">Hesabınızın xərcləri ödəmək üçün kifayət qədər tarazlığa malik olduğundan əmin olun</string>
-    <string name="account_upgraded_title">Hesab yüksəlmişdir</string>
-    <string name="account_upgraded_content">Təbrik edirik! hesabınız indi Lifetime Üyeliğine yükseltilmiştir.</string>
-    <string name="remove_account">Hesabı sil</string>
-    <string name="remove_account_description">Bu Merchant Hesabını sil. Bu cihazdan yuxarı Merchant Hesabını silin və başqa bir yaratmaq və ya idxal et.</string>
-    <string name="txt_account_remove_confirmation">"Hesabınızı" %1$s "hesabını bu cüzdandan çıxarmaq istəyirdinizmi?"</string>
-    <string name="remove">Sil</string>
-
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">İstədiyiniz Smartcoin</string>
-    <string name="txt_customer_loyalty">Nöqtə sadiqlik nöqtələri ...</string>
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">İstədiyiniz Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Alındığınız Cryptocurrency\'ların hamısı avtomatik olaraq İstədiyiniz SmartCoine çevrilir və BitShares Satıcı Hesabınıza saxlanılır.</string>
+    <string name="title__loyalty_points">Sadiqlik balları</string>
+    <string name="msg__loyalty_points_description">Sadiqlik balları sizinlə pul sərf etdikdə avtomatik olaraq müştərilərinizə göndərilə bilər. Müştərilərinizə göndərmək istədiyiniz bəzi ayələrə sahib olmalısınız.</string>
     <string name="warning_insufficient_reward_asset_balance">Hesabınız hələ %1$s olmur. Müştərilərinizə hər hansı bir Sadiqlik Noktası olaraq verməyə çalışmasınızdan əvvəl bəzi məlumatları əldə edin.</string>
     <string name="send">Göndər</string>
     <string name="txt_for_every">Hər üçün</string>
     <string name="txt_spent">sərf etdi</string>
-    <string name="txt_bitcoin_altcoin_deposited">8-dək Cryptocurrency-ni qəbul et:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency Tercihləri</string>
+    <string name="msg__cryptocurrency_preferences_description">Müştərilərinizdən qəbul edəcək 8 məşhur şifrəli pul vahidini seçin. Bu sikkələr ev ekranında görünəcək. Bu seçimləri istənilən vaxt dəyişə bilərsiniz.</string>
     <string name="altcoins_should_not_more_than">Xahiş edirik 8-dən çox giriş aktivini seçin</string>
-    <string name="bitshares_unselection_message">Bitshares (BTS) əsas nişanı tələb olunur.</string>
     <string name="toast_low_volume_market">Aşağı həcmli bazarın aktivləri müvəqqəti olaraq dayandırılıb. Bazar həcmi əhəmiyyətli bir miqdar artdıqdan sonra aktiv olacaq</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Mağaza adı</string>
     <string name="address">Ünvanı</string>
@@ -238,7 +292,11 @@
     <string name="search">Axtarış</string>
     <string name="filter">Filtrə</string>
     <string name="export">İxrac</string>
-    <string name="confirming">Təsdiqləmə ...</string>
+    <string name="text__no_transactions">Əməliyyatlar yoxdur</string>
+    <string name="text__awaiting_payment">Ödəniş gözləyir…</string>
+    <string name="text__confirming">Təsdiqləmə…</string>
+    <string name="text__complete">Tamamlayın</string>
+    <string name="text__failed">Failed</string>
     <string name="pdf_generated_msg_s">PDF tərtib edilmiş və saxlanılmışdır: %1$s</string>
     <string name="pdf_generated_msg_error_s">Pdf yaratmaq mümkün deyil. Yenidən sınayın. Səhv: %1$s</string>
     <string name="csv_generated_msg_s">CSV yaradılıb və saxlanılır: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Node bağlantı hatası, yeniden deneme</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Tam nöqtədən gələn səhv. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Məbləğ uyğunsuzluğu</string>
+    <string name="error_payment_amount_content">Göründüyü kimi, biz gözləniləndən az qəbul etdik. Geri qaytarma əl ilə işlənməli olacaqdır.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Daxil olan bir ödəniş aldıq, amma heç bir tələb tapılmadı</string>

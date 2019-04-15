@@ -6,13 +6,13 @@
     <string name="disagree">不同意</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">加載資產......</string>
+    <string name="title_loading_assets">加載資產…</string>
     <string name="title_loading_asset_type_data">正在加載資產類型數據</string>
     <string name="title_assets_ready">資產數據庫就緒</string>
     <string name="msg_loading_all_existing_assets">執行一系列請求以獲取所有現有資產的完整列表</string>
     <string name="msg_loading_asset_type_data">請求進一步的資產詳情</string>
     <string name="msg_loading_asset_in_database">將%1$d資源加載到數據庫中</string>
-    <string name="msg_assets_loaded">接下來，請設置您的帳戶...</string>
+    <string name="msg_assets_loaded">接下來，請設置您的帳戶…</string>
     <string name="error_fetching_marketcap_data">無法加載市場數據</string>
 
     <!-- Create Account Activity -->
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">密鑰損壞錯誤</string>
     <string name="error_corrupted_key_content">該應用無法從數據庫中恢復加密的私鑰。因此，您需要再次輸入密鑰。如果帳戶是由應用程序創建的，則以腦鍵的形式或形成自動生成並存儲在SD卡中的bin備份文件</string>
     <string name="invalid_pin">PIN碼無效</string>
+    <string name="network_loading_user_click_toast">網絡正在加載。請耐心等待…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">家</string>
     <string name="txt_transactions">交易</string>
     <string name="txt_refunds_returns">退款/退貨</string>
     <string name="txt_settlement">沉降</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares節點</string>
+    <string name="bitshares_nodes_dialog_title">阻止：%1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">到期金額</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">請稍候</string>
     <string name="error_node_unreachable">無法訪問任何節點</string>
     <string name="invoice_subject">來自%1$s的PalmPay發票</string>
+    <string name="memo_warning">注意：備忘錄字段必須使您的付款與商家的請求正確匹配。</string>
     <string name="before_s">之前：%1$s</string>
     <string name="share">分享</string>
     <string name="share_with">與某人分享</string>
-    <string name="connecting">連接...</string>
+    <string name="connecting">連接…</string>
+    <string name="error_bridge_title">橋錯誤</string>
+    <string name="error_bridge_content">貨幣轉換橋似乎已經下降。 \n \n請聯繫支持部門。 \n \n錯誤代碼是：%1$d</string>
+    <string name="button_accept_tx">接受交易</string>
+    <string name="dialog_accept_tx_title">接受交易？</string>
+    <string name="dialog_accept_tx_summary">已檢測到該交易，但尚未完全確認。</string>
+    <string name="option_add_surety">加上擔保</string>
+    <string name="option_wait">等待</string>
+    <string name="option_accept">接受</string>
+    <string name="title__step_payment_seen">看到的付款</string>
+    <string name="msg__step_payment_seen">等待網絡確認</string>
+    <string name="msg__step_payment_seen_done">付款已包含在一個區塊中</string>
+    <string name="title__step_payment_received">已收到付款</string>
+    <string name="template_tx_progress">等待更多網絡確認。 %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">已收到足夠的確認</string>
+    <string name="title__step_payment_confirmed">付款確認成功</string>
+    <string name="msg__step_payment_confirmed">向商人和大使發起了輸出交易</string>
+    <string name="msg__step_payment_confirmed_done">付款處理已完成</string>
+    <string name="error_estimate_input_content_template">嘗試估算輸入量時出錯。 \n \n網橋提供商出錯：\n \n %1$s</string>
+    <string name="error_payment_processing_content">處理您的請求時出錯。</string>
+    <string name="error_payment_request_content_template">Bridge提供程序現在無法處理%1$s。請稍後再試。來自橋接提供商的\n \nError：\n \n“%2$s”</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">選擇付款申請</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">這會將收款與以前記錄的%1$s的付款請求相關聯</string>
     <string name="dialog_msg_incoming_payment_details">收款詳情</string>
     <string name="dialog_generic_title_confirm">你確定？</string>
-    <string name="dialog_generic_msg_confirm">請注意，此操作無法撤消</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">解僱</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">付款確認成功！</string>
-    <string name="txt_cool">涼！</string>
+    <string name="title__payment_confirmed">付款確認成功！</string>
+    <string name="button__view_transactions">查看交易</string>
+    <string name="template__received">收到：%1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">設置</string>
     <string name="general">一般</string>
-    <string name="security">安全</string>
-    <string name="backups">備份</string>
-    <string name="tokens">令牌</string>
     <string name="accounts">帳號</string>
+    <string name="tokens">令牌</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">夜間模式</string>
+    <string name="title__local_fiat_currency">本地菲亞特貨幣</string>
     <string name="currency_info">系統會根據您的語言和國家/地區選擇自動選擇貨幣。如果要更改這些，則必須轉到設備的全局系統設置。</string>
     <string name="screen_saver">屏幕保護</string>
     <string name="source">資源</string>
@@ -160,6 +179,7 @@
     <string name="default_folder">默認文件夾（/ PalmPay）</string>
     <string name="txt_folder">夾</string>
     <string name="choose">選擇</string>
+    <string name="folder_has_no_images_error">錯誤，所選文件夾沒有圖像</string>
     <string name="screen_saver_time">啟用後......</string>
     <string name="one_minute">1分鐘</string>
     <string name="three_minutes">3分鐘</string>
@@ -169,27 +189,43 @@
     <string name="city">市</string>
     <string name="country">國家</string>
     <string name="bugs_or_ideas">錯誤或想法？</string>
-    <string name="bugs_or_ideas_contact_info">電報聊天：http：//t.me/Agorise \nEmail：Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">電報：https：//t.me/Agorise \nKeybase：https：//keybase.io/team/Agorise</string>
     <string name="accept">接受</string>
     <string name="select">選擇</string>
     <string name="are_you_sure">你確定？</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">備份brainkey</string>
-    <string name="copied_to_clipboard">複製到剪貼板</string>
-    <string name="bin_file_description">Bin文件。始終將備份.bin文件保存到密碼MicroSD卡或USB記憶棒。</string>
-    <string name="create_a_backup">創建備份</string>
-    <string name="brainkey_description">Brainkey。帳戶恢復單詞，可以捕獲或複制，但不能編輯。</string>
-    <string name="txt_brain_key_info">打印出來，或寫下來。有權訪問您的恢復密鑰的任何人都可以訪問此錢包中的資金。</string>
-    <string name="view_and_copy">查看和復制</string>
-    <string name="title_bin_backup">導出.bin備份</string>
-    <string name="hint_password">密碼</string>
-    <string name="hint_password_confirmation">確認密碼</string>
-    <string name="error_password_mandatory">必須輸入密碼</string>
-    <string name="error_password_too_short">密碼太短</string>
-    <string name="error_password_confirmation_mismatch">密碼和確認不匹配</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">安全鎖</string>
+    <string name="title__security_dialog">選擇安全鎖</string>
+    <string name="text__pin">銷</string>
+    <string name="text__pattern">圖案</string>
+    <string name="text__none">沒有</string>
+    <string name="button__choose">選擇</string>
+    <string name="title__re_enter_your_pin">重新輸入您的PIN碼</string>
+    <string name="msg__enter_your_pin">輸入您的PalmPay PIN碼以繼續</string>
+    <string name="error__wrong_pin">密碼錯誤</string>
+    <string name="title__set_palmpay_security_lock">設置PalmPay安全性</string>
+    <string name="msg__set_a_pin">為安全起見，請設置PIN</string>
+    <string name="msg__min_pin_length">PIN碼必須至少為6位數</string>
+    <string name="title__pins_dont_match">個人識別碼不匹配</string>
+    <string name="title__re_enter_your_pattern">重新輸入您的模式</string>
+    <string name="msg__enter_your_pattern">輸入您的PalmPay模式以繼續</string>
+    <string name="msg__set_a_pattern">為安全起見，請設置模式</string>
+    <string name="msg__release_finger">完成後鬆開手指</string>
+    <string name="button__clear">明確</string>
+    <string name="button__next">下一個</string>
+    <string name="text__draw_an_unlock_pattern">繪製解鎖圖案</string>
+    <string name="msg__draw_pattern_confirm">再次繪製圖案以確認</string>
+    <string name="button__confirm">確認</string>
+    <string name="msg__your_new_unlock_pattern">你的新解鎖模式</string>
+    <string name="error__wrong_pattern">錯誤的模式</string>
+    <string name="text__pattern_recorded">模式記錄</string>
+    <string name="error__connect_at_least_4_dots">連接至少4個點。再試一次。</string>
+    <string name="error__security_lock_too_many_attempts_minutes">太多不正確的嘗試。請在%1$d分鐘再試一次。</string>
+    <string name="error__security_lock_too_many_attempts_seconds">太多不正確的嘗試。請在%1$d秒再試一次。</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">經常賬戶</string>
     <string name="merchant_account_s">商家帳戶：%1$s</string>
     <string name="upgrade_to_ltm">升級到LTM</string>
     <string name="upgrade_account_description">“升級到終身會員資格（LTM）.Bitshares的LTM賬戶支付接近零的費用，獲得80％的現金返還和轉介獎金。”</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">“你確定要從這個錢包中刪除\'%1$s\'帳戶嗎？”</string>
     <string name="remove">去掉</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">期望的Smartcoin</string>
-    <string name="txt_customer_loyalty">將忠誠度積分發佈為......</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">備份</string>
+    <string name="backup_brainkey">備份brainkey</string>
+    <string name="copied_to_clipboard">複製到剪貼板</string>
+    <string name="bin_file_description">Bin文件。始終將備份.bin文件保存到密碼MicroSD卡或USB記憶棒。</string>
+    <string name="create_a_backup">創建備份</string>
+    <string name="brainkey_description">Brainkey。帳戶恢復單詞，可以捕獲或複制，但不能編輯。</string>
+    <string name="txt_brain_key_info">打印出來，或寫下來。有權訪問您的恢復密鑰的任何人都可以訪問此錢包中的資金。</string>
+    <string name="view_and_copy">查看和復制</string>
+    <string name="title_bin_backup">導出.bin備份</string>
+    <string name="hint_password">密碼</string>
+    <string name="hint_password_confirmation">確認密碼</string>
+    <string name="error_password_mandatory">必須輸入密碼</string>
+    <string name="error_password_too_short">密碼太短</string>
+    <string name="error_password_confirmation_mismatch">密碼和確認不匹配</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">期望的Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">您收到的所有Cryptocurrencies都會自動轉換為您的Desired Smartcoin並保存在您的BitShares商家帳戶中。</string>
+    <string name="title__loyalty_points">忠誠度積分</string>
+    <string name="msg__loyalty_points_description">忠誠度積分可以在您與客戶共享時自動發送給您的客戶。您必須擁有一些您希望發送給客戶的令牌。</string>
     <string name="warning_insufficient_reward_asset_balance">您的帳戶尚未擁有任何%1$s。在您嘗試向客戶提供忠誠積分之前，請先購買一些。</string>
     <string name="send">發送</string>
     <string name="txt_for_every">每一個</string>
     <string name="txt_spent">花費</string>
-    <string name="txt_bitcoin_altcoin_deposited">接受最多8個加密幣：</string>
+    <string name="title__cryptocurrency_preferences">加密貨幣首選項</string>
+    <string name="msg__cryptocurrency_preferences_description">選擇最多8種流行的加密貨幣，您將接受這些加密貨幣。這些硬幣將顯示在主屏幕上。您可以隨時更改這些選項。</string>
     <string name="altcoins_should_not_more_than">請選擇不超過8個輸入資產</string>
-    <string name="bitshares_unselection_message">Bitshares（BTS）核心令牌是必需的。</string>
     <string name="toast_low_volume_market">小批量市場資產暫時被禁用。一旦市場量上升到相當大的數量，它們就會啟用</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">商標</string>
     <string name="store_name">商店名稱</string>
     <string name="address">地址</string>
@@ -238,7 +292,11 @@
     <string name="search">搜索</string>
     <string name="filter">過濾</string>
     <string name="export">出口</string>
-    <string name="confirming">確認...</string>
+    <string name="text__no_transactions">沒有交易</string>
+    <string name="text__awaiting_payment">等待付款…</string>
+    <string name="text__confirming">確認…</string>
+    <string name="text__complete">完成</string>
+    <string name="text__failed">失敗</string>
     <string name="pdf_generated_msg_s">生成並保存PDF：%1$s</string>
     <string name="pdf_generated_msg_error_s">無法生成pdf。請重試。錯誤：%1$s</string>
     <string name="csv_generated_msg_s">生成並保存CSV：%1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">節點連接錯誤，正在重試</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">完整節點出錯。消息：%1$s</string>
+    <string name="error_payment_amount_title">收到的金額差異</string>
+    <string name="error_payment_amount_content">看起來我們的收入低於預期。退款必須手動處理。</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">我們收到了付款，但沒有找到任何請求</string>

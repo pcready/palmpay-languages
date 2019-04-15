@@ -6,13 +6,13 @@
     <string name="disagree">Nekonu</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Ŝarĝante aktivaĵojn ...</string>
-    <string name="title_loading_asset_type_data">Ŝarĝado de tipoj de tipoj de assoj ...</string>
+    <string name="title_loading_assets">Ŝarĝante aktivaĵojn…</string>
+    <string name="title_loading_asset_type_data">Ŝarĝado de tipoj de tipoj de assoj…</string>
     <string name="title_assets_ready">Asset datumbazo preta</string>
     <string name="msg_loading_all_existing_assets">Prezentante serion de petoj por akiri la kompletan liston de ĉiuj ekzistantaj aktivoj</string>
     <string name="msg_loading_asset_type_data">Petante pliajn aktivajn detalojn</string>
     <string name="msg_loading_asset_in_database">Ŝarĝita %1$d-aktivaĵon en la datumbazon</string>
-    <string name="msg_assets_loaded">Sekvu, bonvolu agordi vian konton ...</string>
+    <string name="msg_assets_loaded">Sekvu, bonvolu agordi vian konton…</string>
     <string name="error_fetching_marketcap_data">Ne povis ŝarĝi marketcap-datumon</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Bonvolu eniri korektan cerbon, ĝi devus havi inter 12 kaj 16 vortoj.</string>
     <string name="unable_to_load_brainkey">Ne eblis ŝarĝi cerbon</string>
     <string name="account_already_exist">Konto jam ekzistas</string>
-    <string name="importing_your_wallet">Importante vian monujon ...</string>
+    <string name="importing_your_wallet">Importante vian monujon…</string>
     <string name="account_candidates_title">Bonvolu elekti konton</string>
     <string name="account_candidates_content">La ŝlosiloj derivitaj de ĉi tiu cerboŝajne ŝajnas esti uzataj por kontroli pli ol unu konton, bonvolu elekti, kiun vi volas importi</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Ŝlosila eraro de korupteco</string>
     <string name="error_corrupted_key_content">La programo ne povas rekuperi viajn ĉifritajn privatajn ŝlosilojn de la datumbazo. Pro ĉi tio vi devos denove eniri viajn ŝlosilojn. Aŭ en la formo de brainkey aŭ formu la bin-rezervan dosieron, kiu estis generita kaj stokita aŭtomate en via sdcard se la konto estis kreita de la app</string>
     <string name="invalid_pin">Nevalida PIN</string>
+    <string name="network_loading_user_click_toast">Reto ŝarĝas. Bonvolu atendi…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Hejmo</string>
     <string name="txt_transactions">Transakcioj</string>
     <string name="txt_refunds_returns">Reembolsoj / Revenoj</string>
     <string name="txt_settlement">Ligo</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares-nodoj</string>
+    <string name="bitshares_nodes_dialog_title">Bloko: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Kvanto devita</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Bonvolu atendi</string>
     <string name="error_node_unreachable">Neniu nodo povus esti atingita</string>
     <string name="invoice_subject">Fakturo de PalmPay de %1$s</string>
+    <string name="memo_warning">NOTO: La memora kampo estas necesa por korekti vian pagon kun la peto de la komercisto.</string>
     <string name="before_s">Antaŭ: %1$s</string>
     <string name="share">Kunhavigi</string>
     <string name="share_with">Kunhavigi kun</string>
-    <string name="connecting">Konektanta ...</string>
+    <string name="connecting">Konektanta…</string>
+    <string name="error_bridge_title">Ponto eraro</string>
+    <string name="error_bridge_content">La mona konvertiĝo ponto ŝajnas esti malsupren. \n \n Bonvolu kontakti subtenon. \n \nError-kodo estas: %1$d</string>
+    <string name="button_accept_tx">Akcepti transakcion</string>
+    <string name="dialog_accept_tx_title">Akcepti transakcion?</string>
+    <string name="dialog_accept_tx_summary">La transakcio estis detektita, sed ankoraŭ ne plene konfirmita.</string>
+    <string name="option_add_surety">Aldonu garantion</string>
+    <string name="option_wait">Atendu</string>
+    <string name="option_accept">Akceptu</string>
+    <string name="title__step_payment_seen">Pago vidita</string>
+    <string name="msg__step_payment_seen">Atendante konfirmon de la reto</string>
+    <string name="msg__step_payment_seen_done">Pago estis inkluzivita en bloko</string>
+    <string name="title__step_payment_received">Pago ricevita</string>
+    <string name="template_tx_progress">Atendante pli da retaj konfirmo. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Ricevis sufiĉajn konfirmojn</string>
+    <string name="title__step_payment_confirmed">Pago konfirmita</string>
+    <string name="msg__step_payment_confirmed">Transakcio de eligo al komercistoj kaj ambasadoroj komencita</string>
+    <string name="msg__step_payment_confirmed_done">Pago prilaborado kompletigita</string>
+    <string name="error_estimate_input_content_template">Eraro dum provado taksi la eniron. \n \n Eraro de ponto-provizanto: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Okazis eraro dum prilaborado de via peto.</string>
+    <string name="error_payment_request_content_template">La ponto-provizanto ne povas pretigi %1$s nun. Bonvolu reprovi poste. \n \nErrolo de ponto-provizanto: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Elektu pagan peton</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Ĉi tio ligas la venontajn pagojn al la antaŭe registrita peto de pago de %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Venontaj pago-detaloj</string>
     <string name="dialog_generic_title_confirm">Ĉu vi certas?</string>
-    <string name="dialog_generic_msg_confirm">Bonvolu noti, ke ĉi tiu ago ne povas esti nuligita</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Malakcepti</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Pago konfirmita!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Pago konfirmita!</string>
+    <string name="button__view_transactions">Vidi Transakciojn</string>
+    <string name="template__received">Ricevita: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Agordoj</string>
     <string name="general">Ĝenerala</string>
-    <string name="security">Sekureco</string>
-    <string name="backups">Rezervoj</string>
-    <string name="tokens">Tokoj</string>
     <string name="accounts">Kontoj</string>
+    <string name="tokens">Tokoj</string>
     <string name="e_receipts">eReceiptoj</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Nokta reĝimo</string>
+    <string name="title__local_fiat_currency">Monata Fiat loka</string>
     <string name="currency_info">La monero estas aŭtomate selektita bazita sur via lingvo kaj landa elekto. Se vi volas ŝanĝi tiujn, vi devas iri al la tutmonda sistemo de via aparato.</string>
     <string name="screen_saver">Ekrankurteno</string>
     <string name="source">Fonto</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Defaŭlta dosierujo (/ PalmPay)</string>
     <string name="txt_folder">Dosierujo</string>
     <string name="choose">Elektu</string>
-    <string name="screen_saver_time">Ebligu post ...</string>
+    <string name="folder_has_no_images_error">Eraro, la elektita dosierujo ne havas bildojn</string>
+    <string name="screen_saver_time">Ebligu post…</string>
     <string name="one_minute">1 Minuto</string>
     <string name="three_minutes">3 Minutoj</string>
     <string name="five_minutes">5 Minutoj</string>
@@ -169,27 +189,43 @@
     <string name="city">Urbo</string>
     <string name="country">Lando</string>
     <string name="bugs_or_ideas">Cimoj aŭ Ideoj?</string>
-    <string name="bugs_or_ideas_contact_info">Babilejo de telegramo: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegramo: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Akcepti</string>
     <string name="select">Elektu</string>
     <string name="are_you_sure">Ĉu vi certas?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Rezerva cerbo</string>
-    <string name="copied_to_clipboard">Kopiita al poŝo</string>
-    <string name="bin_file_description">Bin-dosiero. Ĉiam konservu vian kopion .bin-dosieron al sekreta MicroSD-karto aŭ USB-Stick.</string>
-    <string name="create_a_backup">Krei rezervon</string>
-    <string name="brainkey_description">Brainkey. Rekomprenu vortojn, kiuj povas esti kaptitaj aŭ kopiitaj, sed ne redaktataj.</string>
-    <string name="txt_brain_key_info">Printu ĉi tion aŭ skribu ĝin. Ĉiu kun aliro al via reakta ŝlosilo havos aliron al financoj ene de ĉi tiu monujo.</string>
-    <string name="view_and_copy">Rigardi kaj kopii</string>
-    <string name="title_bin_backup">Eksporti .bin backup</string>
-    <string name="hint_password">Pasvorto</string>
-    <string name="hint_password_confirmation">Pasvorto konfirmo</string>
-    <string name="error_password_mandatory">Devas eniri pasvorton</string>
-    <string name="error_password_too_short">Pasvorto estas tro mallonga</string>
-    <string name="error_password_confirmation_mismatch">Pasvorto kaj konfirmo malsukcesas</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Sekureca Ŝlosilo</string>
+    <string name="title__security_dialog">Elektu Sekurecan Ŝlosilon</string>
+    <string name="text__pin">PINO</string>
+    <string name="text__pattern">Skemo</string>
+    <string name="text__none">Neniu</string>
+    <string name="button__choose">Elektu</string>
+    <string name="title__re_enter_your_pin">Reeniru vian PIN</string>
+    <string name="msg__enter_your_pin">Eniru vian PalmPay PIN por daŭrigi</string>
+    <string name="error__wrong_pin">Malĝusta PIN</string>
+    <string name="title__set_palmpay_security_lock">Fiksi BiTaran Sekurecon</string>
+    <string name="msg__set_a_pin">Por sekureco, starigu PIN</string>
+    <string name="msg__min_pin_length">PIN devas esti almenaŭ 6 ciferoj</string>
+    <string name="title__pins_dont_match">PINs ne kongruas</string>
+    <string name="title__re_enter_your_pattern">Re-eniri vian ŝablonon</string>
+    <string name="msg__enter_your_pattern">Enmetu vian PalmPay-ŝablono por daŭrigi</string>
+    <string name="msg__set_a_pattern">Por sekureco, starigu Rozo</string>
+    <string name="msg__release_finger">Liberigu fingron kiam farita</string>
+    <string name="button__clear">Klara</string>
+    <string name="button__next">Tuj poste</string>
+    <string name="text__draw_an_unlock_pattern">Desegnigu ŝablonon</string>
+    <string name="msg__draw_pattern_confirm">Eltiru mastron denove por konfirmi</string>
+    <string name="button__confirm">Konfirmu</string>
+    <string name="msg__your_new_unlock_pattern">Via nova malŝlosila ŝablono</string>
+    <string name="error__wrong_pattern">Malĝusta ŝablono</string>
+    <string name="text__pattern_recorded">Skemo registrita</string>
+    <string name="error__connect_at_least_4_dots">Konekti almenaŭ 4 punktojn. Provu denove.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Tro multaj malĝustaj provoj. Provu denove en %1$d minutoj.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Tro multaj malĝustaj provoj. Provu denove en %1$d sekundoj.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Nuna Konto</string>
     <string name="merchant_account_s">Komercisto: %1$s</string>
     <string name="upgrade_to_ltm">Ĝisdatigi al LTM</string>
     <string name="upgrade_account_description">"Altgradigo al LifeTime Membroj (LTM). La kontoj de Bitshares \'LTM pagas proksimajn nulajn kotizojn, ricevas 80% retenadon kaj bonusojn por referencoj."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Ĉu vi certas, ke vi volas forigi la konton \'%1$s\' el ĉi tiu monujo?"</string>
     <string name="remove">Forigi</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Dezirata Smartcoin</string>
-    <string name="txt_customer_loyalty">Provi Lojalecajn Punktojn kiel ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Rezervoj</string>
+    <string name="backup_brainkey">Rezerva cerbo</string>
+    <string name="copied_to_clipboard">Kopiita al poŝo</string>
+    <string name="bin_file_description">Bin-dosiero. Ĉiam konservu vian kopion .bin-dosieron al sekreta MicroSD-karto aŭ USB-Stick.</string>
+    <string name="create_a_backup">Krei rezervon</string>
+    <string name="brainkey_description">Brainkey. Rekomprenu vortojn, kiuj povas esti kaptitaj aŭ kopiitaj, sed ne redaktataj.</string>
+    <string name="txt_brain_key_info">Printu ĉi tion aŭ skribu ĝin. Ĉiu kun aliro al via reakta ŝlosilo havos aliron al financoj ene de ĉi tiu monujo.</string>
+    <string name="view_and_copy">Rigardi kaj kopii</string>
+    <string name="title_bin_backup">Eksporti .bin backup</string>
+    <string name="hint_password">Pasvorto</string>
+    <string name="hint_password_confirmation">Pasvorto konfirmo</string>
+    <string name="error_password_mandatory">Devas eniri pasvorton</string>
+    <string name="error_password_too_short">Pasvorto estas tro mallonga</string>
+    <string name="error_password_confirmation_mismatch">Pasvorto kaj konfirmo malsukcesas</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Dezirata Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Ĉiuj el la Kriptaĵoj kiujn vi ricevis, aŭtomate konvertiĝis al via Dezirata Smartcoin kaj konservita en via BitShares Merchant Account.</string>
+    <string name="title__loyalty_points">Lojalaj Punktoj</string>
+    <string name="msg__loyalty_points_description">Lojalaj Punktoj povas esti aŭtomate senditaj al viaj klientoj kiam ili elspezas monon kun vi. Vi devas posedi iujn tipojn, kiujn vi volas sendi al viaj klientoj.</string>
     <string name="warning_insufficient_reward_asset_balance">Via konto ankoraŭ ne posedas %1$s. Bonvolu akiri iun antaŭ ol provi doni al viaj klientoj kiel Loyalty Points.</string>
     <string name="send">Sendu</string>
     <string name="txt_for_every">Por ĉiu</string>
     <string name="txt_spent">pasis</string>
-    <string name="txt_bitcoin_altcoin_deposited">Akceptu ĝis 8 Cryptocurrencies:</string>
+    <string name="title__cryptocurrency_preferences">Preferoj de Cryptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">Elektu ĝis 8 popularaj kriptaŭturojn, kiujn vi akceptos de viaj klientoj. Ĉi tiuj moneroj montriĝos sur la hejmkuro. Vi povas ŝanĝi ĉi tiujn elektojn en ajna momento.</string>
     <string name="altcoins_should_not_more_than">Bonvolu elekti ne pli ol 8 enirojn</string>
-    <string name="bitshares_unselection_message">La Bitshares (BTS) kerna token estas postulita.</string>
     <string name="toast_low_volume_market">Malaltaj volumaj merkatvaloroj estas temporalmente malebligitaj. Ili estos ebligitaj, kiam la merkato-volumo levas konsiderindan kvanton</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Store Nomo</string>
     <string name="address">Adreso</string>
@@ -238,7 +292,11 @@
     <string name="search">Serĉi</string>
     <string name="filter">Filtrilo</string>
     <string name="export">Eksporti</string>
-    <string name="confirming">Konfirmante ...</string>
+    <string name="text__no_transactions">Sen Transakcioj</string>
+    <string name="text__awaiting_payment">Atendanta Pagon…</string>
+    <string name="text__confirming">Konfirmante…</string>
+    <string name="text__complete">Kompleta</string>
+    <string name="text__failed">Malsukcesis</string>
     <string name="pdf_generated_msg_s">PDF generita kaj konservita: %1$s</string>
     <string name="pdf_generated_msg_error_s">Ne eblis generi pdf. Bonvolu repagi. Eraro: %1$s</string>
     <string name="csv_generated_msg_s">CSV generita kaj konservita: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Nodo-rilata eraro, ree</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Eraro de plena nodo. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Ricevita kvanto discrepanco</string>
+    <string name="error_payment_amount_content">Ŝajnas, ke ni ricevis malpli ol kio atendis. La reagon devos esti procesita permane.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Ni ricevas venontajn pagojn, sed neniu peto povus esti trovita</string>

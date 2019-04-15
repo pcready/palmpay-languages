@@ -6,13 +6,13 @@
     <string name="disagree">Net averstane</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Luede vun Ass Werten ...</string>
-    <string name="title_loading_asset_type_data">Loading asset Type Datebank ...</string>
+    <string name="title_loading_assets">Luede vun Ass Werten…</string>
+    <string name="title_loading_asset_type_data">Loading asset Type Datebank…</string>
     <string name="title_assets_ready">Asset Datebank preparéiert</string>
     <string name="msg_loading_all_existing_assets">Dir hutt eng Rei vun Ufroen unzefroen, fir déi komplett Lëscht vun all existent Verméigen ze kréien</string>
     <string name="msg_loading_asset_type_data">Weider Detailer maachen</string>
     <string name="msg_loading_asset_in_database">Loaden %1$d Verméigen an der Datebank</string>
-    <string name="msg_assets_loaded">Als nächst sidd Dir Äre Kont opruffen ...</string>
+    <string name="msg_assets_loaded">Als nächst sidd Dir Äre Kont opruffen…</string>
     <string name="error_fetching_marketcap_data">Konnt d\'Maartdeckeldaten net laden</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Gitt weg korrekt brainkey, da sollt et tëschent 12 an 16 Wierder hunn.</string>
     <string name="unable_to_load_brainkey">Kann net brakesch a loaden</string>
     <string name="account_already_exist">Kont existéiert schonn</string>
-    <string name="importing_your_wallet">Import vu Portemonnaie ...</string>
+    <string name="importing_your_wallet">Import vu Portemonnaie…</string>
     <string name="account_candidates_title">Wielt e Kont op</string>
     <string name="account_candidates_content">D\'Schlësselelemente vun dësem Handwierkstécker sinn benotzt ginn fir méi wéi ee Kont ze kontrolléieren, wielt weg wat fir e Kont op däer Dir importéiere wëllt</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Keier Korruptiounsfehler</string>
     <string name="error_corrupted_key_content">De App kann net verschlësselt privat Keesen aus der Datebank zréckgräifen. Wéinst deem Dir musst iech erneechen. Entweder an der Form vun enger Brainkey oder Formular fir d\'Behälter-Backup-Datei, déi automatesch an Ärem Sdcard gespeichert gouf, wann de Kont vun der App erstellt gouf</string>
     <string name="invalid_pin">Invalid PIN</string>
+    <string name="network_loading_user_click_toast">Netz gëtt gelueden. WEG warten…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Home</string>
     <string name="txt_transactions">Transaktiounen</string>
     <string name="txt_refunds_returns">Rembours / zréck</string>
     <string name="txt_settlement">Settlement</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares Knuet</string>
+    <string name="bitshares_nodes_dialog_title">Block: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Betrag ass wéinst</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Bitte warten</string>
     <string name="error_node_unreachable">Keen Knuet konnt erreecht ginn</string>
     <string name="invoice_subject">PalmPay Rechnung vun %1$s</string>
+    <string name="memo_warning">NOTE: Den Notizfeld ass verlaangt fir Är Bezuelung korrekt mat der Ufro ze maachen.</string>
     <string name="before_s">Virun: %1$s</string>
     <string name="share">Share</string>
     <string name="share_with">Deelen</string>
-    <string name="connecting">Verbannen ...</string>
+    <string name="connecting">Verbannen…</string>
+    <string name="error_bridge_title">Bréck</string>
+    <string name="error_bridge_content">D\'Währungsumbriechungsbréck schéngt null ze sinn. \n \nPlease kontaktéiert Ënnerstëtzung. \n \nErrorcode ass: %1$d</string>
+    <string name="button_accept_tx">Akzeptatioun acceptéieren</string>
+    <string name="dialog_accept_tx_title">Akzeptéieren Transaktioun?</string>
+    <string name="dialog_accept_tx_summary">D\'Transaktioun gouf festgestallt, awer nach net voll bestätegt.</string>
+    <string name="option_add_surety">Eng Garantie ginn</string>
+    <string name="option_wait">Waart</string>
+    <string name="option_accept">Akzeptéieren</string>
+    <string name="title__step_payment_seen">Bezuelung gesi ginn</string>
+    <string name="msg__step_payment_seen">Waart fir d\'Confirmatioun vum Netz</string>
+    <string name="msg__step_payment_seen_done">Bezuelung gouf a blockéiert</string>
+    <string name="title__step_payment_received">Bezuelung kritt</string>
+    <string name="template_tx_progress">Waart fir méi Netzwierkbestätigungen. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Genug Bestätegungen kritt</string>
+    <string name="title__step_payment_confirmed">Bezuelung bestätegt</string>
+    <string name="msg__step_payment_confirmed">Ausgangs Transaktioun fir Händler an Ambassadeure initiéiert</string>
+    <string name="msg__step_payment_confirmed_done">Bezuele Veraarbechtung ofgeschloss</string>
+    <string name="error_estimate_input_content_template">Feeler beim Versuch, den Input Betrag ofzeginn. \n \n Feeler vum Brong-Provider: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Et ass e Feeler beim Veraarbechtung vun Ärer Demande.</string>
+    <string name="error_payment_request_content_template">De Brécker Provider kann net direkt %1$s veraarbecht ginn. Probéiert nach eng Kéier méi spéit. \n \nError vum Bronger Provider: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Wielt Bezuelungsaufforderung</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Dëst wäert d\'Entrée bezuelen bei der virdrun gespäicherten Zahlungsaussaz vun %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Detailer Ofhuelungsproblematik</string>
     <string name="dialog_generic_title_confirm">Bass du secher?</string>
-    <string name="dialog_generic_msg_confirm">Maacht weg datt dës Aktioun net réckgängeg sinn</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Dismiss</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Bezuelung bestätegt!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Bezuelung bestätegt!</string>
+    <string name="button__view_transactions">View Transactions</string>
+    <string name="template__received">Received: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Astellungen</string>
     <string name="general">General</string>
-    <string name="security">Sécherheet</string>
-    <string name="backups">Backups</string>
-    <string name="tokens">Tokens</string>
     <string name="accounts">Konten</string>
+    <string name="tokens">Tokens</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Night mode</string>
+    <string name="title__local_fiat_currency">Lokal Fiat Währung</string>
     <string name="currency_info">D\'Währung gëtt automatësch ausgewielt baséiert op Äer Sprooch an Land auswielen. Wann Dir dës Ännerungen wëllt änneren, musst Dir op déi globale Systeme vun Ärem Apparat gelidden.</string>
     <string name="screen_saver">Écran</string>
     <string name="source">Source</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Standardmenu (/ PalmPay)</string>
     <string name="txt_folder">Dossier</string>
     <string name="choose">Wielt</string>
-    <string name="screen_saver_time">Eroplueden wann ...</string>
+    <string name="folder_has_no_images_error">Feeler, de gewënschten Dossier huet keng Biller</string>
+    <string name="screen_saver_time">Eroplueden wann…</string>
     <string name="one_minute">1 Minute</string>
     <string name="three_minutes">3 Minutten</string>
     <string name="five_minutes">5 Minutten</string>
@@ -169,27 +189,43 @@
     <string name="city">Stad</string>
     <string name="country">Land</string>
     <string name="bugs_or_ideas">Käferen oder Ideen?</string>
-    <string name="bugs_or_ideas_contact_info">Telegramm Chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegramm: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Akzeptéieren</string>
     <string name="select">Auswielen</string>
     <string name="are_you_sure">Bass du secher?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">Kopéiert am Clipboard</string>
-    <string name="bin_file_description">Bin Fichier. Erënnert ëmmer däi Backup .bin Datei op eng geheim MicroSD Kaart oder USB Stick.</string>
-    <string name="create_a_backup">E Backup erstallt</string>
-    <string name="brainkey_description">Brainkey. Account Recovery Worte kënnen agefouert ginn oder kopéiert ginn, awer net geännert ginn.</string>
-    <string name="txt_brain_key_info">Drécke dës eraus oder schreiwen et. Jiddereen deen Zougang zu Ärem RecuperateschName huet Zougang zu Fongen an dësem Portemonnaie.</string>
-    <string name="view_and_copy"><![CDATA[View & Kopie]]></string>
-    <string name="title_bin_backup">Export .bin Backup</string>
-    <string name="hint_password">Passwuert</string>
-    <string name="hint_password_confirmation">Passwuert confirméieren</string>
-    <string name="error_password_mandatory">Muss Passwuert erafen</string>
-    <string name="error_password_too_short">Passwuert ass ze kuerz</string>
-    <string name="error_password_confirmation_mismatch">Passwuert a Confirmatiounstäichkeet</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Sécherheet Sperre</string>
+    <string name="title__security_dialog">Wielt eng Security Lock</string>
+    <string name="text__pin">PIN ze hunn</string>
+    <string name="text__pattern">Muster</string>
+    <string name="text__none">Keen</string>
+    <string name="button__choose">Wielt</string>
+    <string name="title__re_enter_your_pin">Äert PIN drécke</string>
+    <string name="msg__enter_your_pin">Gitt Är PalmPay PIN fier weider</string>
+    <string name="error__wrong_pin">Falsche PIN</string>
+    <string name="title__set_palmpay_security_lock">Set PalmPay Security</string>
+    <string name="msg__set_a_pin">Fir Sécherheet, set eng PIN</string>
+    <string name="msg__min_pin_length">PIN muss mindestens 6 Zifferen sinn</string>
+    <string name="title__pins_dont_match">D\'PINs Don \ \'t Match</string>
+    <string name="title__re_enter_your_pattern">Maacht Äert Muster erof</string>
+    <string name="msg__enter_your_pattern">Gitt Äre PalmPay Muster fir weiderzemaachen</string>
+    <string name="msg__set_a_pattern">Fir Sécherheet, set e Muster</string>
+    <string name="msg__release_finger">Verëffentlechen Fanger wann et gemaach gëtt</string>
+    <string name="button__clear">Clear</string>
+    <string name="button__next">Nächst</string>
+    <string name="text__draw_an_unlock_pattern">Eng Unzuckmuster ze weisen</string>
+    <string name="msg__draw_pattern_confirm">Zeil Muster erof ze confirméieren</string>
+    <string name="button__confirm">Confirm</string>
+    <string name="msg__your_new_unlock_pattern">Ären neie Entréesmuster</string>
+    <string name="error__wrong_pattern">Falsche Muster</string>
+    <string name="text__pattern_recorded">Zeechen</string>
+    <string name="error__connect_at_least_4_dots">Verbannen op d\'mannst 4 Punkte. Versich et nach eng Kéier.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Ze vill falsch Versuche. Probéier erneit an %1$d Minutten.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Ze vill falsch Versuche. Probéier erneit an %1$d Sekonnen.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Aktuellen Account</string>
     <string name="merchant_account_s">Händlerkont: %1$s</string>
     <string name="upgrade_to_ltm">Upgrade op LTM</string>
     <string name="upgrade_account_description">"Upgrade zu der LifeTime Membership (LTM). Bitshares \'LTM Konten bezuelen Nout Nullkäschten, kréien 80% Cashback an Präisser."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Gitt Dir sécher datt Dir de Kont vun \'%1$s\' aus dësem Portemonnaie läschen wëllt?"</string>
     <string name="remove">Fuert</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Gewënscht Smartcoin</string>
-    <string name="txt_customer_loyalty">Issue Loyalitéit Points wéi ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Backups</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Kopéiert am Clipboard</string>
+    <string name="bin_file_description">Bin Fichier. Erënnert ëmmer däi Backup .bin Datei op eng geheim MicroSD Kaart oder USB Stick.</string>
+    <string name="create_a_backup">E Backup erstallt</string>
+    <string name="brainkey_description">Brainkey. Account Recovery Worte kënnen agefouert ginn oder kopéiert ginn, awer net geännert ginn.</string>
+    <string name="txt_brain_key_info">Drécke dës eraus oder schreiwen et. Jiddereen deen Zougang zu Ärem RecuperateschName huet Zougang zu Fongen an dësem Portemonnaie.</string>
+    <string name="view_and_copy"><![CDATA[View & Kopie]]></string>
+    <string name="title_bin_backup">Export .bin Backup</string>
+    <string name="hint_password">Passwuert</string>
+    <string name="hint_password_confirmation">Passwuert confirméieren</string>
+    <string name="error_password_mandatory">Muss Passwuert erafen</string>
+    <string name="error_password_too_short">Passwuert ass ze kuerz</string>
+    <string name="error_password_confirmation_mismatch">Passwuert a Confirmatiounstäichkeet</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Gewënscht Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">All d\'Crypto-Währungen déi Dir kritt hutt, ginn automatesch an Ären Desired Smartcoin konvertéiert an an Ärem BitShares Merchant Account gespäichert.</string>
+    <string name="title__loyalty_points">Loyalitéit Points</string>
+    <string name="msg__loyalty_points_description">Loyalty Points kënnen automatësch an Är Clienten geschéckt ginn, wann se Sue mat Iech ausginn. Dir musst e puer vun den Token benotzen déi Dir fir Är Clienten schécke wëllt.</string>
     <string name="warning_insufficient_reward_asset_balance">Äre Kont kënnt nach net %1$s. Gitt Iech e puer vir ier Dir versicht datt Dir Är Clienten als Loyalitéit Points gëtt.</string>
     <string name="send">Schécken</string>
     <string name="txt_for_every">Fir all</string>
     <string name="txt_spent">ausginn</string>
-    <string name="txt_bitcoin_altcoin_deposited">Akzeptéiert bis zu 8 Cryptocurrencies:</string>
+    <string name="title__cryptocurrency_preferences">Kryptocurrency Preferences</string>
+    <string name="msg__cryptocurrency_preferences_description">Wielt bis 8 populär Kryptoklausien datt Dir vun Äre Clienten akzeptéiert. Dës Mënzen ginn op der Wunnsëtz. Dir kënnt all dës Choix änneren.</string>
     <string name="altcoins_should_not_more_than">Wielt weg méi wéi 8 Input Assets</string>
-    <string name="bitshares_unselection_message">De Bitshares (BTS) Kerntoken ass erfuerderlech.</string>
     <string name="toast_low_volume_market">Low-volume Markteffekt ass temporär behënnert. Si ginn aktivéiert wann de Maartvolumen e grousse Betrag erhéicht</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Store Numm</string>
     <string name="address">Adress</string>
@@ -238,7 +292,11 @@
     <string name="search">Sich</string>
     <string name="filter">Filter</string>
     <string name="export">Exportéieren</string>
-    <string name="confirming">Bestätegt ...</string>
+    <string name="text__no_transactions">Keng Transaktiounen</string>
+    <string name="text__awaiting_payment">Awaiting Payment…</string>
+    <string name="text__confirming">Bestätegt…</string>
+    <string name="text__complete">Komplett</string>
+    <string name="text__failed">KScript</string>
     <string name="pdf_generated_msg_s">PDF generéiert a gespäichert: %1$s</string>
     <string name="pdf_generated_msg_error_s">Kann net pdf generéieren. Wiedersprüng Wieder Feeler: %1$s</string>
     <string name="csv_generated_msg_s">CSV generéiert a gespäichert: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Knappverbindungsfehler, erneit</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Feeler vu volle Knäpp. Mail: %1$s</string>
+    <string name="error_payment_amount_title">Received Betrag Diskrepanz</string>
+    <string name="error_payment_amount_content">Et schéngt wéi mir manner wéi d\'Erwaardunge gemaach hunn. De Remboursement muss manuell veraarbecht ginn.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Mir hunn eng Entrée gemaach, awer keng Ufro ka fonnt ginn</string>

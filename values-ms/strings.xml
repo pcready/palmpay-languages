@@ -6,13 +6,13 @@
     <string name="disagree">Tidak bersetuju</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Memuat aset ...</string>
-    <string name="title_loading_asset_type_data">Memuatkan data jenis aset ...</string>
+    <string name="title_loading_assets">Memuat aset…</string>
+    <string name="title_loading_asset_type_data">Memuatkan data jenis aset…</string>
     <string name="title_assets_ready">Pangkalan data aset siap sedia</string>
     <string name="msg_loading_all_existing_assets">Melakukan siri permintaan untuk mendapatkan senarai lengkap semua aset sedia ada</string>
     <string name="msg_loading_asset_type_data">Meminta butiran aset lagi</string>
     <string name="msg_loading_asset_in_database">Aset %1$d dimuatkan ke pangkalan data</string>
-    <string name="msg_assets_loaded">Seterusnya, sila persiapkan akaun anda ...</string>
+    <string name="msg_assets_loaded">Seterusnya, sila persiapkan akaun anda…</string>
     <string name="error_fetching_marketcap_data">Tidak dapat memuat data pasaran</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Sila masukkan kekunci otak yang betul, ia mestilah mempunyai antara 12 dan 16 perkataan.</string>
     <string name="unable_to_load_brainkey">Tidak dapat memuatkan kekunci otak</string>
     <string name="account_already_exist">Akaun sudah wujud</string>
-    <string name="importing_your_wallet">Mengimport dompet anda ...</string>
+    <string name="importing_your_wallet">Mengimport dompet anda…</string>
     <string name="account_candidates_title">Sila pilih akaun</string>
     <string name="account_candidates_content">Kunci yang diperoleh dari kunci otak ini seolah-olah digunakan untuk mengawal lebih daripada satu akaun, sila pilih akaun mana yang anda mahu import</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Kesilapan rasuah utama</string>
     <string name="error_corrupted_key_content">Aplikasi ini tidak dapat memulihkan kunci persendirian yang disulitkan dari pangkalan data. Kerana ini anda perlu memasukkan kunci anda sekali lagi. Sama ada dalam bentuk kunci otak atau membentuk fail sandaran bin yang dijana dan disimpan secara automatik di dalam kad sdcard anda jika akaun itu dibuat oleh aplikasi</string>
     <string name="invalid_pin">PIN tidak sah</string>
+    <string name="network_loading_user_click_toast">Rangkaian sedang dimuatkan. Sila tunggu…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Rumah</string>
     <string name="txt_transactions">Urus niaga</string>
     <string name="txt_refunds_returns">Bayaran balik / Pulangan</string>
     <string name="txt_settlement">Penyelesaian</string>
-    <string name="bitshares_nodes_dialog_title">Nod bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Blok: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Jumlah perlu dibayar</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Sila tunggu</string>
     <string name="error_node_unreachable">Tiada nod boleh dicapai</string>
     <string name="invoice_subject">Invois PalmPay dari %1$s</string>
+    <string name="memo_warning">NOTA: Medan memo diperlukan untuk memadankan pembayaran dengan betul dengan permintaan saudagar.</string>
     <string name="before_s">Sebelum: %1$s</string>
     <string name="share">Kongsi</string>
     <string name="share_with">Berkongsi dengan</string>
-    <string name="connecting">Menyambung ...</string>
+    <string name="connecting">Menyambung…</string>
+    <string name="error_bridge_title">Kesilapan jambatan</string>
+    <string name="error_bridge_content">Jambatan penukaran mata wang nampaknya turun. \n \nSila hubungi sokongan. Kod \n \n ialah: %1$d</string>
+    <string name="button_accept_tx">Terima transaksi</string>
+    <string name="dialog_accept_tx_title">Terima urus niaga?</string>
+    <string name="dialog_accept_tx_summary">Urusniaga telah dikesan, tetapi belum disahkan sepenuhnya.</string>
+    <string name="option_add_surety">Tambah penjamin</string>
+    <string name="option_wait">Tunggu</string>
+    <string name="option_accept">Terima</string>
+    <string name="title__step_payment_seen">Pembayaran dilihat</string>
+    <string name="msg__step_payment_seen">Menunggu pengesahan rangkaian</string>
+    <string name="msg__step_payment_seen_done">Bayaran telah dimasukkan dalam satu blok</string>
+    <string name="title__step_payment_received">Bayaran yang diterima</string>
+    <string name="template_tx_progress">Menunggu pengesahan rangkaian lebih banyak. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Pengesahan yang cukup diterima</string>
+    <string name="title__step_payment_confirmed">Pembayaran disahkan</string>
+    <string name="msg__step_payment_confirmed">Transaksi output kepada saudagar dan duta yang dimulakan</string>
+    <string name="msg__step_payment_confirmed_done">Pemprosesan pembayaran selesai</string>
+    <string name="error_estimate_input_content_template">Ralat semasa cuba menganggarkan jumlah input. \n \n Ralat daripada penyedia jambatan: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Terdapat ralat semasa memproses permintaan anda.</string>
+    <string name="error_payment_request_content_template">Pembekal Bridge tidak dapat memproses %1$s sekarang. Sila cuba sebentar lagi. \n \nError dari provider bridge: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Pilih permintaan pembayaran</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Ini akan menghubungkan pembayaran masuk ke permintaan pembayaran yang telah direkodkan sebelum ini %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Butiran pembayaran yang akan datang</string>
     <string name="dialog_generic_title_confirm">Adakah anda pasti?</string>
-    <string name="dialog_generic_msg_confirm">Harap maklum bahawa tindakan ini tidak dapat dibatalkan</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Tolak</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Pembayaran disahkan!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Pembayaran disahkan!</string>
+    <string name="button__view_transactions">Lihat Transaksi</string>
+    <string name="template__received">Diterima: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Tetapan</string>
     <string name="general">Ketua</string>
-    <string name="security">Keselamatan</string>
-    <string name="backups">Sandaran</string>
-    <string name="tokens">Token</string>
     <string name="accounts">Akaun</string>
+    <string name="tokens">Token</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Mod malam</string>
+    <string name="title__local_fiat_currency">Mata Wang Fiat Tempatan</string>
     <string name="currency_info">Mata wang dipilih secara automatik berdasarkan pemilihan bahasa dan negara anda. Sekiranya anda ingin mengubahnya, anda mesti pergi ke tetapan sistem global peranti anda.</string>
     <string name="screen_saver">Gambar skrin</string>
     <string name="source">Sumber</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Folder lalai (/ PalmPay)</string>
     <string name="txt_folder">Folder</string>
     <string name="choose">Pilih</string>
-    <string name="screen_saver_time">Dayakan selepas ...</string>
+    <string name="folder_has_no_images_error">Ralat, folder yang dipilih tidak mempunyai imej</string>
+    <string name="screen_saver_time">Dayakan selepas…</string>
     <string name="one_minute">1 minit</string>
     <string name="three_minutes">3 minit</string>
     <string name="five_minutes">5 minit</string>
@@ -169,27 +189,43 @@
     <string name="city">City</string>
     <string name="country">Negara</string>
     <string name="bugs_or_ideas">Bugs atau Idea?</string>
-    <string name="bugs_or_ideas_contact_info">Sembang Telegram: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Terima</string>
     <string name="select">Pilih</string>
     <string name="are_you_sure">Adakah anda pasti?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Kekunci otak sandaran</string>
-    <string name="copied_to_clipboard">Disalin ke papan keratan</string>
-    <string name="bin_file_description">Fail Bin. Sentiasa simpan fail sandaran anda .bin ke kad MicroSD rahsia atau Stick USB.</string>
-    <string name="create_a_backup">Buat sandaran</string>
-    <string name="brainkey_description">Brainkey. Kata-kata pemulihan akaun yang boleh ditangkap atau disalin, tetapi tidak diedit.</string>
-    <string name="txt_brain_key_info">Cetak ini, atau tuliskannya. Sesiapa sahaja yang mempunyai akses kepada kunci pemulihan anda akan mempunyai akses kepada dana dalam dompet ini.</string>
-    <string name="view_and_copy"><![CDATA[Lihat & Salin]]></string>
-    <string name="title_bin_backup">Eksport. Sandaran bin</string>
-    <string name="hint_password">Kata laluan</string>
-    <string name="hint_password_confirmation">pengesahan kata laluan</string>
-    <string name="error_password_mandatory">Mesti masukkan kata laluan</string>
-    <string name="error_password_too_short">Kata laluan terlalu pendek</string>
-    <string name="error_password_confirmation_mismatch">Kata laluan dan kesilapan pengesahan</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Kunci Keselamatan</string>
+    <string name="title__security_dialog">Pilih Kunci Keselamatan</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Corak</string>
+    <string name="text__none">Tiada</string>
+    <string name="button__choose">Pilih</string>
+    <string name="title__re_enter_your_pin">Masukkan semula PIN anda</string>
+    <string name="msg__enter_your_pin">Masukkan PIN PalmPay anda untuk meneruskan</string>
+    <string name="error__wrong_pin">PIN salah</string>
+    <string name="title__set_palmpay_security_lock">Tetapkan Keselamatan PalmPay</string>
+    <string name="msg__set_a_pin">Untuk keselamatan, tetapkan PIN</string>
+    <string name="msg__min_pin_length">PIN mestilah sekurang-kurangnya 6 digit</string>
+    <string name="title__pins_dont_match">PIN tidak sesuai</string>
+    <string name="title__re_enter_your_pattern">Masukkan semula corak anda</string>
+    <string name="msg__enter_your_pattern">Masukkan corak PalmPay anda untuk meneruskan</string>
+    <string name="msg__set_a_pattern">Untuk keselamatan, tetapkan corak</string>
+    <string name="msg__release_finger">Lepaskan jari apabila selesai</string>
+    <string name="button__clear">Jelas</string>
+    <string name="button__next">Seterusnya</string>
+    <string name="text__draw_an_unlock_pattern">Lukis corak buka kunci</string>
+    <string name="msg__draw_pattern_confirm">Lukis corak lagi untuk mengesahkan</string>
+    <string name="button__confirm">Sahkan</string>
+    <string name="msg__your_new_unlock_pattern">Corak buka kunci baru anda</string>
+    <string name="error__wrong_pattern">Corak yang salah</string>
+    <string name="text__pattern_recorded">Corak tercatat</string>
+    <string name="error__connect_at_least_4_dots">Sambungkan sekurang-kurangnya 4 titik. Cuba lagi.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Terlalu banyak percubaan yang salah. Cuba lagi dalam minit %1$d.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Terlalu banyak percubaan yang salah. Cuba lagi dalam %1$d saat.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Akaun terkini</string>
     <string name="merchant_account_s">Akaun Saudagar: %1$s</string>
     <string name="upgrade_to_ltm">Naik taraf ke LTM</string>
     <string name="upgrade_account_description">"Naik taraf ke Keahlian LifeTime (LTM). Akaun LTM Bitshares membayar yuran hampir sifar, mendapatkan cashback 80% dan bonus untuk rujukan."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Adakah anda pasti mahu mengeluarkan akaun \'%1$s\' daripada dompet ini?"</string>
     <string name="remove">Keluarkan</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Smartcoin yang dikehendaki</string>
-    <string name="txt_customer_loyalty">Isu Mata Kesetiaan sebagai ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Sandaran</string>
+    <string name="backup_brainkey">Kekunci otak sandaran</string>
+    <string name="copied_to_clipboard">Disalin ke papan keratan</string>
+    <string name="bin_file_description">Fail Bin. Sentiasa simpan fail sandaran anda .bin ke kad MicroSD rahsia atau Stick USB.</string>
+    <string name="create_a_backup">Buat sandaran</string>
+    <string name="brainkey_description">Brainkey. Kata-kata pemulihan akaun yang boleh ditangkap atau disalin, tetapi tidak diedit.</string>
+    <string name="txt_brain_key_info">Cetak ini, atau tuliskannya. Sesiapa sahaja yang mempunyai akses kepada kunci pemulihan anda akan mempunyai akses kepada dana dalam dompet ini.</string>
+    <string name="view_and_copy"><![CDATA[Lihat & Salin]]></string>
+    <string name="title_bin_backup">Eksport. Sandaran bin</string>
+    <string name="hint_password">Kata laluan</string>
+    <string name="hint_password_confirmation">pengesahan kata laluan</string>
+    <string name="error_password_mandatory">Mesti masukkan kata laluan</string>
+    <string name="error_password_too_short">Kata laluan terlalu pendek</string>
+    <string name="error_password_confirmation_mismatch">Kata laluan dan kesilapan pengesahan</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Smartcoin yang dikehendaki</string>
+    <string name="msg__desired_smartcoin_description">Semua mata wang Cryptocity yang anda terima, secara automatik ditukarkan ke Smartcoin yang Diinginkan dan disimpan dalam Akaun Pedagang BitShares anda.</string>
+    <string name="title__loyalty_points">Mata Kesetiaan</string>
+    <string name="msg__loyalty_points_description">Mata Kesetiaan boleh dihantar secara automatik kepada pelanggan anda apabila mereka membelanjakan wang dengan anda. Anda mesti memiliki beberapa token yang anda ingin hantar kepada pelanggan anda.</string>
     <string name="warning_insufficient_reward_asset_balance">Akaun anda belum memiliki sebarang %1$s. Sila ambil beberapa sebelum anda cuba memberi apa-apa kepada pelanggan anda sebagai Mata Kesetiaan.</string>
     <string name="send">Hantar</string>
     <string name="txt_for_every">Untuk setiap</string>
     <string name="txt_spent">dibelanjakan</string>
-    <string name="txt_bitcoin_altcoin_deposited">Menerima sehingga 8 Mata wang kriptografi:</string>
+    <string name="title__cryptocurrency_preferences">Keutamaan Cryptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">Pilih sehingga 8 mata wang kriptografi yang popular yang akan anda terima daripada pelanggan anda. Syiling ini akan muncul di skrin utama. Anda boleh menukar pilihan ini pada bila-bila masa sahaja.</string>
     <string name="altcoins_should_not_more_than">Sila pilih tidak lebih daripada 8 aset input</string>
-    <string name="bitshares_unselection_message">Token teras Bitshares (BTS) diperlukan.</string>
     <string name="toast_low_volume_market">Aset pasaran kelantangan rendah adalah kurang upaya buat sementara waktu. Mereka akan diaktifkan apabila jumlah pasaran meningkat kepada jumlah yang besar</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Nama kedai</string>
     <string name="address">Alamat</string>
@@ -238,7 +292,11 @@
     <string name="search">Carian</string>
     <string name="filter">Penapis</string>
     <string name="export">Eksport</string>
-    <string name="confirming">Mengesahkan ...</string>
+    <string name="text__no_transactions">Tiada Urus Niaga</string>
+    <string name="text__awaiting_payment">Menunggu Pembayaran…</string>
+    <string name="text__confirming">Mengesahkan…</string>
+    <string name="text__complete">Lengkap</string>
+    <string name="text__failed">Gagal</string>
     <string name="pdf_generated_msg_s">PDF dijana dan disimpan: %1$s</string>
     <string name="pdf_generated_msg_error_s">Tidak dapat menjana pdf. Sila cuba lagi. Ralat: %1$s</string>
     <string name="csv_generated_msg_s">CSV dijana dan disimpan: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Kesilapan sambungan node, mencuba semula</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Ralat dari nod penuh. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Jumlah perbezaan yang diterima</string>
+    <string name="error_payment_amount_content">Nampaknya kami menerima kurang daripada apa yang diharapkan. Bayaran balik perlu diproses secara manual.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Kami mendapat bayaran masuk, tetapi tiada permintaan boleh didapati</string>

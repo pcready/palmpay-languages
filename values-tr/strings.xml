@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Anahtar bozulması hatası</string>
     <string name="error_corrupted_key_content">Uygulama şifreli özel anahtarlarınızı veritabanından kurtaramaz. Bundan dolayı anahtarlarınızı tekrar girmeniz istenecektir. Bir brainkey formunda veya hesap tarafından oluşturulduysa sdcard\'ınızda otomatik olarak oluşturulan ve depolanan bin yedek dosyasını oluştur</string>
     <string name="invalid_pin">Geçersiz PIN</string>
+    <string name="network_loading_user_click_toast">Ağ yükleniyor. Lütfen bekle…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Ev</string>
     <string name="txt_transactions">işlemler</string>
     <string name="txt_refunds_returns">Ödemeler / İade</string>
     <string name="txt_settlement">Yerleşme</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares düğümleri</string>
+    <string name="bitshares_nodes_dialog_title">Blok: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Alacak miktarı</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Lütfen bekle</string>
     <string name="error_node_unreachable">Hiçbir düğüm ulaşılamadı</string>
     <string name="invoice_subject">PalmPay faturası %1$s</string>
+    <string name="memo_warning">NOT: Ödemenizin satıcının isteğiyle doğru bir şekilde eşleşmesi için not alanı gerekir.</string>
     <string name="before_s">Önce: %1$s</string>
     <string name="share">Pay</string>
     <string name="share_with">İle paylaş</string>
     <string name="connecting">Bağlanıyor…</string>
+    <string name="error_bridge_title">Köprü hatası</string>
+    <string name="error_bridge_content">Para birimi dönüştürme köprüsü kapalı görünüyor. \n \nLütfen destek birimine başvurun. \n \nError kodu: %1$d</string>
+    <string name="button_accept_tx">İşlemi kabul et</string>
+    <string name="dialog_accept_tx_title">İşlemi kabul et</string>
+    <string name="dialog_accept_tx_summary">İşlem algılandı, ancak henüz tam olarak doğrulanmadı.</string>
+    <string name="option_add_surety">Güvence ekle</string>
+    <string name="option_wait">Bekleyin</string>
+    <string name="option_accept">Kabul etmek</string>
+    <string name="title__step_payment_seen">Ödeme görüldü</string>
+    <string name="msg__step_payment_seen">Ağ onayı bekleniyor</string>
+    <string name="msg__step_payment_seen_done">Ödeme bir bloğa dahil edildi</string>
+    <string name="title__step_payment_received">Ödeme alındı</string>
+    <string name="template_tx_progress">Daha fazla ağ onayı bekleniyor. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Yeterli onay alındı</string>
+    <string name="title__step_payment_confirmed">Ödeme Onaylandı</string>
+    <string name="msg__step_payment_confirmed">Tüccar ve elçilere çıkış işlemi başladı</string>
+    <string name="msg__step_payment_confirmed_done">Ödeme işlemi tamamlandı</string>
+    <string name="error_estimate_input_content_template">Giriş miktarını tahmin etmeye çalışırken hata. \n \n Köprü sağlayıcısından hata: \n \n %1$s</string>
+    <string name="error_payment_processing_content">İsteğiniz işlenirken bir hata oluştu.</string>
+    <string name="error_payment_request_content_template">Bridge sağlayıcısı şu anda %1$s dosyasını işleyemiyor. Lütfen daha sonra tekrar deneyiniz. \n \nError, köprü sağlayıcıdan: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Ödeme isteğini seç</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Bu, gelen ödemeyi daha önce kaydedilen %1$s ödeme isteğine bağlar.</string>
     <string name="dialog_msg_incoming_payment_details">Gelen ödeme detayları</string>
     <string name="dialog_generic_title_confirm">Emin misiniz?</string>
-    <string name="dialog_generic_msg_confirm">Lütfen bu işlemin geri alınamayacağını unutmayın.</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Reddet</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Ödeme Onaylandı!</string>
-    <string name="txt_cool">GÜZEL!</string>
+    <string name="title__payment_confirmed">Ödeme Onaylandı!</string>
+    <string name="button__view_transactions">İşlemleri Görüntüle</string>
+    <string name="template__received">Alınan: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Ayarlar</string>
     <string name="general">Genel</string>
-    <string name="security">Güvenlik</string>
-    <string name="backups">Yedekler</string>
-    <string name="tokens">Jeton</string>
     <string name="accounts">Hesaplar</string>
+    <string name="tokens">Jeton</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Gece modu</string>
+    <string name="title__local_fiat_currency">Yerel Fiat Para Birimi</string>
     <string name="currency_info">Para birimi, dilinize ve ülke seçiminize göre otomatik olarak seçilir. Bunları değiştirmek isterseniz, cihazınızın genel sistem ayarlarına gitmelisiniz.</string>
     <string name="screen_saver">Ekran koruyucusu</string>
     <string name="source">Kaynak</string>
@@ -160,6 +179,7 @@
     <string name="default_folder">Varsayılan klasör (/ PalmPay)</string>
     <string name="txt_folder">Klasör</string>
     <string name="choose">Seçmek</string>
+    <string name="folder_has_no_images_error">Hata, seçilen klasörde resim yok</string>
     <string name="screen_saver_time">Sonra etkinleştir…</string>
     <string name="one_minute">1 dakika</string>
     <string name="three_minutes">3 dakika</string>
@@ -169,27 +189,43 @@
     <string name="city">Kent</string>
     <string name="country">ülke</string>
     <string name="bugs_or_ideas">Hatalar veya Fikirler?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram sohbeti: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telgraf: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Kabul etmek</string>
     <string name="select">seçmek</string>
     <string name="are_you_sure">Emin misiniz?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Yedekleme brainkey</string>
-    <string name="copied_to_clipboard">Panoya kopyalandı</string>
-    <string name="bin_file_description">Bin dosyası. Yedekleme .bin dosyanızı her zaman gizli bir MicroSD kart veya USB Stick\'e kaydedin.</string>
-    <string name="create_a_backup">Yedek oluştur</string>
-    <string name="brainkey_description">Brainkey. Yakalanabilir veya kopyalanabilir, ancak düzenlenemeyen hesap kurtarma kelimeleri.</string>
-    <string name="txt_brain_key_info">Bunu yazdırın veya yazın. Kurtarma anahtarınıza erişimi olan herkes bu cüzdandaki paraya erişebilir.</string>
-    <string name="view_and_copy">Görüntüle ve Kopyala</string>
-    <string name="title_bin_backup">.Bin yedeğini dışa aktar</string>
-    <string name="hint_password">Parola</string>
-    <string name="hint_password_confirmation">Şifre onayı</string>
-    <string name="error_password_mandatory">Şifre girmelisiniz</string>
-    <string name="error_password_too_short">Şifre çok kısa</string>
-    <string name="error_password_confirmation_mismatch">Şifre ve onay uyuşmazlığı</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Güvenlik kilidi</string>
+    <string name="title__security_dialog">Bir Güvenlik Kilidi Seç</string>
+    <string name="text__pin">TOPLU İĞNE</string>
+    <string name="text__pattern">Desen</string>
+    <string name="text__none">Yok</string>
+    <string name="button__choose">Seçmek</string>
+    <string name="title__re_enter_your_pin">PIN’inizi tekrar girin</string>
+    <string name="msg__enter_your_pin">Devam etmek için PalmPay PIN\'inizi girin</string>
+    <string name="error__wrong_pin">Yanlış PIN</string>
+    <string name="title__set_palmpay_security_lock">PalmPay Güvenliğini Ayarla</string>
+    <string name="msg__set_a_pin">Güvenlik için bir PIN belirleyin</string>
+    <string name="msg__min_pin_length">PIN kodu en az 6 rakam olmalıdır</string>
+    <string name="title__pins_dont_match">PIN\'ler eşleşmiyor</string>
+    <string name="title__re_enter_your_pattern">Deseni tekrar gir</string>
+    <string name="msg__enter_your_pattern">Devam etmek için PalmPay düzeninizi girin</string>
+    <string name="msg__set_a_pattern">Güvenlik için bir Desen ayarlayın</string>
+    <string name="msg__release_finger">Tamamlandığında parmağınızı bırakın</string>
+    <string name="button__clear">Açık</string>
+    <string name="button__next">Sonraki</string>
+    <string name="text__draw_an_unlock_pattern">Bir kilit açma deseni çiz</string>
+    <string name="msg__draw_pattern_confirm">Onaylamak için deseni tekrar çizin</string>
+    <string name="button__confirm">Onaylamak</string>
+    <string name="msg__your_new_unlock_pattern">Yeni kilit açma düzeniniz</string>
+    <string name="error__wrong_pattern">Yanlış desen</string>
+    <string name="text__pattern_recorded">Desen kaydedildi</string>
+    <string name="error__connect_at_least_4_dots">En az 4 nokta bağlayın. Tekrar deneyin.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Çok fazla yanlış deneme var. %1$d dakika içinde tekrar deneyin.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Çok fazla yanlış deneme var. %1$d saniye içinde tekrar deneyin.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Mevcut hesap</string>
     <string name="merchant_account_s">Satıcı Hesabı: %1$s</string>
     <string name="upgrade_to_ltm">LTM\'ye yükseltin</string>
     <string name="upgrade_account_description">"LifeTime Üyeliğine Yükseltme (LTM). Bitshares\'in LTM hesapları sıfıra yakın ücretler öder, başvuru için% 80 geri ödeme ve ikramiye kazanır."</string>
@@ -205,21 +241,39 @@
     <string name="txt_account_remove_confirmation">"Bu cüzdandaki \'%1$s\' hesabını silmek istediğinizden emin misiniz?"</string>
     <string name="remove">Kaldır</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">İstenen Smartcoin</string>
-    <string name="txt_customer_loyalty">Sayı Bağlılık Puanları…</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Yedekler</string>
+    <string name="backup_brainkey">Yedekleme brainkey</string>
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="bin_file_description">Bin dosyası. Yedekleme .bin dosyanızı her zaman gizli bir MicroSD kart veya USB Stick\'e kaydedin.</string>
+    <string name="create_a_backup">Yedek oluştur</string>
+    <string name="brainkey_description">Brainkey. Yakalanabilir veya kopyalanabilir, ancak düzenlenemeyen hesap kurtarma kelimeleri.</string>
+    <string name="txt_brain_key_info">Bunu yazdırın veya yazın. Kurtarma anahtarınıza erişimi olan herkes bu cüzdandaki paraya erişebilir.</string>
+    <string name="view_and_copy">Görüntüle ve Kopyala</string>
+    <string name="title_bin_backup">.Bin yedeğini dışa aktar</string>
+    <string name="hint_password">Parola</string>
+    <string name="hint_password_confirmation">Şifre onayı</string>
+    <string name="error_password_mandatory">Şifre girmelisiniz</string>
+    <string name="error_password_too_short">Şifre çok kısa</string>
+    <string name="error_password_confirmation_mismatch">Şifre ve onay uyuşmazlığı</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">İstenen Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Aldığınız tüm Kripto para birimleri otomatik olarak Arzu Edilen Smartcoin\'e dönüştürülür ve BitShares Ticari Hesabınıza kaydedilir.</string>
+    <string name="title__loyalty_points">Sadakat puanları</string>
+    <string name="msg__loyalty_points_description">Sadakat Puanları, müşterilerinize sizinle para harcadıklarında otomatik olarak gönderilebilir. Müşterilerinize göndermek istediğiniz belirteçlerin bazılarına sahip olmalısınız.</string>
     <string name="warning_insufficient_reward_asset_balance">Hesabınız henüz hiç %1$s sahip değil. Müşterilerinize Sadakat Puanı vermeyi denemeden önce lütfen biraz edinin.</string>
     <string name="send">göndermek</string>
     <string name="txt_for_every">Her şey için</string>
     <string name="txt_spent">harcanmış</string>
-    <string name="txt_bitcoin_altcoin_deposited">8 Kripto para birimine kadar kabul edin:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency Tercihleri</string>
+    <string name="msg__cryptocurrency_preferences_description">Müşterilerinizden kabul edeceğiniz 8 popüler şifrelemeyi seçin. Bu paralar ana ekranda görünecek. Bu seçenekleri istediğiniz zaman değiştirebilirsiniz.</string>
     <string name="altcoins_should_not_more_than">Lütfen 8\'den fazla giriş var.</string>
-    <string name="bitshares_unselection_message">Bitshares (BTS) çekirdek belirteci gereklidir.</string>
     <string name="toast_low_volume_market">Düşük hacimli piyasa varlıkları geçici olarak devre dışıdır. Pazar hacmi önemli miktarda arttığında etkinleştirilecekler</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
-    <string name="store_name">Dükkan adı</string>
+    <string name="store_name">Dükkân adı</string>
     <string name="address">Adres</string>
     <string name="phone_number">Telefon numarası</string>
     <string name="website">Web sitesi</string>
@@ -238,14 +292,18 @@
     <string name="search">Arama</string>
     <string name="filter">filtre</string>
     <string name="export">İhracat</string>
-    <string name="confirming">Onaylanıyor ...</string>
+    <string name="text__no_transactions">İşlem Yok</string>
+    <string name="text__awaiting_payment">Bekleyen ödeme…</string>
+    <string name="text__confirming">Onaylanıyor…</string>
+    <string name="text__complete">Tamamlayınız</string>
+    <string name="text__failed">Başarısız oldu</string>
     <string name="pdf_generated_msg_s">PDF oluşturuldu ve kaydedildi: %1$s</string>
     <string name="pdf_generated_msg_error_s">Pdf oluşturulamıyor. Lütfen tekrar deneyiniz. Hata: %1$s</string>
     <string name="csv_generated_msg_s">CSV oluşturuldu ve kaydedildi: %1$s</string>
     <string name="csv_generated_msg_error_s">Csv oluşturulamadı Lütfen tekrar deneyiniz. Hata: %1$s</string>
 
     <!-- Transactions Filter Options -->
-    <string name="all">Herşey</string>
+    <string name="all">Her şey</string>
     <string name="sent">Gönderilen</string>
     <string name="received">Alınan</string>
     <string name="date_range">Tarih aralığı</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Düğüm bağlantı hatası, tekrar deneniyor</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Tam düğüm hatası. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Alınan tutar tutarsızlığı</string>
+    <string name="error_payment_amount_content">Beklenenden daha az aldığımız anlaşılıyor. Geri ödemenin manuel olarak yapılması gerekir.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Gelen bir ödeme aldık, ancak istek bulunamadı</string>

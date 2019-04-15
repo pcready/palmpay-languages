@@ -6,13 +6,13 @@
     <string name="disagree">Ùn dispunibule</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Cumentu attivu ...</string>
-    <string name="title_loading_asset_type_data">Cumpete infurmazione di dati ...</string>
+    <string name="title_loading_assets">Cumentu attivu…</string>
+    <string name="title_loading_asset_type_data">Cumpete infurmazione di dati…</string>
     <string name="title_assets_ready">Basa di dati</string>
     <string name="msg_loading_all_existing_assets">Ripristinendu una seria di dumande in modu per ottene a lista completa di l\'assi esistenti</string>
     <string name="msg_loading_asset_type_data">A dumanda d \'infurmazione di attivu</string>
     <string name="msg_loading_asset_in_database">Amparate l\'attivu %1$d à a basa di dati</string>
-    <string name="msg_assets_loaded">Adupratu, setjustà u vostru contu ...</string>
+    <string name="msg_assets_loaded">Adupratu, setjustà u vostru contu…</string>
     <string name="error_fetching_marketcap_data">Ùn pudete micca cargarà infurmazione di marketcap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Intécrire u scurientu chianu correctu, avè pussutu avè 12 o 16 parolle.</string>
     <string name="unable_to_load_brainkey">Ùn puderà carricà i funziunalità</string>
     <string name="account_already_exist">U cuntu esiste digià</string>
-    <string name="importing_your_wallet">Importa a vostra billetina ...</string>
+    <string name="importing_your_wallet">Importa a vostra billetina…</string>
     <string name="account_candidates_title">Sceglite un cunse</string>
     <string name="account_candidates_content">I chjavi derivati ​​di stu chianu di u funziunalu pareanu esse usatu per cuntrullà più di un cuntu, sceglite u quale vo vulete importà</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Error di corruzzione chjave</string>
     <string name="error_corrupted_key_content">L\'app hè incapaci di recoverà i chjavi privati ​​chjappi da a basa di dati. Per via di questu hè devenu esse dumandatu di scrivite e vostre chjavi. O in u furmatu di un chjosum o di cumpressione u còdice di salvezza chì hè stata generata è almacenata automaticamente in a vostra sdcard si u cumentu hè statu creatu da l\'app</string>
     <string name="invalid_pin">Invalid PIN</string>
+    <string name="network_loading_user_click_toast">Ritenimentu hè aggradèvule. Agate…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Home</string>
     <string name="txt_transactions">Transacciones</string>
     <string name="txt_refunds_returns">Rimborsi / Riturnà</string>
     <string name="txt_settlement">Liquidazione</string>
-    <string name="bitshares_nodes_dialog_title">Nodes di Bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Bloccu: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Ammonti debuli</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Spazii</string>
     <string name="error_node_unreachable">Nisun node puderia ghjunghje</string>
     <string name="invoice_subject">A fattura di PalmPay da %1$s</string>
+    <string name="memo_warning">NOTA: U campu in memu hè obligatu à corrispondà cù a vostra pagazione cù a dumanda di u merchant.</string>
     <string name="before_s">Prima: %1$s</string>
     <string name="share">Share</string>
     <string name="share_with">Share with</string>
-    <string name="connecting">Cunnessione ...</string>
+    <string name="connecting">Cunnessione…</string>
+    <string name="error_bridge_title">Error di Ponte</string>
+    <string name="error_bridge_content">U ponte di cunversione di moneta pare averebbe. \n \nPlease contact support. \n \nError code hè: %1$d</string>
+    <string name="button_accept_tx">Acepta transazioni</string>
+    <string name="dialog_accept_tx_title">Acepta transazioni?</string>
+    <string name="dialog_accept_tx_summary">A transazzione hè stata detta, ma micca chjaru cunfirmata.</string>
+    <string name="option_add_surety">Aghjunghje garrette</string>
+    <string name="option_wait">Aspetta</string>
+    <string name="option_accept">Acepta</string>
+    <string name="title__step_payment_seen">Pagamentu vistu</string>
+    <string name="msg__step_payment_seen">Aspittendu a conferma di rete</string>
+    <string name="msg__step_payment_seen_done">U pagamentu hè statu inclusu in un blocu</string>
+    <string name="title__step_payment_received">Pagamentu ricevutu</string>
+    <string name="template_tx_progress">In esperanza di più cunferenzi di a rete. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Basta cunfermazioni ricevute</string>
+    <string name="title__step_payment_confirmed">Pagamentu cunfirmatu</string>
+    <string name="msg__step_payment_confirmed">A transazzione di uscita à mercante è ambasciatori iniziata</string>
+    <string name="msg__step_payment_confirmed_done">L\'elaborazione di i pagamenti hè finita</string>
+    <string name="error_estimate_input_content_template">Errore durante a stima di a quantità di input. \n \n Errore da u fornitore di ponte: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Ci hè statu un errore in u prucessu di a vostra richiesta.</string>
+    <string name="error_payment_request_content_template">U prugrama di Bridge ùn pò travagliare %1$s avà. Per piacè pruvate più tardi. \n \nError da u fornitore di ponte: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Appuntamentu di sviamentu</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Questu ligà u pagamentu ingressu à a dumanda di pagamentu di registratu di %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Prisentazione di u pagamentu</string>
     <string name="dialog_generic_title_confirm">Sì sicuru?</string>
-    <string name="dialog_generic_msg_confirm">Avete nutatu chì sta action ùn pò micca esse desunitu</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Caccia</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Pagamentu cunfirmata!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Pagamentu cunfirmata!</string>
+    <string name="button__view_transactions">Vede Transacciones</string>
+    <string name="template__received">Received: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Settings</string>
     <string name="general">General</string>
-    <string name="security">Seguretat</string>
-    <string name="backups">Salvà salvezza</string>
-    <string name="tokens">FTP</string>
     <string name="accounts">Accounts</string>
+    <string name="tokens">FTP</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Modu di notte</string>
+    <string name="title__local_fiat_currency">Fiat Moneda local</string>
     <string name="currency_info">A munita hè automaticamente selezionata nantu à a vostra lingua è a scelta di u paese. Se vulete mudificà quelli, andà à l\'appena di u sistema di u telefonu.</string>
     <string name="screen_saver">Screen Saver</string>
     <string name="source">Source</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Carpeta per defettu (/ PalmPay)</string>
     <string name="txt_folder">Folder</string>
     <string name="choose">Scegli</string>
-    <string name="screen_saver_time">Attualmente dopu ...</string>
+    <string name="folder_has_no_images_error">Errore, u cartulare chjamatu ùn hà micca imaghjini</string>
+    <string name="screen_saver_time">Attualmente dopu…</string>
     <string name="one_minute">1 Minuta</string>
     <string name="three_minutes">3 minuti</string>
     <string name="five_minutes">5 minuti</string>
@@ -169,27 +189,43 @@
     <string name="city">Cità</string>
     <string name="country">Paese</string>
     <string name="bugs_or_ideas">Bugs or Ideas?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Acepta</string>
     <string name="select">Select</string>
     <string name="are_you_sure">Sì sicuru?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">Copiatu à u clipboard</string>
-    <string name="bin_file_description">Bin file. Sempre aghjà salvà a copia di salvezza. Bin file à una secreta MicroSD card o USB Stick.</string>
-    <string name="create_a_backup">Crea una copia di salvezza</string>
-    <string name="brainkey_description">Brainkey. Piani di ricuperazione di qualità chì pò esse captudu o copiati, ma micca editatu.</string>
-    <string name="txt_brain_key_info">Stampa dinò, o scrizzà. Qualchese cù accessu à a vostra chjave di ricuperu sarà accessu à i fondi in questa billetea.</string>
-    <string name="view_and_copy">Vista è Copia</string>
-    <string name="title_bin_backup">A copia di salvezza</string>
-    <string name="hint_password">Codice</string>
-    <string name="hint_password_confirmation">Confirmazione di u password</string>
-    <string name="error_password_mandatory">Scrive una password</string>
-    <string name="error_password_too_short">A password hè troppu corta</string>
-    <string name="error_password_confirmation_mismatch">Contrasenya è cunfirmazione micca</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Cerrazione Sicionale</string>
+    <string name="title__security_dialog">Sceglite un Safety Lock</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Pattern</string>
+    <string name="text__none">Nimu</string>
+    <string name="button__choose">Sceglie</string>
+    <string name="title__re_enter_your_pin">Turnate u vostru PIN</string>
+    <string name="msg__enter_your_pin">Ingressu u vostru PIN di PalmPay per continuà</string>
+    <string name="error__wrong_pin">Pianu nùmmuru</string>
+    <string name="title__set_palmpay_security_lock">Set PalmPay Security</string>
+    <string name="msg__set_a_pin">Per a security, fate un PIN</string>
+    <string name="msg__min_pin_length">U PIN hà da esse almenu 6 figuri</string>
+    <string name="title__pins_dont_match">I PIN ùn cunnessu micca</string>
+    <string name="title__re_enter_your_pattern">Riticà u vostru mudellu</string>
+    <string name="msg__enter_your_pattern">Intrendu u vostru persone per vede cuntenutu</string>
+    <string name="msg__set_a_pattern">Per a sicurità, stabilisce un Patternu</string>
+    <string name="msg__release_finger">Fate d\'annuncia quandu hè fatta</string>
+    <string name="button__clear">Clear</string>
+    <string name="button__next">Next</string>
+    <string name="text__draw_an_unlock_pattern">Dà un patrone di liberazione</string>
+    <string name="msg__draw_pattern_confirm">Suggenu novu per stabilisce</string>
+    <string name="button__confirm">Confirmate</string>
+    <string name="msg__your_new_unlock_pattern">U vostru mudellu novu di liberu</string>
+    <string name="error__wrong_pattern">Patrone di patrone</string>
+    <string name="text__pattern_recorded">Pattern recorded</string>
+    <string name="error__connect_at_least_4_dots">Connettate almenu 4 punti. Prova dinò.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Parechji tentattivi incorrecci. Pruvate di novu in %1$d minuti.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Parechji tentattivi incorrecci. Pruvate di novu in %1$d secondi.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Kontu corrente</string>
     <string name="merchant_account_s">Merchant Account: %1$s</string>
     <string name="upgrade_to_ltm">Avanzate à LTM</string>
     <string name="upgrade_account_description">"Avanzate à a Membranza LifeTime (LTM). L\'account LTM di Bitshares accetta pagamenti cero vicinu à cero, riceve 80% di rete u bonus per riferenzi".</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Vulete sicuru chì vulete sguassà u cumentu" %1$s "da questa billetula?"</string>
     <string name="remove">Eliminar</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Smartcoin dispunibule</string>
-    <string name="txt_customer_loyalty">Issue Loyalty Points ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Salvà salvezza</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Copiatu à u clipboard</string>
+    <string name="bin_file_description">Bin file. Sempre aghjà salvà a copia di salvezza. Bin file à una secreta MicroSD card o USB Stick.</string>
+    <string name="create_a_backup">Crea una copia di salvezza</string>
+    <string name="brainkey_description">Brainkey. Piani di ricuperazione di qualità chì pò esse captudu o copiati, ma micca editatu.</string>
+    <string name="txt_brain_key_info">Stampa dinò, o scrizzà. Qualchese cù accessu à a vostra chjave di ricuperu sarà accessu à i fondi in questa billetea.</string>
+    <string name="view_and_copy">Vista è Copia</string>
+    <string name="title_bin_backup">A copia di salvezza</string>
+    <string name="hint_password">Codice</string>
+    <string name="hint_password_confirmation">Confirmazione di u password</string>
+    <string name="error_password_mandatory">Scrive una password</string>
+    <string name="error_password_too_short">A password hè troppu corta</string>
+    <string name="error_password_confirmation_mismatch">Contrasenya è cunfirmazione micca</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Smartcoin dispunibule</string>
+    <string name="msg__desired_smartcoin_description">Tuttu u Criptaizzioni chì avete ricevutu, sò automaticamente cunvertischi in u vostru Smartired Desiree è salvatu in a vostra Merchante di cuntalli di BitShares.</string>
+    <string name="title__loyalty_points">Punti di fideltà</string>
+    <string name="msg__loyalty_points_description">I piani di fideltà pò esse mandatu automaticamente à i vostri clienti quand\'elli gastendu soldi cun voi. Avete bisognu di alcune di e fasci chì vo vulete mandà à i vostri clienti.</string>
     <string name="warning_insufficient_reward_asset_balance">U vostru contu ùn possu micca alcun %1$s. Piglia una acquistera prima di pruvate à dà à i vostri clienti in Lealtà.</string>
     <string name="send">Mandà</string>
     <string name="txt_for_every">Per ognunu</string>
     <string name="txt_spent">passati</string>
-    <string name="txt_bitcoin_altcoin_deposited">Acepta à 8 Criptaizeti:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency Preferences</string>
+    <string name="msg__cryptocurrency_preferences_description">Sceglite alcuni 8 criptografiji populari chì avete da accede di i vostri clienti. Questi muniti fussinu nantu à a pantalla di casa. Pudete cambià din selezzione in ogni mumentu.</string>
     <string name="altcoins_should_not_more_than">Sceglite micca micca più di 8 assi di l\'input</string>
-    <string name="bitshares_unselection_message">U simbolu chjamatu Bitshares (BTS).</string>
     <string name="toast_low_volume_market">L\'attivu di u mercatu di u voluminu pocu hè invalidatu temporale. Seranu attivati ​​una volta chì u voluminu di u mercatu sullivanu à una quantità considerable</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Store Name</string>
     <string name="address">Indirizzu</string>
@@ -238,7 +292,11 @@
     <string name="search">Ricerca</string>
     <string name="filter">Filtru</string>
     <string name="export">Esporta</string>
-    <string name="confirming">Confirming ...</string>
+    <string name="text__no_transactions">Nè Transazzioni</string>
+    <string name="text__awaiting_payment">Aperite u pagamentu…</string>
+    <string name="text__confirming">Confirming…</string>
+    <string name="text__complete">Complete</string>
+    <string name="text__failed">Fallitu</string>
     <string name="pdf_generated_msg_s">PDF generatu è salvatu: %1$s</string>
     <string name="pdf_generated_msg_error_s">Ùn pudere generà pdf. Ripaciate. Errore: %1$s</string>
     <string name="csv_generated_msg_s">Crescenu e salvatu CSV: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Errore di cunnessione di nodes, retentule</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Errore di u node. Msg: %1$s</string>
+    <string name="error_payment_amount_title">A discrepanzia di u cantu ricivutu</string>
+    <string name="error_payment_amount_content">Sembra chì avemu ricevutu menu di quellu chì era deve esse. U rimborsu hà da esse tratatu manualmente.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Avemu un pagamentu ingressu, ma ùn puderebbenu esse dumanda</string>

@@ -6,13 +6,13 @@
     <string name="disagree">Discrepar</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Càrrega d\'actius ...</string>
-    <string name="title_loading_asset_type_data">S\'estan carregant dades del tipus d\'actiu ...</string>
+    <string name="title_loading_assets">Càrrega d\'actius…</string>
+    <string name="title_loading_asset_type_data">S\'estan carregant dades del tipus d\'actiu…</string>
     <string name="title_assets_ready">Base de dades d\'actius preparada</string>
     <string name="msg_loading_all_existing_assets">Realitzant una sèrie de sol·licituds per obtenir la llista completa de tots els actius existents</string>
     <string name="msg_loading_asset_type_data">Sol·licitud de detalls addicionals d\'actius</string>
     <string name="msg_loading_asset_in_database">S\'ha carregat l\'actiu %1$d a la base de dades</string>
-    <string name="msg_assets_loaded">A continuació, configureu el vostre compte ...</string>
+    <string name="msg_assets_loaded">A continuació, configureu el vostre compte…</string>
     <string name="error_fetching_marketcap_data">No s\'ha pogut carregar les dades del marketcap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Introduïu la clau d\'accés correcta, hauria de tenir entre 12 i 16 paraules.</string>
     <string name="unable_to_load_brainkey">No es pot carregar el brainkey</string>
     <string name="account_already_exist">El compte ja existeix</string>
-    <string name="importing_your_wallet">S\'està important la vostra cartera ...</string>
+    <string name="importing_your_wallet">S\'està important la vostra cartera…</string>
     <string name="account_candidates_title">Seleccioneu un compte</string>
     <string name="account_candidates_content">Les claus derivades d\'aquest brainkey semblen utilitzar-se per controlar més d\'un compte, seleccioneu el compte que voleu importar</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Error de corrupció clau</string>
     <string name="error_corrupted_key_content">L\'aplicació no pot recuperar les vostres claus privades xifrades de la base de dades. Per això, haurà de tornar a introduir les claus. Ja sigui en forma de clau intel·ligent o en forma el fitxer de còpia de seguretat bin que es va generar i emmagatzemar automàticament a la targeta sdcard si l\'aplicació la va crear.</string>
     <string name="invalid_pin">PIN no vàlid</string>
+    <string name="network_loading_user_click_toast">S\'està carregant la xarxa. Espereu…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Inici</string>
     <string name="txt_transactions">Transaccions</string>
     <string name="txt_refunds_returns">Reembossaments / devolucions</string>
     <string name="txt_settlement">Liquidació</string>
-    <string name="bitshares_nodes_dialog_title">Nodes bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Bloc: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Deute</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Espereu</string>
     <string name="error_node_unreachable">No s\'ha pogut aconseguir cap node</string>
     <string name="invoice_subject">Factura PalmPay de %1$s</string>
+    <string name="memo_warning">NOTA: el camp de nota és necessari per adequar el vostre pagament amb la sol·licitud del comerciant.</string>
     <string name="before_s">Abans: %1$s</string>
     <string name="share">Compartir</string>
     <string name="share_with">Compartir amb</string>
-    <string name="connecting">S\'està connectant ...</string>
+    <string name="connecting">S\'està connectant…</string>
+    <string name="error_bridge_title">Error del pont</string>
+    <string name="error_bridge_content">El pont de conversió de moneda sembla baixar. \n \nPoseu-vos en contacte amb el servei de suport. \n \nEl codi d\'error és: %1$d</string>
+    <string name="button_accept_tx">Accepta la transacció</string>
+    <string name="dialog_accept_tx_title">Voleu acceptar la transacció?</string>
+    <string name="dialog_accept_tx_summary">S\'ha detectat la transacció, però encara no s\'ha confirmat completament.</string>
+    <string name="option_add_surety">Afegiu segur</string>
+    <string name="option_wait">Espera</string>
+    <string name="option_accept">Accepta</string>
+    <string name="title__step_payment_seen">Pagament vist</string>
+    <string name="msg__step_payment_seen">Esperant la confirmació de la xarxa</string>
+    <string name="msg__step_payment_seen_done">El pagament s\'ha inclòs en un bloc</string>
+    <string name="title__step_payment_received">Pagament rebut</string>
+    <string name="template_tx_progress">S\'estan esperant més confirmacions de la xarxa. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">S’ha rebut prou confirmacions</string>
+    <string name="title__step_payment_confirmed">Pagament confirmat</string>
+    <string name="msg__step_payment_confirmed">S\'ha iniciat la transacció de sortida al comerciant i als ambaixadors</string>
+    <string name="msg__step_payment_confirmed_done">S\'ha completat el procés de pagament</string>
+    <string name="error_estimate_input_content_template">Error en intentar estimar l’import de l’entrada. \n \n Error del proveïdor del pont: \n \n %1$s</string>
+    <string name="error_payment_processing_content">S\'ha produït un error en processar la vostra sol·licitud.</string>
+    <string name="error_payment_request_content_template">El proveïdor de Bridge no pot processar %1$s ara mateix. Siusplau, intenta-ho més tard. \n \nError del proveïdor del pont: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Seleccioneu la sol·licitud de pagament</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Això enllaçarà el pagament entrant a la sol·licitud de pagament registrada anteriorment de %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Informació de pagament entrant</string>
     <string name="dialog_generic_title_confirm">Estàs segur?</string>
-    <string name="dialog_generic_msg_confirm">Tingueu en compte que aquesta acció no es pot desfer</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Esborrar</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">S\'ha confirmat el pagament</string>
-    <string name="txt_cool">GUAI!</string>
+    <string name="title__payment_confirmed">S\'ha confirmat el pagament</string>
+    <string name="button__view_transactions">Veure transaccions</string>
+    <string name="template__received">Rebut: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Configuració</string>
     <string name="general">General</string>
-    <string name="security">Seguretat</string>
-    <string name="backups">Còpies de seguretat</string>
-    <string name="tokens">Tokens</string>
     <string name="accounts">Comptes</string>
+    <string name="tokens">Tokens</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Mode nocturn</string>
+    <string name="title__local_fiat_currency">Moneda local de Fiat</string>
     <string name="currency_info">La moneda es selecciona automàticament segons la selecció del vostre idioma i país. Si voleu canviar-les, heu d\'anar a la configuració global del vostre dispositiu.</string>
     <string name="screen_saver">Salvapantalles</string>
     <string name="source">Font</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Carpeta per defecte (/ PalmPay)</string>
     <string name="txt_folder">Carpeta</string>
     <string name="choose">Trieu</string>
-    <string name="screen_saver_time">Activa després de ...</string>
+    <string name="folder_has_no_images_error">Error, la carpeta seleccionada no té imatges</string>
+    <string name="screen_saver_time">Activa després de…</string>
     <string name="one_minute">1 minut</string>
     <string name="three_minutes">3 minuts</string>
     <string name="five_minutes">5 minuts</string>
@@ -169,27 +189,43 @@
     <string name="city">ciutat</string>
     <string name="country">País</string>
     <string name="bugs_or_ideas">Errors o idees?</string>
-    <string name="bugs_or_ideas_contact_info">Xat de telegrama: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegrama: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Accepta</string>
     <string name="select">Selecciona</string>
     <string name="are_you_sure">Estàs segur?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Cua de seguretat de còpia de seguretat</string>
-    <string name="copied_to_clipboard">S\'ha copiat al porta-retalls</string>
-    <string name="bin_file_description">Fitxer bin. Deseu sempre la còpia de seguretat de l\'arxiu .bin a una targeta MicroSD o un llapis USB secrets.</string>
-    <string name="create_a_backup">Crea una còpia de seguretat</string>
-    <string name="brainkey_description">Brainkey. Paraules de recuperació del compte que es poden capturar o copiar però no editar-les.</string>
-    <string name="txt_brain_key_info">Imprimiu-ho o anoteu-lo. Qualsevol que tingui accés a la vostra clau de recuperació tindrà accés als fons d\'aquesta cartera.</string>
-    <string name="view_and_copy">Veure i copiar</string>
-    <string name="title_bin_backup">Exporta còpia de seguretat de .bin</string>
-    <string name="hint_password">Contrasenya</string>
-    <string name="hint_password_confirmation">confirmació de la contrasenya</string>
-    <string name="error_password_mandatory">Heu d\'introduir una contrasenya</string>
-    <string name="error_password_too_short">La contrasenya és massa curta</string>
-    <string name="error_password_confirmation_mismatch">Contrasenya i confirmació no coincideixen</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Bloqueig de seguretat</string>
+    <string name="title__security_dialog">Trieu un bloqueig de seguretat</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Patró</string>
+    <string name="text__none">Cap</string>
+    <string name="button__choose">Trieu</string>
+    <string name="title__re_enter_your_pin">Torneu a introduir el vostre PIN</string>
+    <string name="msg__enter_your_pin">Introduïu el vostre PIN de PalmPay per continuar</string>
+    <string name="error__wrong_pin">PIN incorrecte</string>
+    <string name="title__set_palmpay_security_lock">Estableix la seguretat de PalmPay</string>
+    <string name="msg__set_a_pin">Per a la seguretat, estableixi un PIN</string>
+    <string name="msg__min_pin_length">El PIN ha de tenir com a mínim 6 dígits</string>
+    <string name="title__pins_dont_match">Els PIN no coincideixen</string>
+    <string name="title__re_enter_your_pattern">Torneu a introduir el vostre patró</string>
+    <string name="msg__enter_your_pattern">Introduïu el vostre patró PalmPay per continuar</string>
+    <string name="msg__set_a_pattern">Per a la seguretat, estableixi un patró</string>
+    <string name="msg__release_finger">Deixa anar el dit quan finalitzis</string>
+    <string name="button__clear">Clar</string>
+    <string name="button__next">Pròxim</string>
+    <string name="text__draw_an_unlock_pattern">Dibuixa un patró de desbloqueig</string>
+    <string name="msg__draw_pattern_confirm">Dibuixa el patró de nou per confirmar</string>
+    <string name="button__confirm">Confirma</string>
+    <string name="msg__your_new_unlock_pattern">El vostre nou patró de desbloqueig</string>
+    <string name="error__wrong_pattern">Patró incorrecte</string>
+    <string name="text__pattern_recorded">S\'ha registrat el patró</string>
+    <string name="error__connect_at_least_4_dots">Connecta almenys 4 punts. Torna-ho a provar.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Hi ha massa intents incorrectes. Torna-ho a provar en %1$d minuts.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Hi ha massa intents incorrectes. Torna-ho a provar en %1$d segons.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Create Account -->
+    <string name="title__current_account">Compte corrent</string>
     <string name="merchant_account_s">Compte de comerciant: %1$s</string>
     <string name="upgrade_to_ltm">Actualitza a LTM</string>
     <string name="upgrade_account_description">"Actualització a la membresía de LifeTime (LTM). Els comptes de LTM de Bitshares paguen taxes de gairebé zero, obtenen un 80% de devolució de diners i bonificacions per a referències".</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Esteu segur que voleu eliminar el compte \'%1$s\' d\'aquesta cartera?"</string>
     <string name="remove">Elimina</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Smartcoin desitjat</string>
-    <string name="txt_customer_loyalty">Emetre punts de fidelització com a ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Còpies de seguretat</string>
+    <string name="backup_brainkey">Cua de seguretat de còpia de seguretat</string>
+    <string name="copied_to_clipboard">S\'ha copiat al porta-retalls</string>
+    <string name="bin_file_description">Fitxer bin. Deseu sempre la còpia de seguretat de l\'arxiu .bin a una targeta MicroSD o un llapis USB secrets.</string>
+    <string name="create_a_backup">Crea una còpia de seguretat</string>
+    <string name="brainkey_description">Brainkey. Paraules de recuperació del compte que es poden capturar o copiar però no editar-les.</string>
+    <string name="txt_brain_key_info">Imprimiu-ho o anoteu-lo. Qualsevol que tingui accés a la vostra clau de recuperació tindrà accés als fons d\'aquesta cartera.</string>
+    <string name="view_and_copy">Veure i copiar</string>
+    <string name="title_bin_backup">Exporta còpia de seguretat de .bin</string>
+    <string name="hint_password">Contrasenya</string>
+    <string name="hint_password_confirmation">confirmació de la contrasenya</string>
+    <string name="error_password_mandatory">Heu d\'introduir una contrasenya</string>
+    <string name="error_password_too_short">La contrasenya és massa curta</string>
+    <string name="error_password_confirmation_mismatch">Contrasenya i confirmació no coincideixen</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Smartcoin desitjat</string>
+    <string name="msg__desired_smartcoin_description">Totes les Criptogràfics que heu rebut, es converteixen automàticament al vostre Smartcoin desitjat i es guarden al vostre compte de comerciant de BitShares.</string>
+    <string name="title__loyalty_points">Punts de fidelització</string>
+    <string name="msg__loyalty_points_description">Els punts de lleialtat es poden enviar automàticament als vostres clients quan gasten diners amb vosaltres. Heu de posseir alguns dels tokens que voleu enviar als vostres clients.</string>
     <string name="warning_insufficient_reward_asset_balance">El vostre compte encara no té cap %1$s. Si us plau, adquireixi uns quants abans d\'intentar proporcionar-los als seus clients com a punts de fidelització.</string>
     <string name="send">Enviar</string>
     <string name="txt_for_every">Per cada</string>
     <string name="txt_spent">gastat</string>
-    <string name="txt_bitcoin_altcoin_deposited">Accepteu fins a 8 criptogràfics:</string>
+    <string name="title__cryptocurrency_preferences">Preferències de la criptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">Trieu fins a 8 criptografies populars que acceptareu dels vostres clients. Aquestes monedes es mostraran a la pantalla d\'inici. Podeu canviar aquestes opcions en qualsevol moment.</string>
     <string name="altcoins_should_not_more_than">Seleccioneu no més de 8 actius d\'entrada</string>
-    <string name="bitshares_unselection_message">El token central de Bitshares (BTS) és obligatori.</string>
     <string name="toast_low_volume_market">Els actius del mercat amb un volum baix estan desactivats temporalment. Seran habilitats una vegada que el volum del mercat augmenti considerablement</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logotip</string>
     <string name="store_name">Nom de la botiga</string>
     <string name="address">adreça</string>
@@ -238,7 +292,11 @@
     <string name="search">Cerca</string>
     <string name="filter">Filtre</string>
     <string name="export">Exportació</string>
-    <string name="confirming">S\'està confirmant ...</string>
+    <string name="text__no_transactions">Sense transaccions</string>
+    <string name="text__awaiting_payment">Esperant el pagament…</string>
+    <string name="text__confirming">S\'està confirmant…</string>
+    <string name="text__complete">Complet</string>
+    <string name="text__failed">Fracassat</string>
     <string name="pdf_generated_msg_s">PDF generat i desat: %1$s</string>
     <string name="pdf_generated_msg_error_s">No es pot generar pdf. Torna-ho a provar. Error: %1$s</string>
     <string name="csv_generated_msg_s">CSV generat i desat: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Error de connexió de node, tornant a provar</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Error del node complet. Missatge: %1$s</string>
+    <string name="error_payment_amount_title">S\'ha rebut la discrepància de la quantitat</string>
+    <string name="error_payment_amount_content">Sembla que hem rebut menys del que s\'esperava. El reembossament haurà de ser processat manualment.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Hem rebut un pagament entrant, però no s\'ha pogut trobar cap sol·licitud</string>

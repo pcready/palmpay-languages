@@ -6,13 +6,13 @@
     <string name="disagree">Низоъ</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Loading assets ...</string>
-    <string name="title_loading_asset_type_data">Боркунии маълумотҳои дороиҳо ...</string>
+    <string name="title_loading_assets">Loading assets…</string>
+    <string name="title_loading_asset_type_data">Боркунии маълумотҳои дороиҳо…</string>
     <string name="title_assets_ready">Омодагии базаи маълумот</string>
     <string name="msg_loading_all_existing_assets">Гузаронидани як қатор дархостҳо барои гирифтани рӯйхати пурраи ҳамаи дороиҳои мавҷудбуда</string>
     <string name="msg_loading_asset_type_data">Тавсифи муфассали дороиҳо</string>
     <string name="msg_loading_asset_in_database">Қарзи %1$d қодир ба базаи маълумотҳо</string>
-    <string name="msg_assets_loaded">Next, лутфан ҳисоби худро ...</string>
+    <string name="msg_assets_loaded">Next, лутфан ҳисоби худро…</string>
     <string name="error_fetching_marketcap_data">Набудани маълумотҳои бозорҳо натавонистааст</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Лутфан, дарки ангуштони ростро ворид кунед, он бояд аз 12 то 16 калима дошта бошад.</string>
     <string name="unable_to_load_brainkey">Метавонед миқдори ғадудро бор кунед</string>
     <string name="account_already_exist">Ҳисоби пештар вуҷуд дорад</string>
-    <string name="importing_your_wallet">Иҷрои ҳамшираи худ ...</string>
+    <string name="importing_your_wallet">Иҷрои ҳамшираи худ…</string>
     <string name="account_candidates_title">Лутфан ҳисобро интихоб кунед</string>
     <string name="account_candidates_content">Калидҳое, ки аз ин ҳасиба гирифта шудаанд, барои идора кардани зиёда аз як ҳисоб истифода мешаванд, лутфан интихоби ҳисоби шумо мехоҳед ворид кунед</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Хатои асосии коррупсия</string>
     <string name="error_corrupted_key_content">Барномасоз метавонад аз калидҳои махфии худ аз базаи маълумотҳо раҳо ёбад. Аз ин рӯ, шумо бояд калидҳои худро ворид кунед. Ё дар шакли як brainkey ё файли нусхаи эҳтиётии бинишин, ки автоматӣ дар sdcard-и шумо сохта ва захира карда шудааст, агар ҳисоб аз тарафи барнома сохта шуда бошад</string>
     <string name="invalid_pin">PIN нодуруст</string>
+    <string name="network_loading_user_click_toast">Шабака пурбор аст. Илтимос Истед…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Home</string>
     <string name="txt_transactions">Амалиётҳо</string>
     <string name="txt_refunds_returns">Пардохтҳо / баргардишҳо</string>
     <string name="txt_settlement">Ҳисоб кардан</string>
-    <string name="bitshares_nodes_dialog_title">Нуқтаҳои Bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Block: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Маблағ</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Илтимос истед</string>
     <string name="error_node_unreachable">Нутка метавонад ба даст наояд</string>
     <string name="invoice_subject">Хароҷоти PalmPay аз %1$s</string>
+    <string name="memo_warning">Эзоҳ: Майдони почтаи электронӣ талаб карда мешавад, ки пардохти худро бо дархости тиҷоратӣ дуруст кунед.</string>
     <string name="before_s">Пеш аз: %1$s</string>
     <string name="share">Share</string>
     <string name="share_with">Бо ҳам сӯҳбат кунед</string>
-    <string name="connecting">Пайвастшавӣ ...</string>
+    <string name="connecting">Пайвастшавӣ…</string>
+    <string name="error_bridge_title">Хатогии калидҳо</string>
+    <string name="error_bridge_content">Пули интиқоли пулӣ ба назар мерасад. _______ __________ \n \nКодироти рамзи: %1$d</string>
+    <string name="button_accept_tx">Амалиётро қабул кунед</string>
+    <string name="dialog_accept_tx_title">Қабули амалиёт</string>
+    <string name="dialog_accept_tx_summary">Амалиёт ошкор карда шуд, вале ҳанӯз пурра тасдиқ нашудааст.</string>
+    <string name="option_add_surety">Суратҳисобро илова кунед</string>
+    <string name="option_wait">Интизор шавед</string>
+    <string name="option_accept">Қабул кунед</string>
+    <string name="title__step_payment_seen">Пардохт шуд</string>
+    <string name="msg__step_payment_seen">Интизорӣ барои тасдиқи шабака</string>
+    <string name="msg__step_payment_seen_done">Пардохт ба блок дохил карда шуд</string>
+    <string name="title__step_payment_received">Пардохт шуд</string>
+    <string name="template_tx_progress">Интизорӣ барои тасдиқҳои бештари шабака. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Тасдиқи кофӣ қабул карда шуд</string>
+    <string name="title__step_payment_confirmed">Пардохт тасдиқ карда шуд</string>
+    <string name="msg__step_payment_confirmed">Амалиёти баромадан ба тиҷорат ва сафирон оғоз шуд</string>
+    <string name="msg__step_payment_confirmed_done">Пардохти пардохт анҷом ёфт</string>
+    <string name="error_estimate_input_content_template">Ҳангоми кӯшиши баҳогузорӣ кардани маблағи воридшударо хато мекунед. \nХато аз провайдери фарсуда: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Ҳангоми коркарди дархост хатогӣ рух дод.</string>
+    <string name="error_payment_request_content_template">Таъминкунандаи таъминоти масолеҳ ҳоло наметавонад %1$s кор кунад. Лутфан дертар кӯшиш кунед. \n \nБарои дастраскунандаи фарсуда: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Интихоби пардохтро интихоб кунед</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Ин пардохти даромадро ба дархости пештар пардохтшудаи %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Тафсилоти пардохти даромад</string>
     <string name="dialog_generic_title_confirm">Шумо мутмаъин ҳастед?</string>
-    <string name="dialog_generic_msg_confirm">Лутфан қайд кунед, ки ин амал бекор карда нашудааст</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Бойгонӣ</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Пардохт тасдиқ шуд!</string>
-    <string name="txt_cool">КОЛЛО!</string>
+    <string name="title__payment_confirmed">Пардохт тасдиқ шуд!</string>
+    <string name="button__view_transactions">Намоиши амалиётҳо</string>
+    <string name="template__received">Гирифтани: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Танзимотҳо</string>
     <string name="general">Генерал</string>
-    <string name="security">Амният</string>
-    <string name="backups">Бастаҳои</string>
-    <string name="tokens">Чандрасонаӣ</string>
     <string name="accounts">Ҳисобҳо</string>
+    <string name="tokens">Чандрасонаӣ</string>
     <string name="e_receipts">Эзоҳ</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Роҳи шабона</string>
+    <string name="title__local_fiat_currency">Асъори миллӣ</string>
     <string name="currency_info">Пул, дар асоси интихоби забони худ ва интихоби кишвар интихоб карда мешавад. Агар шумо хоҳед, ки онҳоро иваз кунед, шумо бояд ба танзимоти глобалии системаҳои дастгоҳи худ равед.</string>
     <string name="screen_saver">Посбони сафҳа</string>
     <string name="source">Сарчашма</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Феҳристи муқаррарӣ (/ PalmPay)</string>
     <string name="txt_folder">Феҳрист</string>
     <string name="choose">Интихоб кунед</string>
-    <string name="screen_saver_time">Баъд аз ...</string>
+    <string name="folder_has_no_images_error">Хато, ҷузвдонҳои интихобшудаи тасвир вуҷуд надорад</string>
+    <string name="screen_saver_time">Баъд аз…</string>
     <string name="one_minute">1 дақиқа</string>
     <string name="three_minutes">3 дақиқа</string>
     <string name="five_minutes">5 дақиқа</string>
@@ -169,27 +189,43 @@
     <string name="city">Шаҳр</string>
     <string name="country">Кишвар</string>
     <string name="bugs_or_ideas">Паёмҳо ё фикрҳо?</string>
-    <string name="bugs_or_ideas_contact_info">Гуфтугӯи телеграф: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Қабул кунед</string>
     <string name="select">Интихоб кунед</string>
     <string name="are_you_sure">Шумо мутмаъин ҳастед?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Мағзи сархат</string>
-    <string name="copied_to_clipboard">Нусхабардорӣ ба силсила</string>
-    <string name="bin_file_description">File file Ҳамеша ба файли нусхаи эҳтиётии худро нигоҳ доред, ба корти MicroSD пӯшида ё USB Stick.</string>
-    <string name="create_a_backup">Нусхабардорӣ кардан</string>
-    <string name="brainkey_description">Брежнев. Суханҳои эҳёкунии ҳисобҳо, ки мумкин аст дастгиршуда ё нусхабардорӣ карда шаванд, аммо таҳрир карда нашуданд.</string>
-    <string name="txt_brain_key_info">Инро чоп кунед, ё онро нависед. Ҳар касе, ки дастрасӣ ба калиди барқароркунии шуморо хоҳад гирифт, метавонад дар дохили ин пул маблағ дошта бошад.</string>
-    <string name="view_and_copy"><![CDATA[View & Copy]]></string>
-    <string name="title_bin_backup">.Bin нусхабардорӣ</string>
-    <string name="hint_password">Рамз</string>
-    <string name="hint_password_confirmation">Тасдиқи парол</string>
-    <string name="error_password_mandatory">Калидвожа ворид карда шавад</string>
-    <string name="error_password_too_short">Парол хеле кӯтоҳ аст</string>
-    <string name="error_password_confirmation_mismatch">Парол ва тасдиқкунии номутаносиб</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Қуттии бехатарӣ</string>
+    <string name="title__security_dialog">Як панели амниятро интихоб кунед</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Намунаи</string>
+    <string name="text__none">Ҳеҷ</string>
+    <string name="button__choose">Интихоб кунед</string>
+    <string name="title__re_enter_your_pin">PIN-ро дохил кунед</string>
+    <string name="msg__enter_your_pin">Пинҳон кардани PIN-и худро дохил кунед</string>
+    <string name="error__wrong_pin">PIN нодуруст аст</string>
+    <string name="title__set_palmpay_security_lock">Security PalmPay-ро насб кунед</string>
+    <string name="msg__set_a_pin">Барои бехатарӣ, PIN -ро таъин кунед</string>
+    <string name="msg__min_pin_length">ПИН бояд на камтар аз 6 рақам бошад</string>
+    <string name="title__pins_dont_match">PINs мувофиқат намекунанд</string>
+    <string name="title__re_enter_your_pattern">Намунаи худро такрор кунед</string>
+    <string name="msg__enter_your_pattern">Идома додани PalmPay шакли худро давом диҳед</string>
+    <string name="msg__set_a_pattern">Барои бехатарӣ, тасвири таъин кунед</string>
+    <string name="msg__release_finger">Вақте, ки ангуштонро озод кунед</string>
+    <string name="button__clear">Тоза</string>
+    <string name="button__next">Баъдӣ</string>
+    <string name="text__draw_an_unlock_pattern">Намунаи клавиатураро кашед</string>
+    <string name="msg__draw_pattern_confirm">Барои тасдиқ кардани намунаи такрорӣ</string>
+    <string name="button__confirm">Тасдиқ кунед</string>
+    <string name="msg__your_new_unlock_pattern">Намуди нави кушодаи шумо</string>
+    <string name="error__wrong_pattern">Намунаи нодуруст</string>
+    <string name="text__pattern_recorded">Намуди сабтшуда</string>
+    <string name="error__connect_at_least_4_dots">Дар на камтар аз 4 нуқта пайваст кунед. Дубора сайъ кунед.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Бисёр кӯшишҳо нодурустанд. Боз як бор такрор кунед %1$d дақ.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Бисёр кӯшишҳо нодурустанд. Боз як бори дигар %1$d д. Сония кунед.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Ҳисоботи ҷорӣ</string>
     <string name="merchant_account_s">Ҳисоби корпоративӣ: %1$s</string>
     <string name="upgrade_to_ltm">Ба LTM навсозӣ кунед</string>
     <string name="upgrade_account_description">"Ба навишти LifeTime Membership (LTM), ҳисобҳои LTM-ро ба ҳисоби миёна ба ҳисоби сифр пардохт мекунанд, 80% ҳаққи ройгон ва мукофотпулиро барои фиристоданҳо мегиранд."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Оё боварӣ доред, ки аз ҳисоби ин" %1$s "ҳисобро тоза кардан мехоҳед?"</string>
     <string name="remove">Хориҷ кунед</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Мушкилоти Smartcoin</string>
-    <string name="txt_customer_loyalty">Нишондиҳандаҳои марбута ҳамчун ...</string>
-    <string name="warning_insufficient_reward_asset_balance">Ҳисоби шумо ҳанӯз ягон __1 сол надорад. Пеш аз он ки шумо кӯшиш кунед, ки ба мизоҷонатон ҳамчун Нуқтаҳои литсензия дода шавед, лутфан баъзеҳо гиред.</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Бастаҳои</string>
+    <string name="backup_brainkey">Мағзи сархат</string>
+    <string name="copied_to_clipboard">Нусхабардорӣ ба силсила</string>
+    <string name="bin_file_description">File file Ҳамеша ба файли нусхаи эҳтиётии худро нигоҳ доред, ба корти MicroSD пӯшида ё USB Stick.</string>
+    <string name="create_a_backup">Нусхабардорӣ кардан</string>
+    <string name="brainkey_description">Брежнев. Суханҳои эҳёкунии ҳисобҳо, ки мумкин аст дастгиршуда ё нусхабардорӣ карда шаванд, аммо таҳрир карда нашуданд.</string>
+    <string name="txt_brain_key_info">Инро чоп кунед, ё онро нависед. Ҳар касе, ки дастрасӣ ба калиди барқароркунии шуморо хоҳад гирифт, метавонад дар дохили ин пул маблағ дошта бошад.</string>
+    <string name="view_and_copy"><![CDATA[View & Copy]]></string>
+    <string name="title_bin_backup">.Bin нусхабардорӣ</string>
+    <string name="hint_password">Рамз</string>
+    <string name="hint_password_confirmation">Тасдиқи парол</string>
+    <string name="error_password_mandatory">Калидвожа ворид карда шавад</string>
+    <string name="error_password_too_short">Парол хеле кӯтоҳ аст</string>
+    <string name="error_password_confirmation_mismatch">Парол ва тасдиқкунии номутаносиб</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Мушкилоти Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Ҳамаи Cryptocurrencies, ки шумо қабул кардед, ба таври худкор ба Смарт Smartcoin ва ба BitShares Merchant Ҳисоби захира карда шудааст.</string>
+    <string name="title__loyalty_points">Нуқтаҳои интихобӣ</string>
+    <string name="msg__loyalty_points_description">Нуқтаҳои лингвистҳо метавонанд ба мизоҷони худ ҳангоми интиқоли пул бо шумо пулакӣ шаванд. Шумо бояд баъзе аз нишонаҳои худро, ки мехоҳед ба мизоҷонатон фиристед, дошта бошед.</string>
+    <string name="warning_insufficient_reward_asset_balance">Ҳисоби шумо ҳанӯз ягон %1$s сол надорад. Пеш аз он ки шумо кӯшиш кунед, ки ба мизоҷонатон ҳамчун Нуқтаҳои литсензия дода шавед, лутфан баъзеҳо гиред.</string>
     <string name="send">Ирсол</string>
     <string name="txt_for_every">Барои ҳама</string>
     <string name="txt_spent">сарф шуд</string>
-    <string name="txt_bitcoin_altcoin_deposited">Қабул ба 8 Cryptocurrencies:</string>
+    <string name="title__cryptocurrency_preferences">Preferences Cryptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">То ба 8 cryptocurrencies машҳур, ки шумо аз мизоҷони худ қабул. Ин пулҳо дар торнамои манзил нишон медиҳанд. Шумо метавонед ин вариантҳоро дар вақти дилхоҳ иваз кунед.</string>
     <string name="altcoins_should_not_more_than">Лутфан зиёда аз 8 дороиҳои воридотӣ интихоб кунед</string>
-    <string name="bitshares_unselection_message">Забони асосии Bitshares (BTS) талаб карда мешавад.</string>
     <string name="toast_low_volume_market">Дорои пасти фурӯши молҳо муваққатан манъ карда шудааст. Вақте ки ҳаҷми бозор ба миқдори назаррас ба даст меояд, онҳо имкон хоҳанд дод</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Номи Store</string>
     <string name="address">Суроға</string>
@@ -238,7 +292,11 @@
     <string name="search">Ҷустуҷӯ</string>
     <string name="filter">Филтр</string>
     <string name="export">Содирот</string>
-    <string name="confirming">Тасдиқ шуд ​​...</string>
+    <string name="text__no_transactions">Ҳеҷ амале нест</string>
+    <string name="text__awaiting_payment">Интихоби пардохт…</string>
+    <string name="text__confirming">Тасдиқ шуд…</string>
+    <string name="text__complete">Ҳамагӣ</string>
+    <string name="text__failed">Ҳалокат</string>
     <string name="pdf_generated_msg_s">PDF сохта ва захира карда шуд: %1$s</string>
     <string name="pdf_generated_msg_error_s">Нашр шуд Илтимос, такрор кунед. Хато: %1$s</string>
     <string name="csv_generated_msg_s">CSV тавлид ва захира кард: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Хатогии пайвастшавӣ ба нутқ, ҷустуҷӯ</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Хатоги аз руи пурра. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Фарқияти ҳаҷми маблағи гирифташуда</string>
+    <string name="error_payment_amount_content">Ба назар чунин мерасад, ки мо камтар аз он чизе, ки интизор будем, мегирифтем. Пардохт бояд дастӣ ба кор бурда шавад.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Мо пардохти даромад гирифтаем, аммо ягон дархост пайдо намешавад</string>

@@ -6,13 +6,13 @@
     <string name="disagree">Bunga qo\'shilmang</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Aktivlar yuklanmoqda ...</string>
-    <string name="title_loading_asset_type_data">Ob\'ekt turi ma\'lumoti yuklanmoqda ...</string>
+    <string name="title_loading_assets">Aktivlar yuklanmoqda…</string>
+    <string name="title_loading_asset_type_data">Ob\'ekt turi ma\'lumoti yuklanmoqda…</string>
     <string name="title_assets_ready">Asset bazasi tayyor</string>
     <string name="msg_loading_all_existing_assets">Mavjud barcha aktivlarning to\'liq ro\'yxatini olish uchun bir qator so\'rovlarni bajarish</string>
     <string name="msg_loading_asset_type_data">Boshqa tafsilotlarni talab qilish</string>
     <string name="msg_loading_asset_in_database">Ma\'lumotlar bazasiga %1$d aktivlari yuklandi</string>
-    <string name="msg_assets_loaded">Keyin hisobingizni sozlang ...</string>
+    <string name="msg_assets_loaded">Keyin hisobingizni sozlang…</string>
     <string name="error_fetching_marketcap_data">Marketcap ma\'lumotlarini yuklab bo\'lmadi</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Iltimos, to\'g\'ri brackeyey kiriting, u 12 dan 16 so\'zga ega bo\'lishi kerak.</string>
     <string name="unable_to_load_brainkey">Brainkeyni yuklab bo\'lmadi</string>
     <string name="account_already_exist">Hisob allaqachon mavjud</string>
-    <string name="importing_your_wallet">Hamyonni import qilish ...</string>
+    <string name="importing_your_wallet">Hamyonni import qilish…</string>
     <string name="account_candidates_title">Iltimos, hisobni tanlang</string>
     <string name="account_candidates_content">Ushbu brackeyeydan olingan kalitlar bir nechta hisobni nazorat qilish uchun ishlatiladi, iltimos import qilishni istagan hisobni tanlang</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Yakuniy korruptsiya xatosi</string>
     <string name="error_corrupted_key_content">Ilova ma\'lumotlar bazasidan shifrlangan maxsus kalitlarni qayta tiklab bo\'lmadi. Shuning uchun kalitlarni qayta kiritishingiz kerak bo\'ladi. Agar brackeyon shaklida yoki hisobni dastur tomonidan yaratilgan bo\'lsa, sdcard-da avtomatik tarzda yaratilgan va saqlangan bin zahira faylini shakllantiradi</string>
     <string name="invalid_pin">PIN-kod noto\'g\'ri</string>
+    <string name="network_loading_user_click_toast">Tarmoq yuklanmoqda. Iltimos kuting…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Bosh sahifa</string>
     <string name="txt_transactions">Jurnallar</string>
     <string name="txt_refunds_returns">Qaytarish / qaytarish</string>
     <string name="txt_settlement">Qarorgoh</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares tugunlari</string>
+    <string name="bitshares_nodes_dialog_title">Blok: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">To\'lov miqdori</string>
@@ -112,7 +113,7 @@
     <string name="eight">8</string>
     <string name="nine">9</string>
     <string name="title_error_market">Buyurtma kitobidagi xato</string>
-    <string name="content_error_market">DEX-da hozircha __ 1s__ ga almashtirishga ruxsat beradigan buyruq yo\'q. \n \nSozlamalar ekraniga o\'ting va boshqa chiqdi varianti tanlang.</string>
+    <string name="content_error_market">DEX-da hozircha %1$s ga almashtirishga ruxsat beradigan buyruq yo\'q. \n \nSozlamalar ekraniga o\'ting va boshqa chiqdi varianti tanlang.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Iltimos, to\'lang</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Iltimos kuting</string>
     <string name="error_node_unreachable">Hech qanday tugun topilmadi</string>
     <string name="invoice_subject">PalmPay hisob-fakturasi %1$s dan</string>
+    <string name="memo_warning">QAYD: Xotira maydoni to\'lovchining so\'roviga to\'g\'ri to\'ldirish uchun talab qilinadi.</string>
     <string name="before_s">Oldin: %1$s</string>
     <string name="share">Ulashish</string>
     <string name="share_with">Bilan birgalikda</string>
-    <string name="connecting">Ulanilmoqda ...</string>
+    <string name="connecting">Ulanilmoqda…</string>
+    <string name="error_bridge_title">Ko\'prik xatosi</string>
+    <string name="error_bridge_content">Valyuta konvertatsiya ko\'prigi pastga o\'xshab ko\'rinadi. \n \n Iltimos, qo\'llab-quvvatlash xizmatiga murojaat qiling. \n \nError kodi: %1$d</string>
+    <string name="button_accept_tx">Jarayonni qabul qiling</string>
+    <string name="dialog_accept_tx_title">Jurnalni qabul qilasizmi?</string>
+    <string name="dialog_accept_tx_summary">Jurnal aniqlangan, ammo to\'liq tasdiqlanmagan.</string>
+    <string name="option_add_surety">Kafillikni qo\'shing</string>
+    <string name="option_wait">Kutmoq</string>
+    <string name="option_accept">Qabul qiling</string>
+    <string name="title__step_payment_seen">To\'lov ko\'rib chiqildi</string>
+    <string name="msg__step_payment_seen">Tarmoqni tasdiqlash kutilmoqda</string>
+    <string name="msg__step_payment_seen_done">To\'lov blokga kiritilgan</string>
+    <string name="title__step_payment_received">To\'lov qabul qilindi</string>
+    <string name="template_tx_progress">Batafsil tarmoqni tasdiqlashni kutmoq. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Etarli tasdiqlar olingan</string>
+    <string name="title__step_payment_confirmed">To\'lov tasdiqlandi</string>
+    <string name="msg__step_payment_confirmed">Savdogar va elchilarga mahsulotni etkazib berish jarayoni boshlandi</string>
+    <string name="msg__step_payment_confirmed_done">To\'lov jarayoni tugallandi</string>
+    <string name="error_estimate_input_content_template">Kirish miqdorini taxmin qilishda xatolik. \n \n Ko\'prik provayderidan kelgan xato: \n \n %1$s</string>
+    <string name="error_payment_processing_content">So\'rovingizni bajarishda xatolik yuz berdi.</string>
+    <string name="error_payment_request_content_template">Ko\'prik provayder hozir %1$sni ishlamaydi. Iltimos keyinroq qayta urinib ko\'ring. \n \nError ko\'prigi provayderi orqali: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">To\'lov talabini tanlang</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Bu kirish to\'lovi ilgari yozilgan %1$s to\'lov talabiga bog\'laydi.</string>
     <string name="dialog_msg_incoming_payment_details">Kiruvchi to\'lov tafsilotlari</string>
     <string name="dialog_generic_title_confirm">Ishonchingiz komilmi?</string>
-    <string name="dialog_generic_msg_confirm">Shuni esda tutingki, ushbu amalni bekor qilish mumkin emas</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Tashlab qo\'ymang</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">To\'lov tasdiqlandi!</string>
-    <string name="txt_cool">SO\'Z!</string>
+    <string name="title__payment_confirmed">To\'lov tasdiqlandi!</string>
+    <string name="button__view_transactions">Jurnallarni ko\'rish</string>
+    <string name="template__received">Olindi: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Sozlamalar</string>
     <string name="general">Umumiy</string>
-    <string name="security">Xavfsizlik</string>
-    <string name="backups">Zaxiralashlar</string>
-    <string name="tokens">To\'xanlar</string>
     <string name="accounts">Hisoblar</string>
+    <string name="tokens">To\'xanlar</string>
     <string name="e_receipts">E-xarajatlar</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Kecha rejimi</string>
+    <string name="title__local_fiat_currency">Mahalliy Fiat valyutasi</string>
     <string name="currency_info">Pul sizning tilingiz va mamlakat tanlovingiz asosida avtomatik ravishda tanlanadi. Agar ularni o\'zgartirishni xohlasangiz, siz qurilmangizning global tizim parametrlariga o\'tishingiz kerak.</string>
     <string name="screen_saver">Ekran saqlovchi</string>
     <string name="source">Manba</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Standart papka (/ PalmPay)</string>
     <string name="txt_folder">Folder</string>
     <string name="choose">Tanlang</string>
-    <string name="screen_saver_time">Keyin ...</string>
+    <string name="folder_has_no_images_error">Xato, tanlangan papkada tasvir yo\'q</string>
+    <string name="screen_saver_time">Keyin…</string>
     <string name="one_minute">1 daqiqa</string>
     <string name="three_minutes">3 daqiqa</string>
     <string name="five_minutes">5 daqiqa</string>
@@ -169,27 +189,43 @@
     <string name="city">Shahar</string>
     <string name="country">Davlat</string>
     <string name="bugs_or_ideas">Xatolar yoki fikrlar?</string>
-    <string name="bugs_or_ideas_contact_info">Telegramma suhbati: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegramma: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Qabul qil</string>
     <string name="select">Tanlang</string>
     <string name="are_you_sure">Ishonchingiz komilmi?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Brinkeyni zaxiralash</string>
-    <string name="copied_to_clipboard">Panodga nusxa olindi</string>
-    <string name="bin_file_description">Bin fayl. Zaxira .bin faylini har doim maxfiy MicroSD kartasiga yoki USB Stick-ga saqlang.</string>
-    <string name="create_a_backup">Zahira nusxasini yarating</string>
-    <string name="brainkey_description">Brainkey. Hisobni tiklash yoki nusxalash mumkin bo\'lgan, lekin tahrirlanmagan so\'zlarni tiklash so\'zlari.</string>
-    <string name="txt_brain_key_info">Chop qiling yoki uni yozing. Sizning qutqaruv kalitingizdan foydalanishga ruxsat berilgan har bir kishi ushbu pul hamjamiyatidagi pul mablag\'lariga kirish huquqiga ega bo\'ladi.</string>
-    <string name="view_and_copy">Ko\'rish va nusxalash</string>
-    <string name="title_bin_backup">Yaqindan eksport qilish</string>
-    <string name="hint_password">Parol</string>
-    <string name="hint_password_confirmation">Parolni tasdiqlash</string>
-    <string name="error_password_mandatory">Parolni kiritish kerak</string>
-    <string name="error_password_too_short">Parol juda qisqa</string>
-    <string name="error_password_confirmation_mismatch">Parol va tasdiqlash mos kelmasligi</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Xavfsizlikni qulflash</string>
+    <string name="title__security_dialog">Xavfsizlik qulfini tanlang</string>
+    <string name="text__pin">PIN-kod</string>
+    <string name="text__pattern">Pattern</string>
+    <string name="text__none">Yo\'q</string>
+    <string name="button__choose">Tanlang</string>
+    <string name="title__re_enter_your_pin">PIN-kodni qayta kiriting</string>
+    <string name="msg__enter_your_pin">Davom etish uchun PalmPay PIN kodingizni kiriting</string>
+    <string name="error__wrong_pin">Noto\'g\'ri PIN kod</string>
+    <string name="title__set_palmpay_security_lock">PalmPay Security-ni tanlang</string>
+    <string name="msg__set_a_pin">Xavfsizlik uchun PIN-kod o\'rnating</string>
+    <string name="msg__min_pin_length">PIN-kod kamida 6 raqamdan iborat bo\'lishi kerak</string>
+    <string name="title__pins_dont_match">PIN-kodlar mos emas</string>
+    <string name="title__re_enter_your_pattern">Naqshni qayta kiriting</string>
+    <string name="msg__enter_your_pattern">Davom etish uchun PalmPay modelingizni kiriting</string>
+    <string name="msg__set_a_pattern">Xavfsizlik uchun Pattern belgilang</string>
+    <string name="msg__release_finger">Ish tugagach, barmoqni bo\'shating</string>
+    <string name="button__clear">Tozalash</string>
+    <string name="button__next">Keyingi</string>
+    <string name="text__draw_an_unlock_pattern">Qulfni ochish chizmasini chizish</string>
+    <string name="msg__draw_pattern_confirm">Tasdiqlash uchun naqshni qayta chizish</string>
+    <string name="button__confirm">Tasdiqlash</string>
+    <string name="msg__your_new_unlock_pattern">Yangi qulfni ochish shakli</string>
+    <string name="error__wrong_pattern">Noto\'g\'ri naqsh</string>
+    <string name="text__pattern_recorded">Namuna saqlandi</string>
+    <string name="error__connect_at_least_4_dots">Kamida 4 nuqtani ulang. Qayta urinib ko\'ring.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Juda ko\'p noto\'g\'ri urinishlar. %1$d daqiqadan so\'ng yana urinib ko\'ring.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Juda ko\'p noto\'g\'ri urinishlar. %1$d soniyadan so\'ng yana urinib ko\'ring.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Joriy hisob</string>
     <string name="merchant_account_s">Savdo hisobi: %1$s</string>
     <string name="upgrade_to_ltm">LTM ga yangilang</string>
     <string name="upgrade_account_description">"LifeTime a\'zoligiga o\'tish (LTM). BitMetallar LTM hisoblari nolga yaqin to\'lovlarni to\'laydi, 80% pul o\'tkazmalarini oladi va tavsiyalar uchun bonuslarni oladi".</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Ushbu hisobni" %1$s "hisobini o\'chirib tashlamoqchimisiz?"</string>
     <string name="remove">O\'chiring</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Kerakli Smartcoin</string>
-    <string name="txt_customer_loyalty">Sodiqlik ballari deb nom bering ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Zaxiralashlar</string>
+    <string name="backup_brainkey">Brinkeyni zaxiralash</string>
+    <string name="copied_to_clipboard">Panodga nusxa olindi</string>
+    <string name="bin_file_description">Bin fayl. Zaxira .bin faylini har doim maxfiy MicroSD kartasiga yoki USB Stick-ga saqlang.</string>
+    <string name="create_a_backup">Zahira nusxasini yarating</string>
+    <string name="brainkey_description">Brainkey. Hisobni tiklash yoki nusxalash mumkin bo\'lgan, lekin tahrirlanmagan so\'zlarni tiklash so\'zlari.</string>
+    <string name="txt_brain_key_info">Chop qiling yoki uni yozing. Sizning qutqaruv kalitingizdan foydalanishga ruxsat berilgan har bir kishi ushbu pul hamjamiyatidagi pul mablag\'lariga kirish huquqiga ega bo\'ladi.</string>
+    <string name="view_and_copy">Ko\'rish va nusxalash</string>
+    <string name="title_bin_backup">Yaqindan eksport qilish</string>
+    <string name="hint_password">Parol</string>
+    <string name="hint_password_confirmation">Parolni tasdiqlash</string>
+    <string name="error_password_mandatory">Parolni kiritish kerak</string>
+    <string name="error_password_too_short">Parol juda qisqa</string>
+    <string name="error_password_confirmation_mismatch">Parol va tasdiqlash mos kelmasligi</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Kerakli Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Olingan barcha Cryptocurrency\'lar sizning xohlagan SmartCoinangizga avtomatik ravishda aylantiriladi va BitShares savdogar hisobiga saqlanadi.</string>
+    <string name="title__loyalty_points">Sadoqatli ballar</string>
+    <string name="msg__loyalty_points_description">Sizga pul sarflaganda, mijozlaringizga sodiqlik nuqtalari avtomatik ravishda yuborilishi mumkin. Mijozlaringizga yuborishni istagan ayrim belgilarga ega bo\'lishingiz kerak.</string>
     <string name="warning_insufficient_reward_asset_balance">Hisobingiz hali %1$sga ega emas. Mijozlaringizga Sadoqatli ballaringizni berishga harakat qiling.</string>
     <string name="send">Yuborish</string>
     <string name="txt_for_every">Har bir kishi uchun</string>
     <string name="txt_spent">sarfladi</string>
-    <string name="txt_bitcoin_altcoin_deposited">8 ta kriptoklubni qabul qiling:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency imtiyozlari</string>
+    <string name="msg__cryptocurrency_preferences_description">Mijozlaringizdan qabul qiladigan 8 ta mashhur kriptotekalarni tanlang. Ushbu tangalar asosiy ekranda ko\'rinadi. Ushbu tanlovlarni xohlagan vaqtda o\'zgartirishingiz mumkin.</string>
     <string name="altcoins_should_not_more_than">Iltimos, eng ko\'p 8 ta asosiy obyektni tanlang</string>
-    <string name="bitshares_unselection_message">Bitshares (BTS) yadro belgisi talab qilinadi.</string>
     <string name="toast_low_volume_market">Kam miqdordagi bozor aktivlari vaqtincha o\'chirilgan. Bozor miqdori sezilarli darajada oshgach, ular yoqadi</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Asosiy</string>
     <string name="store_name">Do\'kon nomi</string>
     <string name="address">Manzil</string>
@@ -238,7 +292,11 @@
     <string name="search">Qidirmoq</string>
     <string name="filter">Filtrni tanlang</string>
     <string name="export">Eksport</string>
-    <string name="confirming">Tasdiqlanmoqda ...</string>
+    <string name="text__no_transactions">Hech qanday operatsiyalar</string>
+    <string name="text__awaiting_payment">To\'lovni kutmoqda…</string>
+    <string name="text__confirming">Tasdiqlanmoqda…</string>
+    <string name="text__complete">To\'ldiring</string>
+    <string name="text__failed">Muvaffaqiyatsiz</string>
     <string name="pdf_generated_msg_s">PDF hosil qilindi va saqlandi: %1$s</string>
     <string name="pdf_generated_msg_error_s">Pdf yaratish imkoni yo\'q. Qayta urinib ko\'ring. Xato: %1$s</string>
     <string name="csv_generated_msg_s">CSV hosil qilindi va saqlandi: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Nod ulanish xatosi, qayta urinib ko\'ring</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">To\'liq tugundagi xatolik. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Olingan miqdorning nomuvofiqligi</string>
+    <string name="error_payment_amount_content">Biz kutgan narsadan kamroq qabul qilgandek tuyuladi. To\'lovni qo\'lda qayta ishlash kerak bo\'ladi.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Keladigan to\'lovni oldik, ammo hech qanday so\'rov topilmadi</string>

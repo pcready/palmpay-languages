@@ -6,13 +6,13 @@
     <string name="disagree">Համաձայն չեմ</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Բեռնումներ ...</string>
-    <string name="title_loading_asset_type_data">Վերբեռնման ակտիվի տիպի տվյալներ ...</string>
+    <string name="title_loading_assets">Բեռնումներ…</string>
+    <string name="title_loading_asset_type_data">Վերբեռնման ակտիվի տիպի տվյալներ…</string>
     <string name="title_assets_ready">Ակտիվների բազան պատրաստ է</string>
     <string name="msg_loading_all_existing_assets">Կատարելով մի շարք հարցումներ, որպեսզի առկա բոլոր ակտիվների ամբողջական ցանկը ստանալու համար</string>
     <string name="msg_loading_asset_type_data">Հետագա ակտիվների մանրամասները խնդրելու համար</string>
     <string name="msg_loading_asset_in_database">Բեռնված %1$d ակտիվները տվյալների բազայում</string>
-    <string name="msg_assets_loaded">Հաջորդը, խնդրում ենք տեղադրել ձեր հաշիվը ...</string>
+    <string name="msg_assets_loaded">Հաջորդը, խնդրում ենք տեղադրել ձեր հաշիվը…</string>
     <string name="error_fetching_marketcap_data">Հնարավոր չէ բեռնաթափել շուկայի տվյալները</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Խնդրում ենք մուտքագրել ճիշտ brainkey, այն պետք է ունենա 12 եւ 16 բառերի միջեւ:</string>
     <string name="unable_to_load_brainkey">Անհնար է բեռնել Brainkey</string>
     <string name="account_already_exist">Հաշիվն արդեն գոյություն ունի</string>
-    <string name="importing_your_wallet">Ներմուծումը ձեր դրամապանակը ...</string>
+    <string name="importing_your_wallet">Ներմուծումը ձեր դրամապանակը…</string>
     <string name="account_candidates_title">Խնդրում ենք ընտրել հաշիվ</string>
     <string name="account_candidates_content">Այս brainkey- ի ստեղները, կարծես, օգտագործվում են մեկից ավելի հաշիվ վերահսկելու համար, խնդրում ենք ընտրել այն հաշիվը, որը ցանկանում եք ներմուծել</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Կոռուպցիայի հիմնական սխալը</string>
     <string name="error_corrupted_key_content">Հավելվածը չի կարողանում վերականգնել ձեր կոդավորված մասնավոր ստեղները տվյալների բազայից: Դրա պատճառով դուք պետք է կրկին մուտքագրեք ձեր ստեղները: Կամ brackikey ձեւով կամ ձեւավորեք կրկնակի պահեստային ֆայլ, որը ստեղծվել եւ պահվում է ինքնաբերաբար ձեր sdcard- ում, եթե հաշիվը ստեղծվել է հավելվածի կողմից</string>
     <string name="invalid_pin">Անվավեր PIN</string>
+    <string name="network_loading_user_click_toast">Ցանցը բեռնվում է: Խնդրում ենք սպասել…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">տուն</string>
     <string name="txt_transactions">Գործարքներ</string>
     <string name="txt_refunds_returns">Վերադարձի / վերադարձի մասին</string>
     <string name="txt_settlement">Կարգավորում</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares հանգույցներ</string>
+    <string name="bitshares_nodes_dialog_title">Բլոկ: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Վճարման ենթակա գումար</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Խնդրում ենք սպասել</string>
     <string name="error_node_unreachable">Ոչ մի հանգույց չի կարող հասնել</string>
     <string name="invoice_subject">PalmPay հաշիվը %1$s- ից</string>
+    <string name="memo_warning">Նշում. Հուշագրի դաշտը պահանջվում է ճիշտ վճարել ձեր վճարումը վաճառողի խնդրանքով:</string>
     <string name="before_s">Նախքան `%1$s</string>
     <string name="share">Բաժնետոմս</string>
     <string name="share_with">Share հետ</string>
-    <string name="connecting">Միացում ...</string>
+    <string name="connecting">Միացում…</string>
+    <string name="error_bridge_title">Bridge սխալ</string>
+    <string name="error_bridge_content">Փոխարժեքի փոխակերպման կամուրջը կարծես թե իջնում է: \n \n Կապվեք օգնության հետ: \n \nError կոդն է `%1$d</string>
+    <string name="button_accept_tx">Ընդունել գործարքը</string>
+    <string name="dialog_accept_tx_title">Գործարքի ընդունում:</string>
+    <string name="dialog_accept_tx_summary">Գործարքը հայտնաբերվել է, բայց դեռ լիովին չի հաստատվել:</string>
+    <string name="option_add_surety">Ավելացրեք երաշխիք</string>
+    <string name="option_wait">Սպասեք</string>
+    <string name="option_accept">Ընդունել</string>
+    <string name="title__step_payment_seen">Վճարումը տեսանելի է</string>
+    <string name="msg__step_payment_seen">Ցանցի հաստատման սպասում</string>
+    <string name="msg__step_payment_seen_done">Վճարումը ներառված է բլոկում</string>
+    <string name="title__step_payment_received">Վճարը ստացավ</string>
+    <string name="template_tx_progress">Սպասում են ավելի շատ ցանցի հաստատումներ: %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Բավարար հաստատումները ստացան</string>
+    <string name="title__step_payment_confirmed">Վճարումը հաստատեց</string>
+    <string name="msg__step_payment_confirmed">Գործարքի կնքումը առեւտրի եւ դեսպանների նախաձեռնությամբ</string>
+    <string name="msg__step_payment_confirmed_done">Վճարման գործընթացը ավարտվել է</string>
+    <string name="error_estimate_input_content_template">Ներմուծման գումարը գնահատելու ժամանակ սխալ առաջացավ: \n \n Խնդիր կամուրջ մատակարարից: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Ձեր խնդրանքը մշակելիս սխալ է եղել:</string>
+    <string name="error_payment_request_content_template">Կամուրջի մատուցողը չի կարող %1$s գործընթացը հիմա կատարել: Խնդրում եմ փորձեք մի փոքր ուշ. \n \nError կամուրջ մատակարարից: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Ընտրեք վճարման պահանջ</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Սա թույլ կտա մուտքային վճարը կապել %1$s- ի նախկինում գրանցված վճարման պահանջի հետ:</string>
     <string name="dialog_msg_incoming_payment_details">Ներգնա վճարման մանրամասները</string>
     <string name="dialog_generic_title_confirm">Համոզված ես?</string>
-    <string name="dialog_generic_msg_confirm">Խնդրում ենք նկատի ունենալ, որ այս գործողությունը չի կարող վերականգնվել</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Հեռացնել</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Վճարումը հաստատեց:</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Վճարումը հաստատեց:</string>
+    <string name="button__view_transactions">Դիտեք գործարքները</string>
+    <string name="template__received">Ստացվել է `%1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Կարգավորումներ</string>
     <string name="general">Ընդհանուր</string>
-    <string name="security">Անվտանգություն</string>
-    <string name="backups">Կրկնօրինակումներ</string>
-    <string name="tokens">Տոկեններ</string>
     <string name="accounts">Հաշիվներ</string>
+    <string name="tokens">Տոկեններ</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Գիշերային ռեժիմ</string>
+    <string name="title__local_fiat_currency">Տեղական Fiat Currency</string>
     <string name="currency_info">Տարադրամը ինքնաբերաբար ընտրվում է ձեր լեզվի եւ երկրի ընտրության հիման վրա: Եթե ​​ցանկանում եք փոխել դրանք, դուք պետք է գնաք գլոբալ համակարգի կարգավորումներ ձեր սարքի վրա:</string>
     <string name="screen_saver">Էկրանապահիչ</string>
     <string name="source">Աղբյուրը</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Լռելյայն թղթապանակ (/ PalmPay)</string>
     <string name="txt_folder">Թղթապանակ</string>
     <string name="choose">Ընտրեք</string>
-    <string name="screen_saver_time">Միացնելուց հետո ...</string>
+    <string name="folder_has_no_images_error">Սխալ, ընտրված թղթապանակը պատկերներ չունի</string>
+    <string name="screen_saver_time">Միացնելուց հետո…</string>
     <string name="one_minute">1 րոպե</string>
     <string name="three_minutes">3 րոպե</string>
     <string name="five_minutes">5 րոպե</string>
@@ -169,27 +189,43 @@
     <string name="city">Քաղաքը</string>
     <string name="country">Երկիրը</string>
     <string name="bugs_or_ideas">Bugs կամ գաղափարներ?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Ընդունել</string>
     <string name="select">Ընտրեք</string>
     <string name="are_you_sure">Համոզված ես?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Կրկնօրինակել brainkey</string>
-    <string name="copied_to_clipboard">Քաղված է clipboard- ին</string>
-    <string name="bin_file_description">Bin ֆայլը: Միշտ պահեք ձեր կրկնօրինակում .bin ֆայլը գաղտնի MicroSD քարտ կամ USB Stick:</string>
-    <string name="create_a_backup">Ստեղծեք կրկնօրինակ</string>
-    <string name="brainkey_description">Brainkey. Հաշվի վերականգնման խոսքեր, որոնք կարող են գրավել կամ պատճենվել, բայց ոչ խմբագրվել:</string>
-    <string name="txt_brain_key_info">Տպեք այս կամ գրեք այն: Վերականգնման բանալիին մուտք գործող ցանկացած մարդ, այս դրամապանակի ներսում միջոցներ կստանա:</string>
-    <string name="view_and_copy">Դիտել եւ պատճենեք</string>
-    <string name="title_bin_backup">Արտահանման կրկնօրինակում</string>
-    <string name="hint_password">Գաղտնաբառ</string>
-    <string name="hint_password_confirmation">գաղտնաբառի հաստատում</string>
-    <string name="error_password_mandatory">Պետք է մուտքագրեք գաղտնաբառը</string>
-    <string name="error_password_too_short">Գաղտնաբառը շատ կարճ է</string>
-    <string name="error_password_confirmation_mismatch">Գաղտնաբառ եւ հաստատման անհամապատասխանություն</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Անվտանգության կողպեք</string>
+    <string name="title__security_dialog">Ընտրեք անվտանգության կողպեքը</string>
+    <string name="text__pin">PIN- ը</string>
+    <string name="text__pattern">Կաղապար</string>
+    <string name="text__none">Ոչ ոք</string>
+    <string name="button__choose">Ընտրեք</string>
+    <string name="title__re_enter_your_pin">Կրկին մուտքագրեք ձեր PIN- ը</string>
+    <string name="msg__enter_your_pin">Շարունակելու համար մուտքագրեք ձեր PalmPay PIN- ը</string>
+    <string name="error__wrong_pin">Անվավեր PIN</string>
+    <string name="title__set_palmpay_security_lock">Set PalmPay Անվտանգություն</string>
+    <string name="msg__set_a_pin">Անվտանգության համար սահմանեք PIN</string>
+    <string name="msg__min_pin_length">PIN- ը պետք է լինի առնվազն 6 նիշ</string>
+    <string name="title__pins_dont_match">PIN- ները չեն համապատասխանում</string>
+    <string name="title__re_enter_your_pattern">Վերադառնանք ձեր օրինակին</string>
+    <string name="msg__enter_your_pattern">Շարունակելու համար մուտքագրեք ձեր PalmPay ձեւը</string>
+    <string name="msg__set_a_pattern">Անվտանգության համար սահմանեք Pattern- ը</string>
+    <string name="msg__release_finger">Ազատել մատը, երբ կատարված է</string>
+    <string name="button__clear">Մաքրել</string>
+    <string name="button__next">Հաջորդը</string>
+    <string name="text__draw_an_unlock_pattern">Նկարեք բացելու օրինակ</string>
+    <string name="msg__draw_pattern_confirm">Հաստատեք հաստատման նոր ձեւաչափը</string>
+    <string name="button__confirm">Հաստատեք</string>
+    <string name="msg__your_new_unlock_pattern">Ձեր նոր բացելու օրինակ</string>
+    <string name="error__wrong_pattern">Պատահական օրինակ</string>
+    <string name="text__pattern_recorded">Պատճեն արձանագրվեց</string>
+    <string name="error__connect_at_least_4_dots">Միացեք առնվազն 4 կետ: Կրկին փորձեք:</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Չափազանց շատ սխալ փորձեր: Կրկին փորձեք %1$d ամիս րոպե:</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Չափազանց շատ սխալ փորձեր: Կրկին փորձեք %1$d վայրկյան ընթացքում:</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Ընթացիկ հաշիվ</string>
     <string name="merchant_account_s">Merchant Account: %1$s</string>
     <string name="upgrade_to_ltm">Բարձրացնել LTM- ին</string>
     <string name="upgrade_account_description">«Բարելավել LifeTime- ի անդամակցությունը (LTM): Բիտուսները LTM- ի հաշիվները վճարում են մոտակա զրոյական վճարների, 80% կանխավճար եւ ուղեգրերի համար բոնուսներ»:</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">«Վստահ եք, որ ցանկանում եք այս դրամապանակից հեռացնել« %1$s »հաշիվը»:</string>
     <string name="remove">Հեռացնել</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Ցանկալի Smartcoin</string>
-    <string name="txt_customer_loyalty">Հավատարմագրման կետերը, որպես ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Կրկնօրինակումներ</string>
+    <string name="backup_brainkey">Կրկնօրինակել brainkey</string>
+    <string name="copied_to_clipboard">Քաղված է clipboard- ին</string>
+    <string name="bin_file_description">Bin ֆայլը: Միշտ պահեք ձեր կրկնօրինակում .bin ֆայլը գաղտնի MicroSD քարտ կամ USB Stick:</string>
+    <string name="create_a_backup">Ստեղծեք կրկնօրինակ</string>
+    <string name="brainkey_description">Brainkey. Հաշվի վերականգնման խոսքեր, որոնք կարող են գրավել կամ պատճենվել, բայց ոչ խմբագրվել:</string>
+    <string name="txt_brain_key_info">Տպեք այս կամ գրեք այն: Վերականգնման բանալիին մուտք գործող ցանկացած մարդ, այս դրամապանակի ներսում միջոցներ կստանա:</string>
+    <string name="view_and_copy">Դիտել եւ պատճենեք</string>
+    <string name="title_bin_backup">Արտահանման կրկնօրինակում</string>
+    <string name="hint_password">Գաղտնաբառ</string>
+    <string name="hint_password_confirmation">գաղտնաբառի հաստատում</string>
+    <string name="error_password_mandatory">Պետք է մուտքագրեք գաղտնաբառը</string>
+    <string name="error_password_too_short">Գաղտնաբառը շատ կարճ է</string>
+    <string name="error_password_confirmation_mismatch">Գաղտնաբառ եւ հաստատման անհամապատասխանություն</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Ցանկալի Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Ստացված բոլոր Cryptocurrency- ները ավտոմատ կերպով փոխարկվում են ձեր ցանկալի SmartCoin- ում եւ պահվում են ձեր BitShares վաճառող հաշվում:</string>
+    <string name="title__loyalty_points">Հավատարմության միավորներ</string>
+    <string name="msg__loyalty_points_description">Հավատարմության միավորները կարող են ավտոմատ կերպով ուղարկվել ձեր հաճախորդներին, երբ նրանք ձեզ հետ գումար են ծախսում: Դուք պետք է ունենաք որոշ նշաններ, որոնք ցանկանում եք ուղարկել ձեր հաճախորդներին:</string>
     <string name="warning_insufficient_reward_asset_balance">Ձեր հաշիվը դեռ չունի %1$s: Խնդրում ենք ձեռք բերել մի քանիս, նախքան փորձում եք տալ ձեր հաճախորդներին որպես հավատարմության միավոր:</string>
     <string name="send">ուղարկել</string>
     <string name="txt_for_every">Յուրաքանչյուրի համար</string>
     <string name="txt_spent">ծախսեց</string>
-    <string name="txt_bitcoin_altcoin_deposited">Ընդունեք մինչեւ 8 Cryptocurrency:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency Preferences- ը</string>
+    <string name="msg__cryptocurrency_preferences_description">Ընտրեք մինչեւ 8 հայտնի գաղտնի արժույթներ, որոնք դուք կստանաք ձեր հաճախորդներից: Այս մետաղադրամները կցուցադրվեն տնային էկրանին: Դուք կարող եք ցանկացած ժամանակ փոխել այդ ընտրությունները:</string>
     <string name="altcoins_should_not_more_than">Խնդրում ենք ընտրել ոչ ավելի, քան 8 մուտքային ակտիվներ</string>
-    <string name="bitshares_unselection_message">Անհրաժեշտ է Bitshares (BTS) հիմնական նշան:</string>
     <string name="toast_low_volume_market">Շուկայական ցածր ծավալով ակտիվները ժամանակավորապես անջատված են: Դրանք կբարելավվեն, երբ շուկայական ծավալը զգալիորեն կաճի</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Լոգոն</string>
     <string name="store_name">Store անունը</string>
     <string name="address">Հասցե</string>
@@ -238,7 +292,11 @@
     <string name="search">Որոնում</string>
     <string name="filter">Ֆիլտր</string>
     <string name="export">Արտահանումը</string>
-    <string name="confirming">Հաստատելով ...</string>
+    <string name="text__no_transactions">Գործարքներ չկան</string>
+    <string name="text__awaiting_payment">Սպասում է վճարում…</string>
+    <string name="text__confirming">Հաստատելով…</string>
+    <string name="text__complete">Լրացրեք</string>
+    <string name="text__failed">Ձախողվեց</string>
     <string name="pdf_generated_msg_s">PDF գեներացվել եւ պահպանվել է `%1$s</string>
     <string name="pdf_generated_msg_error_s">Անհնար է ստեղծել pdf- ը: Խնդրում ենք կրկին փորձել: Սխալ `%1$s</string>
     <string name="csv_generated_msg_s">CSV գեներացվել եւ պահպանվել է `%1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Կոդի կապի սխալ, կրկնում</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Սխալ ամբողջական հանգույցից: Msg: %1$s</string>
+    <string name="error_payment_amount_title">Ստացված գումարի անհամապատասխանությունը</string>
+    <string name="error_payment_amount_content">Թվում է, թե մենք ստացել ենք ավելի քիչ, քան սպասվում էր: Փոխհատուցումը պետք է վերամշակվի ձեռքով:</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Մենք մուտքային վճար ենք ստացել, սակայն որեւէ խնդրանք չի եղել</string>

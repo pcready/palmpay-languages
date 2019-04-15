@@ -6,13 +6,13 @@
     <string name="disagree">ไม่เห็นด้วย</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">กำลังโหลดเนื้อหา ...</string>
-    <string name="title_loading_asset_type_data">กำลังโหลดข้อมูลประเภทเนื้อหา ...</string>
+    <string name="title_loading_assets">กำลังโหลดเนื้อหา…</string>
+    <string name="title_loading_asset_type_data">กำลังโหลดข้อมูลประเภทเนื้อหา…</string>
     <string name="title_assets_ready">พร้อมฐานข้อมูลสินทรัพย์</string>
     <string name="msg_loading_all_existing_assets">ดำเนินการชุดคำขอเพื่อให้ได้รายการสินทรัพย์ทั้งหมดที่มีอยู่ทั้งหมด</string>
     <string name="msg_loading_asset_type_data">ขอรายละเอียดเพิ่มเติมเกี่ยวกับสินทรัพย์</string>
     <string name="msg_loading_asset_in_database">โหลด %1$d เนื้อหาลงในฐานข้อมูลแล้ว</string>
-    <string name="msg_assets_loaded">ขั้นต่อไปโปรดตั้งค่าบัญชีของคุณ ...</string>
+    <string name="msg_assets_loaded">ขั้นต่อไปโปรดตั้งค่าบัญชีของคุณ…</string>
     <string name="error_fetching_marketcap_data">ไม่สามารถโหลดข้อมูล marketcap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">โปรดป้อน brainkey ที่ถูกต้องควรมีระหว่าง 12 ถึง 16 คำ</string>
     <string name="unable_to_load_brainkey">ไม่สามารถโหลด brainkey</string>
     <string name="account_already_exist">มีบัญชีอยู่แล้ว</string>
-    <string name="importing_your_wallet">กำลังนำเข้ากระเป๋าเงินของคุณ ...</string>
+    <string name="importing_your_wallet">กำลังนำเข้ากระเป๋าเงินของคุณ…</string>
     <string name="account_candidates_title">โปรดเลือกบัญชี</string>
     <string name="account_candidates_content">คีย์ที่ได้จาก Brainkey นี้ดูเหมือนจะถูกใช้เพื่อควบคุมบัญชีมากกว่าหนึ่งบัญชีโปรดเลือกบัญชีที่คุณต้องการนำเข้า</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">ข้อผิดพลาดการทุจริตที่สำคัญ</string>
     <string name="error_corrupted_key_content">แอปพลิเคชันไม่สามารถกู้คืนคีย์ส่วนตัวที่เข้ารหัสจากฐานข้อมูลได้ ด้วยเหตุนี้คุณจะต้องป้อนคีย์ของคุณอีกครั้ง ทั้งในรูปแบบของ brainkey หรือสร้างไฟล์สำรองข้อมูล bin ที่สร้างขึ้นและจัดเก็บไว้ใน sdcard ของคุณโดยอัตโนมัติหากบัญชีถูกสร้างขึ้นโดยแอปพลิเคชัน</string>
     <string name="invalid_pin">PIN ไม่ถูกต้อง</string>
+    <string name="network_loading_user_click_toast">กำลังโหลดเครือข่าย โปรดรอ…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">บ้าน</string>
     <string name="txt_transactions">การทำธุรกรรม</string>
     <string name="txt_refunds_returns">การคืนเงิน / ผลตอบแทน</string>
     <string name="txt_settlement">การตั้งถิ่นฐาน</string>
-    <string name="bitshares_nodes_dialog_title">โหนด Bitshares</string>
+    <string name="bitshares_nodes_dialog_title">บล็อก: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">จำนวนที่เหลือจำนวนที่ยังค้างอยู่</string>
@@ -116,16 +117,37 @@
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">กรุณาชำระเงิน</string>
-    <string name="please_pay_s_s">กรุณาชำระเงิน: %1$s____s__</string>
+    <string name="please_pay_s_s">กรุณาชำระเงิน: %1$s %2$s</string>
     <string name="to_s">ถึง: %1$s</string>
     <string name="txt_network">ค่าบริการเครือข่าย</string>
     <string name="txt_please_wait">โปรดรอ</string>
     <string name="error_node_unreachable">ไม่สามารถเข้าถึงโหนดได้</string>
     <string name="invoice_subject">ใบแจ้งหนี้ของ PalmPay จาก %1$s</string>
+    <string name="memo_warning">หมายเหตุ: ฟิลด์บันทึกช่วยจำจะต้องตรงกับการชำระเงินของคุณอย่างถูกต้องกับคำขอของพ่อค้า</string>
     <string name="before_s">ก่อนหน้า: %1$s</string>
     <string name="share">หุ้น</string>
     <string name="share_with">ร่วมกับ</string>
-    <string name="connecting">เชื่อมต่อ ...</string>
+    <string name="connecting">เชื่อมต่อ…</string>
+    <string name="error_bridge_title">ข้อผิดพลาดของบริดจ์</string>
+    <string name="error_bridge_content">ดูเหมือนว่าสะพานแปลงสกุลเงินจะไม่ทำงาน \n \n กรุณาติดต่อฝ่ายสนับสนุน \n \n รหัสข้อผิดพลาดคือ: %1$d</string>
+    <string name="button_accept_tx">ยอมรับการทำธุรกรรม</string>
+    <string name="dialog_accept_tx_title">ยอมรับธุรกรรม</string>
+    <string name="dialog_accept_tx_summary">ตรวจพบการทำธุรกรรม แต่ยังไม่ได้รับการยืนยันอย่างสมบูรณ์</string>
+    <string name="option_add_surety">เพิ่มความมั่นใจ</string>
+    <string name="option_wait">รอ</string>
+    <string name="option_accept">ยอมรับ</string>
+    <string name="title__step_payment_seen">เห็นการชำระเงิน</string>
+    <string name="msg__step_payment_seen">รอการยืนยันเครือข่าย</string>
+    <string name="msg__step_payment_seen_done">การชำระเงินรวมอยู่ในบล็อก</string>
+    <string name="title__step_payment_received">ได้รับการชำระเงินแล้ว</string>
+    <string name="template_tx_progress">รอการยืนยันเครือข่ายเพิ่มเติม %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">ได้รับการยืนยันเพียงพอ</string>
+    <string name="title__step_payment_confirmed">ได้รับการยืนยันการชำระเงิน</string>
+    <string name="msg__step_payment_confirmed">ธุรกรรมส่งออกไปยังผู้ค้าและทูตเริ่มต้น</string>
+    <string name="msg__step_payment_confirmed_done">การประมวลผลการชำระเงินเสร็จสมบูรณ์</string>
+    <string name="error_estimate_input_content_template">เกิดข้อผิดพลาดขณะพยายามประเมินจำนวนอินพุต \n \n ข้อผิดพลาดจากผู้ให้บริการบริดจ์: \n \n %1$s</string>
+    <string name="error_payment_processing_content">มีข้อผิดพลาดขณะประมวลผลคำขอของคุณ</string>
+    <string name="error_payment_request_content_template">ผู้ให้บริการบริดจ์ไม่สามารถประมวลผล %1$s ได้ในขณะนี้ กรุณาลองใหม่อีกครั้งในภายหลัง. \n \n ความหวาดกลัวจากผู้ให้บริการบริดจ์: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">เลือกคำขอชำระเงิน</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">การดำเนินการนี้จะเชื่อมโยงการชำระเงินที่ได้รับเข้ากับคำขอการชำระเงินที่บันทึกไว้ก่อนหน้านี้ของ %1$s</string>
     <string name="dialog_msg_incoming_payment_details">รายละเอียดการชำระเงินขาเข้า</string>
     <string name="dialog_generic_title_confirm">คุณแน่ใจไหม?</string>
-    <string name="dialog_generic_msg_confirm">โปรดทราบว่าคุณไม่สามารถยกเลิกการดำเนินการนี้ได้</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">ยกเลิก</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">ยืนยันการชำระเงินแล้ว!</string>
-    <string name="txt_cool">เย็น!</string>
+    <string name="title__payment_confirmed">ยืนยันการชำระเงินแล้ว!</string>
+    <string name="button__view_transactions">ดูธุรกรรม</string>
+    <string name="template__received">ได้รับแล้ว: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">การตั้งค่า</string>
     <string name="general">ทั่วไป</string>
-    <string name="security">ความปลอดภัย</string>
-    <string name="backups">การสำรองข้อมูล</string>
-    <string name="tokens">ราชสกุล</string>
     <string name="accounts">บัญชี</string>
+    <string name="tokens">ราชสกุล</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">โหมดกลางคืน</string>
+    <string name="title__local_fiat_currency">สกุลเงินท้องถิ่น</string>
     <string name="currency_info">สกุลเงินถูกเลือกโดยอัตโนมัติตามภาษาและการเลือกประเทศของคุณ หากคุณต้องการเปลี่ยนแปลงข้อมูลเหล่านี้คุณต้องไปที่การตั้งค่าระบบทั่วโลกของอุปกรณ์</string>
     <string name="screen_saver">โปรแกรมรักษาหน้าจอ</string>
     <string name="source">แหล่ง</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">โฟลเดอร์เริ่มต้น (/ PalmPay)</string>
     <string name="txt_folder">โฟลเดอร์</string>
     <string name="choose">เลือก</string>
-    <string name="screen_saver_time">เปิดใช้งานหลังจาก ...</string>
+    <string name="folder_has_no_images_error">ข้อผิดพลาดโฟลเดอร์ที่เลือกไม่มีภาพ</string>
+    <string name="screen_saver_time">เปิดใช้งานหลังจาก…</string>
     <string name="one_minute">1 นาที</string>
     <string name="three_minutes">3 นาที</string>
     <string name="five_minutes">5 นาที</string>
@@ -169,27 +189,43 @@
     <string name="city">เมือง</string>
     <string name="country">ประเทศ</string>
     <string name="bugs_or_ideas">ข้อบกพร่องหรือไอเดีย?</string>
-    <string name="bugs_or_ideas_contact_info">โทรเลขสนทนา: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">โทรเลข: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">ยอมรับ</string>
     <string name="select">เลือก</string>
     <string name="are_you_sure">คุณแน่ใจไหม?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
-    <string name="bin_file_description">ไฟล์ Bin เก็บไฟล์สำรองข้อมูลของคุณไว้ในที่ลับ ๆ MicroSD card หรือ USB Stick</string>
-    <string name="create_a_backup">สร้างข้อมูลสำรอง</string>
-    <string name="brainkey_description">Brainkey คำกู้บัญชีที่สามารถบันทึกหรือคัดลอกได้ แต่ไม่ได้แก้ไข</string>
-    <string name="txt_brain_key_info">พิมพ์หรือพิมพ์ออกมา ทุกคนที่มีสิทธิ์เข้าถึงคีย์การกู้คืนของคุณจะสามารถเข้าถึงเงินภายในกระเป๋าสตางค์นี้ได้</string>
-    <string name="view_and_copy">ดูและคัดลอก</string>
-    <string name="title_bin_backup">ส่งออก. bin สำรองข้อมูล</string>
-    <string name="hint_password">รหัสผ่าน</string>
-    <string name="hint_password_confirmation">การยืนยันรหัสผ่าน</string>
-    <string name="error_password_mandatory">ต้องป้อนรหัสผ่าน</string>
-    <string name="error_password_too_short">รหัสผ่านสั้นเกินไป</string>
-    <string name="error_password_confirmation_mismatch">รหัสผ่านไม่ตรงกันและไม่ตรงกัน</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">ล็อคเพื่อความปลอดภัย</string>
+    <string name="title__security_dialog">เลือกล็อคเพื่อความปลอดภัย</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">แบบแผน</string>
+    <string name="text__none">ไม่มี</string>
+    <string name="button__choose">เลือก</string>
+    <string name="title__re_enter_your_pin">ป้อน PIN ของคุณอีกครั้ง</string>
+    <string name="msg__enter_your_pin">ป้อน PIN ของคุณเพื่อดำเนินการต่อ</string>
+    <string name="error__wrong_pin">PIN ไม่ถูกต้อง</string>
+    <string name="title__set_palmpay_security_lock">ตั้งค่าความปลอดภัย PalmPay</string>
+    <string name="msg__set_a_pin">เพื่อความปลอดภัยตั้งรหัส PIN</string>
+    <string name="msg__min_pin_length">PIN ต้องมีอย่างน้อย 6 หลัก</string>
+    <string name="title__pins_dont_match">PIN ไม่ตรงกัน</string>
+    <string name="title__re_enter_your_pattern">ป้อนรูปแบบของคุณอีกครั้ง</string>
+    <string name="msg__enter_your_pattern">ป้อนรูปแบบ PalmPay ของคุณเพื่อดำเนินการต่อ</string>
+    <string name="msg__set_a_pattern">เพื่อความปลอดภัยตั้งค่ารูปแบบ</string>
+    <string name="msg__release_finger">ปล่อยนิ้วเมื่อเสร็จแล้ว</string>
+    <string name="button__clear">ชัดเจน</string>
+    <string name="button__next">ต่อไป</string>
+    <string name="text__draw_an_unlock_pattern">วาดรูปแบบการปลดล็อก</string>
+    <string name="msg__draw_pattern_confirm">วาดรูปแบบอีกครั้งเพื่อยืนยัน</string>
+    <string name="button__confirm">ยืนยัน</string>
+    <string name="msg__your_new_unlock_pattern">รูปแบบการปลดล็อกใหม่ของคุณ</string>
+    <string name="error__wrong_pattern">ลวดลายผิด</string>
+    <string name="text__pattern_recorded">บันทึกรูปแบบแล้ว</string>
+    <string name="error__connect_at_least_4_dots">เชื่อมต่ออย่างน้อย 4 จุด ลองอีกครั้ง.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">มีความพยายามที่ไม่ถูกต้องมากเกินไป ลองอีกครั้งในอีก %1$d นาที</string>
+    <string name="error__security_lock_too_many_attempts_seconds">มีความพยายามที่ไม่ถูกต้องมากเกินไป ลองอีกครั้งในอีก %1$d วินาที</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">บัญชีกระแสรายวัน</string>
     <string name="merchant_account_s">บัญชีผู้ขาย: %1$s</string>
     <string name="upgrade_to_ltm">อัปเกรดเป็น LTM</string>
     <string name="upgrade_account_description">"อัปเกรดเป็น LifeTime Membership (LTM) บัญชี LTM ของ Bitshares จะชำระค่าศูนย์ใกล้เคียงศูนย์รับเงินคืน 80% และโบนัสสำหรับการแนะนำผลิตภัณฑ์"</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"คุณแน่ใจหรือไม่ว่าคุณต้องการลบบัญชี" %1$s "จากกระเป๋าสตางค์นี้?"</string>
     <string name="remove">เอาออก</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">ที่ต้องการ Smartcoin</string>
-    <string name="txt_customer_loyalty">จุดความภักดีในฐานะ ...</string>
-    <string name="warning_insufficient_reward_asset_balance">บัญชีของคุณยังไม่มีเจ้าของ __1S__ โปรดซื้อบางส่วนก่อนที่คุณจะพยายามให้ลูกค้าของคุณเป็น Loyalty Points</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">การสำรองข้อมูล</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
+    <string name="bin_file_description">ไฟล์ Bin เก็บไฟล์สำรองข้อมูลของคุณไว้ในที่ลับ ๆ MicroSD card หรือ USB Stick</string>
+    <string name="create_a_backup">สร้างข้อมูลสำรอง</string>
+    <string name="brainkey_description">Brainkey คำกู้บัญชีที่สามารถบันทึกหรือคัดลอกได้ แต่ไม่ได้แก้ไข</string>
+    <string name="txt_brain_key_info">พิมพ์หรือพิมพ์ออกมา ทุกคนที่มีสิทธิ์เข้าถึงคีย์การกู้คืนของคุณจะสามารถเข้าถึงเงินภายในกระเป๋าสตางค์นี้ได้</string>
+    <string name="view_and_copy">ดูและคัดลอก</string>
+    <string name="title_bin_backup">ส่งออก. bin สำรองข้อมูล</string>
+    <string name="hint_password">รหัสผ่าน</string>
+    <string name="hint_password_confirmation">การยืนยันรหัสผ่าน</string>
+    <string name="error_password_mandatory">ต้องป้อนรหัสผ่าน</string>
+    <string name="error_password_too_short">รหัสผ่านสั้นเกินไป</string>
+    <string name="error_password_confirmation_mismatch">รหัสผ่านไม่ตรงกันและไม่ตรงกัน</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">ที่ต้องการ Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Cryptocurrencies ทั้งหมดที่คุณได้รับจะถูกแปลงเป็น Smartcoin ที่คุณต้องการและบันทึกไว้ในบัญชีผู้ค้า BitShares</string>
+    <string name="title__loyalty_points">คะแนนความภักดี</string>
+    <string name="msg__loyalty_points_description">คะแนนความภักดีสามารถส่งให้ลูกค้าของคุณโดยอัตโนมัติเมื่อพวกเขาใช้จ่ายเงินกับคุณ คุณต้องเป็นเจ้าของโทเค็นบางส่วนที่คุณต้องการส่งให้กับลูกค้าของคุณ</string>
+    <string name="warning_insufficient_reward_asset_balance">บัญชีของคุณยังไม่มีเจ้าของ %1$s โปรดซื้อบางส่วนก่อนที่คุณจะพยายามให้ลูกค้าของคุณเป็น Loyalty Points</string>
     <string name="send">ส่ง</string>
     <string name="txt_for_every">สำหรับทุกๆ</string>
     <string name="txt_spent">การใช้จ่าย</string>
-    <string name="txt_bitcoin_altcoin_deposited">ยอมรับได้ถึง 8 Cryptocurrencies:</string>
+    <string name="title__cryptocurrency_preferences">ค่ากำหนด Cryptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">เลือก cryptocurrencies ยอดนิยมสูงสุด 8 รายการที่คุณจะยอมรับจากลูกค้าของคุณ เหรียญเหล่านี้จะปรากฏบนหน้าจอหลัก คุณสามารถเปลี่ยนตัวเลือกเหล่านี้ได้ตลอดเวลา</string>
     <string name="altcoins_should_not_more_than">โปรดเลือกข้อมูลนำเข้าไม่เกิน 8 รายการ</string>
-    <string name="bitshares_unselection_message">ต้องระบุโทเค็นหลัก Bitshares (BTS)</string>
     <string name="toast_low_volume_market">เนื้อหาในตลาดที่มีปริมาณน้อยถูกปิดใช้งานชั่วคราว พวกเขาจะเปิดใช้งานเมื่อปริมาณการตลาดเพิ่มขึ้นเป็นจำนวนมาก</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">เครื่องหมาย</string>
     <string name="store_name">ชื่อร้าน</string>
     <string name="address">ที่อยู่</string>
@@ -238,7 +292,11 @@
     <string name="search">ค้นหา</string>
     <string name="filter">กรอง</string>
     <string name="export">ส่งออก</string>
-    <string name="confirming">ยืนยัน ...</string>
+    <string name="text__no_transactions">ไม่มีธุรกรรม</string>
+    <string name="text__awaiting_payment">รอการชำระเงิน…</string>
+    <string name="text__confirming">ยืนยัน…</string>
+    <string name="text__complete">สมบูรณ์</string>
+    <string name="text__failed">ล้มเหลว</string>
     <string name="pdf_generated_msg_s">สร้างและบันทึกไฟล์ PDF แล้ว: %1$s</string>
     <string name="pdf_generated_msg_error_s">ไม่สามารถสร้าง pdf ได้ โปรดลองอีกครั้ง ข้อผิดพลาด: %1$s</string>
     <string name="csv_generated_msg_s">CSV สร้างและบันทึก: %1$s</string>
@@ -280,10 +338,10 @@
     <string name="subtotal">รวมย่อย</string>
     <string name="network_fee">ค่าบริการเครือข่าย</string>
     <string name="total">ทั้งหมด</string>
-    <string name="paid_s_s">ชำระเงิน %1$s____s__</string>
+    <string name="paid_s_s">ชำระเงิน %1$s %2$s</string>
     <string name="change_due">เปลี่ยนเนื่องจาก</string>
     <string name="e_receipt_memo_s">ข้อควรจำ: %1$s</string>
-    <string name="e_receipt_date_s">วันที่: __1 วินาที</string>
+    <string name="e_receipt_date_s">วันที่: %1$s</string>
     <string name="e_receipt_tx_s">Tx: %1$s</string>
     <string name="e_receipt_subject">PalmPay eReceipt จาก %1$s</string>
 
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">ข้อผิดพลาดในการเชื่อมต่อโหนดลองใหม่</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">ข้อผิดพลาดจากโหนดเต็ม ข่าวสารเกี่ยวกับ: %1$s</string>
+    <string name="error_payment_amount_title">ความคลาดเคลื่อนของจำนวนเงินที่ได้รับ</string>
+    <string name="error_payment_amount_content">ดูเหมือนว่าเราจะได้รับน้อยกว่าที่คาดไว้ การคืนเงินจะต้องดำเนินการด้วยตนเอง</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">เราได้รับการชำระเงินเข้ามา แต่ไม่พบคำขอ</string>

@@ -6,13 +6,13 @@
     <string name="disagree">Dili uyon</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Nag-load sa mga asset ...</string>
-    <string name="title_loading_asset_type_data">Loading data type asset ...</string>
+    <string name="title_loading_assets">Nag-load sa mga asset…</string>
+    <string name="title_loading_asset_type_data">Loading data type asset…</string>
     <string name="title_assets_ready">Andam nga database</string>
     <string name="msg_loading_all_existing_assets">Pagpahigayon sa usa ka serye sa mga hangyo aron makuha ang kompleto nga listahan sa tanan nga anaa nga mga kabtangan</string>
     <string name="msg_loading_asset_type_data">Gihangyo ang dugang mga detalye sa asset</string>
     <string name="msg_loading_asset_in_database">Na-load nga %1$d assets ngadto sa database</string>
-    <string name="msg_assets_loaded">Sunod, palihug pag-setup sa imong account ...</string>
+    <string name="msg_assets_loaded">Sunod, palihug pag-setup sa imong account…</string>
     <string name="error_fetching_marketcap_data">Dili makarga ang datos sa marketcap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Palihug pagsulod sa husto nga brainkey, kinahanglan nga adunay tali sa 12 ug 16 nga mga pulong.</string>
     <string name="unable_to_load_brainkey">Dili makarga ang brainkey</string>
     <string name="account_already_exist">Adunay na ang account</string>
-    <string name="importing_your_wallet">Pag-import sa imong pitaka ...</string>
+    <string name="importing_your_wallet">Pag-import sa imong pitaka…</string>
     <string name="account_candidates_title">Palihug pagpili og account</string>
     <string name="account_candidates_content">Ang mga yawe nga nakuha gikan niini nga utok ngakey daw gigamit aron makontrol ang sobra sa usa ka account, palihug pilia kung unsa nga account ang imong gusto i-import</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Key nga sayop nga korapsyon</string>
     <string name="error_corrupted_key_content">Ang app dili makahimo sa pagbawi sa imong encrypted private keys gikan sa database. Tungod niini ikaw kinahanglan nga mosulod sa imong mga yawe pag-usab. Ang bisan sa porma sa usa ka brainkey o paghimo sa bin backup nga file nga gimugna ug gitipigan awtomatik sa imong sdcard kon ang account gimugna sa app</string>
     <string name="invalid_pin">Dili bakak nga PIN</string>
+    <string name="network_loading_user_click_toast">Ang network nahimutang. Palihog hulat…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Panimalay</string>
     <string name="txt_transactions">Mga transaksyon</string>
     <string name="txt_refunds_returns">Pagbayad / Pagbalik</string>
     <string name="txt_settlement">Pagpuyo</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares nodes</string>
+    <string name="bitshares_nodes_dialog_title">Block: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Adunay bayad</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Palihog hulat</string>
     <string name="error_node_unreachable">Walay node nga maabot</string>
     <string name="invoice_subject">Invoice sa PalmPay gikan sa %1$s</string>
+    <string name="memo_warning">PAHINUMDOM: Kinahanglan nga husto ang memo field aron matandi ang imong pagbayad sa hangyo sa merchant.</string>
     <string name="before_s">Sa wala pa: %1$s</string>
     <string name="share">Ipakigbahin</string>
     <string name="share_with">Pakigbahin uban</string>
-    <string name="connecting">Nagkonekta ...</string>
+    <string name="connecting">Nagkonekta…</string>
+    <string name="error_bridge_title">Sayop nga tulay</string>
+    <string name="error_bridge_content">Ang taytay sa pagkakabig sa salapi daw nahulog. \n \nPangita og kontak nga suporta. Ang \n \nKalabot sa Code mao: %1$d</string>
+    <string name="button_accept_tx">Dawata ang transaksyon</string>
+    <string name="dialog_accept_tx_title">Dawata ang transaksyon?</string>
+    <string name="dialog_accept_tx_summary">Nakuha ang transaksyon, apan wala pa mapamatud-an sa hingpit.</string>
+    <string name="option_add_surety">Dugang nga pasalig</string>
+    <string name="option_wait">Paghulat</string>
+    <string name="option_accept">Dawata</string>
+    <string name="title__step_payment_seen">Nakita ang pagbayad</string>
+    <string name="msg__step_payment_seen">Naghulat alang sa pagkumpirma sa network</string>
+    <string name="msg__step_payment_seen_done">Ang pagbayad gilakip sa usa ka block</string>
+    <string name="title__step_payment_received">Ang bayad nadawat</string>
+    <string name="template_tx_progress">Naghulat alang sa dugang nga pagkumpirma sa network. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Igo nga mga kumpirmasyon ang nadawat</string>
+    <string name="title__step_payment_confirmed">Ang bayad gipamatud</string>
+    <string name="msg__step_payment_confirmed">Ang transaksyon sa output ngadto sa mga negosyante ug mga embahador gipasiugdahan</string>
+    <string name="msg__step_payment_confirmed_done">Ang pagproseso sa bayad nahuman</string>
+    <string name="error_estimate_input_content_template">Sayop samtang gisulayan ang pag-estimate sa input amount. \n \n Sayop gikan sa tighatag nga tulay: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Adunay usa ka sayop samtang nagproseso sa imong hangyo.</string>
+    <string name="error_payment_request_content_template">Ang tighatag sa Bridge dili makaproseso sa %1$s karon. Palihug sulayi sa ulahi. \n \nError gikan sa tulay provider: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Pagpili og bayad nga hangyo</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Kini mag-link sa umaabot nga pagbayad ngadto sa naunang natala nga bayad nga pagbayad sa %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Mga umaabot nga mga detalye sa pagbayad</string>
     <string name="dialog_generic_title_confirm">Sigurado ka ba?</string>
-    <string name="dialog_generic_msg_confirm">Palihug hinumdumi nga kini nga aksyon dili mahimong usbon</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Wagtangon</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Gipamatud ang pagbayad</string>
-    <string name="txt_cool">KINI!</string>
+    <string name="title__payment_confirmed">Gipamatud ang pagbayad</string>
+    <string name="button__view_transactions">Tan-awa ang mga Transaksyon</string>
+    <string name="template__received">Nadawat: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Mga Setting</string>
     <string name="general">General</string>
-    <string name="security">Kasegurohan</string>
-    <string name="backups">Mga Backup</string>
-    <string name="tokens">Mga Token</string>
     <string name="accounts">Mga Account</string>
+    <string name="tokens">Mga Token</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Mode sa kagabhion</string>
+    <string name="title__local_fiat_currency">Lokal nga Fiat Currency</string>
     <string name="currency_info">Ang kwarta awtomatik nga pilion base sa imong piniling pinulongan ug nasud. Kon gusto nimong usbon ang mga butang, kinahanglang moadto ka sa mga setting sa kalibutan sa imong device.</string>
     <string name="screen_saver">Screen Saver</string>
     <string name="source">Tinubdan</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Default nga panid (/ PalmPay)</string>
     <string name="txt_folder">Folder</string>
     <string name="choose">Pilia</string>
-    <string name="screen_saver_time">Paghan-ay human sa ...</string>
+    <string name="folder_has_no_images_error">Sayop, ang gipili nga folder walay mga hulagway</string>
+    <string name="screen_saver_time">Paghan-ay human sa…</string>
     <string name="one_minute">1 Minuto</string>
     <string name="three_minutes">3 Minutos</string>
     <string name="five_minutes">5 Minutos</string>
@@ -169,27 +189,43 @@
     <string name="city">Dakbayan</string>
     <string name="country">Nasud</string>
     <string name="bugs_or_ideas">Mga Bugs o Mga Ideya?</string>
-    <string name="bugs_or_ideas_contact_info">Chat sa Telegram: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Dawata</string>
     <string name="select">Pagpili</string>
     <string name="are_you_sure">Sigurado ka ba?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">Gikopya sa clipboard</string>
-    <string name="bin_file_description">Bin file. Kanunay nga maluwas ang imong backup .bin file sa usa ka tinago nga MicroSD card o USB Stick.</string>
-    <string name="create_a_backup">Paghimo og usa ka tabang</string>
-    <string name="brainkey_description">Brainkey. Mga pulong sa pagbawi sa mga account nga mahimong madakpan o kopyahon, apan dili ma-edit.</string>
-    <string name="txt_brain_key_info">Isulat kini, o isulat kini. Ang bisan kinsa nga adunay access sa imong recovery key adunay access sa mga pundo sa sulod niini nga pitaka.</string>
-    <string name="view_and_copy"><![CDATA[View & Copy]]></string>
-    <string name="title_bin_backup">I-export ang .bin backup</string>
-    <string name="hint_password">Sala</string>
-    <string name="hint_password_confirmation">Pagkumpirma sa password</string>
-    <string name="error_password_mandatory">Kinahanglan nga mosulod sa usa ka password</string>
-    <string name="error_password_too_short">Ang sayon ​​mubo ra</string>
-    <string name="error_password_confirmation_mismatch">Mismatch sa password ug kumpirmasyon</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Security Lock</string>
+    <string name="title__security_dialog">Pagpili og Security Lock</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Sumbanan</string>
+    <string name="text__none">Wala</string>
+    <string name="button__choose">Pilia</string>
+    <string name="title__re_enter_your_pin">Pagsulod pag-usab sa imong PIN</string>
+    <string name="msg__enter_your_pin">Pagsulod sa imong PalmPay PIN aron magpadayon</string>
+    <string name="error__wrong_pin">Sayup nga PIN</string>
+    <string name="title__set_palmpay_security_lock">Ibutang ang PalmPay Security</string>
+    <string name="msg__set_a_pin">Alang sa seguridad, ipahimutang ang usa ka PIN</string>
+    <string name="msg__min_pin_length">Ang PIN kinahanglan labing menos 6 ka numero</string>
+    <string name="title__pins_dont_match">Ang mga PIN wala mohaum</string>
+    <string name="title__re_enter_your_pattern">Pagsulod pag-usab sa imong sumbanan</string>
+    <string name="msg__enter_your_pattern">Pagsulod sa imong sumbanan sa PalmPay aron magpadayon</string>
+    <string name="msg__set_a_pattern">Alang sa seguridad, pagtakda og usa ka sumbanan</string>
+    <string name="msg__release_finger">Pag-release sa tudlo kon nahuman</string>
+    <string name="button__clear">Tin-aw</string>
+    <string name="button__next">Sunod</string>
+    <string name="text__draw_an_unlock_pattern">Pagdrowing usa ka sumbanan sa pag-unlock</string>
+    <string name="msg__draw_pattern_confirm">I-drawing usab ang sumbanan aron mokumpirma</string>
+    <string name="button__confirm">Sa pagmatuod sa</string>
+    <string name="msg__your_new_unlock_pattern">Ang imong bag-ong pattern sa pag-unlock</string>
+    <string name="error__wrong_pattern">Sayop nga sumbanan</string>
+    <string name="text__pattern_recorded">Gisulat ang sumbanan</string>
+    <string name="error__connect_at_least_4_dots">Sumpayan ang labing menos 4 ka mga tuldok. Sulayi pag-usab.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Dunay daghan nga sayop nga pagsulay. Sulayi pag-usab sa %1$d mga minuto.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Dunay daghan nga sayop nga pagsulay. Sulayi pag-usab sa %1$d segundo.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Create Account -->
+    <string name="title__current_account">Current Account</string>
     <string name="merchant_account_s">Merchant Account: %1$s</string>
     <string name="upgrade_to_ltm">Pag-upgrade sa LTM</string>
     <string name="upgrade_account_description">"Pag-upgrade ngadto sa LifeTime Membership (LTM). Ang mga account sa LTM sa Bitshares magbayad sa halos zero nga bayranan, makakuha og 80% cashback ug mga bonus alang sa mga referral."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Sigurado ba nga gusto nimong tangtangon ang account nga \'%1$s\' gikan sa pitaka?"</string>
     <string name="remove">Kuhaa</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Gitinguha nga Smartcoin</string>
-    <string name="txt_customer_loyalty">Isyu ang Loyalty Points isip ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Mga Backup</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Gikopya sa clipboard</string>
+    <string name="bin_file_description">Bin file. Kanunay nga maluwas ang imong backup .bin file sa usa ka tinago nga MicroSD card o USB Stick.</string>
+    <string name="create_a_backup">Paghimo og usa ka tabang</string>
+    <string name="brainkey_description">Brainkey. Mga pulong sa pagbawi sa mga account nga mahimong madakpan o kopyahon, apan dili ma-edit.</string>
+    <string name="txt_brain_key_info">Isulat kini, o isulat kini. Ang bisan kinsa nga adunay access sa imong recovery key adunay access sa mga pundo sa sulod niini nga pitaka.</string>
+    <string name="view_and_copy"><![CDATA[View & Copy]]></string>
+    <string name="title_bin_backup">I-export ang .bin backup</string>
+    <string name="hint_password">Sala</string>
+    <string name="hint_password_confirmation">Pagkumpirma sa password</string>
+    <string name="error_password_mandatory">Kinahanglan nga mosulod sa usa ka password</string>
+    <string name="error_password_too_short">Ang sayon ​​mubo ra</string>
+    <string name="error_password_confirmation_mismatch">Mismatch sa password ug kumpirmasyon</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Gitinguha nga Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Ang tanan nga mga Cryptocurrencies nga imong nadawat, awtomatik nga nakabig ngadto sa imong Gitinguha nga Smartcoin ug gitipigan sa imong BitShares Merchant Account.</string>
+    <string name="title__loyalty_points">Mga Loyalty Points</string>
+    <string name="msg__loyalty_points_description">Ang mga Points Loyalty mahimong awtomatiko nga ipadala ngadto sa imong mga kostumer kung mogugol sila og kwarta uban kanimo. Kinahanglan nimo nga maangkon ang pipila ka mga ilhanan nga buot nimo ipadala sa imong mga kustomer.</string>
     <string name="warning_insufficient_reward_asset_balance">Ang imong account wala pa makaangkon sa bisan unsang %1$s. Palihug pag-angkon og pipila sa dili pa ikaw mosulay sa paghatag sa bisan unsa ngadto sa imong mga kustomer isip mga Loyalty Points.</string>
     <string name="send">Ipadala</string>
     <string name="txt_for_every">Alang sa matag</string>
     <string name="txt_spent">gigahin</string>
-    <string name="txt_bitcoin_altcoin_deposited">Pagdawat sa 8 ka Cryptocity:</string>
+    <string name="title__cryptocurrency_preferences">Mga Pagpangita sa Cryptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">Pilia ang hangtod sa 8 ka popular nga cryptocurrency nga imong madawat gikan sa imong mga kustomer. Kini nga mga sensilyo makita sa mga homescreen. Mahimo nimo kining usbon sa bisan unsang oras.</string>
     <string name="altcoins_should_not_more_than">Palihug pilia ang labaw pa sa 8 input assets</string>
-    <string name="bitshares_unselection_message">Ang kinatibuk-ang token sa Bitshares (BTS) gikinahanglan.</string>
     <string name="toast_low_volume_market">Ang gidaghanon sa mga kabtangan sa merkado sa gagmay nga volume temporally disabled. Mahimo kini nga makahimo sa higayon nga ang kantidad sa merkado mosaka sa igo nga kantidad</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Tipigi ang Ngalan</string>
     <string name="address">Address</string>
@@ -238,7 +292,11 @@
     <string name="search">Pagpangita</string>
     <string name="filter">Isulat</string>
     <string name="export">Pag-eksport</string>
-    <string name="confirming">Pagpanghimatuod ...</string>
+    <string name="text__no_transactions">Walay mga Transaksyon</string>
+    <string name="text__awaiting_payment">Naghulat sa Pagbayad…</string>
+    <string name="text__confirming">Pagpanghimatuod…</string>
+    <string name="text__complete">Kompleto</string>
+    <string name="text__failed">Napakyas</string>
     <string name="pdf_generated_msg_s">PDF nga namugna ug naluwas: %1$s</string>
     <string name="pdf_generated_msg_error_s">Dili makahimo sa pagmugna pdf. Palihug usba. Sayop: %1$s</string>
     <string name="csv_generated_msg_s">Ang CSV namugna ug naluwas: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Node nga koneksyon nga kasaypanan, pagpa-usbaw</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Sayop gikan sa bug-os nga node. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Nadawat ang kantidad nga kalainan</string>
+    <string name="error_payment_amount_content">Morag kulang kami sa gidahom. Ang refund kinahanglan nga iproseso sa kamut.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Nakakuha kami og umaabot nga pagbayad, apan walay hangyo nga makit-an</string>

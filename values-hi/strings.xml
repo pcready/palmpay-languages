@@ -6,13 +6,13 @@
     <string name="disagree">असहमत</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">संपत्ति लोड हो रहा है ...</string>
-    <string name="title_loading_asset_type_data">संपत्ति प्रकार डेटा लोड हो रहा है ...</string>
+    <string name="title_loading_assets">संपत्ति लोड हो रहा है…</string>
+    <string name="title_loading_asset_type_data">संपत्ति प्रकार डेटा लोड हो रहा है…</string>
     <string name="title_assets_ready">संपत्ति डेटाबेस तैयार है</string>
     <string name="msg_loading_all_existing_assets">सभी मौजूदा संपत्तियों की पूरी सूची प्राप्त करने के लिए अनुरोधों की श्रृंखला का प्रदर्शन करना</string>
     <string name="msg_loading_asset_type_data">आगे संपत्ति विवरण का अनुरोध</string>
     <string name="msg_loading_asset_in_database">डेटाबेस में %1$d संपत्तियों को लोड किया गया</string>
-    <string name="msg_assets_loaded">अगला, कृपया अपना खाता सेट करें ...</string>
+    <string name="msg_assets_loaded">अगला, कृपया अपना खाता सेट करें…</string>
     <string name="error_fetching_marketcap_data">मार्केट कैप डेटा लोड नहीं कर सका</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">कृपया सही ब्राइंकी दर्ज करें, इसमें 12 से 16 शब्दों के बीच होना चाहिए।</string>
     <string name="unable_to_load_brainkey">Brainkey लोड करने में असमर्थ</string>
     <string name="account_already_exist">खाता पहले से ही मौजूद है</string>
-    <string name="importing_your_wallet">अपना वॉलेट आयात करना ...</string>
+    <string name="importing_your_wallet">अपना वॉलेट आयात करना…</string>
     <string name="account_candidates_title">कृपया एक खाता चुनें</string>
     <string name="account_candidates_content">इस ब्राइंकी से प्राप्त कुंजी का उपयोग एक से अधिक खाते को नियंत्रित करने के लिए किया जाता है, कृपया चुनें कि आप किस खाते को आयात करना चाहते हैं</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">मुख्य भ्रष्टाचार त्रुटि</string>
     <string name="error_corrupted_key_content">ऐप डेटाबेस से आपकी एन्क्रिप्टेड निजी कुंजी को पुनर्प्राप्त करने में असमर्थ है। इसके कारण आपको अपनी कुंजी फिर से दर्ज करने की आवश्यकता होगी। या तो एक ब्राइंकी के रूप में या बिन बैकअप फ़ाइल बनाएं जो आपके एसडीकार्ड में स्वचालित रूप से जेनरेट और संग्रहीत हो, यदि खाता ऐप द्वारा बनाया गया था</string>
     <string name="invalid_pin">अमान्य पिन</string>
+    <string name="network_loading_user_click_toast">नेटवर्क लोड हो रहा है। कृपया प्रतीक्षा करें…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">होम</string>
     <string name="txt_transactions">लेन-देन</string>
     <string name="txt_refunds_returns">धनवापसी / रिटर्न</string>
     <string name="txt_settlement">समझौता</string>
-    <string name="bitshares_nodes_dialog_title">बिशशेयर नोड्स</string>
+    <string name="bitshares_nodes_dialog_title">ब्लॉक: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">देय राशि</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">कृपया प्रतीक्षा करें</string>
     <string name="error_node_unreachable">कोई नोड पहुंचा जा सकता है</string>
     <string name="invoice_subject">%1$s से पामपे चालान</string>
+    <string name="memo_warning">ध्यान दें: मेमो फ़ील्ड को आपके भुगतान को व्यापारी के अनुरोध के साथ सही ढंग से मिलान करना आवश्यक है।</string>
     <string name="before_s">इससे पहले: %1$s</string>
     <string name="share">शेयर</string>
     <string name="share_with">के साथ शेयर करें</string>
-    <string name="connecting">कनेक्ट ...</string>
+    <string name="connecting">कनेक्ट…</string>
+    <string name="error_bridge_title">ब्रिज की त्रुटि</string>
+    <string name="error_bridge_content">मुद्रा रूपांतरण पुल नीचे की ओर लगता है। \n \n कृपया संपर्क समर्थन करें। \n \nError कोड है: %1$d</string>
+    <string name="button_accept_tx">लेन-देन स्वीकार करें</string>
+    <string name="dialog_accept_tx_title">लेनदेन स्वीकार करें?</string>
+    <string name="dialog_accept_tx_summary">लेन-देन का पता चला है, लेकिन अभी तक पूरी तरह से पुष्टि नहीं हुई है।</string>
+    <string name="option_add_surety">ज़मानत जोड़ें</string>
+    <string name="option_wait">रुकिए</string>
+    <string name="option_accept">स्वीकार करना</string>
+    <string name="title__step_payment_seen">भुगतान देखा गया</string>
+    <string name="msg__step_payment_seen">नेटवर्क पुष्टि की प्रतीक्षा की जा रही है</string>
+    <string name="msg__step_payment_seen_done">भुगतान को एक ब्लॉक में शामिल किया गया है</string>
+    <string name="title__step_payment_received">भुगतान प्राप्त</string>
+    <string name="template_tx_progress">अधिक नेटवर्क पुष्टिकरण की प्रतीक्षा की जा रही है। %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">पर्याप्त पुष्टि प्राप्त हुई</string>
+    <string name="title__step_payment_confirmed">कीमत का भुगतान पूरा हुआ</string>
+    <string name="msg__step_payment_confirmed">व्यापारी और राजदूतों को आउटपुट लेन-देन शुरू हुआ</string>
+    <string name="msg__step_payment_confirmed_done">भुगतान प्रसंस्करण पूरा हुआ</string>
+    <string name="error_estimate_input_content_template">इनपुट राशि का अनुमान लगाने में त्रुटि। \n \n पुल प्रदाता से त्रुटि: \n \n %1$s</string>
+    <string name="error_payment_processing_content">आपके अनुरोध को संसाधित करते समय कोई त्रुटि हुई है।</string>
+    <string name="error_payment_request_content_template">ब्रिज प्रदाता अभी %1$s को संसाधित नहीं कर सकता है। बाद में पुन: प्रयास करें। पुल प्रदाता से \n \nError: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">भुगतान अनुरोध का चयन करें</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">यह आने वाले भुगतान को %1$s के पहले दर्ज किए गए भुगतान अनुरोध से लिंक करेगा</string>
     <string name="dialog_msg_incoming_payment_details">आने वाले भुगतान विवरण</string>
     <string name="dialog_generic_title_confirm">क्या आपको यकीन है?</string>
-    <string name="dialog_generic_msg_confirm">कृपया ध्यान दें कि यह क्रिया पूर्ववत नहीं की जा सकती है</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">खारिज</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">कीमत का भुगतान पूरा हुआ!</string>
-    <string name="txt_cool">ठंडा!</string>
+    <string name="title__payment_confirmed">कीमत का भुगतान पूरा हुआ!</string>
+    <string name="button__view_transactions">लेन-देन देखें</string>
+    <string name="template__received">प्राप्त: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">सेटिंग्स</string>
     <string name="general">सामान्य</string>
-    <string name="security">सुरक्षा</string>
-    <string name="backups">बैकअप</string>
-    <string name="tokens">टोकन</string>
     <string name="accounts">हिसाब किताब</string>
+    <string name="tokens">टोकन</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">रात्री स्वरुप</string>
+    <string name="title__local_fiat_currency">स्थानीय फिएट मुद्रा</string>
     <string name="currency_info">मुद्रा स्वचालित रूप से आपकी भाषा और देश चयन के आधार पर चुनी जाती है। यदि आप उन्हें बदलना चाहते हैं, तो आपको अपने डिवाइस की वैश्विक सिस्टम सेटिंग्स पर जाना होगा।</string>
     <string name="screen_saver">स्क्रीन सेवर</string>
     <string name="source">स्रोत</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">डिफ़ॉल्ट फ़ोल्डर (/ PalmPay)</string>
     <string name="txt_folder">फ़ोल्डर</string>
     <string name="choose">चुनें</string>
-    <string name="screen_saver_time">के बाद सक्षम करें ...</string>
+    <string name="folder_has_no_images_error">त्रुटि, चुने गए फ़ोल्डर में कोई छवि नहीं है</string>
+    <string name="screen_saver_time">के बाद सक्षम करें…</string>
     <string name="one_minute">1 मिनट</string>
     <string name="three_minutes">3 मिनट</string>
     <string name="five_minutes">5 मिनट</string>
@@ -169,27 +189,43 @@
     <string name="city">शहर</string>
     <string name="country">देश</string>
     <string name="bugs_or_ideas">कीड़े या विचार?</string>
-    <string name="bugs_or_ideas_contact_info">टेलीग्राम चैट: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">तार: https://t.me/Agorise \nKeybase: https://keybase.io/team.Abise</string>
     <string name="accept">स्वीकार करना</string>
     <string name="select">चुनते हैं</string>
     <string name="are_you_sure">क्या आपको यकीन है?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">बैकअप brainkey</string>
-    <string name="copied_to_clipboard">क्लिपबोर्ड पर नकल</string>
-    <string name="bin_file_description">बिन फ़ाइल हमेशा अपने बैकअप .bin फ़ाइल को एक गुप्त माइक्रोएसडी कार्ड या यूएसबी स्टिक में सहेजें।</string>
-    <string name="create_a_backup">बैकअप बनाएं</string>
-    <string name="brainkey_description">Brainkey। खाता पुनर्प्राप्ति शब्द जिन्हें कैप्चर या कॉपी किया जा सकता है, लेकिन संपादित नहीं किया जा सकता है।</string>
-    <string name="txt_brain_key_info">इसे प्रिंट करें, या इसे लिखें। आपकी रिकवरी कुंजी तक पहुंच वाले किसी भी व्यक्ति को इस वॉलेट के भीतर धन की पहुंच होगी।</string>
-    <string name="view_and_copy">देखें और कॉपी करें</string>
-    <string name="title_bin_backup">निर्यात .bin बैकअप</string>
-    <string name="hint_password">पारण शब्द</string>
-    <string name="hint_password_confirmation">पासवर्ड पुष्टि</string>
-    <string name="error_password_mandatory">एक पासवर्ड दर्ज करना होगा</string>
-    <string name="error_password_too_short">पासवर्ड बहुत छोटा है</string>
-    <string name="error_password_confirmation_mismatch">पासवर्ड और पुष्टि मेल नहीं खाते</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">सुरक्षा के लिए ताला</string>
+    <string name="title__security_dialog">एक सुरक्षा लॉक चुनें</string>
+    <string name="text__pin">पिन</string>
+    <string name="text__pattern">पैटर्न</string>
+    <string name="text__none">कोई नहीं</string>
+    <string name="button__choose">चुनें</string>
+    <string name="title__re_enter_your_pin">अपना पिन पुनः दर्ज करें</string>
+    <string name="msg__enter_your_pin">जारी रखने के लिए अपना PalmPay पिन दर्ज करें</string>
+    <string name="error__wrong_pin">गलत पिन</string>
+    <string name="title__set_palmpay_security_lock">PalmPay Security सेट करें</string>
+    <string name="msg__set_a_pin">सुरक्षा के लिए, एक पिन सेट करें</string>
+    <string name="msg__min_pin_length">पिन कम से कम 6 अंकों का होना चाहिए</string>
+    <string name="title__pins_dont_match">पिन मेल नहीं खाते हैं</string>
+    <string name="title__re_enter_your_pattern">अपने पैटर्न को फिर से दर्ज करें</string>
+    <string name="msg__enter_your_pattern">जारी रखने के लिए अपना PalmPay पैटर्न दर्ज करें</string>
+    <string name="msg__set_a_pattern">सुरक्षा के लिए, एक पैटर्न सेट करें</string>
+    <string name="msg__release_finger">जब किया उंगली जारी</string>
+    <string name="button__clear">स्पष्ट</string>
+    <string name="button__next">आगामी</string>
+    <string name="text__draw_an_unlock_pattern">अनलॉक पैटर्न ड्रा करें</string>
+    <string name="msg__draw_pattern_confirm">पुष्टि करने के लिए फिर से पैटर्न बनाएं</string>
+    <string name="button__confirm">की पुष्टि करें</string>
+    <string name="msg__your_new_unlock_pattern">आपका नया अनलॉक पैटर्न</string>
+    <string name="error__wrong_pattern">गलत पैटर्न</string>
+    <string name="text__pattern_recorded">पैटर्न दर्ज किया गया</string>
+    <string name="error__connect_at_least_4_dots">कम से कम 4 डॉट्स कनेक्ट करें। पुनः प्रयास करें।</string>
+    <string name="error__security_lock_too_many_attempts_minutes">बहुत सारे गलत प्रयास। %1$d मिनट में पुन: प्रयास करें।</string>
+    <string name="error__security_lock_too_many_attempts_seconds">बहुत सारे गलत प्रयास। %1$d सेकंड में फिर से प्रयास करें।</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">चालू खाता</string>
     <string name="merchant_account_s">व्यापारी खाता: %1$s</string>
     <string name="upgrade_to_ltm">एलटीएम में अपग्रेड करें</string>
     <string name="upgrade_account_description">"लाइफटाइम सदस्यता (एलटीएम) में अपग्रेड करें। बिशशेर्स के एलटीएम खाते निकट शून्य फीस का भुगतान करते हैं, रेफरल के लिए 80% कैशबैक और बोनस प्राप्त करते हैं।"</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"क्या आप वाकई इस वॉलेट से खाता \'%1$s\' को हटाना चाहते हैं?"</string>
     <string name="remove">हटाना</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">वांछित Smartcoin</string>
-    <string name="txt_customer_loyalty">वफादारी अंक जारी करें ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">बैकअप</string>
+    <string name="backup_brainkey">बैकअप brainkey</string>
+    <string name="copied_to_clipboard">क्लिपबोर्ड पर नकल</string>
+    <string name="bin_file_description">बिन फ़ाइल हमेशा अपने बैकअप .bin फ़ाइल को एक गुप्त माइक्रोएसडी कार्ड या यूएसबी स्टिक में सहेजें।</string>
+    <string name="create_a_backup">बैकअप बनाएं</string>
+    <string name="brainkey_description">Brainkey। खाता पुनर्प्राप्ति शब्द जिन्हें कैप्चर या कॉपी किया जा सकता है, लेकिन संपादित नहीं किया जा सकता है।</string>
+    <string name="txt_brain_key_info">इसे प्रिंट करें, या इसे लिखें। आपकी रिकवरी कुंजी तक पहुंच वाले किसी भी व्यक्ति को इस वॉलेट के भीतर धन की पहुंच होगी।</string>
+    <string name="view_and_copy">देखें और कॉपी करें</string>
+    <string name="title_bin_backup">निर्यात .bin बैकअप</string>
+    <string name="hint_password">पारण शब्द</string>
+    <string name="hint_password_confirmation">पासवर्ड पुष्टि</string>
+    <string name="error_password_mandatory">एक पासवर्ड दर्ज करना होगा</string>
+    <string name="error_password_too_short">पासवर्ड बहुत छोटा है</string>
+    <string name="error_password_confirmation_mismatch">पासवर्ड और पुष्टि मेल नहीं खाते</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">वांछित Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">आपके द्वारा प्राप्त की जाने वाली सभी क्रिप्टोकरेंसी स्वचालित रूप से आपके वांछित Smartcoin में परिवर्तित हो जाती है और आपके BitShares Merchant Account में सहेज ली जाती है।</string>
+    <string name="title__loyalty_points">वफादारी अंक</string>
+    <string name="msg__loyalty_points_description">जब वे आपके साथ पैसा खर्च करते हैं तो वफादारी अंक आपके ग्राहकों को स्वचालित रूप से भेजे जा सकते हैं। आपके पास कुछ ऐसे टोकन होने चाहिए, जिन्हें आप अपने ग्राहकों को भेजना चाहते हैं।</string>
     <string name="warning_insufficient_reward_asset_balance">आपके खाते में अभी तक कोई %1$s नहीं है। कृपया अपने ग्राहकों को वफादारी अंक के रूप में देने का प्रयास करने से पहले कुछ हासिल करें।</string>
     <string name="send">भेजना</string>
     <string name="txt_for_every">हर एक के लिए</string>
     <string name="txt_spent">खर्च किया</string>
-    <string name="txt_bitcoin_altcoin_deposited">8 क्रिप्टोक्रांस तक स्वीकार करें:</string>
+    <string name="title__cryptocurrency_preferences">क्रिप्टोक्यूरेंसी प्राथमिकताएं</string>
+    <string name="msg__cryptocurrency_preferences_description">8 लोकप्रिय क्रिप्टोकरेंसी चुनें जिन्हें आप अपने ग्राहकों से स्वीकार करेंगे। ये सिक्के होमस्क्रीन पर दिखाई देंगे। आप किसी भी समय इन विकल्पों को बदल सकते हैं।</string>
     <string name="altcoins_should_not_more_than">कृपया 8 से अधिक इनपुट संपत्तियों का चयन करें</string>
-    <string name="bitshares_unselection_message">बिशशेयर (बीटीएस) कोर टोकन की आवश्यकता है।</string>
     <string name="toast_low_volume_market">कम मात्रा बाजार संपत्ति अस्थायी रूप से अक्षम हैं। एक बार बाजार की मात्रा काफी मात्रा में बढ़ने के बाद उन्हें सक्षम किया जाएगा</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">प्रतीक चिन्ह</string>
     <string name="store_name">स्टोर नाम</string>
     <string name="address">पता</string>
@@ -238,7 +292,11 @@
     <string name="search">खोज</string>
     <string name="filter">फ़िल्टर</string>
     <string name="export">निर्यात</string>
-    <string name="confirming">पुष्टि ...</string>
+    <string name="text__no_transactions">कोई लेन-देन नहीं</string>
+    <string name="text__awaiting_payment">भुगतान का इंतजार…</string>
+    <string name="text__confirming">पुष्टि…</string>
+    <string name="text__complete">पूर्ण</string>
+    <string name="text__failed">अनुत्तीर्ण होना</string>
     <string name="pdf_generated_msg_s">पीडीएफ जेनरेट और सहेजा गया: %1$s</string>
     <string name="pdf_generated_msg_error_s">पीडीएफ उत्पन्न करने में असमर्थ। कृपया पुन: प्रयास करें। त्रुटि: %1$s</string>
     <string name="csv_generated_msg_s">सीएसवी उत्पन्न और सहेजा गया: %1$s</string>
@@ -282,9 +340,9 @@
     <string name="total">कुल</string>
     <string name="paid_s_s">भुगतान %1$s %2$s</string>
     <string name="change_due">बचे हुए छुट्टे</string>
-    <string name="e_receipt_memo_s">मेमो: __1 एस__</string>
+    <string name="e_receipt_memo_s">मेमो: %1$s</string>
     <string name="e_receipt_date_s">तिथि: %1$s</string>
-    <string name="e_receipt_tx_s">टीएक्स: __1 एस__</string>
+    <string name="e_receipt_tx_s">टीएक्स: %1$s</string>
     <string name="e_receipt_subject">%1$s से PalmPay eReceipt</string>
 
     <!-- Pin Activity -->
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">नोड कनेक्शन त्रुटि, पुनः प्रयास कर रहा है</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">पूर्ण नोड से त्रुटि। Msg: %1$s</string>
+    <string name="error_payment_amount_title">प्राप्त राशि विसंगति</string>
+    <string name="error_payment_amount_content">ऐसा लगता है कि जैसा हमें उम्मीद थी उससे कम मिला। धनवापसी को मैन्युअल रूप से संसाधित करना होगा।</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">हमें आने वाला भुगतान मिला, लेकिन कोई अनुरोध नहीं मिला</string>

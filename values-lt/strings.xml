@@ -6,13 +6,13 @@
     <string name="disagree">Nesutikti</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Įkeliamas turtas ...</string>
-    <string name="title_loading_asset_type_data">Įkeliamas turinio tipo duomenys ...</string>
+    <string name="title_loading_assets">Įkeliamas turtas…</string>
+    <string name="title_loading_asset_type_data">Įkeliamas turinio tipo duomenys…</string>
     <string name="title_assets_ready">Turto duomenų bazė paruošta</string>
     <string name="msg_loading_all_existing_assets">Atlikite daugybę prašymų, kad gautumėte visą esamo turto sąrašą</string>
     <string name="msg_loading_asset_type_data">Išsamesnės informacijos apie turtą</string>
     <string name="msg_loading_asset_in_database">Įkeltas %1$d turtas į duomenų bazę</string>
-    <string name="msg_assets_loaded">Be to, nustatykite savo paskyrą ...</string>
+    <string name="msg_assets_loaded">Be to, nustatykite savo paskyrą…</string>
     <string name="error_fetching_marketcap_data">Nepavyko įkelti rinkoscap duomenų</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Prašome įvesti teisingą brainkey, jis turėtų būti nuo 12 iki 16 žodžių.</string>
     <string name="unable_to_load_brainkey">Nepavyksta įkelti brainkey</string>
     <string name="account_already_exist">Sąskaita jau egzistuoja</string>
-    <string name="importing_your_wallet">Importuodamas piniginę ...</string>
+    <string name="importing_your_wallet">Importuodamas piniginę…</string>
     <string name="account_candidates_title">Pasirinkite sąskaitą</string>
     <string name="account_candidates_content">Raktai, gauti iš šio "brainkey", atrodo, yra naudojami valdyti daugiau nei vieną paskyrą, pasirinkite tą sąskaitą, kurią norite importuoti</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Pagrindinė korupcijos klaida</string>
     <string name="error_corrupted_key_content">Programa negali atkurti jūsų užšifruotų asmeninių raktų iš duomenų bazės. Dėl to jums reikės vėl įvesti raktus. Arba kaip brainkey ar formą atsarginės kopijos failą, kuris buvo sukurtas ir automatiškai išsaugotas jūsų SD kortelėje, jei paskyra sukūrė programą</string>
     <string name="invalid_pin">Netinkamas PIN kodas</string>
+    <string name="network_loading_user_click_toast">Tinklas įkeliamas. Prašau palauk…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Namai</string>
     <string name="txt_transactions">Sandoriai</string>
     <string name="txt_refunds_returns">Grąžinimas / grąžinimai</string>
     <string name="txt_settlement">Atsiskaitymas</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares mazgai</string>
+    <string name="bitshares_nodes_dialog_title">Blokuoti: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Mokėtina suma</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Prašau palauk</string>
     <string name="error_node_unreachable">Negalima pasiekti mazgo</string>
     <string name="invoice_subject">"PalmPay" sąskaita iš %1$s</string>
+    <string name="memo_warning">PASTABA: atminties laukas reikalingas, kad jūsų mokėjimas būtų teisingai suderintas su pardavėjo prašymu.</string>
     <string name="before_s">Prieš: %1$s</string>
     <string name="share">Dalintis</string>
     <string name="share_with">Pasidalink su</string>
-    <string name="connecting">Prisijungimas ...</string>
+    <string name="connecting">Prisijungimas…</string>
+    <string name="error_bridge_title">Tilto klaida</string>
+    <string name="error_bridge_content">Atrodo, kad valiutos konvertavimo tiltas žemyn. \n \nPrašome kreiptis pagalbos. \n \nSprendimo kodas yra: %1$d</string>
+    <string name="button_accept_tx">Priimti sandorį</string>
+    <string name="dialog_accept_tx_title">Priimti sandorį?</string>
+    <string name="dialog_accept_tx_summary">Sandoris buvo aptiktas, bet dar nėra visiškai patvirtintas.</string>
+    <string name="option_add_surety">Pridėti laidavimą</string>
+    <string name="option_wait">Laukti</string>
+    <string name="option_accept">Priimti</string>
+    <string name="title__step_payment_seen">Mokėjimas matomas</string>
+    <string name="msg__step_payment_seen">Laukiama tinklo patvirtinimo</string>
+    <string name="msg__step_payment_seen_done">Mokėjimas įtrauktas į bloką</string>
+    <string name="title__step_payment_received">Apmokėjimas gautas</string>
+    <string name="template_tx_progress">Laukiama daugiau tinklo patvirtinimų. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Gauta pakankamai patvirtinimų</string>
+    <string name="title__step_payment_confirmed">Mokėjimas patvirtintas</string>
+    <string name="msg__step_payment_confirmed">Pradėtas produkcijos sandoris prekybininkams ir ambasadoriams</string>
+    <string name="msg__step_payment_confirmed_done">Atliktas mokėjimų apdorojimas</string>
+    <string name="error_estimate_input_content_template">Klaida, bandant įvertinti įvesties sumą. \n \n Klaida iš tilto teikėjo: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Apdorojant užklausą įvyko klaida.</string>
+    <string name="error_payment_request_content_template">Tilto teikėjas šiuo metu negali apdoroti %1$s. Pabandykite dar kartą vėliau. \n \nĮvykimas iš tilto teikėjo: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Pasirinkite mokėjimo užklausą</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Tai susieja gautą mokėjimą prie anksčiau užregistruoto mokėjimo prašymo %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Gaunama mokėjimo informacija</string>
     <string name="dialog_generic_title_confirm">Ar tu tuo tikras?</string>
-    <string name="dialog_generic_msg_confirm">Atminkite, kad šio veiksmo negalima atšaukti</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Atleisti</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Apmokėjimas patvirtintas!</string>
-    <string name="txt_cool">SAUNUS!</string>
+    <string name="title__payment_confirmed">Apmokėjimas patvirtintas!</string>
+    <string name="button__view_transactions">Peržiūrėti operacijas</string>
+    <string name="template__received">Gauta: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Nustatymai</string>
     <string name="general">Generalinis direktorius</string>
-    <string name="security">Saugumas</string>
-    <string name="backups">Atsarginės kopijos</string>
-    <string name="tokens">Žetonai</string>
     <string name="accounts">Sąskaitos</string>
+    <string name="tokens">Žetonai</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Nakties rėžimas</string>
+    <string name="title__local_fiat_currency">Vietinė „Fiat“ valiuta</string>
     <string name="currency_info">Valiuta automatiškai pasirenkama atsižvelgiant į pasirinktą kalbą ir šalį. Jei norite juos pakeisti, turite pereiti prie jūsų įrenginio bendrųjų sistemos nustatymų.</string>
     <string name="screen_saver">Ekrano užsklanda</string>
     <string name="source">Šaltinis</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Numatytasis aplankas (/ PalmPay)</string>
     <string name="txt_folder">Aplankas</string>
     <string name="choose">Pasirinkite</string>
-    <string name="screen_saver_time">Įgalinti po ...</string>
+    <string name="folder_has_no_images_error">Klaida, pasirinktame aplanke nėra vaizdų</string>
+    <string name="screen_saver_time">Įgalinti po…</string>
     <string name="one_minute">1 minutę</string>
     <string name="three_minutes">3 minutės</string>
     <string name="five_minutes">5 minutės</string>
@@ -169,27 +189,43 @@
     <string name="city">Miestas</string>
     <string name="country">Šalis</string>
     <string name="bugs_or_ideas">Klaidos ar idėjos?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram pokalbis: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegrama: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Priimti</string>
     <string name="select">Pasirinkite</string>
     <string name="are_you_sure">Ar tu tuo tikras?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Atsarginė brainkey</string>
-    <string name="copied_to_clipboard">Nukopijuotas į mainų sritį</string>
-    <string name="bin_file_description">Bin failas. Visuomet atsarginę .bin rinkmeną išsaugokite slaptoje "MicroSD" kortelėje arba "USB Stick".</string>
-    <string name="create_a_backup">Sukurkite atsarginę kopiją</string>
-    <string name="brainkey_description">Brainkey. Paskyros atkūrimo žodžiai, kuriuos galima užfiksuoti ar kopijuoti, bet ne redaguoti.</string>
-    <string name="txt_brain_key_info">Spausdinkite tai arba įrašykite. Kiekvienas asmuo, turintis prieigą prie jūsų atkūrimo raktos, galės naudotis lėšomis, esančiomis šioje piniginėje.</string>
-    <string name="view_and_copy">Peržiūrėti ir kopijuoti</string>
-    <string name="title_bin_backup">Eksportuoti .bin atsarginę kopiją</string>
-    <string name="hint_password">Slaptažodis</string>
-    <string name="hint_password_confirmation">slaptažodžio patvirtinimas</string>
-    <string name="error_password_mandatory">Reikia įvesti slaptažodį</string>
-    <string name="error_password_too_short">Slaptažodis yra per trumpas</string>
-    <string name="error_password_confirmation_mismatch">Slaptažodžio ir patvirtinimo neatitikimas</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Apsaugos užraktas</string>
+    <string name="title__security_dialog">Pasirinkite apsauginį užraktą</string>
+    <string name="text__pin">PIN kodas</string>
+    <string name="text__pattern">Raštas</string>
+    <string name="text__none">Nė vienas</string>
+    <string name="button__choose">Pasirinkite</string>
+    <string name="title__re_enter_your_pin">Dar kartą įveskite PIN kodą</string>
+    <string name="msg__enter_your_pin">Jei norite tęsti, įveskite savo PalmPay PIN kodą</string>
+    <string name="error__wrong_pin">Klaidingas PIN kodas</string>
+    <string name="title__set_palmpay_security_lock">Nustatykite „PalmPay“ saugumą</string>
+    <string name="msg__set_a_pin">Saugumui nustatyti PIN</string>
+    <string name="msg__min_pin_length">PIN kodas turi būti ne mažesnis kaip 6 skaitmenys</string>
+    <string name="title__pins_dont_match">PIN kodai neatitinka</string>
+    <string name="title__re_enter_your_pattern">Iš naujo įveskite savo modelį</string>
+    <string name="msg__enter_your_pattern">Jei norite tęsti, įveskite savo PalmPay modelį</string>
+    <string name="msg__set_a_pattern">Saugumui nustatyti nustatykite Pattern</string>
+    <string name="msg__release_finger">Atlikite pirštą</string>
+    <string name="button__clear">Išvalyti</string>
+    <string name="button__next">Kitas</string>
+    <string name="text__draw_an_unlock_pattern">Nupieškite atrakinimo modelį</string>
+    <string name="msg__draw_pattern_confirm">Dar kartą patvirtinkite modelį, kad patvirtintumėte</string>
+    <string name="button__confirm">Patvirtinti</string>
+    <string name="msg__your_new_unlock_pattern">Jūsų naujas atrakinimo modelis</string>
+    <string name="error__wrong_pattern">Netinkamas modelis</string>
+    <string name="text__pattern_recorded">Įrašytas raštas</string>
+    <string name="error__connect_at_least_4_dots">Prijunkite bent 4 taškus. Bandyk iš naujo.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Per daug neteisingų bandymų. Bandykite dar kartą %1$d minučių.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Per daug neteisingų bandymų. Bandykite dar kartą %1$d sekundėmis.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Dabartinė paskyra</string>
     <string name="merchant_account_s">Prekybininko paskyra: %1$s</string>
     <string name="upgrade_to_ltm">Atnaujinkite iki LTM</string>
     <string name="upgrade_account_description">"Upgrade to LifeTime" (LTM). "Bitshares" "LTM" sąskaitos moka beveik nulinius mokesčius, gauna 80 proc. Pinigų grąžinimo ir premijų už referalų ".</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Ar tikrai norite pašalinti paskyrą" %1$s "iš šios piniginės?"</string>
     <string name="remove">Pašalinti</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Pageidaujamas "Smartcoin"</string>
-    <string name="txt_customer_loyalty">Išdavimo lojalumo taškai kaip ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Atsarginės kopijos</string>
+    <string name="backup_brainkey">Atsarginė brainkey</string>
+    <string name="copied_to_clipboard">Nukopijuotas į mainų sritį</string>
+    <string name="bin_file_description">Bin failas. Visuomet atsarginę .bin rinkmeną išsaugokite slaptoje "MicroSD" kortelėje arba "USB Stick".</string>
+    <string name="create_a_backup">Sukurkite atsarginę kopiją</string>
+    <string name="brainkey_description">Brainkey. Paskyros atkūrimo žodžiai, kuriuos galima užfiksuoti ar kopijuoti, bet ne redaguoti.</string>
+    <string name="txt_brain_key_info">Spausdinkite tai arba įrašykite. Kiekvienas asmuo, turintis prieigą prie jūsų atkūrimo raktos, galės naudotis lėšomis, esančiomis šioje piniginėje.</string>
+    <string name="view_and_copy">Peržiūrėti ir kopijuoti</string>
+    <string name="title_bin_backup">Eksportuoti .bin atsarginę kopiją</string>
+    <string name="hint_password">Slaptažodis</string>
+    <string name="hint_password_confirmation">slaptažodžio patvirtinimas</string>
+    <string name="error_password_mandatory">Reikia įvesti slaptažodį</string>
+    <string name="error_password_too_short">Slaptažodis yra per trumpas</string>
+    <string name="error_password_confirmation_mismatch">Slaptažodžio ir patvirtinimo neatitikimas</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Pageidaujamas "Smartcoin"</string>
+    <string name="msg__desired_smartcoin_description">Visos gautos „Cryptocurrencies“ yra automatiškai konvertuojamos į norimą „Smartcoin“ ir išsaugomos „BitShares“ prekybininko paskyroje.</string>
+    <string name="title__loyalty_points">Lojalumo taškai</string>
+    <string name="msg__loyalty_points_description">Lojalumo taškai gali būti automatiškai siunčiami klientams, kai jie išleidžia pinigus su jumis. Turite turėti tam tikrus žetonus, kuriuos norite siųsti savo klientams.</string>
     <string name="warning_insufficient_reward_asset_balance">Jūsų paskyra dar neturi jokių %1$s. Prieš bandydami suteikti savo klientams kaip lojalumo taškai, įsigykite.</string>
     <string name="send">Siųsti</string>
     <string name="txt_for_every">Kiekvienam</string>
     <string name="txt_spent">išleista</string>
-    <string name="txt_bitcoin_altcoin_deposited">Priimti iki 8 kriptokursų:</string>
+    <string name="title__cryptocurrency_preferences">„Cryptocurrency Preferences“</string>
+    <string name="msg__cryptocurrency_preferences_description">Pasirinkite iki 8 populiarių cryptocurrencies, kad jums bus priimti iš savo klientų. Šios monetos bus rodomos pradiniame ekrane. Šiuos pasirinkimus galite pakeisti bet kuriuo metu.</string>
     <string name="altcoins_should_not_more_than">Pasirinkite ne daugiau kaip 8 įvesties turinį</string>
-    <string name="bitshares_unselection_message">Būtinas Bitshares (BTS) branduolio ženklas.</string>
     <string name="toast_low_volume_market">Mažos apimties rinkos turtas laikinai neleidžiamas. Jie bus įjungiami, kai tik padidės rinkos apimtis</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logotipas</string>
     <string name="store_name">Parduotuvės vardas</string>
     <string name="address">Adresas</string>
@@ -238,7 +292,11 @@
     <string name="search">Paieška</string>
     <string name="filter">Filtras</string>
     <string name="export">Eksportas</string>
-    <string name="confirming">Patvirtinimas ...</string>
+    <string name="text__no_transactions">Sandorių nėra</string>
+    <string name="text__awaiting_payment">Laukiama mokėjimo…</string>
+    <string name="text__confirming">Patvirtinimas…</string>
+    <string name="text__complete">Baigta</string>
+    <string name="text__failed">Nepavyko</string>
     <string name="pdf_generated_msg_s">Sukurta ir išsaugota PDF: %1$s</string>
     <string name="pdf_generated_msg_error_s">Nepavyko generuoti pdf. Pabandykite dar kartą. Klaida: %1$s</string>
     <string name="csv_generated_msg_s">Sukurta ir išsaugota CSV: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Autobusų ryšio klaida, pakartotinis bandymas</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Klaida iš pilno mazgo. Pranešimas: %1$s</string>
+    <string name="error_payment_amount_title">Gautas sumos neatitikimas</string>
+    <string name="error_payment_amount_content">Atrodo, kad gavome mažiau nei tikėtasi. Grąžinimas turės būti apdorotas rankiniu būdu.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Mes gavome mokestį, bet prašymas nerastas</string>

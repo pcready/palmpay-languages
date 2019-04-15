@@ -6,13 +6,13 @@
     <string name="disagree">Келіспеймін</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Активтер жүктелуде ...</string>
-    <string name="title_loading_asset_type_data">Активтер түрінің деректері жүктелуде ...</string>
+    <string name="title_loading_assets">Активтер жүктелуде…</string>
+    <string name="title_loading_asset_type_data">Активтер түрінің деректері жүктелуде…</string>
     <string name="title_assets_ready">Активтердің дерекқоры дайын</string>
     <string name="msg_loading_all_existing_assets">Барлық қолданыстағы активтердің толық тізімін алу үшін бірқатар сұрауды орындау</string>
     <string name="msg_loading_asset_type_data">Қосымша актив туралы мәліметтерді сұрау</string>
     <string name="msg_loading_asset_in_database">%1$d активтерін дерекқорға жүктеді</string>
-    <string name="msg_assets_loaded">Бұдан әрі есептік жазбаңызды орнатыңыз ...</string>
+    <string name="msg_assets_loaded">Бұдан әрі есептік жазбаңызды орнатыңыз…</string>
     <string name="error_fetching_marketcap_data">Marketcap деректерін жүктеу мүмкін болмады</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Пожалуйста, бринкей дұрыс енгізіңіз, ол 12-ден 16 сөзге дейін болуы керек.</string>
     <string name="unable_to_load_brainkey">Бринкейді жүктеу мүмкін емес</string>
     <string name="account_already_exist">Есептік жазба бар</string>
-    <string name="importing_your_wallet">Әмияныңызды импорттау ...</string>
+    <string name="importing_your_wallet">Әмияныңызды импорттау…</string>
     <string name="account_candidates_title">Есептік жазбаны таңдаңыз</string>
     <string name="account_candidates_content">Бұл бринкейден алынған кілттер біреуден артық тіркелгіні басқару үшін қолданылған сияқты, импорттағыңыз келетін есептік жазбаны таңдаңыз</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Негізгі жемқорлық қателігі</string>
     <string name="error_corrupted_key_content">Қолданба дерекқордан шифрланған жеке кілттеріңізді қалпына келтіре алмайды. Осыған байланысты кілттеріңізді қайтадан енгізу қажет болады. Есептік жазбаны қолданба арқылы жасасаңыз, сканерде автоматты түрде жасалатын және сақталатын бин сақтық көшірме файлын жасаңыз</string>
     <string name="invalid_pin">PIN дұрыс емес</string>
+    <string name="network_loading_user_click_toast">Желі жүктелуде. Өтінемін күте тұрыңыз…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Үй</string>
     <string name="txt_transactions">Мәмілелер</string>
     <string name="txt_refunds_returns">Қайтару / қайтару</string>
     <string name="txt_settlement">Есеп айырысу</string>
-    <string name="bitshares_nodes_dialog_title">Битшарлардың түйіндері</string>
+    <string name="bitshares_nodes_dialog_title">Блок: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Төлем сомасы</string>
@@ -112,7 +113,7 @@
     <string name="eight">8</string>
     <string name="nine">9</string>
     <string name="title_error_market">Тапсырыс кітабы қатесі</string>
-    <string name="content_error_market">Қазіргі уақытта DEX-те алмасуды __1__-ға дейін орындауға мүмкіндік беретін ешқандай тапсырыс жоқ. \n \nПараметрлер экранына өтіп, басқа шығыс активін таңдаңыз.</string>
+    <string name="content_error_market">Қазіргі уақытта DEX-те алмасуды %1$s-ға дейін орындауға мүмкіндік беретін ешқандай тапсырыс жоқ. \n \nПараметрлер экранына өтіп, басқа шығыс активін таңдаңыз.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Төлеңіздер</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Өтінемін күте тұрыңыз</string>
     <string name="error_node_unreachable">Ешқандай түйінге қол жеткізе алмады</string>
     <string name="invoice_subject">PalmPay шот-фактурасы %1$s-ден</string>
-    <string name="before_s">Бұрын: __1__</string>
+    <string name="memo_warning">ЕСКЕРТПЕ: Memo өрісі төлемді саудагердің сұрауы бойынша дұрыс сәйкестендіру үшін қажет.</string>
+    <string name="before_s">Бұрын: %1$s</string>
     <string name="share">Бөлісу</string>
     <string name="share_with">Бөлісу</string>
-    <string name="connecting">Қосылуда ...</string>
+    <string name="connecting">Қосылуда…</string>
+    <string name="error_bridge_title">Bridge қатесі</string>
+    <string name="error_bridge_content">Валюта айырбастау көпірі төмендейді. \n \nжелесіне хабарласыңыз. \n \nЭррордың коды: %1$d</string>
+    <string name="button_accept_tx">Мәмілені қабылдау</string>
+    <string name="dialog_accept_tx_title">Мәмілені қабылдаңыз ба?</string>
+    <string name="dialog_accept_tx_summary">Мәміле анықталды, бірақ әлі толық расталды.</string>
+    <string name="option_add_surety">Кепілдікті қосыңыз</string>
+    <string name="option_wait">Күтіңіз</string>
+    <string name="option_accept">Қабылдау</string>
+    <string name="title__step_payment_seen">Төлем көрген</string>
+    <string name="msg__step_payment_seen">Желіні растау күтілуде</string>
+    <string name="msg__step_payment_seen_done">Төлем блокқа енгізілді</string>
+    <string name="title__step_payment_received">Төлем алынды</string>
+    <string name="template_tx_progress">Желіні растауды күту. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Қабылданған жеткілікті растау</string>
+    <string name="title__step_payment_confirmed">Төлем расталған</string>
+    <string name="msg__step_payment_confirmed">Сауда-саттыққа қатысушыларды және елшілерді шығара бастады</string>
+    <string name="msg__step_payment_confirmed_done">Төлемді өңдеу аяқталды</string>
+    <string name="error_estimate_input_content_template">Кіріс көлемін бағалау кезінде қате пайда болды. \n \n көпір жеткізушісінен қате: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Сұрауыңызды өңдеу кезінде қате пайда болды.</string>
+    <string name="error_payment_request_content_template">Bridge провайдері қазір %1$s өңдей алмайды. Тағы жасауды сәл кейінірек көріңізді өтінеміз. \n \nЕргерткіш провайдерінен: \n \n «%2$s»</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Төлем сұрауын таңдау</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Бұл кіріс төлемін %1$s-дың бұрын жазылған төлем сұрауына байланыстырады.</string>
     <string name="dialog_msg_incoming_payment_details">Кіретін төлем туралы мәліметтер</string>
     <string name="dialog_generic_title_confirm">Сіз сенімдісіз бе?</string>
-    <string name="dialog_generic_msg_confirm">Бұл әрекетті болдырмау мүмкін болмайтынын ескеріңіз</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Босатыңыз</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Төлем расталған!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Төлем расталған!</string>
+    <string name="button__view_transactions">Мәмілелерді қарау</string>
+    <string name="template__received">Қабылданды: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Параметрлер</string>
     <string name="general">Жалпы</string>
-    <string name="security">Қауіпсіздік</string>
-    <string name="backups">Сақтық көшірмелер</string>
-    <string name="tokens">Токендер</string>
     <string name="accounts">Есептер</string>
+    <string name="tokens">Токендер</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Түнгі режим</string>
+    <string name="title__local_fiat_currency">Жергілікті Fiat валютасы</string>
     <string name="currency_info">Валюта сіздің тіліңіз бен ел таңдауыңыз бойынша автоматты түрде таңдалады. Оларды өзгерткіңіз келсе, құрылғының жаһандық жүйелік параметрлеріне өтуіңіз керек.</string>
     <string name="screen_saver">Скринсейвер</string>
     <string name="source">Көзі</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Әдетті қалта (/ PalmPay)</string>
     <string name="txt_folder">Қалта</string>
     <string name="choose">Таңдау</string>
-    <string name="screen_saver_time">Кейін ...</string>
+    <string name="folder_has_no_images_error">Қате, таңдалған қалтада сурет жоқ</string>
+    <string name="screen_saver_time">Кейін…</string>
     <string name="one_minute">1 минут</string>
     <string name="three_minutes">3 минут</string>
     <string name="five_minutes">5 минут</string>
@@ -169,27 +189,43 @@
     <string name="city">Қала</string>
     <string name="country">Ел</string>
     <string name="bugs_or_ideas">Қателер немесе идеялар?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram чат: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Телеграмма: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Қабылдау</string>
     <string name="select">Таңдаңыз</string>
     <string name="are_you_sure">Сіз сенімдісіз бе?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Сақтық көшірмесі</string>
-    <string name="copied_to_clipboard">Алмасу буферіне көшірілді</string>
-    <string name="bin_file_description">Bin файлы. Сақтық көшірменің .bin файлын үнемі жасырын MicroSD немесе USB Stick-қа сақтаңыз.</string>
-    <string name="create_a_backup">Сақтық көшірме жасау</string>
-    <string name="brainkey_description">Бринкей. Есептік жазбаларды қалпына келтіруге немесе көшіруге болатын, бірақ өңделмеген сөздер.</string>
-    <string name="txt_brain_key_info">Оны басып шығарыңыз немесе жазыңыз. Қалпына келтіру кілтіне қол жеткізетін кез-келген адам осы әмияндағы қаражатқа қол жеткізе алады.</string>
-    <string name="view_and_copy">Қарау және көшіру</string>
-    <string name="title_bin_backup">Ішкі экспорттау</string>
-    <string name="hint_password">Құпия сөз</string>
-    <string name="hint_password_confirmation">Құпия сөзді растау</string>
-    <string name="error_password_mandatory">Құпия сөзді енгізу керек</string>
-    <string name="error_password_too_short">Құпия сөз тым қысқа</string>
-    <string name="error_password_confirmation_mismatch">Құпия сөз және растау сәйкессіздігі</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Қауіпсіздік құлпы</string>
+    <string name="title__security_dialog">Қауіпсіздік құлпын таңдаңыз</string>
+    <string name="text__pin">PIN коды</string>
+    <string name="text__pattern">Үлгі</string>
+    <string name="text__none">Жоқ</string>
+    <string name="button__choose">Таңдау</string>
+    <string name="title__re_enter_your_pin">PIN кодын қайта енгізіңіз</string>
+    <string name="msg__enter_your_pin">Жалғастыру үшін PalmPay PIN кодын енгізіңіз</string>
+    <string name="error__wrong_pin">PIN дұрыс емес</string>
+    <string name="title__set_palmpay_security_lock">PalmPay қауіпсіздігін орнатыңыз</string>
+    <string name="msg__set_a_pin">Қауіпсіздік үшін PIN кодын орнатыңыз</string>
+    <string name="msg__min_pin_length">PIN коды кемінде 6 сан болуы керек</string>
+    <string name="title__pins_dont_match">PIN кодтары сәйкес емес</string>
+    <string name="title__re_enter_your_pattern">Үлгіні қайта енгізіңіз</string>
+    <string name="msg__enter_your_pattern">Жалғастыру үшін PalmPay үлгісін енгізіңіз</string>
+    <string name="msg__set_a_pattern">Қауіпсіздік үшін Pattern орнатыңыз</string>
+    <string name="msg__release_finger">Аяқталған кезде саусақты босатыңыз</string>
+    <string name="button__clear">Таза</string>
+    <string name="button__next">Келесі</string>
+    <string name="text__draw_an_unlock_pattern">Құлпын ашу үлгісін сызыңыз</string>
+    <string name="msg__draw_pattern_confirm">Растау үшін қайта үлгіні сызыңыз</string>
+    <string name="button__confirm">Растау</string>
+    <string name="msg__your_new_unlock_pattern">Жаңа құлпын ашу үлгісі</string>
+    <string name="error__wrong_pattern">Дұрыс емес үлгі</string>
+    <string name="text__pattern_recorded">Үлгі жазылған</string>
+    <string name="error__connect_at_least_4_dots">Кем дегенде 4 нүкте қосыңыз. Қайтадан байқап көріңіз.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Тым көп қате әрекеттер. %1$d минуттан кейін қайталап көріңіз.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Тым көп қате әрекеттер. %1$d секундтан кейін қайталап көріңіз.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Ағымдағы шот</string>
     <string name="merchant_account_s">Сатушы шот: %1$s</string>
     <string name="upgrade_to_ltm">LTM-ке жаңартыңыз</string>
     <string name="upgrade_account_description">«LifeTime мүшелігіне жаңарту (LTM). Битшарлар LTM шоттары нөлдік тарифтерді төлейді, 80% ақшалай қаражат пен жолдама алу үшін бонустар алады».</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">«Осы әмияннан» %1$s «есептік жазбасын жойғыңыз келе ме?»</string>
     <string name="remove">Жою</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Қажетті Smartcoin</string>
-    <string name="txt_customer_loyalty">Адалдық ұпайлары ретінде ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Сақтық көшірмелер</string>
+    <string name="backup_brainkey">Сақтық көшірмесі</string>
+    <string name="copied_to_clipboard">Алмасу буферіне көшірілді</string>
+    <string name="bin_file_description">Bin файлы. Сақтық көшірменің .bin файлын үнемі жасырын MicroSD немесе USB Stick-қа сақтаңыз.</string>
+    <string name="create_a_backup">Сақтық көшірме жасау</string>
+    <string name="brainkey_description">Бринкей. Есептік жазбаларды қалпына келтіруге немесе көшіруге болатын, бірақ өңделмеген сөздер.</string>
+    <string name="txt_brain_key_info">Оны басып шығарыңыз немесе жазыңыз. Қалпына келтіру кілтіне қол жеткізетін кез-келген адам осы әмияндағы қаражатқа қол жеткізе алады.</string>
+    <string name="view_and_copy">Қарау және көшіру</string>
+    <string name="title_bin_backup">Ішкі экспорттау</string>
+    <string name="hint_password">Құпия сөз</string>
+    <string name="hint_password_confirmation">Құпия сөзді растау</string>
+    <string name="error_password_mandatory">Құпия сөзді енгізу керек</string>
+    <string name="error_password_too_short">Құпия сөз тым қысқа</string>
+    <string name="error_password_confirmation_mismatch">Құпия сөз және растау сәйкессіздігі</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Қажетті Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Сіз алған барлық Cryptocurities, сіздің қалаған SmartCoin-ге автоматты түрде түрленіп, BitShares сауда-саттық шотына сақталады.</string>
+    <string name="title__loyalty_points">Адалдық ұпайлары</string>
+    <string name="msg__loyalty_points_description">Сіздің клиенттеріңізге ақшаны жұмсаған кезде адалдық ұпайлары автоматты түрде жіберіледі. Сіз өз клиенттеріңізге жібергіңіз келетін кейбір белгілерге ие болуыңыз керек.</string>
     <string name="warning_insufficient_reward_asset_balance">Сіздің аккаунтыңыз әлі %1$s-ге тиесілі емес. Сатып алушыларға кез келген адалдық ұпайлары ретінде беруге тырысар алдында кейбіреулерді сатып алыңыз.</string>
     <string name="send">Жіберу</string>
     <string name="txt_for_every">Әрқайсысы үшін</string>
     <string name="txt_spent">жұмсадық</string>
-    <string name="txt_bitcoin_altcoin_deposited">8 криптокрипті қабылдаңыз:</string>
+    <string name="title__cryptocurrency_preferences">Криптаквалюталық параметрлері</string>
+    <string name="msg__cryptocurrency_preferences_description">Клиенттеріңізден қабылдайтын 8 танымал криптократтар таңдаңыз. Бұл монеталар экранда көрсетіледі. Сіз бұл таңдауды кез келген уақытта өзгерте аласыз.</string>
     <string name="altcoins_should_not_more_than">Пожалуйста, 8-ден артық емес активтерді таңдаңыз</string>
-    <string name="bitshares_unselection_message">Битшарлардың (BTS) негізгі белгісі қажет.</string>
     <string name="toast_low_volume_market">Нарықтық көлемінің төменгі көлемі уақытша өшірілген. Олар нарықтық көлемі айтарлықтай мөлшерде көтерілгеннен кейін қосылады</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Логотип</string>
     <string name="store_name">Дүкен атауы</string>
     <string name="address">Мекенжай</string>
@@ -238,7 +292,11 @@
     <string name="search">Іздеу</string>
     <string name="filter">Сүзгі</string>
     <string name="export">Экспорт</string>
-    <string name="confirming">Растау ...</string>
+    <string name="text__no_transactions">Мәмілелер жоқ</string>
+    <string name="text__awaiting_payment">Төлемді күтуде…</string>
+    <string name="text__confirming">Растау…</string>
+    <string name="text__complete">Аяқталды</string>
+    <string name="text__failed">Аяқталмады</string>
     <string name="pdf_generated_msg_s">PDF құрылды және сақталды: %1$s</string>
     <string name="pdf_generated_msg_error_s">Pdf жасау мүмкін емес. Қайталап көріңіз. Қате: %1$s</string>
     <string name="csv_generated_msg_s">CSV құрылды және сақталды: %1$s</string>
@@ -283,7 +341,7 @@
     <string name="paid_s_s">Төленген %1$s %2$s</string>
     <string name="change_due">Мерзімін өзгерту</string>
     <string name="e_receipt_memo_s">Memo: %1$s</string>
-    <string name="e_receipt_date_s">Күні: __1__</string>
+    <string name="e_receipt_date_s">Күні: %1$s</string>
     <string name="e_receipt_tx_s">Tx: %1$s</string>
     <string name="e_receipt_subject">PalmPay eReceipt оның %1$s</string>
 
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Түйін қосылымының қатесі, қайталау</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Толық түйіннен қате. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Келтірілген соманың сәйкес келмеуі</string>
+    <string name="error_payment_amount_content">Менің ойымша, біз күткендегіден аз алды. Қайтаруды қолмен өңдеу керек.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Біз кіріс төлемін алды, бірақ ешқандай сұрау табылған жоқ</string>

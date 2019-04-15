@@ -6,13 +6,13 @@
     <string name="disagree">Ósammála</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Hleður eignir ...</string>
-    <string name="title_loading_asset_type_data">Hleðsla eigna gerðargögn ...</string>
+    <string name="title_loading_assets">Hleður eignir…</string>
+    <string name="title_loading_asset_type_data">Hleðsla eigna gerðargögn…</string>
     <string name="title_assets_ready">Eignasafn gagnagrunnur tilbúinn</string>
     <string name="msg_loading_all_existing_assets">Framkvæma röð beiðna til þess að fá heildarlista allra núverandi eigna</string>
     <string name="msg_loading_asset_type_data">Beiðni um frekari eignarupplýsingar</string>
     <string name="msg_loading_asset_in_database">Hlaðinn %1$d eignir í gagnagrunninn</string>
-    <string name="msg_assets_loaded">Næst skaltu setja upp reikninginn þinn ...</string>
+    <string name="msg_assets_loaded">Næst skaltu setja upp reikninginn þinn…</string>
     <string name="error_fetching_marketcap_data">Gat ekki hlaðið inn markaðsupplýsingar</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Vinsamlegast sláðu inn rétta heilaukka, það ætti að hafa á milli 12 og 16 orð.</string>
     <string name="unable_to_load_brainkey">Ekki tókst að hlaða upp heilanum</string>
     <string name="account_already_exist">Reikningur er þegar til</string>
-    <string name="importing_your_wallet">Flytur inn veskið þitt ...</string>
+    <string name="importing_your_wallet">Flytur inn veskið þitt…</string>
     <string name="account_candidates_title">Vinsamlegast veldu reikning</string>
     <string name="account_candidates_content">Lyklarnar sem eru afleiddar úr þessum heilauki virðast vera notaðir til að stjórna fleiri en einum reikningi, vinsamlegast veldu hvaða reikning þú vilt flytja inn</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Helstu spillingarvillur</string>
     <string name="error_corrupted_key_content">Forritið er ekki hægt að endurheimta dulrituð einkalykla úr gagnagrunninum. Vegna þessa þarftu að slá inn lyklana þína aftur. Annaðhvort í formi heilaukka eða mynda öryggisafritaskrá sem var búið til og geymt sjálfkrafa í sdcard ef reikningurinn var búinn til af forritinu</string>
     <string name="invalid_pin">Ógilt PIN</string>
+    <string name="network_loading_user_click_toast">Netið er að hlaða. Vinsamlegast bíðið…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Heim</string>
     <string name="txt_transactions">Viðskipti</string>
     <string name="txt_refunds_returns">Endurgreiðslur / skilar</string>
     <string name="txt_settlement">Uppgjör</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares hnúður</string>
+    <string name="bitshares_nodes_dialog_title">Loka: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Upphæð til greiðslu</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Vinsamlegast bíðið</string>
     <string name="error_node_unreachable">Ekki var hægt að ná neinu hnút</string>
     <string name="invoice_subject">PalmPay reikningur frá %1$s</string>
+    <string name="memo_warning">ATHUGAÐU: Minnispunkturinn er nauðsynlegur til að passa rétt við greiðslu þína með beiðni kaupanda.</string>
     <string name="before_s">Áður: %1$s</string>
     <string name="share">Deila</string>
     <string name="share_with">Deila með</string>
-    <string name="connecting">Tengist ...</string>
+    <string name="connecting">Tengist…</string>
+    <string name="error_bridge_title">Bridge villa</string>
+    <string name="error_bridge_content">Gengisbrúin virðist vera niður. \n \nViltu hafa samband við stuðning. \n \nError númerið er: %1$d</string>
+    <string name="button_accept_tx">Samþykkja viðskipti</string>
+    <string name="dialog_accept_tx_title">Samþykkja viðskipti?</string>
+    <string name="dialog_accept_tx_summary">Viðskiptin hafa verið greind, en ekki enn að fullu staðfest.</string>
+    <string name="option_add_surety">Bæta við tryggingu</string>
+    <string name="option_wait">Bíddu</string>
+    <string name="title__step_payment_seen">Greiðsla séð</string>
+    <string name="msg__step_payment_seen">Bíð eftir staðfestingu símkerfis</string>
+    <string name="msg__step_payment_seen_done">Greiðsla hefur verið innifalinn í blokk</string>
+    <string name="title__step_payment_received">Greiðsla móttekin</string>
+    <string name="template_tx_progress">Bíð eftir fleiri net staðfestingum. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Nóg staðfestingar berast</string>
+    <string name="title__step_payment_confirmed">Greiðsla staðfest</string>
+    <string name="msg__step_payment_confirmed">Output viðskipti til kaupmanni og sendiherra hófst</string>
+    <string name="msg__step_payment_confirmed_done">Greiðsla vinnslu lokið</string>
+    <string name="error_estimate_input_content_template">Villa við að reyna að meta inntakshæðina. \n \n Villa frá brúafyrirtæki: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Villa kom upp við að vinna úr beiðninni.</string>
+    <string name="error_payment_request_content_template">Brúafyrirtækið getur ekki unnið %1$s núna. Vinsamlegast reyndu aftur síðar. \n \nError frá bridge provider: \n \n "%2$s"</string>
+
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Veldu greiðslubeiðni</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Þetta mun tengja innborgaðan greiðslu við áður skráð greiðslu beiðni um %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Uppgötvaðu greiðsluupplýsingar</string>
     <string name="dialog_generic_title_confirm">Ertu viss?</string>
-    <string name="dialog_generic_msg_confirm">Vinsamlegast athugaðu að ekki er hægt að afturkalla þessa aðgerð</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Sleppa</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Greiðsla staðfest!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Greiðsla staðfest!</string>
+    <string name="button__view_transactions">Skoða viðskipti</string>
+    <string name="template__received">Móttekið: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Stillingar</string>
     <string name="general">Almennt</string>
-    <string name="security">Öryggi</string>
-    <string name="backups">Öryggisafrit</string>
-    <string name="tokens">Tákn</string>
     <string name="accounts">Reikningar</string>
+    <string name="tokens">Tákn</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Næturstillingar</string>
+    <string name="title__local_fiat_currency">Local Fiat Gjaldmiðill</string>
     <string name="currency_info">Gengi gjaldmiðilsins er sjálfkrafa valið miðað við tungumál og land þitt. Ef þú vilt breyta þeim verðurðu að fara á alþjóðlega kerfisstillingar tækisins.</string>
     <string name="screen_saver">Skjáhvíla</string>
     <string name="source">Heimild</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Sjálfgefin mappa (/ PalmPay)</string>
     <string name="txt_folder">Mappa</string>
     <string name="choose">Veldu</string>
-    <string name="screen_saver_time">Virkja eftir ...</string>
+    <string name="folder_has_no_images_error">Villa, valinn mappa hefur engar myndir</string>
+    <string name="screen_saver_time">Virkja eftir…</string>
     <string name="one_minute">1 mínútu</string>
     <string name="three_minutes">3 mínútur</string>
     <string name="five_minutes">5 mínútur</string>
@@ -169,27 +189,43 @@
     <string name="city">Borg</string>
     <string name="country">Land</string>
     <string name="bugs_or_ideas">Galla eða hugmyndir?</string>
-    <string name="bugs_or_ideas_contact_info">Símtöl: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Samþykkja</string>
     <string name="select">Veldu</string>
     <string name="are_you_sure">Ertu viss?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">Afritað á klemmuspjald</string>
-    <string name="bin_file_description">Bin skrá. Alltaf vistaðu öryggisafrit .bin skrána á leynilega MicroSD kort eða USB Stick.</string>
-    <string name="create_a_backup">Búðu til öryggisafrit</string>
-    <string name="brainkey_description">Brainkey. Reikningur batna orð sem hægt er að taka eða afrita, en ekki breytt.</string>
-    <string name="txt_brain_key_info">Prenta þetta út, eða skrifa það niður. Hver sem hefur aðgang að endurheimtarlyklinum þínum mun hafa aðgang að fjármunum innan þessa veskis.</string>
-    <string name="view_and_copy">Skoða og afrita</string>
-    <string name="title_bin_backup">Flytja út .bin öryggisafrit</string>
-    <string name="hint_password">Lykilorð</string>
-    <string name="hint_password_confirmation">staðfesting lykilorðs</string>
-    <string name="error_password_mandatory">Verður að slá inn lykilorð</string>
-    <string name="error_password_too_short">Lykilorðið er of stutt</string>
-    <string name="error_password_confirmation_mismatch">Lykilorð og staðfesting misræmi</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Öryggislás</string>
+    <string name="title__security_dialog">Veldu öryggislás</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Mynstur</string>
+    <string name="text__none">Enginn</string>
+    <string name="button__choose">Veldu</string>
+    <string name="title__re_enter_your_pin">Sláðu aftur inn PIN númerið þitt</string>
+    <string name="msg__enter_your_pin">Sláðu inn PIN-númerið þitt til að halda áfram</string>
+    <string name="error__wrong_pin">Rangt PIN</string>
+    <string name="title__set_palmpay_security_lock">Stilltu PalmPay Security</string>
+    <string name="msg__set_a_pin">Til að tryggja öryggi, veldu PIN</string>
+    <string name="msg__min_pin_length">PIN-númerið verður að vera að minnsta kosti 6 tölustafir</string>
+    <string name="title__pins_dont_match">PIN-númerin passa ekki</string>
+    <string name="title__re_enter_your_pattern">Sláðu inn mynstur þitt aftur</string>
+    <string name="msg__enter_your_pattern">Sláðu inn PalmPay mynstur til að halda áfram</string>
+    <string name="msg__set_a_pattern">Til að tryggja öryggi, veldu mynstur</string>
+    <string name="msg__release_finger">Slepptu fingri þegar lokið</string>
+    <string name="button__clear">Hreinsa</string>
+    <string name="button__next">Næst</string>
+    <string name="text__draw_an_unlock_pattern">Teikna upp lás mynstur</string>
+    <string name="msg__draw_pattern_confirm">Teiknaðu mynstur aftur til að staðfesta</string>
+    <string name="button__confirm">Staðfesta</string>
+    <string name="msg__your_new_unlock_pattern">Nýtt opið mynstrið þitt</string>
+    <string name="error__wrong_pattern">Rangt mynstur</string>
+    <string name="text__pattern_recorded">Mynstur skráð</string>
+    <string name="error__connect_at_least_4_dots">Tengdu að minnsta kosti 4 punkta. Reyndu aftur.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Of mörg rangar tilraunir. Reyndu aftur á %1$d mínútum.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Of mörg rangar tilraunir. Reyndu aftur í %1$d sekúndum.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Núverandi reikningur</string>
     <string name="merchant_account_s">Merchant Account: %1$s</string>
     <string name="upgrade_to_ltm">Uppfærðu í LTM</string>
     <string name="upgrade_account_description">"Uppfærsla á líftímaþátttöku (LTM). Bitshares \'LTM reikningar greiða næringargjöld, fá 80% endurgreiðslu og bónus fyrir tilvísanir."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Ertu viss um að þú viljir fjarlægja reikninginn \'%1$s\' úr þessum veski?"</string>
     <string name="remove">Fjarlægja</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Óskað Smartcoin</string>
-    <string name="txt_customer_loyalty">Gefa út hollusta stig og ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Öryggisafrit</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Afritað á klemmuspjald</string>
+    <string name="bin_file_description">Bin skrá. Alltaf vistaðu öryggisafrit .bin skrána á leynilega MicroSD kort eða USB Stick.</string>
+    <string name="create_a_backup">Búðu til öryggisafrit</string>
+    <string name="brainkey_description">Brainkey. Reikningur batna orð sem hægt er að taka eða afrita, en ekki breytt.</string>
+    <string name="txt_brain_key_info">Prenta þetta út, eða skrifa það niður. Hver sem hefur aðgang að endurheimtarlyklinum þínum mun hafa aðgang að fjármunum innan þessa veskis.</string>
+    <string name="view_and_copy">Skoða og afrita</string>
+    <string name="title_bin_backup">Flytja út .bin öryggisafrit</string>
+    <string name="hint_password">Lykilorð</string>
+    <string name="hint_password_confirmation">staðfesting lykilorðs</string>
+    <string name="error_password_mandatory">Verður að slá inn lykilorð</string>
+    <string name="error_password_too_short">Lykilorðið er of stutt</string>
+    <string name="error_password_confirmation_mismatch">Lykilorð og staðfesting misræmi</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Óskað Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Öll Cryptocurrencies sem þú fékkst eru sjálfkrafa breytt í Desired Smartcoin og vistuð á BitShares Merchant Account.</string>
+    <string name="title__loyalty_points">Hollusta stig</string>
+    <string name="msg__loyalty_points_description">Hollusta stig geta sjálfkrafa sent viðskiptavinum þínum þegar þeir eyða peningum með þér. Þú verður að eiga nokkur tákn sem þú vilt senda til viðskiptavina þinna.</string>
     <string name="warning_insufficient_reward_asset_balance">Reikningurinn þinn hefur ekki enn neina %1$s. Vinsamlegast eignast nokkra áður en þú reynir að gefa viðskiptavinum þínum sem hollustuhætti.</string>
     <string name="send">Senda</string>
     <string name="txt_for_every">Fyrir hvert</string>
     <string name="txt_spent">eytt</string>
-    <string name="txt_bitcoin_altcoin_deposited">Samþykkja allt að 8 Cryptocurrencies:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency Preferences</string>
+    <string name="msg__cryptocurrency_preferences_description">Veldu allt að 8 vinsælustu cryptocurrencies sem þú samþykkir frá viðskiptavinum þínum. Þessar mynt munu birtast á heimaskjánum. Þú getur breytt þessum valkostum hvenær sem er.</string>
     <string name="altcoins_should_not_more_than">Vinsamlegast veldu ekki meira en 8 inntakseignir</string>
-    <string name="bitshares_unselection_message">Bitshares (BTS) algerlega token er krafist.</string>
     <string name="toast_low_volume_market">Lágt magn markaðsvirði er tímabundið óvirk. Þeir verða virkir þegar markaðshlutfallið hækkar umtalsvert</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Merki</string>
     <string name="store_name">Geymið nafn</string>
     <string name="address">Heimilisfang</string>
@@ -238,7 +292,11 @@
     <string name="search">Leita</string>
     <string name="filter">Sía</string>
     <string name="export">Útflutningur</string>
-    <string name="confirming">Staðfestir ...</string>
+    <string name="text__no_transactions">Engin viðskipti</string>
+    <string name="text__awaiting_payment">Bíð eftir greiðslu…</string>
+    <string name="text__confirming">Staðfestir…</string>
+    <string name="text__complete">Heill</string>
+    <string name="text__failed">Mistókst</string>
     <string name="pdf_generated_msg_s">PDF mynda og vistuð: %1$s</string>
     <string name="pdf_generated_msg_error_s">Ekki hægt að búa til pdf. Vinsamlegast reyndu aftur. Villa: %1$s</string>
     <string name="csv_generated_msg_s">CSV mynda og vistað: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Nýr tenging villa, reyndu aftur</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Villa úr fulla hnút. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Móttekið magn misræmi</string>
+    <string name="error_payment_amount_content">Það virðist sem við fengum minna en það sem búist var við. Endurgreiðsla verður að vera meðhöndluð handvirkt.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Við fengum greiddan innborgun, en engin beiðni fannst</string>

@@ -6,13 +6,13 @@
     <string name="disagree">Не згоден</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Завантаження активів ...</string>
-    <string name="title_loading_asset_type_data">Завантаження даних типу активів ...</string>
+    <string name="title_loading_assets">Завантаження активів…</string>
+    <string name="title_loading_asset_type_data">Завантаження даних типу активів…</string>
     <string name="title_assets_ready">База даних активів готова</string>
     <string name="msg_loading_all_existing_assets">Виконання серії запитів, щоб отримати повний список всіх існуючих активів</string>
     <string name="msg_loading_asset_type_data">Запит додаткової інформації про актив</string>
     <string name="msg_loading_asset_in_database">Завантажено %1$d активів в базу даних</string>
-    <string name="msg_assets_loaded">Далі, будь-ласка, налаштуйте свій обліковий запис ...</string>
+    <string name="msg_assets_loaded">Далі, будь-ласка, налаштуйте свій обліковий запис…</string>
     <string name="error_fetching_marketcap_data">Не вдалося завантажити дані Marketcap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Будь ласка, введіть правильний brainkey, він має містити від 12 до 16 слів.</string>
     <string name="unable_to_load_brainkey">Не вдається завантажити brainkey</string>
     <string name="account_already_exist">Рахунок вже існує</string>
-    <string name="importing_your_wallet">Імпортуйте свій кошельку ...</string>
+    <string name="importing_your_wallet">Імпортуйте свій кошельку…</string>
     <string name="account_candidates_title">Виберіть обліковий запис</string>
     <string name="account_candidates_content">Ключі, отримані з цієї brainkey, здається, використовуються для керування кількома обліковими записами, будь ласка, виберіть, який обліковий запис ви хочете імпортувати</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Основна помилка корупції</string>
     <string name="error_corrupted_key_content">Програма не може відновити зашифровані приватні ключі з бази даних. Через це вам потрібно буде знову ввести свої ключі. Будь-яка форма brainkey або форма резервного копіювання файлу, який був створений та збережений автоматично у вашій sdcard, якщо обліковий запис було створено за допомогою додатка</string>
     <string name="invalid_pin">Недійсний PIN-код</string>
+    <string name="network_loading_user_click_toast">Мережа завантажується. Будь ласка, зачекайте…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Будинок</string>
     <string name="txt_transactions">Операції</string>
     <string name="txt_refunds_returns">Повернення / повернення</string>
     <string name="txt_settlement">Поселення</string>
-    <string name="bitshares_nodes_dialog_title">Вузли Bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Блок: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Сума боргу</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Будь ласка, зачекайте</string>
     <string name="error_node_unreachable">Нічого вузла не було досягнуто</string>
     <string name="invoice_subject">Рахунок-фактура PalmPay від %1$s</string>
-    <string name="before_s">До: __1с__</string>
+    <string name="memo_warning">ПРИМІТКА. Поле нагадування необхідне для правильного відповідності оплати запиту продавця.</string>
+    <string name="before_s">До: %1$s</string>
     <string name="share">Поділитися</string>
     <string name="share_with">Поділитися з</string>
-    <string name="connecting">Підключення ...</string>
+    <string name="connecting">Підключення…</string>
+    <string name="error_bridge_title">Помилка мосту</string>
+    <string name="error_bridge_content">Міст перетворення валюти, здається, не працює. \n \nБудь ласка, зверніться до служби підтримки. \n \n Код помилки: %1$d</string>
+    <string name="button_accept_tx">Прийняти транзакцію</string>
+    <string name="dialog_accept_tx_title">Прийняти транзакцію?</string>
+    <string name="dialog_accept_tx_summary">Транзакція була виявлена, але ще не повністю підтверджена.</string>
+    <string name="option_add_surety">Додати поручительство</string>
+    <string name="option_wait">Зачекайте</string>
+    <string name="option_accept">Прийняти</string>
+    <string name="title__step_payment_seen">Оплата видно</string>
+    <string name="msg__step_payment_seen">Очікування підтвердження мережі</string>
+    <string name="msg__step_payment_seen_done">Платіж включено до блоку</string>
+    <string name="title__step_payment_received">Отриманої компенсації</string>
+    <string name="template_tx_progress">Очікування додаткових підтверджень мережі. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Досить отримано підтверджень</string>
+    <string name="title__step_payment_confirmed">Платіж підтверджено</string>
+    <string name="msg__step_payment_confirmed">Вихідні транзакції для торговця та послів ініціювалися</string>
+    <string name="msg__step_payment_confirmed_done">Обробка платежу завершена</string>
+    <string name="error_estimate_input_content_template">Помилка під час оцінки вхідної суми. \n \n Помилка від постачальника мостів: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Під час обробки вашого запиту сталася помилка.</string>
+    <string name="error_payment_request_content_template">Провайдер Bridge не може зараз обробити %1$s. Будь-ласка спробуйте пізніше. \n \nError від провайдера мосту: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Виберіть запит на оплату</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Це зв\'яже вхідний платіж із попередньо записаним запитом на оплату %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Вхідні платіжні реквізити</string>
     <string name="dialog_generic_title_confirm">Ти впевнений?</string>
-    <string name="dialog_generic_msg_confirm">Зауважте, що цю дію не можна скасувати</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Відхилити</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Платіж підтверджено!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Платіж підтверджено!</string>
+    <string name="button__view_transactions">Переглянути транзакції</string>
+    <string name="template__received">Отримано: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Налаштування</string>
     <string name="general">Генерал</string>
-    <string name="security">Безпека</string>
-    <string name="backups">Резервні копії</string>
-    <string name="tokens">Токени</string>
     <string name="accounts">Рахунки</string>
+    <string name="tokens">Токени</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Нічний режим</string>
+    <string name="title__local_fiat_currency">Місцева валюта Fiat</string>
     <string name="currency_info">Валюта автоматично вибирається залежно від вашої мови та вибору країни. Якщо ви хочете змінити їх, ви повинні перейти до глобальних системних налаштувань свого пристрою.</string>
     <string name="screen_saver">Заставка</string>
     <string name="source">Джерело</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Папка за замовчуванням (/ PalmPay)</string>
     <string name="txt_folder">Папка</string>
     <string name="choose">Виберіть</string>
-    <string name="screen_saver_time">Увімкнути після ...</string>
+    <string name="folder_has_no_images_error">Помилка у вибраній папці немає зображень</string>
+    <string name="screen_saver_time">Увімкнути після…</string>
     <string name="one_minute">1 хвилина</string>
     <string name="three_minutes">3 хвилини</string>
     <string name="five_minutes">5 хвилин</string>
@@ -169,27 +189,43 @@
     <string name="city">Місто</string>
     <string name="country">Країна</string>
     <string name="bugs_or_ideas">Помилки чи ідеї?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Телеграма: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Прийміть</string>
     <string name="select">Виберіть</string>
     <string name="are_you_sure">Ти впевнений?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Резервний браунінг</string>
-    <string name="copied_to_clipboard">Скопійовано в буфер обміну</string>
-    <string name="bin_file_description">Біна файл. Завжди зберігайте резервну копію .bin-файлу на таємній картці MicroSD або USB Stick.</string>
-    <string name="create_a_backup">Створити резервну копію</string>
-    <string name="brainkey_description">Брайнок Слова для відновлення облікового запису, які можуть бути захоплені або скопійовані, але не редаговані.</string>
-    <string name="txt_brain_key_info">Надрукуйте це чи напишіть його. Будь-який, хто має доступ до своєї ключа відновлення, матиме доступ до коштів у цьому кошельнику.</string>
-    <string name="view_and_copy">Переглянути та скопіювати</string>
-    <string name="title_bin_backup">Експортувати резервну копію .bin</string>
-    <string name="hint_password">Пароль</string>
-    <string name="hint_password_confirmation">Підтвердження паролю</string>
-    <string name="error_password_mandatory">Необхідно ввести пароль</string>
-    <string name="error_password_too_short">Пароль занадто короткий</string>
-    <string name="error_password_confirmation_mismatch">Невідповідність пароля та підтвердження</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Блокування безпеки</string>
+    <string name="title__security_dialog">Виберіть Блокування безпеки</string>
+    <string name="text__pin">PIN-код</string>
+    <string name="text__pattern">Візерунок</string>
+    <string name="text__none">Немає</string>
+    <string name="button__choose">Виберіть</string>
+    <string name="title__re_enter_your_pin">Повторно введіть свій PIN-код</string>
+    <string name="msg__enter_your_pin">Введіть PIN-код PalmPay, щоб продовжити</string>
+    <string name="error__wrong_pin">Неправильний PIN-код</string>
+    <string name="title__set_palmpay_security_lock">Встановіть PalmPay Security</string>
+    <string name="msg__set_a_pin">Для забезпечення безпеки встановіть PIN-код</string>
+    <string name="msg__min_pin_length">PIN-код повинен містити принаймні 6 цифр</string>
+    <string name="title__pins_dont_match">PIN-коди не збігаються</string>
+    <string name="title__re_enter_your_pattern">Повторно введіть шаблон</string>
+    <string name="msg__enter_your_pattern">Для продовження введіть шаблон PalmPay</string>
+    <string name="msg__set_a_pattern">Для безпеки встановіть шаблон</string>
+    <string name="msg__release_finger">Відпустіть палець після завершення</string>
+    <string name="button__clear">Очистити</string>
+    <string name="button__next">Далі</string>
+    <string name="text__draw_an_unlock_pattern">Намалюйте шаблон розблокування</string>
+    <string name="msg__draw_pattern_confirm">Повторіть малюнок для підтвердження</string>
+    <string name="button__confirm">Підтвердьте</string>
+    <string name="msg__your_new_unlock_pattern">Ваш новий шаблон розблокування</string>
+    <string name="error__wrong_pattern">Неправильний візерунок</string>
+    <string name="text__pattern_recorded">Шаблон записаний</string>
+    <string name="error__connect_at_least_4_dots">Підключіть не менше 4 точок. Спробуйте ще раз.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Забагато помилок. Повторіть спробу за %1$d хвилин.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Забагато помилок. Повторіть спробу через %1$d секунд.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Поточний рахунок</string>
     <string name="merchant_account_s">Комерційний обліковий запис: %1$s</string>
     <string name="upgrade_to_ltm">Оновити до LTM</string>
     <string name="upgrade_account_description">"Оновлення до членства в LifeTime (LTM). Облікові записи LTM Bitshares оплачують майже нульові збори, отримують 80% грошових переказів та премії для рефералів".</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Ви впевнені, що хочете видалити обліковий запис" %1$s "з цього кошика?"</string>
     <string name="remove">Видалити</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Бажаний смарткон</string>
-    <string name="txt_customer_loyalty">Точки лояльності до випуску, як ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Резервні копії</string>
+    <string name="backup_brainkey">Резервний браунінг</string>
+    <string name="copied_to_clipboard">Скопійовано в буфер обміну</string>
+    <string name="bin_file_description">Біна файл. Завжди зберігайте резервну копію .bin-файлу на таємній картці MicroSD або USB Stick.</string>
+    <string name="create_a_backup">Створити резервну копію</string>
+    <string name="brainkey_description">Брайнок Слова для відновлення облікового запису, які можуть бути захоплені або скопійовані, але не редаговані.</string>
+    <string name="txt_brain_key_info">Надрукуйте це чи напишіть його. Будь-який, хто має доступ до своєї ключа відновлення, матиме доступ до коштів у цьому кошельнику.</string>
+    <string name="view_and_copy">Переглянути та скопіювати</string>
+    <string name="title_bin_backup">Експортувати резервну копію .bin</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_password_confirmation">Підтвердження паролю</string>
+    <string name="error_password_mandatory">Необхідно ввести пароль</string>
+    <string name="error_password_too_short">Пароль занадто короткий</string>
+    <string name="error_password_confirmation_mismatch">Невідповідність пароля та підтвердження</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Бажаний смарткон</string>
+    <string name="msg__desired_smartcoin_description">Всі отримані вами Cryptocurrencies автоматично перетворюються на ваш бажаний смартфон і зберігаються у вашому обліковому записі продавця BitShares.</string>
+    <string name="title__loyalty_points">Точки лояльності</string>
+    <string name="msg__loyalty_points_description">Точки лояльності можуть автоматично надсилатися клієнтам, коли вони витрачають гроші з вами. Ви повинні володіти деякими маркерами, які ви хочете надіслати своїм клієнтам.</string>
     <string name="warning_insufficient_reward_asset_balance">Ваш обліковий запис ще не має %1$s. Будь ласка, придбайте кілька, перш ніж спробувати надати своїм клієнтам як бали лояльності.</string>
     <string name="send">Відправити</string>
     <string name="txt_for_every">Для кожного</string>
     <string name="txt_spent">витрачений</string>
-    <string name="txt_bitcoin_altcoin_deposited">Приймати до 8 Криптокультури:</string>
+    <string name="title__cryptocurrency_preferences">Налаштування криптовалют</string>
+    <string name="msg__cryptocurrency_preferences_description">Виберіть до 8 популярних криптовалют, які ви приймете від своїх клієнтів. Ці монети з\'являться на робочому столі. Ви можете змінити цей вибір у будь-який час.</string>
     <string name="altcoins_should_not_more_than">Будь ласка, виберіть не більше 8 вхідних ресурсів</string>
-    <string name="bitshares_unselection_message">Токен ядра Bitshares (BTS) обов\'язковий.</string>
     <string name="toast_low_volume_market">Активні ринкові активи тимчасово відключені. Вони будуть доступні, коли обсяг ринку збільшиться до значної суми</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Логотип</string>
     <string name="store_name">Ім\'я магазину</string>
     <string name="address">Адреса</string>
@@ -238,7 +292,11 @@
     <string name="search">Пошук</string>
     <string name="filter">Фільтрувати</string>
     <string name="export">Експорт</string>
-    <string name="confirming">Підтверджуючи ...</string>
+    <string name="text__no_transactions">Немає транзакцій</string>
+    <string name="text__awaiting_payment">В очікуванні оплати…</string>
+    <string name="text__confirming">Підтвердження…</string>
+    <string name="text__complete">Повне</string>
+    <string name="text__failed">Помилка</string>
     <string name="pdf_generated_msg_s">Згенеровано та збережено PDF: %1$s</string>
     <string name="pdf_generated_msg_error_s">Неможливо створити pdf. Повторіть спробу. Помилка: %1$s</string>
     <string name="csv_generated_msg_s">Згенеровано та збережено CSV: %1$s</string>
@@ -283,7 +341,7 @@
     <string name="paid_s_s">Оплачений %1$s %2$s</string>
     <string name="change_due">Зміна через</string>
     <string name="e_receipt_memo_s">Нагадування: %1$s</string>
-    <string name="e_receipt_date_s">Дата: __1с__</string>
+    <string name="e_receipt_date_s">Дата: %1$s</string>
     <string name="e_receipt_tx_s">Tx: %1$s</string>
     <string name="e_receipt_subject">PalmPay eReceipt від %1$s</string>
 
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Помилка підключення вузла, повторити спробу</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Помилка від повного вузла. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Отримано розбіжність суми</string>
+    <string name="error_payment_amount_content">Схоже, ми отримали менше, ніж очікувалося. Повернення коштів доведеться обробляти вручну.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Ми отримали вхідний платіж, але запит не знайдено</string>

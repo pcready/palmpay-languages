@@ -6,13 +6,13 @@
     <string name="disagree">Nepiekrītu</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Notiek aktīvu ielāde ...</string>
-    <string name="title_loading_asset_type_data">Apaļas datu datu ielāde ...</string>
+    <string name="title_loading_assets">Notiek aktīvu ielāde…</string>
+    <string name="title_loading_asset_type_data">Apaļas datu datu ielāde…</string>
     <string name="title_assets_ready">Īpašuma datubāze ir gatava</string>
     <string name="msg_loading_all_existing_assets">Veicot virkni pieprasījumu, lai iegūtu pilnu visu esošo aktīvu sarakstu</string>
     <string name="msg_loading_asset_type_data">Papildu īpašuma informācijas pieprasīšana</string>
     <string name="msg_loading_asset_in_database">Iekrauj %1$d aktīvus datu bāzē</string>
-    <string name="msg_assets_loaded">Tālāk, lūdzu, konfigurējiet savu kontu ...</string>
+    <string name="msg_assets_loaded">Tālāk, lūdzu, konfigurējiet savu kontu…</string>
     <string name="error_fetching_marketcap_data">Nevarēja ielādēt Marketcap datus</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Lūdzu, ievadiet pareizo brainkey, tam jābūt no 12 līdz 16 vārdiem.</string>
     <string name="unable_to_load_brainkey">Nevar ielādēt brainkey</string>
     <string name="account_already_exist">Konts jau ir pieejams</string>
-    <string name="importing_your_wallet">Importējiet savu seifu ...</string>
+    <string name="importing_your_wallet">Importējiet savu seifu…</string>
     <string name="account_candidates_title">Lūdzu, izvēlieties kontu</string>
     <string name="account_candidates_content">Šķiet, ka atslēgas, kas iegūtas no šī brainkey, tiek izmantotas, lai kontrolētu vairāk nekā vienu kontu, lūdzu, izvēlieties, kuru kontu vēlaties importēt</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Galvenā korupcijas kļūda</string>
     <string name="error_corrupted_key_content">Lietotne nevar atgūt šifrētos privātos atslēgas no datubāzes. Tāpēc jums būs jāievada atslēgas vēlreiz. Vai nu brainkey formā, vai izveidojiet dublēšanas dublējuma failu, kas ģenerēts un saglabāts jūsu SDCard automātiski, ja lietotni izveidojis konts</string>
     <string name="invalid_pin">Nederīgs PIN</string>
+    <string name="network_loading_user_click_toast">Tīkls tiek ielādēts. Lūdzu uzgaidiet…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Mājas</string>
     <string name="txt_transactions">Darījumi</string>
     <string name="txt_refunds_returns">Atgriešana / atgriešana</string>
     <string name="txt_settlement">Norēķini</string>
-    <string name="bitshares_nodes_dialog_title">Bitshares mezgli</string>
+    <string name="bitshares_nodes_dialog_title">Bloķēt: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Jāsamaksā</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Lūdzu uzgaidiet</string>
     <string name="error_node_unreachable">Nr mezglu varētu sasniegt</string>
     <string name="invoice_subject">PalmPay rēķins no %1$s</string>
+    <string name="memo_warning">PIEZĪME. Lai veiktu maksājuma pareizu saskaņošanu ar komersanta pieprasījumu, atgādinājuma lauks ir nepieciešams.</string>
     <string name="before_s">Pirms: %1$s</string>
     <string name="share">Kopīgot</string>
     <string name="share_with">Dalīties ar</string>
-    <string name="connecting">Savieno ...</string>
+    <string name="connecting">Savieno…</string>
+    <string name="error_bridge_title">Tilta kļūda</string>
+    <string name="error_bridge_content">Šķiet, ka valūtas konvertēšanas tilts ir uz leju. \n \nLūdzu, sazinieties ar atbalsta dienestu. \n \nReģistrācijas kods ir: %1$d</string>
+    <string name="button_accept_tx">Pieņemt darījumu</string>
+    <string name="dialog_accept_tx_title">Vai pieņemt darījumu?</string>
+    <string name="dialog_accept_tx_summary">Darījums ir atklāts, bet vēl nav pilnībā apstiprināts.</string>
+    <string name="option_add_surety">Pievienojiet galvojumu</string>
+    <string name="option_wait">Pagaidiet</string>
+    <string name="option_accept">Pieņemt</string>
+    <string name="title__step_payment_seen">Maksājums ir redzams</string>
+    <string name="msg__step_payment_seen">Gaida tīkla apstiprinājumu</string>
+    <string name="msg__step_payment_seen_done">Maksājums ir iekļauts blokā</string>
+    <string name="title__step_payment_received">Saņemts maksājums</string>
+    <string name="template_tx_progress">Gaida vairāk tīkla apstiprinājumu. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Saņemti pietiekami apstiprinājumi</string>
+    <string name="title__step_payment_confirmed">Apmaksa apstiprināta</string>
+    <string name="msg__step_payment_confirmed">Tiek uzsākts produkcijas darījums ar komersantiem un vēstniekiem</string>
+    <string name="msg__step_payment_confirmed_done">Maksājumu apstrāde pabeigta</string>
+    <string name="error_estimate_input_content_template">Mēģinot novērtēt ieejas summu, radās kļūda. \n \n Kļūda no tilta nodrošinātāja: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Apstrādājot jūsu pieprasījumu, radās kļūda.</string>
+    <string name="error_payment_request_content_template">Tiltu nodrošinātājs nevar apstrādāt %1$s tūlīt. Lūdzu, pamēģiniet vēlreiz vēlāk. \n \nIespēja no tilta nodrošinātāja: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Izvēlieties maksājuma pieprasījumu</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Tas saistīs ienākošo maksājumu ar iepriekš reģistrētu %1$s maksājuma pieprasījumu</string>
     <string name="dialog_msg_incoming_payment_details">Ienākošā maksājuma informācija</string>
     <string name="dialog_generic_title_confirm">Vai tu esi pārliecināts?</string>
-    <string name="dialog_generic_msg_confirm">Lūdzu, ņemiet vērā, ka šo darbību nevar atsaukt</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Atlaist</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Maksājums ir apstiprināts!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Maksājums ir apstiprināts!</string>
+    <string name="button__view_transactions">Skatīt darījumus</string>
+    <string name="template__received">Saņemts: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Iestatījumi</string>
     <string name="general">Ģenerālis</string>
-    <string name="security">Drošība</string>
-    <string name="backups">Rezerves kopijas</string>
-    <string name="tokens">Žetoni</string>
     <string name="accounts">Konti</string>
+    <string name="tokens">Žetoni</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Nakts režīms</string>
+    <string name="title__local_fiat_currency">Vietējā Fiat valūta</string>
     <string name="currency_info">Valūta tiek automātiski izvēlēta atkarībā no valodas un valsts izvēles. Ja vēlaties tos mainīt, jums jāiet uz ierīces vispārējiem sistēmas iestatījumiem.</string>
     <string name="screen_saver">Ekrānsaudzētājs</string>
     <string name="source">Avots</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Noklusējuma mape (/ PalmPay)</string>
     <string name="txt_folder">Mape</string>
     <string name="choose">Izvēlies</string>
-    <string name="screen_saver_time">Ieslēgt pēc ...</string>
+    <string name="folder_has_no_images_error">Kļūda, izvēlētā mapē nav attēlu</string>
+    <string name="screen_saver_time">Ieslēgt pēc…</string>
     <string name="one_minute">1 minūte</string>
     <string name="three_minutes">3 minūtes</string>
     <string name="five_minutes">5 minūtes</string>
@@ -169,27 +189,43 @@
     <string name="city">Pilsēta</string>
     <string name="country">Valsts</string>
     <string name="bugs_or_ideas">Bugs vai idejas?</string>
-    <string name="bugs_or_ideas_contact_info">Telegram tērzēšana: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegramma: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Pieņemt</string>
     <string name="select">Izvēlieties</string>
     <string name="are_you_sure">Vai tu esi pārliecināts?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">Nokopēts starpliktuvē</string>
-    <string name="bin_file_description">Bin fails. Vienmēr saglabājiet dublējuma failu .bin failu slepenai MicroSD kartei vai USB atmiņas kartēm.</string>
-    <string name="create_a_backup">Izveidojiet dublējumu</string>
-    <string name="brainkey_description">Brainkey Konta atkopšanas vārdi, kurus var uzņemt vai kopēt, bet ne rediģēt.</string>
-    <string name="txt_brain_key_info">Izdrukājiet to vai pierakstiet to. Ikvienam, kam ir piekļuve jūsu atkopšanas atslēgai, varēs piekļūt naudas līdzekļiem šajā makā.</string>
-    <string name="view_and_copy">Skatīt un kopēt</string>
-    <string name="title_bin_backup">Eksportēt .bin rezerves</string>
-    <string name="hint_password">Parole</string>
-    <string name="hint_password_confirmation">paroles apstiprināšana</string>
-    <string name="error_password_mandatory">Jāievada parole</string>
-    <string name="error_password_too_short">Parole ir pārāk īsa</string>
-    <string name="error_password_confirmation_mismatch">Parole un apstiprinājuma neatbilstība</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Drošības atslēga</string>
+    <string name="title__security_dialog">Izvēlieties drošības atslēgu</string>
+    <string name="text__pin">PIN</string>
+    <string name="text__pattern">Raksts</string>
+    <string name="text__none">Nav</string>
+    <string name="button__choose">Izvēlieties</string>
+    <string name="title__re_enter_your_pin">Ievadiet PIN kodu vēlreiz</string>
+    <string name="msg__enter_your_pin">Lai turpinātu, ievadiet savu PalmPay PIN</string>
+    <string name="error__wrong_pin">Nepareizs PIN</string>
+    <string name="title__set_palmpay_security_lock">Iestatiet PalmPay Security</string>
+    <string name="msg__set_a_pin">Drošībai iestatiet PIN</string>
+    <string name="msg__min_pin_length">PIN jābūt vismaz 6 cipariem</string>
+    <string name="title__pins_dont_match">PIN nesakrīt</string>
+    <string name="title__re_enter_your_pattern">Ievadiet savu modeli vēlreiz</string>
+    <string name="msg__enter_your_pattern">Lai turpinātu, ievadiet savu PalmPay modeli</string>
+    <string name="msg__set_a_pattern">Drošībai iestatiet Pattern</string>
+    <string name="msg__release_finger">Kad esat pabeidzis, atlaidiet pirkstu</string>
+    <string name="button__clear">Skaidrs</string>
+    <string name="button__next">Nākamais</string>
+    <string name="text__draw_an_unlock_pattern">Zīmējiet atbloķēšanas modeli</string>
+    <string name="msg__draw_pattern_confirm">Vēlreiz zīmējiet modeli, lai apstiprinātu</string>
+    <string name="button__confirm">Apstiprināt</string>
+    <string name="msg__your_new_unlock_pattern">Jūsu jaunais atbloķēšanas modelis</string>
+    <string name="error__wrong_pattern">Nepareizs modelis</string>
+    <string name="text__pattern_recorded">Uzrakstīts ieraksts</string>
+    <string name="error__connect_at_least_4_dots">Pievienojiet vismaz 4 punktus. Mēģini vēlreiz.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Pārāk daudz nepareizu mēģinājumu. Mēģiniet vēlreiz %1$d minūtēs.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Pārāk daudz nepareizu mēģinājumu. Mēģiniet vēlreiz %1$d sekundēs.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Pašreizējais profils</string>
     <string name="merchant_account_s">Tirgotāja konts: %1$s</string>
     <string name="upgrade_to_ltm">Jauniniet uz LTM</string>
     <string name="upgrade_account_description">"Upgrade to LifeTime dalībniece (LTM), Bitshares LTM konti maksā gandrīz nulles maksas, saņem 80% cashback un prēmijas par nodošanu."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Vai tiešām vēlaties noņemt kontu" %1$s "no šīs kupona?"</string>
     <string name="remove">Noņemt</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Vēlamais Smartcoin</string>
-    <string name="txt_customer_loyalty">Problēmas lojalitātes punkti kā ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Rezerves kopijas</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Nokopēts starpliktuvē</string>
+    <string name="bin_file_description">Bin fails. Vienmēr saglabājiet dublējuma failu .bin failu slepenai MicroSD kartei vai USB atmiņas kartēm.</string>
+    <string name="create_a_backup">Izveidojiet dublējumu</string>
+    <string name="brainkey_description">Brainkey Konta atkopšanas vārdi, kurus var uzņemt vai kopēt, bet ne rediģēt.</string>
+    <string name="txt_brain_key_info">Izdrukājiet to vai pierakstiet to. Ikvienam, kam ir piekļuve jūsu atkopšanas atslēgai, varēs piekļūt naudas līdzekļiem šajā makā.</string>
+    <string name="view_and_copy">Skatīt un kopēt</string>
+    <string name="title_bin_backup">Eksportēt .bin rezerves</string>
+    <string name="hint_password">Parole</string>
+    <string name="hint_password_confirmation">paroles apstiprināšana</string>
+    <string name="error_password_mandatory">Jāievada parole</string>
+    <string name="error_password_too_short">Parole ir pārāk īsa</string>
+    <string name="error_password_confirmation_mismatch">Parole un apstiprinājuma neatbilstība</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Vēlamais Smartcoin</string>
+    <string name="msg__desired_smartcoin_description">Visas saņemtās Cryptocurrencies tiek automātiski pārvērstas par vēlamo Smartcoin un saglabātas jūsu BitShares tirgotāja kontā.</string>
+    <string name="title__loyalty_points">Lojalitātes punkti</string>
+    <string name="msg__loyalty_points_description">Lojalitātes punktus var automātiski nosūtīt saviem klientiem, ja tie tērē naudu ar jums. Jums pieder sava veida žetoni, kurus vēlaties nosūtīt saviem klientiem.</string>
     <string name="warning_insufficient_reward_asset_balance">Jūsu kontam vēl nav neviena %1$s. Lūdzu, iegūstiet dažus, pirms mēģināt piešķirt saviem klientiem lojalitātes punktus.</string>
     <string name="send">Sūtīt</string>
     <string name="txt_for_every">Katram</string>
     <string name="txt_spent">iztērēti</string>
-    <string name="txt_bitcoin_altcoin_deposited">Pieņemt līdz 8 kriptokultūrām:</string>
+    <string name="title__cryptocurrency_preferences">Cryptocurrency preferences</string>
+    <string name="msg__cryptocurrency_preferences_description">Izvēlieties līdz 8 populārām kriptokursijām, kuras jūs pieņemsiet no saviem klientiem. Šīs monētas parādīsies sākuma ekrānā. Šīs izvēles var mainīt jebkurā laikā.</string>
     <string name="altcoins_should_not_more_than">Lūdzu, atlasiet ne vairāk kā 8 ieejas aktīvus</string>
-    <string name="bitshares_unselection_message">Bitshares (BTS) kodols ir nepieciešams.</string>
     <string name="toast_low_volume_market">Zema apjoma tirgus aktīvi ir īslaicīgi atspējoti. Tie būs iespējoti, ja tirgus apjoms palielināsies ievērojami</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logotips</string>
     <string name="store_name">Veikalu nosaukums</string>
     <string name="address">Adrese</string>
@@ -238,7 +292,11 @@
     <string name="search">Meklēt</string>
     <string name="filter">Filtrēt</string>
     <string name="export">Eksportēt</string>
-    <string name="confirming">Apstiprinot ...</string>
+    <string name="text__no_transactions">Nav darījumu</string>
+    <string name="text__awaiting_payment">Gaida maksājumu…</string>
+    <string name="text__confirming">Apstiprinājums…</string>
+    <string name="text__complete">Pabeigts</string>
+    <string name="text__failed">Neizdevās</string>
     <string name="pdf_generated_msg_s">PDF ģenerēts un saglabāts: %1$s</string>
     <string name="pdf_generated_msg_error_s">Nevar ģenerēt pdf. Lūdzu, mēģiniet vēlreiz. Kļūda: %1$s</string>
     <string name="csv_generated_msg_s">CSV ģenerēts un saglabāts: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Node savienojuma kļūda, atkārtojas mēģinājums</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Kļūda no pilnā mezgla. Ziņojums: %1$s</string>
+    <string name="error_payment_amount_title">Saņemtās summas neatbilstība</string>
+    <string name="error_payment_amount_content">Šķiet, ka mēs saņēmām mazāk nekā gaidīts. Kompensācija būs jāapstrādā manuāli.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Mēs saņēmām ienākošu maksājumu, taču neviens pieprasījums netika atrasts</string>

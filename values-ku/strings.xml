@@ -6,13 +6,13 @@
     <string name="disagree">Lihevderneketin</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Sazkirina Loading ...</string>
-    <string name="title_loading_asset_type_data">Agahiyên danûstandinê yên barkirinê ...</string>
+    <string name="title_loading_assets">Sazkirina Loading…</string>
+    <string name="title_loading_asset_type_data">Agahiyên danûstandinê yên barkirinê…</string>
     <string name="title_assets_ready">Databasê amade amadekirin</string>
     <string name="msg_loading_all_existing_assets">Performansek rêzikên daxwaznameyên ji bo ku lîsteya temamî ya tevahiya dewlemendên heyî hene</string>
     <string name="msg_loading_asset_type_data">Daxuyaniya agahiyên bêtir agahdariyê</string>
     <string name="msg_loading_asset_in_database">Saziyên %1$d di bin databases de barkirin</string>
-    <string name="msg_assets_loaded">Piştre, kerema xwe hesabê xwe saz bike ...</string>
+    <string name="msg_assets_loaded">Piştre, kerema xwe hesabê xwe saz bike…</string>
     <string name="error_fetching_marketcap_data">Daneyên danûstandinên bazar nekar nekarin</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Ji kerema xwe ji brainkeyê re binivîse, divê di navbera 12 û 16 de di nav wan de hebin.</string>
     <string name="unable_to_load_brainkey">Nehfkirina brînkeyê</string>
     <string name="account_already_exist">Account already exists</string>
-    <string name="importing_your_wallet">Import the wallet ...</string>
+    <string name="importing_your_wallet">Import the wallet…</string>
     <string name="account_candidates_title">Ji kerema xwe re hesabek hilbijêre</string>
     <string name="account_candidates_content">Kûçeyên ji vê brainkeyê derfetên ku ji bo bêtir hesabê kontrol bikin, ji kerema xwe re kîjan hesabê ku hûn dixwazin bazirganî hilbijêre</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Çewtiya kêşeya krîza key</string>
     <string name="error_corrupted_key_content">Vebijêrk nikare kilîtên şexsî yên şexsî ji navnîşana xwe veguhastin. Ji ber vê yekê hûn ê hewce nebin ku hûn bişkojkên xwe re têkevin. Yan di bin forma brînkeyey an pelê şopê bin binivîse ku bixweberkirina otomatîkê û otomatîk di otomobîlan de hate çêkirin heger heger hesab ji aliyê appê hate afirandin</string>
     <string name="invalid_pin">PIN</string>
+    <string name="network_loading_user_click_toast">Networkê barkirin. Ji kerema xwe bixwazin…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">Xane</string>
     <string name="txt_transactions">Transactions</string>
     <string name="txt_refunds_returns">Refunds / Returns</string>
     <string name="txt_settlement">Bicîanînî</string>
-    <string name="bitshares_nodes_dialog_title">Nîşeyên Bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Block: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Amûr hebe</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Ji kerema xwe bixwazin</string>
     <string name="error_node_unreachable">No node dikare bigihîje</string>
     <string name="invoice_subject">Ji P%1$s</string>
+    <string name="memo_warning">NOTE: Divê zeviya memo pêwîst e ku bi tezmînata daxwazê bazirganî bi riya xwe re bistînin.</string>
     <string name="before_s">Berî: %1$s</string>
     <string name="share">Par</string>
     <string name="share_with">Parve dikin li gel</string>
-    <string name="connecting">Girêdanê ...</string>
+    <string name="connecting">Girêdanê…</string>
+    <string name="error_bridge_title">Çewtiyek pira</string>
+    <string name="error_bridge_content">Pira guherîna pereyê xuya dike ku bibe. \n __N__ \n \n kodê bişîne: %1$d</string>
+    <string name="button_accept_tx">Têkilî qebûl bikin</string>
+    <string name="dialog_accept_tx_title">Qanûna danûstendinê?</string>
+    <string name="dialog_accept_tx_summary">Têguhestinê nehatiye dîtin, lê hê nehatiye pejirandin.</string>
+    <string name="option_add_surety">Pêwîst bikin</string>
+    <string name="option_wait">Payin</string>
+    <string name="option_accept">Baweranîn</string>
+    <string name="title__step_payment_seen">Payment</string>
+    <string name="msg__step_payment_seen">Li hêviyê ji bo peymana torê</string>
+    <string name="msg__step_payment_seen_done">Payment di nav blokekê de hatee kirin</string>
+    <string name="title__step_payment_received">Dayîn hate wergirtin</string>
+    <string name="template_tx_progress">Wê li ser piştrastkirina torên din. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Hin piştrastkirin qebûl kirin</string>
+    <string name="title__step_payment_confirmed">Payment pejirandin</string>
+    <string name="msg__step_payment_confirmed">Veguhastina veguherîna bazirganî û balyozxane</string>
+    <string name="msg__step_payment_confirmed_done">Payment process completed</string>
+    <string name="error_estimate_input_content_template">Dema ku hewce dike ku hewce dike ku hejmareke veguhestina nirxê. \n \n Çewtiya ji pargîdanê: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Dema ku daxwaza pêvajoyê we çêbûye çewtiyek çêbû.</string>
+    <string name="error_payment_request_content_template">Divê pargîdanê nikare %1$s pêvajoyê nîne. Ji kerema xwe paşê dîsa biceribînin. \n \nError ji ji pira pêkerê: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Daxwaznameya tezmînatê hilbijêrin</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Ev ê girêdayî dravê peyda ya berê ya baca qeydkirî ya %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Agahdariyên dravîkirinê</string>
     <string name="dialog_generic_title_confirm">Piştrastin?</string>
-    <string name="dialog_generic_msg_confirm">Ji kerema xwe re bisekinin ku ev çalakiyê nikare were vegerandin</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">Berdan</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Tezmînatê pejirandin!</string>
-    <string name="txt_cool">XWÎNSAR!</string>
+    <string name="title__payment_confirmed">Tezmînatê pejirandin!</string>
+    <string name="button__view_transactions">Veguhêrîn</string>
+    <string name="template__received">Received: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Mîhengên</string>
     <string name="general">Giştî</string>
-    <string name="security">Ewlekarî</string>
-    <string name="backups">Backups</string>
-    <string name="tokens">Tokens</string>
     <string name="accounts">Hesab</string>
+    <string name="tokens">Tokens</string>
     <string name="e_receipts">eşkere</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Mode mode</string>
+    <string name="title__local_fiat_currency">Currency Fiat Local</string>
     <string name="currency_info">Peya bixweberî bi zimanê xwe û hilbijartina welatê xwe ve hatiye hilbijartin. Heke hûn dixwazin wan guhartin, divê hûn pergalên pergalê yên cîhûbarê xwe biçin.</string>
     <string name="screen_saver">Saver Screen</string>
     <string name="source">Kanî</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Peldanka Peldanka (/ PalmPay)</string>
     <string name="txt_folder">Pêçek</string>
     <string name="choose">Helbijartin</string>
-    <string name="screen_saver_time">Piştrast bikin ...</string>
+    <string name="folder_has_no_images_error">Çewtiyê, peldanka hilbijartinê tune tune</string>
+    <string name="screen_saver_time">Piştrast bikin…</string>
     <string name="one_minute">1 Minute</string>
     <string name="three_minutes">3 Minute</string>
     <string name="five_minutes">5 Minute</string>
@@ -169,27 +189,43 @@
     <string name="city">Bajar</string>
     <string name="country">Welat</string>
     <string name="bugs_or_ideas">Bugs or Ideas?</string>
-    <string name="bugs_or_ideas_contact_info">Chatragam: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">Baweranîn</string>
     <string name="select">Neqandin</string>
     <string name="are_you_sure">Piştrastin?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Backup brainkey</string>
-    <string name="copied_to_clipboard">Kopîkirin clipboard</string>
-    <string name="bin_file_description">Pelê Bin. Heya her yek ji pelê ya binê binavê .bin bi kartê MicroSD an USB-ê veşartî bistînin.</string>
-    <string name="create_a_backup">Çêbikin</string>
-    <string name="brainkey_description">Brainkey. Gotarên ku ji bo veguhestin an kopîkirin, lê nayê guhertin.</string>
-    <string name="txt_brain_key_info">Vê veke, an jî binivîse. Her kesê ku bi destûra ku bi karta veguhestina we re wê wergirtina vê walletê bigire.</string>
-    <string name="view_and_copy"><![CDATA[View & Copy]]></string>
-    <string name="title_bin_backup">Back backup .bin</string>
-    <string name="hint_password">Şîfre</string>
-    <string name="hint_password_confirmation">Pejirandina nasnameyê</string>
-    <string name="error_password_mandatory">Divê şîfreya xwe binivîse</string>
-    <string name="error_password_too_short">Şîfre pir kurt e</string>
-    <string name="error_password_confirmation_mismatch">Nasnameya şîfre û pejirandinê</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Lock Lock</string>
+    <string name="title__security_dialog">Hilbijartina ewlehiyê hilbijêre</string>
+    <string name="text__pin">DERZÎ</string>
+    <string name="text__pattern">Mînak</string>
+    <string name="text__none">Netû</string>
+    <string name="button__choose">Helbijartin</string>
+    <string name="title__re_enter_your_pin">PINê xwe bişîne</string>
+    <string name="msg__enter_your_pin">PIN bi PalmPayê binivîse ku berdewam bike</string>
+    <string name="error__wrong_pin">PIN</string>
+    <string name="title__set_palmpay_security_lock">Ewlekariya PalmPayê bike</string>
+    <string name="msg__set_a_pin">Ji bo ewlehiyê, PIN kişand</string>
+    <string name="msg__min_pin_length">PIN divê herî kêm 6 heb</string>
+    <string name="title__pins_dont_match">PIN\'ên bi hev nekin</string>
+    <string name="title__re_enter_your_pattern">Pêvajoya xwe bistînin</string>
+    <string name="msg__enter_your_pattern">Pêvajoya bi PalmPayê binivîse ku berdewam bike</string>
+    <string name="msg__set_a_pattern">Ji bo ewlehiyê, nimûne</string>
+    <string name="msg__release_finger">Dema ku tilikê bidomîne</string>
+    <string name="button__clear">Zelal</string>
+    <string name="button__next">Piştî</string>
+    <string name="text__draw_an_unlock_pattern">Dabeşkirina veguhestinê hilbijêre</string>
+    <string name="msg__draw_pattern_confirm">Dîsa dîskek dakêşin ku piştrast bikin</string>
+    <string name="button__confirm">Tesdîqkirin</string>
+    <string name="msg__your_new_unlock_pattern">Nimûneya nû ya nû veke</string>
+    <string name="error__wrong_pattern">Nimûne çewt</string>
+    <string name="text__pattern_recorded">Pattern nivîsandin</string>
+    <string name="error__connect_at_least_4_dots">Herî kêm 4 daketin girêdan. Dubare bixebitin.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Gelek hewldanên xirab hene. Dîsa dîsa di %1$d de dîsa biceribînin.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Gelek hewldanên xirab hene. Dîsa di %1$d secs de dîsa biceribînin.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Hesabê Dawîn</string>
     <string name="merchant_account_s">Hesabê Merchant: %1$s</string>
     <string name="upgrade_to_ltm">Upgrade to LTM</string>
     <string name="upgrade_account_description">"Upgrade ji bo Rêxistina LifeTime (LTM). Lihevhatinên Lakên LTM bi qasî nêzîkî heqê payanê dide, ji bo referendên 80% kredî û bonus bistînin."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Hûn îdî hûn dixwazin ku ji vê walletê re hesabê hesabê \'%1$s\' jêbirin?"</string>
     <string name="remove">Dûrxistin</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Smartcoin Desire</string>
-    <string name="txt_customer_loyalty">Nîşeyên Rastiyê wekî ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">Backups</string>
+    <string name="backup_brainkey">Backup brainkey</string>
+    <string name="copied_to_clipboard">Kopîkirin clipboard</string>
+    <string name="bin_file_description">Pelê Bin. Heya her yek ji pelê ya binê binavê .bin bi kartê MicroSD an USB-ê veşartî bistînin.</string>
+    <string name="create_a_backup">Çêbikin</string>
+    <string name="brainkey_description">Brainkey. Gotarên ku ji bo veguhestin an kopîkirin, lê nayê guhertin.</string>
+    <string name="txt_brain_key_info">Vê veke, an jî binivîse. Her kesê ku bi destûra ku bi karta veguhestina we re wê wergirtina vê walletê bigire.</string>
+    <string name="view_and_copy"><![CDATA[View & Copy]]></string>
+    <string name="title_bin_backup">Back backup .bin</string>
+    <string name="hint_password">Şîfre</string>
+    <string name="hint_password_confirmation">Pejirandina nasnameyê</string>
+    <string name="error_password_mandatory">Divê şîfreya xwe binivîse</string>
+    <string name="error_password_too_short">Şîfre pir kurt e</string>
+    <string name="error_password_confirmation_mismatch">Nasnameya şîfre û pejirandinê</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Smartcoin Desire</string>
+    <string name="msg__desired_smartcoin_description">Hemî Cryptocurrencies ku we hatî wergirtin, bixweber bixweberê xwe ya Smartcoin veguherandin û di Accounta Merchant Meriv BitShares de.</string>
+    <string name="title__loyalty_points">Points</string>
+    <string name="msg__loyalty_points_description">Pirsên Berbiçav dikarin bixweberên xwe bişînin dema ku hûn bi we re mesref dikin. Hûn hewceyê hinekan tixûbên ku hûn dixwazin ku mişterên xwe bişînin.</string>
     <string name="warning_insufficient_reward_asset_balance">Hesabê we ne jî %1$s xwe ne. Ji kerema xwe hûn hinekan beriya we hewce dikin ku mişterên xwe bidin wek xeyaliya dilsoz.</string>
     <string name="send">Şandin</string>
     <string name="txt_for_every">Çimkî her her</string>
     <string name="txt_spent">derbas kirin</string>
-    <string name="txt_bitcoin_altcoin_deposited">Dersa 8 Cryptocurrencies:</string>
+    <string name="title__cryptocurrency_preferences">Pêşniyarên Cryptocurrency</string>
+    <string name="msg__cryptocurrency_preferences_description">Hilbijêre ku 8 ji firoşên populok ên ku hûn ji miştereyên we qebûl dikin. Ev cin dê li ser malbata xwe nîşan bide. Hûn dikarin her bijartan di her demê de biguherînin.</string>
     <string name="altcoins_should_not_more_than">Ji kerema xwe ji 8 derheqê sermiyan hilbijêrin</string>
-    <string name="bitshares_unselection_message">Bitshares (BTS) ya bingehîn a destnîşan e.</string>
     <string name="toast_low_volume_market">Hêzên bazara bazara demkî bi temamî hate qedexekirin. Ew dê piştî ku bazara bazarê zêde dibe ku hejmarek girîng e</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Store Name</string>
     <string name="address">Navnîşan</string>
@@ -238,7 +292,11 @@
     <string name="search">Gerr</string>
     <string name="filter">Parzûn</string>
     <string name="export">Eksport</string>
-    <string name="confirming">Pejirandin ...</string>
+    <string name="text__no_transactions">No Transactions</string>
+    <string name="text__awaiting_payment">Pêdivîbûna Payment…</string>
+    <string name="text__confirming">Pejirandin…</string>
+    <string name="text__complete">Tevî</string>
+    <string name="text__failed">Têkçûn</string>
     <string name="pdf_generated_msg_s">PDF çêkirin û tomarkirin: %1$s</string>
     <string name="pdf_generated_msg_error_s">Ne pdf hilberîne. Ji kerema xwe vegere. Çewtiya: %1$s</string>
     <string name="csv_generated_msg_s">CSV çêkirin û rizgar kirin: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Çewtiyek girêdana Node, retrying</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Çewtiya ji tevahî node. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Cudatiya nirxandinê</string>
+    <string name="error_payment_amount_content">Ew xuya dike ku em ji çi hêvî bûne kêmtir. Refund dê pêdivî ye ku meriv bi awayekî pêkanîn pêkanîn.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Em heqê paşnavê gihîştin, lê daxwazek nayê dîtin</string>

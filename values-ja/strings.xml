@@ -6,13 +6,13 @@
     <string name="disagree">同意しない</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">アセットの読み込み中...</string>
-    <string name="title_loading_asset_type_data">アセットタイプのデータを読み込んでいます...</string>
+    <string name="title_loading_assets">アセットの読み込み中…</string>
+    <string name="title_loading_asset_type_data">アセットタイプのデータを読み込んでいます…</string>
     <string name="title_assets_ready">資産データベース準備完了</string>
     <string name="msg_loading_all_existing_assets">既存のすべての資産の完全なリストを取得するために一連の要求を実行する</string>
     <string name="msg_loading_asset_type_data">さらなる資産の詳細のリクエスト</string>
     <string name="msg_loading_asset_in_database">%1$d assetsをデータベースにロードしました。</string>
-    <string name="msg_assets_loaded">次に、あなたのアカウントを設定してください...</string>
+    <string name="msg_assets_loaded">次に、あなたのアカウントを設定してください…</string>
     <string name="error_fetching_marketcap_data">マーケットキャップデータを読み込めませんでした</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">正しい脳を入力してください.12〜16語の間で入力してください。</string>
     <string name="unable_to_load_brainkey">brainkeyを読み込めません</string>
     <string name="account_already_exist">アカウントは既に存在します</string>
-    <string name="importing_your_wallet">ウォレットのインポート中...</string>
+    <string name="importing_your_wallet">ウォレットのインポート中…</string>
     <string name="account_candidates_title">アカウントを選択してください</string>
     <string name="account_candidates_content">このbrainkeyから派生したキーは複数のアカウントを管理するために使用されるようですが、インポートするアカウントを選択してください</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">キーの破損エラー</string>
     <string name="error_corrupted_key_content">アプリは暗号化された秘密鍵をデータベースから回復できません。このため、あなたは再びあなたのキーを入力する必要があります。脳キーの形式か、アプリケーションによってアカウントが作成された場合に自動的に生成されてsdcardに保存されるbinのバックアップファイルを作成します</string>
     <string name="invalid_pin">PINが無効です</string>
+    <string name="network_loading_user_click_toast">ネットワークがロードされています。お待ちください…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">ホーム</string>
     <string name="txt_transactions">トランザクション</string>
     <string name="txt_refunds_returns">払い戻し/返品</string>
     <string name="txt_settlement">決済</string>
-    <string name="bitshares_nodes_dialog_title">Bitsharesノード</string>
+    <string name="bitshares_nodes_dialog_title">ブロック：%1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">料金</string>
@@ -112,7 +113,7 @@
     <string name="eight">8</string>
     <string name="nine">9</string>
     <string name="title_error_market">注文書エラー</string>
-    <string name="content_error_market">DEXには現時点で交換を行うことを許可する命令はありません。 \n \n設定画面に移動し、別の出力アセットを選択してください。</string>
+    <string name="content_error_market">DEXには現時点で%1$sとの交換を行うことができる命令はありません。 設定画面で別の出力アセットを選択してください。</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">支払ってください</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">お待ちください</string>
     <string name="error_node_unreachable">ノードに到達できませんでした</string>
     <string name="invoice_subject">%1$sからのPalmPay請求書</string>
+    <string name="memo_warning">注：メモフィールドは、支払いを加盟店のリクエストと正しく一致させるために必要です。</string>
     <string name="before_s">前：%1$s</string>
     <string name="share">シェア</string>
     <string name="share_with">と共有する</string>
-    <string name="connecting">接続中...</string>
+    <string name="connecting">接続中…</string>
+    <string name="error_bridge_title">ブリッジエラー</string>
+    <string name="error_bridge_content">通貨換算ブリッジはダウンしているようです。 \n \nサポートに連絡してください。 \n \nエラーコードは%1$dです</string>
+    <string name="button_accept_tx">取引を受け入れる</string>
+    <string name="dialog_accept_tx_title">取引を受け入れますか？</string>
+    <string name="dialog_accept_tx_summary">トランザクションは検出されましたが、まだ完全には確認されていません。</string>
+    <string name="option_add_surety">確実性を追加</string>
+    <string name="option_wait">待つ</string>
+    <string name="option_accept">受け入れる</string>
+    <string name="title__step_payment_seen">支払いが見られました</string>
+    <string name="msg__step_payment_seen">ネットワーク確認待ち</string>
+    <string name="msg__step_payment_seen_done">支払いがブロックに含まれています</string>
+    <string name="title__step_payment_received">お支払い頂いた</string>
+    <string name="template_tx_progress">より多くのネットワーク確認を待っています。 %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">十分な確認を受けました</string>
+    <string name="title__step_payment_confirmed">支払い確認</string>
+    <string name="msg__step_payment_confirmed">開始された加盟店および大使へのアウトプット取引</string>
+    <string name="msg__step_payment_confirmed_done">支払い処理が完了しました</string>
+    <string name="error_estimate_input_content_template">入力金額を見積もっているときにエラーが発生しました。 \n \nブリッジプロバイダからのエラー：\n \n %1$s</string>
+    <string name="error_payment_processing_content">リクエストの処理中にエラーが発生しました。</string>
+    <string name="error_payment_request_content_template">ブリッジプロバイダは現在%1$sを処理できません。後でもう一度やり直してください。 \n \nブリッジプロバイダからのエラー：\n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">支払いリクエストを選択</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">これは入金を%1$sの以前に記録された支払要求にリンクします</string>
     <string name="dialog_msg_incoming_payment_details">入金の詳細</string>
     <string name="dialog_generic_title_confirm">本気ですか？</string>
-    <string name="dialog_generic_msg_confirm">この操作は元に戻すことはできません</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">却下する</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">お支払いが確定しました！</string>
-    <string name="txt_cool">クール！</string>
+    <string name="title__payment_confirmed">お支払いが確定しました！</string>
+    <string name="button__view_transactions">トランザクションを見る</string>
+    <string name="template__received">受信した：%1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">設定</string>
     <string name="general">一般</string>
-    <string name="security">セキュリティ</string>
-    <string name="backups">バックアップ</string>
-    <string name="tokens">トークン</string>
     <string name="accounts">アカウント</string>
+    <string name="tokens">トークン</string>
     <string name="e_receipts">eレセプション</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">ナイトモード</string>
+    <string name="title__local_fiat_currency">現地フィアット通貨</string>
     <string name="currency_info">通貨は、言語と国の選択に基づいて自動的に選択されます。それらを変更するには、デバイスのグローバルシステム設定に移動する必要があります。</string>
     <string name="screen_saver">スクリーンセーバー</string>
     <string name="source">ソース</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">デフォルトフォルダ（/ PalmPay）</string>
     <string name="txt_folder">フォルダ</string>
     <string name="choose">選択する</string>
-    <string name="screen_saver_time">後で有効にする...</string>
+    <string name="folder_has_no_images_error">エラー、選択したフォルダに画像がありません</string>
+    <string name="screen_saver_time">後で有効にするƒ…</string>
     <string name="one_minute">1分</string>
     <string name="three_minutes">3分</string>
     <string name="five_minutes">5分</string>
@@ -169,27 +189,43 @@
     <string name="city">シティ</string>
     <string name="country">国</string>
     <string name="bugs_or_ideas">バグやアイデア？</string>
-    <string name="bugs_or_ideas_contact_info">テレグラムチャット：http://t.me/Agorise \nEmail：Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">電信：https://t.me/Agorise \nKeybase：https://keybase.io/team/Agorise</string>
     <string name="accept">同意する</string>
     <string name="select">選択</string>
     <string name="are_you_sure">本気ですか？</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">バックアップの頭脳</string>
-    <string name="copied_to_clipboard">クリップボードにコピーされました</string>
-    <string name="bin_file_description">Binファイル。バックアップ.binファイルは、常に秘密のMicroSDカードまたはUSBスティックに保存してください。</string>
-    <string name="create_a_backup">バックアップを作成する</string>
-    <string name="brainkey_description">ブレインキー。キャプチャまたはコピーできますが、編集はできないアカウントリカバリワード。</string>
-    <string name="txt_brain_key_info">これを印刷するか、書き留めてください。リカバリキーにアクセスできるユーザーは、このウォレット内の資金にアクセスできます。</string>
-    <string name="view_and_copy">表示とコピー</string>
-    <string name="title_bin_backup">.binバックアップのエクスポート</string>
-    <string name="hint_password">パスワード</string>
-    <string name="hint_password_confirmation">パスワードの確認</string>
-    <string name="error_password_mandatory">パスワードを入力する必要があります</string>
-    <string name="error_password_too_short">パスワードが短すぎます</string>
-    <string name="error_password_confirmation_mismatch">パスワードと確認ミスマッチ</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">セキュリティロック</string>
+    <string name="title__security_dialog">セキュリティロックを選択する</string>
+    <string name="text__pin">ピン</string>
+    <string name="text__pattern">パターン</string>
+    <string name="text__none">無し</string>
+    <string name="button__choose">選ぶ</string>
+    <string name="title__re_enter_your_pin">PINを再入力してください</string>
+    <string name="msg__enter_your_pin">続行するにはPalmPay PINを入力してください</string>
+    <string name="error__wrong_pin">間違ったPIN</string>
+    <string name="title__set_palmpay_security_lock">PalmPayセキュリティを設定する</string>
+    <string name="msg__set_a_pin">セキュリティのため、PINを設定してください</string>
+    <string name="msg__min_pin_length">PINは6桁以上でなければなりません</string>
+    <string name="title__pins_dont_match">PINが一致しません</string>
+    <string name="title__re_enter_your_pattern">あなたのパターンを再入力</string>
+    <string name="msg__enter_your_pattern">続行するにはPalmPayパターンを入力してください</string>
+    <string name="msg__set_a_pattern">セキュリティのために、パターンを設定してください</string>
+    <string name="msg__release_finger">終わったら指を離す</string>
+    <string name="button__clear">クリア</string>
+    <string name="button__next">次</string>
+    <string name="text__draw_an_unlock_pattern">ロック解除パターンを描く</string>
+    <string name="msg__draw_pattern_confirm">確認のためにもう一度パターンを描きます</string>
+    <string name="button__confirm">確認する</string>
+    <string name="msg__your_new_unlock_pattern">あなたの新しいロック解除パターン</string>
+    <string name="error__wrong_pattern">間違ったパターン</string>
+    <string name="text__pattern_recorded">記録されたパターン</string>
+    <string name="error__connect_at_least_4_dots">少なくとも4つの点をつないでください。再試行する。</string>
+    <string name="error__security_lock_too_many_attempts_minutes">間違った試みが多すぎます。 %1$d分後にもう一度やり直してください。</string>
+    <string name="error__security_lock_too_many_attempts_seconds">間違った試みが多すぎます。 %1$d秒後にもう一度やり直してください。</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">当座預金</string>
     <string name="merchant_account_s">商人アカウント：%1$s</string>
     <string name="upgrade_to_ltm">LTMへのアップグレード</string>
     <string name="upgrade_account_description">LifeTime Membership（LTM）へのアップグレード：BitsharesのLTMアカウントはゼロに近い手数料を払い、紹介のために80％のキャッシュバックとボーナスを得る。</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"この札入れから \'%1$s\'アカウントを削除してもよろしいですか？"</string>
     <string name="remove">削除する</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">希望のSmartcoin</string>
-    <string name="txt_customer_loyalty">ロイズポイントを発行する</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">バックアップ</string>
+    <string name="backup_brainkey">バックアップの頭脳</string>
+    <string name="copied_to_clipboard">クリップボードにコピーされました</string>
+    <string name="bin_file_description">Binファイル。バックアップ.binファイルは、常に秘密のMicroSDカードまたはUSBスティックに保存してください。</string>
+    <string name="create_a_backup">バックアップを作成する</string>
+    <string name="brainkey_description">ブレインキー。キャプチャまたはコピーできますが、編集はできないアカウントリカバリワード。</string>
+    <string name="txt_brain_key_info">これを印刷するか、書き留めてください。リカバリキーにアクセスできるユーザーは、このウォレット内の資金にアクセスできます。</string>
+    <string name="view_and_copy">表示とコピー</string>
+    <string name="title_bin_backup">.binバックアップのエクスポート</string>
+    <string name="hint_password">パスワード</string>
+    <string name="hint_password_confirmation">パスワードの確認</string>
+    <string name="error_password_mandatory">パスワードを入力する必要があります</string>
+    <string name="error_password_too_short">パスワードが短すぎます</string>
+    <string name="error_password_confirmation_mismatch">パスワードと確認ミスマッチ</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">希望のSmartcoin</string>
+    <string name="msg__desired_smartcoin_description">あなたが受け取ったすべての暗号通貨は自動的にあなたの希望するSmartcoinに変換されあなたのBitSharesマーチャントアカウントに保存されます。</string>
+    <string name="title__loyalty_points">ロイヤリティポイント</string>
+    <string name="msg__loyalty_points_description">ロイヤリティポイントは、顧客があなたとお金を使うときに自動的に顧客に送信されます。あなたはあなたがあなたの顧客に送りたいトークンのいくつかを所有しなければなりません。</string>
     <string name="warning_insufficient_reward_asset_balance">あなたのアカウントはまだ%1$sを所有していません。顧客にロイヤリティポイントを付与しようとする前に、いくつか購入してください。</string>
     <string name="send">送信</string>
     <string name="txt_for_every">すべてのための</string>
     <string name="txt_spent">過ごした</string>
-    <string name="txt_bitcoin_altcoin_deposited">最大8つの暗号化を受け入れる：</string>
+    <string name="title__cryptocurrency_preferences">暗号通貨の設定</string>
+    <string name="msg__cryptocurrency_preferences_description">あなたがあなたの顧客から受け入れる8つまでの人気のある暗号通貨を選びなさい。これらのコインはホームスクリーンに現れます。これらの選択はいつでも変更できます。</string>
     <string name="altcoins_should_not_more_than">入力資産を8つまで選択してください</string>
-    <string name="bitshares_unselection_message">Bitshares（BTS）コアトークンが必要です。</string>
     <string name="toast_low_volume_market">少量の市場資産は一時的に無効になっています。市場規模がかなり大きくなると有効になります</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">ロゴ</string>
     <string name="store_name">店名</string>
     <string name="address">住所</string>
@@ -238,7 +292,11 @@
     <string name="search">サーチ</string>
     <string name="filter">フィルタ</string>
     <string name="export">輸出する</string>
-    <string name="confirming">確認中...</string>
+    <string name="text__no_transactions">取引なし</string>
+    <string name="text__awaiting_payment">支払いを待っている…</string>
+    <string name="text__confirming">確認しています…</string>
+    <string name="text__complete">コンプリート</string>
+    <string name="text__failed">失敗しました</string>
     <string name="pdf_generated_msg_s">生成され保存されたPDF：%1$s</string>
     <string name="pdf_generated_msg_error_s">pdfを生成できません。再試行してください。エラー：%1$s</string>
     <string name="csv_generated_msg_s">生成され保存されたCSV：%1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">ノード接続エラー、再試行</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">フルノードからのエラーです。メッセージ：%1$s</string>
+    <string name="error_payment_amount_title">受領額の不一致</string>
+    <string name="error_payment_amount_content">予想以上に届いていないようです。払い戻しは手動で処理する必要があります。</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">入金がありましたが、リクエストは見つかりませんでした</string>

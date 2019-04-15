@@ -6,13 +6,13 @@
     <string name="disagree">Nuk bie dakort</string>
 
     <!-- Database Load Activity -->
-    <string name="title_loading_assets">Ngarkimi i pasurive ...</string>
-    <string name="title_loading_asset_type_data">Duke ngarkuar të dhënat e llojit të pasurisë ...</string>
+    <string name="title_loading_assets">Ngarkimi i pasurive…</string>
+    <string name="title_loading_asset_type_data">Duke ngarkuar të dhënat e llojit të pasurisë…</string>
     <string name="title_assets_ready">Baza e të dhënave e aseteve gati</string>
     <string name="msg_loading_all_existing_assets">Kryerja e një sërë kërkesash për të marrë listën e plotë të të gjitha aseteve ekzistuese</string>
     <string name="msg_loading_asset_type_data">Kërkimi i detajeve të mëtejshme të aseteve</string>
     <string name="msg_loading_asset_in_database">Mjetet e ngarkuara %1$d në bazën e të dhënave</string>
-    <string name="msg_assets_loaded">Tjetra, konfiguroni llogarinë tuaj ...</string>
+    <string name="msg_assets_loaded">Tjetra, konfiguroni llogarinë tuaj…</string>
     <string name="error_fetching_marketcap_data">Nuk mund të ngarkonte të dhënat e marketcap</string>
 
     <!-- Create Account Activity -->
@@ -51,7 +51,7 @@
     <string name="please_enter_correct_brainkey">Ju lutemi shkruani tru të saktë, duhet të keni midis 12 dhe 16 fjalë.</string>
     <string name="unable_to_load_brainkey">E pamundur për të ngarkuar tru</string>
     <string name="account_already_exist">Llogaria tashmë ekziston</string>
-    <string name="importing_your_wallet">Importimi i portofolit tënd ...</string>
+    <string name="importing_your_wallet">Importimi i portofolit tënd…</string>
     <string name="account_candidates_title">Zgjidh një llogari</string>
     <string name="account_candidates_content">Çelësat e nxjerra nga kjo pikë e trurit duket se përdoren për të kontrolluar më shumë se një llogari, ju lutemi zgjidhni llogarinë që dëshironi të importoni</string>
 
@@ -88,13 +88,14 @@
     <string name="error_corrupted_key_title">Gabim kryesor i korrupsionit</string>
     <string name="error_corrupted_key_content">Aplikacioni nuk mund të rimarrë çelësat privat të koduar nga baza e të dhënave. Për shkak të kësaj ju do të kërkohet që të futni çelësat përsëri. Ose në formën e një "brainkey" ose të formësoni skedarin rezervë bin që është krijuar dhe ruajtur automatikisht në sdcard tuaj nëse llogaria është krijuar nga aplikacioni</string>
     <string name="invalid_pin">PIN i pavlefshëm</string>
+    <string name="network_loading_user_click_toast">Rrjeti po ngarkon. Te lutem prit…</string>
 
     <!-- Main Activity Drawer -->
     <string name="txt_home">shtëpi</string>
     <string name="txt_transactions">transaksionet</string>
     <string name="txt_refunds_returns">Rimbursimet / Kthim</string>
     <string name="txt_settlement">zgjidhje</string>
-    <string name="bitshares_nodes_dialog_title">Nyjet Bitshares</string>
+    <string name="bitshares_nodes_dialog_title">Blloku: %1$s</string>
 
     <!-- Keypad Activity -->
     <string name="txt_amount_due">Sasia e detyruar për pagesë</string>
@@ -122,10 +123,31 @@
     <string name="txt_please_wait">Te lutem prit</string>
     <string name="error_node_unreachable">Asnjë nyje nuk mund të arrihej</string>
     <string name="invoice_subject">Fatura e PalmPay nga %1$s</string>
+    <string name="memo_warning">SHËNIM: Fusha e memorjes është e nevojshme për të përputhur me saktësisht pagesën tuaj me kërkesën e tregtarit.</string>
     <string name="before_s">Para: %1$s</string>
     <string name="share">pjesë</string>
     <string name="share_with">Ndaj me</string>
-    <string name="connecting">Duke u lidhur ...</string>
+    <string name="connecting">Duke u lidhur…</string>
+    <string name="error_bridge_title">Gabim uji</string>
+    <string name="error_bridge_content">Ura e konvertimit të monedhës duket të jetë poshtë. \n \n Ju lutemi të kontaktoni me mbështetjen. \n \n Kodi i dëmtuar është: %1$d</string>
+    <string name="button_accept_tx">Prano transaksionin</string>
+    <string name="dialog_accept_tx_title">Prano transaksion?</string>
+    <string name="dialog_accept_tx_summary">Transaksioni është zbuluar, por ende nuk është konfirmuar plotësisht.</string>
+    <string name="option_add_surety">Shtoni siguri</string>
+    <string name="option_wait">prit</string>
+    <string name="option_accept">pranoj</string>
+    <string name="title__step_payment_seen">Pagesa shihet</string>
+    <string name="msg__step_payment_seen">Po pritet konfirmimi i rrjetit</string>
+    <string name="msg__step_payment_seen_done">Pagesa është përfshirë në një bllok</string>
+    <string name="title__step_payment_received">Pagesa e marrë</string>
+    <string name="template_tx_progress">Duke pritur për konfirmime të rrjetit. %1$d / %2$s</string>
+    <string name="msg__step_payment_received_done">Janë pranuar mjaft konfirmime</string>
+    <string name="title__step_payment_confirmed">Pagesa u konfirmua</string>
+    <string name="msg__step_payment_confirmed">Transaksioni i prodhimit për tregtarët dhe ambasadorët iniciuar</string>
+    <string name="msg__step_payment_confirmed_done">Përpunimi i pagesave është përfunduar</string>
+    <string name="error_estimate_input_content_template">Gabim gjatë përpjekjes për të vlerësuar shumën e hyrjes. \n \n Gabim nga ofruesi i urës: \n \n %1$s</string>
+    <string name="error_payment_processing_content">Ka pasur një gabim gjatë përpunimit të kërkesës suaj.</string>
+    <string name="error_payment_request_content_template">Ofruesi Bridge nuk mund të përpunojë %1$s tani. Ju lutem provoni përsëri më vonë. \n \nError nga ofruesi i urës: \n \n "%2$s"</string>
 
     <!-- Select payment request dialog -->
     <string name="dialog_select_payment_request_title">Zgjidh kërkesën për pagesë</string>
@@ -133,26 +155,23 @@
     <string name="dialog_msg_confirm_pending_payment">Kjo do të lidhë pagesën hyrëse me kërkesën për pagesë të regjistruar paraprakisht prej %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Detajet e pagesës hyrëse</string>
     <string name="dialog_generic_title_confirm">A je i sigurt?</string>
-    <string name="dialog_generic_msg_confirm">Ju lutem vini re se ky veprim nuk mund të zhbëhet</string>
-    <string name="dialog_incoming_payment_template_core">%1$.2f %2$s</string>
-    <string name="dialog_incoming_payment_template_output">%1$.2f %2$s</string>
     <string name="dismiss">shkarkoj</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title_payment_confirmed">Pagesa u konfirmua!</string>
-    <string name="txt_cool">COOL!</string>
+    <string name="title__payment_confirmed">Pagesa u konfirmua!</string>
+    <string name="button__view_transactions">Shiko Transaksionet</string>
+    <string name="template__received">Pranuar: %1$s</string>
 
     <!-- Settings Activity -->
     <string name="txt_settings">Cilësimet</string>
     <string name="general">i përgjithshëm</string>
-    <string name="security">siguri</string>
-    <string name="backups">backups</string>
-    <string name="tokens">argumentet</string>
     <string name="accounts">llogaritë</string>
+    <string name="tokens">argumentet</string>
     <string name="e_receipts">eReceipts</string>
 
-    <!-- General Settings -->
+    <!-- Settings > General -->
     <string name="night_mode">Mënyra e natës</string>
+    <string name="title__local_fiat_currency">Valuta vendore Fiat</string>
     <string name="currency_info">Monedha përzgjidhet automatikisht në bazë të zgjedhjes së gjuhës dhe vendit tuaj. Nëse dëshironi të ndryshoni ato, duhet të shkoni te cilësimet e sistemit global të pajisjes suaj.</string>
     <string name="screen_saver">Mbrojtës Ekrani</string>
     <string name="source">burim</string>
@@ -160,7 +179,8 @@
     <string name="default_folder">Dosja e paracaktuar (/ PalmPay)</string>
     <string name="txt_folder">dosje</string>
     <string name="choose">zgjedh</string>
-    <string name="screen_saver_time">Aktivizo pas ...</string>
+    <string name="folder_has_no_images_error">Gabim, dosja e zgjedhur nuk ka imazhe</string>
+    <string name="screen_saver_time">Aktivizo pas…</string>
     <string name="one_minute">1 minutë</string>
     <string name="three_minutes">3 Minuta</string>
     <string name="five_minutes">5 minuta</string>
@@ -169,27 +189,43 @@
     <string name="city">qytet</string>
     <string name="country">vend</string>
     <string name="bugs_or_ideas">Bugs ose Ide?</string>
-    <string name="bugs_or_ideas_contact_info">Telegrame chat: http://t.me/Agorise \nEmail: Agorise@protonmail.ch</string>
+    <string name="bugs_or_ideas_contact_info">Telegrami: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
     <string name="accept">pranoj</string>
     <string name="select">zgjedh</string>
     <string name="are_you_sure">A je i sigurt?</string>
 
-    <!-- Backups Settings -->
-    <string name="backup_brainkey">Krijuesi i sigurisë</string>
-    <string name="copied_to_clipboard">Kopjohet në clipboard</string>
-    <string name="bin_file_description">Bin file. Gjithmonë ruani skedarin tuaj backup .bin në një kartë të fshehtë MicroSD ose USB Stick.</string>
-    <string name="create_a_backup">Krijo një kopje rezervë</string>
-    <string name="brainkey_description">Brainkey. Fjalëkalimi i llogarisë që mund të kapen ose kopjohen, por jo të redaktuar.</string>
-    <string name="txt_brain_key_info">Printoni këtë, ose shkruani. Çdokush që ka qasje në çelësin e rimëkëmbjes do të ketë qasje në fondet brenda këtij portofol.</string>
-    <string name="view_and_copy">Shiko dhe kopjo</string>
-    <string name="title_bin_backup">Eksport .bin backup</string>
-    <string name="hint_password">fjalëkalim</string>
-    <string name="hint_password_confirmation">konfirmimi i fjalëkalimit</string>
-    <string name="error_password_mandatory">Duhet të futni një fjalëkalim</string>
-    <string name="error_password_too_short">Fjalëkalimi është shumë i shkurtër</string>
-    <string name="error_password_confirmation_mismatch">Fjalëkalimi dhe mospërputhja e konfirmimit</string>
+    <!-- Settings > Accounts > Security Lock -->
+    <string name="title__security_lock">Mbyllja e sigurisë</string>
+    <string name="title__security_dialog">Zgjidhni një bllok sigurie</string>
+    <string name="text__pin">GJILPERE</string>
+    <string name="text__pattern">model</string>
+    <string name="text__none">Asnje</string>
+    <string name="button__choose">zgjedh</string>
+    <string name="title__re_enter_your_pin">Rifutoni PIN-in tuaj</string>
+    <string name="msg__enter_your_pin">Futni PIN-in tuaj të PalmPay për të vazhduar</string>
+    <string name="error__wrong_pin">PIN i gabuar</string>
+    <string name="title__set_palmpay_security_lock">Set PalmPay Security</string>
+    <string name="msg__set_a_pin">Për siguri, caktoni një PIN</string>
+    <string name="msg__min_pin_length">PIN duhet të jetë së paku 6 shifra</string>
+    <string name="title__pins_dont_match">PIN-të nuk përputhen</string>
+    <string name="title__re_enter_your_pattern">Rifuteni modelin tuaj</string>
+    <string name="msg__enter_your_pattern">Shkruani modelin tuaj PalmPay për të vazhduar</string>
+    <string name="msg__set_a_pattern">Për sigurinë, vendosni një Modeli</string>
+    <string name="msg__release_finger">Lëshoje gishtin kur të bëhet</string>
+    <string name="button__clear">Qartë</string>
+    <string name="button__next">tjetër</string>
+    <string name="text__draw_an_unlock_pattern">Vizatoni një model zhbllokimi</string>
+    <string name="msg__draw_pattern_confirm">Vizatoni modelin përsëri për të konfirmuar</string>
+    <string name="button__confirm">konfirmoj</string>
+    <string name="msg__your_new_unlock_pattern">Modeli juaj i ri i zhbllokimit</string>
+    <string name="error__wrong_pattern">Modeli i gabuar</string>
+    <string name="text__pattern_recorded">Modeli regjistrohet</string>
+    <string name="error__connect_at_least_4_dots">Lidhni të paktën 4 pika. Provo përsëri.</string>
+    <string name="error__security_lock_too_many_attempts_minutes">Shumë përpjekje të pasakta. Provo sërish në %1$d minuta.</string>
+    <string name="error__security_lock_too_many_attempts_seconds">Shumë përpjekje të pasakta. Provo përsëri në %1$d sekonda.</string>
 
-    <!-- Account Settings -->
+    <!-- Settings > Accounts > Current Account -->
+    <string name="title__current_account">Llogaria rrjedhëse</string>
     <string name="merchant_account_s">Llogaria Merchant: %1$s</string>
     <string name="upgrade_to_ltm">Përmirëso në LTM</string>
     <string name="upgrade_account_description">"Përmirësimi i anëtarësimit në LifeTime (LTM). LSH llogaritë Bitshares paguajnë taksat afër zero, fitojnë 80% bonus dhe bonuse për referime."</string>
@@ -205,19 +241,37 @@
     <string name="txt_account_remove_confirmation">"Jeni i sigurt që doni të hiqni llogarinë \'%1$s\' nga ky portofol?"</string>
     <string name="remove">heq</string>
 
-    <!-- Tokens Settings -->
-    <string name="txt_desired_smartcoin">Smartcoin e dëshiruar</string>
-    <string name="txt_customer_loyalty">Lëshoni pikat e besnikërisë si ...</string>
+    <!-- Settings > Accounts > Backups -->
+    <string name="backups">backups</string>
+    <string name="backup_brainkey">Krijuesi i sigurisë</string>
+    <string name="copied_to_clipboard">Kopjohet në clipboard</string>
+    <string name="bin_file_description">Bin file. Gjithmonë ruani skedarin tuaj backup .bin në një kartë të fshehtë MicroSD ose USB Stick.</string>
+    <string name="create_a_backup">Krijo një kopje rezervë</string>
+    <string name="brainkey_description">Brainkey. Fjalëkalimi i llogarisë që mund të kapen ose kopjohen, por jo të redaktuar.</string>
+    <string name="txt_brain_key_info">Printoni këtë, ose shkruani. Çdokush që ka qasje në çelësin e rimëkëmbjes do të ketë qasje në fondet brenda këtij portofol.</string>
+    <string name="view_and_copy">Shiko dhe kopjo</string>
+    <string name="title_bin_backup">Eksport .bin backup</string>
+    <string name="hint_password">fjalëkalim</string>
+    <string name="hint_password_confirmation">konfirmimi i fjalëkalimit</string>
+    <string name="error_password_mandatory">Duhet të futni një fjalëkalim</string>
+    <string name="error_password_too_short">Fjalëkalimi është shumë i shkurtër</string>
+    <string name="error_password_confirmation_mismatch">Fjalëkalimi dhe mospërputhja e konfirmimit</string>
+
+    <!-- Settings > Tokens -->
+    <string name="title__desired_smartcoin">Smartcoin e dëshiruar</string>
+    <string name="msg__desired_smartcoin_description">Të gjitha Cryptocurrencies që keni marrë, konvertohen automatikisht në Smartcoin tuaj të dëshiruar dhe ruhen në Llogarinë tuaj Merchant Merchant.</string>
+    <string name="title__loyalty_points">Pikat e Besnikërisë</string>
+    <string name="msg__loyalty_points_description">Pikat e Besnikërisë mund t\'u dërgohen automatikisht klientëve tuaj kur shpenzojnë para me ju. Ju duhet të zotëni disa prej argumenteve që dëshironi t\'i dërgoni klientëve tuaj.</string>
     <string name="warning_insufficient_reward_asset_balance">Llogaria jote ende nuk zotëron ndonjë %1$s. Ju lutemi fitoni disa para se të përpiqeni t\'i jepni ndonjë klientëve tuaj si pike Besnikërie.</string>
     <string name="send">dërgoj</string>
     <string name="txt_for_every">Per cdo</string>
     <string name="txt_spent">kaluar</string>
-    <string name="txt_bitcoin_altcoin_deposited">Pranoni deri në 8 kripto valute:</string>
+    <string name="title__cryptocurrency_preferences">Preferencat e kriptocurenit</string>
+    <string name="msg__cryptocurrency_preferences_description">Zgjidhni deri në 8 kripto valute popullore që do të pranoni nga klientët tuaj. Këto monedha do të shfaqen në ekranin e shtëpisë. Ju mund t\'i ndryshoni këto zgjedhje në çdo kohë.</string>
     <string name="altcoins_should_not_more_than">Ju lutemi zgjidhni jo më shumë se 8 pasuri të inputeve</string>
-    <string name="bitshares_unselection_message">Bitshares (BTS) është thelbësore.</string>
     <string name="toast_low_volume_market">Asetet e tregut të vëllimit të ulët janë me aftësi të kufizuara kohore. Ato do të aktivizohen sapo vëllimi i tregut të rritet në një sasi të konsiderueshme</string>
 
-    <!-- eReceipt Settings -->
+    <!-- Settings > eReceipt -->
     <string name="logo">Logo</string>
     <string name="store_name">Emri Store</string>
     <string name="address">Adresë</string>
@@ -238,7 +292,11 @@
     <string name="search">kërkim</string>
     <string name="filter">filtër</string>
     <string name="export">eksport</string>
-    <string name="confirming">Duke konfirmuar ...</string>
+    <string name="text__no_transactions">Asnjë transaksion</string>
+    <string name="text__awaiting_payment">Duke pritur pagesen…</string>
+    <string name="text__confirming">Duke konfirmuar…</string>
+    <string name="text__complete">i plotë</string>
+    <string name="text__failed">i dështuar</string>
     <string name="pdf_generated_msg_s">Gjeneruar dhe ruajtur PDF: %1$s</string>
     <string name="pdf_generated_msg_error_s">Nuk mund të gjeneroj pdf. Ju lutem provoni përsëri. Gabim: %1$s</string>
     <string name="csv_generated_msg_s">CSV u krijua dhe ruhej: %1$s</string>
@@ -298,6 +356,11 @@
 
     <!-- PalmPay Application -->
     <string name="error_node_connectivity">Gabim në lidhje me nyjen, duke u përpjekur përsëri</string>
+
+    <!-- ConnectedActivity -->
+    <string name="connected_activity_network_error_template">Gabim nga nyja e plotë. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Mospërputhja e shumës së marrë</string>
+    <string name="error_payment_amount_content">Duket sikur kemi marrë më pak se ç\'pritej. Shuma e rimbursimit do të duhet të përpunohet me dorë.</string>
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Ne morëm një pagesë hyrëse, por asnjë kërkesë nuk mund të gjendet</string>

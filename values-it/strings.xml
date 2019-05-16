@@ -2,14 +2,14 @@
 <resources>
     <!-- License Activity -->
     <string name="license">Licenza</string>
-    <string name="agree">Essere d\'accordo</string>
-    <string name="disagree">Disaccordo</string>
+    <string name="agree">Accetto</string>
+    <string name="disagree">Non accetto</string>
 
     <!-- Database Load Activity -->
     <string name="title_loading_assets">Caricamento delle risorse…</string>
     <string name="title_loading_asset_type_data">Caricamento dei dati del tipo di risorsa…</string>
     <string name="title_assets_ready">Database di asset pronto</string>
-    <string name="msg_loading_all_existing_assets">Esecuzione di una serie di richieste per ottenere l\'elenco completo di tutte le risorse esistenti</string>
+    <string name="msg_loading_all_existing_assets">Esecuzione di una serie di richieste per ottenere un elenco completo di tutte le risorse esistenti</string>
     <string name="msg_loading_asset_type_data">Richiesta di ulteriori dettagli sulle risorse</string>
     <string name="msg_loading_asset_in_database">Caricato %1$d asset nel database</string>
     <string name="msg_assets_loaded">Quindi, imposta il tuo account…</string>
@@ -26,7 +26,7 @@
     <string name="try_again">Per favore riprova dopo 5 minuti</string>
     <string name="txt_new_pin_confirmation">Conferma il nuovo PIN (6+ cifre)</string>
     <string name="error_wif">Errore durante la creazione della chiave WIF</string>
-    <string name="error_faucet_template">Il rubinetto ha restituito un errore. Messaggio: %1$s</string>
+    <string name="error_faucet_template">Il flusso dei dati ha restituito un errore. Messaggio: %1$s</string>
     <string name="error_read_dict_file">Errore durante la lettura del file del dizionario</string>
     <string name="error_missing_account">L\'app non ha potuto recuperare informazioni sull\'account appena creato</string>
     <string name="create_account_title">Creazione di un nuovo account</string>
@@ -47,13 +47,13 @@
     <string name="please_enter_6_digit_pin">Inserisci il codice PIN a 6 cifre</string>
     <string name="please_enter_6_digit_pin_confirm">Si prega di inserire la conferma del numero PIN</string>
     <string name="mismatch_pin">Pin di mancanza</string>
-    <string name="please_enter_brainkey">Per favore, inserisci il cervello</string>
+    <string name="please_enter_brainkey">Per favore, inserisci il Brainkey</string>
     <string name="please_enter_correct_brainkey">Per favore inserisci il codice corretto, dovrebbe avere tra 12 e 16 parole.</string>
     <string name="unable_to_load_brainkey">Impossibile caricare il codice</string>
     <string name="account_already_exist">Il conto esiste già</string>
-    <string name="importing_your_wallet">Importare il tuo portafoglio…</string>
+    <string name="importing_your_wallet">Importare il tuo wallet…</string>
     <string name="account_candidates_title">Si prega di selezionare un account</string>
-    <string name="account_candidates_content">I tasti derivati ​​da questo brainkey sembrano essere usati per controllare più di un account, selezionare quale account si desidera importare</string>
+    <string name="account_candidates_content">I tasti derivati da questo Brainkey sembrano essere usati per controllare più di un account, selezionare quale account si desidera importare</string>
 
     <!-- Import Backup Activity -->
     <string name="import_bin_file">Importa file .bin</string>
@@ -71,7 +71,7 @@
     <string name="pin_number_warning">Il numero del pin deve essere di almeno 6 cifre</string>
     <string name="backup_error_no_key_reference_found">Non è stato trovato alcun account utilizzando questa chiave, assicurati di utilizzare un file di backup aggiornato.</string>
     <string name="backup_error_no_wallet_backup">In questo file non è stato trovato alcun backup del portafoglio</string>
-    <string name="error_invalid_account">Account non valido, si prega di controllare la chiave del cervello per errori di battitura</string>
+    <string name="error_invalid_account">Account non valido, si prega di controllare la Brainkey per errori di battitura</string>
 
     <!-- Setup Process -->
     <string name="txt_import">Importare</string>
@@ -129,7 +129,7 @@
     <string name="share_with">Condividi con</string>
     <string name="connecting">Connessione in corso…</string>
     <string name="error_bridge_title">Errore del bridge</string>
-    <string name="error_bridge_content">Il ponte di conversione valutaria sembra essere in calo. \n \nSi prega di contattare l\'assistenza. \n \n Il codice di errore è: %1$d</string>
+    <string name="error_bridge_content">Il ponte di conversione valutaria ha un problema. \n \nSi prega di contattare l\'assistenza. \n \n Il codice di errore è: %1$d</string>
     <string name="button_accept_tx">Accetta la transazione</string>
     <string name="dialog_accept_tx_title">Accetta la transazione?</string>
     <string name="dialog_accept_tx_summary">La transazione è stata rilevata, ma non ancora completamente confermata.</string>
@@ -140,7 +140,7 @@
     <string name="msg__step_payment_seen_done">Il pagamento è stato incluso in un blocco</string>
     <string name="title__step_payment_received">Pagamento ricevuto</string>
     <string name="template_tx_progress">In attesa di ulteriori conferme di rete. %1$d / %2$s</string>
-    <string name="msg__step_payment_received_done">Abbastanza confermate ricevute</string>
+    <string name="msg__step_payment_received_done">Pagamento in ricezione</string>
     <string name="title__step_payment_confirmed">Pagamento confermato</string>
     <string name="msg__step_payment_confirmed">Uscita della transazione a mercante e ambasciatori avviati</string>
     <string name="msg__step_payment_confirmed_done">Elaborazione del pagamento completata</string>
@@ -155,7 +155,7 @@
     <string name="dialog_msg_confirm_pending_payment">Questo collegherà il pagamento in entrata alla richiesta di pagamento precedentemente registrata di %1$s</string>
     <string name="dialog_msg_incoming_payment_details">Dettagli di pagamento in entrata</string>
     <string name="dialog_generic_title_confirm">Sei sicuro?</string>
-    <string name="dismiss">Respingere</string>
+    <string name="dismiss">Rifiutare</string>
 
     <!-- Payment Confirmed Dialog -->
     <string name="title__payment_confirmed">Pagamento confermato!</string>
@@ -208,18 +208,18 @@
     <string name="msg__set_a_pin">Per sicurezza, impostare un PIN</string>
     <string name="msg__min_pin_length">Il PIN deve essere di almeno 6 cifre</string>
     <string name="title__pins_dont_match">I PIN non corrispondono</string>
-    <string name="title__re_enter_your_pattern">Reinserisci il tuo modello</string>
-    <string name="msg__enter_your_pattern">Inserisci il tuo modello PalmPay per continuare</string>
-    <string name="msg__set_a_pattern">Per sicurezza, imposta un Pattern</string>
+    <string name="title__re_enter_your_pattern">Reinserisci lo schema</string>
+    <string name="msg__enter_your_pattern">Inserisci il tuo schema PalmPay per continuare</string>
+    <string name="msg__set_a_pattern">Per sicurezza, imposta uno schema</string>
     <string name="msg__release_finger">Rilascia il dito quando hai finito</string>
     <string name="button__clear">Chiaro</string>
     <string name="button__next">Il prossimo</string>
-    <string name="text__draw_an_unlock_pattern">Disegna un modello di sblocco</string>
-    <string name="msg__draw_pattern_confirm">Disegna nuovamente il modello per confermare</string>
+    <string name="text__draw_an_unlock_pattern">Disegna uno schema di sblocco</string>
+    <string name="msg__draw_pattern_confirm">Disegna nuovamente lo schema per confermare</string>
     <string name="button__confirm">Confermare</string>
     <string name="msg__your_new_unlock_pattern">Il tuo nuovo schema di sblocco</string>
-    <string name="error__wrong_pattern">Modello sbagliato</string>
-    <string name="text__pattern_recorded">Pattern registrato</string>
+    <string name="error__wrong_pattern">Schema sbagliato</string>
+    <string name="text__pattern_recorded">Schema registrato</string>
     <string name="error__connect_at_least_4_dots">Connetti almeno 4 punti. Riprova.</string>
     <string name="error__security_lock_too_many_attempts_minutes">Troppi tentativi errati. Riprova tra %1$d minuti.</string>
     <string name="error__security_lock_too_many_attempts_seconds">Troppi tentativi errati. Riprova tra %1$d secondi.</string>
@@ -268,7 +268,7 @@
     <string name="txt_spent">speso</string>
     <string name="title__cryptocurrency_preferences">Preferenze di Cryptocurrency</string>
     <string name="msg__cryptocurrency_preferences_description">Scegli fino a 8 popolari criptovalute che accetterete dai vostri clienti. Queste monete verranno visualizzate nella schermata iniziale. Puoi cambiare queste scelte in qualsiasi momento.</string>
-    <string name="altcoins_should_not_more_than">Selezionare non più di 8 risorse di input</string>
+    <string name="altcoins_should_not_more_than">Selezionare non più di 8 criptovalute</string>
     <string name="toast_low_volume_market">Le attività di mercato a volume ridotto sono temporaneamente disabilitate. Saranno abilitati una volta che il volume di mercato aumenterà in misura considerevole</string>
 
     <!-- Settings > eReceipt -->
@@ -295,8 +295,8 @@
     <string name="text__no_transactions">Nessuna transazione</string>
     <string name="text__awaiting_payment">In attesa del pagamento…</string>
     <string name="text__confirming">Confermando…</string>
-    <string name="text__complete">Completare</string>
-    <string name="text__failed">mancato</string>
+    <string name="text__complete">Completo</string>
+    <string name="text__failed">Fallito</string>
     <string name="pdf_generated_msg_s">PDF generato e salvato: %1$s</string>
     <string name="pdf_generated_msg_error_s">Impossibile generare pdf. Per favore riprova. Errore: %1$s</string>
     <string name="csv_generated_msg_s">CSV generato e salvato: %1$s</string>
@@ -305,7 +305,7 @@
     <!-- Transactions Filter Options -->
     <string name="all">Tutti</string>
     <string name="sent">Inviato</string>
-    <string name="received">ricevuto</string>
+    <string name="received">Ricevuto</string>
     <string name="date_range">Intervallo di date</string>
     <string name="txt_to">a</string>
     <string name="cryptocurrency">criptovaluta</string>
